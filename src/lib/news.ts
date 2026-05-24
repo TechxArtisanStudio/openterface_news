@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import type { SiteLocale } from './locale';
+import { localizedPath, type SiteLocale } from './locale';
 import type { ProductSlug } from '../config/products';
 
 export type NewsEntry = CollectionEntry<'news'>;
@@ -7,15 +7,15 @@ export type NewsEntry = CollectionEntry<'news'>;
 export function articlePath(entry: NewsEntry): string {
   const { locale, channel, product, slug, eventType } = entry.data;
   if (channel === 'product' && product) {
-    return `/${locale}/product/${product}/${slug}/`;
+    return localizedPath(locale, 'product', product, slug);
   }
   if (channel === 'software') {
-    return `/${locale}/software/${slug}/`;
+    return localizedPath(locale, 'software', slug);
   }
   if (channel === 'events' && eventType) {
-    return `/${locale}/events/${eventType}/${slug}/`;
+    return localizedPath(locale, 'events', eventType, slug);
   }
-  return `/${locale}/`;
+  return localizedPath(locale);
 }
 
 export async function getNewsArticles(locale: SiteLocale, includeDrafts = false): Promise<NewsEntry[]> {

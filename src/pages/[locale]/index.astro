@@ -1,8 +1,12 @@
 ---
 import FeedLayout from '../../layouts/FeedLayout.astro';
-import { getNewsArticles, filterByProduct, filterByTopic } from '../../lib/news';
-import { isSiteLocale, SUPPORTED_LOCALES } from '../../lib/locale';
-import { t } from '../../i18n/ui';
+import { homeFeedProps } from '../../lib/feed-pages';
+import {
+  INVALID_LOCALE_REDIRECT,
+  isSiteLocale,
+  localizedPath,
+  SUPPORTED_LOCALES,
+} from '../../lib/locale';
 
 export async function getStaticPaths() {
   return SUPPORTED_LOCALES.map((locale) => ({ params: { locale } }));
@@ -10,27 +14,22 @@ export async function getStaticPaths() {
 
 const { locale: localeParam } = Astro.params;
 if (!localeParam || !isSiteLocale(localeParam)) {
-  return Astro.redirect('/en/', 302);
+  return Astro.redirect(INVALID_LOCALE_REDIRECT, 301);
 }
 
-const locale = localeParam;
-const ui = t(locale);
-const activeProduct = Astro.url.searchParams.get('product');
-const activeTopic = Astro.url.searchParams.get('topic');
+if (localeParam === 'en') {
+  return Astro.redirect(localizedPath('en'), 301);
+}
 
-let articles = await getNewsArticles(locale);
-articles = filterByProduct(articles, activeProduct);
-articles = filterByTopic(articles, activeTopic);
-
-const basePath = `/${locale}/`;
+const props = await homeFeedProps(localeParam, Astro.url);
 ---
 
 <FeedLayout
-  locale={locale}
-  title={ui.feed.homeTitle}
-  description={ui.feed.homeDescription}
-  articles={articles}
-  basePath={basePath}
-  activeProduct={activeProduct}
-  activeTopic={activeTopic}
+  locale={props.locale}
+  title={props.title}
+  description={props.description}
+  articles={props.articles}
+  basePath={props.basePath}
+  activeProduct={props.activeProduct}
+  activeTopic={props.activeTopic}
 />

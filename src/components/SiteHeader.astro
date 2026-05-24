@@ -1,6 +1,6 @@
 ---
 import { newsNav } from '../config/site';
-import { LOCALE_LABELS, switchLocalePath, type SiteLocale } from '../lib/locale';
+import { LOCALE_LABELS, localizedPath, localizedRssPath, switchLocalePath, type SiteLocale } from '../lib/locale';
 import { t } from '../i18n/ui';
 import Logo from './Logo.astro';
 
@@ -15,11 +15,11 @@ const ui = t(locale);
 const nav = newsNav(locale);
 const productLinks = nav.find((item) => item.label === ui.nav.products)?.children ?? [];
 const primaryLinks = nav.filter(
-  (item) => item.label !== ui.nav.products && !item.external && item.href !== `/${locale}/`,
+  (item) => item.label !== ui.nav.products && !item.external && item.href !== localizedPath(locale),
 );
 const externalLinks = nav.filter((item) => item.external);
-const homeHref = `/${locale}/`;
-const rssHref = `/${locale}/feed.xml`;
+const homeHref = localizedPath(locale);
+const rssHref = localizedRssPath(locale);
 ---
 
 <header class="site-header sticky top-0 z-50 bg-primary-dark shadow-md">

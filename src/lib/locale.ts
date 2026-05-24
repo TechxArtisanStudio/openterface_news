@@ -28,6 +28,8 @@ export const LOCALE_LABELS: Record<SiteLocale, string> = {
 
 export const DEFAULT_LOCALE: SiteLocale = 'en';
 
+export const INVALID_LOCALE_REDIRECT = '/';
+
 export function isSiteLocale(value: string): value is SiteLocale {
   return (SUPPORTED_LOCALES as readonly string[]).includes(value);
 }
@@ -37,32 +39,44 @@ export function localeFromPath(pathname: string): SiteLocale {
   return segment && isSiteLocale(segment) ? segment : DEFAULT_LOCALE;
 }
 
+/** Build a localized path; English has no locale prefix. */
+export function localizedPath(locale: SiteLocale, ...segments: string[]): string {
+  const parts = (locale === 'en' ? segments : [locale, ...segments]).filter(Boolean);
+  return parts.length === 0 ? '/' : `/${parts.join('/')}/`;
+}
+
+export function localizedRssPath(locale: SiteLocale): string {
+  return locale === 'en' ? '/feed.xml' : `/${locale}/feed.xml`;
+}
+
+export function stripLocalePrefix(pathname: string): { locale: SiteLocale; segments: string[] } {
+  const segments = pathname.split('/').filter(Boolean);
+  if (segments[0] && isSiteLocale(segments[0])) {
+    return { locale: segments[0], segments: segments.slice(1) };
+  }
+  return { locale: DEFAULT_LOCALE, segments };
+}
+
 export function localePath(locale: SiteLocale, path = ''): string {
-  const normalized = path.startsWith('/') ? path : path ? `/${path}` : '';
-  return `/${locale}${normalized}${normalized && !normalized.endsWith('/') ? '/' : normalized === '' ? '/' : ''}`;
+  const normalized = path.startsWith('/') ? path.slice(1) : path;
+  return localizedPath(locale, ...normalized.split('/').filter(Boolean));
 }
 
-/** Build path like /en/product/kvm-go/ */
+/** Build path like /product/kvm-go/ (en) or /zh/product/kvm-go/ */
 export function withLocale(locale: SiteLocale, segments: string): string {
-  const path = segments.startsWith('/') ? segments : `/${segments}`;
-  const withSlash = path.endsWith('/') ? path : `${path}/`;
-  return `/${locale}${withSlash}`;
+  const path = segments.startsWith('/') ? segments.slice(1) : segments;
+  const parts = path.endsWith('/') ? path.slice(0, -1) : path;
+  return localizedPath(locale, ...parts.split('/').filter(Boolean));
 }
 
-/** Swap locale segment while preserving path and query string. */
+/** Swap locale while preserving path segments and query string. */
 export function switchLocalePath(
   pathname: string,
   targetLocale: SiteLocale,
   search = '',
 ): string {
-  const segments = pathname.split('/').filter(Boolean);
-  if (segments.length > 0 && isSiteLocale(segments[0]!)) {
-    segments[0] = targetLocale;
-  } else {
-    segments.unshift(targetLocale);
-  }
-  const trailing = pathname.endsWith('/') || pathname === '' ? '/' : '';
-  const path = `/${segments.join('/')}${trailing}`;
+  const { segments } = stripLocalePrefix(pathname);
+  const path = localizedPath(targetLocale, ...segments);
   if (!search) return path;
   return `${path}${search.startsWith('?') ? search : `?${search}`}`;
 }

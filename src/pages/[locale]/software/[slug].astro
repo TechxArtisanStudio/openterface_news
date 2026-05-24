@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import ArticleLayout from '../../../layouts/ArticleLayout.astro';
 import { getNewsArticles } from '../../../lib/news';
-import { isSiteLocale } from '../../../lib/locale';
+import { INVALID_LOCALE_REDIRECT, isSiteLocale, localizedPath } from '../../../lib/locale';
 
 export async function getStaticPaths() {
   const entries = await getCollection('news', ({ data }) => !data.draft && data.channel === 'software');
@@ -16,9 +16,13 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { locale: localeParam } = Astro.params;
-if (!localeParam || !isSiteLocale(localeParam)) {
-  return Astro.redirect('/en/', 302);
+const { locale: localeParam, slug: slugParam } = Astro.params;
+if (!localeParam || !isSiteLocale(localeParam) || !slugParam) {
+  return Astro.redirect(INVALID_LOCALE_REDIRECT, 301);
+}
+
+if (localeParam === 'en') {
+  return Astro.redirect(localizedPath('en', 'software', slugParam), 301);
 }
 
 const locale = localeParam;

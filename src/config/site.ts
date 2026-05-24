@@ -1,6 +1,6 @@
 import type { ProductSlug } from './products';
 import { t, buyProductLabel as i18nBuyLabel } from '../i18n/ui';
-import type { SiteLocale } from '../lib/locale';
+import { localizedPath, type SiteLocale } from '../lib/locale';
 
 export const siteConfig = {
   name: 'Openterface News',
@@ -55,21 +55,20 @@ export type NavItem = {
 
 export function newsNav(locale: SiteLocale): NavItem[] {
   const ui = t(locale);
-  const prefix = `/${locale}`;
   return [
-    { label: ui.nav.allNews, href: `${prefix}/` },
+    { label: ui.nav.allNews, href: localizedPath(locale) },
     {
       label: ui.nav.products,
-      href: `${prefix}/product/kvm-go/`,
+      href: localizedPath(locale, 'product', 'kvm-go'),
       children: [
-        { label: 'KVM-GO', href: `${prefix}/product/kvm-go/` },
-        { label: 'Mini-KVM', href: `${prefix}/product/minikvm/` },
-        { label: 'KeyMod', href: `${prefix}/product/keymod/` },
-        { label: 'uConsole KVM', href: `${prefix}/product/uconsole-kvm-extension/` },
+        { label: 'KVM-GO', href: localizedPath(locale, 'product', 'kvm-go') },
+        { label: 'Mini-KVM', href: localizedPath(locale, 'product', 'minikvm') },
+        { label: 'KeyMod', href: localizedPath(locale, 'product', 'keymod') },
+        { label: 'uConsole KVM', href: localizedPath(locale, 'product', 'uconsole-kvm-extension') },
       ],
     },
-    { label: ui.nav.software, href: `${prefix}/software/` },
-    { label: ui.nav.events, href: `${prefix}/events/` },
+    { label: ui.nav.software, href: localizedPath(locale, 'software') },
+    { label: ui.nav.events, href: localizedPath(locale, 'events') },
     {
       label: ui.nav.docs,
       href: `${siteConfig.links.docs}/${locale}/`,

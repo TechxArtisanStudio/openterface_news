@@ -10,7 +10,7 @@ export default defineConfig({
     sitemap({
       filter: (page) =>
         !page.includes('/404') &&
-        page !== 'https://news.openterface.com/' &&
+        !page.includes('/en/') &&
         !page.endsWith('/feed.xml'),
     }),
   ],

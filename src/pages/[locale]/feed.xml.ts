@@ -1,5 +1,4 @@
-import rss from '@astrojs/rss';
-import { getNewsArticles, articlePath } from '../../lib/news';
+import { buildNewsRss } from '../../lib/rss';
 import { siteConfig } from '../../config/site';
 import { SUPPORTED_LOCALES, isSiteLocale } from '../../lib/locale';
 import type { APIRoute } from 'astro';
@@ -14,18 +13,9 @@ export const GET: APIRoute = async ({ params }) => {
     return new Response('Not found', { status: 404 });
   }
 
-  const articles = await getNewsArticles(localeParam);
+  if (localeParam === 'en') {
+    return Response.redirect(new URL('/feed.xml', siteConfig.url), 301);
+  }
 
-  return rss({
-    title: `Openterface News (${localeParam})`,
-    description: siteConfig.description,
-    site: siteConfig.url,
-    items: articles.map((entry) => ({
-      title: entry.data.title,
-      description: entry.data.description,
-      pubDate: entry.data.date,
-      link: new URL(articlePath(entry), siteConfig.url).href,
-    })),
-    customData: `<language>${localeParam}</language>`,
-  });
+  return buildNewsRss(localeParam);
 };

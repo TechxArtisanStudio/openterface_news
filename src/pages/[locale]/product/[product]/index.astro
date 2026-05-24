@@ -1,9 +1,13 @@
 ---
 import FeedLayout from '../../../../layouts/FeedLayout.astro';
-import { getProductArticles } from '../../../../lib/news';
-import { isSiteLocale, SUPPORTED_LOCALES } from '../../../../lib/locale';
-import { PRODUCTS, PRODUCT_LABELS, type ProductSlug } from '../../../../config/products';
-import { t } from '../../../../i18n/ui';
+import { productFeedProps } from '../../../../lib/feed-pages';
+import { PRODUCTS, type ProductSlug } from '../../../../config/products';
+import {
+  INVALID_LOCALE_REDIRECT,
+  isSiteLocale,
+  localizedPath,
+  SUPPORTED_LOCALES,
+} from '../../../../lib/locale';
 
 export async function getStaticPaths() {
   return SUPPORTED_LOCALES.flatMap((locale) =>
@@ -15,22 +19,22 @@ export async function getStaticPaths() {
 
 const { locale: localeParam, product: productParam } = Astro.params;
 if (!localeParam || !isSiteLocale(localeParam) || !productParam) {
-  return Astro.redirect('/en/', 302);
+  return Astro.redirect(INVALID_LOCALE_REDIRECT, 301);
 }
 
-const locale = localeParam;
+if (localeParam === 'en') {
+  return Astro.redirect(localizedPath('en', 'product', productParam), 301);
+}
+
 const product = productParam as ProductSlug;
-const ui = t(locale);
-const productLabel = PRODUCT_LABELS[product];
-const articles = await getProductArticles(locale, product);
-const basePath = `/${locale}/product/${product}/`;
+const props = await productFeedProps(localeParam, product);
 ---
 
 <FeedLayout
-  locale={locale}
-  title={ui.feed.productUpdatesTitle(productLabel)}
-  description={ui.feed.productUpdatesDescription(productLabel)}
-  articles={articles}
-  basePath={basePath}
+  locale={props.locale}
+  title={props.title}
+  description={props.description}
+  articles={props.articles}
+  basePath={props.basePath}
   showFilters={false}
 />

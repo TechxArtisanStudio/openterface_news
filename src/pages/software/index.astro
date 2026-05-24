@@ -1,0 +1,15 @@
+---
+import FeedLayout from '../../layouts/FeedLayout.astro';
+import { softwareFeedProps } from '../../lib/feed-pages';
+
+const props = await softwareFeedProps('en');
+---
+
+<FeedLayout
+  locale={props.locale}
+  title={props.title}
+  description={props.description}
+  articles={props.articles}
+  basePath={props.basePath}
+  showFilters={false}
+/>

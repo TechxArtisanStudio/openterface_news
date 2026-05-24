@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import { getNewsArticles } from '../../../lib/news';
+
+export async function getStaticPaths() {
+  const entries = await getCollection(
+    'news',
+    ({ data }) => !data.draft && data.channel === 'events' && !!data.eventType && data.locale === 'en',
+  );
+  return entries.map((entry) => ({
+    params: {
+      eventType: entry.data.eventType!,
+      slug: entry.data.slug,
+    },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const allArticles = await getNewsArticles('en');
+---
+
+<ArticleLayout entry={entry} locale="en" allArticles={allArticles} />

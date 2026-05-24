@@ -6,7 +6,7 @@ import CookieConsent from '../components/CookieConsent.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { siteConfig } from '../config/site';
-import { DEFAULT_LOCALE, isSiteLocale, type SiteLocale } from '../lib/locale';
+import { DEFAULT_LOCALE, localizedRssPath, switchLocalePath, type SiteLocale } from '../lib/locale';
 import { t } from '../i18n/ui';
 
 interface Props {
@@ -37,6 +37,8 @@ const canonical = new URL(canonicalPath, siteConfig.url).href;
 const htmlLang = locale === 'zh' ? 'zh-CN' : locale === 'ja' ? 'ja' : locale === 'ko' ? 'ko' : locale;
 const currentPath = Astro.url.pathname;
 const currentSearch = Astro.url.search;
+const xDefaultPath = switchLocalePath(currentPath, DEFAULT_LOCALE);
+const rssPath = localizedRssPath(locale);
 ---
 
 <!doctype html>
@@ -58,8 +60,8 @@ const currentSearch = Astro.url.search;
         <link rel="alternate" hreflang={alt.locale} href={new URL(alt.path, siteConfig.url).href} />
       ))
     }
-    <link rel="alternate" hreflang="x-default" href={new URL(`/${DEFAULT_LOCALE}/`, siteConfig.url).href} />
-    <link rel="alternate" type="application/rss+xml" title={`${ui.siteName} (${locale})`} href={`/${locale}/feed.xml`} />
+    <link rel="alternate" hreflang="x-default" href={new URL(xDefaultPath, siteConfig.url).href} />
+    <link rel="alternate" type="application/rss+xml" title={`${ui.siteName} (${locale})`} href={rssPath} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:title" content={fullTitle} />
