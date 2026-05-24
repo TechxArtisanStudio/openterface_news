@@ -16,6 +16,7 @@ export const siteConfig = {
     shop: 'https://shop.techxartisan.com/',
     forum: 'https://forum.openterface.com',
     legacy: 'https://openterface.com',
+    subscribe: 'https://subscribe.openterface.com/api/subscribe/',
   },
   analytics: {
     enabled: import.meta.env.PROD,
@@ -58,7 +59,6 @@ export type NavItem = {
 export function newsNav(locale: SiteLocale): NavItem[] {
   const ui = t(locale);
   return [
-    { label: ui.nav.allNews, href: localizedPath(locale) },
     {
       label: ui.nav.products,
       href: localizedPath(locale, 'product', 'kvm-go'),

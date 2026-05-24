@@ -69,6 +69,14 @@ export interface UiStrings {
     terms: string;
     cookie: string;
   };
+  newsletter: {
+    title: string;
+    description: string;
+    submit: string;
+    namePlaceholder: string;
+    emailPlaceholder: string;
+    footnote: string;
+  };
   cookie: {
     title: string;
     description: string;
@@ -151,6 +159,14 @@ const en: UiStrings = {
     privacy: 'Privacy',
     terms: 'Terms',
     cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Newsletter',
+    description: 'Monthly updates on products, firmware, and KVM tips.',
+    submit: 'Subscribe',
+    namePlaceholder: 'Name',
+    emailPlaceholder: 'Email *',
+    footnote: 'Unsubscribe anytime.',
   },
   cookie: {
     title: 'Cookie Consent',
@@ -235,6 +251,14 @@ const zh: UiStrings = {
     terms: '条款',
     cookie: 'Cookie',
   },
+  newsletter: {
+    title: '邮件订阅',
+    description: '每月获取产品、固件与 KVM 技巧更新。',
+    submit: '订阅',
+    namePlaceholder: '姓名',
+    emailPlaceholder: '邮箱 *',
+    footnote: '随时可取消订阅。',
+  },
   cookie: {
     title: 'Cookie 同意',
     description: '我们使用 Cookie 分析网站流量并改进内容。接受即表示您帮助我们了解哪些更新对您最重要。',
@@ -316,6 +340,14 @@ const ja: UiStrings = {
     privacy: 'プライバシー',
     terms: '利用規約',
     cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'ニュースレター',
+    description: '製品、ファームウェア、KVM のヒントに関する月次アップデート。',
+    submit: '登録',
+    namePlaceholder: 'お名前',
+    emailPlaceholder: 'メール *',
+    footnote: 'いつでも配信解除できます。',
   },
   cookie: {
     title: 'Cookie の同意',
@@ -399,6 +431,14 @@ const ko: UiStrings = {
     terms: '약관',
     cookie: 'Cookie',
   },
+  newsletter: {
+    title: '뉴스레터',
+    description: '제품, 펌웨어, KVM 팁에 대한 월간 업데이트.',
+    submit: '구독',
+    namePlaceholder: '이름',
+    emailPlaceholder: '이메일 *',
+    footnote: '언제든지 구독 취소 가능.',
+  },
   cookie: {
     title: 'Cookie 동의',
     description: 'Cookie를 사용하여 사이트 트래픽을 분석하고 콘텐츠를 개선합니다. 동의하시면 어떤 업데이트가 중요한지 파악하는 데 도움이 됩니다.',
@@ -480,6 +520,14 @@ const de: UiStrings = {
     privacy: 'Datenschutz',
     terms: 'AGB',
     cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Newsletter',
+    description: 'Monatliche Updates zu Produkten, Firmware und KVM-Tipps.',
+    submit: 'Abonnieren',
+    namePlaceholder: 'Name',
+    emailPlaceholder: 'E-Mail *',
+    footnote: 'Jederzeit kündbar.',
   },
   cookie: {
     title: 'Cookie-Einwilligung',
@@ -563,6 +611,14 @@ const fr: UiStrings = {
     terms: 'Conditions',
     cookie: 'Cookie',
   },
+  newsletter: {
+    title: 'Newsletter',
+    description: 'Mises à jour mensuelles sur les produits, firmware et astuces KVM.',
+    submit: "S'abonner",
+    namePlaceholder: 'Nom',
+    emailPlaceholder: 'E-mail *',
+    footnote: 'Désabonnement à tout moment.',
+  },
   cookie: {
     title: 'Consentement aux cookies',
     description: 'Nous utilisons des cookies pour analyser le trafic et améliorer notre contenu. En acceptant, vous nous aidez à comprendre quelles mises à jour comptent le plus.',
@@ -644,6 +700,14 @@ const es: UiStrings = {
     privacy: 'Privacidad',
     terms: 'Términos',
     cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Boletín',
+    description: 'Actualizaciones mensuales sobre productos, firmware y consejos KVM.',
+    submit: 'Suscribirse',
+    namePlaceholder: 'Nombre',
+    emailPlaceholder: 'Correo *',
+    footnote: 'Cancela cuando quieras.',
   },
   cookie: {
     title: 'Consentimiento de cookies',
@@ -727,6 +791,14 @@ const it: UiStrings = {
     terms: 'Termini',
     cookie: 'Cookie',
   },
+  newsletter: {
+    title: 'Newsletter',
+    description: 'Aggiornamenti mensili su prodotti, firmware e suggerimenti KVM.',
+    submit: 'Iscriviti',
+    namePlaceholder: 'Nome',
+    emailPlaceholder: 'Email *',
+    footnote: 'Disiscriviti quando vuoi.',
+  },
   cookie: {
     title: 'Consenso cookie',
     description: 'Utilizziamo i cookie per analizzare il traffico e migliorare i contenuti. Accettando, ci aiuti a capire quali aggiornamenti sono più importanti.',
@@ -809,6 +881,14 @@ const pt: UiStrings = {
     terms: 'Termos',
     cookie: 'Cookie',
   },
+  newsletter: {
+    title: 'Newsletter',
+    description: 'Atualizações mensais sobre produtos, firmware e dicas KVM.',
+    submit: 'Inscrever-se',
+    namePlaceholder: 'Nome',
+    emailPlaceholder: 'Email *',
+    footnote: 'Cancele quando quiser.',
+  },
   cookie: {
     title: 'Consentimento de cookies',
     description: 'Usamos cookies para analisar o tráfego e melhorar o conteúdo. Ao aceitar, ajuda-nos a perceber quais atualizações são mais importantes.',
@@ -890,6 +970,14 @@ const ro: UiStrings = {
     privacy: 'Confidențialitate',
     terms: 'Termeni',
     cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Newsletter',
+    description: 'Actualizări lunare despre produse, firmware și sfaturi KVM.',
+    submit: 'Abonează-te',
+    namePlaceholder: 'Nume',
+    emailPlaceholder: 'Email *',
+    footnote: 'Dezabonare oricând.',
   },
   cookie: {
     title: 'Consimțământ cookie',
