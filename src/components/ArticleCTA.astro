@@ -2,8 +2,10 @@
 import { buyProductLabel } from '../config/site';
 import {
   crowdSupplyUrl,
+  docsPath,
   docsProductUrl,
   forumUrl,
+  marketingHomeUrl,
   marketingProductUrl,
   type ProductSlug,
 } from '../config/products';
@@ -18,8 +20,8 @@ interface Props {
 
 const { locale, product, articleSlug } = Astro.props;
 const ui = t(locale);
-const docsHref = product ? docsProductUrl(locale, product) : `https://docs.openterface.com/${locale}/`;
-const marketingHref = product ? marketingProductUrl(locale, product) : `https://en.openterface.com/`;
+const docsHref = product ? docsProductUrl(locale, product) : docsPath(locale);
+const marketingHref = product ? marketingProductUrl(locale, product) : marketingHomeUrl(locale);
 const buyHref = product ? crowdSupplyUrl(product) : marketingHref;
 ---
 

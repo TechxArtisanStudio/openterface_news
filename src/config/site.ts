@@ -1,4 +1,4 @@
-import type { ProductSlug } from './products';
+import { docsPath, type ProductSlug } from './products';
 import { t, buyProductLabel as i18nBuyLabel } from '../i18n/ui';
 import { localizedPath, type SiteLocale } from '../lib/locale';
 
@@ -71,7 +71,7 @@ export function newsNav(locale: SiteLocale): NavItem[] {
     { label: ui.nav.events, href: localizedPath(locale, 'events') },
     {
       label: ui.nav.docs,
-      href: `${siteConfig.links.docs}/${locale}/`,
+      href: docsPath(locale),
       external: true,
     },
   ];

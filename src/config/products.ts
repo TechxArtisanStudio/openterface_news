@@ -60,8 +60,18 @@ export function marketingProductUrl(locale: SiteLocale, product: ProductSlug): s
   return `${MARKETING_HOST_BY_LOCALE[locale]}/products/${product}/`;
 }
 
+export function marketingHomeUrl(locale: SiteLocale): string {
+  return `${MARKETING_HOST_BY_LOCALE[locale]}/`;
+}
+
 export function docsBaseUrl(): string {
   return 'https://docs.openterface.com';
+}
+
+export function docsPath(locale: SiteLocale, subpath = ''): string {
+  const normalized = subpath.startsWith('/') ? subpath : subpath ? `/${subpath}` : '';
+  const suffix = normalized && !normalized.endsWith('/') ? `${normalized}/` : normalized || '/';
+  return `${docsBaseUrl()}/${locale}${suffix === '/' ? '/' : suffix}`;
 }
 
 export function docsProductUrl(locale: SiteLocale, product: ProductSlug): string {
