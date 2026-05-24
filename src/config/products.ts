@@ -1,4 +1,5 @@
 import type { SiteLocale } from './locale';
+import { surfaceDocsBase, surfaceMarketingHosts } from './surface-urls';
 
 export const PRODUCTS = [
   'keymod',
@@ -43,18 +44,7 @@ export const TOPIC_LABELS: Record<TopicSlug, string> = {
 };
 
 /** Marketing subdomain hosts (locale code ≠ subdomain for ja/ko/zh). */
-const MARKETING_HOST_BY_LOCALE: Record<SiteLocale, string> = {
-  en: 'https://en.openterface.com',
-  de: 'https://de.openterface.com',
-  es: 'https://es.openterface.com',
-  fr: 'https://fr.openterface.com',
-  it: 'https://it.openterface.com',
-  ja: 'https://jp.openterface.com',
-  ko: 'https://kr.openterface.com',
-  pt: 'https://pt.openterface.com',
-  ro: 'https://ro.openterface.com',
-  zh: 'https://cn.openterface.com',
-};
+const MARKETING_HOST_BY_LOCALE: Record<SiteLocale, string> = surfaceMarketingHosts();
 
 export function marketingProductUrl(locale: SiteLocale, product: ProductSlug): string {
   return `${MARKETING_HOST_BY_LOCALE[locale]}/products/${product}/`;
@@ -65,7 +55,7 @@ export function marketingHomeUrl(locale: SiteLocale): string {
 }
 
 export function docsBaseUrl(): string {
-  return 'https://docs.openterface.com';
+  return surfaceDocsBase();
 }
 
 export function docsPath(locale: SiteLocale, subpath = ''): string {

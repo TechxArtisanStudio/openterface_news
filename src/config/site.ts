@@ -1,4 +1,5 @@
 import { docsPath, type ProductSlug } from './products';
+import { surfaceDocsBase, surfaceMarketingHost } from './surface-urls';
 import { t, buyProductLabel as i18nBuyLabel } from '../i18n/ui';
 import { localizedPath, type SiteLocale } from '../lib/locale';
 
@@ -10,8 +11,8 @@ export const siteConfig = {
   ogImage: 'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
   accent: '#ff6e42',
   links: {
-    marketingEn: 'https://en.openterface.com',
-    docs: 'https://docs.openterface.com',
+    marketingEn: surfaceMarketingHost('en'),
+    docs: surfaceDocsBase(),
     forum: 'https://forum.openterface.com',
     legacy: 'https://openterface.com',
   },
