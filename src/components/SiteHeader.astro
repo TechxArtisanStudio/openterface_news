@@ -3,6 +3,8 @@ import { newsNav } from '../config/site';
 import { LOCALE_LABELS, localizedPath, localizedRssPath, switchLocalePath, type SiteLocale } from '../lib/locale';
 import { t } from '../i18n/ui';
 import Logo from './Logo.astro';
+import NavDropdown from './NavDropdown.astro';
+import RssIconButton from './RssIconButton.astro';
 
 interface Props {
   locale: SiteLocale;
@@ -13,9 +15,10 @@ interface Props {
 const { locale, currentPath, currentSearch = '' } = Astro.props;
 const ui = t(locale);
 const nav = newsNav(locale);
-const productLinks = nav.find((item) => item.label === ui.nav.products)?.children ?? [];
+const productItem = nav.find((item) => item.children);
+const productLinks = productItem?.children ?? [];
 const primaryLinks = nav.filter(
-  (item) => item.label !== ui.nav.products && !item.external && item.href !== localizedPath(locale),
+  (item) => !item.children && !item.external && item.href !== localizedPath(locale),
 );
 const externalLinks = nav.filter((item) => item.external);
 const homeHref = localizedPath(locale);
@@ -23,41 +26,21 @@ const rssHref = localizedRssPath(locale);
 ---
 
 <header class="site-header sticky top-0 z-50 bg-primary-dark shadow-md">
-  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:gap-4">
-    <a href={homeHref} class="flex shrink-0 items-center gap-2">
+  <div class="site-header__inner">
+    <a href={homeHref} class="site-header__brand">
       <Logo variant="onPrimary" />
       <span class="hidden text-sm font-medium text-white/90 sm:inline">{ui.nav.newsBadge}</span>
     </a>
 
-    <nav class="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+    <nav class="site-header__nav" aria-label="Main navigation">
       {
         nav.map((item) =>
           item.children ? (
-            <div class="group relative">
-              <button
-                type="button"
-                class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/15"
-                aria-haspopup="true"
-              >
-                {item.label} ▾
-              </button>
-              <div class="invisible absolute left-0 top-full z-50 min-w-[220px] rounded-lg border border-gray-200 bg-white py-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
-                {
-                  item.children.map((child) => (
-                    <a
-                      href={child.href}
-                      class="block px-4 py-2 text-sm text-ink hover:bg-brand-light hover:text-primary-dark"
-                    >
-                      {child.label}
-                    </a>
-                  ))
-                }
-              </div>
-            </div>
+            <NavDropdown label={item.label} children={item.children} />
           ) : (
             <a
               href={item.href}
-              class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/15"
+              class="site-header__nav-link"
               target={item.external ? '_blank' : undefined}
               rel={item.external ? 'noopener noreferrer' : undefined}
             >
@@ -66,23 +49,17 @@ const rssHref = localizedRssPath(locale);
           ),
         )
       }
-      <a
-        href={rssHref}
-        class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/15"
-        title="RSS feed"
-        data-analytics-event="rss_click"
-      >
-        {ui.nav.rss}
-      </a>
     </nav>
 
-    <div class="flex items-center gap-2">
+    <div class="site-header__toolbar">
+      <RssIconButton href={rssHref} label={ui.nav.rss} />
+
       <details class="locale-switcher relative hidden sm:block">
         <summary
-          class="flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-md border border-white/40 text-white hover:bg-white/10"
+          class="site-header__icon-btn"
           aria-label={`Language: ${LOCALE_LABELS[locale]}`}
         >
-          <svg class="h-5 w-5 bi bi-translate" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
             <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
             <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
           </svg>
@@ -107,9 +84,9 @@ const rssHref = localizedRssPath(locale);
         </ul>
       </details>
 
-      <details class="mobile-nav relative lg:hidden">
+      <details class="mobile-nav relative xl:hidden">
         <summary
-          class="mobile-nav-toggle flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-md border border-white/40 text-white hover:bg-white/10"
+          class="site-header__icon-btn mobile-nav-toggle"
           aria-label="Open menu"
         >
           <svg class="mobile-nav-icon-open h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -120,23 +97,27 @@ const rssHref = localizedRssPath(locale);
           </svg>
         </summary>
 
-        <div class="mobile-nav-backdrop fixed inset-0 top-14 z-40 bg-black/45"></div>
+        <div class="mobile-nav-backdrop fixed inset-0 top-[var(--site-header-height)] z-40 bg-black/45"></div>
 
         <nav
-          class="mobile-nav-panel fixed inset-x-0 top-14 z-50 border-b border-gray-200 bg-white shadow-lg"
+          class="mobile-nav-panel fixed inset-x-0 top-[var(--site-header-height)] z-50 border-b border-gray-200 bg-white shadow-lg"
           aria-label="Mobile navigation"
         >
-          <div class="mx-auto max-h-[min(75vh,36rem)] max-w-6xl overflow-y-auto overscroll-contain px-3 py-2 sm:px-4 sm:py-3">
+          <div class="mx-auto max-h-[min(75vh,36rem)] max-w-7xl overflow-y-auto overscroll-contain px-3 py-2 sm:px-4 sm:py-3">
             <a href={homeHref} class="mobile-nav-link mobile-nav-link--home">{ui.nav.allNews}</a>
 
-            <div class="mobile-nav-section">
-              <p class="mobile-nav-section-label">{ui.mobile.products}</p>
-              <div class="mobile-nav-section-links">
-                {productLinks.map((child) => (
-                  <a href={child.href} class="mobile-nav-link">{child.label}</a>
-                ))}
-              </div>
-            </div>
+            {
+              productItem && (
+                <div class="mobile-nav-section">
+                  <p class="mobile-nav-section-label">{ui.mobile.products}</p>
+                  <div class="mobile-nav-section-links">
+                    {productLinks.map((child) => (
+                      <a href={child.href} class="mobile-nav-link">{child.label}</a>
+                    ))}
+                  </div>
+                </div>
+              )
+            }
 
             <div class="mobile-nav-section">
               <p class="mobile-nav-section-label">{ui.mobile.channels}</p>
@@ -210,7 +191,44 @@ const rssHref = localizedRssPath(locale);
   })();
 </script>
 
+<script>
+  function initNavDropdowns() {
+    document.querySelectorAll('.nav-dropdown').forEach((dropdown) => {
+      if (dropdown.dataset.initialized) return;
+      dropdown.dataset.initialized = 'true';
+
+      dropdown.addEventListener('toggle', () => {
+        if (!(dropdown instanceof HTMLDetailsElement) || !dropdown.open) return;
+        document.querySelectorAll('.nav-dropdown[open]').forEach((other) => {
+          if (other !== dropdown && other instanceof HTMLDetailsElement) other.open = false;
+        });
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      const target = event.target;
+      if (!(target instanceof Node)) return;
+      document.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => {
+        if (dropdown instanceof HTMLDetailsElement && !dropdown.contains(target)) {
+          dropdown.open = false;
+        }
+      });
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      document.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => {
+        if (dropdown instanceof HTMLDetailsElement) dropdown.open = false;
+      });
+    });
+  }
+
+  initNavDropdowns();
+  document.addEventListener('astro:page-load', initNavDropdowns);
+</script>
+
 <style>
+  .locale-switcher summary::-webkit-details-marker,
   .mobile-nav summary::-webkit-details-marker {
     display: none;
   }
@@ -234,10 +252,6 @@ const rssHref = localizedRssPath(locale);
 
   .mobile-nav[open] .mobile-nav-icon-close {
     display: block;
-  }
-
-  .locale-switcher summary::-webkit-details-marker {
-    display: none;
   }
 
   .mobile-nav-link {

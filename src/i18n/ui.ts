@@ -10,6 +10,8 @@ export interface UiStrings {
     software: string;
     events: string;
     docs: string;
+    home: string;
+    shop: string;
     rss: string;
     newsBadge: string;
   };
@@ -85,6 +87,8 @@ const en: UiStrings = {
     software: 'Software',
     events: 'Events',
     docs: 'Docs',
+    home: 'Home',
+    shop: 'Shop',
     rss: 'RSS',
     newsBadge: 'News',
   },
@@ -166,6 +170,8 @@ const zh: UiStrings = {
     software: '软件',
     events: '活动',
     docs: '文档',
+    home: '首页',
+    shop: '商店',
     rss: 'RSS',
     newsBadge: '资讯',
   },
@@ -246,6 +252,8 @@ const ja: UiStrings = {
     software: 'ソフトウェア',
     events: 'イベント',
     docs: 'ドキュメント',
+    home: 'ホーム',
+    shop: 'ショップ',
     rss: 'RSS',
     newsBadge: 'ニュース',
   },
@@ -326,6 +334,8 @@ const ko: UiStrings = {
     software: '소프트웨어',
     events: '이벤트',
     docs: '문서',
+    home: '홈',
+    shop: '쇼핑',
     rss: 'RSS',
     newsBadge: '뉴스',
   },
@@ -406,6 +416,8 @@ const de: UiStrings = {
     software: 'Software',
     events: 'Events',
     docs: 'Docs',
+    home: 'Home',
+    shop: 'Shop',
     rss: 'RSS',
     newsBadge: 'News',
   },
@@ -486,6 +498,8 @@ const fr: UiStrings = {
     software: 'Logiciel',
     events: 'Événements',
     docs: 'Docs',
+    home: 'Accueil',
+    shop: 'Boutique',
     rss: 'RSS',
     newsBadge: 'Actus',
   },
@@ -566,6 +580,8 @@ const es: UiStrings = {
     software: 'Software',
     events: 'Eventos',
     docs: 'Docs',
+    home: 'Inicio',
+    shop: 'Tienda',
     rss: 'RSS',
     newsBadge: 'Noticias',
   },
@@ -646,6 +662,8 @@ const it: UiStrings = {
     software: 'Software',
     events: 'Eventi',
     docs: 'Docs',
+    home: 'Home',
+    shop: 'Negozio',
     rss: 'RSS',
     newsBadge: 'Notizie',
   },
@@ -726,6 +744,8 @@ const pt: UiStrings = {
     software: 'Software',
     events: 'Eventos',
     docs: 'Docs',
+    home: 'Início',
+    shop: 'Loja',
     rss: 'RSS',
     newsBadge: 'Notícias',
   },
@@ -806,6 +826,8 @@ const ro: UiStrings = {
     software: 'Software',
     events: 'Evenimente',
     docs: 'Docs',
+    home: 'Acasă',
+    shop: 'Magazin',
     rss: 'RSS',
     newsBadge: 'Știri',
   },

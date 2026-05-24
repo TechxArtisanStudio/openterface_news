@@ -13,6 +13,7 @@ export const siteConfig = {
   links: {
     marketingEn: surfaceMarketingHost('en'),
     docs: surfaceDocsBase(),
+    shop: 'https://shop.techxartisan.com/',
     forum: 'https://forum.openterface.com',
     legacy: 'https://openterface.com',
   },
@@ -70,11 +71,9 @@ export function newsNav(locale: SiteLocale): NavItem[] {
     },
     { label: ui.nav.software, href: localizedPath(locale, 'software') },
     { label: ui.nav.events, href: localizedPath(locale, 'events') },
-    {
-      label: ui.nav.docs,
-      href: docsPath(locale),
-      external: true,
-    },
+    { label: ui.nav.home, href: surfaceMarketingHost(locale), external: true },
+    { label: ui.nav.docs, href: docsPath(locale), external: true },
+    { label: ui.nav.shop, href: siteConfig.links.shop, external: true },
   ];
 }
 
