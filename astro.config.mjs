@@ -8,7 +8,10 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/404'),
+      filter: (page) =>
+        !page.includes('/404') &&
+        page !== 'https://news.openterface.com/' &&
+        !page.endsWith('/feed.xml'),
     }),
   ],
   vite: {
