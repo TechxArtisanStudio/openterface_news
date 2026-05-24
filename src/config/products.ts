@@ -71,10 +71,17 @@ export function docsBaseUrl(): string {
 export function docsPath(locale: SiteLocale, subpath = ''): string {
   const normalized = subpath.startsWith('/') ? subpath : subpath ? `/${subpath}` : '';
   const suffix = normalized && !normalized.endsWith('/') ? `${normalized}/` : normalized || '/';
-  return `${docsBaseUrl()}/${locale}${suffix === '/' ? '/' : suffix}`;
+  const base = docsBaseUrl();
+  if (locale === 'en') {
+    return suffix === '/' ? `${base}/` : `${base}${suffix}`;
+  }
+  return `${base}/${locale}${suffix === '/' ? '/' : suffix}`;
 }
 
 export function docsProductUrl(locale: SiteLocale, product: ProductSlug): string {
+  if (locale === 'en') {
+    return `${docsBaseUrl()}/product/${product}/`;
+  }
   return `${docsBaseUrl()}/${locale}/product/${product}/`;
 }
 
