@@ -1,0 +1,82 @@
+---
+import { siteConfig } from '../config/site';
+import { newsNav } from '../config/site';
+import { t } from '../i18n/ui';
+import Logo from './Logo.astro';
+import type { SiteLocale } from '../lib/locale';
+
+interface Props {
+  locale: SiteLocale;
+}
+
+const { locale } = Astro.props;
+const ui = t(locale);
+const nav = newsNav(locale);
+---
+
+<footer class="border-t border-gray-200 bg-surface">
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+      <div>
+        <Logo variant="default" class="h-7" />
+        <p class="mt-3 text-sm text-muted">{ui.footer.tagline}</p>
+      </div>
+      <div>
+        <h3 class="text-sm font-semibold text-ink">{ui.footer.channels}</h3>
+        <ul class="mt-3 space-y-2 text-sm">
+          {
+            nav.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  class="text-muted hover:text-primary-dark"
+                  target={item.external ? '_blank' : undefined}
+                  rel={item.external ? 'noopener noreferrer' : undefined}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-sm font-semibold text-ink">{ui.footer.sites}</h3>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li>
+            <a href={siteConfig.links.marketingEn} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
+              {ui.footer.marketing}
+            </a>
+          </li>
+          <li>
+            <a href={`${siteConfig.links.docs}/${locale}/`} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
+              {ui.footer.docs}
+            </a>
+          </li>
+          <li>
+            <a href={siteConfig.links.forum} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
+              {ui.footer.forum}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 border-t border-gray-200 pt-6 text-center text-xs text-muted">
+      <p>© {new Date().getFullYear()} {ui.footer.copyright}</p>
+      <p class="mt-1">
+        <a href={`${siteConfig.links.legacy}/policy/privacy/`} class="hover:text-primary-dark" target="_blank" rel="noopener">{ui.footer.privacy}</a>
+        ·
+        <a href={`${siteConfig.links.legacy}/policy/terms-of-service/`} class="hover:text-primary-dark" target="_blank" rel="noopener">{ui.footer.terms}</a>
+        {
+          siteConfig.analytics.enabled && (
+            <>
+              ·
+              <a href="#" id="cookie-settings" class="hover:text-primary-dark">{ui.footer.cookie}</a>
+            </>
+          )
+        }
+      </p>
+    </div>
+  </div>
+</footer>

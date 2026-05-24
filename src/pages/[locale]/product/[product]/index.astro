@@ -1,0 +1,36 @@
+---
+import FeedLayout from '../../../../layouts/FeedLayout.astro';
+import { getProductArticles } from '../../../../lib/news';
+import { isSiteLocale, SUPPORTED_LOCALES } from '../../../../lib/locale';
+import { PRODUCTS, PRODUCT_LABELS, type ProductSlug } from '../../../../config/products';
+import { t } from '../../../../i18n/ui';
+
+export async function getStaticPaths() {
+  return SUPPORTED_LOCALES.flatMap((locale) =>
+    PRODUCTS.filter((p) => p !== 'accessories').map((product) => ({
+      params: { locale, product },
+    })),
+  );
+}
+
+const { locale: localeParam, product: productParam } = Astro.params;
+if (!localeParam || !isSiteLocale(localeParam) || !productParam) {
+  return Astro.redirect('/en/', 302);
+}
+
+const locale = localeParam;
+const product = productParam as ProductSlug;
+const ui = t(locale);
+const productLabel = PRODUCT_LABELS[product];
+const articles = await getProductArticles(locale, product);
+const basePath = `/${locale}/product/${product}/`;
+---
+
+<FeedLayout
+  locale={locale}
+  title={ui.feed.productUpdatesTitle(productLabel)}
+  description={ui.feed.productUpdatesDescription(productLabel)}
+  articles={articles}
+  basePath={basePath}
+  showFilters={false}
+/>

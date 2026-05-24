@@ -1,0 +1,96 @@
+---
+import { render } from 'astro:content';
+import ArticleSlideshowInit from '../components/ArticleSlideshowInit.astro';
+import BaseLayout from './BaseLayout.astro';
+import ArticleMeta from '../components/ArticleMeta.astro';
+import ArticleCTA from '../components/ArticleCTA.astro';
+import { articlePath, formatArticleDate, getAdjacentArticles, getTranslationAlternates } from '../lib/news';
+import { siteConfig } from '../config/site';
+import type { SiteLocale } from '../lib/locale';
+import type { NewsEntry } from '../lib/news';
+import { t } from '../i18n/ui';
+import type { ProductSlug } from '../config/products';
+
+interface Props {
+  entry: NewsEntry;
+  locale: SiteLocale;
+  allArticles: NewsEntry[];
+}
+
+const { entry, locale, allArticles } = Astro.props;
+const { title, description, date, author, product, category, tags, social } = entry.data;
+const { Content } = await render(entry);
+const canonicalPath = articlePath(entry);
+const ogImage = social?.image ?? siteConfig.ogImage;
+const alternates = await getTranslationAlternates(entry.data.translationKey);
+const { prev, next } = getAdjacentArticles(allArticles, entry);
+const ui = t(locale);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: title,
+  description,
+  datePublished: date.toISOString(),
+  author: { '@type': 'Organization', name: author ?? 'Openterface Team' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Openterface',
+    logo: { '@type': 'ImageObject', url: `${siteConfig.url}/images/openterface.svg` },
+  },
+  mainEntityOfPage: new URL(canonicalPath, siteConfig.url).href,
+  image: ogImage,
+};
+---
+
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  ogImage={ogImage}
+  canonicalPath={canonicalPath}
+  hreflangAlternates={alternates}
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-3xl px-4 py-8 md:py-12">
+    <ArticleMeta
+      locale={locale}
+      title={title}
+      date={date}
+      author={author}
+      product={product as ProductSlug | null}
+      category={category}
+      tags={tags}
+    />
+
+    <div class="prose-news mt-8">
+      <Content />
+    </div>
+
+    <ArticleCTA locale={locale} product={product as ProductSlug | null} articleSlug={entry.data.slug} />
+
+    <nav class="mt-10 flex flex-col gap-4 border-t border-gray-200 pt-8 sm:flex-row sm:justify-between" aria-label="Article navigation">
+      {
+        prev ? (
+          <a href={articlePath(prev)} class="group max-w-xs text-sm">
+            <span class="text-muted">{ui.article.previous}</span>
+            <span class="mt-1 block font-semibold text-ink group-hover:text-primary-dark">{prev.data.title}</span>
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        next ? (
+          <a href={articlePath(next)} class="group max-w-xs text-right text-sm sm:ml-auto">
+            <span class="text-muted">{ui.article.next}</span>
+            <span class="mt-1 block font-semibold text-ink group-hover:text-primary-dark">{next.data.title}</span>
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </article>
+  <ArticleSlideshowInit />
+</BaseLayout>

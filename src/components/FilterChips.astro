@@ -1,0 +1,60 @@
+---
+import { PRODUCTS, PRODUCT_LABELS } from '../config/products';
+import { TOPICS } from '../config/products';
+import { t } from '../i18n/ui';
+import type { SiteLocale } from '../lib/locale';
+
+interface Props {
+  locale: SiteLocale;
+  basePath: string;
+  activeProduct?: string | null;
+  activeTopic?: string | null;
+}
+
+const { locale, basePath, activeProduct = null, activeTopic = null } = Astro.props;
+const ui = t(locale);
+
+function chipHref(params: { product?: string | null; topic?: string | null }) {
+  const search = new URLSearchParams();
+  const product = params.product ?? activeProduct;
+  const topic = params.topic ?? activeTopic;
+  if (product) search.set('product', product);
+  if (topic) search.set('topic', topic);
+  const qs = search.toString();
+  return qs ? `${basePath}?${qs}` : basePath;
+}
+---
+
+<div class="filter-bar">
+  <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+    <a
+      href={chipHref({ product: null, topic: null })}
+      class:list={['filter-chip', !activeProduct && !activeTopic && 'filter-chip-active']}
+    >
+      {ui.filter.all}
+    </a>
+    {
+      PRODUCTS.filter((p) => p !== 'accessories').map((product) => (
+        <a
+          href={chipHref({ product, topic: activeTopic })}
+          class:list={['filter-chip', activeProduct === product && 'filter-chip-active']}
+        >
+          {PRODUCT_LABELS[product]}
+        </a>
+      ))
+    }
+  </div>
+
+  <div class="mt-2 flex gap-2 overflow-x-auto pb-1">
+    {
+      TOPICS.map((topic) => (
+        <a
+          href={chipHref({ product: activeProduct, topic })}
+          class:list={['filter-chip text-xs', activeTopic === topic && 'filter-chip-active']}
+        >
+          {ui.filter.topics[topic]}
+        </a>
+      ))
+    }
+  </div>
+</div>

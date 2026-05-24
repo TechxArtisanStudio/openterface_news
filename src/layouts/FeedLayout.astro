@@ -1,0 +1,73 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import FilterChips from '../components/FilterChips.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getLocaleAlternatesForPath, type SiteLocale } from '../lib/locale';
+import { t } from '../i18n/ui';
+import type { NewsEntry } from '../lib/news';
+
+interface Props {
+  locale: SiteLocale;
+  title: string;
+  description: string;
+  articles: NewsEntry[];
+  basePath: string;
+  activeProduct?: string | null;
+  activeTopic?: string | null;
+  showFilters?: boolean;
+}
+
+const {
+  locale,
+  title,
+  description,
+  articles,
+  basePath,
+  activeProduct = null,
+  activeTopic = null,
+  showFilters = true,
+} = Astro.props;
+
+const ui = t(locale);
+const hreflangAlternates = getLocaleAlternatesForPath(basePath);
+---
+
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonicalPath={basePath}
+  hreflangAlternates={hreflangAlternates}
+>
+  <div class="mx-auto max-w-6xl px-4 py-8 md:py-12">
+    <header class="mb-8">
+      <h1 class="section-title">{title}</h1>
+      <p class="section-subtitle">{description}</p>
+    </header>
+
+    {showFilters && (
+      <div class="mb-8">
+        <FilterChips
+          locale={locale}
+          basePath={basePath}
+          activeProduct={activeProduct}
+          activeTopic={activeTopic}
+        />
+      </div>
+    )}
+
+    {
+      articles.length === 0 ? (
+        <p class="rounded-xl border border-dashed border-gray-300 bg-surface px-6 py-12 text-center text-muted">
+          {ui.feed.emptyState}
+        </p>
+      ) : (
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {articles.map((entry) => (
+            <ArticleCard entry={entry} locale={locale} />
+          ))}
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>

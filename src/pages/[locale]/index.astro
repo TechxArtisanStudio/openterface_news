@@ -1,0 +1,36 @@
+---
+import FeedLayout from '../../layouts/FeedLayout.astro';
+import { getNewsArticles, filterByProduct, filterByTopic } from '../../lib/news';
+import { isSiteLocale, SUPPORTED_LOCALES } from '../../lib/locale';
+import { t } from '../../i18n/ui';
+
+export async function getStaticPaths() {
+  return SUPPORTED_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale: localeParam } = Astro.params;
+if (!localeParam || !isSiteLocale(localeParam)) {
+  return Astro.redirect('/en/', 302);
+}
+
+const locale = localeParam;
+const ui = t(locale);
+const activeProduct = Astro.url.searchParams.get('product');
+const activeTopic = Astro.url.searchParams.get('topic');
+
+let articles = await getNewsArticles(locale);
+articles = filterByProduct(articles, activeProduct);
+articles = filterByTopic(articles, activeTopic);
+
+const basePath = `/${locale}/`;
+---
+
+<FeedLayout
+  locale={locale}
+  title={ui.feed.homeTitle}
+  description={ui.feed.homeDescription}
+  articles={articles}
+  basePath={basePath}
+  activeProduct={activeProduct}
+  activeTopic={activeTopic}
+/>

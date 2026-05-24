@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../../../layouts/ArticleLayout.astro';
+import { getNewsArticles } from '../../../../lib/news';
+import { isSiteLocale } from '../../../../lib/locale';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('news', ({ data }) => !data.draft && data.channel === 'events' && !!data.eventType);
+  return entries.map((entry) => ({
+    params: {
+      locale: entry.data.locale,
+      eventType: entry.data.eventType!,
+      slug: entry.data.slug,
+    },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { locale: localeParam } = Astro.params;
+if (!localeParam || !isSiteLocale(localeParam)) {
+  return Astro.redirect('/en/', 302);
+}
+
+const locale = localeParam;
+const allArticles = await getNewsArticles(locale);
+---
+
+<ArticleLayout entry={entry} locale={locale} allArticles={allArticles} />

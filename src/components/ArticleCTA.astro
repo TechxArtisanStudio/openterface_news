@@ -1,0 +1,68 @@
+---
+import { buyProductLabel } from '../config/site';
+import {
+  crowdSupplyUrl,
+  docsProductUrl,
+  forumUrl,
+  marketingProductUrl,
+  type ProductSlug,
+} from '../config/products';
+import { t } from '../i18n/ui';
+import type { SiteLocale } from '../lib/locale';
+
+interface Props {
+  locale: SiteLocale;
+  product?: ProductSlug | null;
+  articleSlug: string;
+}
+
+const { locale, product, articleSlug } = Astro.props;
+const ui = t(locale);
+const docsHref = product ? docsProductUrl(locale, product) : `https://docs.openterface.com/${locale}/`;
+const marketingHref = product ? marketingProductUrl(locale, product) : `https://en.openterface.com/`;
+const buyHref = product ? crowdSupplyUrl(product) : marketingHref;
+---
+
+<aside class="mt-10 rounded-xl border border-gray-200 bg-surface p-5 md:p-6">
+  <h2 class="text-sm font-semibold uppercase tracking-wide text-muted">{ui.article.nextSteps}</h2>
+  <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+    <a
+      href={forumUrl()}
+      class="btn btn-secondary flex-1 sm:flex-none"
+      target="_blank"
+      rel="noopener noreferrer"
+      data-analytics-event="discuss_forum_click"
+      data-analytics-article={articleSlug}
+      data-analytics-product={product ?? undefined}
+    >
+      {ui.article.discussForum}
+    </a>
+    {
+      product && (
+        <a
+          href={buyHref}
+          class="btn btn-primary flex-1 sm:flex-none"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-analytics-event="crowdsupply_click"
+          data-analytics-product={product}
+          data-analytics-article={articleSlug}
+          data-analytics-placement="article_cta"
+        >
+          {buyProductLabel(locale, product)} ↗
+        </a>
+      )
+    }
+    <a
+      href={docsHref}
+      class="btn btn-secondary flex-1 sm:flex-none"
+      target="_blank"
+      rel="noopener noreferrer"
+      data-analytics-event="docs_click"
+      data-analytics-product={product ?? undefined}
+      data-analytics-article={articleSlug}
+    >
+      {ui.article.viewDocs}
+    </a>
+  </div>
+</aside>

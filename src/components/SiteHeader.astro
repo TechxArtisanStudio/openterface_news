@@ -1,0 +1,263 @@
+---
+import { newsNav } from '../config/site';
+import { LOCALE_LABELS, switchLocalePath, type SiteLocale } from '../lib/locale';
+import { t } from '../i18n/ui';
+import Logo from './Logo.astro';
+
+interface Props {
+  locale: SiteLocale;
+  currentPath: string;
+  currentSearch?: string;
+}
+
+const { locale, currentPath, currentSearch = '' } = Astro.props;
+const ui = t(locale);
+const nav = newsNav(locale);
+const productLinks = nav.find((item) => item.label === ui.nav.products)?.children ?? [];
+const primaryLinks = nav.filter(
+  (item) => item.label !== ui.nav.products && !item.external && item.href !== `/${locale}/`,
+);
+const externalLinks = nav.filter((item) => item.external);
+const homeHref = `/${locale}/`;
+const rssHref = `/${locale}/feed.xml`;
+---
+
+<header class="site-header sticky top-0 z-50 bg-primary-dark shadow-md">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:gap-4">
+    <a href={homeHref} class="flex shrink-0 items-center gap-2">
+      <Logo variant="onPrimary" />
+      <span class="hidden text-sm font-medium text-white/90 sm:inline">{ui.nav.newsBadge}</span>
+    </a>
+
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+      {
+        nav.map((item) =>
+          item.children ? (
+            <div class="group relative">
+              <button
+                type="button"
+                class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/15"
+                aria-haspopup="true"
+              >
+                {item.label} ▾
+              </button>
+              <div class="invisible absolute left-0 top-full z-50 min-w-[220px] rounded-lg border border-gray-200 bg-white py-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
+                {
+                  item.children.map((child) => (
+                    <a
+                      href={child.href}
+                      class="block px-4 py-2 text-sm text-ink hover:bg-brand-light hover:text-primary-dark"
+                    >
+                      {child.label}
+                    </a>
+                  ))
+                }
+              </div>
+            </div>
+          ) : (
+            <a
+              href={item.href}
+              class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/15"
+              target={item.external ? '_blank' : undefined}
+              rel={item.external ? 'noopener noreferrer' : undefined}
+            >
+              {item.label}{item.external ? ' ↗' : ''}
+            </a>
+          ),
+        )
+      }
+      <a
+        href={rssHref}
+        class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/15"
+        title="RSS feed"
+        data-analytics-event="rss_click"
+      >
+        {ui.nav.rss}
+      </a>
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <details class="locale-switcher relative hidden sm:block">
+        <summary class="cursor-pointer list-none rounded-md border border-white/40 px-2.5 py-1.5 text-xs font-medium text-white hover:bg-white/10">
+          {LOCALE_LABELS[locale]}
+        </summary>
+        <ul class="absolute right-0 top-full z-50 mt-1 min-w-[140px] rounded-lg border border-gray-200 bg-white py-1 shadow-lg">
+          {
+            Object.entries(LOCALE_LABELS).map(([loc, label]) => (
+              <li>
+                <a
+                  href={switchLocalePath(currentPath, loc as SiteLocale, currentSearch)}
+                  data-locale-switch
+                  class:list={[
+                    'block px-3 py-2 text-sm hover:bg-brand-light hover:text-primary-dark',
+                    loc === locale ? 'font-semibold text-primary-dark' : 'text-ink',
+                  ]}
+                >
+                  {label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </details>
+
+      <details class="mobile-nav relative lg:hidden">
+        <summary
+          class="mobile-nav-toggle flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-md border border-white/40 text-white hover:bg-white/10"
+          aria-label="Open menu"
+        >
+          <svg class="mobile-nav-icon-open h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+          <svg class="mobile-nav-icon-close hidden h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"></path>
+          </svg>
+        </summary>
+
+        <div class="mobile-nav-backdrop fixed inset-0 top-14 z-40 bg-black/45"></div>
+
+        <nav
+          class="mobile-nav-panel fixed inset-x-0 top-14 z-50 border-b border-gray-200 bg-white shadow-lg"
+          aria-label="Mobile navigation"
+        >
+          <div class="mx-auto max-h-[min(75vh,36rem)] max-w-6xl overflow-y-auto overscroll-contain px-3 py-2 sm:px-4 sm:py-3">
+            <a href={homeHref} class="mobile-nav-link mobile-nav-link--home">{ui.nav.allNews}</a>
+
+            <div class="mobile-nav-section">
+              <p class="mobile-nav-section-label">{ui.mobile.products}</p>
+              <div class="mobile-nav-section-links">
+                {productLinks.map((child) => (
+                  <a href={child.href} class="mobile-nav-link">{child.label}</a>
+                ))}
+              </div>
+            </div>
+
+            <div class="mobile-nav-section">
+              <p class="mobile-nav-section-label">{ui.mobile.channels}</p>
+              <div class="mobile-nav-section-links">
+                {primaryLinks.map((item) => (
+                  <a href={item.href} class="mobile-nav-link">{item.label}</a>
+                ))}
+              </div>
+            </div>
+
+            {
+              externalLinks.length > 0 && (
+                <div class="mobile-nav-section pb-1">
+                  <p class="mobile-nav-section-label">{ui.mobile.more}</p>
+                  <div class="mobile-nav-section-links">
+                    {
+                      externalLinks.map((item) => (
+                        <a
+                          href={item.href}
+                          class="mobile-nav-link mobile-nav-link--external"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.label}
+                          <span class="ml-1.5 text-xs text-muted" aria-hidden="true">↗</span>
+                        </a>
+                      ))
+                    }
+                    <a href={rssHref} class="mobile-nav-link" data-analytics-event="rss_click">{ui.nav.rss}</a>
+                  </div>
+                </div>
+              )
+            }
+
+            <div class="mobile-nav-section border-t border-gray-100 pt-2">
+              <p class="mobile-nav-section-label">{ui.mobile.language}</p>
+              <div class="mobile-nav-section-links flex flex-wrap gap-2">
+                {
+                  Object.entries(LOCALE_LABELS).map(([loc, label]) => (
+                    <a
+                      href={switchLocalePath(currentPath, loc as SiteLocale, currentSearch)}
+                      data-locale-switch
+                      class:list={[
+                        'rounded-full border px-3 py-1 text-xs',
+                        loc === locale
+                          ? 'border-primary-dark bg-brand-light text-primary-dark font-semibold'
+                          : 'border-gray-200 text-muted',
+                      ]}
+                    >
+                      {label}
+                    </a>
+                  ))
+                }
+              </div>
+            </div>
+          </div>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  (function () {
+    var search = window.location.search;
+    if (!search) return;
+    document.querySelectorAll('a[data-locale-switch]').forEach(function (a) {
+      var href = a.getAttribute('href');
+      if (href && href.indexOf('?') === -1) {
+        a.setAttribute('href', href + search);
+      }
+    });
+  })();
+</script>
+
+<style>
+  .mobile-nav summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-nav[open] .mobile-nav-icon-open {
+    display: none;
+  }
+
+  .mobile-nav[open] .mobile-nav-icon-close {
+    display: block;
+  }
+
+  .locale-switcher summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    border-radius: 0.375rem;
+    padding: 0.625rem 0.75rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+
+  .mobile-nav-link:hover {
+    background-color: var(--color-brand-light);
+    color: var(--color-primary-dark);
+  }
+
+  .mobile-nav-link--home {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+
+  .mobile-nav-section {
+    margin-top: 0.5rem;
+  }
+
+  .mobile-nav-section-label {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .mobile-nav-section-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+</style>

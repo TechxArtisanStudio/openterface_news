@@ -1,0 +1,68 @@
+---
+import type { NewsEntry } from '../lib/news';
+import { articlePath, formatArticleDate } from '../lib/news';
+import { PRODUCT_LABELS, TOPICS, type ProductSlug, type TopicSlug } from '../config/products';
+import { t } from '../i18n/ui';
+import type { SiteLocale } from '../lib/locale';
+
+interface Props {
+  entry: NewsEntry;
+  locale: SiteLocale;
+}
+
+const { entry, locale } = Astro.props;
+const ui = t(locale);
+const { title, description, date, product, topic, channel, featured } = entry.data;
+const href = articlePath(entry);
+const primaryTopic = topic[0] as TopicSlug | undefined;
+const topicLabel = primaryTopic ? ui.filter.topics[primaryTopic as keyof typeof ui.filter.topics] : null;
+---
+
+<article class="card group flex flex-col">
+  <div class="mb-3 flex flex-wrap items-center gap-2">
+    {
+      featured && (
+        <span class="rounded-full bg-brand-dark px-2 py-0.5 text-xs font-semibold text-white">{ui.article.featured}</span>
+      )
+    }
+    {
+      product && (
+        <span class="rounded-full bg-brand-light px-2 py-0.5 text-xs font-medium text-accent-on-light">
+          {PRODUCT_LABELS[product as ProductSlug] ?? product}
+        </span>
+      )
+    }
+    {
+      channel === 'software' && (
+        <span class="rounded-full bg-brand-light px-2 py-0.5 text-xs font-medium text-accent-on-light">{ui.article.software}</span>
+      )
+    }
+    {
+      channel === 'events' && (
+        <span class="rounded-full bg-brand-light px-2 py-0.5 text-xs font-medium text-accent-on-light">{ui.article.event}</span>
+      )
+    }
+    {
+      topicLabel && (
+        <span class="text-xs text-muted">{topicLabel}</span>
+      )
+    }
+  </div>
+
+  <time datetime={date.toISOString()} class="text-xs text-muted">
+    {formatArticleDate(date, locale)}
+  </time>
+
+  <h2 class="mt-2 text-lg font-bold leading-snug text-ink group-hover:text-primary-dark md:text-xl">
+    <a href={href} class="hover:underline">{title}</a>
+  </h2>
+
+  <p class="mt-2 flex-1 text-sm leading-relaxed text-muted line-clamp-3">{description}</p>
+
+  <a
+    href={href}
+    class="mt-4 inline-flex items-center text-sm font-semibold text-accent-on-light hover:text-brand-dark hover:underline"
+  >
+    {ui.article.readUpdate}
+  </a>
+</article>
