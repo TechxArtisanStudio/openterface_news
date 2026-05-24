@@ -1,5 +1,7 @@
 ---
 import { siteConfig } from '../config/site';
+import { docsPath } from '../config/products';
+import { surfaceMarketingHost } from '../config/surface-urls';
 import { newsNav } from '../config/site';
 import { t } from '../i18n/ui';
 import Logo from './Logo.astro';
@@ -44,12 +46,12 @@ const nav = newsNav(locale);
         <h3 class="text-sm font-semibold text-ink">{ui.footer.sites}</h3>
         <ul class="mt-3 space-y-2 text-sm">
           <li>
-            <a href={siteConfig.links.marketingEn} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
+            <a href={surfaceMarketingHost(locale)} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
               {ui.footer.marketing}
             </a>
           </li>
           <li>
-            <a href={`${siteConfig.links.docs}/${locale}/`} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
+            <a href={docsPath(locale)} class="text-muted hover:text-primary-dark" target="_blank" rel="noopener">
               {ui.footer.docs}
             </a>
           </li>
