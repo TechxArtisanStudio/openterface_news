@@ -442,6 +442,95 @@ const tw: UiStrings = {
   },
 };
 
+const ru: UiStrings = {
+  siteName: 'Новости Openterface',
+  siteDescription: 'Официальные обновления продуктов, релизы ПО и новости о событиях Openterface — KVM-GO, Mini-KVM, KeyMod и др.',
+  nav: {
+    allNews: 'Все новости',
+    products: 'Продукты',
+    software: 'ПО',
+    events: 'События',
+    docs: 'Документация',
+    home: 'Главная',
+    shop: 'Магазин',
+    rss: 'RSS',
+    newsBadge: 'Новости',
+  },
+  mobile: {
+    products: 'Продукты',
+    channels: 'Каналы',
+    more: 'Ещё',
+    language: 'Язык',
+  },
+  feed: {
+    homeTitle: 'Новости Openterface',
+    homeDescription: 'Официальные обновления продуктов, релизы ПО и события Openterface.',
+    softwareTitle: 'Релизы ПО',
+    softwareDescription: 'Релизы приложения Openterface, обновления KeyCmd и новости ПО.',
+    eventsTitle: 'События',
+    eventsDescription: 'Выставки, конкурсы и мероприятия сообщества Openterface.',
+    productUpdatesTitle: (product) => `Обновления ${product}`,
+    productUpdatesDescription: (product) => `Последние новости и обновления Openterface ${product}.`,
+    emptyState: 'Нет обновлений по выбранным фильтрам.',
+  },
+  article: {
+    featured: 'Избранное',
+    software: 'ПО',
+    event: 'Событие',
+    readUpdate: 'Читать статью →',
+    nextSteps: 'Дальнейшие шаги',
+    discussForum: 'Обсудить на форуме ↗',
+    viewDocs: 'Открыть документацию ↗',
+    previous: '← Назад',
+    next: 'Далее →',
+  },
+  buy: {
+    keymod: 'Поддержать KeyMod',
+    'kvm-go': 'Предзаказ KVM-GO',
+    minikvm: 'Заказать Mini-KVM',
+    'uconsole-kvm-extension': 'Купить uConsole KVM',
+    accessories: 'Купить аксессуары',
+  },
+  filter: {
+    all: 'Все',
+    topics: {
+      shipping: 'Доставка',
+      production: 'Производство',
+      beta: 'Бета',
+      software: 'ПО',
+      campaign: 'Кампания',
+      event: 'Событие',
+      community: 'Сообщество',
+      analysis: 'Анализ',
+    },
+  },
+  footer: {
+    tagline: 'Официальные обновления продуктов, релизы ПО и события Openterface.',
+    channels: 'Каналы',
+    sites: 'Сайты',
+    docs: 'Документация ↗',
+    forum: 'Форум ↗',
+    copyright: 'Openterface. Open-source KVM-over-USB.',
+    privacy: 'Конфиденциальность',
+    terms: 'Условия',
+    cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Рассылка',
+    description: 'Ежемесячные обновления о продуктах, прошивках и советах по KVM.',
+    submit: 'Подписаться',
+    namePlaceholder: 'Имя',
+    emailPlaceholder: 'Email *',
+    footnote: 'Отписаться можно в любой момент.',
+  },
+  cookie: {
+    title: 'Согласие на cookie',
+    description: 'Мы используем cookie для анализа трафика и улучшения контента. Ваше согласие помогает понять, какие обновления наиболее важны.',
+    accept: 'Принять',
+    reject: 'Отклонить',
+  },
+};
+
 const ja: UiStrings = {
   siteName: 'Openterface ニュース',
   siteDescription: 'Openterface 公式の製品アップデート、ソフトウェアリリース、イベント情報 — KVM-GO、Mini-KVM、KeyMod など。',
@@ -1167,6 +1256,7 @@ const MESSAGES: Record<SiteLocale, UiStrings> = {
   ro,
   hk,
   tw,
+  ru,
 };
 
 export function t(locale: SiteLocale): UiStrings {

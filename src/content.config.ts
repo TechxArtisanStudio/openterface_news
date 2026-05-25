@@ -16,7 +16,7 @@ const news = defineCollection({
     generateId: ({ entry }) => entry.replace(/\.md$/, ''),
   }),
   schema: z.object({
-    locale: z.enum(['en', 'zh', 'ja', 'ko', 'de', 'fr', 'es', 'it', 'pt', 'ro', 'hk', 'tw']),
+    locale: z.enum(['en', 'zh', 'ja', 'ko', 'de', 'fr', 'es', 'it', 'pt', 'ro', 'hk', 'tw', 'ru']),
     translationKey: z.string(),
     slug: z.string(),
     title: z.string(),
