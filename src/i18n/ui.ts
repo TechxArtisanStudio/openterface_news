@@ -531,6 +531,95 @@ const ru: UiStrings = {
   },
 };
 
+const ar: UiStrings = {
+  siteName: 'أخبار Openterface',
+  siteDescription: 'تحديثات المنتجات الرسمية وإصدارات البرمجيات وأخبار الفعاليات من Openterface — KVM-GO و Mini-KVM و KeyMod والمزيد.',
+  nav: {
+    allNews: 'كل الأخبار',
+    products: 'المنتجات',
+    software: 'البرمجيات',
+    events: 'الفعاليات',
+    docs: 'التوثيق',
+    home: 'الرئيسية',
+    shop: 'المتجر',
+    rss: 'RSS',
+    newsBadge: 'أخبار',
+  },
+  mobile: {
+    products: 'المنتجات',
+    channels: 'القنوات',
+    more: 'المزيد',
+    language: 'اللغة',
+  },
+  feed: {
+    homeTitle: 'أخبار Openterface',
+    homeDescription: 'تحديثات المنتجات الرسمية وإصدارات البرمجيات والفعاليات من Openterface.',
+    softwareTitle: 'إصدارات البرمجيات',
+    softwareDescription: 'إصدارات تطبيق Openterface وتحديثات KeyCmd وأخبار البرمجيات.',
+    eventsTitle: 'الفعاليات',
+    eventsDescription: 'معارض ومسابقات وفعاليات مجتمع Openterface.',
+    productUpdatesTitle: (product) => `تحديثات ${product}`,
+    productUpdatesDescription: (product) => `أحدث الأخبار والتحديثات لـ Openterface ${product}.`,
+    emptyState: 'لا توجد تحديثات تطابق هذه الفلاتر.',
+  },
+  article: {
+    featured: 'مميز',
+    software: 'برمجيات',
+    event: 'فعالية',
+    readUpdate: 'اقرأ المقال →',
+    nextSteps: 'الخطوات التالية',
+    discussForum: 'ناقش في المنتدى ↗',
+    viewDocs: 'عرض التوثيق ↗',
+    previous: '← السابق',
+    next: 'التالي →',
+  },
+  buy: {
+    keymod: 'ادعم KeyMod',
+    'kvm-go': 'اطلب KVM-GO مسبقاً',
+    minikvm: 'اطلب Mini-KVM',
+    'uconsole-kvm-extension': 'احصل على uConsole KVM',
+    accessories: 'شراء الملحقات',
+  },
+  filter: {
+    all: 'الكل',
+    topics: {
+      shipping: 'الشحن',
+      production: 'الإنتاج',
+      beta: 'تجريبي',
+      software: 'برمجيات',
+      campaign: 'حملة',
+      event: 'فعالية',
+      community: 'المجتمع',
+      analysis: 'تحليل',
+    },
+  },
+  footer: {
+    tagline: 'تحديثات رسمية عن منتجات Openterface وإصدارات البرمجيات والفعاليات.',
+    channels: 'القنوات',
+    sites: 'المواقع',
+    docs: 'التوثيق ↗',
+    forum: 'المنتدى ↗',
+    copyright: 'Openterface. KVM-over-USB مفتوح المصدر.',
+    privacy: 'الخصوصية',
+    terms: 'الشروط',
+    cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'النشرة البريدية',
+    description: 'تحديثات شهرية عن المنتجات والبرامج الثابتة ونصائح KVM.',
+    submit: 'اشترك',
+    namePlaceholder: 'الاسم',
+    emailPlaceholder: 'البريد الإلكتروني *',
+    footnote: 'يمكنك إلغاء الاشتراك في أي وقت.',
+  },
+  cookie: {
+    title: 'موافقة Cookie',
+    description: 'نستخدم Cookie لتحليل حركة المرور وتحسين المحتوى. موافقتك تساعدنا على فهم التحديثات الأكثر أهمية.',
+    accept: 'قبول',
+    reject: 'رفض',
+  },
+};
+
 const ja: UiStrings = {
   siteName: 'Openterface ニュース',
   siteDescription: 'Openterface 公式の製品アップデート、ソフトウェアリリース、イベント情報 — KVM-GO、Mini-KVM、KeyMod など。',
@@ -1257,6 +1346,7 @@ const MESSAGES: Record<SiteLocale, UiStrings> = {
   hk,
   tw,
   ru,
+  ar,
 };
 
 export function t(locale: SiteLocale): UiStrings {
