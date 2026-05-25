@@ -23,29 +23,7 @@ export const siteConfig = {
     google: {
       provider: 'google' as const,
       measurementId: 'G-EKZEH6QYWT',
-      linkerDomains: [
-        'news.openterface.com',
-        'openterface.com',
-        'docs.openterface.com',
-        'forum.openterface.com',
-        'en.openterface.com',
-        'de.openterface.com',
-        'es.openterface.com',
-        'fr.openterface.com',
-        'it.openterface.com',
-        'jp.openterface.com',
-        'kr.openterface.com',
-        'pt.openterface.com',
-        'ro.openterface.com',
-        'cn.openterface.com',
-        'hk.openterface.com',
-        'tw.openterface.com',
-        'ru.openterface.com',
-        'ar.openterface.com',
-        'tr.openterface.com',
-        'pl.openterface.com',
-        'nl.openterface.com',
-      ]
+            linkerDomains: ['openterface.com', 'forum.openterface.com']
     },
     ahrefs: {
       dataKey: 'b3G5nUND8OglcZwfjfwixQ',

@@ -12,6 +12,15 @@ test('feed locale switch preserves query string', async ({ page }) => {
   await expect(deLink).not.toHaveCount(0);
 });
 
+test('feed locale switch strips _gl but keeps product filter', async ({ page }) => {
+  await page.goto('/?product=kvm-go&_gl=1*abc*_ga*xyz', { waitUntil: 'domcontentloaded' });
+  const deLink = page.locator('a[data-locale-switch][href="/de/?product=kvm-go"]').first();
+  await expect(deLink).not.toHaveCount(0);
+  const href = await deLink.getAttribute('href');
+  expect(href).toContain('product=kvm-go');
+  expect(href).not.toContain('_gl=');
+});
+
 test('product channel locale switch preserves path', async ({ page }) => {
   await page.goto('/product/kvm-go/', { waitUntil: 'domcontentloaded' });
   const jaLink = page.locator('a[data-locale-switch][href="/ja/product/kvm-go/"]');

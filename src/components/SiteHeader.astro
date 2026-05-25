@@ -2,6 +2,7 @@
 import { newsNav } from '../config/site';
 import { LOCALE_LABELS, localizedPath, localizedRssPath, switchLocalePath, type SiteLocale } from '../lib/locale';
 import { t } from '../i18n/ui';
+import { preserveQueryForLocaleSwitch } from '../lib/preserve-query';
 import Logo from './Logo.astro';
 import NavDropdown from './NavDropdown.astro';
 import RssIconButton from './RssIconButton.astro';
@@ -13,6 +14,7 @@ interface Props {
 }
 
 const { locale, currentPath, currentSearch = '' } = Astro.props;
+const preservedSearch = preserveQueryForLocaleSwitch(currentSearch);
 const ui = t(locale);
 const nav = newsNav(locale);
 const productItem = nav.find((item) => item.children);
@@ -72,7 +74,7 @@ const rssHref = localizedRssPath(locale);
             Object.entries(LOCALE_LABELS).map(([loc, label]) => (
               <li>
                 <a
-                  href={switchLocalePath(currentPath, loc as SiteLocale, currentSearch)}
+                  href={switchLocalePath(currentPath, loc as SiteLocale, preservedSearch)}
                   data-locale-switch
                   class:list={[
                     'block px-3 py-2 text-sm hover:bg-brand-light hover:text-primary-dark',
@@ -159,7 +161,7 @@ const rssHref = localizedRssPath(locale);
                 {
                   Object.entries(LOCALE_LABELS).map(([loc, label]) => (
                     <a
-                      href={switchLocalePath(currentPath, loc as SiteLocale, currentSearch)}
+                      href={switchLocalePath(currentPath, loc as SiteLocale, preservedSearch)}
                       data-locale-switch
                       class:list={[
                         'mobile-nav-link',
@@ -179,17 +181,10 @@ const rssHref = localizedRssPath(locale);
   </div>
 </header>
 
-<script is:inline>
-  (function () {
-    var search = window.location.search;
-    if (!search) return;
-    document.querySelectorAll('a[data-locale-switch]').forEach(function (a) {
-      var href = a.getAttribute('href');
-      if (href && href.indexOf('?') === -1) {
-        a.setAttribute('href', href + search);
-      }
-    });
-  })();
+<script>
+  import { applyPreservedQueryToLocaleLinks } from '../lib/preserve-query';
+
+  applyPreservedQueryToLocaleLinks();
 </script>
 
 <script>
