@@ -13,6 +13,7 @@ const PROD_MARKETING: Record<SiteLocale, string> = {
   pt: 'https://pt.openterface.com',
   ro: 'https://ro.openterface.com',
   zh: 'https://cn.openterface.com',
+  hk: 'https://hk.openterface.com',
 };
 
 /** Dev marketing host from env (Vite requires static import.meta.env references). */
@@ -26,6 +27,7 @@ const DEV_MARKETING: Partial<Record<SiteLocale, string | undefined>> = {
   ko: import.meta.env.PUBLIC_OP_DEV_MARKETING_KO,
   pt: import.meta.env.PUBLIC_OP_DEV_MARKETING_PT,
   ro: import.meta.env.PUBLIC_OP_DEV_MARKETING_RO,
+  hk: import.meta.env.PUBLIC_OP_DEV_MARKETING_HK,
   zh: import.meta.env.PUBLIC_OP_DEV_MARKETING_ZH,
 };
 

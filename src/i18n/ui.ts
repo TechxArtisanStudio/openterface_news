@@ -264,6 +264,95 @@ const zh: UiStrings = {
   },
 };
 
+const hk: UiStrings = {
+  siteName: 'Openterface 資訊',
+  siteDescription: 'Openterface 官方產品動態、軟件發佈與活動資訊 — KVM-GO、Mini-KVM、KeyMod 等。',
+  nav: {
+    allNews: '全部資訊',
+    products: '產品',
+    software: '軟件',
+    events: '活動',
+    docs: '文檔',
+    home: '首頁',
+    shop: '商店',
+    rss: 'RSS',
+    newsBadge: '資訊',
+  },
+  mobile: {
+    products: '產品',
+    channels: '頻道',
+    more: '更多',
+    language: '語言',
+  },
+  feed: {
+    homeTitle: 'Openterface 資訊',
+    homeDescription: 'Openterface 官方產品動態、軟件發佈與活動資訊。',
+    softwareTitle: '軟件發佈',
+    softwareDescription: 'Openterface 應用發佈、KeyCmd 更新與軟件資訊。',
+    eventsTitle: '活動',
+    eventsDescription: 'Openterface 展會、競賽與社區活動。',
+    productUpdatesTitle: (product) => `${product} 動態`,
+    productUpdatesDescription: (product) => `Openterface ${product} 最新資訊與更新。`,
+    emptyState: '暫無符合篩選條件的更新。',
+  },
+  article: {
+    featured: '精選',
+    software: '軟件',
+    event: '活動',
+    readUpdate: '閲讀全文 →',
+    nextSteps: '下一步',
+    discussForum: '在論壇討論 ↗',
+    viewDocs: '查看文檔 ↗',
+    previous: '← 上一篇',
+    next: '下一篇 →',
+  },
+  buy: {
+    keymod: '支持 KeyMod',
+    'kvm-go': '預購 KVM-GO',
+    minikvm: '訂購 Mini-KVM',
+    'uconsole-kvm-extension': '獲取 uConsole KVM',
+    accessories: '選購配件',
+  },
+  filter: {
+    all: '全部',
+    topics: {
+      shipping: '發貨',
+      production: '生產',
+      beta: '測試',
+      software: '軟件',
+      campaign: '活動',
+      event: '展會',
+      community: '社區',
+      analysis: '分析',
+    },
+  },
+  footer: {
+    tagline: 'Openterface 產品、軟件發佈與活動的官方更新。',
+    channels: '頻道',
+    sites: '站點',
+    docs: '文檔 ↗',
+    forum: '論壇 ↗',
+    copyright: 'Openterface. 開源 KVM-over-USB。',
+    privacy: '隱私',
+    terms: '條款',
+    cookie: 'Cookie',
+  },
+  newsletter: {
+    title: '郵件訂閲',
+    description: '每月獲取產品、固件與 KVM 技巧更新。',
+    submit: '訂閲',
+    namePlaceholder: '姓名',
+    emailPlaceholder: '郵箱 *',
+    footnote: '隨時可取消訂閲。',
+  },
+  cookie: {
+    title: 'Cookie 同意',
+    description: '我們使用 Cookie 分析網站流量並改進內容。接受即表示您幫助我們瞭解哪些更新對您最重要。',
+    accept: '接受',
+    reject: '拒絕',
+  },
+};
+
 const ja: UiStrings = {
   siteName: 'Openterface ニュース',
   siteDescription: 'Openterface 公式の製品アップデート、ソフトウェアリリース、イベント情報 — KVM-GO、Mini-KVM、KeyMod など。',
@@ -987,6 +1076,7 @@ const MESSAGES: Record<SiteLocale, UiStrings> = {
   it,
   pt,
   ro,
+  hk,
 };
 
 export function t(locale: SiteLocale): UiStrings {
