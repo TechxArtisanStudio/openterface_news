@@ -24,6 +24,13 @@ test('localized feeds return 200 with locale-appropriate H1', async ({ page }) =
     { path: '/zh/', h1: 'Openterface 资讯' },
     { path: '/ro/', h1: 'Openterface Știri' },
     { path: '/ja/', h1: 'Openterface ニュース' },
+    { path: '/hk/', h1: 'Openterface 資訊' },
+    { path: '/tw/', h1: 'Openterface 資訊' },
+    { path: '/ru/', h1: 'Новости Openterface' },
+    { path: '/ar/', h1: 'أخبار Openterface' },
+    { path: '/tr/', h1: 'Openterface Haberler' },
+    { path: '/pl/', h1: 'Openterface Aktualności' },
+    { path: '/nl/', h1: 'Openterface Nieuws' },
   ] as const;
 
   for (const { path, h1 } of cases) {
@@ -40,6 +47,13 @@ test('pilot article exists in each sample locale', async ({ page }) => {
     '/zh/software/20260521-keycmd-019-release/',
     '/ro/software/20260521-keycmd-019-release/',
     '/ja/software/20260521-keycmd-019-release/',
+    '/hk/software/20260521-keycmd-019-release/',
+    '/tw/software/20260521-keycmd-019-release/',
+    '/ru/software/20260521-keycmd-019-release/',
+    '/ar/software/20260521-keycmd-019-release/',
+    '/tr/software/20260521-keycmd-019-release/',
+    '/pl/software/20260521-keycmd-019-release/',
+    '/nl/software/20260521-keycmd-019-release/',
   ];
 
   for (const path of paths) {
@@ -77,6 +91,15 @@ test('RSS feed is valid XML', async ({ request }) => {
   const body = await response.text();
   expect(body).toContain('<rss');
   expect(body).toContain('Openterface News');
+});
+
+test('localized RSS feeds return 200', async ({ request }) => {
+  for (const path of ['/hk/feed.xml', '/ru/feed.xml', '/nl/feed.xml']) {
+    const response = await request.get(path);
+    expect(response.status()).toBe(200);
+    const body = await response.text();
+    expect(body).toContain('<rss');
+  }
 });
 
 test('/en/feed.xml redirects to /feed.xml', async ({ page }) => {
