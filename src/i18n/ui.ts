@@ -620,6 +620,95 @@ const ar: UiStrings = {
   },
 };
 
+const tr: UiStrings = {
+  siteName: 'Openterface Haberler',
+  siteDescription: 'Openterface resmi ürün güncellemeleri, yazılım sürümleri ve etkinlik haberleri — KVM-GO, Mini-KVM, KeyMod ve daha fazlası.',
+  nav: {
+    allNews: 'Tüm haberler',
+    products: 'Ürünler',
+    software: 'Yazılım',
+    events: 'Etkinlikler',
+    docs: 'Dokümantasyon',
+    home: 'Ana sayfa',
+    shop: 'Mağaza',
+    rss: 'RSS',
+    newsBadge: 'Haberler',
+  },
+  mobile: {
+    products: 'Ürünler',
+    channels: 'Kanallar',
+    more: 'Daha fazla',
+    language: 'Dil',
+  },
+  feed: {
+    homeTitle: 'Openterface Haberler',
+    homeDescription: 'Openterface resmi ürün güncellemeleri, yazılım sürümleri ve etkinlikler.',
+    softwareTitle: 'Yazılım sürümleri',
+    softwareDescription: 'Openterface uygulama sürümleri, KeyCmd güncellemeleri ve yazılım haberleri.',
+    eventsTitle: 'Etkinlikler',
+    eventsDescription: 'Openterface fuarları, yarışmaları ve topluluk etkinlikleri.',
+    productUpdatesTitle: (product) => `${product} güncellemeleri`,
+    productUpdatesDescription: (product) => `Openterface ${product} için en son haberler ve güncellemeler.`,
+    emptyState: 'Bu filtrelere uyan güncelleme yok.',
+  },
+  article: {
+    featured: 'Öne çıkan',
+    software: 'Yazılım',
+    event: 'Etkinlik',
+    readUpdate: 'Makaleyi oku →',
+    nextSteps: 'Sonraki adımlar',
+    discussForum: 'Forumda tartış ↗',
+    viewDocs: 'Dokümantasyonu gör ↗',
+    previous: '← Önceki',
+    next: 'Sonraki →',
+  },
+  buy: {
+    keymod: "KeyMod'u destekle",
+    'kvm-go': 'KVM-GO ön sipariş',
+    minikvm: 'Mini-KVM sipariş ver',
+    'uconsole-kvm-extension': 'uConsole KVM al',
+    accessories: 'Aksesuar satın al',
+  },
+  filter: {
+    all: 'Tümü',
+    topics: {
+      shipping: 'Kargo',
+      production: 'Üretim',
+      beta: 'Beta',
+      software: 'Yazılım',
+      campaign: 'Kampanya',
+      event: 'Etkinlik',
+      community: 'Topluluk',
+      analysis: 'Analiz',
+    },
+  },
+  footer: {
+    tagline: 'Openterface ürünleri, yazılım sürümleri ve etkinlikler hakkında resmi güncellemeler.',
+    channels: 'Kanallar',
+    sites: 'Siteler',
+    docs: 'Dokümantasyon ↗',
+    forum: 'Forum ↗',
+    copyright: 'Openterface. Açık kaynak KVM-over-USB.',
+    privacy: 'Gizlilik',
+    terms: 'Koşullar',
+    cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Bülten',
+    description: 'Ürünler, firmware ve KVM ipuçları hakkında aylık güncellemeler.',
+    submit: 'Abone ol',
+    namePlaceholder: 'Ad',
+    emailPlaceholder: 'E-posta *',
+    footnote: 'İstediğiniz zaman abonelikten çıkabilirsiniz.',
+  },
+  cookie: {
+    title: 'Cookie onayı',
+    description: 'Site trafiğini analiz etmek ve içeriği geliştirmek için cookie kullanıyoruz. Onayınız hangi güncellemelerin en önemli olduğunu anlamamıza yardımcı olur.',
+    accept: 'Kabul et',
+    reject: 'Reddet',
+  },
+};
+
 const ja: UiStrings = {
   siteName: 'Openterface ニュース',
   siteDescription: 'Openterface 公式の製品アップデート、ソフトウェアリリース、イベント情報 — KVM-GO、Mini-KVM、KeyMod など。',
@@ -1347,6 +1436,7 @@ const MESSAGES: Record<SiteLocale, UiStrings> = {
   tw,
   ru,
   ar,
+  tr,
 };
 
 export function t(locale: SiteLocale): UiStrings {
