@@ -61,7 +61,6 @@ export interface UiStrings {
     tagline: string;
     channels: string;
     sites: string;
-    marketing: string;
     docs: string;
     forum: string;
     copyright: string;
@@ -152,7 +151,6 @@ const en: UiStrings = {
     tagline: 'Official updates on Openterface products, software releases, and events.',
     channels: 'Channels',
     sites: 'Sites',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Forum ↗',
     copyright: 'Openterface. Open-source KVM-over-USB.',
@@ -243,7 +241,6 @@ const zh: UiStrings = {
     tagline: 'Openterface 产品、软件发布与活动的官方更新。',
     channels: '频道',
     sites: '站点',
-    marketing: '营销站 ↗',
     docs: '文档 ↗',
     forum: '论坛 ↗',
     copyright: 'Openterface. 开源 KVM-over-USB。',
@@ -333,7 +330,6 @@ const ja: UiStrings = {
     tagline: 'Openterface 製品、ソフトウェアリリース、イベントの公式アップデート。',
     channels: 'チャンネル',
     sites: 'サイト',
-    marketing: 'マーケティング ↗',
     docs: 'ドキュメント ↗',
     forum: 'フォーラム ↗',
     copyright: 'Openterface. オープンソース KVM-over-USB。',
@@ -423,7 +419,6 @@ const ko: UiStrings = {
     tagline: 'Openterface 제품, 소프트웨어 릴리스 및 이벤트 공식 업데이트.',
     channels: '채널',
     sites: '사이트',
-    marketing: '마케팅 ↗',
     docs: '문서 ↗',
     forum: '포럼 ↗',
     copyright: 'Openterface. 오픈소스 KVM-over-USB.',
@@ -513,7 +508,6 @@ const de: UiStrings = {
     tagline: 'Offizielle Updates zu Openterface-Produkten, Software-Releases und Events.',
     channels: 'Kanäle',
     sites: 'Websites',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Forum ↗',
     copyright: 'Openterface. Open-Source KVM-over-USB.',
@@ -603,7 +597,6 @@ const fr: UiStrings = {
     tagline: 'Mises à jour officielles sur les produits, releases logicielles et événements Openterface.',
     channels: 'Canaux',
     sites: 'Sites',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Forum ↗',
     copyright: 'Openterface. KVM-over-USB open source.',
@@ -693,7 +686,6 @@ const es: UiStrings = {
     tagline: 'Actualizaciones oficiales sobre productos, lanzamientos de software y eventos de Openterface.',
     channels: 'Canales',
     sites: 'Sitios',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Foro ↗',
     copyright: 'Openterface. KVM-over-USB de código abierto.',
@@ -783,7 +775,6 @@ const it: UiStrings = {
     tagline: 'Aggiornamenti ufficiali su prodotti, release software ed eventi Openterface.',
     channels: 'Canali',
     sites: 'Siti',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Forum ↗',
     copyright: 'Openterface. KVM-over-USB open source.',
@@ -873,7 +864,6 @@ const pt: UiStrings = {
     tagline: 'Atualizações oficiais sobre produtos, lançamentos de software e eventos Openterface.',
     channels: 'Canais',
     sites: 'Sites',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Fórum ↗',
     copyright: 'Openterface. KVM-over-USB open source.',
@@ -963,7 +953,6 @@ const ro: UiStrings = {
     tagline: 'Actualizări oficiale despre produse, lansări software și evenimente Openterface.',
     channels: 'Canale',
     sites: 'Site-uri',
-    marketing: 'Marketing ↗',
     docs: 'Docs ↗',
     forum: 'Forum ↗',
     copyright: 'Openterface. KVM-over-USB open source.',
