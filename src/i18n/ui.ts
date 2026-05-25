@@ -798,6 +798,95 @@ const pl: UiStrings = {
   },
 };
 
+const nl: UiStrings = {
+  siteName: 'Openterface Nieuws',
+  siteDescription: 'Officiële productupdates, softwarereleases en evenementnieuws van Openterface — KVM-GO, Mini-KVM, KeyMod en meer.',
+  nav: {
+    allNews: 'Alle nieuws',
+    products: 'Producten',
+    software: 'Software',
+    events: 'Evenementen',
+    docs: 'Documentatie',
+    home: 'Home',
+    shop: 'Shop',
+    rss: 'RSS',
+    newsBadge: 'Nieuws',
+  },
+  mobile: {
+    products: 'Producten',
+    channels: 'Kanalen',
+    more: 'Meer',
+    language: 'Taal',
+  },
+  feed: {
+    homeTitle: 'Openterface Nieuws',
+    homeDescription: 'Officiële productupdates, softwarereleases en evenementen van Openterface.',
+    softwareTitle: 'Softwarereleases',
+    softwareDescription: 'Openterface app-releases, KeyCmd-updates en softwarenieuws.',
+    eventsTitle: 'Evenementen',
+    eventsDescription: 'Beurzen, wedstrijden en community-evenementen van Openterface.',
+    productUpdatesTitle: (product) => `${product}-updates`,
+    productUpdatesDescription: (product) => `Het laatste nieuws en updates voor Openterface ${product}.`,
+    emptyState: 'Geen updates die aan deze filters voldoen.',
+  },
+  article: {
+    featured: 'Uitgelicht',
+    software: 'Software',
+    event: 'Evenement',
+    readUpdate: 'Lees artikel →',
+    nextSteps: 'Volgende stappen',
+    discussForum: 'Bespreek op forum ↗',
+    viewDocs: 'Bekijk documentatie ↗',
+    previous: '← Vorige',
+    next: 'Volgende →',
+  },
+  buy: {
+    keymod: 'Steun KeyMod',
+    'kvm-go': 'Pre-order KVM-GO',
+    minikvm: 'Bestel Mini-KVM',
+    'uconsole-kvm-extension': 'Koop uConsole KVM',
+    accessories: 'Koop accessoires',
+  },
+  filter: {
+    all: 'Alle',
+    topics: {
+      shipping: 'Verzending',
+      production: 'Productie',
+      beta: 'Beta',
+      software: 'Software',
+      campaign: 'Campagne',
+      event: 'Evenement',
+      community: 'Community',
+      analysis: 'Analyse',
+    },
+  },
+  footer: {
+    tagline: 'Officiële updates over Openterface-producten, softwarereleases en evenementen.',
+    channels: 'Kanalen',
+    sites: 'Sites',
+    docs: 'Documentatie ↗',
+    forum: 'Forum ↗',
+    copyright: 'Openterface. Open-source KVM-over-USB.',
+    privacy: 'Privacy',
+    terms: 'Voorwaarden',
+    cookie: 'Cookie',
+  },
+  newsletter: {
+    title: 'Nieuwsbrief',
+    description: 'Maandelijkse updates over producten, firmware en KVM-tips.',
+    submit: 'Abonneren',
+    namePlaceholder: 'Naam',
+    emailPlaceholder: 'E-mail *',
+    footnote: 'Je kunt je op elk moment uitschrijven.',
+  },
+  cookie: {
+    title: 'Cookie-toestemming',
+    description: 'We gebruiken cookies om verkeer te analyseren en content te verbeteren. Met je toestemming help je ons te begrijpen welke updates het belangrijkst zijn.',
+    accept: 'Accepteren',
+    reject: 'Weigeren',
+  },
+};
+
 const ja: UiStrings = {
   siteName: 'Openterface ニュース',
   siteDescription: 'Openterface 公式の製品アップデート、ソフトウェアリリース、イベント情報 — KVM-GO、Mini-KVM、KeyMod など。',
@@ -1527,6 +1616,7 @@ const MESSAGES: Record<SiteLocale, UiStrings> = {
   ar,
   tr,
   pl,
+  nl,
 };
 
 export function t(locale: SiteLocale): UiStrings {
