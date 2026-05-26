@@ -2,67 +2,65 @@
 locale: nl
 translationKey: "250614-tinyrack-review"
 slug: "250614-tinyrack-review"
-title: "Eine sehr aufschlussreiche en wertvolle Bewertung aus Südkorea."
-description: "Eine tiefgründige en technisch scharfe Bewertung des Openterface Mini-KVM von der TinyRack-Community aus Südkorea, gefolgt von einer transparenten en herzlichen Antwort unseres Teams. Dieser Austausch beleuchtet reale Nutzungsrückmeldungen, unser Open-Source-Engagement en die gemeinsame Reise der Verbesserung von Tools durch Community-Zusammenarbeit."
+title: "Een zeer inzichtelijke en waardevolle recensie uit Zuid-Korea."
+description: "Een diep doordachte en technisch scherpe recensie van de Openterface Mini-KVM door de TinyRack-gemeenschap in Zuid-Korea, gevolgd door een transparante en oprechte reactie van ons team. Deze uitwisseling belicht gebruiksfeedback uit de praktijk, onze inzet voor open source en het gedeelde traject van het verbeteren van tools door samenwerking met de community."
 date: 2025-05-19
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
+topic: ["shipping", "production", "software", "campaign", "community", "analysis"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-### Eine Durchdachte Bewertung aus Korea en Unsere Gedanken dazu
+### Een doordachte recensie uit Korea en onze gedachten in ruil daarvoor
 
 ![mini-kvm](https://tinyrack.net/content/images/size/w2000/2025/05/_1013207.JPG)
 
-Wir lieben Überraschungen, zumindest die guten. Vor ein paar Wochen haben wir einen YouTuber aus Südkorea kontaktiert, der voor seine ehrlichen en technisch detaillierten Bewertungen bekannt ist. Wir haben ein kleines Paket geschickt: ein [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), plus unser Mini-KVM-Toolkit zum Testen. Dann haben wir gewartet.
+Wij houden sowieso van verrassingen van het goede soort. Een paar weken geleden hebben we contact opgenomen met een YouTuber uit Zuid-Korea die bekend staat om zijn eerlijke en technisch gedetailleerde recensies. We hebben een klein pakketje gestuurd: één [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), plus onze mini-KVM-toolkit om te testen. Vervolgens wachtten we.
 
-Was als nächstes kam, overtraf unsere Erwartungen.
+Wat daarna kwam, overtrof onze verwachtingen.
 
-Er hat niet nur das Mini-KVM ausgiebig getestet, sondern sich auch die Zeit genommen, einen detaillierten Artikel voller Erkenntnisse zu schreiben:
-👉 [Vollständige Bewertung hier lesen](https://tinyrack.net/openterface-mini-kvm)
+Hij testte de mini-KVM niet alleen uitgebreid, maar nam ook de tijd om een gedetailleerd artikel boordevol inzichten te schrijven:
+👉 [Read the full review here](https://tinyrack.net/openterface-mini-kvm)
 
-Sein Feedback war scharf, konstruktiv en in der realen Nutzung verwurzelt. Das ist Gold voor uns. Obwohl wir niet met jedem Punkt einverstanden waren, war das genau der Gren, warum es wertvoll war. Es hat uns dazu gebracht, einige Design-Annahmen noch einmal zu betrachten en bestätigt, wo wir richtig lagen. Wenn ihr neugierig seid, scrollt nach unten voor das vollständige Gespräch.
+Zijn feedback was scherp, constructief en gebaseerd op gebruik in de praktijk. Dat is goud voor ons. Hoewel we het niet met elk punt eens waren, was het juist daarom waardevol. Het zette ons ertoe aan om opnieuw naar enkele ontwerpaannames te kijken en bevestigde waar we het bij het juiste eind hadden. Als je nieuwsgierig bent, scroll dan naar beneden voor het volledige gesprek.
 
-Und wenn ihr ihm noch niet folgt:
-- 🎥 [YouTube-Kanal](https://youtube.com/@tinyrack)
-- 💬 [Community-Forum](https://forum.tinyrack.net/)
+En als je hem nog niet volgt:
+- 🎥 [YouTube Channel](https://youtube.com/@tinyrack)
+- 💬 [Community Forum](https://forum.tinyrack.net/)
 
-Diese Art von Dialog ist genau das, was Tools wie unsere weiterentwickelt. Also danke, TinyRack - wir hören euch.
+Dit soort dialoog is precies wat tools zoals de onze helpt ontwikkelen. Dus bedankt, TinyRack, we horen je.
 
-# Einige Worte von Herzen: Unsere Ziele en Verpflichtungen
+# Enkele woorden uit het hart: onze doelen en verplichtingen
 
-### 1. Einzelhandelskanäle
-Unser aktueller en exklusiver Verkaufskanal voor das Openterface Mini‑KVM ist Crowd Supply, en diese Partnerschaft soll bis Mitte 2026 fortgesetzt werden. Wir sind aufrichtig dankbar voor ihre Unterstützung. Crowd Supply spezialisiert sich auf Open‑Hardware-Projekte, en ihre Plattform en Community haben eine entscheidende Rolle dabei gespielt, unserem kleinen Team beim Wachsen en erfolgreichen Ausliefern des Mini‑KVM zu helfen.
+### 1. Retailkanalen
+Ons huidige en exclusieve verkoopkanaal voor de Openterface Mini-KVM is Crowd Supply, en deze samenwerking zal tot medio 2026 voortduren. We zijn oprecht dankbaar voor hun steun. Crowd Supply is gespecialiseerd in open-hardwareprojecten, en hun platform en community hebben een cruciale rol gespeeld bij het helpen groeien van ons kleine team en het succesvol leveren van de Mini-KVM.
 
-Dank Crowd Supply, das Erfüllung en Vertrieb so effizient verwaltet, konnten wir unsere Energien vollständig auf Productdesign, Production en Softwareentwicklung konzentrieren. Aus diesem Gren konnten wir noch niet auf größeren Marktplätzen wie Amazon of AliExpress starten. Die Erweiterung unserer Distribution bleibt jedoch eine Top-Priorität, en wir planen, diese Kanäle zu erkenen, sobald unsere aktuelle Verpflichtung Mitte 2026 endet.
+Dankzij het feit dat Crowd Supply de uitvoering en distributie zo efficiënt beheert, hebben we onze energie volledig kunnen richten op productontwerp, productie en softwareontwikkeling. Om deze reden hebben we nog niet kunnen lanceren op grotere marktplaatsen zoals Amazon of AliExpress. Het uitbreiden van onze distributie blijft echter een topprioriteit, en we zijn van plan die kanalen te gaan verkennen zodra ons huidige engagement medio 2026 afloopt.
+Wij geloven in transparantie in plaats van beloftes te doen die we nog niet kunnen waarmaken. Dankzij uw geduld en voortdurende steun kunnen we een sterkere basis opbouwen voordat we uitbreiden naar extra marktplaatsen.
 
-Wir glauben an Transparenz, anstatt Versprechungen zu machen, die wir noch niet erfüllen können. Eure Geduld en fortlaufende Unterstützung ermöglichen es uns, ein stärkeres Fenament zu schaffen, bevor wir auf zusätzliche Marktplätze expandieren.
+### 2. Prijs
+We begrijpen dat sommige gebruikers de prijs hoger vinden dan verwacht. Een groot deel van de kosten weerspiegelt onze investeringen in native softwareontwikkeling voor Windows, macOS, Linux, Android (en binnenkort iPad/iOS). We bouwen veilige applicaties met volledige functionaliteit, die veel verder gaan dan een eenvoudige webapp (hoewel we gemeenschapsbijdrager Kashall dankbaar zijn voor zijn hulp bij het bouwen van onze webversie!). We gaan de uitdagingen aan en vergelijken onszelf met tools die worden vertrouwd door IT-professionals en ondernemingen, en we dringen aan op ontwikkelings- en beveiligingsstandaarden die in lijn zijn met de beste praktijken in de sector.
 
-### 2. Preis
-Wir verstehen, dass einige Nutzer den Preis höher als erwartet finden. Ein großer Teil der Kosten spiegelt unsere Investition in native Softwareentwicklung voor Windows, macOS, Linux, Android (en bald iPad/iOS) wider. Wir bauen vollständige, sichere Anwendungen, weit over eine grenlegende Web-App hinaus (obwohl wir dem Community-Mitwirkenden Kashall dankbar sind, der beim Aufbau unserer Web-Version geholfen hat!). Wir nehmen die Herausforderungen an en vergleichen uns met Tools, denen IT-Profis en Unternehmen vertrauen, en bestehen auf Entwicklungs- en Sicherheitsstandards, die den Branchenbest Practices entsprechen.
+### 3. Open source-engagement
+We stellen het op prijs dat u erop wijst dat open source soms een manier kan zijn om onvolledig werk uit handen te geven. Dat zijn wij niet. Ons hele ontwikkelteam zet zich volledig in voor open source en we hebben opwindende functies op de routekaart. We weten dat dit pad niet gemakkelijk is, maar we blijven aandringen en hopen dat onze gemeenschap ons zal blijven steunen.
 
-### 3. Open-Source-Verpflichtung
-Wir schätzen es, dass ihr darauf hingewiesen habt, dass Open‑Sourcing manchmal ein Weg sein kann, unvollständige Arbeit abzugeben. Das sind wir niet. Unser gesamtes Entwicklungsteam ist vollständig dem Open‑Source verpflichtet, en wir haben aufregende Features auf der Roadmap. Wir wissen, dass dieser Weg niet einfach ist, aber wir werden weiter pushen en hoffen, dass unsere Community uns weiterhin unterstützt.
+### 4. Windows SmartScreen-waarschuwing
+Uw feedback over de waarschuwing van het Windows-installatieprogramma was perfect. We gebruiken al een open source-certificaat (SignPath), maar er verschijnen nog steeds waarschuwingen. We streven naar Extended Validation (EV)-certificaten, hoewel deze moeilijk blijven voor nieuwere bedrijven. Wees geduldig terwijl we door het papierwerk navigeren en uw eerste installatie-ervaring verbeteren.
 
-### 4. Windows SmartScreen-Warnung
-Euer Feedback zur Windows-Installer-Warnung war genau richtig. Wir verwenden bereits ein Open‑Source-Zertifikat (SignPath), aber Warnungen erscheinen immer noch. Wir verfolgen Extended Validation (EV)-Zertifikate, obwohl sie voor neuere Unternehmen schwierig bleiben. Bitte habt Geduld met uns, während wir die Bürokratie durchlaufen en eure anfängliche Installatieserfahrung verbessern.
+### 5. Lof voor werkervaring
+Bedankt voor het uitvoeren van zulke rigoureuze plug-and-play-stresstests door kabels opnieuw aan te sluiten, op te starten vanuit het BIOS en dergelijke. Dat soort real-world validatie betekent veel.
 
-### 5. Arbeitserfahrung-Lob
-Danke, dass ihr so rigorose Plug-and-Play-Stresstests durchgeführt habt, indem ihr Kabel neu verbenen, vom BIOS gebootet en ähnliches gemacht habt. Diese Art der realen Validierung bedeutet viel.
+### 6. Linux-problemen
+Het spijt ons zeer voor de frustraties die u ondervond op Linux. Toestemmingsfouten, ontbrekende beeldschermen, firmwareproblemen en crashes zijn onaanvaardbaar. We geven prioriteit aan verbeteringen, waaronder: Uploaden naar de Ubuntu Software Store voor eenvoudige installatie; Het leveren van flatpak- en one-click-installatieprogramma's; Verbetering van udev-regels, afhandeling van afhankelijkheid en crashbestendigheid. We streven ernaar een Linux-ervaring te leveren die overeenkomt met onze Windows- en macOS-kwaliteit.
 
-### 6. Linux-Probleme
-Es tut uns wirklich leid voor die Frustrationen, die ihr unter Linux erlebt habt. Berechtigungsfehler, fehlende Displays, Firmware-Probleme en Abstürze sind inakzeptabel. Wir priorisieren Verbesserungen, einschließlich: Upload zum Ubuntu Software Store voor einfache Installatie; Bereitstellung von Flatpak en Ein-Klick-Installern; Verbesserung der Udev-Regeln, Abhängigkeitsbehandlung en Absturz-Resilienz. Wir sind verpflichtet, eine Linux-Erfahrung zu liefern, die unserer Windows- en macOS-Qualität entspricht.
+### 7. Pad vooruit
+Uw feedback, vooral over de prijs, heeft geholpen de interne discussies over het optimaliseren van de kosten en schaalbaarheid op gang te brengen. We evalueren aanpassingen op alle fronten, verkoopkanalen, marketinguitgaven en activiteiten, om waarde en kwaliteit beter in evenwicht te brengen naarmate we groeien.
 
-### 7. Weg nach vorn
-Euer Feedback, besonders zum Preis, hat dabei geholfen, interne Diskussionen over Kostenoptimierung en Skalierbarkeit zu katalysieren. Wir bewerten Anpassungen auf allen Fronten, Verkaufskanäle, Marketing-Ausgaben en Betrieb, um Wert en Qualität besser auszugleichen, während wir wachsen.
+We zijn echt dankbaar voor de doordachte feedback en ondersteuning van [tinyrack](https://www.youtube.com/@tinyrack) en zoveel leden van de open-sourcegemeenschap. Het zijn de zorg, bijdragen en aanmoediging van mensen zoals jij die ons eraan herinneren waarom we Openterface bouwen als meer dan alleen een product. Het is een gedeelde reis die wordt gevormd door samenwerking, nieuwsgierigheid en een gemeenschappelijk geloof om dingen samen beter te doen. Bedankt dat je deel uitmaakt van dit pad. We kijken uit naar wat ons te wachten staat en zullen samen met jullie allemaal blijven leren en groeien.
 
-Wir sind wirklich dankbar voor das durchdachte Feedback en die Unterstützung von [tinyrack](https://www.youtube.com/@tinyrack) en so vielen Mitgliedern der Open-Source-Community. Es ist die Fürsorge, Beiträge en Ermutigung von Menschen wie euch, die uns daran erinnern, warum wir Openterface als mehr als nur ein Product aufbauen. Es ist eine gemeinsame Reise, geprägt von Zusammenarbeit, Neugier en einem gemeinsamen Glauben daran, Dinge besser zusammen zu machen. Danke, dass ihr Teil dieses Weges seid. Wir freuen uns auf das, was vor uns liegt, en werden weiter lernen en met euch allen wachsen.
-
-Mit Dankbarkeit,  
+Met dankbaarheid,  
 Billy Wang  
-Product Manager  
-Openterface Team | TechxArtisan
+Productmanager  
+Openterface-team | TechxArtisan

@@ -2,65 +2,64 @@
 locale: tr
 translationKey: "240531-livestram-with-david-make"
 slug: "240531_livestram_with_david_make"
-title: "Entspanntes Gespräch ile David Groom von MAKE: Magazine: Die Geschichte von Openterface Mini-KVM"
-description: "Schauen Sie sich unseren Livestream ile David Groom von MAKE: Magazine an, während wir die Entstehungsgeschichte von Openterface Mini-KVM besprechen, von Tech-Kunstprojekten bis hin zur gemeinschaftsgetriebenen Entwicklung ve unserer Reise bei der Erstellung einer Open-Source-Lösung için die Verwaltung von Headless-Geräten."
+title: "MAKE: Magazine'den David Groom ile Günlük Sohbet: Openterface Mini-KVM'nin Hikayesi"
+description: "Teknik sanat projelerinden topluluk odaklı geliştirmeye kadar Openterface Mini-KVM'nin başlangıç ​​hikayesini ve başsız cihaz yönetimi için açık kaynaklı bir çözüm oluşturma yolculuğumuzu tartışırken MAKE: Magazine'den David Groom ile canlı yayınımızı izleyin."
 date: 2024-05-31
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "event", "community", "analysis"]
-category: "Product Güncellemeler"
+topic: ["shipping", "production", "beta", "software", "campaign", "event", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Herkese merhaba!
 
-Hallo alle zusammen!
-
-Wir haben gerade einen großartigen [YouTube-Livestream](https://www.youtube.com/live/lwitzvmxsgc?si=s9a1t5_Sce5v22e1) ile David Groom von MAKE: Magazine beendet! Während der Session haben wir uns tief in die Geschichte hinter unserem Openterface Mini-KVM eingegraben, einer innovativen Open-Source-Donanım-Lösung, die darauf ausgelegt ist, Headless-Geräte ve Einplatinencomputer wie Raspberry Pis mühelos ile nur Ihrem Laptop zu steuern. Sie können den YouTube-Livestream için weitere Details ansehen veya einfach die Geschichte unten lesen.
+MAKE: Magazine'den David Groom'la muhteşem bir [YouTube livestream](https://www.youtube.com/live/lwitzvmxsgc?si=s9a1t5_Sce5v22e1)'ı tamamladık! Oturum sırasında, yalnızca dizüstü bilgisayarınızı kullanarak başsız cihazları ve Raspberry Pis gibi tek kartlı bilgisayarları zahmetsizce kontrol etmek için tasarlanmış yenilikçi bir açık kaynaklı donanım çözümü olan Openterface Mini-KVM'nin arkasındaki hikayeyi derinlemesine inceledik. Daha fazla ayrıntı için YouTube canlı yayınına göz atabilir veya aşağıdaki hikayeyi okuyabilirsiniz.
 
 ![youtube-with-david-2](https://www.crowdsupply.com/img/2b83/081f1376-b266-4e83-b1af-5628dbe62b83/youtube-with-david_jpg_gallery-lg.jpg)
 
-## Die Geburt einer Idee
+## Bir Fikrin Doğuşu
 
-Die Reise des Mini-KVM begann in der geschäftigen Stadt Guangzhou, China, in unserem TechxArtisan Studio. In den letzten fünf Jahren waren wir tief in zahlreiche Tech-Kunstprojekte için lokale ve internationale Künstler involviert. Unsere Arbeit umfasst den Bau interaktiver Beleuchtungsinstallationen ile KI-Erkennung, Roboterarme için Theateraufführungen, selbstfahrende Mini-Autos, die zufällige Labyrinthe lösen, ve sogar einen Roboterhve, der darauf ausgelegt ist, Niemandsland wie Wüsten ve Wälder zu erkveen.
+Mini-KVM'nin yolculuğu Çin'in hareketli Guangzhou şehrinde TechxArtisan stüdyomuzda başladı. Son beş yılda yerel ve uluslararası sanatçılara yönelik çok sayıda teknoloji sanat projesine derinlemesine dahil olduk. Çalışmalarımız arasında yapay zeka algılamalı etkileşimli aydınlatma kurulumları, tiyatro gösterileri için robotik kollar, rastgele labirentleri çözen sürücüsüz mini arabalar ve hatta çöller ve ormanlar gibi kimsenin olmadığı toprakları keşfetmek için tasarlanmış bir robot köpek inşa etmek yer alıyor.
 
 ![techxartisan_tech_art](https://www.crowdsupply.com/img/bce8/9c580077-993a-42b2-b781-a30d34acbce8/techxartisan-tech-art_jpg_gallery-lg.jpg)
 
-### Ein häufiges Problem
-Eine wiederkehrende Herausforderung in unserer Arbeit war die Verwaltung einer Vielzahl von Headless-Computern wie Raspberry Pis ve Jetson Nanos, denen Monitore, Tastaturen veya Netzwerkkonnektivität fehlten. Dies führte oft zu hektischen Suchen nach Ersatzmonitoren ve Tastaturen, um diese Geräte unter rauen Bedingungen zu troubleshooten ve darauf zuzugreifen.
+### Yaygın Bir Baş Ağrısı
+Çalışmalarımızda tekrar eden bir zorluk, Raspberry Pis ve Jetson Nanos gibi monitörleri, klavyeleri veya ağ bağlantısı olmayan çok sayıda başsız bilgisayarı yönetmekti. Bu durum çoğu zaman zorlu koşullarda bu cihazlara sorun gidermek ve bunlara erişmek için yedek monitör ve klavyelerin çılgınca aranmasına yol açıyordu.
 
-### Behelfslösungen
-Ursprünglich griffen wir auf behelfsmäßige tragbare Monitor-Lösungen zurück, die von Batteriepacks betrieben wurden ve drahtlose Mini-Tastaturen ile Touchpads kombinierten. Diese wurden jedoch oft vergessen veya verlegt, was den Bedarf an einer dedizierten Donanım-Lösung hervorrief, die die Laptops nutzen könnte, die wir immer için das Programmieren ve Einrichten ileführten.
+### Geçici Çözümler
+Başlangıçta, pil paketleri ve dokunmatik yüzeyli kablosuz mini klavyelerle çalışan derme çatma taşınabilir monitör çözümlerine başvurduk. Ancak bunlar sıklıkla unutuluyor veya yanlış yerleştiriliyordu; bu da kodlama ve kurulum için her zaman yanımızda taşıdığımız dizüstü bilgisayarlardan yararlanabilecek özel bir donanım çözümüne ihtiyaç duyulmasına neden oluyordu.
 
 ![diy-monitor-keyboard](https://www.crowdsupply.com/img/2efd/4459eff9-2d01-4552-ac91-a1941ed82efd/diy-monitor-keyboard_jpg_gallery-lg.jpg)
-*Diese beiden Gadgets müssen için Vor-Ort-Projekte ilegeführt werden.*
+*Bu iki cihazın sahadaki projeler için taşınması gerekir.*
 
-### Der erste Prototyp
-Unser erster DIY-Prototyp war eine einfache aber effektive Kombination aus einer Capture-Karte, um Video vom Headless-Gerät zu holen, ve einem USB-Tastatur/Maus-Simulator, alles in ein einziges USB-Kabel integriert, das sich ile unseren Laptops verbindet.
+### İlk Prototip
+İlk Kendin Yap prototipimiz, başsız cihazdan video almak için bir yakalama kartı ile bir USB klavye/fare simülatörünün, tümü dizüstü bilgisayarlarımıza bağlanan tek bir USB kablosuna entegre edilmiş basit ama etkili bir kombinasyonuydu. 
 
 ![/early-mini-kvm-pcb](https://www.crowdsupply.com/img/1f7e/fb91d879-dee7-45cc-bbdc-dc3ea5731f7e/early-mini-kvm-pcb_jpg_gallery-lg.jpg)
-*Eine der frühen Versionen des Mini-KVM-PCB*
+*Mini-KVM PCB'nin ilk versiyonlarından biri*
 
-Wir stellten unsere coolen Tech-Kunstprojekte auf der Shenzhen Maker Faire im November 2023 vor ve beabsichtigten, David den Mini-KVM-Prototyp zu zeigen. Wir waren jedoch so aufgeregt hakkında die Geschenke von David, dass wir es vergaßen!
+Mini KVM prototipini David'e göstermek amacıyla harika teknoloji sanat projelerimizi Kasım 2023'te Shenzhen Maker Faire'de sergiledik. Ancak David'in hediyeleri bizi o kadar heyecanlandırdı ki unuttuk!
 
 ![techxartisan_team_with_david_groom](https://www.crowdsupply.com/img/bc4e/17bdcc6e-0a34-4f2f-bf64-fee0b8d6bc4e/techxartisan-team-with-david-groom_jpg_gallery-lg.jpg)
-*Aufkleber ve Postkarten von MAKE: Magazine sind wirklich cool!*
+*MAKE: Magazine'den çıkartmalar ve kartpostallar gerçekten harika!*
 
-## Community-Feedback ve Entwicklung
-Nachdem wir unseren Prototyp auf Reddit geteilt hatten, erhielten wir unschätzbares Feedback von [der Community](/community/), das uns ermutigte, unsere Lösung zu verfeinern ve zu einem polierten Ürün zu entwickeln. Diese Community-Unterstützung war entscheidend daiçin, unser behelfsmäßiges Gerät in ein elegantes, effizientes Tool için Homelabber, Systemadministratoren, Tech-Enthusiasten ve jeden zu verwandeln, der ile Headless-Computern arbeitet.
+## Topluluk Geri Bildirimi ve Gelişimi
+Prototipimizi Reddit'te paylaştıktan sonra [the community](/community/)'dan çok değerli geri bildirimler aldık ve bu geri bildirimler bizi çözümümüzü geliştirip gösterişli bir ürüne dönüştürmeye teşvik etti. Bu topluluk desteği, geçici cihazımızı ev çalışanları, sistem yöneticileri, teknoloji meraklıları ve başsız bilgisayarlarla çalışan herkes için şık, etkili bir araca dönüştürmede etkili oldu.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
-*Eine riesige Menge Feedback von Homelabbern erhalten*
+*Evdeki çalışanlardan çok fazla geri bildirim aldım*
 
-## Zweifel hakkındawinden
-Trotz anfänglicher Zweifel hakkında den Wettbewerb ile bestehenden ähnlichen Lösungen halfen die positive Resonanz ve konstruktiven Vorschläge aus Online-Communities dabei, potenzielle Anwendungsfälle zu klären ve unser Vertrauen zu stärken. Ohne diese Unterstützung ve Bestätigung unserer Bemühungen hätten wir das Projekt möglicherweise değil weiter verfolgt.
+## Şüphelerin Üstesinden Gelmek
+Mevcut benzer çözümlerle rekabet etme konusundaki ilk şüphelere rağmen, çevrimiçi topluluklardan gelen olumlu yanıtlar ve yapıcı öneriler, potansiyel kullanım durumlarının netleşmesine yardımcı oldu ve güvenimizi artırdı. Bu destek ve çabalarımızın onaylanması olmasaydı, projeyi daha fazla sürdüremeyebilirdik.
 
-## Crowdfveing ve zukünftige Pläne
-Die Crowdfveing-Kampagne için das Openterface Mini-KVM auf Crowd Supply nimmt ernsthaft Fahrt auf, ile etwa zwei Wochen verbleibender Zeit. Diese Kampagne geht değil nur um die Entwicklung des Mini-KVM; sie ist ein Zeugnis der Kraft gemeinschaftsgetriebener Innovation. Als nächstes werden wir uns in Ürünionsmanagement, Yazılım-Verbesserungen ve die Lieferung dieses praktischen Gadgets an unsere großartigen Unterstützer vertiefen—alles angetrieben von unserer erstaunlichen Open-Source-Community.
+## Kitlesel Fonlama ve Gelecek Planları
+Crowd Supply'da Openterface Mini-KVM için kitlesel fonlama kampanyası ciddi bir ivme kazanıyor ve yaklaşık iki hafta kaldı. Bu kampanya yalnızca Mini-KVM'yi geliştirmekle ilgili değil; bu, topluluk odaklı inovasyonun gücünün bir kanıtıdır. Daha sonra, üretim yönetimine, yazılım iyileştirmelerine ve bu kullanışlı aygıtın harika destekçilerimize teslim edilmesine odaklanacağız; bunların tümü muhteşem açık kaynak topluluğumuz tarafından destekleniyor.
 
 ![techxartisan_openterface_discord](https://www.crowdsupply.com/img/8d7a/58e213e7-7a81-47b4-9d6b-69be3c698d7a/techxartisan-openterface-discord_jpg_gallery-lg.jpg)
-*Beta-Tester teilen ihre Nutzung des Openterface Mini-KVM in ihren täglichen Tech-Aufgaben auf TechxArtisans Discord*
+*Beta test kullanıcıları günlük teknoloji görevlerinde Openterface Mini-KVM kullanımlarını TechxArtisan'ın Discord sayfasında paylaşıyorlar*
 
-## Die Open-Source-Vision umarmen
+## Açık Kaynak Vizyonunu Benimsiyorum
 
-Das Openterface Mini-KVM ist ein Zeugnis unserer Kreativität ve Ausdauer ve der unterstützenden Open-Source-Community. Was als einfache Lösung için unsere persönlichen Herausforderungen begann, hat sich zu einem vielseitigen, Open-Source-Tool entwickelt, das bereit ist, Hackern, Bastlern ve Tech-Enthusiasten weltweit zu nützen. Bleiben Sie dran için weitere Güncellemeler, während das Mini-KVM seinem offiziellen Release näher kommt!
+Openterface Mini-KVM, yaratıcılığımızın, azmimizin ve destekleyici açık kaynak topluluğunun bir kanıtıdır. Kişisel zorluklarımıza basit bir çözüm olarak başlayan şey, dünya çapındaki bilgisayar korsanlarına, tamircilere ve teknoloji meraklılarına fayda sağlayacak çok yönlü, açık kaynaklı bir araca dönüştü. Mini-KVM resmi çıkışına yaklaştıkça daha fazla güncelleme için bizi takip etmeye devam edin!

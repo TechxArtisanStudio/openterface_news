@@ -2,84 +2,83 @@
 locale: pl
 translationKey: "20260203-macos-ubuntu-copy-paste"
 slug: "20260203-macos-ubuntu-copy-paste"
-title: "Ubuntu Kopieren/Einfügen-Tipp (macOS → Ubuntu)"
-description: "Beheben Sie Einfügen-Shortcuts beim Steuern von Ubuntu von macOS z Openterface. Verwenden Sie den Windows-Modus dla zuverlässiges Ctrl-Style-Einfügen lub Bearbeiten → Einfügen als Alternative im Mac-Modus."
+title: "Wskazówka dotycząca kopiowania/wklejania Ubuntu (macOS → Ubuntu)"
+description: "Napraw skróty wklejania podczas kontrolowania Ubuntu z systemu macOS za pomocą Openterface. Użyj trybu Windows, aby uzyskać niezawodne wklejanie w stylu Ctrl, lub Edycja → Wklej jako obejście w trybie Mac."
 date: 2026-02-03
 channel: software
 topic: ["software"]
-category: "Product Aktualizacje"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface"
 ---
-
-Beim Steuern von **Ubuntu** von **macOS** z **Openterface** funktioniert das Einfügen per Shortcut im **Mac-Modus** möglicherweise nie zuverlässig. Diese Przewodnik zeigt die empfohlene Lösung i eine einfache Alternative.
+Podczas kontrolowania **Ubuntu** z **macOS** przy użyciu **Openterface**, wklejanie skrótów może nie działać niezawodnie w **Trybie Mac**. W tym przewodniku przedstawiono zalecaną poprawkę i proste obejście.
 
 ![setting](https://assets2.openterface.com/images/setting.webp)
 
 ---
 
-## Schnelle Lösung (empfohlen dla Ubuntu/Linux)
+## Szybka poprawka (zalecana dla Ubuntu/Linux)
 
-1. Öffnen Sie **Openterface** auf macOS.
-2. Gehen Sie zu **Einstellungen**.
-3. Suchen Sie **Tastaturlayout-Modus des Zielgeräts**.
-4. Wählen Sie **Windows-Modus**.
+1. Otwórz **Openterface** na macOS.
+2. Przejdź do **Ustawienia**.
+3. Znajdź **Tryb układu klawiatury urządzenia docelowego**.
+4. Wybierz **Tryb Windows**.
 
 ![win-mode](https://assets2.openterface.com/images/win-mode.webp)
 
 
-✅ Ergebnis: Einfügen-Shortcuts verhalten sich unter Ubuntu wie erwartet (Ctrl-Style-Verhalten).
+✅ Wynik: skróty wklejania zachowują się zgodnie z oczekiwaniami w systemie Ubuntu (zachowanie w stylu Ctrl).
 
 ![win-ctrl+v](https://assets2.openterface.com/images/win-ctrl+v.webp)
 
 ---
 
-## Alternative (wenn Sie im Mac-Modus bleiben möchten)
+## Obejście (Jeśli chcesz pozostać w trybie Mac)
 
-Wenn Sie den **Mac-Modus** beibehalten möchten, können Sie weiterhin zuverlässig o das Menü einfügen:
+Jeśli wolisz zachować **Tryb Mac**, nadal możesz bezpiecznie wklejać, korzystając z menu:
 
-- **Bearbeiten → Einfügen**
+- **Edytuj → Wklej**
 
 ![edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
 
-✅ Ergebnis: Einfügen funktioniert auch, wenn Shortcut-Einfügen im Mac-Modus inkonsistent ist.
+✅ Wynik: wklejanie działa, nawet jeśli wklejanie skrótów jest niespójne w trybie Mac.
 
-![workaroi](https://assets2.openterface.com/images/workaroi.webp)
-
----
-
-## Warum passiert das?
-
-Die meisten Ubuntu-Apps verwenden **Ctrl-basierte** Shortcuts zum Einfügen. In einigen Konfigurationen kann die **Mac-Modus**-Shortcut-Zuordnung das Einfügen nie zuverlässig auslösen, während **Bearbeiten → Einfügen** zuverlässig funktioniert.
+![workaround](https://assets2.openterface.com/images/workaround.webp)
 
 ---
 
-## Kurz zusammengefasst
+## Dlaczego tak się dzieje
 
-- **Beste Erfahrung unter Ubuntu/Linux:** **Windows-Modus** verwenden
-- **Bei Mac-Modus:** **Bearbeiten → Einfügen** verwenden
-
----
-
-## Brauchen Sie Hilfe bei der Auswahl des richtigen Modus?
-
-Wenn Sie unsicher sind, welchen Modus Sie verwenden sollen, hier eine einfache Faustregel:
-
-- Wenn Ihr Ziel-OS **Ubuntu/Linux** ist, beginnen Sie z dem **Windows-Modus** (am konsistentesten dla gängige Shortcuts).
-- Wenn Sie hauptsächlich **macOS-Ziele** steuern i Mac-Style-Shortcuts möchten, verwenden Sie den **Mac-Modus**.
-
-Wenn Sie häufig zwischen verschiedenen Ziel-OS wechseln, bookmarken Sie diese Seite. Es ist meist eine Ein-Klick-Lösung.
+Większość aplikacji Ubuntu używa skrótów **opartych na Ctrl** do wklejania. W niektórych konfiguracjach mapowanie skrótów **Tryb Mac** może nie powodować spójnego wklejania, natomiast **Edycja → Wklej** działa niezawodnie.
 
 ---
 
-## FAQ
+## Szybkie podsumowanie
 
-**Ändert der Windows-Modus meine Mac-Shortcuts?**  
-Er ändert, wie Openterface Shortcuts an das **Zielgerät** sendet, sodass Ubuntu das erwartete **Ctrl-Style**-Verhalten erhält.
+- **Najlepsze wrażenia z Ubuntu/Linux:** użyj **Trybu Windows**
+- **Jeśli pozostaniesz w trybie Mac:** użyj **Edytuj → Wklej**
 
-**Kann ich Menü-Einfügen in jedem Modus verwenden?**  
-Ja — **Bearbeiten → Einfügen** ist in beiden Modi eine zuverlässige Option.
+---
 
-**Betrifft das auch Raspberry Pi OS?**  
-Oft weniger betroffen, aber bei ähnlichem Verhalten gilt dieselbe Lösung.
+## Potrzebujesz pomocy w określeniu odpowiedniego trybu dla swojej konfiguracji?
+
+Jeśli nie masz pewności, którego trybu użyć, oto krótka praktyczna zasada:
+
+- Jeśli docelowy system operacyjny to **Ubuntu/Linux**, zacznij od **Trybu Windows** (najbardziej spójny dla popularnych skrótów).
+- Jeśli kontrolujesz głównie **obiekty macOS** i potrzebujesz skrótów w stylu Maca, użyj **Trybu Mac**.
+
+Jeśli często przełączasz się między różnymi docelowymi systemami operacyjnymi, rozważ dodanie tej strony do zakładek. Zwykle jest to rozwiązanie jednym kliknięciem.
+
+---
+
+## Często zadawane pytania
+
+**Czy tryb Windows zmienia skróty mojego komputera Mac?**  
+Zmienia sposób, w jaki Openterface wysyła skróty do **urządzenia docelowego**, więc Ubuntu otrzymuje oczekiwane zachowanie **w stylu Ctrl**.
+
+**Czy mogę wklejać menu w dowolnym trybie?**  
+Tak — **Edycja → Wklej** to niezawodna opcja w obu trybach.
+
+**Czy dotyczy to również systemu operacyjnego Raspberry Pi?**  
+Często mniej dotknięty, ale jeśli zauważysz podobne zachowanie, zastosuje się tę samą poprawkę.

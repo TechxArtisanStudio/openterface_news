@@ -2,111 +2,110 @@
 locale: pl
 translationKey: "240823-overcoming-hurdles"
 slug: "240823-overcoming-hurdles"
-title: "Hürden owinden: Fortschritts-Update i neuer Zeitplan"
-description: "Wichtiges Openterface Mini-KVM Update: CE-Zertifizierung abgeschlossen, Produktion läuft, neue ETA Mitte Januar. Sprzęt V1.9 finalisiert z Erweiterungs-Pins, Android-App-Entwicklung, verbesserter Verpackung i mehrsprachigem Handbuch in Arbeit."
+title: "Pokonywanie przeszkód: aktualizacja postępów i nowa oś czasu"
+description: "Ważna aktualizacja Openterface Mini-KVM: ukończono certyfikację CE, produkcja w toku, nowa ETA w połowie stycznia. Sprzęt w wersji 1.9 sfinalizowany z pinami rozszerzeń, rozwojem aplikacji na Androida, ulepszonym opakowaniem i wielojęzyczną instrukcją w toku."
 date: 2024-08-22
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
-category: "Product Aktualizacje"
+topic: ["shipping", "production", "software", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hej wszystkim,
 
-Hey alle zusammen,
+Mam nadzieję, że u Was wszystko w porządku. Minęło trochę czasu od naszej ostatniej aktualizacji. Chciałbym móc powiedzieć, że z Openterface wszystko poszło gładko, ale napotkaliśmy kilka progów zwalniających, które opóźnią harmonogram dostaw. Chociaż nie tego się spodziewaliśmy, stawiamy czoła tym wyzwaniom i stale czynimy postępy, dzieląc się mnóstwem dobrych wiadomości. Ten post obejmuje **przeczytanie 7 minut**, więc przyjrzyjmy się szczegółom, abyś wiedział dokładnie, jak sytuacja wygląda i co będzie dalej.
 
-Ich hoffe, es geht euch allen gut. Es ist eine Weile her seit unserem letzten Update. Ich wünschte, ich könnte sagen, dass alles reibungslos dla Openterface gelaufen ist, aber wir sind auf ein paar Hindernisse gestoßen, die unseren Lieferzeitplan verzögern werden. Obwohl das nie das war, was wir erwartet hatten, gehen wir diese Herausforderungen direkt an i machen stetige Fortschritte z vielen guten Nachrichten zum Teilen. Dieser Post ist etwa **7 Minuten Lesezeit**, also lasst uns in die Details eintauchen, daz ihr genau wisst, wo die Dinge stehen i was als nächstes kommt.
+## Przepisy, produkcja i jakość
 
-## Regulierung, Produktion i Qualität
-
-Bevor wir die Produktion starten konnten, mussten wir notwendige Qualitätstests gemäß den Vorschriften bestehen, insbesondere die CE-Zertifizierung. Da unsere Toolkit-Version nie nur das Mini-KVM, sondern auch mehrere Zubehörteile enthält, musste jeder Teil CE-Tests durchlaufen. Diese Tests dauerten länger als erwartet (es stellt sich heraus, dass Kabel ziemlich wählerisch sein können), aber die gute Nachricht ist, dass **wir CE dla unser Mini-KVM i alle seine Komponenten bestanden haben!** Unten ist eine Przegląd der Zertifizierungen dla alle unsere Teile: Mini-KVM, HDMI-Kabel, oranges Type-C-Kabel, schwarzes kurzes Type-C-Kabel i VGA2HDMI-Kabel. Mit der Zertifizierung in der Hand ist unser Produktionszeitplan jetzt sicher, i unsere Hersteller **produzieren derzeit alle Teile**, während ich spreche.
+Zanim mogliśmy rozpocząć produkcję, musieliśmy przejść niezbędne testy jakościowe zgodnie z przepisami, w szczególności certyfikat CE. Ponieważ nasza wersja zestawu narzędzi zawiera nie tylko Mini-KVM, ale także kilka akcesoriów, każda część musiała przejść testy CE. Testy te trwały dłużej, niż oczekiwano (okazało się, że kable mogą być dość wybredne), ale wspaniałą wiadomością jest to, że **przeszliśmy CE dla naszego Mini-KVM i wszystkich jego komponentów!** Poniżej znajduje się przegląd certyfikatów dla wszystkich naszych części: Mini-KVM, kabel HDMI, pomarańczowy kabel Type-C, czarny krótki kabel Type-C i kabel VGA2HDMI. Mając certyfikat, harmonogram naszej produkcji jest już pewny, a nasi producenci **obecnie produkują wszystkie części**, kiedy to mówię.
 
 ![240823-0](https://www.crowdsupply.com/img/fcb5/db59e179-2413-4d57-8462-2285c007fcb5/openterface-240823-0_jpg_gallery-lg.jpg)
-*UKCA- i CE-Anforderungen sind dla unsere Elektronikprodukte gleich, wobei CE auch RoHS-Konforzät abdeckt.*
+*Wymagania UKCA i CE są takie same dla naszych produktów elektronicznych, przy czym CE obejmuje również zgodność z RoHS.*
 
-Vor zwei Wochen besuchten wir einen unserer Hersteller, um ihre Linienmanager in Qualitätskontrolle dla die orangen Kabel zu schulen, bevor sie sie an uns verschickten. Teraz wurden ALLE orangen Kabel produziert i sitzen in einer Ecke unseres Studios.
+Dwa tygodnie temu odwiedziliśmy jednego z naszych producentów, aby przeszkolić jego menedżerów liniowych w zakresie kontroli jakości pomarańczowych kabli przed ich wysyłką do nas. Teraz WSZYSTKIE pomarańczowe kable zostały wyprodukowane i stoją w kącie naszego studia.
 ![240823-1](https://www.crowdsupply.com/img/28dc/34844b54-0e02-414d-b58b-d40e8abe28dc/openterface-240823-1_jpg_gallery-lg.jpg)
-*Kevin i Shawn erklärten die Testmethoden, um sicherzustellen, dass das orange Kabel ordnungsgemäß z unserem Openterface Mini-KVM funktioniert.*
+*Kevin i Shawn wyjaśniali metody testowania mające na celu zapewnienie prawidłowego działania pomarańczowego kabla z naszym Openterface Mini-KVM.*
 
-Wir werden diese Woche dieselbe Aufgabe dla andere Teile durchführen, um QA an der Produktionsfront zu schulen. Hier sind Proben zusätzlicher Kabel.
+W tym tygodniu wykonamy to samo zadanie, aby przeszkolić kontrolę jakości na linii produkcyjnej również w przypadku innych części. Oto próbki dodatkowych kabli.
 ![240823-2](https://www.crowdsupply.com/img/e703/abb8ffa5-eb85-4eb9-b5f8-d8a3d349e703/openterface-240823-2_jpg_md-xl.jpg)
-*Stolz z unserem TechxArtisan-Logo markiert, das sind Proben des HDMI-Kabels, des kurzen Type-C-Kabels i des VGA-to-HDMI-Kabels.*
+*Dumnie oznaczone naszym logo TechxArtisan, są to próbki kabla HDMI, krótkiego kabla Type-C i kabla VGA-HDMI.*
 
-Wir erwarten, dass die anderen Teile i Mini-KVMs bald von unseren Herstellern ankommen, zu welchem Zeitpunkt wir die Qualität jeder Komponente oprüfen i sie ordnungsgemäß in unserem Studio verpacken werden, bevor sie versandt werden. Mit anderen Worten, **unser Team wird persönlich die Qualität sicherstellen**, bevor sie eure Hände erreicht.
+Oczekujemy, że inne części i Mini-KVM wkrótce dotrą od naszych producentów. Wtedy dokładnie sprawdzimy jakość każdego komponentu i odpowiednio zapakujemy je w naszym studiu przed wysyłką. Innymi słowy, **nasz zespół osobiście zadba o jakość**, zanim produkt trafi do Twoich rąk.
 
-## Versand, potenzielle Verzögerungen i neue ETA
+## Przesyłka, potencjalne opóźnienia i nowy przewidywany czas dotarcia
 
-**Die aktuelle Unsicherheit liegt im Versandprozess**. Nach der Untersuchung mehrerer Versandunternehmen fanden wir heraus, dass der Versand zusätzliche Zeit in Anspruch nehmen wird, da wir wahrscheinlich Pakete o ein Lager transferieren werden, bevor sie das Lager von Crowd Supply erreichen. Wir diskutieren noch, ob wir Seefracht lub Luftfracht wählen sollen—bitte habt noch ein paar Tage Geduld, während wir die Arrangements klären.
+**Obecna niepewność leży w procesie wysyłki**. Po zbadaniu kilku firm spedycyjnych odkryliśmy, że wysyłka zajmie więcej czasu, ponieważ prawdopodobnie przeniesiemy paczki przez magazyn, zanim dotrą do magazynu Crowd Supply. Wciąż zastanawiamy się, czy wybrać fracht morski czy lotniczy – prosimy o wyrozumiałość jeszcze przez kilka dni, podczas gdy będziemy ustalać szczegóły.
 
-Der Zollabfertigung ist ein weiteres potenzielles Hindernis, das unerwartete Verzögerungen verursachen könnte. Sobald unsere Produkty im US-Lager von Crowd Supply ankommen, werden sie ein bis zwei Wochen brauchen, um weltweit basierend auf jeder Bestellung versandt zu werden. Für Unterstützer außerhalb der USA müssen individuelle Pakete immer noch durch globalen Versand i Zollabfertigung im Zielland gehen.
+Odprawa celna to kolejna potencjalna przeszkoda, która może spowodować nieoczekiwane opóźnienia. Gdy nasze produkty dotrą do magazynu Crowd Supply w USA, wysyłka na całym świecie zajmie od jednego do dwóch tygodni, w zależności od każdego zamówienia. W przypadku osób wspierających spoza Stanów Zjednoczonych pojedyncze przesyłki nadal będą musiały przejść globalną wysyłkę i odprawę celną w kraju docelowym.
 
-Unter Berücksichtigung der aktuellen Situation i dem Hinzufügen von etwas Pufferzeit bleibe ich vorsichtig optimistisch, dass wir die Lieferung vor Ende dieses Jahres abschließen werden, z **einer neuen ETA von Mitte Januar**. Es tut mir wirklich leid dla die Unannehmlichkeiten i ich schätze eure Unterstützung i Geduld während dieser Änderung.
+Biorąc pod uwagę obecną sytuację i dodając trochę czasu buforowego, pozostaję ostrożnym optymistą, że ukończymy dostawę przed końcem tego roku, z **nowym przewidywanym czasem przewidywanym na połowę stycznia**. Naprawdę przepraszamy za niedogodności. Dziękujemy za wsparcie i cierpliwość podczas tej zmiany.
 
-## Finalisierte Sprzęt V1.9
+## Sfinalizowany sprzęt w wersji 1.9
 
-Wie ihr vielleicht aus unserem vorherigen [Reddit-Post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/) wisst, haben wir beschlossen, **unsere Sprzęt auf V1.9 zu upgraden**, einschließlich eines Satzes hackbarer Erweiterungs-Pins. Das war nie Teil des ursprünglichen Plans dla die Crowdfiing-Kampagne, aber wir glauben, dass es das **Potenzial dla breitere Nutzung** der Sprzęt erheblich verbessert.
+Jak być może wiecie z naszego poprzedniego [Reddit post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/), zdecydowaliśmy się **uaktualnić nasz sprzęt do wersji 1.9**, włączając zestaw możliwych do zhakowania pinów rozszerzeń. Nie było to częścią pierwotnego planu kampanii crowdfundingowej, ale wierzymy, że znacznie zwiększa **potencjał szerszego zastosowania** sprzętu.
 
 ![240823-3](https://www.crowdsupply.com/img/77d7/09a9d0e5-3065-4f3e-8b61-bae66b5c77d7/openterface-240823-3_jpg_md-xl.jpg)
-*Die VCC-, GND-, Target D+-, Target D--, Host D+- i Host D--Pins—wobei 'D' dla USB-Daten steht.*
+*Styki VCC, GND, Target D+, Target D-, Host D+ i Host D- – gdzie „D” oznacza dane USB.*
 
-Ein wichtiger Antrieb war, **den USB-Schalter auf Oprogramowanie-Ebene umschalten zu können**. Warum ist das wichtig? Auf unserer Roadmap **streben wir an, eine KVM-over-IP-Lösung** wie VNC in der Zukunft zu unterstützen. Die Idee ist, lokale KVM-Steuerung z dem VNC-Protokoll zu verbinden, wodurch Benutzer den Zielcomputer o den Host-Computer fernsteuern können. In einem solchen Remote-Szenario ist die Fähigkeit dla Benutzer, den USB-Port zu wechseln, wesentlich, besonders wenn Dateiotragungen zwischen Host i Ziel erforderlich sind.
+Jedną z kluczowych motywacji było umożliwienie **przełączania przełącznika USB na poziomie oprogramowania**. Dlaczego to jest ważne? W naszym planie działania **zamierzamy wspierać w przyszłości rozwiązania KVM-over-IP**, takie jak VNC. Pomysł polega na dopasowaniu lokalnego sterowania KVM do protokołu VNC, umożliwiając użytkownikom zdalne sterowanie komputerem docelowym za pośrednictwem komputera hosta. W tak zdalnym scenariuszu możliwość przełączania portu USB przez użytkowników jest niezbędna, zwłaszcza gdy wymagane jest przesyłanie plików między hostem a celem.
 
-**Die Erweiterungs-Pins öffnen auch Möglichkeiten dla mehr**, wie Integration z iPadOS, ATX-Steuerung, Netzwerk-Bridging i Audio-Bypass. Obwohl ich hier nie in alle Details eintauchen werde, ermutige ich euch, unserer Openterface-Community beizutreten, um z uns weiter zu diskutieren.
+**Styki rozszerzające otwierają także możliwości**, takie jak integracja z iPadOS, sterowanie ATX, mostkowanie sieci i obejście audio. Chociaż nie będę tutaj zagłębiać się we wszystkie szczegóły, zachęcam Cię do przyłączenia się do naszej społeczności Openterface, aby dalej z nami dyskutować.
 
-Dieses Sprzęt-Upgrade könnte potenziell unsere Openterface-Lösung erweitern, um o IP zu operieren i erweiterte Funkcje zu enthalten, während es seine Kernstärke als Plug-and-Play KVM-over-USB-Tool beibehält—perfekt dla IT-Profis, die unsichere IT-Umgebungen wie unbekannte Rechenzentren navigieren.
+Ta aktualizacja sprzętu może potencjalnie rozszerzyć nasze rozwiązanie Openterface o działanie poprzez protokół IP i uwzględnić bardziej zaawansowane funkcje, zachowując jednocześnie jego podstawową siłę jako narzędzia typu plug-and-play KVM-over-USB — idealnego dla profesjonalistów IT poruszających się w niepewnych środowiskach IT, takich jak nieznane centra danych.
 
-Ich bin froh zu berichten, dass V1.9 unsere internen Basistests bestanden hat i als offizielle Version dla alle unsere Unterstützer finalisiert wird. Dieses Sprzęt-Upgrade wird jedoch weitere Tests erfordern, i jede Entwicklung basierend auf diesen Erweiterungs-Pins wird experimentell sein i wahrscheinlich Bugs haben. Hier könnt ihr beitragen. Wir verlassen uns auf die Open-Source-Community, um uns zu helfen, Openterface zusammen zu verbessern.
+Z przyjemnością ogłaszam, że wersja 1.9 przeszła nasze wewnętrzne, podstawowe testy i zostanie sfinalizowana jako wersja oficjalna dla wszystkich naszych sponsorów. Jednak ta aktualizacja sprzętu będzie wymagała dalszych testów, a wszelkie prace rozwojowe oparte na tych pinach rozszerzeń będą miały charakter eksperymentalny i prawdopodobnie będą zawierać błędy. Tutaj możesz się przyczynić. Liczymy, że społeczność open source pomoże nam wspólnie ulepszyć Openterface.
 
-## Mehr Oprogramowanie-Aktualizacje
+## Więcej aktualizacji oprogramowania
 
-Auf der Oprogramowanie-Seite machen wir aufregende Fortschritte. Wir tauchen jetzt in die **Openterface Android-App** ein! Schaut euch diesen [Tweet](https://x.com/TechxArtisan/status/1825460088922071398) dla eine frühe Demo an, die flüssige KVM-Steuerung, Mausbewegung i Klicks in Aktion zeigt. Mehr Funkcje sind unterwegs, i wie immer, sobald wir den Code etwas mehr poliert haben, **wird diese App auch open-sourced** in unserem GitHub-Repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
+Jeśli chodzi o oprogramowanie, robimy ekscytujące postępy. Teraz zagłębiamy się w **aplikację Openerface na Androida**! Sprawdź to [tweet](https://x.com/TechxArtisan/status/1825460088922071398), aby zobaczyć wczesną wersję demonstracyjną pokazującą płynne sterowanie KVM, ruch myszy i kliknięcia w akcji. Wkrótce pojawi się więcej funkcji i jak zawsze, gdy nieco dokładniej dopracujemy kod, **ta aplikacja będzie również dostępna na zasadach open source** w naszym repozytorium GitHub [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
 ![240823-4](https://www.crowdsupply.com/img/7007/b192f260-1e1f-4dab-905b-fb0a6d927007/openterface-240823-4_jpg_md-xl.jpg)
-*Nur unsere Fingerspitzen verwenden, um einen Linux-Computer von einem Android-Tablet aus KVM zu steuern. Schick!*
+*Korzystając z palców, możesz sterować komputerem z systemem Linux za pomocą KVM z tabletu z systemem Android. Ładnie!*
 
-Unsere QT-Version hat gerade ein praktisches Update erhalten—ihr könnt jetzt [Text vom Host zum Ziel otragen](https://x.com/TechxArtisan/status/1825919721960780131)! Also wird diese Funktion jetzt auf macOS-, Windows- i Linux-Host-Apps unterstützt.
+Nasza wersja QT właśnie otrzymała przydatną aktualizację — możesz teraz [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131)! Dlatego teraz ta funkcja jest obsługiwana w aplikacjach hosta dla systemów macOS, Windows i Linux.
 
-Außerdem planen wir, eine lustige Funktion hinzuzufügen—[eine automatische Mausbewegung, um zu verhindern, dass euer Zielcomputer schläft](https://x.com/TechxArtisan/status/1825471186668847241). Sollen wir z dem Ping-Pong-Ball gehen, der um den Bildschirm hüpft, lub dem klassischen DVD-Bildschirmschoner-Effekt? Stimmt ab i kommentiert den [Tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
+Co więcej, planujemy również dodać zabawną funkcję — [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825471186668847241). Czy powinniśmy wybrać piłeczkę ping-pongową odbijającą się po ekranie, czy klasyczny efekt wygaszacza ekranu DVD? Głosuj i skomentuj [tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
 
-## Verpackungsdesign, Beschriftung i Handbuch
+## Projekt opakowania, oznakowanie i instrukcja
 
-Wir haben [z verschiedenen Mock-ups i Verpackungsdesigns experimentiert](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/), um das perfekte Gleichgewicht zwischen mehreren Schlüsselfaktoren zu finden:
+Staraliśmy się [experimenting with various mock-ups and packaging designs](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/) znaleźć idealną równowagę pomiędzy kilkoma kluczowymi czynnikami:
 
-- Materialien auswählen, die robust genug sind, um das Produkt i seine Teile während des Versands zu schützen,
-- Informative Beschriftung erstellen, die Benutzern hilft, das Produkt auf einen Blick zu verstehen,
-- Einhaltung der Vorschriften sicherstellen,
-- Die Verpackung visuell ansprechend machen,
-- Und umweltfreilich sein, indem Plastikverwendung wo immer möglich minimiert wird.
+- Wybór materiałów wystarczająco wytrzymałych, aby zabezpieczyć produkt i jego części podczas transportu,
+- Tworzenie etykiet informacyjnych, które pomogą użytkownikom zrozumieć produkt już na pierwszy rzut oka,
+- Zapewnienie zgodności z przepisami,
+- Nadanie opakowaniom atrakcyjnej wizualnie formy,
+- I bycie przyjaznym dla środowiska poprzez minimalizowanie użycia plastiku, tam gdzie to możliwe.
 
-Zusätzlich haben wir mehrere Verbesserungen an der alten Toolkit-Tasche vorgenommen, einschließlich:
+Dodatkowo wprowadziliśmy kilka ulepszeń do starej torby na narzędzia, w tym:
 
-- Größerer Stauraum,
-- Stilvollem orangen Reißverschluss,
-- Aufgewerteten Außen- i Innenmaterialien,
-- Und einer super dehnbaren Mesh-Tasche.
+- Większa przestrzeń do przechowywania,
+- Stylowy pomarańczowy zamek błyskawiczny,
+- Ulepszone materiały zewnętrzne i wewnętrzne,
+- I bardzo rozciągliwa kieszeń z siatki.
 
-Wir haben dieses Material gewählt, weil es das ideale Gleichgewicht zwischen budgetfreilich, angenehm zu berühren i haltbar genug, um die Artikel darin zu schützen, bietet. **Wir sind zuversichtlich, dass ihr es lieben werdet**.
+Wybraliśmy ten materiał, ponieważ zapewnia idealną równowagę pomiędzy przystępnością cenową, przyjemnym w dotyku i wystarczająco trwałym, aby chronić przedmioty znajdujące się w środku. **Jesteśmy pewni, że ci się spodoba**.
 
 ![240823-5](https://www.crowdsupply.com/img/099a/75e16f52-bd0c-4652-af27-08caf448099a/openterface-240823-5_jpg_md-xl.jpg)
 
-Wir aktualisieren auch die Beschriftungen auf dem Aluminiumgehäuse, um sie so informativ i visuell ansprechend wie möglich zu machen. Wir hoffen, dass diese Verbesserungen eure Benutzererfahrung verbessern i es einfacher machen werden, z Openterface zu beginnen.
+Aktualizujemy również etykiety na aluminiowej obudowie, aby były jak najbardziej informacyjne i atrakcyjne wizualnie. Mamy nadzieję, że te ulepszenia poprawią komfort użytkowania i ułatwią rozpoczęcie pracy z Openterface.
 
 ![240823-6](https://www.crowdsupply.com/img/94d8/441a5757-2d6a-4c79-885b-7b5b3a7094d8/openterface-240823-6_jpg_md-xl.jpg)
 
-Wir finalisieren das Openterface-Handbuch, das auf Englisch, Deutsch, Französisch, Japanisch i Chinesisch verfügbar sein wird. Entschuldigung, wenn wir eure Sprache verpasst haben—unsere Box ist nie TARDIS-groß (die Polizeibox von Doctor Who)! Aber wir werden unser Bestes geben, um mehr Übersetzungen auf unserer Website hinzuzufügen.
+Finalizujemy podręcznik Openterface, który będzie dostępny w języku angielskim, niemieckim, francuskim, japońskim i chińskim. Przepraszamy, jeśli przegapiliśmy Twój język – nasze pudełko nie jest wielkości TARDIS (skrzynka policyjna Doctor Who)! Postaramy się jednak dodać więcej tłumaczeń na naszej stronie internetowej.
 
 ![240823-7](https://www.crowdsupply.com/img/e2d9/2e5a2086-20f0-47ec-a27b-288d10d0e2d9/openterface-240823-7_jpg_md-xl.jpg)
 
-## Community-Sprachoprüfung
+## Przegląd języka społeczności
 
-Ich habe ChatGPT verwendet, um bei Übersetzungen zu helfen, aber es kann manchmal bei Formulierungen i Wortwahl daneben liegen. Wenn es nie zu viel Mühe ist, würde ich jede Hilfe bei der Überprüfung von Inhalten in anderen Sprachen sehr schätzen, besonders dla die Druckmaterialien, die wir gerade finalisieren. Ich habe alle Textinhalte dla die Verpackung in unserem GitHub-Ordner [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials) aktualisiert, wo ihr oprüfen i Verbesserungen einreichen könnt. Ihr könnt mich auch direkt DMen. Danke!
+Używam ChatGPT do pomocy przy tłumaczeniach, ale czasami może mi się to nie udać, jeśli chodzi o frazowanie i sformułowanie. Jeśli nie sprawi to większego problemu, będę bardzo wdzięczny za pomoc w sprawdzeniu treści w innych językach, szczególnie w przypadku materiałów drukowanych, które wkrótce będziemy finalizować. Zaktualizowałem całą zawartość tekstową opakowania w naszym folderze GitHub [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials), w którym możesz przeglądać i zgłaszać wszelkie ulepszenia. Możesz także napisać do mnie bezpośrednio na DM. Dzięki!
 
-## Abschließende Bemerkungen i laufende Fortschritte
+## Uwagi końcowe i ciągły postęp
 
-Wir entschuldigen uns nochmals dla die Verzögerungen i die Änderung in der ETA unseres Produkts. Danke dla eure Geduld i dadla, dass ihr bei uns bleibt—wir arbeiten hart daran, es euch so schnell wie möglich zu bringen! Ich werde euch sofort aktualisieren, sobald unser Versand arrangiert ist. Mehr Aktualizacje sind unterwegs, also trett unserer Openterface-Community bei i bleibt dran!
+Jeszcze raz przepraszamy za opóźnienia i zmianę ETA naszego produktu. Dziękujemy za cierpliwość i pozostawanie z nami — ciężko pracujemy, aby dostarczyć Ci tę wiadomość jak najszybciej! Poinformuję Cię natychmiast, gdy nasza przesyłka zostanie zorganizowana. Więcej aktualizacji jest już w drodze, więc dołącz do naszej społeczności Openterface i bądź na bieżąco!
 
-Prost,
+Pozdrawiam,
 
-Billy Wang  
-Produktmanager  
-Openterface-Team | TechxArtisan
+Billy'ego Wanga  
+Menedżer produktu  
+Zespół Openinterface | TechxArtisan

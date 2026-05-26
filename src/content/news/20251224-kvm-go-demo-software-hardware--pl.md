@@ -2,114 +2,114 @@
 locale: pl
 translationKey: "20251224-kvm-go-demo-software-hardware"
 slug: "20251224-kvm-go-demo-software-hardware"
-title: "Neues Demo-Video, Oprogramowanie-Fortschritte i was sich in KVM-GO befindet"
-description: "Schauen Sie sich das neue Demo-Video dla KVM-GO an i sehen Sie, wie die HDMI/DP/VGA-Versionen in Aktion sind. Erfahren Sie mehr o einheitliche Oprogramowanie dla Mini-KVM i KVM-GO, Sprzęt-Upgrades einschließlich des MS2130S 4K@60Hz-Video-Prozessors i CH32V208-MCU, sowie bevorstehende Funkcje wie die Unterstützung benutzerdefinierter EDID. Kampagnenupdate: $72k z o 220 Unterstützern."
+title: "Nowy film demonstracyjny, postęp oprogramowania i zawartość KVM-GO"
+description: "Obejrzyj nowy film demonstracyjny KVM-GO prezentujący w akcji wersje HDMI/DP/VGA. Dowiedz się o ujednoliconym oprogramowaniu dla Mini-KVM i KVM-GO, aktualizacjach sprzętu, w tym o procesorze wideo MS2130S 4K przy 60 Hz i MCU CH32V208, a także o nadchodzących funkcjach, takich jak niestandardowa obsługa EDID. Aktualizacja kampanii: 72 tys. dolarów i ponad 220 osób wspierających."
 date: 2025-12-24
 channel: product
 product: kvm-go
-topic: ["software", "campaign", "community"]
-category: "Produkt-Aktualizacje"
-tags: ["KVM-GO", "Produkt-Aktualizacje", "Oprogramowanie", "Sprzęt", "Demo-Video", "Crowdfiing", "Technischer Deep Dive"]
+topic: ["production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Software", "Hardware", "Demo Video", "Crowdfunding", "Technical Deep Dive"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+Hej wszystkim! Przepraszam za spokojny okres. Od samego początku pracowaliśmy nad dopracowaniem sprzętu i oprogramowania dla [KVM-GO](https://openterface.com/product/kvm-go/), a czas szybko mijał. Pod koniec grudnia osiągnęliśmy **72 tys. dolarów przy ponad 220 wspierających**, co jest niesamowite. Jeśli możesz pomóc nam w dalszym rozwoju tej sprawy, **rozpowszechnij tę informację**!
 
-Hey everyone! Entschuldigung dla die ruhige Phase. Wir haben uns voll i ganz darauf konzentriert, sowohl Sprzęt als auch Oprogramowanie dla [KVM-GO](https://openterface.com/product/kvm-go/) zu polieren, i die Zeit ist einfach vorbeigegangen. Bis Ende Dezember haben wir **$72k z o 220 Unterstützern** erreicht, was unglaublich ist. Falls Sie uns dabei helfen können, dies noch weiter zu steigern, teilen Sie bitte die Nachricht!
-
-Vielen herzlichen Dank dla Ihre Geduld i Unterstützung. Ja, Weihnachten hat sicherlich zur Verwirrung beigetragen 🙂🎄 Teraz fangen wir an, aufzuholen.
+Dziękuję bardzo za cierpliwość i wsparcie. I tak, Boże Narodzenie zdecydowanie pogłębiło chaos 🙂🎄 A teraz nadróbmy zaległości.
 
 ![blog-Gemini_Generated_Image_kvm-go](https://assets.openterface.com/images/blog/Gemini_Generated_Image_kvm-go.webp)
-*Weihnachts-geprägtes Bild, generiert z Nano Banana, basierend auf realen Fotos unserer KVM-GO Produkty.*
+*Obraz z motywem świątecznym wygenerowany za pomocą Nano Banana na podstawie prawdziwych zdjęć naszych produktów KVM-GO.*
 
-## Neues Demo-Video: KVM-GO in Aktion
+## Nowy film demonstracyjny: KVM-GO w akcji
 
-Wir haben gerade ein [**neues Demo-Video**](https://www.youtube.com/watch?v=459rWCQbJRE) veröffentlicht, das KVM-GO in der realen Anwendung zeigt.
+Właśnie opublikowaliśmy [**new demo video**](https://www.youtube.com/watch?v=459rWCQbJRE) pokazujący KVM-GO w rzeczywistym użyciu.
 
+<iframe szerokość="560" wysokość="315" src="https://www.youtube.com/embed/459rWCQbJRE?si=6IbiJwkcpuZurepz" title="Odtwarzacz wideo YouTube"frameborder="0" pozwalają="akcelerometr; autoodtwarzanie; zapis w schowku; multimedia zaszyfrowane; żyroskop; obraz w obrazie; udostępnianie w sieci" referrerpolicy="strict-origin-when-cross-origin" zezwoleniefullscreen></iframe>
 
-Im Video sehen Sie:
+W filmie zobaczysz:
 
-* KVM-GO **HDMI / DP / VGA** Versionen in Aktion
-* Was im **Karton enthalten ist**
-* Wie Sie verschiedene Zielgeräte steuern
-* Wie KVM-GO in reale Workflows passt, von schnellem Zugriff bis hin zu Multi-Target-Einstellungen
+* Wersje KVM-GO **HDMI / DP / VGA** w akcji
+* Co zawiera **w pudełku**
+* Jak kontrolować różne urządzenia docelowe
+* Jak KVM-GO wpasowuje się w rzeczywiste przepływy pracy, od szybkiego dostępu po konfiguracje z wieloma celami
 
-Wenn Sie neugierig auf mehr lockeren, hands-on-Tests i reale Nutzung sind, können Sie auch unsere [sozialen Medien](https://openterface.com/about/community/) besuchen. Wir teilen häufig Roh-Testclips i praktische Szenarien, die zeigen, wie KVM-GO in realen Tech-Frontlines funktioniert.
+Jeśli interesują Cię bardziej swobodne, praktyczne testy i rzeczywiste użytkowanie, nie wahaj się sprawdzić również naszego [social media](https://openterface.com/about/community/). Często udostępniamy surowe klipy testowe i praktyczne scenariusze pokazujące, jak KVM-GO zachowuje się na prawdziwych frontach technologicznych.
 
-## Oprogramowanie-Fortschritte: Eine App dla Mini-KVM i KVM-GO
+## Postęp oprogramowania: jedna aplikacja dla Mini-KVM i KVM-GO
 
-Auf der Oprogramowanieseite haben wir einen soliden Schritt nach vorne gemacht.
+Jeśli chodzi o oprogramowanie, zrobiliśmy solidny krok naprzód.
 
-Unsere neuesten Aktualizacje ermöglichen es der **gleichen Openterface-App, nahtlos z beiden Mini-KVM i der KVM-GO-Serie zu funktionieren**. Für Benutzer bedeutet dies:
+Nasze najnowsze aktualizacje umożliwiają **tę samą aplikację Openterface bezproblemową współpracę zarówno z serią Mini-KVM, jak i KVM-GO**. Dla użytkowników oznacza to:
 
-* Eine konsistente Erfahrung o alle Produkty hinweg
-* Weniger Fragmentierung, wenn Sie mehr als ein Openterface-Gerät verwenden
+* Spójne doświadczenie w przypadku wszystkich produktów
+* Mniejsza fragmentacja, jeśli używasz więcej niż jednego urządzenia Openterface
 
-Wir haben auch Zeit investiert, die **Tastatur- i Mausleistung zu verbessern**, z Fokus auf:
+Poświęciliśmy także czas na poprawę **wydajności klawiatury i myszy**, koncentrując się na:
 
-* Geringere Gesamtlatenz
-* Stabilere Eingabebehandlung, einschließlich besserer Erkennung des Połączeniesstatus i Signalqualität
-* Schnelleres Reagieren bei schnellen lub kontinuierlichen Interaktionen
+* Niższe ogólne opóźnienie
+* Bardziej stabilna obsługa wejścia, w tym lepsze wykrywanie stanu połączenia i jakości sygnału
+* Szybsza reakcja podczas szybkich lub ciągłych interakcji
 
-Obwohl Gaming nie der primäre Anwendungsfall unserer KVM-Lösungen ist, kümmern wir uns dennoch sehr um die Reaktionsfähigkeit der Eingaben in realen Szenarien. Wenn Sie sich dla die technischen Details interessieren, insbesondere unter macOS, haben wir kürzlich einen tiefen Einblick hier veröffentlicht:
-👉 **[Openterface Mini-KVM Mausgeschwindigkeit & Gaming-Leistung unter macOS](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
+Chociaż gry nie są głównym docelowym zastosowaniem naszych rozwiązań KVM, nadal bardzo dbamy o szybkość reakcji na dane wejściowe w rzeczywistych scenariuszach. Jeśli interesują Cię szczegóły techniczne, zwłaszcza dotyczące systemu macOS, niedawno opublikowaliśmy szczegółowe informacje tutaj:
+👉 **[Openterface Mini-KVM Mouse Speed & Gaming Performance on macOS](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
 
-Viele der dort besprochenen Verbesserungen fließen nun direkt in unsere einheitliche Oprogramowanie-Stack dla beide Mini-KVM i KVM-GO.
+Wiele z omawianych tam ulepszeń jest teraz wprowadzanych bezpośrednio do naszego ujednoliconego stosu oprogramowania zarówno dla Mini-KVM, jak i KVM-GO.
 
-## Kern-Sprzęt-Upgrades in KVM-GO (Vergleich zu Mini-KVM)
+## Podstawowe aktualizacje sprzętu w KVM-GO (w porównaniu do Mini-KVM)
 
-Für alle, die sich dla die internen Details interessieren, hier ein schneller Vergleich der wichtigsten Sprzęt-Änderungen von Mini-KVM zu KVM-GO.
+Dla zainteresowanych elementami wewnętrznymi, oto krótkie porównanie kluczowych zmian sprzętowych z Mini-KVM na KVM-GO.
 
-### Video-Pipeline-Upgrades
+### Aktualizacja potoku wideo
 
-| Aspekt           | **MS2109 (Mini-KVM)**    | **MS2130S (KVM-GO)** | Verbesserung           |
-| ---------------- | ------------------------ | -------------------- | --------------------- |
-| HDMI-Eingabe     | 4K @ 30Hz                | 4K @ 60Hz            | 2× Eingabebandbreite    |
-| USB-Videowiedergabe | 1080p @ 30Hz             | 4K @ 60Hz            | 4× Pixeldurchsatz   |
-| Interne Skalierung | 4K → 1080p               | Native 4K            | Keine erzwungene Downskalierung |
-| Bildlatenz       | Höher (Scaler + Puffer)  | Niedriger (Direkter Pfad) | Verringerte Latenz       |
+| Aspekt | **MS2109 (Mini-KVM)** | **MS2130S (KVM-GO)** | Poprawa |
+| ---------------- | ------------------------ | ---------------------------------- | ----------------------------------- |
+| Wejście HDMI | 4K przy 30 Hz | 4K przy 60 Hz | 2× szerokość pasma wejściowego |
+| Wyjście wideo USB | 1080p przy 30 Hz | 4K przy 60 Hz | Przepustowość 4x pikseli |
+| Skalowanie wewnętrzne | 4K → 1080p | Natywne 4K | Brak wymuszonego zmniejszania |
+| Opóźnienie ramki | Wyższy (skaler + bufor) | Dolna (ścieżka bezpośrednia) | Zmniejszone opóźnienie |
 
-### USB-Tastatur- & Maus-Emulation-Upgrades
+### Aktualizacja emulacji klawiatury i myszy USB
 
-| Aspekt             | **CH340 + CH9329 (Mini-KVM)** | **CH32V208 (KVM-GO)** | Verbesserung     |
-| ------------------ | ----------------------------- | --------------------- | --------------- |
-| Chipanzahl         | 2 Chips                       | Ein MCU               | Einfacheres System |
-| USB-Verarbeitung   | USB–Serial Bridge             | Native USB-Gerät      | Geringere Latenz |
-| HID-Erzeugung      | Festfunktion                  | Firmware-definiert    | Vollständige Kontrolle |
-| Datenpfad          | USB → UART → HID              | USB → HID             | Ein Hopf entfernt |
-| BIOS-Kompatibilität | Gemischt                      | Ausgezeichnet         | Zuverlässiger     |
+| Aspekt | **CH340 + CH9329 (Mini-KVM)** | **CH32V208 (KVM-GO)** | Poprawa |
+| ------------------ | ------------------------------ | ----------------------------------- | --------------- |
+| Liczba żetonów | 2 żetony | Pojedynczy MCU | Prostszy system |
+| Obsługa USB | Mostek USB – szeregowy | Natywne urządzenie USB | Mniejsze opóźnienie |
+| Generacja HID | Funkcja stała | Zdefiniowane przez oprogramowanie | Pełna kontrola |
+| Ścieżka danych | USB → UART → HID | USB → HID | Usunięto jeden przeskok |
+| Zgodność BIOS-u | Mieszane | Znakomity | Bardziej niezawodny |
 
-## Fortgeschrittene Funkcje in aktiver Entwicklung
+## Zaawansowane funkcje w aktywnym rozwoju
 
-Viele fortgeschrittene Funkcje sind geplant i werden aktiv dla die finale KVM-GO-Firmware entwickelt. Ein kurzer Vorgeschmack:
+W gotowym oprogramowaniu KVM-GO planowanych jest kilka zaawansowanych funkcji, które są aktywnie rozwijane. Szybki podgląd:
 
-* **Benutzerdefinierte EDID-Unterstützung** zur Lösung von Anzeigeverträglichkeitsproblemen
-* **Skriptbasierte Steuerung** dla Automatisierung i fortgeschrittene Workflows
+* **Niestandardowa obsługa EDID** w celu rozwiązywania problemów ze zgodnością wyświetlaczy
+* **Kontrola oparta na skryptach** dla automatyzacji i zaawansowanych przepływów pracy
 
-Wir werden weitere Details teilen, sobald diese Funkcje reif sind.
+Więcej szczegółów udostępnimy w miarę dojrzewania tych funkcji.
 
-## Open-Source-Verpflichtung (Wie immer)
+## Zaangażowanie w oprogramowanie open source (jak zawsze)
 
-Ja, **KVM-GO bleibt vollständig Open Source**.
+Tak, **KVM-GO pozostanie w pełni oprogramowaniem typu open source**.
 
-Sobald das Sprzęt-Design dla die Massenproduktion finalisiert ist, beantragen wir die **OSHWA (Open Source Sprzęt Association)-Zertifizierung**.
+Po sfinalizowaniu projektu sprzętu do masowej produkcji złożymy wniosek o **certyfikat OSHWA (Open Source Hardware Association)**.
 
-Alle Sprzęt-Designdateien i STL-Modelle werden hier veröffentlicht:
-👉 [https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Sprzęt](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Sprzęt)
+Wszystkie pliki projektów sprzętu i modele STL zostaną opublikowane tutaj:
+👉 [https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware)
 
-Transparenz i Community-Kooperation bleiben zentral dla das, was wir tun.
+Przejrzystość i współpraca społeczna pozostają podstawą naszej działalności.
 
-## Letzte Tage der Kampagne: Ein nettes Erinnerung
+## Ostatnie dni kampanii: przyjazne przypomnienie
 
-Wir sind nun in den **letzten Tagen** der Crowdfiing-Kampagne.
+Jesteśmy teraz w **ostatnich dniach** kampanii crowdfundingowej.
 
-Crowdfiing ist die **beste Chance, KVM-GO zum niedrigsten Preis zu erhalten**. Sobald die Kampagne endet i wir auf Post-Crowdfiing-Bestellungen umschalten, steigt der Preis.
+Finansowanie społecznościowe to **największa szansa na zdobycie KVM-GO w najniższej cenie**. Gdy kampania się zakończy i przejdziemy do zamówień po crowdfundingu, cena wzrośnie.
 
-Wenn Sie sich noch unschlüssig sind, ist jetzt die Zeit.
+Jeśli do tej pory się wahałeś, teraz jest na to czas.
 
-👉 **Unterstützen Sie die Kampagne i sichern Sie sich Ihr Gerät bei Crowd Supply:**
+👉 **Wspieraj kampanię i zabezpiecz swoją jednostkę na Crowd Supply:**
 [https://www.crowdsupply.com/techxartisan/openterface-kvm-go](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)
 
-Vielen herzlichen Dank nochmals dla Ihre Geduld, Vertrauen i Unterstützung. Weitere Aktualizacje kommen bald, i wir werden versuchen, nie wieder so still zu sein. Warme Weihnachtsgrüße von uns allen!
+Jeszcze raz dziękujemy za cierpliwość, zaufanie i wsparcie. Więcej aktualizacji już wkrótce i postaramy się nie milczeć. Gorące życzenia świąteczne od nas wszystkich!
 
-**Openterface Team | TechxArtisan**
+**Zespół Openface | TechxArtisan**

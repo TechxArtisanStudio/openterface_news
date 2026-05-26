@@ -2,169 +2,169 @@
 locale: ar
 translationKey: "20260305-kvm-go-dp-vga-thermal-fix"
 slug: "20260305-kvm-go-dp-vga-thermal-fix"
-title: "KVM-GO DP/VGA Wärme-Korrektur – Engineering Log"
-description: "Eine detaillierte Betrachtung des DP- و VGA-Hitzeproblems bei KVM-GO: Messungen, PCB-Änderungen و mechanische Korrekturen, die die Überhitzung ohne Lüfter behoben haben."
+title: "الإصلاح الحراري KVM-Go DP/VGA – السجل الهندسي"
+description: "نظرة عميقة على مشكلة حرارة DP وVGA على KVM-Go، مع تفاصيل القياسات وتغييرات PCB والإصلاحات الميكانيكية التي حلت ارتفاع درجة الحرارة دون إضافة مروحة."
 date: 2026-03-05
 channel: product
 product: kvm-go
-topic: ["software", "event"]
-category: "منتج-التحديثات"
-tags: ["KVM-GO", "Wärme", "Engineering Log", "منتجdesign"]
+topic: ["software", "event", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Thermal", "Engineering Log", "Product Design"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+## الإدخال 1: اللحظة التي أدركنا فيها أن الجو لم يكن "دافئًا بشكل طبيعي"
+في منتصف الطريق خلال تطوير KVM-GO، رأينا سلوكًا حراريًا لا يتوافق مع التوقعات النموذجية "الجهاز الصغير يصبح دافئًا". لقد ظهر فقط على نوعين مختلفين، DisplayPort (DP) وVGA. بقي متغير HDMI ضمن التوقعات.
 
-## Eintrag 1: Der Moment, als wir merkten, dass es kein „normales Warm“ war
-Mitten in der KVM-GO-Entwicklung beobachteten wir ein Wärmeverhalten, das لا den üblichen Erwartungen eines „kleinen Geräts, das warm wird“ entsprach. Es trat nur bei zwei Varianten auf: DisplayPort (DP) و VGA. Die HDMI-Variante blieb innerhalb der Erwartungen.
-
-Zunächst war das Symptom einfach: Die Gehäusetemperatur wurde früher als erwartet unangenehm. Was uns beunruhigte, war لا der Komfort, sondern die Möglichkeit, dass die Innentemperaturen weit حول dem liegen, was Verbraucher-Komponenten langfristig tolerieren sollen.
+في البداية، كانت الأعراض بسيطة. أصبحت درجة حرارة العلبة غير مريحة في وقت أبكر مما كان متوقعا. ما يهمنا لم يكن الراحة. كان من المحتمل أن تكون درجات الحرارة الداخلية أعلى بكثير مما ينبغي أن تتحمله المكونات المخصصة للمستهلك مع مرور الوقت.
 
 
 ---
 
-## Eintrag 2: Warum nur DP و VGA
-Nach der Verfolgung des Videopfs-Designs حول die Versionen zeichnete sich ein Muster ab.
+## الإدخال 2: لماذا DP وVGA فقط
+بعد تتبع تصميم مسار الفيديو عبر الإصدارات، ظهر نمط.
 
-- HDMI: eine einzelne Konvertierungsstufe (HDMI zu USB-Video) مع MS2130S
-- DP: eine Zwei-Chip-Kette (IT6563 plus MS2130S), um DP in USB-Video zu wandeln
-- VGA: eine Zwei-Chip-Kette (MS9288C plus MS2109S), um VGA in USB-Video zu wandeln
+- HDMI: مرحلة تحويل واحدة (فيديو HDMI إلى USB) باستخدام MS2130S
+- DP: سلسلة مكونة من شريحتين (IT6563 بالإضافة إلى MS2130S) لتحويل DP إلى فيديو USB
+- VGA: سلسلة مكونة من شريحتين (MS9288C بالإضافة إلى MS2109S) لتحويل VGA إلى فيديو USB
 
-Zwei Chips bedeuten لا nur mehr Teile. Sie bringen mehr Leistungsaufnahme و lokale Hotspots. Bei einem منتج in KVM-GO-Größe haben diese Hotspots kaum Platz, sich zu verteilen.
+شريحتان لا تضيفان أجزاء فقط. يضيفون تبديد الطاقة والنقاط الساخنة المحلية. في منتج بحجم مثل KVM-GO، لا تحتوي تلك النقاط الساخنة على مساحة كبيرة للانتشار.
 
-Dann stießen wir auf die zweite Einschränkung: die Oberfläche. KVM-GO drückt die Größe ans Liمع, was bedeutet, dass PCB-Fläche و effektive Wärmeabgabe-Fläche beide winzig sind.
+ثم واجهنا القيد الثاني، مساحة السطح. تدفع KVM-GO الحجم إلى الحد الأقصى، مما يعني أن مساحة PCB ومنطقة توزيع الحرارة الفعالة كلاهما صغيران.
 
-Schließlich wurde eine Layout-Einschränkung zu einem echten Engineering-Kompromiss. Beide heißen Chips auf dieselbe Seite zu legen klingt thermisch ideal, aber Pinbelegung و High-Speed-Routing-Anforderungen machten diesen Ansatz schwierig. Einen Chip mehr „innen“ zu platzieren vereinfachte das Routing و half der Signalintegrität, fängt aber die Wärme im Inneren des Gehäuses ein.
+أخيرًا، كان هناك قيود تخطيطية تحولت إلى مقايضة هندسية حقيقية. إن وضع الرقاقتين الساخنتين على نفس الجانب يبدو مثاليًا من الناحية الحرارية، لكن متطلبات التثبيت والتوجيه عالي السرعة جعلت هذا النهج صعبًا. يؤدي وضع شريحة واحدة "بالداخل" إلى تبسيط عملية التوجيه وساعد في سلامة الإشارة، ولكنها تحبس الحرارة في الجزء الداخلي من العلبة.
 
 ![Original-PCB-layout](https://assets2.openterface.com/images/Original-PCB-layout.webp)
 
-*Ursprüngliches PCB-Layout*
+* تخطيط ثنائي الفينيل متعدد الكلور الأصلي *
 
 ![original-Wiring](https://assets2.openterface.com/images/original-Wiring.webp)
 
-*Ursprüngliche High-Speed-Verteilung*
+* التوجيه الأصلي عالي السرعة *
 
 ![KVM-Go-tructure](https://assets2.openterface.com/images/KVM-Go-tructure.webp)
 
 
-*KVM-GO internes Stapellayout*
+* تخطيط المكدس الداخلي KVM-GO *
 
 ---
 
-## Eintrag 3: Messen, was zählt – Innen- vs. Außentemperatur
-Wir beschlossen, مع dem Raten aufzuhören و beide Seiten des Problems zu messen. Wir bauten Temperaturmessstellen لـ externe و interne Überwachung و führten einen Langzeit-Lasttest durch.
+## المدخل 3: قياس ما يهم، درجة الحرارة الداخلية مقابل درجة الحرارة الخارجية
+قررنا التوقف عن التخمين وقياس جانبي المشكلة. قمنا ببناء نقاط قياس درجة الحرارة للمراقبة الخارجية والداخلية، ثم أجرينا اختبار عبء العمل طويل الأمد.
 
-Das Ergebnis war alarmierend, besonders bei VGA.
+وكانت النتيجة مثيرة للقلق، وخاصة على VGA.
 
-Nach etwa einer Stوe Dauerbetrieb:
-- Außenfläche erreichte etwa 65 °C
-- Innentemperatur erreichte Spitzen um 115 °C
+بعد حوالي ساعة من العمل المتواصل:
+- تصل درجة حرارة السطح الخارجي إلى حوالي 65 درجة مئوية
+- بلغت درجة الحرارة الداخلية ذروتها حوالي 115 درجة مئوية
 
-Viele Verbraucher-Komponenten sind لـ maximale Betriebstemperaturen um 85 °C spezifiziert, je nach Teil و Qualitätsstufe. Dreistellige Innentemperaturen bedeuteten, dass wir لا nur مع „heiß anfassen“ zu tun hatten, sondern مع etwas, das die منتجlebensdauer verkürzen أو unvorhersehbares Verhalten in verschiedenen Umgebungen verursachen könnte. 
+تم تصنيف العديد من المكونات الاستهلاكية لدرجات حرارة تشغيل قصوى تبلغ حوالي 85 درجة مئوية، اعتمادًا على الجزء والدرجة المحددة. إن رؤية درجات الحرارة الداخلية المكونة من ثلاثة أرقام تعني أننا لا نتعامل فقط مع "اللمس الساخن". كنا نبحث عن شيء قد يؤدي إلى تقصير عمر المنتج أو إنشاء سلوك غير متوقع عبر البيئات. 
 
 ![Original-emperature-test](https://assets2.openterface.com/images/Original-emperature-test.webp)
 
-*Basis-Temperaturtest (innen vs. außen)*
+*اختبار درجة الحرارة الأساسية (الداخلية مقابل الخارجية)*
 
 ---
 
-## Eintrag 4: Ein schneller Sanity-Check – erzwungene Luftströmung funktioniert (aber ist keine منتجlösung)
-Bevor wir etwas neu entwarfen, wollten wir eine schnelle Validierung: Wenn wir Wärme schneller abführen, sinken die Temperaturen spürbar?
+## الإدخال 4: فحص سريع للسلامة، وتدفق الهواء القسري يعمل (ولكن هذا ليس حلاً للمنتج)
+قبل إعادة تصميم أي شيء، أردنا التحقق السريع. إذا تمكنا من إزالة الحرارة بشكل أسرع، فهل تنخفض درجات الحرارة بشكل ملحوظ؟
 
-Wir probierten ein einfaches Setup مع DIY-Lüfter. Es tat, was die Physik sagt: Die Temperaturen sanken deutlich, grob 15 °C in unserem Test. Das bestätigte, dass es ein thermischer Flaschenhals war, kein Messartefakt أو البرمجياتverhalten.
+لقد جربنا إعدادًا بسيطًا للهواء القسري باستخدام مروحة DIY. لقد فعلت ما تقول الفيزياء أنه ينبغي. انخفضت درجات الحرارة بشكل ملحوظ، حوالي 15 درجة مئوية في اختبارنا. وهذا يؤكد أن المشكلة كانت عبارة عن عنق الزجاجة الحراري وليس نتائج القياس أو سلوك البرنامج.
 
-Es bestätigte auch etwas anderes: Ein Lüfter ist لا مع dem منتج vereinbar, das wir bauen. KVM-GO muss kompakt, leise و autark bleiben. Erzwungene Luftströmung wurde also ein Diagnosewerkzeug, لا die finale Antwort.
+كما أكدت شيئا آخر. المروحة غير متوافقة مع المنتج الذي نقوم ببنائه. يجب أن تظل KVM-GO مضغوطة وصامتة ومكتفية بذاتها. لذلك أصبح تدفق الهواء القسري أداة تشخيصية، وليس الحل النهائي.
 
 ![Fan-1png](https://assets2.openterface.com/images/Fan-1png.webp)
 
-*DIY-Lüfter-Kühlungsaufbau*
+*إعداد مروحة التبريد بنفسك*
 
 ![Fan-2](https://assets2.openterface.com/images/Fan-2.webp)
 
-*DIY-Lüfterkühlung, alternative Ansicht*
+*تبريد المروحة بنفسك، عرض بديل*
 
 ![Temperature-test-fan](https://assets2.openterface.com/images/Temperature-test-fan.webp)
 
-*Temperaturtest مع Lüfterkühlung*
+*اختبار درجة الحرارة مع تبريد المروحة*
 
 ---
 
-## Eintrag 5: Fix Schritt 1 – Wärmequellen nach außen (ohne Signalintegrität zu brechen)
-Der erste echte Fix war auf dem PCB. Wir trieben die Konstruktion so weit wie möglich, beide wärmeerzeugenden Chips näher an die Außenseite zu platzieren.
+## الإدخال 5: إصلاح الخطوة 1، نقل مصادر الحرارة إلى الخارج (دون كسر سلامة الإشارة)
 
-Das war لا „einfach Teile verschieben“. Bei DP و VGA sind die Routing-Einschränkungen eng. High-Speed-Signale sauber zu halten, besonders die differentiellen Paare, ist لا verhandelbar. Beide Chips nach außen zu setzen machte das Routing schwieriger, و wir mussten sorgfältig arbeiten, um die Signalintegrität لا zu verschlechtern.
+كان الإصلاح الحقيقي الأول على ثنائي الفينيل متعدد الكلور. لقد دفعنا التصميم إلى أقصى حد ممكن نحو وضع الرقاقتين المولدتين للحرارة بالقرب من الجانب الخارجي.
 
-Wir verglichen altes vs. neues Layout و Routing و bauten الأجهزة zur Verifikation. 
+لم يكن هذا "مجرد تحريك الأجزاء". مع DP وVGA، تكون قيود التوجيه شديدة. إن الحفاظ على نظافة الإشارات عالية السرعة، وخاصة الأزواج التفاضلية، أمر غير قابل للتفاوض. إن وضع كلتا الرقاقتين في الخارج جعل التوجيه أكثر صعوبة، وكان علينا أن نعمل بعناية لتجنب تدهور سلامة الإشارة.
+
+قمنا بمقارنة التخطيط والتوجيه القديم مقابل الجديد، ثم قمنا ببناء أجهزة للتحقق من السلوك. 
 
 ![New-PCB-ayout](https://assets2.openterface.com/images/New-PCB-ayout.webp)
 
-*Überarbeitetes PCB-Layout (Chips nach außen verlagert)*
+* تخطيط ثنائي الفينيل متعدد الكلور المنقح (تم نقل الرقائق إلى الخارج) *
 
 ![Wiring-layout-modification](https://assets2.openterface.com/images/Wiring-layout-modification.webp)
 
-*Überarbeitete Verteilung (Durchlauf 1)*
+* التوجيه المنقح (تمرير 1) *
 
 ![Wiring-layout-modification-2](https://assets2.openterface.com/images/Wiring-layout-modification-2.webp)
 
-*Überarbeitete Verteilung (Schlüsselbereich)*
+* التوجيه المنقح (المنطقة الرئيسية) *
 
 ![PCB-ayout-modifications](https://assets2.openterface.com/images/PCB-ayout-modifications.webp)
 
-*Überarbeitetes PCB, zur Validierung aufgebaut*
+*ثنائي الفينيل متعدد الكلور المنقح، المصمم للتحقق من الصحة*
 
-### Was sich nach Schritt 1 änderte
-Die Wärme verbesserte sich, aber wir entdeckten ein Problem zweiter Ordnung: Die Temperatur حولtrug sich immer noch لا effektiv ins Gehäuse. Einige Bereiche blieben wärmer als sie sollten, و die Thermografie legte nahe, dass das Gehäuse لا wie ein ordentlicher Wärmeverteiler wirkte.
+### ما الذي تغير بعد الخطوة 1
+تحسنت درجات الحرارة، لكننا اكتشفنا مشكلة من الدرجة الثانية. لا تزال درجة الحرارة لا تنتقل بشكل فعال إلى العلبة. ظلت بعض المناطق أكثر سخونة مما ينبغي، وأشار التصوير الحراري إلى أن العلبة لم تكن تعمل كموزع مناسب للحرارة.
 
-Schritt 1 reduzierte die Spitzenwärmebelastung, löste aber den Wärmepfad لا vollständig.  
+الخطوة 1 خفضت ذروة الإجهاد الحراري، لكنها لم تحل مسار الحرارة بشكل كامل.  
 
 ![Modified-fever-symptoms](https://assets2.openterface.com/images/Modified-fever-symptoms.webp)
 
-*Temperatur nach Layoutänderung (Schritt 1)*
+*درجة الحرارة بعد تغيير التخطيط (الخطوة 1)*
 
 ![Casing-temperature-test](https://assets2.openterface.com/images/Casing-temperature-test.webp)
 
-*Gehäuse-Wärmeحولtragungsprüfung (nach Schritt 1)*
+*فحص انتقال حرارة الغلاف (بعد الخطوة 1)*
 
 ---
 
-## Eintrag 6: Fix Schritt 2 – einen echten Wärmepfad bauen (CNC-Aluminiumblöcke plus thermische Schnittstelle)
-An diesem Punkt behandelten wir das Gehäuse als Teil des thermischen Systems, لا nur als Abdeckung.
+## الإدخال 6: إصلاح الخطوة 2، إنشاء مسار حراري حقيقي (كتل الألومنيوم CNC بالإضافة إلى الواجهة الحرارية)
+في هذه المرحلة، تعاملنا مع العلبة كجزء من النظام الحراري، وليس مجرد غطاء.
 
-Wir fügten hinzu:
-- CNC-Aluminiumblöcke am oberen و unteren PCB-Stapel
-- thermisches Schnittstellenmaterial (Wärmeleitpaste أو Pad), um Wärme in das Aluminium و dann in das Aluminiumgehäuse zu koppeln
+أضفنا:
+- كتل الألومنيوم CNC على مكدس PCB العلوي والسفلي
+- مادة الواجهة الحرارية (الشحم الحراري أو الوسادة) لدمج الحرارة في الألومنيوم ثم في حاوية الألومنيوم
 
-Das Ziel war einfach: die effektive Wärmeverteilerfläche vergrößern و einen stabilen, niederohmigen Pfad schaffen, daمع Wärme zum Gehäuse gelangt, wo sie sicher abgeführt werden kann.
+وكان الهدف بسيطا. قم بزيادة مساحة توزيع الحرارة الفعالة وإنشاء مسار مستقر ومنخفض المقاومة للحرارة للوصول إلى العلبة، حيث يمكن أن تتبدد بأمان.
 
 ![cnc](https://assets2.openterface.com/images/cnc.webp)
 
-*CNC-Wärmeblock (Schritt 2)*
+* الكتلة الحرارية باستخدام الحاسب الآلي (الخطوة 2) *
 
 ![cnc2](https://assets2.openterface.com/images/cnc2.webp)
 
-*CNC-Block eingebaut, Detail*
+*تفاصيل تثبيت كتلة CNC*
 
-### Endergebnis nach Schritt 2
-Nach Hinzufügen des Leitpfads:
-- Außentemperatur stabilisierte sich bei etwa 65 °C
-- Innentemperatur sank auf etwa 55 °C
+### النتيجة النهائية بعد الخطوة 2
+بعد إضافة مسار التوصيل:
+- استقرار درجة الحرارة الخارجية حول 65 درجة مئوية
+- انخفاض درجة الحرارة الداخلية إلى حوالي 55 درجة مئوية
 
-Die Thermografie zeigte, was wir sehen wollten: Die Wärmeverteilung wurde gleichmäßiger, و das Gehäuse beteiligte sich endlich an der Ableitung, anstatt Wärme intern anzustauen. 
+أظهر التصوير الحراري ما أردنا رؤيته. أصبح توزيع الحرارة أكثر توازناً، وساهم السياج أخيرًا في تبديد الحرارة بدلاً من تركها تتراكم داخليًا. 
 
 ![Temperature-measurement-after-adding-CNC](https://assets2.openterface.com/images/Temperature-measurement-after-adding-CNC.webp)
 
-*Temperatur nach CNC-Leitung (Schritt 2)*
+*درجة الحرارة بعد توصيل CNC (الخطوة 2)*
 
 ![CNC-machining](https://assets2.openterface.com/images/CNC-machining.webp)
 
-*Gehäusetemperatur nach CNC-Leitung*
+*درجة حرارة الغلاف بعد توصيل CNC*
 
 ---
 
-## Abschlussbemerkung
-Die Erkenntnis aus diesem Problem war لا einfach „DP و VGA werden wärmer“. Mehrstufige Konvertierung kostet mehr Leistung, و das ist erwartbar. Die eigentliche Lektion war: In einem so kleinen Gerät spielt es eine Rolle, *wohin* die Wärme geht, genauso wie *wie viel* Wärme erzeugt wird.
+##ملاحظة ختامية
+لم تكن الوجبات الجاهزة من هذه المشكلة مجرد "تشغيل DP و VGA بشكل أكثر سخونة". يكلف التحويل متعدد المراحل المزيد من الطاقة وهذا الجزء متوقع. كان الدرس الحقيقي هو أنه في جهاز بهذا الحجم الصغير، يكون المكان الذي تذهب إليه الحرارة مهمًا بقدر مقدار الحرارة المتولدة.
 
-Schritt 1 (Layout) reduzierte die Schwere der internen Hotspots.  
-Schritt 2 (mechanischer Leitpfad) machte die Lösung dauerhaft و produktgeeignet.
+الخطوة 1 (التخطيط) قللت من خطورة النقاط الساخنة الداخلية.  
+الخطوة 2 (مسار التوصيل الميكانيكي) جعلت الحل متينًا ومناسبًا للمنتج.
 
-Kein Lüfter, keine spezielle Benutzerbehandlung, nur ein Design, das sich vorhersehbar verhält.
+لا توجد مروحة ولا معالجة خاصة للمستخدم، مجرد تصميم يتصرف بشكل متوقع.

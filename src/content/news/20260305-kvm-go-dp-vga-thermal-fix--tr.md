@@ -2,169 +2,169 @@
 locale: tr
 translationKey: "20260305-kvm-go-dp-vga-thermal-fix"
 slug: "20260305-kvm-go-dp-vga-thermal-fix"
-title: "KVM-GO DP/VGA Wärme-Korrektur – Engineering Log"
-description: "Eine detaillierte Betrachtung des DP- ve VGA-Hitzeproblems bei KVM-GO: Messungen, PCB-Änderungen ve mechanische Korrekturen, die die Überhitzung ohne Lüfter behoben haben."
+title: "KVM-Go DP/VGA Termal Düzeltme – Mühendislik Günlüğü"
+description: "KVM-Go'daki DP ve VGA ısı sorununa ayrıntılı bir bakış, ölçümleri, PCB değişikliklerini ve fan eklemeden aşırı ısınmayı çözen mekanik düzeltmeleri ayrıntılarıyla anlatıyor."
 date: 2026-03-05
 channel: product
 product: kvm-go
-topic: ["software", "event"]
-category: "Ürün-Güncellemeler"
-tags: ["KVM-GO", "Wärme", "Engineering Log", "Üründesign"]
+topic: ["software", "event", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Thermal", "Engineering Log", "Product Design"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+## Giriş 1: Havanın "normal sıcak" olmadığını anladığımız an
+KVM-GO geliştirme sürecinin ortasında, tipik "küçük cihaz ısınır" beklentileriyle eşleşmeyen termal davranış gördük. Yalnızca iki modelde göründü: DisplayPort (DP) ve VGA. HDMI çeşidi beklentiler dahilinde kaldı.
 
-## Eintrag 1: Der Moment, als wir merkten, dass es kein „normales Warm“ war
-Mitten in der KVM-GO-Entwicklung beobachteten wir ein Wärmeverhalten, das değil den üblichen Erwartungen eines „kleinen Geräts, das warm wird“ entsprach. Es trat nur bei zwei Varianten auf: DisplayPort (DP) ve VGA. Die HDMI-Variante blieb innerhalb der Erwartungen.
-
-Zunächst war das Symptom einfach: Die Gehäusetemperatur wurde früher als erwartet unangenehm. Was uns beunruhigte, war değil der Komfort, sondern die Möglichkeit, dass die Innentemperaturen weit hakkında dem liegen, was Verbraucher-Komponenten langfristig tolerieren sollen.
+İlk başta semptom basitti. Muhafaza sıcaklığı beklenenden daha erken rahatsız edici hale geldi. Bizi ilgilendiren şey rahatlık değildi. İç sıcaklıkların, tüketici sınıfı bileşenlerin zaman içinde tolere etmesi beklenen sıcaklığın çok üzerinde olması ihtimali vardı.
 
 
 ---
 
-## Eintrag 2: Warum nur DP ve VGA
-Nach der Verfolgung des Videopfs-Designs hakkında die Versionen zeichnete sich ein Muster ab.
+## Giriş 2: Neden yalnızca DP ve VGA
+Video yolu tasarımını sürümler arasında izledikten sonra bir model ortaya çıktı.
 
-- HDMI: eine einzelne Konvertierungsstufe (HDMI zu USB-Video) ile MS2130S
-- DP: eine Zwei-Chip-Kette (IT6563 plus MS2130S), um DP in USB-Video zu wandeln
-- VGA: eine Zwei-Chip-Kette (MS9288C plus MS2109S), um VGA in USB-Video zu wandeln
+- HDMI: MS2130S kullanılarak tek bir dönüştürme aşaması (HDMI'dan USB videoya)
+- DP: DP'yi USB videoya dönüştürmek için iki çipli zincir (IT6563 artı MS2130S)
+- VGA: VGA'yı USB videoya dönüştürmek için iki çipli zincir (MS9288C artı MS2109S)
 
-Zwei Chips bedeuten değil nur mehr Teile. Sie bringen mehr Leistungsaufnahme ve lokale Hotspots. Bei einem Ürün in KVM-GO-Größe haben diese Hotspots kaum Platz, sich zu verteilen.
+İki çip yalnızca parça eklemez. Güç dağıtımı ve yerelleştirilmiş sıcak noktalar eklerler. KVM-GO gibi boyutlardaki bir üründe bu sıcak noktaların yayılma alanı çok azdır.
 
-Dann stießen wir auf die zweite Einschränkung: die Oberfläche. KVM-GO drückt die Größe ans Liile, was bedeutet, dass PCB-Fläche ve effektive Wärmeabgabe-Fläche beide winzig sind.
+Daha sonra ikinci kısıtla, yüzey alanıyla karşılaştık. KVM-GO, boyutun sınırlarını zorluyor; bu da hem PCB alanının hem de etkili ısı yayma alanının çok küçük olduğu anlamına geliyor.
 
-Schließlich wurde eine Layout-Einschränkung zu einem echten Engineering-Kompromiss. Beide heißen Chips auf dieselbe Seite zu legen klingt thermisch ideal, aber Pinbelegung ve High-Speed-Routing-Anforderungen machten diesen Ansatz schwierig. Einen Chip mehr „innen“ zu platzieren vereinfachte das Routing ve half der Signalintegrität, fängt aber die Wärme im Inneren des Gehäuses ein.
+Son olarak, gerçek bir mühendislik değiş tokuşuna dönüşen bir yerleşim kısıtlaması vardı. Her iki sıcak çipin aynı tarafa yerleştirilmesi termal açıdan ideal gibi görünse de pin çıkışı ve yüksek hızlı yönlendirme gereklilikleri bu yaklaşımı zorlaştırdı. Bir çipin daha "içeriye" yerleştirilmesi yönlendirmeyi basitleştirdi ve sinyal bütünlüğüne yardımcı oldu, ancak ısıyı muhafazanın içinde hapsetti.
 
 ![Original-PCB-layout](https://assets2.openterface.com/images/Original-PCB-layout.webp)
 
-*Ursprüngliches PCB-Layout*
+*Orijinal PCB düzeni*
 
 ![original-Wiring](https://assets2.openterface.com/images/original-Wiring.webp)
 
-*Ursprüngliche High-Speed-Verteilung*
+*Orijinal yüksek hızlı yönlendirme*
 
 ![KVM-Go-tructure](https://assets2.openterface.com/images/KVM-Go-tructure.webp)
 
 
-*KVM-GO internes Stapellayout*
+*KVM-GO dahili yığın düzeni*
 
 ---
 
-## Eintrag 3: Messen, was zählt – Innen- vs. Außentemperatur
-Wir beschlossen, ile dem Raten aufzuhören ve beide Seiten des Problems zu messen. Wir bauten Temperaturmessstellen için externe ve interne Überwachung ve führten einen Langzeit-Lasttest durch.
+## Giriş 3: Önemli olanın ölçülmesi, iç sıcaklık ve dış sıcaklık
+Tahmin etmeyi bırakıp sorunun her iki tarafını da ölçmeye karar verdik. Harici ve dahili izleme için sıcaklık ölçüm noktaları oluşturduk ve ardından uzun süreli bir iş yükü testi gerçekleştirdik.
 
-Das Ergebnis war alarmierend, besonders bei VGA.
+Sonuç özellikle VGA'da endişe vericiydi.
 
-Nach etwa einer Stvee Dauerbetrieb:
-- Außenfläche erreichte etwa 65 °C
-- Innentemperatur erreichte Spitzen um 115 °C
+Yaklaşık bir saatlik sürekli çalışmanın ardından:
+- dış yüzey yaklaşık 65°C'ye ulaştı
+- iç sıcaklık 115°C civarında zirve yaptı
 
-Viele Verbraucher-Komponenten sind için maximale Betriebstemperaturen um 85 °C spezifiziert, je nach Teil ve Qualitätsstufe. Dreistellige Innentemperaturen bedeuteten, dass wir değil nur ile „heiß anfassen“ zu tun hatten, sondern ile etwas, das die Ürünlebensdauer verkürzen veya unvorhersehbares Verhalten in verschiedenen Umgebungen verursachen könnte. 
+Pek çok tüketici bileşeni, tam parçaya ve kaliteye bağlı olarak 85°C civarındaki maksimum çalışma sıcaklıklarına göre derecelendirilmiştir. Üç haneli iç sıcaklıkları görmek, yalnızca "dokunulacak kadar sıcak" ile karşı karşıya olmadığımız anlamına geliyordu. Ürün ömrünü kısaltabilecek veya ortamlarda öngörülemeyen davranışlar yaratabilecek bir şeye bakıyorduk. 
 
 ![Original-emperature-test](https://assets2.openterface.com/images/Original-emperature-test.webp)
 
-*Basis-Temperaturtest (innen vs. außen)*
+*Temel sıcaklık testi (dahili ve harici)*
 
 ---
 
-## Eintrag 4: Ein schneller Sanity-Check – erzwungene Luftströmung funktioniert (aber ist keine Ürünlösung)
-Bevor wir etwas neu entwarfen, wollten wir eine schnelle Validierung: Wenn wir Wärme schneller abführen, sinken die Temperaturen spürbar?
+## Giriş 4: Hızlı bir sağlık kontrolü, cebri hava akışı işe yarıyor (ancak bu bir ürün çözümü değil)
+Herhangi bir şeyi yeniden tasarlamadan önce hızlı bir doğrulama istedik. Isıyı daha hızlı uzaklaştırabilirsek sıcaklıklar anlamlı bir şekilde düşer mi?
 
-Wir probierten ein einfaches Setup ile DIY-Lüfter. Es tat, was die Physik sagt: Die Temperaturen sanken deutlich, grob 15 °C in unserem Test. Das bestätigte, dass es ein thermischer Flaschenhals war, kein Messartefakt veya Yazılımverhalten.
+Bir DIY fanı kullanarak basit bir basınçlı hava kurulumu denedik. Fiziğin yapması gerektiğini söylediği şeyi yaptı. Testimizde sıcaklıklar gözle görülür şekilde yaklaşık 15°C düştü. Bu, sorunun ölçüm hataları veya yazılım davranışından ziyade termal bir darboğaz olduğunu doğruladı.
 
-Es bestätigte auch etwas anderes: Ein Lüfter ist değil ile dem Ürün vereinbar, das wir bauen. KVM-GO muss kompakt, leise ve autark bleiben. Erzwungene Luftströmung wurde also ein Diagnosewerkzeug, değil die finale Antwort.
+Ayrıca bir şeyi daha doğruladı. Fan, ürettiğimiz ürünle uyumlu değil. KVM-GO'nun kompakt, sessiz ve bağımsız kalması gerekiyor. Dolayısıyla basınçlı hava akışı nihai çözüm değil, teşhis aracı haline geldi.
 
 ![Fan-1png](https://assets2.openterface.com/images/Fan-1png.webp)
 
-*DIY-Lüfter-Kühlungsaufbau*
+*Kendin Yap fan soğutma kurulumu*
 
 ![Fan-2](https://assets2.openterface.com/images/Fan-2.webp)
 
-*DIY-Lüfterkühlung, alternative Ansicht*
+*Kendin Yap fan soğutması, alternatif görünüm*
 
 ![Temperature-test-fan](https://assets2.openterface.com/images/Temperature-test-fan.webp)
 
-*Temperaturtest ile Lüfterkühlung*
+*Fan soğutmalı sıcaklık testi*
 
 ---
 
-## Eintrag 5: Fix Schritt 1 – Wärmequellen nach außen (ohne Signalintegrität zu brechen)
-Der erste echte Fix war auf dem PCB. Wir trieben die Konstruktion so weit wie möglich, beide wärmeerzeugenden Chips näher an die Außenseite zu platzieren.
+## Giriş 5: 1. adımı düzeltin, ısı kaynaklarını dışarıya doğru taşıyın (sinyal bütünlüğünü bozmadan)
 
-Das war değil „einfach Teile verschieben“. Bei DP ve VGA sind die Routing-Einschränkungen eng. High-Speed-Signale sauber zu halten, besonders die differentiellen Paare, ist değil verhandelbar. Beide Chips nach außen zu setzen machte das Routing schwieriger, ve wir mussten sorgfältig arbeiten, um die Signalintegrität değil zu verschlechtern.
+İlk gerçek düzeltme PCB'deydi. Her iki ısı üreten çipi de dış tarafa daha yakın yerleştirmek için tasarımı elimizden geldiğince zorladık.
 
-Wir verglichen altes vs. neues Layout ve Routing ve bauten Donanım zur Verifikation. 
+Bu "sadece parçaları hareket ettirin" değildi. DP ve VGA ile yönlendirme kısıtlamaları sıkıdır. Yüksek hızlı sinyallerin, özellikle de diferansiyel çiftlerin temiz tutulması tartışılamaz. Her iki çipin de dışarıya yerleştirilmesi yönlendirmeyi zorlaştırıyordu ve sinyal bütünlüğünün bozulmasını önlemek için dikkatli çalışmamız gerekiyordu.
+
+Eski ve yeni düzeni ve yönlendirmeyi karşılaştırdık, ardından davranışı doğrulamak için donanım oluşturduk. 
 
 ![New-PCB-ayout](https://assets2.openterface.com/images/New-PCB-ayout.webp)
 
-*Überarbeitetes PCB-Layout (Chips nach außen verlagert)*
+*Revize edilmiş PCB düzeni (yongalar dışarıya doğru taşındı)*
 
 ![Wiring-layout-modification](https://assets2.openterface.com/images/Wiring-layout-modification.webp)
 
-*Überarbeitete Verteilung (Durchlauf 1)*
+*Yönlendirme yeniden düzenlendi (geçiş 1)*
 
 ![Wiring-layout-modification-2](https://assets2.openterface.com/images/Wiring-layout-modification-2.webp)
 
-*Überarbeitete Verteilung (Schlüsselbereich)*
+*Yenilenmiş yönlendirme (anahtar alan)*
 
 ![PCB-ayout-modifications](https://assets2.openterface.com/images/PCB-ayout-modifications.webp)
 
-*Überarbeitetes PCB, zur Validierung aufgebaut*
+*Doğrulama için revize edilmiş PCB*
 
-### Was sich nach Schritt 1 änderte
-Die Wärme verbesserte sich, aber wir entdeckten ein Problem zweiter Ordnung: Die Temperatur hakkındatrug sich immer noch değil effektiv ins Gehäuse. Einige Bereiche blieben wärmer als sie sollten, ve die Thermografie legte nahe, dass das Gehäuse değil wie ein ordentlicher Wärmeverteiler wirkte.
+### 1. adımdan sonra ne değişti?
+Termaller iyileşti ancak ikinci dereceden bir sorun tespit ettik. Sıcaklık hala muhafazanın içine etkili bir şekilde aktarılmıyordu. Bazı alanlar olması gerekenden daha sıcak kaldı ve termal görüntüleme, muhafazanın uygun bir ısı yayıcı gibi davranmadığını gösterdi.
 
-Schritt 1 reduzierte die Spitzenwärmebelastung, löste aber den Wärmepfad değil vollständig.  
+Adım 1, en yüksek ısı stresini azalttı, ancak ısı yolunu tam olarak çözmedi.  
 
 ![Modified-fever-symptoms](https://assets2.openterface.com/images/Modified-fever-symptoms.webp)
 
-*Temperatur nach Layoutänderung (Schritt 1)*
+*Yerleşim değişikliğinden sonraki sıcaklık (1. adım)*
 
 ![Casing-temperature-test](https://assets2.openterface.com/images/Casing-temperature-test.webp)
 
-*Gehäuse-Wärmehakkındatragungsprüfung (nach Schritt 1)*
+*Gövde ısı transferi kontrolü (1. adımdan sonra)*
 
 ---
 
-## Eintrag 6: Fix Schritt 2 – einen echten Wärmepfad bauen (CNC-Aluminiumblöcke plus thermische Schnittstelle)
-An diesem Punkt behandelten wir das Gehäuse als Teil des thermischen Systems, değil nur als Abdeckung.
+## Giriş 6: 2. adımı düzeltin, gerçek bir ısı yolu oluşturun (CNC alüminyum bloklar artı termal arayüz)
+Bu noktada mahfazayı sadece bir örtü değil, termal sistemin bir parçası olarak ele aldık.
 
-Wir fügten hinzu:
-- CNC-Aluminiumblöcke am oberen ve unteren PCB-Stapel
-- thermisches Schnittstellenmaterial (Wärmeleitpaste veya Pad), um Wärme in das Aluminium ve dann in das Aluminiumgehäuse zu koppeln
+Ekledik:
+- Üst ve alt PCB yığınında CNC alüminyum bloklar
+- ısıyı alüminyuma ve ardından alüminyum mahfazaya aktarmak için termal arayüz malzemesi (termal gres veya ped)
 
-Das Ziel war einfach: die effektive Wärmeverteilerfläche vergrößern ve einen stabilen, niederohmigen Pfad schaffen, daile Wärme zum Gehäuse gelangt, wo sie sicher abgeführt werden kann.
+Amaç basitti. Etkili ısı yayma alanını artırın ve ısının güvenli bir şekilde dağılabileceği mahfazaya ulaşması için sabit, düşük dirençli bir yol oluşturun.
 
 ![cnc](https://assets2.openterface.com/images/cnc.webp)
 
-*CNC-Wärmeblock (Schritt 2)*
+*CNC termal bloğu (adım 2)*
 
 ![cnc2](https://assets2.openterface.com/images/cnc2.webp)
 
-*CNC-Block eingebaut, Detail*
+*CNC blok takılı detayı*
 
-### Endergebnis nach Schritt 2
-Nach Hinzufügen des Leitpfads:
-- Außentemperatur stabilisierte sich bei etwa 65 °C
-- Innentemperatur sank auf etwa 55 °C
+### 2. adımdan sonraki nihai sonuç
+İletim yolunu ekledikten sonra:
+- dış sıcaklık 65°C civarında sabitlendi
+- iç sıcaklık yaklaşık 55°C'ye düştü
 
-Die Thermografie zeigte, was wir sehen wollten: Die Wärmeverteilung wurde gleichmäßiger, ve das Gehäuse beteiligte sich endlich an der Ableitung, anstatt Wärme intern anzustauen. 
+Termal görüntüleme görmek istediklerimizi gösterdi. Isı dağılımı daha eşit hale geldi ve muhafaza, sonunda ısının dahili olarak birikmesine izin vermek yerine, ısının dağıtılmasına katkıda bulundu. 
 
 ![Temperature-measurement-after-adding-CNC](https://assets2.openterface.com/images/Temperature-measurement-after-adding-CNC.webp)
 
-*Temperatur nach CNC-Leitung (Schritt 2)*
+*CNC iletiminden sonraki sıcaklık (adım 2)*
 
 ![CNC-machining](https://assets2.openterface.com/images/CNC-machining.webp)
 
-*Gehäusetemperatur nach CNC-Leitung*
+*CNC iletiminden sonra kabuk sıcaklığı*
 
 ---
 
-## Abschlussbemerkung
-Die Erkenntnis aus diesem Problem war değil einfach „DP ve VGA werden wärmer“. Mehrstufige Konvertierung kostet mehr Leistung, ve das ist erwartbar. Die eigentliche Lektion war: In einem so kleinen Gerät spielt es eine Rolle, *wohin* die Wärme geht, genauso wie *wie viel* Wärme erzeugt wird.
+## Kapanış notu
+Bu sorunun çıkarımı sadece "DP ve VGA'nın daha sıcak çalışması" değildi. Çok aşamalı dönüşüm daha fazla güce mal olur ve bu da beklenen bir durumdur. Asıl ders şuydu: Bu kadar küçük bir cihazda, ne kadar ısı üretildiği kadar ısının nereye gittiği de önemli.
 
-Schritt 1 (Layout) reduzierte die Schwere der internen Hotspots.  
-Schritt 2 (mechanischer Leitpfad) machte die Lösung dauerhaft ve produktgeeignet.
+Adım 1 (düzen), dahili sıcak noktanın şiddetini azalttı.  
+Adım 2 (mekanik iletim yolu), çözümü dayanıklı ve ürüne uygun hale getirdi.
 
-Kein Lüfter, keine spezielle Benutzerbehandlung, nur ein Design, das sich vorhersehbar verhält.
+Fan yok, özel kullanıcı müdahalesi yok, yalnızca öngörülebilir şekilde davranan bir tasarım.

@@ -2,146 +2,145 @@
 locale: ru
 translationKey: "250912-kvm-go-beta-testing-invitation"
 slug: "250912-kvm-go-beta-testing-invitation"
-title: "KVM-Go-Serie Pre-Launch: Nehmen Sie an unserem Beta-Testprogramm teil!"
-description: "Nehmen Sie am Beta-Testprogramm der Openterface KVM-Go-Serie teil! Erleben Sie unsere ultrakompakte KVM-over-USB-Lösung der nächsten Generation с integrierten Videoanschlüssen. Erhalten Sie frühzeitigen Zugang, exklusive Preise и helfen Sie с, die Zukunft der tragbaren Headless-Geräteverwaltung zu gestalten."
+title: "Предварительный запуск серии KVM-Go: присоединяйтесь к нашей программе бета-тестирования!"
+description: "Присоединяйтесь к программе бета-тестирования Openinterface KVM-Go Series! Испытайте наше ультракомпактное решение KVM-over-USB нового поколения со встроенными видеоразъемами. Получите ранний доступ, эксклюзивные цены и помогите сформировать будущее управления портативными беспроводными устройствами."
 date: 2025-09-12
 channel: product
 product: kvm-go
-topic: ["beta", "software", "campaign", "community", "analysis"]
-category: "Продуктupdates"
-tags: ["KVM-Go", "Beta-Test", "Pre-Launch", "Продуктankündigung", "Frühzeitiger Zugang"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Beta Testing", "Pre-Launch", "Product Announcement", "Early Access"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+Мы рады объявить о предварительном выпуске **серии Openerface KVM-Go** — нашего ультракомпактного решения KVM-over-USB нового поколения! Это революционное устройство выводит портативность на новый уровень благодаря форм-фактору размером с брелок и встроенным видеоразъемам, которые устраняют необходимость в отдельных кабелях.
 
-Wir freuen uns, den Pre-Launch der **Openterface KVM-Go-Serie** ankündigen zu können - unsere ultrakompakte KVM-over-USB-Lösung der nächsten Generation! Dieses revolutionäre Gerät bringt die Tragbarkeit auf die nächste Stufe с einem Schlüsselanhänger-Formfaktor и integrierten Videoanschlüssen, die separate Kabel оflüssig machen.
+Серия KVM-Go представляет собой масштабную эволюцию популярной модели Mini-KVM, предлагая повышенную производительность, максимальное удобство и беспрецедентную мобильность для ИТ-специалистов, разработчиков и технических энтузиастов, которым требуется эффективность рабочего процесса.
 
-Die KVM-Go-Serie stellt eine massive Weiterentwicklung unseres beliebten Mini-KVM dar и bietet IT-Profis, Entwicklern и Technik-Enthusiasten, die Effizienz in ihrem Workflow fordern, verbesserte Leistung, maximalen Komfort и beispiellose Tragbarkeit.
+![KVM-Go Series Product Images](https://assets.openterface.com/images/kvm-go/hdmi-p1.webp)
 
-![KVM-Go-Serie Продуктbilder](https://assets.openterface.com/images/kvm-go/hdmi-p1.webp)
+## Идеальное портативное KVM-решение
 
-## Die ultimative tragbare KVM-Lösung
+Серия Openterface KVM-Go создана для одной цели: **сделать управление безголовыми устройствами максимально портативным**. Вот что отличает его:
 
-Die Openterface KVM-Go-Serie wurde для eines entwickelt: **Headless-Geräteverwaltung so tragbar wie möglich zu machen**. Das zeichnet sie aus:
+### Ультракомпактный дизайн
+- **Размер брелока**: 18 × 18 × 55 мм (0,71 × 0,71 × 2,17 дюйма)
+- **Легкий**: всего ~25 г (0,9 унции) — легче большинства брелков для ключей.
+- **Встроенные разъемы**: возможность прямого подключения к разъемам HDMI, DisplayPort или VGA.
 
-### Ultrakompaktes Design
-- **Schlüsselanhängergröße**: 18 × 18 × 55 mm (0,71 × 0,71 × 2,17 Zoll)
-- **Leichtgewicht**: Nur ~25g (0,9 oz) - leichter als die meisten Schlüsselanhänger
-- **Integrierte Anschlüsse**: Direkter Anschluss с HDMI-, DisplayPort- или VGA-Steckern
+### Повышенная производительность
+- **Поддержка видео 4K при 60 Гц**: значительное обновление по сравнению с 1080p при 30 Гц Mini-KVM.
+- **Подключение USB 3.0**: более быстрая передача данных и улучшенное реагирование.
+- **Слот MicroSD**: возможность передачи файлов и создания загрузочного образа.
 
-### Verbesserte Leistung
-- **4K@60Hz-Videounterstützung**: Massive Verbesserung gegenо dem 1080p@30Hz des Mini-KVM
-- **USB 3.0-Konnektivität**: Schnellere Datenоtragung и verbesserte Reaktionsfähigkeit
-- **MicroSD-Slot**: Dateiоtragung и bootfähige Image-Erstellungsfunktionen
+### Больше никакой прокладки кабелей
+- **Прямое подключение**: встроенные видеоразъемы позволяют отказаться от использования отдельных кабелей HDMI/DP/VGA.
+- **Настройка за 30 секунд**: от распаковки до управления целевым устройством.
+- **Светодиодные индикаторы**: визуальная обратная связь, показывающая состояние соединения (синий = цель, зеленый = хост).
 
-### Keine Kabelverwaltung mehr
-- **Direktanschluss**: Integrierte Videoanschlüsse machen separate HDMI/DP/VGA-Kabel оflüssig
-- **30-Sekиen-Setup**: Vom Auspacken bis zur Steuerung Ihres Zielgeräts
-- **LED-Anzeigen**: Visuelles Feedback zum Подключениеsstatus (Blau = Ziel, Grün = Host)
+![KVM-Go Series Features](https://assets.openterface.com/images/kvm-go/hdmi-p6.webp)
 
-![KVM-Go-Serie Функции](https://assets.openterface.com/images/kvm-go/hdmi-p6.webp)
+## Идеально подходит для каждого технического специалиста
 
-## Perfekt для jeden Technik-Profi
+Серия KVM-Go — идеальный компаньон для широкого круга пользователей и сценариев:
 
-Die KVM-Go-Serie ist der ideale Begleiter для eine breite Palette von Benutzern и Szenarien:
+- **ИТ-специалисты** устраняют неполадки серверов в центрах обработки данных.
+– **Выездные специалисты**, работающие с банкоматами, киосками и встроенными системами.
+- **Разработчики**, управляющие периферийными вычислительными устройствами и решениями Интернета вещей.
+- **Технологические энтузиасты** экспериментируют с одноплатными компьютерами.
+- **Профессионалам в области безопасности** требуются безопасные локальные операции без зависимости от сети.
+- **Любой**, кому часто приходится управлять безголовыми устройствами в непредсказуемых условиях.
 
-- **IT-Profis**, die Server in Rechenzentren troubleshooten
-- **Feldtechniker**, die an Geldautomaten, Kiosken и eingebetteten Systemen arbeiten
-- **Entwickler**, die Edge-Computing-Geräte и IoT-Lösungen verwalten
-- **Technik-Enthusiasten**, die с Einplatinencomputern experimentieren
-- **Sicherheitsprofis**, die sichere lokale Operationen ohne Netzwerkabhängigkeiten benötigen
-- **Jeder**, der häufig Headless-Geräte in unvorhersehbaren Umgebungen verwalten muss
+![KVM-Go Use Case](https://assets.openterface.com/images/kvm-go/hdmi-p7.webp)
 
-![KVM-Go Anwendungsfall](https://assets.openterface.com/images/kvm-go/hdmi-p7.webp)
+## Три модели на любой вкус
 
-## Drei Modelle для jeden Bedarf
+Мы запускаем три отдельные модели, отвечающие всем вашим требованиям к подключению:
 
-Wir bringen drei verschiedene Modelle auf den Markt, um alle Ihre Konnektivitätsanforderungen abzudecken:
+### KVM-Go HDMI штекер
+- **Наилучший вариант**: современные устройства, серверы, рабочие станции.
+- **Разъем**: встроенный штекер HDMI.
+- **Совместимость**: устройства HDMI 1.4+.
 
-### KVM-Go HDMI Male
-- **Am besten для**: Mилиne Geräte, Server, Workstations
-- **Anschluss**: Integrierter HDMI-Stecker
-- **Kompatibilität**: HDMI 1.4+ Geräte
+### KVM-Go DisplayPort, штекер  
+- **Наилучший вариант**: дисплеи с высоким разрешением, профессиональные настройки.
+- **Разъем**: встроенный штекер DisplayPort.
+- **Совместимость**: устройства DisplayPort 1.2+.
 
-### KVM-Go DisplayPort Male  
-- **Am besten для**: Hochauflösende Displays, professionelle Setups
-- **Anschluss**: Integrierter DisplayPort-Stecker
-- **Kompatibilität**: DisplayPort 1.2+ Geräte
+### KVM-Go VGA штекер (скоро появится)
+- **Наилучший вариант**: устаревшие системы, старые серверы.
+- **Разъем**: встроенный штекер VGA.
+- **Совместимость**: стандартные устройства VGA.
 
-### KVM-Go VGA Male (Demnächst verfügbar)
-- **Am besten для**: Legacy-Systeme, ältere Server
-- **Anschluss**: Integrierter VGA-Stecker
-- **Kompatibilität**: Standard-VGA-Geräte
+![KVM-Go Model Comparison](https://assets.openterface.com/images/kvm-go/hdmi-p8.webp)
 
-![KVM-Go Modellvergleich](https://assets.openterface.com/images/kvm-go/hdmi-p8.webp)
+## Почему стоит выбрать KVM-Go вместо Mini-KVM?
 
-## Warum KVM-Go statt Mini-KVM wählen?
-
-| Funktion | Mini-KVM | KVM-Go-Serie |
+| Особенность | Мини-КВМ | Серия KVM-Go |
 |---------|----------|---------------|
-| **Größe** | 61 × 53 × 13,5 mm | 18 × 18 × 55 mm |
-| **Gewicht** | ~48g | ~25g |
-| **Video-Setup** | Benötigt HDMI-Kabel | Integrierter Anschluss |
-| **Tragbarkeit** | Tragbar | Schlüsselanhängergröße |
-| **Videoqualität** | 4K@30Hz | 4K@60Hz |
-| **USB-Geschwindigkeit** | USB 2.0 | USB 3.0 |
-| **Speicher** | Umschaltbarer USB-Port | MicroSD-Slot |
-| **Setup-Zeit** | ~2 Minuten | ~30 Sekиen |
+| **Размер** | 61 × 53 × 13,5 мм | 18 × 18 × 55 мм |
+| **Вес** | ~48г | ~25 г |
+| **Настройка видео** | Требуется кабель HDMI | Встроенный разъем |
+| **Мобильность** | Портативный | Брелок размером с |
+| **Качество видео** | 4K@30Гц | 4K@60Гц |
+| **Скорость USB** | USB 2.0 | USB 3.0 |
+| **Хранение** | Переключаемый USB-порт | Слот MicroSD |
+| **Время установки** | ~2 минуты | ~30 секунд |
 
-## Community-getriebene Entwicklung
+## Развитие, управляемое сообществом
 
-Unsere Reise bei der Entwicklung der KVM-Go-Serie wurde von denselben Herausforderungen inspiriert, die zum Erfolg des Mini-KVM führten. Mit umfangreicher Erfahrung in unserem [TechxArtisan Studio](https://techxartisan.com/en/) bei der Entwicklung innovativer Tech-Art-Projekte и Outdoor-IoT-Lösungen standen wir ständig vor der Herausforderung, Geräte unter unzuverlässigen Netzwerkbedingungen zu verwalten, ohne den Luxus, zusätzliche Ausrüstung сzuführen.
+Наш путь к созданию серии KVM-Go был вдохновлен теми же проблемами, которые привели к успеху Mini-KVM. Имея обширный опыт работы в нашей [TechxArtisan Studio](https://techxartisan.com/en/), разработке инновационных проектов в области технического искусства и решений IoT для наружного использования, мы постоянно сталкиваемся с проблемой управления устройствами в ненадежных сетевых условиях без необходимости носить с собой дополнительное оборудование.
 
-Angetrieben durch Community-Feedback и Gespräche с gleichgesinnten Profis haben wir uns daran gemacht, ein Gerät zu entwickeln, das diese Bedürfnisse direkt adressiert и die Steuerung von Headless-Geräten zuverlässiger, tragbarer и müheloser als je zuvor macht.
+Основываясь на отзывах сообщества и беседах с профессионалами-единомышленниками, мы решили разработать устройство, которое напрямую отвечает этим потребностям, делая управление безголовыми устройствами более надежным, портативным и простым, чем когда-либо прежде.
 
-## Der Openterface KVM-Go-Unterschied
+## Разница Openinterface KVM-Go
 
-Sie fragen sich vielleicht, warum Sie sich unter den verschiedenen verfügbaren KVM-Lösungen для die KVM-Go-Serie entscheiden sollten? Hier ist warum:
+Вы можете задаться вопросом, почему вам следует выбирать серию KVM-Go среди различных доступных KVM-решений? Вот почему:
 
-1. **Ultrakompakt и effizient**: Entwickelt для maximale Tragbarkeit, zeichnet sich unsere KVM-over-USB-Lösung in Umgebungen с begrenztem или keinem Netzwerkzugang aus и bietet ein wirklich tragbares, netzwerkunabhängiges и blitzschnelles Fehlerbehebungstool.
+1. **Сверхкомпактный и эффективный**: наше решение KVM-over-USB, созданное для обеспечения максимальной мобильности, превосходно работает в средах с ограниченным или отсутствующим доступом к сети, обеспечивая по-настоящему портативный, независимый от сети и молниеносный инструмент устранения неполадок.
 
-2. **Integrierter Komfort**: Durch die direkte Integration von Videoanschlüssen in das Gerät haben wir einen der größten Schmerzpunkte bei tragbaren KVM-Lösungen beseitigt - die Verwaltung и das Mitführen separater Videokabel.
+2. **Встроенное удобство**: интегрировав видеоразъемы непосредственно в устройство, мы устранили одну из самых больших проблем в портативных KVM-решениях — прокладку и переноску отдельных видеокабелей.
 
-3. **Verbesserte Leistung**: Mit 4K@60Hz-Unterstützung и USB 3.0-Konnektivität liefert die KVM-Go-Serie professionelle Leistung in einem schlüsselanhängergroßen Paket.
+3. **Увеличенная производительность**. Благодаря поддержке 4K при 60 Гц и подключению USB 3.0 серия KVM-Go обеспечивает производительность профессионального уровня в корпусе размером с брелок.
 
-4. **Community-getrieben и Open-Source**: Im Kern geht es bei der KVM-Go-Serie darum, eine Community для Innovation и Zusammenarbeit zu fördern. Durch die Annahme von Open-Source-Werten laden wir Benutzer ein, benutzerdefinierte Функции и Verbesserungen beizutragen и die Fähigkeiten и Vielseitigkeit des Tools zu bereichern.
+4. **Управляемая сообществом и с открытым исходным кодом**. По своей сути серия KVM-Go направлена ​​на развитие сообщества для инноваций и сотрудничества. Принимая ценности открытого исходного кода, мы приглашаем пользователей вносить собственные функции и улучшения, расширяя возможности и универсальность инструмента.
 
-## Pre-Launch-Status и nächste Schritte
+## Статус перед запуском и следующие шаги
 
-Die KVM-Go-Serie befindet sich derzeit in der Pre-Launch-Entwicklung. Wir arbeiten aktiv an:
+Серия KVM-Go в настоящее время находится на стадии предстартовой разработки. Мы активно работаем над:
 
-- **PCB-Verfeinerung**: Optimierung des Schaltungsdesigns для maximale Leistung
-- **Gehäusedesign-Fertigstellung**: Sicherstellung der perfekten Balance zwischen Haltbarkeit и Tragbarkeit
-- **Firmware-Entwicklung**: Erstellung der Программное обеспечение-Grиlage для nahtlosen Betrieb
-- **Beta-Test-Vorbereitung**: Vorbereitung zur Einladung von Community-Mitgliedern zum Testen
+- **Усовершенствование печатной платы**: оптимизация схемы для достижения максимальной производительности.
+- **Завершение разработки корпуса**: обеспечение идеального баланса долговечности и портативности.
+- **Разработка встроенного ПО**: создание программной основы для бесперебойной работы.
+- **Подготовка к бета-тестированию**: подготовка к приглашению участников сообщества для тестирования.
 
-## Treten Sie unserer Warteliste bei
+## Присоединяйтесь к нашему списку ожидания
 
-Bereit, zu den Ersten zu gehören, die ultrakompakte KVM-Technologie erleben? Treten Sie unserer Warteliste для exklusive Обновления, frühzeitigen Zugang и Sonderpreise bei.
+Готовы стать одним из первых, кто испытает сверхкомпактную технологию KVM? Присоединяйтесь к нашему списку ожидания, чтобы получить эксклюзивные обновления, ранний доступ и специальные цены.
 
-**[KVM-Go-Warteliste beitreten](https://forms.gle/yaS1F5E5MSo8DWNZ6)**
+**[Join the KVM-Go Waiting List](https://forms.gle/yaS1F5E5MSo8DWNZ6)**
 
-### Was in der Warteliste enthalten ist:
-- **Продукт-Обновления**: Entwicklungsfortschritt и Vorschauen
-- **Frühzeitiger Zugang**: Bevorzugter Zugang zu Vorbestellungen, wenn verfügbar
-- **Beta-Test**: Möglichkeit, Beta-Tester zu werden
-- **Sonderpreise**: Exklusive Rabatte для frühe Unterstützer
-- **Community-Vorteile**: Direkter Zugang zum Entwicklungsteam и Feedback-Möglichkeiten
+### Что включено в лист ожидания:
+- **Обновления продукта**: ход разработки и краткие обзоры.
+- **Ранний доступ**: приоритетный доступ к предварительным заказам, если они доступны.
+- **Бета-тестирование**: возможность стать бета-тестером.
+- **Специальные цены**: эксклюзивные скидки для первых сторонников.
+- **Привилегии сообщества**: прямой доступ к команде разработчиков и возможность обратной связи.
 
-## Bleiben Sie verbиen и engagiert
+## Оставайтесь на связи и будьте вовлечены
 
-Um о die neuesten Entwicklungen informiert zu bleiben, technischen Поддержка zu erhalten и sich с anderen Benutzern zu vernetzen, laden wir Sie ein:
+Чтобы быть в курсе последних событий, получать техническую поддержку и общаться с другими пользователями, мы приглашаем вас:
 
-- **Besuchen Sie unsere Website**: [openterface.com](/)
-- **Treten Sie unserem Discord bei**: [TechxArtisan-Community](https://discord.com/invite/4khsrbGS)
-- **Folgen Sie unserem Reddit**: [r/Openterface_miniKVM](/reddit)
-- **Schauen Sie sich unser GitHub an**: [Openterface-Repository](https://github.com/TechxArtisanStudio/Openterface)
+- **Посетите наш сайт**: [openterface.com](/)
+- **Присоединяйтесь к нашему Discord**: [TechxArtisan Community](https://discord.com/invite/4khsrbGS)
+- **Следите за нашим Reddit**: [r/Openterface_miniKVM](/reddit)
+- **Загляните на наш GitHub**: [Openterface Repository](https://github.com/TechxArtisanStudio/Openterface).
 
-## Die Zukunft des tragbaren KVM
+## Будущее портативных KVM
 
-Die KVM-Go-Serie repräsentiert mehr als nur eine Продуктeinführung - es ist ein Schritt, um Headless-Geräteverwaltung wirklich tragbar и zugänglich zu machen. Ob Sie Server in einem Rechenzentrum troubleshooten, IoT-Geräte im Feld verwalten или zu Hause с Einplatinencomputern experimentieren, die KVM-Go-Serie wurde entwickelt, um Ihr Leben einfacher zu machen.
+Серия KVM-Go представляет собой нечто большее, чем просто запуск продукта — это шаг к тому, чтобы сделать управление безголовыми устройствами по-настоящему портативным и доступным. Независимо от того, устраняете ли вы неполадки серверов в центре обработки данных, управляете устройствами Интернета вещей в полевых условиях или экспериментируете с одноплатными компьютерами дома, серия KVM-Go призвана облегчить вашу жизнь.
 
-Lassen Sie uns gemeinsam diese aufregende Reise antreten и revolutionieren, wie Sie Headless-Geräte steuern. Schließen Sie sich uns an и helfen Sie uns, die Openterface KVM-Go-Serie Wirklichkeit werden zu lassen!
+Давайте вместе отправимся в это захватывающее путешествие и изменим способы управления безголовыми устройствами. Присоединяйтесь к нам и помогите нам воплотить серию Openterface KVM-Go в реальность!
 
-Auf die Zukunft der tragbaren KVM-Technologie!
+Приветствуем будущее портативной технологии KVM!

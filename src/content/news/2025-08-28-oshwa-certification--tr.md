@@ -2,41 +2,40 @@
 locale: tr
 translationKey: "2025-08-28-oshwa-certification"
 slug: "2025-08-28-oshwa-certification"
-title: "OSHWA-Zertifizierung Erreicht! 🎉"
-description: "28. August 2025 - Wir freuen uns, bekannt zu geben, dass die Openterface KVM Extension for uConsole offiziell von der Open Source Donanım Association OSHWA zertifiziert wurde! 🤠⚙️"
+title: "OSHWA Sertifikası Alındı! 🎉"
+description: "28 Ağustos 2025 - uConsole için Openterface KVM Uzantısının Açık Kaynak Donanım Birliği OSHWA tarafından resmi olarak onaylandığını duyurmaktan heyecan duyuyoruz! 🤠⚙️"
 date: 2025-08-28
 channel: product
 product: uconsole-kvm-extension
 topic: ["software", "community"]
-category: "Product Güncellemeler"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**28 Ağustos 2025** - **uConsole için Openterface KVM Uzantısının** **Açık Kaynak Donanım Birliği (OSHWA)** tarafından resmi olarak onaylandığını duyurmaktan heyecan duyuyoruz! 🤠⚙️
 
-**28. August 2025** - Wir freuen uns, bekannt zu geben, dass die **Openterface KVM Extension for uConsole** offiziell von der **Open Source Donanım Association (OSHWA)** zertifiziert wurde! 🤠⚙️
+## Sertifika Ayrıntıları
 
-## Zertifizierungsdetails
+- **Sertifika Kimliği**: CN000021 ✅
+- **Sertifikayı Görüntüle**: [OSHWA Certification](https://lnkd.in/gt-yvDuU)
+- **Donanım Havuzu**: [Openterface_KVM_Ext_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware)
 
-- **Zertifizierungs-ID**: CN000021 ✅
-- **Zertifikat anzeigen**: [OSHWA-Zertifizierung](https://lnkd.in/gt-yvDuU)
-- **Donanım-Repository**: [Openterface_KVM_Ext_Donanım](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Donanım)
+## Bu Ne Anlama Geliyor
 
-## Was das bedeutet
+Bu sertifika, tüm şemaların, devre şemalarının ve ilgili açık donanım kaynaklarının kamuya açık ve topluluk tarafından erişilebilir olduğunu doğrular. Şunları yapabilirsiniz:
 
-Diese Zertifizierung bestätigt, dass alle Schaltpläne, Schaltkreise ve verwandten Open-Source-Donanım-Ressourcen öffentlich verfügbar ve için die Community zugänglich sind. Sie können:
+- **Tam donanım tasarımını inceleyin**
+- **Tamir** ve özel ihtiyaçlarınıza göre değişiklik yapın  
+- **İsterseniz kendi sürümünüzü oluşturun**
+- Hem donanım hem de yazılım iyileştirmelerine **katkıda bulunun**
 
-- **Studieren** das komplette Donanım-Design
-- **Basteln** ve için Ihre spezifischen Bedürfnisse modifizieren  
-- **Bauen** Ihre eigene Version, wenn gewünscht
-- **Beitragen** zu Donanım- ve Yazılım-Verbesserungen
+## Açık Kaynak Yolculuğuna Katılın
 
-## Werden Sie Teil der Open-Source-Reise
+Sizi bu muhteşem açık kaynak topluluğunun bir parçası olmaya davet ediyoruz! İster donanım meraklısı, ister geliştirici olun, ister sadece nasıl çalıştığını merak ediyor olun, büyüyen ekosistemimizde size de bir yer var.
 
-Wir laden Sie ein, Teil dieser erstaunlichen Open-Source-Community zu werden! Ob Sie Donanım-Enthusiast, Entwickler veya einfach nur neugierig sind, wie es funktioniert - es gibt einen Platz için Sie in unserem wachsenden Ökosystem.
-
-**Bereit loszulegen?** [Sipariş ver Sie Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) ve werden Sie Teil der Open-Source-Revolution! 🚀
+**Başlamaya hazır mısınız?** [Order your KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) ve açık kaynak devrimine katılın! 🚀
 
 ---
 
-*Folgen Sie unserem [GitHub-Repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Donanım) için die neuesten Donanım-Güncellemeler ve Community-Beiträge.*
+*En son donanım güncellemeleri ve topluluk katkıları için [GitHub repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware) sayfamızı takip edin.*

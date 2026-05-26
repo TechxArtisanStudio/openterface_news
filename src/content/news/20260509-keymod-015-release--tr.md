@@ -2,90 +2,156 @@
 locale: tr
 translationKey: "20260509-keymod-015-release"
 slug: "20260509-keymod-015-release"
-title: "KeyMod 0.15: Gamepad-Preset-Pipeline, Tastatur & Maus (Basic)-Tier, Multi-Touchpad-Layouts"
-description: "KeyMod 0.15 liefert die Gamepad-Preset-Pipeline ile Schema v7, Multi-Touchpad-Layouts, ein dediziertes Tastatur & Maus (Basic)-Tier ile Vollbild-Tastatur ve KeyMod-Branding in der gesamten App. Ein wichtiger Schritt hin zu einer polierten Eingabe-Erfahrung."
+title: "KeyMod 0.15: Gamepad Ön Ayarlı Boru Hattı, Klavye ve Fare (Temel) Katmanı, Çoklu Dokunmatik Yüzey Düzenleri"
+description: "KeyMod 0.15, oyun kumandası ön ayar hattını şema v7, çoklu dokunmatik yüzey düzenleri, tam ekran klavyeli Klavye ve Fare (Temel) katmanı ve uygulama genelinde KeyMod markalaması ile birlikte sunar. Gösterişli bir giriş deneyimine doğru atılmış büyük bir adım."
 date: 2026-05-09
 channel: product
 product: keymod
-topic: ["beta", "software", "campaign", "community"]
-category: "Ürün-Güncellemeler"
-tags: ["KeyMod", "Ürün-Güncellemeler", "Release", "Gamepad", "Tastatur", "Android"]
+topic: ["shipping", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KeyMod", "Product Updates", "Release", "Gamepad", "Keyboard", "Android"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+KeyMod **0.15** (`versionCode` **15**), üç ana özelliği bir araya getiren bir dönüm noktası sürümüdür: düzen şeması **v6-v7** ile **oyun kumandası ön ayar hattı**, özel **Klavye ve Fare (Temel)** katmanı ve **çoklu dokunmatik yüzey** düzenleri. Bu güncelleme aynı zamanda karşılama akışında ve yapı yapılarında tam **KeyMod** markasını da beraberinde getiriyor.
 
-KeyMod **0.15** (`versionCode` **15**) ist ein Meilenstein-Release ile drei Hauptfunktionen: der **Gamepad-Preset-Pipeline** ile Layout-Schema **v6-v7**, dem dedizierten **Tastatur & Maus (Basic)**-Tier ve **Multi-Touchpad**-Layouts. Dieses Update bringt außerdem vollständiges **KeyMod**-Branding im Willkommens-Flow ve in den Build-Artefakten.
+#### Klavye ve Fare (Temel)
 
-## Gamepad: Preset-Pipeline v7
+<div class = "slideshow-container" id = "slideshow-keymod-015-km-basic" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class = "slayt gösterisi-sarmalayıcı">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp" alt="Temel tam ekran klavye"loading="tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp" alt = "Temel oluşturma ve gönderme modu" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp" alt = "Temel sayısal tuş takımı düzeni" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.webp" alt = "Temel dokunmatik yüzey modu" yükleme = "tembel"></div>
+  </div>
+  <div class = "slayt gösterisi-navigasyon">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-km-basic', -1)">❮</button>
+    <div class = "slayt gösterisi-noktalar">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-km-basic', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 4)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-km-basic', 1)">❯</button>
+  </div>
+</div>
 
-Das Gamepad nutzt nun ein echtes **Preset-System**, ile dem ihr benutzerdefinierte Controller-Layouts speichern, laden, importieren ve exportieren könnt.
+#### Oyun Kumandası
 
-### Was sich geändert hat
+<div class = "slideshow-container" id = "slideshow-keymod-015-gamepad" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class = "slayt gösterisi-sarmalayıcı">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp" alt="Oyun kumandası ön ayar görünümü"loading="tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp" alt = "Oyun kumandası ön ayar yönetimi" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp" alt = "Oyun kumandası ön ayar listesi" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-4.webp" alt = "Oyun kumandası ön ayarı ekleme modülü" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp" alt = "Minecraft'ta oyun kumandası ön ayarı" yükleme = "lazy"></div>
+  </div>
+  <div class = "slayt gösterisi-navigasyon">
+<button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-gamepad', -1)">❮</button>
+    <div class = "slayt gösterisi-noktalar">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-gamepad', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 5)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-gamepad', 1)">❯</button>
+  </div>
+</div>
 
-- **Preset-Store v7** ersetzt die alten eingebauten Layouts. Die klassischen Factory-Presets (`preset_classic_*`) ve **Two Buttons** (`preset_two_buttons`) wurden von der Festplatte entfernt. Nur **`preset_default`** bleibt als löschgeschütztes Factory-Layout.
-- **Schema v7** macht **`stick_left`** optional. Ein Layout kann nun hakkındahaupt kein Linker-Thumb-Modul haben. Das **Add Module**-Menü fügt **`stick_left`**, **`stick_left_2`**, **`stick_left_3`** usw. ein.
-- **Multi-Touchpad-Unterstützung**: Presets können mehrere Touchpads enthalten (`touchpad_1`, `touchpad_2`). Hinzufügen eines Touchpads belegt die nächste verfügbare ID ile leicht versetztem Anker. Gebündelte L/M/R-Maustasten werden hakkında alle Touchpads hinweg geteilt.
-- **Touchpad-Maustastengröße**: Maustasten verwenden nun einen größeren Standard-Zeichenradius. Größe anpassen per Long-Press **Mouse button size** auf dem Touchpad veya **This button size** auf einzelnen Mausmodulen.
-- **Aux-Stick-Defaults**: **`stick_left_2+`** standardmäßig auf D-Pad-Kreuz + WASD-Mapping.
+#### Klavye ve Fare (Pro)
 
-### Preset-Verwaltung
+<div class = "slideshow-container" id = "slideshow-keymod-015-km-pro" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class = "slayt gösterisi-sarmalayıcı">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp" alt="Pro dikey klavye"loading="tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp" alt = "Pro portre IME" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp" alt = "Pro portre sayısal tuş takımı" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp" alt = "Pro yatay tam klavye" yükleme = "tembel"></div>
+    <div class = "slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp" alt = "Pro yatay bölünmüş klavye" yükleme = "lazy"></div>
+  </div>
+  <div class = "slayt gösterisi-navigasyon">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-km-pro', -1)">❮</button>
+    <div class = "slayt gösterisi-noktalar">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-km-pro', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 5)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-km-pro', 1)">❯</button>
+  </div>
+</div>
 
-- **Tippt** den Preset-Chip in der Toolbar, um durch verfügbare Layouts zu schalten
-- **Long-Press** için die vollständige Preset-Liste ile Import-, Add Module- ve Export-Optionen
-- Das ilegelieferte **emu-6**-Layout ist das Starter-Preset
-- Der Export-Creator unterstützt i18n zum Teilen von Presets hakkında Sprachen hinweg
+## Oyun Kumandası: Önceden Ayarlanmış İşlem Hattı v7
 
-## Tastatur & Maus (Basic)
+Gamepad artık özel denetleyici düzenlerini kaydetmenize, yüklemenize, içe aktarmanıza ve dışa aktarmanıza olanak tanıyan uygun bir **önceden ayarlanmış sistem** kullanıyor.
 
-Ein dediziertes Vollbild-Tastatur-Tier için konzentriertes Tippen ohne den App-Header.
+### Ne değişti
 
-### Was ihr bekommt
+- **Ön ayar deposu v7** eski yerleşik düzenlerin yerini alır. Klasik fabrika ön ayarları (`preset_classic_*`) ve **İki düğme** (`preset_two_buttons`) diskten kaldırıldı. Silinmeye karşı korumalı fabrika düzeni olarak yalnızca **`preset_default`** kalır.
+- **Şema v7**, **`stick_left`**'i isteğe bağlı hale getirir. Bir düzende artık hiçbir sol başparmak modülü bulunamaz. **Modül ekle** menüsü **`stick_left`**, **`stick_left_2`**, **`stick_left_3`** vb. ekler.
+- **Çoklu dokunmatik yüzey desteği**: ön ayarlar birden fazla dokunmatik yüzey içerebilir ("dokunmatik yüzey_1", "dokunmatik yüzey_2"). Bir dokunmatik yüzey eklemek, bir sonraki kullanılabilir kimliği hafifçe kaydırılmış bir bağlantıyla tahsis eder. Birlikte verilen Sol/M/Sağ fare düğmeleri tüm dokunmatik yüzeylerde paylaşılır.
+- **Dokunmatik yüzey fare düğmesi boyutlandırması**: Fare düğmeleri artık daha büyük bir varsayılan çizim yarıçapı kullanıyor. Boyutu, dokunmatik yüzeydeki **Fare düğmesi boyutu**'na veya bireysel fare modülleri üzerindeki **Bu düğme boyutu**'na uzun basarak ayarlayabilirsiniz.
+- **Yardımcı çubuk varsayılanları**: **`stick_left_2+`** varsayılan olarak D-pad çapraz + WASD eşlemesidir.
 
-- **Vollbild-Tastatur** ohne Haupt-App-Header için mehr Bildschirmfläche
-- **Porträt- ve Landschafts-Numpad**: 5x8-Raster im Porträt (PrtSc / ScrLk / Pause / Home / End), 8x5-Raster in Landschaft ile hohem +, Enter ve 00
-- **IME ASCII-only Send-Gate**: Längeren Text im Compose-Modus eingeben, als saubere HID-Tastendrücke senden
-- **Long-Press-Repeat**: Zeichen- veya Funktionstasten gedrückt halten için Auto-Repeat (~400 ms Verzögerung, ~50 ms Wiederholung)
-- **Key-Preview**: Schwebende Blase zeigt das effektive Label hakkında der gedrückten Taste
-- **Haptisches Feedback** ve **themengesteuerte** Tastenflächen
+### Ön ayar yönetimi
 
-### Sticky vs Chord-Modifikatoren
+- Mevcut düzenler arasında geçiş yapmak için araç çubuğundaki Ön Ayar çipine **dokunun**
+- İçe aktarma, modül ekleme ve dışa aktarma seçenekleriyle tam ön ayar listesi için **uzun basın**
+- Paket halinde **emu-6** düzeni başlangıç ön ayarı olarak gönderilir
+- Dışa aktarma yaratıcısı, ön ayarların diller arasında paylaşılması için i18n'yi destekler
 
-Einstellungen ermöglichen die Wahl zwischen **sticky Modifiers** (Tippen zum Einrasten) ve **momentary + Long-Press Chord** (Standard) için die Basic-Tastatur.
+## Klavye ve Fare (Temel)
 
-## Branding
+Uygulama başlığı olmadan odaklanmış yazma için tasarlanmış özel bir tam ekran klavye katmanı.
 
-- Der App-Anzeigename ist jetzt **KeyMod**
-- Der Begrüßungsbildschirm zeigt die **KeyMod**-Wortmarke
-- CI-Artefakte ve APK-Dateinamen verwenden das **KeyMod**-Präfix
-- `applicationId` bleibt **`com.openterface.keymod`** için In-Place-Upgrades
+### Ne elde edersiniz
 
-## Was unverändert bleibt
+- Daha fazla ekran alanı için ana uygulama başlığı olmayan **tam ekran klavye**
+- **Dikey ve yatay sayısal tuş takımı**: Dikeyde 5x8 ızgara (PrtSc / ScrLk / Pause / Home / End), uzun +, Enter ve 00 ile yatayda 8x5 ızgara
+- **Yalnızca IME ASCII gönderme kapısı**: oluşturma modunda uzun metin yazın, temiz HID tuş vuruşlarıyla gönderin
+- **Tekrarlamaya uzun basın**: otomatik tekrar için karakter/işlev tuşlarını basılı tutun (~400ms gecikme, ~50ms tekrarlama)
+- **Anahtar önizleme**: kayan baloncuk, basıldığında tuşun üzerindeki etkili etiketi gösterir
+- **Dokunsal geri bildirim** ve **temaya duyarlı** temel yüzeyler
 
-**Tastatur & Maus Pro** (Composite-Modus ile Shortcut-Hub-Strips, geteilten Layouts ve reichem IME-Verhalten) bleibt die voll ausgestattete Erfahrung wie bisher.
+### Yapışkan ve Akor değiştiricileri
 
-## Update herunterladen
+Ayarlar, Temel klavye için **yapışkan değiştiriciler** (mandallamak için dokunun) ve **anlık + uzun basma akoru** (varsayılan) arasında seçim yapmanıza olanak tanır.
 
-**Diese Version (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
+## Markalaşma
 
-> **Beta-Hinweis:** Die KeyMod Android-App befindet sich noch in der aktiven Beta-Phase. Das Repo ist noch değil öffentlich — wir planen, es nach einer erfolgreichen Crowdfveing-Kampagne zu open-sourcen. Wenn du Beta-Tester bist ve den neuesten APK brauchst, meld dich bei uns auf Discord ve wir schicken dir den Build.
+- Uygulamanın görünen adı artık **KeyMod**
+- Karşılama ekranı **KeyMod** işaretini gösterir
+- CI yapıları ve APK dosya adları **KeyMod** önekini kullanır
+- `applicationId`, yerinde yükseltmeler için **`com.openterface.keymod`** olarak kalır
 
-> **Bekannte Probleme:** Dieses Release führt erhebliche Änderungen am Gamepad-Preset-System ve dem Basic-Tastatur-Tier ein. Unser Dev-Team testet noch intern, es können also noch Bugs auftreten. Falls du auf etwas Unerwartetes stößt, melde es bitte auf Discord — dein Feedback hilft uns, schneller zu stabilisieren.
+## Değişmeyen şey
 
-Bestehende Kurulumen werden vor Ort aktualisiert.
+**Klavye ve Fare Pro** (Kısayol Hub şeritleri, bölünmüş düzenler ve zengin IME davranışıyla bileşik mod) daha önce olduğu gibi tam özellikli bir deneyim olmaya devam ediyor.
 
-## Funktioniert ile Mini-KVM ve KVM-Go
+## Güncellemeyi alın
 
-Die KeyMod-App ist değil auf KeyMod-Donanım beschränkt. Bestehende Openterface-Nutzer können sie ebenfalls ausprobieren:
+**Bu sürüm (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-- **KVM-Go**: Bağlantı hakkında **Bluetooth** veya **USB**
-- **Mini-KVM**: Bağlantı hakkında **USB**
+> **Beta bildirimi:** KeyMod Android uygulaması hâlâ aktif beta sürümündedir. Kaynak deposu henüz halka açık değil; başarılı bir kitlesel fonlama kampanyasından sonra açık kaynak kodlu hale getirmeyi planlıyoruz. Beta testçisiyseniz ve en son APK'ya ihtiyacınız varsa Discord üzerinden bize ulaşın, biz de size sürümü sunalım.
 
-## Upgrade-Hinweise
+> **Bilinen sorunlar:** Bu sürüm, oyun kumandası ön ayar sisteminde ve Temel klavye katmanında önemli değişiklikler sunar. Geliştirme ekibimiz hala dahili olarak test yapıyor, dolayısıyla hatalarla karşılaşabilirsiniz. Beklenmedik bir durumla karşılaşırsanız lütfen bunu Discord'a bildirin; geri bildiriminiz daha hızlı stabil hale gelmemize yardımcı olur.
 
-- **Gamepad**: Eure bisherige Zwei-Tasten-Präferenz aktiviert beim ersten Start automatisch das **Two Buttons**-Preset. Verwendet **Preset** (Tippen zum Schalten, Long-Press için die Liste) anstelle der alten 1 Button / 2 Buttons Steuerung.
-- **Tastatur & Maus (Basic)**: Öffnet Basic, um die Vollbild-Tastatur zu erleben. Der Pro-Modus ist hakkında das Navigations-Drawer için das komplette Shortcut-Hub-Erlebnis verfügbar.
+Mevcut yüklemeler güncelleniyor.
 
-Beste Grüße,
+## Mini-KVM ve KVM-Go ile çalışır
 
-Openterface Team | TechxArtisan
+KeyMod uygulaması KeyMod donanımıyla sınırlı değildir. Mevcut Openterface kullanıcıları da deneyebilir:
+
+- **KVM-Go**: **Bluetooth** veya **USB** ile bağlanın
+- **Mini-KVM**: **USB** aracılığıyla bağlanın
+
+## Yükseltme notları
+
+- **Oyun Kumandası**: Önceki iki düğme tercihiniz, ilk çalıştırmada **İki düğme** ön ayarını otomatik olarak etkinleştirir. Eski 1 Düğme / 2 Düğme kontrolü yerine **Ön Ayar** (döngü yapmak için dokunun, liste için uzun basın) kullanın.
+- **Klavye ve Fare (Temel)**: tam ekran klavyeyi deneyimlemek için Temel'i açın. Kısayol Merkezi deneyiminin tamamı için gezinme çekmecesi aracılığıyla Pro moduna ulaşılabilir.
+
+Saygılarımızla,
+
+Açık Arayüz Ekibi | TechxArtisan

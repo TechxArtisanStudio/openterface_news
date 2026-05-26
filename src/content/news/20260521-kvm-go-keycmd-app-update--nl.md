@@ -2,175 +2,174 @@
 locale: nl
 translationKey: "20260521-kvm-go-keycmd-app-update"
 slug: "20260521-kvm-go-keycmd-app-update"
-title: "KVM-GO Update: Steuern Sie Ihr Zielgerät vom Handy aus met KeyCmd 0.19"
-description: "Nutzen Sie KeyCmd 0.19 met KVM-GO over USB of Bluetooth: KM Basic en Pro Tastaturen, Compose-Modus, Gamepad-Presets, Shortcut Hub en Präsentationssteuerung – kein Video-Dongle voor HID-Eingabe erforderlich."
+title: "KVM-GO-update: bedien uw doel vanaf uw telefoon met KeyCmd 0.19"
+description: "Gebruik KeyCmd 0.19 met KVM-GO via USB of Bluetooth: KM Basic- en Pro-toetsenborden, Compose-modus, gamepad-presets, Shortcut Hub en presentatiebediening: geen videodongle vereist voor HID-invoer."
 date: 2026-05-21
 channel: software
 product: keymod
-topic: ["beta", "software", "campaign", "community"]
-category: "Product-Updates"
-tags: ["KVM-GO", "KeyCmd", "Product-Updates", "Android", "USB", "Bluetooth", "Tastatur", "Gamepad", "Release"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KVM-GO", "KeyCmd", "Product Updates", "Android", "USB", "Bluetooth", "Keyboard", "Gamepad", "Release"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+Hallo allemaal,
 
-Hallo zusammen,
+Bedankt voor uw steun aan **KVM-GO** en voor uw geduld terwijl de eenheden door de productie en verzending gaan. We weten dat velen van jullie nog steeds wachten op hardware, en we willen dat je installatie vanaf dag één compleet aanvoelt.
 
-vielen Dank voor Ihre Unterstützung von **KVM-GO** en voor Ihre Geduld, während die Geräte produziert en versendet werden. Wir wissen, dass viele von Ihnen noch auf ihre Hardware warten, en wir möchten, dass sich Ihr Setup vom ersten Tag an komplett anfühlt.
+Naast de app **Openterface KVM** (video en volledige KVM-bediening op uw telefoon of tablet), hebben we **KeyCmd** verbeterd, onze begeleidende app voor toetsenbord, muis, gamepad en snelkoppelingen. **KeyCmd 0.19** is de build die we vandaag aanbevelen als u KVM-GO gebruikt. Koppel via **USB** of **Bluetooth**, installeer bovenop een eerdere build en uw instellingen, profielen en gekoppelde apparaten worden overgedragen.
 
-Neben der **Openterface KVM** App (Video en volle KVM-Steuerung auf Ihrem Handy of Tablet) haben wir **KeyCmd** verbessert, unsere Begleit-App voor Tastatur-, Maus-, Gamepad- en Shortcut-Eingaben. **KeyCmd 0.19** ist die Version, die wir heute voor die Nutzung met KVM-GO empfehlen. Die Kopplung erfolgt over **USB** of **Bluetooth**. Sie können sie einfach over jede vorherige Version installieren; Ihre Einstellungen, Profile en gekoppelten Geräte bleiben erhalten.
+<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp" alt="KVM-GO op een laptop met KeyCmd-toetsenbord op een telefoon" style="max-width:720px;width:100%;height:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp" alt="KVM-GO an einem Laptop met KeyCmd-Tastatur auf einem Handy" style="max-width:720px;width:100%;height:auto" loading="lazy">
+Hieronder ziet u wat KeyCmd doet met KVM-GO, welke modus u voor welke taak moet openen en hoe u er het maximale uit kunt halen op een echte doelmachine.
 
-Im Folgenden erfahren Sie, was KeyCmd met KVM-GO leistet, welchen Modus Sie voor welche Aufgabe öffnen sollten en wie Sie das Beste daraus an einem echten Zielgerät herausholen.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp" alt="KeyCmd welkomstscherm" style="max-height:320px;width:auto" loading="lui">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp" alt="KeyCmd Willkommensbildschirm" style="max-height:320px;width:auto" loading="lazy">
+## Modi en hoe je ze kunt gebruiken
 
-## Modi en ihre Verwendung
+### Toetsenbord en muis (basis)
 
-### Tastatur & Maus (Basic)
+Open dit als u een **eenvoudig toetsenbord op volledig scherm** wilt en niets anders u in de weg staat.
 
-Öffnen Sie diesen Modus, wenn Sie eine **einfache Vollbild-Tastatur** möchten en niets anderes im Weg sein soll.
+**Goed voor:** BIOS-wachtwoorden, korte shell-opdrachten, numerieke invoer of muisbediening met een groot touchpad terwijl KVM-GO u het scherm laat zien.
 
-**Ideal voor:** BIOS-Passwörter, kurze Shell-Befehle, Eingaben over den Ziffernblock of Maussteuerung met einem großen Touchpad, während KVM-GO Ihnen den Bildschirm zeigt.
+**Hoe het te gebruiken:**
 
-**So verwenden Sie es:**
+- Open **KM Basic** vanuit de navigatielade.
+- Gebruik indien nodig het schermtoetsenbord, het **numpad** (staand of liggend) of het tabblad **touchpad**.
+- Kies in **Instellingen** **sticky modifiers** (tik om Shift/Ctrl vast te houden) of **akkoordstijl** modifiers als je de voorkeur geeft aan combinaties van vasthouden en tikken.
 
-- Öffnen Sie **KM Basic** over das Navigationsmenü.
-- Verwenden Sie die Bildschirmtastatur, den **Ziffernblock** (Hoch- of Querformat) of den **Touchpad**-Tab nach Bedarf.
-- In den **Einstellungen** können Sie zwischen **Sticky Modifiers** (Tippen zum Einrasten von Shift/Strg) of **Chord-Style** Modifikatoren wählen, wenn Sie Tastenkombinationen bevorzugen.
+**Waarom het helpt:** meer schermruimte voor toetsen, minder chroom, sneller als je alleen invoer nodig hebt en geen snelkoppelingen.
 
-**Vorteile:** Mehr Platz auf dem Bildschirm voor die Tasten, weniger Benutzeroberfläche, schneller, wenn Sie nur Eingaben en keine Shortcuts benötigen.
+<img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp" alt="KM Basic toetsenbord op volledig scherm" style="max-height:320px;width:auto" loading="lui">
 
-<img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp" alt="KM Basic Vollbild-Tastatur" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp" alt="KeyCmd numpad in landschap" style="max-height:320px;width:auto" loading="lui">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp" alt="KeyCmd Ziffernblock im Querformat" style="max-height:320px;width:auto" loading="lazy">
+### Toetsenbord en muis (Pro)
 
-### Tastatur & Maus (Pro)
+<img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp" alt="KM Pro gesplitst toetsenbord in landschap" style="max-height:320px;width:auto" loading="lui">
 
-<img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp" alt="KM Pro geteilte Tastatur im Querformat" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp" alt="KeyCmd-toetsenbord en touchpad in portret" style="max-height:320px;width:auto" loading="lui">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp" alt="KeyCmd Tastatur en Touchpad im Hochformat" style="max-height:320px;width:auto" loading="lazy">
+Open dit voor **dagelijks controlewerk** op machines achter KVM-GO: gesplitste toetsenborden, IME, Shortcut Hub-strips en de **Compose**-editor.
 
-Öffnen Sie diesen Modus voor die **tägliche Steuerungsarbeit** an Geräten hinter KVM-GO: geteilte Tastaturen, IME, Shortcut Hub Leisten en der **Compose**-Editor.
+**Goed voor:** langere typesessies, macro's en snelkoppelingen, het verzenden van tekstblokken of scripts naar de host terwijl u het resultaat bekijkt in de KVM-weergave.
 
-**Ideal voor:** längeres Tippen, Makros en Shortcuts, das Senden von Textblöcken of Skripten an den Host, während Sie das Ergebnis in der KVM-Ansicht beobachten.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp" alt="Opstelmodus verzendt een script" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp" alt="Compose-Modus beim Senden eines Skripts" style="max-height:320px;width:auto" loading="lazy">
+**Opstellen** is het proberen waard als u vaak opdrachten of scripts plakt: schrijf op uw telefoon, bekijk ze en verzend ze vervolgens als toetsaanslagen naar de host. [Short demo on YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) toont de stroom van begin tot eind.
 
-**Compose** ist einen Versuch wert, wenn Sie häufig Befehle of Skripte einfügen: Schreiben Sie auf Ihrem Handy, overprüfen Sie den Text en senden Sie ihn dann als Tastenanschläge an den Host. Eine [kurze Demo auf YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) zeigt den Ablauf von Anfang bis Ende.
+**Hoe het te gebruiken:**
 
-**So verwenden Sie es:**
+- Open **KM Pro** vanuit de navigatielade.
+- Gebruik het toetsenbord en de touchpad zoals in Basic, plus de categorieën **Shortcut Hub** bovenaan voor acties met één tik die u in profielen instelt.
+- Open **Opstellen** om langere tekst op uw telefoon op te stellen, bekijk deze en **verzend** vervolgens met HID-toetsaanslagen. Bij lange verzendingen wordt een voortgangsbalk weergegeven. Als uw tekst niet-ASCII-tekens bevat, waarschuwt de app u voordat deze wordt verzonden, zodat u de hostcompatibiliteit kunt controleren (vooral handig op macOS).
 
-- Öffnen Sie **KM Pro** over das Navigationsmenü.
-- Verwenden Sie Tastatur en Touchpad wie in der Basic-Version, plus **Shortcut Hub** Kategorien am oberen Rand voor Ein-Klick-Aktionen, die Sie in Profilen eingerichtet haben.
-- Öffnen Sie **Compose**, um längere Texte auf Ihrem Handy zu entwerfen, zu overprüfen en dann als HID-Tastenanschläge zu **senden**. Bei langen Sendevorgängen wird ein Fortschrittsbalken angezeigt. Wenn Ihr Text Nicht-ASCII-Zeichen enthält, warnt die App Sie vor dem Senden, damet Sie die Host-Kompatibilität prüfen können (besonders hilfreich unter macOS).
-
-**Vorteile:** Ein Ort voor Texteingabe, Maussteuerung, Shortcuts en paste-ähnliche Workflows, ohne eine physische Tastatur zum Zielgerät metführen zu müssen.
+**Waarom het helpt:** één plek voor typen, aanwijzen, snelkoppelingen en plakachtige workflows zonder een volledig toetsenbord naar het doel te hoeven dragen.
 
 ### Gamepad
 
-Öffnen Sie diesen Modus, wenn Sie ein **virtuelles Controller-Layout** auf dem Bildschirm wünschen, das voor Spiele of Apps optimiert ist, die ein Gamepad erwarten.
+Open dit als je een **virtuele controller**-indeling op het scherm wilt, afgestemd op games of een app op het doel die een gamepad verwacht.
 
-**Ideal voor:** Emulatoren, Gelegenheitsspiele of eine kompakte Steuerfläche met Sticks en Tasten, während KVM-GO die Anzeige overnimmt.
+**Goed voor:** emulators, casual games of een compact bedieningsoppervlak met sticks en knoppen terwijl KVM-GO het display verzorgt.
 
-**So verwenden Sie es:**
+**Hoe het te gebruiken:**
 
-- Wechseln Sie in den **Gamepad**-Modus.
-- Tippen Sie auf **Preset** in der Toolbar, um durch gespeicherte Layouts zu **blättern**. **Halten Sie Preset gedrückt**, um die vollständige Liste zu öffnen, Layouts zu **importieren/exportieren** of **Module hinzuzufügen** (Sticks, Tasten, Touchpads).
-- Starten Sie met dem metgelieferten **emu-6** Preset en bearbeiten Sie es nach Ihren Wünschen. Sie können **mehrere Touchpads** en zusätzliche Stick-Module in einem Layout hinzufügen.
+- Schakel over naar de **Gamepad**-modus.
+- Tik op **Voorinstelling** in de werkbalk om opgeslagen lay-outs te **draaien**. **Druk lang op Preset** om de volledige lijst te openen, **importeer/exporteer** of **voeg modules toe** (sticks, knoppen, touchpads).
+- Begin met de gebundelde **emu-6**-voorinstelling en bewerk vanaf daar. U kunt **meerdere touchpads** en extra stickmodules in één lay-out toevoegen.
 
-**Vorteile:** Sie sind niet auf ein festes Layout beschränkt; speichern Sie Layouts pro Spiel of pro Maschine en teilen Sie Presets met anderen.
+**Waarom het helpt:** je zit niet vast aan één fabrieksindeling; sla lay-outs op per game of per machine en deel presets met anderen.
 
-<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp" alt="Gamepad Preset Layout" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp" alt="Vooraf ingestelde lay-out van gamepad" style="max-height:320px;width:auto" loading="lui">
 
-<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp" alt="Gamepad Preset genutzt in Minecraft" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp" alt="Gamepad-voorinstelling gebruikt in Minecraft" style="max-height:320px;width:auto" loading="lazy">
 
-*Angepasstes Preset voor Minecraft.*
+*Aangepaste voorinstelling voor Minecraft.*
 
-### Shortcut Hub
+### Snelkoppelingshub
 
-Dies ist die Zentrale voor **Profile en Shortcuts** innerhalb von KM Pro: Kategorien, Detail-Panels en die Shortcuts, die Sie den Leisten zuweisen.
+Dit is het **profiel en de snelkoppeling** in KM Pro: categorieën, detailpanelen en de snelkoppelingen die u aan strips toewijst.
 
-**Ideal voor:** wiederkehrende Aufgaben auf dem Zielgerät (Terminal öffnen, Befehlskette einfügen, Einstellungen umschalten), während KVM-GO voor das Video verbenen bleibt.
+**Goed voor:** herhaalbare bewerkingen op het doel (terminal openen, een commandoketen plakken, instellingen wijzigen) terwijl KVM-GO verbonden blijft voor video.
 
-**So verwenden Sie es:**
+**Hoe het te gebruiken:**
 
-- Arbeiten Sie in KM Pro im **Default**-Profil (of Ihrem eigenen).
-- Nutzen Sie Kategorie-Tabs en die Detail-UI, um Shortcuts zu verwalten.
-- Starten Sie die **Shortcut Hub Tour**, wenn Sie neu in der Organisation von Profilen sind.
+- Werk vanuit KM Pro in het **Standaard** profiel (of uw eigen profiel).
+- Gebruik categorietabbladen en de gedetailleerde gebruikersinterface om snelkoppelingen te beheren.
+- Voer de **Shortcut Hub-rondleiding** uit als u nog niet weet hoe profielen zijn georganiseerd.
 
-### Präsentation
+### Presentatie
 
-Eine einfachere Steuerung im **Presenter-Stil**, die im **Hochformat** gehalten ist, damet die Tasten niet springen, wenn Sie das Handy drehen.
+Een eenvoudiger bedieningsoppervlak in **presentatorstijl**, **staand** zodat de knoppen niet verspringen wanneer u de telefoon draait.
 
-**Ideal voor:** das Durchblättern von Folien of einfache Präsentationssteuerungen am Zielgerät.
+**Goed voor:** door dia's stappen of lichte presentatorbedieningen op het doel.
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp" alt="Präsentationsmodus zur Steuerung von Google Slides" style="max-height:320px;width:auto" loading="lazy">
-
----
-
-## Sprachen
-
-Die App-Benutzeroberfläche ist in **11 Sprachen** verfügbar. Neu hinzugekommen sind: Koreanisch, Italienisch, Russisch en Brasilianisches Portugiesisch.
-
-Öffnen Sie **Settings** → **App language**, um die Sprache zu ändern.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp" alt="Presentatiemodus die Google Presentaties bestuurt" style="max-height:320px;width:auto" loading="lazy">
 
 ---
 
-## KeyCmd 0.19 herunterladen en met KVM-GO verbinden
+## Talen
 
-**Download:** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
+De app-gebruikersinterface is beschikbaar in **11 talen**. Recente toevoegingen: Koreaans, Italiaans, Russisch en Braziliaans Portugees.
 
-Installieren Sie die Version over Ihre bestehende App, falls vorhanden. Ein Löschen der Daten ist niet erforderlich.
-
-**Verbinding met KVM-GO (Video-Port kann ausgesteckt bleiben):**
-
-Bei **allen drei KVM-GO Varianten** (HDMI, VGA en DP) müssen Sie den **Videoanschluss am Dongle** voor die KeyCmd-Eingabe nirgendwo einstecken. Der HDMI-, VGA- of DP-Port kann leer bleiben. Wählen Sie eines der folgenden Setups.
-
-**Option A — Bluetooth (Zielgerät versorgt KVM-GO met Strom)**
-
-1. Stecken Sie das **kurze schwarze USB-Kabel** in den **Target**-Port des KVM-GO en in das Gerät, das Sie steuern möchten. Diese Verbinding allein **versorgt** KVM-GO met Strom.
-2. Öffnen Sie auf Ihrem Handy **KeyCmd** en suchen Sie KVM-GO over **Bluetooth**.
-
-**Option B — USB zu Ihrem Android-Handy (Host-Port)**
-
-1. Verbinden Sie das **lange orangefarbene Kabel** vom **Host**-Port des KVM-GO met Ihrem Android-Handy.
-2. Öffnen Sie **KeyCmd** en verbinden Sie sich in der App over **USB**.
-
-<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp" alt="KVM-GO Target-Port verbenen met einem Laptop over das kurze schwarze USB-Kabel" style="max-height:360px;width:auto" loading="lazy">
-
-Für Vollbild-Video plus Eingabe verwenden Sie **Openterface KVM** voor die Anzeige des Zielgeräts en **KeyCmd** voor Tastatur, Maus en Shortcuts. KeyCmd allein reicht aus, wenn das Zielgerät bereits einen eigenen Bildschirm hat en Sie nur die Eingabe benötigen.
-
-**Funktioniert auch met Mini-KVM** over USB, falls Sie beide Geräte nutzen.
-
-> **Noch Beta.** Gamepad-Presets en Compose-Sendevorgänge können sich je nach Host-Betriebssystem unterschiedlich verhalten. Wenn etwas Ungewöhnliches met KVM-GO passiert, kontaktieren Sie uns auf **Discord** met einem Screenshot, Ihrer KVM-GO Variante (HDMI / DP / VGA) en dem, was Sie erwartet haben.
-
-> **Quellcode:** Noch niet öffentlich. Wir planen, ihn nach Erreichen von Crowdfening-Meilensteinen voor verwandte Projekte als Open Source zu veröffentlichen. Vragen Sie auf Discord nach, wenn Sie Hilfe beim Finden der APK benötigen.
+Open **Instellingen** → **App-taal** om te wisselen.
 
 ---
 
-## Über KeyMod (optional, separat von KVM-GO)
+## Download KeyCmd 0.19 en maak verbinding met KVM-GO
 
-Wir entwickeln auch **[KeyMod](https://openterface.com/product/keymod/)**, einen dedizierten USB- en Bluetooth-HID-Dongle voor dieselbe KeyCmd-App. KVM-GO Unterstützer benötigen KeyMod voor die oben genannten Workflows niet; KeyCmd over KVM-GO ist der Weg, den wir Ihnen jetzt empfehlen.
+**Downloaden:** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
 
-Wenn Sie neugierig auf einen eigenständigen Dongle voor Nicht-KVM-Setups sind, können Sie die [KeyMod-Kampagne auf Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-keymod) verfolgen. Dies ist unabhängig von der KVM-GO Auslieferung.
+Installeer via uw bestaande app als u er al een heeft. Gegevens wissen is niet nodig.
+
+**Verbinden met KVM-GO (videopoort kan losgekoppeld blijven):**
+
+Voor **alle drie de KVM-GO-varianten** (HDMI, VGA en DP) hoeft u de **videoconnector op de dongle** nergens op aan te sluiten voor KeyCmd-invoer. De HDMI-, VGA- of DP-poort kan leeg blijven. Kies een van de onderstaande instellingen.
+
+**Optie A — Bluetooth (doelvermogen KVM-GO)**
+
+1. Sluit de **korte zwarte USB-kabel** aan op de **Doel**-poort op KVM-GO en op de machine die u bestuurt. Alleen al die verbinding is de kracht van KVM-GO.
+2. Open **KeyCmd** op uw telefoon en zoek KVM-GO via **Bluetooth**.
+
+**Optie B — USB naar uw Android-telefoon (hostpoort)**
+
+1. Sluit de **lange oranje kabel** van de **Host**-poort op KVM-GO aan op uw Android-telefoon.
+2. Open **KeyCmd** en maak verbinding via **USB** in de app.
+
+<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp" alt="KVM-GO Doelpoort aangesloten op een laptop via de korte zwarte USB-kabel" style="max-height:360px;width:auto" loading="lazy">
+
+Voor video op volledig scherm plus invoer gebruikt u **Openterface KVM** voor de doelweergave en **KeyCmd** voor toetsenbord, muis en snelkoppelingen. KeyCmd alleen is voldoende als het doel al een eigen display heeft en u alleen invoer nodig heeft.
+
+**Werkt ook met Mini-KVM** via USB als u beide apparaten gebruikt.
+
+> **Nog steeds in bèta.** Gamepad-presets en Compose-verzendingen kunnen zich anders gedragen, afhankelijk van het host-besturingssysteem. Als er iets vreemds gebeurt met KVM-GO, neem dan contact met ons op via **Discord** met een screenshot, uw KVM-GO-variant (HDMI / DP / VGA) en wat u ervan verwachtte.
+
+> **Broncode:** Nog niet openbaar. We zijn van plan om na crowdfunding-mijlpalen voor gerelateerde projecten open source te gebruiken. Vraag op Discord of je hulp nodig hebt bij het vinden van de APK.
 
 ---
 
-## Wir freuen uns auf Ihr Feedback
+## Over KeyMod (optioneel, los van KVM-GO)
 
-Wenn Sie ein paar Minuten Zeit haben, installieren Sie **KeyCmd 0.19**, verbinden Sie es met Ihrem KVM-GO (of Mini-KVM) en sagen Sie uns, was sich noch unpraktisch anfühlt. Berichte aus Crash-Cart- en Homelab-Szenarien fließen direkt in unsere nächsten Releases ein.
+We ontwikkelen ook **[KeyMod](https://openterface.com/product/keymod/)**, een speciale USB- en Bluetooth HID-dongle voor dezelfde KeyCmd-app. KVM-GO-ondersteuners hebben KeyMod niet nodig voor de bovenstaande workflows; KeyCmd via KVM-GO is het pad waarop we u nu willen hebben.
 
-Praktische Wege, das KVM-GO Projekt zu unterstützen:
+Als je nieuwsgierig bent naar een standalone dongle voor niet-KVM-opstellingen, kun je de [KeyMod campaign on Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-keymod) volgen. Dat staat los van de KVM-GO-fulfilment.
 
-- **Teilen Sie, was funktioniert**, auf Discord of in Ihrer Community (BIOS-Tipps, Bluetooth-Kopplung, Lieblingsmodi)
-- **Empfehlen Sie uns einem Kollegen**, der Headless-Systeme betreibt en ein KVM voor die Hosentasche gebrauchen könnte
-- **Senden Sie uns weiterhin ehrliches Feedback**, besonders zu Ecken en Kanten. Das prägt das Product mehr als reine Begeisterung
+---
 
-Vielen Dank nochmals voor Ihre Unterstützung von KVM-GO en davoor, dass Sie uns helfen, portable KVM-over-USB Lösungen voor alle besser zu machen.
+## Wij zouden graag uw feedback ontvangen
 
-Beste Grüße,
+Als u een paar minuten de tijd heeft, installeer dan **KeyCmd 0.19**, sluit deze aan op uw KVM-GO (of Mini-KVM) en vertel ons wat nog steeds ongemakkelijk voelt. Rapporten van crash-cart- en homelab-gebruiksscenario's gaan rechtstreeks naar onze volgende releases.
 
-**Openterface Team | TechxArtisan**
+Praktische manieren om het KVM-GO project te helpen:
+
+- **Deel wat werkt** in Discord of uw community (BIOS-tips, Bluetooth-koppeling, favoriete modi)
+- **Vertel het aan een collega** die headless apparatuur gebruikt en een pocket KVM kan gebruiken
+- **Blijf eerlijke feedback sturen**, vooral de ruwe kantjes. Dat vormt het product meer dan cheerleading
+
+Nogmaals bedankt voor uw steun aan KVM-GO en voor uw hulp om draagbare KVM-over-USB voor iedereen beter te maken.
+
+Met vriendelijke groet,
+
+**Openterface-team | TechxArtisaan**

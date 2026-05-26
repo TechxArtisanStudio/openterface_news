@@ -2,92 +2,90 @@
 locale: nl
 translationKey: "250214-fresh-gear-and-more-diy-time"
 slug: "250214-fresh-gear-and-more-diy-time"
-title: "Rückstand Abgearbeitet, Frische Ausrüstung en Mehr Zeit zum USB KVM Bauen!"
-description: "Große Openterface-Updates: Rückstand abgearbeitet, Lager vollständig bestückt, DIY-Challenge verlängert met besseren Preisen! Plus: neue orange Nylon-Kabel, Android-Stift-Integration, Bug-Fixes en erstaunliche Community-Anwendungsfälle geteilt."
+title: "Verwijder achterstand, nieuwe uitrusting en meer tijd om USB KVM te bouwen!"
+description: "Grote Openterface-updates: achterstand weggewerkt, magazijn volledig gevuld, DIY Challenge uitgebreid met betere prijzen! Plus: nieuwe oranje nylonkabels, Android-potloodintegratie, bugfixes en geweldige community-gebruiksscenario's gedeeld."
 date: 2025-02-19
 channel: product
 product: minikvm
-topic: ["software", "campaign", "event", "community"]
+topic: ["shipping", "software", "campaign", "event", "community", "analysis"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**Hé daar, Openterface fam!**
 
-**Hey, Openterface-Familie!**
+Het is alweer een tijdje geleden en we hebben leuk nieuws om te delen! Laten we erin duiken!
 
-Es ist eine Weile her, en wir haben aufregende Neuigkeiten zu teilen! Lassen Sie uns eintauchen!
+### **Backlog weggewerkt en volledig gevuld**
 
-### **Rückstand Abgearbeitet & Vollständig Bestückt**
+Volgens Crowd Supply zijn de meeste bestellingen al verzonden! Als je de jouwe nog niet hebt ontvangen, controleer dan de verzendgegevens van de bestelling. Deze wordt waarschijnlijk verwerkt en zou binnenkort onderweg moeten zijn. Neem gerust contact op met [reach out to Crowd Supply](https://www.crowdsupply.com/contact) voor updates over de status van uw bestelling.
 
-Laut Crowd Supply sind die meisten Bestellungen bereits versandt! Wenn Sie Ihre noch niet erhalten haben, overprüfen Sie die Versandinformationen Ihrer Bestellung erneut—sie wird wahrscheinlich bearbeitet en sollte bald unterwegs sein. Zögern Sie niet, [Crowd Supply zu kontaktieren](https://www.crowdsupply.com/contact) voor Updates zu Ihrem Bestellstatus.
+Daarnaast hebben we onlangs nog een batch Openterface Mini-KVM-units verzonden, en het magazijn van Crowd Supply in Texas is nu volledig gevuld! Dus als uw huidige Mini-KVM van onschatbare waarde blijkt te zijn voor het beheer van uw headless-apparaten in uw technische frontlinie, overweeg dan [grabbing another via Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm), of vertel het aan uw technologieminnende vrienden!
 
-Zusätzlich haben wir kürzlich eine weitere Charge von Openterface Mini-KVM-Einheiten versandt, en Crowd Supplys Texas-Lager ist jetzt vollständig bestückt! Wenn sich Ihr aktuelles Mini-KVM als unschätzbar voor die Verwaltung Ihrer headless-Geräte an Ihrer Tech-Front erweist, erwägen Sie [ein weiteres over Crowd Supply zu holen](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)—of verbreiten Sie das Wort an Ihre tech-begeisterten Freene!
+### ** Bugs? Geen probleem! Ontwikkelteam in actie**  
 
-### **Bugs? Kein Problem! Dev-Team in Aktion**
+De buzz op onze Reddit, Discord en GitHub was geweldig! Uw feedback, vragen en probleemrapporten stromen binnen, en we zijn er zo dankbaar voor.
 
-Der Trubel auf unserem Reddit, Discord en GitHub war großartig! Ihre Rückmeldungen, Vragen en Problemberichte sind hereingeströmt—en wir sind so dankbar davoor.
+Dit is waar ons ontwikkelteam zich momenteel op concentreert:
 
-Hier ist, worauf sich unser Entwicklungsteam gerade konzentriert:
+- ** Bugs oplossen: ** Vernietig de vervelende problemen die u heeft gemeld.  
+- **U ondersteunen:** Onze documenten en veelgestelde vragen bijwerken om uw ervaring soepeler te maken.  
 
-- **Bugs Beheben:** Diese lästigen Probleme, die Sie gemeldet haben, werden behoben.
-- **Sie Unterstützen:** Unsere Documentatie en FAQs aktualisieren, um Ihre Erfahrung reibungsloser zu machen.
+We beoordelen elk probleem, voeren regelmatig controles uit en verhelpen bugs één voor één. Het solide en betrouwbaarder maken van de app is onze topprioriteit, en uw inbreng is van cruciaal belang om dat mogelijk te maken.  
 
-Wir overprüfen jedes Problem, halten regelmäßige Check-ins ab en beheben Bugs einen nach dem anderen. Die App solider en zuverlässiger zu machen ist unsere oberste Priorität—en Ihr Input ist der Schlüssel dazu, das zu erreichen.
+Heeft u een bug te melden of heeft u een coole manier gevonden om uw Mini-KVM te gebruiken om de dag te redden? We horen het graag**! Of het nu gaat om een ​​creatieve opzet, een onmisbare functie-idee of gewoon pure opwinding: we zijn één en al oor.  
 
-Haben Sie einen Bug zu melden of einen coolen Weg gefenen, Ihr Mini-KVM zu nutzen, um den Tag zu retten? Wir würden es **lieben**, davon zu hören! Ob es ein kreatives Setup, eine Must-Have-Feature-Idee of pure Begeisterung ist—wir sind ganz Ohr.
+Om ons ontwikkelingsteam te helpen bugs systematisch op te sporen (en hun gezond verstand intact te houden), raden we **sterk aan** om ze eerst op onze GitHub-repo's te rapporteren:
 
-Um unserem Entwicklungsteam zu helfen, Bugs systematisch zu verfolgen (en ihre geistige Gesenheit intakt zu halten), **empfehlen wir dringend**, sie zuerst in unseren GitHub-Repos zu melden:
-
-- [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT) voor Windows & Linux
+- [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT) voor Windows en Linux
 - [Openterface MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS)
 - [Openterface Android](https://github.com/TechxArtisanStudio/Openterface_Android)
 - [Openterface Mini-KVM Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)
 
-Bevorzugen Sie Echtzeit-Diskussionen met dem Entwicklungsteam en anderen Openterface-Fans? Treten Sie unserer großartigen Community bei:
+Geef je de voorkeur aan realtime discussies met het ontwikkelteam en andere Openterface-fans? Sluit je aan bij onze geweldige community:
 
-- **Reddit:** [r/Openterface_miniKVM](https://openterface.com/reddit)
-- **Discord:** [Openterface](https://openterface.com/discord)
+- **Reddit:** [r/Openterface_miniKVM](https://openterface.com/reddit)  
+- **Onenigheid:** [Openterface](https://openterface.com/discord)  
 
-Oh, en wenn Sie es altmodisch mögen, können Sie uns immer **eine E-Mail** an info@openterface.com senden of uns eine Nachricht over unser **Google-Formular** hinterlassen: [Feedback Einreichen](https://forms.gle/enVJYFGn6gghEFaJ9).
+Oh, en als je het graag ouderwets houdt, kun je ons altijd **e-mailen** op info@openterface.com of ons een bericht sturen via ons **Google Form**: [Submit Feedback](https://forms.gle/enVJYFGn6gghEFaJ9).  
 
-Ihre Geduld en Unterstützung bedeuten uns die Welt, während wir alle Unebenheiten auf dem Weg durcharbeiten. Großer Dank an alle, die Probleme gemeldet, Ideen geteilt en sogar Code beigetragen haben! Das Openterface-Gerät ist niet perfekt (noch niet!), aber vertrauen Sie uns—met der Energie dieser Community wird es jeden Tag besser. 🚀💙
+Uw geduld en steun betekenen veel voor ons terwijl we onderweg door alle hobbels heen werken. Hartelijk dank aan iedereen die problemen heeft gemeld, ideeën heeft gedeeld en zelfs heeft meegeholpen om code bij te dragen! Het Openterface-apparaat is (nog) niet perfect, maar geloof ons: met de energie van deze community wordt het elke dag beter. 🚀💙
+### **DIY KVM-uitdaging: uitgebreide en verbeterde prijzen!**
 
-### **DIY KVM Challenge: Verlängert & Aufgewertete Preise!**
-
-Da unsere Kits später als erwartet versandt wurden, verlängern wir die DIY KVM Challenge um **zwei Monate**! Außerdem werten wir die Preise auf—bleiben Sie dran voor Details auf der Crowd Supply Contest-Seite. Das bedeutet mehr Zeit zum Basteln, Experimentieren en Präsentieren Ihrer Builds. Machen Sie met en reichen Sie Ihre Projekte over Crowd Supplys USB DIY Contest-Seite ein: [USB KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
+Omdat onze kits later zijn verzonden dan verwacht, verlengen we de DIY KVM Challenge met **twee maanden**! Bovendien zijn we de prijzen aan het upgraden. Houd de pagina voor meer informatie in de gaten op de Crowd Supply-wedstrijdpagina. Dat betekent meer tijd om te sleutelen, te experimenteren en uw builds te presenteren. Doe mee en dien uw projecten in via de USB DIY-wedstrijdpagina van Crowd Supply: [USB KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
 
 ![USB KVM DIY Challenge 2024](https://www.crowdsupply.com/img/18e5/5e596d38-80c5-4b99-aea6-ed31586d18e5/usb-kvm-diy-2024-logo-2.svg)
 
 ![contest-parties](https://www.crowdsupply.com/img/4a8d/30e316fe-f0df-43bc-958b-b7f480b74a8d/250214-contest-parties_png_md-xl.jpg)
 
-### **Neues Helles Orange Nylon-Kabel**
+### **Nieuwe feloranje nylonkabel**
 
-Mit unserer neuesten Mini-KVM-Charge haben wir das Type-C-Kabel in unserer Toolkit-Version offiziell auf das neue helle orange Nylon-Kabel aufgerüstet. Dieses neue Kabel ist niet nur visuell auffällig—es ist voor Leistung gebaut, met overlegener EMI-Resistenz, stabiler Datenovertragung en außergewöhnlicher Haltbarkeit.
+Met onze nieuwste Mini-KVM-batch hebben we de Type-C-kabel in onze toolkit-versie officieel geüpgraded naar de nieuwe feloranje nylonkabel. Deze nieuwe kabel is niet alleen visueel opvallend: hij is gebouwd voor prestaties, met superieure EMI-weerstand, stabiele gegevensoverdracht en uitzonderlijke duurzaamheid.
 
 ![New Toolkit](https://www.crowdsupply.com/img/322c/84a85be0-7f68-48ec-a30c-7db01243322c/250214-toolkit-open_jpg_gallery-lg.jpg)
 
-Aber wenn Sie das weichere, flexiblere Gefühl des ursprünglichen silikonähnlichen Type-C-Kabels bevorzugen, keine Sorge! Sie können sie immer noch von unserem [TxA Shop](https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0) holen. Beide Kabel haben ihre Stärken, en wir sind zuversichtlich, dass die neue Nylon-Version eine solide Ergänzung zu Ihrem Tech-Toolkit sein wird.
+Maar als u de voorkeur geeft aan het zachtere, flexibelere gevoel van de originele, siliconenachtige Type-C-kabel, hoeft u zich geen zorgen te maken! Je kunt ze nog steeds halen uit onze [TxA Shop](https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0). Beide kabels hebben hun sterke punten en we zijn ervan overtuigd dat de nieuwe nylonversie een solide aanvulling zal zijn op uw technische toolkit.
 
-### **Nahtlose Kontrolle: Mini-KVM + Android-Stift = Reine Magie**
+### **Naadloze bediening: Mini-KVM + Android-potlood = Pure magie**
 
-Haben Sie sich jemals gefragt, was passiert, wenn Sie [das Mini-KVM met einem Android-Stift paaren](https://www.reddit.com/r/Openterface_miniKVM/comments/1hnh79n/kicad_is_the_fisrt_software_we_tried_first_with/)? Reine Magie! Vom Skizzieren von Designs bis zur Navigation von macOS of Windows ist die Erfahrung unserer [Openterface Android Host-App](https://github.com/TechxArtisanStudio/Openterface_Android) reibungslos, intuitiv en befriedigend. Schauen Sie sich unser Demo-Video an, um es in Aktion zu sehen!
+Heeft u zich ooit afgevraagd wat er gebeurt als u [pair the Mini-KVM with an Android Pencil](https://www.reddit.com/r/Openterface_miniKVM/comments/1hnh79n/kicad_is_the_fisrt_software_we_tried_first_with/)? Pure magie! Van het schetsen van ontwerpen tot het navigeren in macOS of Window: de ervaring van onze [Opoenterface Android host app](https://github.com/TechxArtisanStudio/Openterface_Android) is soepel, intuïtief en bevredigend. Bekijk onze demovideo om hem in actie te zien!
 
-### **Erstaunliche Anwendungsfälle aus der Community:**
+### **Geweldige gebruiksscenario's uit de community:**
 
-Hier sind nur ein paar weitere Ideen, wie Sie das Openterface Mini-KVM verwenden können:
+Hier zijn nog een paar ideeën over hoe u de Openterface Mini-KVM kunt gebruiken:
 
-- **Headless-Kontrolle met Android-Telefon:** [Mein Pi 5 Setup: UPS, Aluminium-Gehäuse & Openterface-Magie](https://www.reddit.com/r/Openterface_miniKVM/comments/1hrx1j5/my_pi_5_setup_ups_aluminium_case_openterface_magic/)
-- **Ein kaputtes MacBook wiederbeleben:** [Äh... Ein Weg, den Tag dieses rosa Bildschirms zu retten!](https://www.reddit.com/r/macbookpro/comments/1hwkh64/uh_a_way_to_save_the_day_of_this_pink_screen/)
-- **Erkenen Sie mehr Anwendungsfälle** auf unserer [Website](https://openterface.com/use-cases/).
+- **Headless Control met Android-telefoon:** [My Pi 5 setup: UPS, Aluminium Case, & Openterface Magic](https://www.reddit.com/r/Openterface_miniKVM/comments/1hrx1j5/my_pi_5_setup_ups_aluminium_case_openterface_magic/)
+- **Een kapotte MacBook nieuw leven inblazen:** [Uh... A way to save the day of this pink screen!](https://www.reddit.com/r/macbookpro/comments/1hwkh64/uh_a_way_to_save_the_day_of_this_pink_screen/)
+- **Ontdek meer gebruiksscenario's** op onze [website](https://openterface.com/use-cases/).
 
-Ihre Kreativität en Leidenschaft sind das Herz der Openterface-Community.
+Jouw creativiteit en passie vormen het hart van de Openterface-gemeenschap. 
 
-In der Zwischenzeit erkenen Sie unseren [TechxArtisan Shop](http://shop.techxartisan.com/) voor Openterface-Merchandise en hochwertige Kabel, die entwickelt wurden, um nahtlos met Ihren Openterface-Geräten zu funktionieren.
+Bekijk in de tussentijd zeker onze [TechxArtisan Shop](http://shop.techxartisan.com/) voor Openterface-merchandise en hoogwaardige kabels die zijn ontworpen om naadloos samen te werken met uw Openterface-apparaten. 
 
-Bis dahin... fröhliches Basteln!
+Tot dan… veel sleutelplezier!
 
-Mit Dankbarkeit,  
+Met dankbaarheid,  
 Billy Wang  
 Productmanager  
-Openterface Team | TechxArtisan
+Openterface-team | TechxArtisan

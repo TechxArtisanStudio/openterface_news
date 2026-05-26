@@ -2,53 +2,52 @@
 locale: ar
 translationKey: "240618-meet-up-teardown-2024"
 slug: "240618-meet-up-teardown-2024"
-title: "Treffen Sie mich dieses Wochenende in Portland و gewinnen Sie ein Mini-KVM bei meiner Spiel-Herausforderung!"
-description: "Treffen Sie uns bei Teardown 2024 in Portland! Feiern Sie den $248K Crowdfوing-Erfolg von Openterface Mini-KVM, spielen Sie Retro-Spiele um ein Mini-KVM zu gewinnen, و treffen Sie unser Team persönlich. Live-Demo و Streaming verfügbar vom 21. bis 23. Juni im Lloyd Center Mall."
+title: "قابلني في بورتلاند في عطلة نهاية الأسبوع هذه واربح Mini-KVM من My Game Challenge!"
+description: "انضم إلينا في Teardown 2024 في بورتلاند! احتفل بنجاح Openterface Mini-KVM في التمويل الجماعي بقيمة 248 ألف دولار، ولعب الألعاب القديمة للفوز بـ Mini-KVM، وقابل فريقنا شخصيًا. يتوفر العرض التجريبي المباشر والبث المباشر في الفترة من 21 إلى 23 يونيو في Lloyd Center Mall."
 date: 2024-06-18
 channel: events
 eventType: exhibition
-topic: ["campaign", "event", "community"]
-category: "Product التحديثات"
+topic: ["shipping", "production", "campaign", "event", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+مرحبًا بالجميع! لدينا بعض الأخبار الرائعة لمشاركتها!
 
-Hallo zusammen! Wir haben fantastische Neuigkeiten zu teilen!
+### شكرا جزيلا!
+أولاً، لا أستطيع [thank you all](https://x.com/TechxArtisan/status/1801850068263178300) بما يكفي لدعمكم المذهل. لقد حطمت حملة التمويل الجماعي الخاصة بنا أهدافها تمامًا في 14 يونيو، حيث وصلت إلى ** 248 ألف دولار ** بدعم مذهل من أكثر من ** 1110 مؤيدين ** و ** حشد العرض **.
 
-### Großer Dank!
-Zunächst einmal kann ich euch allen لا genug [danken](https://x.com/TechxArtisan/status/1801850068263178300) لـ eure unglaubliche Unterstützung. Unsere Crowdfوing-Kampagne hat ihre Ziele am 14. Juni absolut حولtroffen و مع der erstaunlichen Unterstützung von حول **1110 Unterstützern** و **Crowd Supply** **$248k** erreicht.
+![crowdfunding_end_240614](https://www.crowdsupply.com/img/b812/9768a2ad-1b78-45dd-966c-942c170fb812/crowdfunding-end-240614_jpg_md-xl.jpg)
 
-![crowdfوing_end_240614](https://www.crowdsupply.com/img/b812/9768a2ad-1b78-45dd-966c-942c170fb812/crowdfوing-end-240614_jpg_md-xl.jpg)
+لقد منحنا هذا النجاح الفرصة لجعل Mini-KVM أفضل! لم يكن بإمكاننا فعل ذلك بدونكم – بجدية، شكرًا لكم من أعماق قلوبنا! 🧡 سنعمل بكامل طاقتنا في الإنتاج لضمان تسليمها بين يديك قريبًا!
 
-Dieser Erfolg hat uns die Chance gegeben, das Mini-KVM noch besser zu machen! Ohne euch hätten wir das لا geschafft—ernsthaft, danke von Herzen! 🧡 Wir werden in der منتجion Vollgas geben, um sicherzustellen, dass es bald in euren Händen ankommt!
+### الرهان الممتع ورحلتي إلى بورتلاند!
+لذا، إليك قصة ممتعة: كما ذكرت في [this post](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/last-hours-to-back-and-mini-kvms-at-tech-frontlines)، قمنا أنا وكيفن برهان. إذا تمكنا من الحصول على 100 مؤيد جديد خلال الـ 36 ساعة الأخيرة، فسأسافر **إلى الولايات المتحدة** مقابل [Crowd Supply's Teardown 2024](https://www.crowdsupply.com/teardown/portland-2024). حسنا، خمن ماذا؟ لم نصل إلى 100 فقط، بل حصلنا على 165 مؤيدًا جديدًا! لذا، يسعدني جدًا أن أعلن أنني سأحضر Teardown 2024 شخصيًا يوم الجمعة (21 يونيو) وعطلة نهاية الأسبوع.
 
-### Lustige Wette و mein Flug nach Portland!
-Also, hier ist eine lustige Geschichte: Wie ich in [diesem Post](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/last-hours-to-back-and-mini-kvms-at-tech-frontlines) erwähnt habe, haben Kevin و ich eine Wette abgeschlossen. Wenn wir 100 neue Unterstützer in den letzten 36 Stوen bekommen könnten, würde ich **in die USA fliegen** لـ [Crowd Supply's Teardown 2024](https://www.crowdsupply.com/teardown/portland-2024). Nun, ratet mal was? Wir haben لا nur 100 erreicht—wir haben 165 neue Unterstützer bekommen! Also freue ich mich sehr, bekanntzugeben, dass ich an diesem Freitag (21. Juni) و am Wochenende persönlich bei Teardown 2024 dabei sein werde.
+### جدول العرض التجريبي والبث المباشر
+Teardown هو الحدث الرئيسي السنوي لـ Crowd Supply والذي يتمحور حول كل ما يتعلق بالأجهزة - ويضم محادثات وعروض توضيحية وورش عمل والمزيد.
 
-### Mein Demo-Tisch و Livestream
-Teardown ist Crowd Supply's jährliches Flaggschiff-Event rو um alles, was مع الأجهزة zu tun hat - مع Vorträgen, Demos, Workshops و mehr.
-
-Teardown 2024 Lloyd Center Mall Portland, Oregon June 21-23, 2024
+Teardown 2024 Lloyd Center Mall بورتلاند، أوريغون 21-23 يونيو 2024
 
 ![teardown-poster](https://www.crowdsupply.com/img/25ea/1d486985-1024-45ca-8b7d-0bdc388e25ea/twitter-1600-1900-td2024-wires_jpg_md-xl.jpg)
 
-Ich werde einen Demo-Tisch bei der Teardown-Veranstaltung haben: [Schaut hier!](https://www.crowdsupply.com/teardown/portland-2024/demo/openterface-mini-kvm-turn-your-laptop-as-a-kvm-console)
+سيكون لدي جدول تجريبي في حدث Teardown: [Check it out here!](https://www.crowdsupply.com/teardown/portland-2024/demo/openterface-mini-kvm-turn-your-laptop-as-a-kvm-console)
 
-Seid ihr in der Nähe der Portland-Region? Es wäre fantastisch, euch bei der Veranstaltung zu treffen! Kauft jetzt das [Teardown-Ticket](https://www.crowdsupply.com/teardown/portland-2024) و ich hoffe, euch dort zu sehen—**kommt vorbei و sagt hallo**!
+هل من الممكن أن تكون بالقرب من منطقة بورتلاند؟ سيكون من الرائع مقابلتك في هذا الحدث! قم بشراء [Teardown ticket](https://www.crowdsupply.com/teardown/portland-2024) الآن وأتمنى رؤيتك هناك—**تفضل بزيارتنا وألقِ التحية**!
 
-Falls ihr لا zur Veranstaltung kommen könnt, macht euch keine Sorgen. Ihr könnt mich während der Konferenz immer auf unserem Discord و Subreddit finden. Ihr könnt mir in Echtzeit Nachrichten senden أو مع mir sprechen, da ich möglicherweise alle drei Tage live streamen werde, während ich am Demo-Tisch bin, also tretet jetzt unserer Community bei و ihr verpasst لاs.
+إذا لم تتمكن من حضور الحدث، فلا تقلق. يمكنك أن تجدني دائمًا على Discord وSubreddit أثناء المؤتمر. يمكنك إرسال رسالة نصية أو التحدث معي في الوقت الفعلي، حيث قد أقوم بالبث المباشر طوال الأيام الثلاثة أثناء تواجدي على الطاولة التجريبية، لذا انضم إلى مجتمعنا الآن ولن يفوتك أي شيء.
 
-### Spiel-Herausforderung bei Teardown
-الآن, لـ ein bisschen Spaß: Ich richte bei Teardown 2024 **einen Videospiel-Wettbewerb** ein. Ich werde demonstrieren, wie unser Mini-KVM مع dem tragbaren Computer uConsole funktioniert, der im Grوe ein Raspberry Pi ist. Schaut euch meinen X-Tweet [hier](https://x.com/TechxArtisan/status/1802675690015424962) an, um zu sehen, wie ich es مع dem Mini-KVM einrichten werde.
+### تحدي اللعبة في Teardown
+الآن، من أجل القليل من المرح: أقوم بإعداد **مسابقة لألعاب الفيديو** في Teardown 2024. سأعرض كيفية عمل Mini-KVM الخاص بنا مع الكمبيوتر المحمول، uConsole، والذي هو في الأساس Raspberry Pi. تحقق من تغريدة X الخاصة بي [here](https://x.com/TechxArtisan/status/1802675690015424962) لترى كيف سأقوم بإعدادها باستخدام Mini-KVM.
 
 ![play-game-uconsole](https://www.crowdsupply.com/img/c4d2/d5fe66f3-4f3e-4398-bd11-494ae317c4d2/play-game-uconsole_png_md-xl.jpg)
 
-Ich denke daran, Spiele wie Pac-Man, The King of Fighters '97 و Tetris لـ die Spiel-Herausforderung zu verwenden. Und hier ist der Clou—Gewinner können ein Mini-KVM direkt von mir ergattern! Also kommt و spielt ein Spiel مع mir, um zu gewinnen!
+أفكر في استخدام ألعاب مثل Pac-Man، وThe King of Fighters '97، وTetris في تحدي اللعبة. وهذه هي النقطة المهمة - يمكن للفائزين الحصول على Mini-KVM مني هناك! لذا، تعال والعب معي لعبة للفوز!
 
-### Mehr kommt
-Wie immer kochen wir einige aufregende Dinge auf, و ich werde eine super aufregende Ankündigung bei Teardown haben! Also bleibt dran لـ weitere التحديثات. Ich kann es kaum erwarten, euch bei Teardown 2024 zu sehen!
+### المزيد في المستقبل
+كما هو الحال دائمًا، نحن نقوم بإعداد بعض الأشياء المثيرة، وسيكون لدي إعلان مثير للغاية في Teardown! لذلك ترقبوا المزيد من التحديثات. لا أستطيع الانتظار لرؤيتك في Teardown 2024!
 
-Prost,  
-Billy Wang
-Openterface Team | TechxArtisan Studio
+في صحتك،  
+بيلي وانغ
+فريق الواجهة المفتوحة | ستوديو تيك اكس ارتيزان

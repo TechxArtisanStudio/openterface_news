@@ -2,75 +2,74 @@
 locale: tr
 translationKey: "251114-kvm-go-launch-mini-kvm-update"
 slug: "251114-kvm-go-launch-mini-kvm-update"
-title: "Aufregende Neuigkeiten: KVM-GO ist jetzt live!"
-description: "Openterface KVM-GO ist jetzt offiziell auf Crowd Supply live! Unser KVM-over-USB Gerät der nächsten Generation ile integrierten Videoanschlüssen nimmt Unterstützer an. Erleben Sie Schlüsselanhänger-große Tragbarkeit, 4K@60Hz Unterstützung ve plattformhakkındagreifende Kompatibilität."
+title: "Heyecan Verici Haberler: KVM-GO Artık Yayında!"
+description: "Openterface KVM-GO artık resmi olarak Crowd Supply'da yayında! Yerleşik video konektörlerine sahip yeni nesil ultra kompakt USB üzerinden KVM cihazımız destekçileri kabul ediyor. Anahtarlığa hazır taşınabilirliği, 4K@60Hz desteğini ve platformlar arası uyumluluğu deneyimleyin."
 date: 2025-11-14
 channel: product
 product: kvm-go
-topic: ["beta", "software", "campaign", "community"]
-category: "Product Güncellemeler"
-tags: ["KVM-GO", "Product Launch", "Crowd Supply", "Product Announcement", "Crowdfveing"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Launch", "Crowd Supply", "Product Announcement", "Crowdfunding"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+**Merhaba Openterface Mini-KVM topluluğu!**
 
-**Hallo, Openterface Mini-KVM Community!**
+Sizinle paylaşacağımız heyecan verici haberlerimiz var! Yeni nesil cihazımız [**Openterface KVM-GO**](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) artık resmi olarak Crowd Supply'da yayında ve destekçileri kabul ediyor!
 
-Wir haben aufregende Neuigkeiten için euch! Unser Gerät der nächsten Generation, [**Openterface KVM-GO**](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), ist jetzt offiziell auf Crowd Supply live ve nimmt Unterstützer an!
+![kvm-go-KVM-GO-bundle-hand-3](https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-3.webp)
 
-![kvm-go-KVM-GO-bvele-hand-3](https://assets.openterface.com/images/kvm-go/KVM-GO-bvele-hand-3.webp)
+## KVM-GO nedir?
 
-## Was ist KVM-GO?
+Amiral gemisi **Mini-KVM**'nin başarısına ve açık kaynak topluluğumuzun canlı büyümesine dayanarak, **KVM-GO** taşınabilirliği daha da ileriye taşıyor. Mini-KVM esnek, çok yönlü bir ürün olarak parlamaya devam ederken, KVM-GO mümkün olan en küçük form faktöründe maksimum rahatlık isteyenler için tasarlandı.
 
-Aufbauend auf dem Erfolg unseres Flaggschiff-Ürüns **Mini-KVM** ve dem lebendigen Wachstum unserer Open-Source-Community treibt **KVM-GO** die Tragbarkeit noch weiter voran. Während Mini-KVM weiterhin als flexibler Allroveer glänzt, ist KVM-GO için diejenigen entwickelt, die maximale Bequemlichkeit im kleinstmöglichen Formfaktor fordern.
+### KVM-GO'nun Temel Özellikleri:
 
-### Hauptmerkmale von KVM-GO:
+* **Anahtarlığa hazır, video kablosu içermeyen tasarım** – Yerleşik video konektörleri (HDMI, DisplayPort veya VGA), acil sunucu rafı müdahaleleri sırasında artık video kablolarını karıştırmanıza gerek olmadığı anlamına gelir. Sadece takın ve gidin.
 
-* **Schlüsselanhänger-großes, videokabelloses Design** – Integrierte Videoanschlüsse (HDMI, DisplayPort veya VGA) bedeuten, dass Sie bei dringenden Server-Rack-Eingriffen değil mehr nach Videokabeln suchen müssen. Einfach einstecken ve loslegen.
+* **Kompakt ama güçlü** – Küçük form faktörüne rağmen KVM-GO etkileyici özelliklere sahiptir:
+  * **4K @ 60 Hz video çıkışı** desteği (Mini-KVM'nin 1080p @ 30 Hz'sine kıyasla)
+  * HDMI ve DisplayPort modellerinde yüksek performans için **USB 3.0** video işlemcisi bulunur
+  * Dosya aktarımları veya önyüklenebilir işletim sistemi kurulumu için kullanışlı **mikro SD yuvası**
 
-* **Kompakt aber leistungsstark** – Trotz seines winzigen Formfaktors bietet KVM-GO beeindruckende Spezifikationen:
-  * Unterstützung için **4K @ 60 Hz Videoausgabe** (im Vergleich zu Mini-KVM's 1080p @ 30 Hz)
-  * HDMI- ve DisplayPort-Modelle verfügen hakkında einen **USB 3.0** Videoprozessor için hohe Leistung
-  * Bequemer **micro SD Steckplatz** için Dateihakkındatragungen veya bootfähige OS-Kurulum
+* **Platformlar arası destek** – Tıpkı Mini-KVM gibi, KVM-GO da **Windows, macOS, Linux**, **Android**, **iPadOS** ve **Web Uygulaması** üzerinde sorunsuz bir şekilde çalışır.
 
-* **Plattformhakkındagreifende Unterstützung** – Genau wie Mini-KVM funktioniert KVM-GO nahtlos auf **Windows, macOS, Linux**, **Android**, **iPadOS** ve **Web App**.
+* **Açık kaynak ahlakı** – Mini-KVM'yi mümkün kılan açık kaynak ilkelerine olan bağlılığın aynısını koruyan, açık kaynaklı yazılıma sahip tamamen açık donanım.
 
-* **Open-Source-Ethos** – Vollständig offene Donanım ile Open-Source-Yazılım, wobei das gleiche Engagement için Open-Source-Prinzipien beibehalten wird, das Mini-KVM ermöglicht hat.
+* **Hedef cihazlarda sıfır kurulum** – Sürücü yok, kurulum yok, yalnızca tak ve çalıştır işlevselliği.
 
-* **Null-Setup auf Zielgeräten** – Keine Treiber, keine Kurulum, nur reine Plug-and-Play-Funktionalität.
+## KVM-GO'yu İş Başında Görün
 
-## KVM-GO in Aktion sehen
+Cihaz harika çalışıyor! Bu [quick demo](https://x.com/TechxArtisan/status/1989005848702775623?s=20) ile KVM-GO VGA'yı çalışırken inceleyin veya eski ve yeni cihazlar arasında geçiş yapmayı gösteren bu [quick tour of KVM-GO photo shuffle](https://x.com/TechxArtisan/status/1988933445129805889?s=20)'e bakın. Takın ve kontrolü ele alın!
 
-Das Gerät funktioniert großartig! Sehen Sie KVM-GO VGA in Aktion ile dieser [schnellen Demo](https://x.com/TechxArtisan/status/1989005848702775623?s=20), veya sehen Sie diese [schnelle Tour durch KVM-GO Foto-Shuffle](https://x.com/TechxArtisan/status/1988933445129805889?s=20), die das Wechseln zwischen alten ve neuen Geräten zeigt. Einstecken ve die Kontrolle hakkındanehmen!
+Harika beta testçi ekibimiz sayesinde **iki grup küçük üretim beta araç seti** gönderdik. Geri bildirimleri, sunmaktan gurur duyduğumuz platformlar arası desteği elde etmemize yardımcı oldu.
 
-Dank unseres großartigen Beta-Tester-Teams—wir haben **zwei Chargen kleiner Ürünions-Beta-Toolkits** versendet. Ihr Feedback hat uns geholfen, die plattformhakkındagreifende Unterstützung zu erreichen, auf die wir stolz sind.
+## KVM-GO'yu Desteklemeye Hazır mısınız?
 
-## Bereit, KVM-GO zu unterstützen?
+Tüm ayrıntılar için [official KVM-GO campaign page](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) sayfamıza göz atın. **Geri düğmesine basmayı ve bu yeni nesil aygıtın gerçekleşmesini sağlamayı unutmayın!**
 
-Für vollständige Details besuchen Sie unsere [offizielle KVM-GO Kampagnenseite](https://www.crowdsupply.com/techxartisan/openterface-kvm-go). **Vergessen Sie değil, auf den Unterstützen-Button zu klicken ve dieses Gadget der nächsten Generation Wirklichkeit werden zu lassen!**
+## Mini-KVM ve KVM-GO: Hangisi Size Uygun?
 
-## Mini-KVM vs. KVM-GO: Welches ist das Richtige için Sie?
+Her iki cihaz da aynı açık kaynak yazılımı ve temel felsefeyi paylaşıyor ancak farklı ihtiyaçlara hizmet ediyor:
 
-Beide Geräte teilen die gleiche Open-Source-Yazılım ve Kernphilosophie, erfüllen aber unterschiedliche Bedürfnisse:
+* **Mini-KVM** – Çok yönlü kurulumlar ve amiral gemisi cihazımızın kanıtlanmış güvenilirliğine ihtiyaç duyanlar için mükemmel, çok yönlü esnek ürün.
 
-* **Mini-KVM** – Der flexible Allroveer, perfekt için vielseitige Setups ve diejenigen, die die bewährte Zuverlässigkeit unseres Flaggschiff-Geräts benötigen.
+* **KVM-GO** – Maksimum rahatlık, anahtarlığa hazır taşınabilirlik ve daha yüksek video çözünürlüğü ihtiyaçları için ideal olan ultra taşınabilir seçenek.
 
-* **KVM-GO** – Die ultra-tragbare Option, ideal için maximale Bequemlichkeit, Schlüsselanhänger-große Tragbarkeit ve höhere Videoauflösungsanforderungen.
+Her ikisi de mükemmel seçimlerdir ve bunlardan birine (ya da her ikisine!) verdiğiniz destek, USB üzerinden KVM açık kaynak teknolojisini ileriye taşımaya yardımcı olur!
 
-Beide sind ausgezeichnete Wahlmöglichkeiten, ve Ihre Unterstützung için eines (veya beide!) hilft, die KVM-over-USB Open-Source-Technologie voranzutreiben!
+## Haberi Yay
 
-## Verbreiten Sie die Nachricht
+Desteğiniz açık donanımı mümkün kılıyor! Lütfen KVM-GO kampanyasını ağınızla paylaşın ve **#Openterface #KVMGO #CrowdSupply #TinyKVM #Crowdfunding #OpenHardware** gibi etiketleri kullanın. Diğer destekçilerle bağlantı kurmak ve Mini-KVM deneyimlerinizi paylaşmak için [Discord](https://openterface.com/discord/) ve [Reddit](https://openterface.com/reddit) topluluklarımıza katılın.
 
-Ihre Unterstützung macht Open-Donanım möglich! Bitte teilen Sie die KVM-GO Kampagne ile Ihrem Netzwerk ve verwenden Sie Tags wie **#Openterface #KVMGO #CrowdSupply #TinyKVM #Crowdfveing #OpenDonanım**. Treten Sie unseren [Discord](https://openterface.com/discord/)- ve [Reddit](https://openterface.com/reddit)-Communities bei, um sich ile anderen Unterstützern zu verbinden ve Ihre Mini-KVM-Erfahrungen zu teilen.
+## Teknoloji Etkileyicileri ve Medya
 
-## Tech-Influencer & Medien
+Teknoloji gazetecileri ve içerik yaratıcıları: KVM-GO'yu incelemekle ilgileniyor musunuz? İnceleme birimleri için [info@openterface.com](mailto:info@openterface.com) ile iletişime geçin.
 
-Tech-Journalisten ve Content-Ersteller: Interessiert an einer KVM-GO-Überprüfung? Kontaktieren Sie [info@openterface.com](mailto:info@openterface.com) için Testeinheiten.
+## Teşekkür ederiz, Mini-KVM Topluluğu!
 
-## Danke, Mini-KVM Community!
+Mini-KVM'den KVM-GO'ya olan bu yolculuk ancak sizin sayenizde mümkün oldu. Geri bildiriminiz, desteğiniz ve coşkunuz bu sonraki evrimin arkasındaki itici güç oldu. İster Mini-KVM'ye bağlı kalın, ister KVM-GO konusunda heyecanlı olun, ister her ikisine de ilgi duyuyor olun; bu harika topluluğa ve birlikte oluşturmamıza yardım ettiğiniz her şeye inanılmaz derecede minnettarız!
 
-Diese Reise von Mini-KVM zu KVM-GO war nur dank euch möglich. Euer Feedback, eure Unterstützung ve eure Begeisterung waren die treibende Kraft hinter dieser nächsten Evolution. Ob ihr bei Mini-KVM bleibt, euch hakkında KVM-GO freut veya an beiden interessiert seid—wir sind unglaublich dankbar için diese großartige Community ve alles, was ihr uns geholfen habt, gemeinsam aufzubauen!
-
-Mit frevelichen Grüßen,  
-Openterface Team | TechxArtisan
+Saygılarımızla,  
+Açık Arayüz Ekibi | TechxArtisan

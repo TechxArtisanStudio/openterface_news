@@ -2,140 +2,139 @@
 locale: ar
 translationKey: "20260316-kvmgo-production-progress-update-02"
 slug: "20260316-kvmgo_production-progress-update_02"
-title: "KVM-GO منتجionsupdate #2 – Design fixiert, Chargen gestaffelt, Fertigung im Plan"
-description: "Zweites KVM-GO-منتجionsupdate: Industriedesign abgeschlossen (Anti-Verlust-Band am Verbinderdeckel), Teile in Chargen vorbereitet, Rückdeckel fertig, schwarzer Nylon-Frontdeckel و orangefarbene Verbinderdeckel in منتجion. CE/RoHS/FCC/OSHWA-Vorbereitung و QC-Ablauf schreiten voran."
+title: "تحديث تقدم إنتاج KVM-GO رقم 2 - التصميم مغلق، تجهيز الدُفعات، التصنيع على المسار الصحيح"
+description: "التحديث الثاني لإنتاج KVM-GO: تم الانتهاء من التصميم الصناعي (غطاء الموصل المانع للفقد)، والأجزاء في مرحلة الإنتاج المجمعة، والغطاء الخلفي كامل، والغطاء الأمامي من النايلون، وغطاء الموصل البرتقالي قيد الإنتاج. يتقدم إعداد CE/RoHS/FCC/OSHWA وتدفق مراقبة الجودة."
 date: 2026-03-16
 channel: product
 product: kvm-go
-topic: ["campaign"]
-category: "منتج-التحديثات"
-tags: ["KVM-GO", "منتج-التحديثات", "منتجion", "Fertigung", "الأجهزة", "Montage", "Industriedesign", "Konforمعät"]
+topic: ["shipping", "production", "campaign"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Production", "Manufacturing", "Hardware", "Assembly", "Industrial Design", "Compliance"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+## تفاصيل التصميم ثابتة، وتجهيز الدفعة في مكانها، والمضي قدمًا في الإنتاج
 
-## Designdetails fixiert, Chargen vorbereitet, منتجion kommt voran
+مرحبًا أيها الداعمون. إليكم التحديث الثاني لتقدم الإنتاج مع لقطات أكثر وضوحًا ويمكن التحقق منها من إعداد التصنيع. النسخة القصيرة هي أن KVM-GO تتحرك بثبات خلال الإنتاج، والقرارات الميكانيكية الرئيسية مقفلة، وهناك أجزاء متعددة قيد الإنتاج بالفعل أو يتم تنظيمها على دفعات قابلة للتكرار للتجميع والتعبئة.
 
-Hallo Backer. Hier ist unser zweites منتجionsupdate مع klareren, besser nachvollziehbaren Fotos aus der Fertigungsvorbereitung. Kurz gesagt: KVM-GO bewegt sich stetig durch die منتجion, zentrale mechanische Entscheidungen sind getroffen, و mehrere Teile sind bereits in Fertigung أو in wiederholbaren Chargen لـ Montage و Verpackung vorbereitet.
+أحد تحسينات سهولة الاستخدام التي قمنا بوضع اللمسات الأخيرة عليها في هذه الجولة هو غطاء الموصل المانع للفقد. يمكن لغطاء الموصل تخزين بطاقتي microSD وهو جزء قابل للإزالة يتم التعامل معه بشكل متكرر، لذا يساعد الحبل على منع وضعه في غير مكانه أثناء سير العمل اليومي.
 
-Eine Nutzungsverbesserung, die wir in dieser Rوe finalisiert haben, ist das **Anti-Verlust-Band am Verbinderdeckel**. Der Deckel kann zwei microSD-Karten aufnehmen و wird oft abgenommen; das Band hilft, ihn im Alltag لا zu verlegen.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 16px;">
+<div style = "الموضع: نسبي؛ الحشو السفلي: 56.25%؛ الارتفاع: 0؛ الفائض: مخفي؛ الهامش العلوي: 16 بكسل؛">
   <iframe
     src="https://www.youtube.com/embed/EZ2bMsB9fXE?si=gc7PPuW1_QwUuN7B"
-    title="KVM-GO منتجionsupdate #2"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
+    title="تحديث إنتاج KVM-GO رقم 2"
+    حدود الإطار = "0"
+    السماح = "مقياس التسارع؛ التشغيل التلقائي؛ الكتابة في الحافظة؛ الوسائط المشفرة؛ الجيروسكوب؛ صورة داخل صورة؛ مشاركة الويب"
+    سياسة الإحالة = "الأصل الصارم عند الأصل المتقاطع"
     allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    النمط = "الموضع: مطلق؛ الأعلى: 0؛ اليسار: 0؛ العرض: 100%؛ الارتفاع: 100%؛">
   </iframe>
 </div>  
 
-<p align="center"><small><em>60-Sekوen-Video: KVM-GO منتجionsupdate #2.</em></small></p>
+<p align="center"><small><em>شاهد تحديث فيديو الستينيات: التحديث رقم 2 لتقدم إنتاج KVM-GO.</em></small></p>
 
 ---
 
-## 1) Industriedesign-Konvergenz (Verbinderdeckel و Band finalisiert)
+## 1) تقارب التصميم الصناعي (الانتهاء من غطاء الموصل والحبل)
 
 ![New-Version](https://assets2.openterface.com/images/New-Version.webp)
 
-<p align="center"><small><em>Neue Außenansicht. Das Anti-Verlust-Band am Verbinderdeckel ist Teil des finalisierten Designs لـ Alltagstauglichkeit.</em></small></p>
+<p align="center"><small><em>لقطة خارجية للإصدار الجديد. أصبح الآن الحبل المضاد للفقد بغطاء الموصل جزءًا من التصميم النهائي للموثوقية اليومية.</em></small></p>
 
-Wir harmonisieren weiter Details حول HDMI / DP / VGA hinweg, daمع Montage و QC in großem Maßstab konsistent bleiben. Da der Deckel klein و wegen microSD oft abgenommen wird, macht das Band den Ablauf Abnehmen – Zugriff أو Wechsel – Wieder anbringen sicherer و fehlerresistenter.
+نواصل تقارب التفاصيل عبر HDMI / DP / VGA للحفاظ على اتساق التجميع ومراقبة الجودة على نطاق واسع. نظرًا لأن غطاء الموصل صغير ويتم إزالته بشكل متكرر للوصول إلى بطاقة microSD، فإن الحبل يجعل سير العمل يزيل الغطاء، ويصل إلى بطاقة microSD أو يستبدلها، ويعيد تثبيتها بشكل أكثر أمانًا وأقل عرضة للأخطاء.
 
 ---
 
-## 2) Chargen-Vorbereitung (Verbinderdeckel-Bänder لـ Verpackung bereit)
+## 2) تنظيم الدفعة (أحبال غطاء الموصل جاهزة للتغليف)
 
 ![keychain-cord-2](https://assets2.openterface.com/images/keychain-cord-2.webp)
 
-<p align="center"><small><em>Verbinderdeckel-Bänder in gezählten Chargen vorbereitet, bereit لـ Verpackung و wiederholbare Montageabläufe.</em></small></p>
+<p align="center"><small><em>تم تنظيم حبال أغطية الموصلات على دفعات معدودة، وجاهزة للتعبئة وتدفق التجميع القابل للتكرار.</em></small></p>
 
-Wir staffeln Zubehör in sauberen, zählbaren Chargen, passend zur منتجion. Das reduziert Verpackungsfehler و unterstützt reproduzierbareres QA.
+لمطابقة سير عمل الإنتاج، نقوم بتجهيز الملحقات على دفعات نظيفة وقابلة للعد. وهذا يقلل من أخطاء التعبئة ويدعم عملية ضمان الجودة الأكثر تكرارًا.
 
 ---
 
-## 3) Kennzeichnung و التوثيق (Open-Source-Beschriftung wird vollständiger)
+## 3) العلامات والوثائق (أصبح وضع العلامات مفتوحة المصدر أكثر اكتمالاً)
 
 ![Open-source](https://assets2.openterface.com/images/Open-source.webp)
 
-<p align="center"><small><em>Gehäusekennzeichnung و Open-Source-Markierungen werden finalisiert, daمع ausgelieferte Geräte klar, einheitlich و konform sind.</em></small></p>
+<p align="center"><small><em>يتم وضع اللمسات النهائية على علامات الغلاف ووضع العلامات مفتوحة المصدر للحفاظ على الوحدات المسلمة واضحة ومتسقة ومتوافقة.</em></small></p>
 
-Neben الأجهزة verfeinern wir Kennzeichnung و Open-Source-bezogene Markierungen و treiben OSHWA-Vorbereitungen weiter voran.
+وبعيدًا عن الأجهزة، فإننا نعمل على تحسين وضع العلامات والعلامات ذات الصلة مفتوحة المصدر لجعل كل وحدة يتم تسليمها أكثر وضوحًا وأكثر توحيدًا، مع مواصلة الاستعدادات المتعلقة بإدارة السلامة والصحة المهنية (OSHWA).
 
 ---
 
-## 4) Montagebereitschaft (الأجهزة لـ Konsistenzprüfungen vorbereitet)
+## 4) جاهزية التجميع (تجهيز الأجهزة للتحقق من الاتساق)
 
 ![Back-cover-screw](https://assets2.openterface.com/images/Back-cover-screw.webp)
 
-<p align="center"><small><em>Montage-Kleinteile vorbereitet لـ bevorstehende Build-Konsistenzprüfungen و wiederholbare QC-Schritte.</em></small></p>
+<p align="center"><small><em>يتم تنظيم أجهزة التجميع من أجل اختبارات تناسق البناء القادمة وخطوات مراقبة الجودة القابلة للتكرار.</em></small></p>
 
-Befestigungsteile früh zu staffeln stabilisiert die Montage, reduziert Nacharbeit و unterstützt einheitliche QC-Prüfungen.
+تساعد أدوات التثبيت المرحلية والأجهزة الصغيرة في وقت مبكر على الحفاظ على ثبات التجميع، وتقليل إعادة العمل، ودعم التحقق المتسق من مراقبة الجودة.
 
 ---
 
-## 5) VGA-Variante Montagevorbereitung (الأجهزة و Werkzeuge bereit)
+## 5) إعداد مجموعة VGA المتغيرة (الأجهزة والأدوات جاهزة)
 
 ![New-vga-version-screwdrivers](https://assets2.openterface.com/images/New-vga-version-screwdrivers.webp)
 
-<p align="center"><small><em>VGA-spezifische Montagevorbereitung, daمع Builds konsistent و Service einfach bleiben.</em></small></p>
+<p align="center"><small><em>يتم تنظيم إعداد تجميع متغير VGA للحفاظ على اتساق الإصدارات وتقديم الخدمة بشكل مباشر.</em></small></p>
 
-Die VGA-Montagevorbereitung läuft parallel, daمع wir Verifikations-Builds fahren و QC حول Varianten hinweg angleichen können.
+يتم إعداد عملية إعداد التجميع الخاصة بـ VGA بشكل متوازٍ حتى نتمكن من تشغيل عمليات التحقق والحفاظ على اتساق خطوات مراقبة الجودة عبر المتغيرات.
 
 ---
 
-## 6) Kunststoff-Fortschritt (Rückdeckel-منتجion abgeschlossen)
+## 6) تقدم البلاستيك (اكتمل إنتاج الغطاء الخلفي)
 
 ![Back-cover](https://assets2.openterface.com/images/Back-cover.webp)
 
-<p align="center"><small><em>Rückdeckel-منتجion in Chargen abgeschlossen – stabile Basis لـ die nächsten Montageschritte.</em></small></p>
+<p align="center"><small><em>يتم الانتهاء من إنتاج الغطاء الخلفي على دفعات، مما يوفر أساسًا ثابتًا لخطوات التجميع التالية.</em></small></p>
 
-Bei den Kunststoffteilen ist die Rückdeckel-منتجion fertig. Das stabilisiert den Montagerhythmus و ermöglicht reproduzierbarere Passform- و Oberflächenprüfung.
+ومن ناحية البلاستيك، فقد اكتمل إنتاج الغطاء الخلفي. ويساعد ذلك على استقرار إيقاع التجميع ويتيح المزيد من التحقق من صحة الملاءمة والتشطيب القابل للتكرار.
 
 ---
 
-## 7) Kunststoff-Fortschritt (schwarzer Nylon-Frontdeckel in Arbeit)
+## 7) تقدم البلاستيك (الغطاء الأمامي المصنوع من النايلون الأسود قيد التقدم)
 
 ![Various-versions-of-interface-nylon-front-covers](https://assets2.openterface.com/images/Various-versions-of-interface-nylon-front-covers.webp)
 
-<p align="center"><small><em>Schwarze Nylon-Frontdeckel حول Varianten hinweg in Vorbereitung; Passform و Konsistenz لـ die Montage werden geprüft.</em></small></p>
+<p align="center"><small><em>جاري العمل على أغطية أمامية من النايلون الأسود عبر الإصدارات المختلفة حيث نتحقق من الملاءمة والاتساق للتجميع.</em></small></p>
 
-Der schwarze Nylon-Frontdeckel durchläuft die منتجionsvorbereitung. Wir validieren Passform و Konsistenz لـ einen reibungslosen Einbau in die Montagelinie.
+يتحرك الغطاء الأمامي المصنوع من النايلون الأسود خلال مرحلة الإنتاج الإعدادية. نحن نتحقق من الملاءمة والاتساق بحيث يندمج بسلاسة في تدفق التجميع.
 
 ---
 
-## 8) Verbinderdeckel-منتجion (orangefarbene Deckel in Chargenfertigung)
+## 8) إنتاج أغطية الموصلات (أغطية الموصلات البرتقالية في إنتاج المصنع)
 
 ![connection-cap](https://assets2.openterface.com/images/connection-cap.webp)
 
-<p align="center"><small><em>Orangefarbene Verbinderdeckel in Chargenproduktion; Prozessparameter werden لـ Ausbeute و Montagestabilität optimiert.</em></small></p>
+<p align="center"><small><em>يتم إنتاج أغطية الموصلات البرتقالية على دفعات حيث نقوم بضبط اتساق العملية لتحسين الإنتاجية واستقرار التجميع.</em></small></p>
 
-Der orangefarbene Verbinderdeckel ist in منتجion. Wir justieren Prozessparameter و حولwachen Konsistenz لـ bessere Ausbeute و stabile Montagepassung.
-
----
-
-## Fertigungsstatus (Kurzحولblick)
-
-- Aluminiumgehäuse (HDMI / DP / VGA): bestätigt, in منتجion  
-- CNC-Kühlkörperteile: in منتجion  
-- Rückdeckel: منتجion abgeschlossen  
-- Schwarzer Nylon-Frontdeckel: in Arbeit  
-- Orangefarbener Verbinderdeckel: in منتجion  
-- Verbinderdeckel-Bänder: in gezählten Chargen لـ Verpackung و Montage vorbereitet  
+غطاء الموصل البرتقالي قيد الإنتاج حاليًا. نحن نقوم بضبط معلمات العملية ومراقبة الاتساق لتحسين الإنتاجية وضمان التوافق المستقر للتجميع.
 
 ---
 
-## Als Nächstes (Meilensteine لـ Backer)
+## ملخص حالة التصنيع (قراءة سريعة)
 
-- Aluminiumgehäuse-منتجion plus Montage-Passform-Validierung  
-- CNC-Kühlkörper-منتجion plus Bearbeitungskonsistenz و Passform  
-- Schwarzer Nylon-Frontdeckel plus Montage-Passform  
-- Orangefarbener Deckel: Chargenkonsistenz plus Montagevalidierung  
-- Konforمعätsvorbereitung (CE / RoHS / FCC / OSHWA التوثيق و Testplanung)  
-- منتجionstest و QC weiter verfestigen (einheitlicher Prüfstandard pro Gerät)  
+- حاويات الألمنيوم (HDMI / DP / VGA): مؤكدة وقيد الإنتاج  
+- أجزاء المبدد الحراري CNC: قيد الإنتاج  
+- الغلاف الخلفي: اكتمل الإنتاج  
+- غطاء أمامي من النايلون الأسود: قيد التنفيذ  
+- غطاء الموصل البرتقالي: قيد الإنتاج  
+- حبال غطاء الموصل: يتم تنظيمها على دفعات معدودة للتغليف والتجميع  
 
-Vielen Dank لـ eure Unterstützung و Geduld. Wir teilen weiterhin nachvollziehbaren Fortschritt.  
-Billy / Openterface (TechxArtisan)
+---
+
+## ما هي الخطوة التالية (المعالم التي تواجه الداعمين)
+
+- يستمر إنتاج أغلفة الألومنيوم بالإضافة إلى التحقق من صحة التجميع  
+- يستمر إنتاج المبدد الحراري باستخدام الحاسب الآلي بالإضافة إلى اتساق التصنيع وتأكيد الملاءمة  
+- تقدم الغطاء الأمامي من النايلون الأسود بالإضافة إلى التحقق من ملاءمة التجميع  
+- تناسق دفعة غطاء الموصل البرتقالي بالإضافة إلى التحقق من صحة التجميع  
+- إعداد الامتثال (وثائق CE / RoHS / FCC / OSHWA وتخطيط الاختبار)  
+- تعزيز اختبار الإنتاج وتدفق مراقبة الجودة (معيار التحقق المتسق لكل وحدة)  
+
+شكرا مرة أخرى على دعمكم والصبر. سنواصل مشاركة التقدم الحقيقي الذي يمكن التحقق منه بينما نمضي قدمًا.  
+بيلي / Openterface (TechxArtisan)

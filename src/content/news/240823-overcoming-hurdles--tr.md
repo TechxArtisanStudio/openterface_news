@@ -2,111 +2,110 @@
 locale: tr
 translationKey: "240823-overcoming-hurdles"
 slug: "240823-overcoming-hurdles"
-title: "Hürden hakkındawinden: Fortschritts-Update ve neuer Zeitplan"
-description: "Wichtiges Openterface Mini-KVM Update: CE-Zertifizierung abgeschlossen, Ürünion läuft, neue ETA Mitte Januar. Donanım V1.9 finalisiert ile Erweiterungs-Pins, Android-App-Entwicklung, verbesserter Verpackung ve mehrsprachigem Handbuch in Arbeit."
+title: "Engellerin Aşılması: İlerleme Güncellemesi ve Yeni Zaman Çizelgesi"
+description: "Önemli Openterface Mini-KVM güncellemesi: CE sertifikası tamamlandı, üretim devam ediyor, yeni ETA Ocak ortasında. Donanım V1.9, genişletme pimleri, Android uygulaması geliştirme, iyileştirilmiş paketleme ve devam eden çok dilli kılavuzla tamamlandı."
 date: 2024-08-22
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
-category: "Product Güncellemeler"
+topic: ["shipping", "production", "software", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Herkese merhaba,
 
-Hey alle zusammen,
+Umarım hepiniz iyisinizdir. Son güncellememizden bu yana bir süre geçti. Keşke Openterface için her şeyin yolunda gittiğini söyleyebilseydim, ancak teslimat zaman çizelgemizi geciktirecek birkaç hız tümseğiyle karşılaştık. Beklediğimiz şey bu olmasa da, bu zorluklarla doğrudan mücadele ediyoruz ve paylaşacak pek çok iyi haberle istikrarlı bir ilerleme kaydediyoruz. Bu gönderi **7 dakikalık bir okuma** ile ilgili olduğundan, işlerin tam olarak nerede olduğunu ve bundan sonra ne olacağını bilmeniz için ayrıntılara dalalım.
 
-Ich hoffe, es geht euch allen gut. Es ist eine Weile her seit unserem letzten Update. Ich wünschte, ich könnte sagen, dass alles reibungslos için Openterface gelaufen ist, aber wir sind auf ein paar Hindernisse gestoßen, die unseren Lieferzeitplan verzögern werden. Obwohl das değil das war, was wir erwartet hatten, gehen wir diese Herausforderungen direkt an ve machen stetige Fortschritte ile vielen guten Nachrichten zum Teilen. Dieser Post ist etwa **7 Minuten Lesezeit**, also lasst uns in die Details eintauchen, daile ihr genau wisst, wo die Dinge stehen ve was als nächstes kommt.
+## Düzenleme, Üretim ve Kalite
 
-## Regulierung, Ürünion ve Qualität
-
-Bevor wir die Ürünion starten konnten, mussten wir notwendige Qualitätstests gemäß den Vorschriften bestehen, insbesondere die CE-Zertifizierung. Da unsere Toolkit-Version değil nur das Mini-KVM, sondern auch mehrere Zubehörteile enthält, musste jeder Teil CE-Tests durchlaufen. Diese Tests dauerten länger als erwartet (es stellt sich heraus, dass Kabel ziemlich wählerisch sein können), aber die gute Nachricht ist, dass **wir CE için unser Mini-KVM ve alle seine Komponenten bestanden haben!** Unten ist eine Genel bakış der Zertifizierungen için alle unsere Teile: Mini-KVM, HDMI-Kabel, oranges Type-C-Kabel, schwarzes kurzes Type-C-Kabel ve VGA2HDMI-Kabel. Mit der Zertifizierung in der Hand ist unser Ürünionszeitplan jetzt sicher, ve unsere Hersteller **produzieren derzeit alle Teile**, während ich spreche.
+Üretime başlamadan önce başta CE sertifikası olmak üzere mevzuat gereği gerekli kalite testlerinden geçmemiz gerekiyordu. Araç seti versiyonumuz yalnızca Mini-KVM'yi değil aynı zamanda çeşitli aksesuarları da içerdiğinden, her parçanın CE testinden geçmesi gerekiyordu. Bu testler beklenenden uzun sürdü (kabloların oldukça seçici olabileceği ortaya çıktı), ancak harika haber şu ki **Mini-KVM ve tüm bileşenleri için CE'yi geçtik!** Aşağıda tüm parçalarımıza yönelik sertifikalara genel bir bakış bulunmaktadır: Mini-KVM, HDMI kablosu, turuncu Tip-C kablo, siyah kısa Tip-C kablo ve VGA2HDMI kablosu. Sertifikasyon elimizde olduğundan, üretim zaman çizelgemiz artık belli ve ben konuşurken üreticilerimiz **şu anda tüm parçaları üretiyor**.
 
 ![240823-0](https://www.crowdsupply.com/img/fcb5/db59e179-2413-4d57-8462-2285c007fcb5/openterface-240823-0_jpg_gallery-lg.jpg)
-*UKCA- ve CE-Anforderungen sind için unsere Elektronikprodukte gleich, wobei CE auch RoHS-Konforileät abdeckt.*
+*UKCA ve CE gereksinimleri elektronik ürünlerimiz için aynıdır; CE, RoHS uyumluluğunu da kapsar.*
 
-Vor zwei Wochen besuchten wir einen unserer Hersteller, um ihre Linienmanager in Qualitätskontrolle için die orangen Kabel zu schulen, bevor sie sie an uns verschickten. Şimdi wurden ALLE orangen Kabel produziert ve sitzen in einer Ecke unseres Studios.
+İki hafta önce, turuncu kabloları bize göndermeden önce bölüm yöneticilerini kalite kontrol konusunda eğitmek için üreticilerimizden birini ziyaret ettik. Artık TÜM turuncu kablolar üretildi ve stüdyomuzun bir köşesinde duruyor.
 ![240823-1](https://www.crowdsupply.com/img/28dc/34844b54-0e02-414d-b58b-d40e8abe28dc/openterface-240823-1_jpg_gallery-lg.jpg)
-*Kevin ve Shawn erklärten die Testmethoden, um sicherzustellen, dass das orange Kabel ordnungsgemäß ile unserem Openterface Mini-KVM funktioniert.*
+*Kevin ve Shawn turuncu kablonun Openterface Mini-KVM ile düzgün çalıştığından emin olmak için test yöntemlerini açıklıyorlardı.*
 
-Wir werden diese Woche dieselbe Aufgabe için andere Teile durchführen, um QA an der Ürünionsfront zu schulen. Hier sind Proben zusätzlicher Kabel.
+Bu hafta aynı görevi diğer parçalar için de üretim ön saflarında QA eğitimi vermek üzere yapacağız. Burada ek kablo örnekleri verilmiştir.
 ![240823-2](https://www.crowdsupply.com/img/e703/abb8ffa5-eb85-4eb9-b5f8-d8a3d349e703/openterface-240823-2_jpg_md-xl.jpg)
-*Stolz ile unserem TechxArtisan-Logo markiert, das sind Proben des HDMI-Kabels, des kurzen Type-C-Kabels ve des VGA-to-HDMI-Kabels.*
+*Gururla TechxArtisan logomuzla işaretlenmiş olan bunlar, HDMI kablosunun, kısa Type-C kablosunun ve VGA'dan HDMI'ya kablonun örnekleridir.*
 
-Wir erwarten, dass die anderen Teile ve Mini-KVMs bald von unseren Herstellern ankommen, zu welchem Zeitpunkt wir die Qualität jeder Komponente hakkındaprüfen ve sie ordnungsgemäß in unserem Studio verpacken werden, bevor sie versandt werden. Mit anderen Worten, **unser Team wird persönlich die Qualität sicherstellen**, bevor sie eure Hände erreicht.
+Diğer parçaların ve Mini-KVM'lerin üreticilerimizden yakın zamanda gelmesini bekliyoruz; bu noktada her bileşenin kalitesini iki kez kontrol edeceğiz ve bunları sevkiyattan önce stüdyomuzda düzgün şekilde paketleyeceğiz. Başka bir deyişle, **ekibimiz kaliteyi elinize ulaşmadan önce bizzat güvence altına alacaktır**.
 
-## Versand, potenzielle Verzögerungen ve neue ETA
+## Gönderi, Olası Gecikmeler ve Yeni ETA
 
-**Die aktuelle Unsicherheit liegt im Versandprozess**. Nach der Untersuchung mehrerer Versandunternehmen fanden wir heraus, dass der Versand zusätzliche Zeit in Anspruch nehmen wird, da wir wahrscheinlich Pakete hakkında ein Lager transferieren werden, bevor sie das Lager von Crowd Supply erreichen. Wir diskutieren noch, ob wir Seefracht veya Luftfracht wählen sollen—bitte habt noch ein paar Tage Geduld, während wir die Arrangements klären.
+**Mevcut belirsizlik sevkiyat sürecinde yatmaktadır**. Birkaç nakliye şirketini araştırdıktan sonra, paketleri muhtemelen Crowd Supply'ın deposuna ulaşmadan önce bir depodan aktaracağımız için nakliyenin fazladan zaman alacağını gördük. Hala deniz taşımacılığını mı yoksa hava taşımacılığını mı seçeceğimizi tartışıyoruz; biz düzenlemeleri hallederken lütfen birkaç gün daha sabırlı olun.
 
-Der Zollabfertigung ist ein weiteres potenzielles Hindernis, das unerwartete Verzögerungen verursachen könnte. Sobald unsere Ürüne im US-Lager von Crowd Supply ankommen, werden sie ein bis zwei Wochen brauchen, um weltweit basierend auf jeder Bestellung versandt zu werden. Für Unterstützer außerhalb der USA müssen individuelle Pakete immer noch durch globalen Versand ve Zollabfertigung im Zielland gehen.
+Gümrük işlemleri beklenmedik gecikmelere neden olabilecek başka bir potansiyel engeldir. Ürünlerimiz Crowd Supply'ın ABD'deki deposuna ulaştığında, her siparişe göre dünya çapında gönderilmesi bir ila iki hafta sürecektir. ABD dışındaki destekçiler için, bireysel paketlerin yine de varış ülkesinde küresel nakliye ve gümrük işlemlerinden geçmesi gerekecek.
 
-Unter Berücksichtigung der aktuellen Situation ve dem Hinzufügen von etwas Pufferzeit bleibe ich vorsichtig optimistisch, dass wir die Lieferung vor Ende dieses Jahres abschließen werden, ile **einer neuen ETA von Mitte Januar**. Es tut mir wirklich leid için die Unannehmlichkeiten ve ich schätze eure Unterstützung ve Geduld während dieser Änderung.
+Mevcut durumu hesaba katarak ve bir miktar tampon süre ekleyerek, **Ocak ortasındaki yeni bir ETA** ile teslimatı bu yılın sonundan önce tamamlayacağımız konusunda temkinli bir iyimserliği sürdürüyorum. Bu rahatsızlıktan dolayı gerçekten özür dilerim ve bu değişiklik sırasındaki desteğiniz ve sabrınız için teşekkür ederiz.
 
-## Finalisierte Donanım V1.9
+## Sonlandırılmış Donanım V1.9
 
-Wie ihr vielleicht aus unserem vorherigen [Reddit-Post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/) wisst, haben wir beschlossen, **unsere Donanım auf V1.9 zu upgraden**, einschließlich eines Satzes hackbarer Erweiterungs-Pins. Das war değil Teil des ursprünglichen Plans için die Crowdfveing-Kampagne, aber wir glauben, dass es das **Potenzial için breitere Nutzung** der Donanım erheblich verbessert.
+Önceki [Reddit post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/)'den bildiğiniz gibi, hacklenebilir genişletme pinleri de dahil olmak üzere **donanımımızı V1.9'a yükseltmeye** karar verdik. Bu, kitle fonlaması kampanyasının orijinal planının bir parçası değildi, ancak donanımın **daha geniş kullanım potansiyelini** önemli ölçüde artırdığına inanıyoruz.
 
 ![240823-3](https://www.crowdsupply.com/img/77d7/09a9d0e5-3065-4f3e-8b61-bae66b5c77d7/openterface-240823-3_jpg_md-xl.jpg)
-*Die VCC-, GND-, Target D+-, Target D--, Host D+- ve Host D--Pins—wobei 'D' için USB-Daten steht.*
+*VCC, GND, Target D+, Target D-, Host D+ ve Host D- pinleri; burada 'D', USB verilerini temsil eder.*
 
-Ein wichtiger Antrieb war, **den USB-Schalter auf Yazılım-Ebene umschalten zu können**. Warum ist das wichtig? Auf unserer Roadmap **streben wir an, eine KVM-over-IP-Lösung** wie VNC in der Zukunft zu unterstützen. Die Idee ist, lokale KVM-Steuerung ile dem VNC-Protokoll zu verbinden, wodurch Benutzer den Zielcomputer hakkında den Host-Computer fernsteuern können. In einem solchen Remote-Szenario ist die Fähigkeit için Benutzer, den USB-Port zu wechseln, wesentlich, besonders wenn Dateihakkındatragungen zwischen Host ve Ziel erforderlich sind.
+Temel motivasyonlardan biri **USB anahtarının yazılım düzeyinde değiştirilebilmesini** sağlamaktı. Bu neden önemli? Yol haritamızda gelecekte VNC gibi **IP üzerinden KVM çözümünü desteklemeyi hedefliyoruz**. Buradaki fikir, yerel KVM kontrolünü VNC protokolüyle eşleştirerek kullanıcıların hedef bilgisayarı ana bilgisayar aracılığıyla uzaktan kontrol etmesine olanak sağlamaktır. Böyle uzak bir senaryoda, özellikle ana bilgisayar ile hedef arasında dosya aktarımı gerektiğinde, kullanıcıların USB bağlantı noktasını değiştirebilmesi çok önemlidir.
 
-**Die Erweiterungs-Pins öffnen auch Möglichkeiten için mehr**, wie Integration ile iPadOS, ATX-Steuerung, Netzwerk-Bridging ve Audio-Bypass. Obwohl ich hier değil in alle Details eintauchen werde, ermutige ich euch, unserer Openterface-Community beizutreten, um ile uns weiter zu diskutieren.
+**Genişletme pinleri ayrıca iPadOS ile entegrasyon, ATX kontrolü, ağ köprüleme ve ses bypass gibi daha fazla olanak sağlar**. Burada tüm ayrıntılara dalmayacak olsam da, bizimle daha fazla görüşmek üzere Openterface topluluğumuza katılmanızı tavsiye ederim.
 
-Dieses Donanım-Upgrade könnte potenziell unsere Openterface-Lösung erweitern, um hakkında IP zu operieren ve erweiterte Özellikler zu enthalten, während es seine Kernstärke als Plug-and-Play KVM-over-USB-Tool beibehält—perfekt için IT-Profis, die unsichere IT-Umgebungen wie unbekannte Rechenzentren navigieren.
+Bu donanım yükseltmesi, Openterface çözümümüzü IP üzerinden çalışacak ve daha gelişmiş özellikler içerecek şekilde genişletebilir ve aynı zamanda USB üzerinden tak ve çalıştır KVM aracı olarak temel gücünü korurken, alışılmadık veri merkezleri gibi belirsiz BT ortamlarında gezinen BT profesyonelleri için mükemmeldir.
 
-Ich bin froh zu berichten, dass V1.9 unsere internen Basistests bestanden hat ve als offizielle Version için alle unsere Unterstützer finalisiert wird. Dieses Donanım-Upgrade wird jedoch weitere Tests erfordern, ve jede Entwicklung basierend auf diesen Erweiterungs-Pins wird experimentell sein ve wahrscheinlich Bugs haben. Hier könnt ihr beitragen. Wir verlassen uns auf die Open-Source-Community, um uns zu helfen, Openterface zusammen zu verbessern.
+V1.9'un şirket içi temel testlerimizi geçtiğini ve tüm destekçilerimiz için resmi sürüm olarak sonlandırılacağını bildirmekten mutluluk duyuyorum. Ancak bu donanım yükseltmesi daha fazla test gerektirecek ve bu genişletme pimlerini temel alan herhangi bir geliştirme deneysel olacak ve muhtemelen hatalar içerecektir. Katkıda bulunabileceğiniz yer burasıdır. Openterface'i birlikte geliştirmemize yardımcı olacak açık kaynak topluluğuna güveniyoruz.
 
-## Mehr Yazılım-Güncellemeler
+## Daha Fazla Yazılım Güncellemesi
 
-Auf der Yazılım-Seite machen wir aufregende Fortschritte. Wir tauchen jetzt in die **Openterface Android-App** ein! Schaut euch diesen [Tweet](https://x.com/TechxArtisan/status/1825460088922071398) için eine frühe Demo an, die flüssige KVM-Steuerung, Mausbewegung ve Klicks in Aktion zeigt. Mehr Özellikler sind unterwegs, ve wie immer, sobald wir den Code etwas mehr poliert haben, **wird diese App auch open-sourced** in unserem GitHub-Repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
+Yazılım tarafında heyecan verici ilerlemeler kaydediyoruz. Şimdi **Openterface Android uygulamasına** geçiyoruz! Sorunsuz KVM kontrolünü, fare hareketini ve tıklamaları çalışırken gösteren ilk demo için bu [tweet](https://x.com/TechxArtisan/status/1825460088922071398)'e göz atın. Daha fazla özellik yolda ve her zaman olduğu gibi, kodu biraz daha geliştirdikten sonra **bu uygulama aynı zamanda GitHub depomuz [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) üzerinde açık kaynaklı olacak**.
 ![240823-4](https://www.crowdsupply.com/img/7007/b192f260-1e1f-4dab-905b-fb0a6d927007/openterface-240823-4_jpg_md-xl.jpg)
-*Nur unsere Fingerspitzen verwenden, um einen Linux-Computer von einem Android-Tablet aus KVM zu steuern. Schick!*
+*KVM için yalnızca parmak uçlarımızı kullanarak bir Linux bilgisayarını Android tabletten kontrol edin. Güzel!*
 
-Unsere QT-Version hat gerade ein praktisches Update erhalten—ihr könnt jetzt [Text vom Host zum Ziel hakkındatragen](https://x.com/TechxArtisan/status/1825919721960780131)! Also wird diese Funktion jetzt auf macOS-, Windows- ve Linux-Host-Apps unterstützt.
+QT sürümümüz kullanışlı bir güncellemeye kavuştu; artık [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131) yapabilirsiniz! Artık bu özellik macOS, Windows ve Linux ana bilgisayar uygulamalarında desteklenmektedir.
 
-Außerdem planen wir, eine lustige Funktion hinzuzufügen—[eine automatische Mausbewegung, um zu verhindern, dass euer Zielcomputer schläft](https://x.com/TechxArtisan/status/1825471186668847241). Sollen wir ile dem Ping-Pong-Ball gehen, der um den Bildschirm hüpft, veya dem klassischen DVD-Bildschirmschoner-Effekt? Stimmt ab ve kommentiert den [Tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
+Üstelik eğlenceli bir özellik de eklemeyi planlıyoruz: [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825471186668847241). Ekranın etrafında zıplayan pinpon topunu mu yoksa klasik DVD ekran koruyucu efektini mi kullanmalıyız? [tweet](https://x.com/TechxArtisan/status/1825470086800691459)'a oy verin ve yorum yapın 😃
 
-## Verpackungsdesign, Beschriftung ve Handbuch
+## Paket Tasarımı, Etiketleme ve Kılavuz
 
-Wir haben [ile verschiedenen Mock-ups ve Verpackungsdesigns experimentiert](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/), um das perfekte Gleichgewicht zwischen mehreren Schlüsselfaktoren zu finden:
+Birkaç temel faktör arasında mükemmel dengeyi bulmak için [experimenting with various mock-ups and packaging designs](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/) olduk:
 
-- Materialien auswählen, die robust genug sind, um das Ürün ve seine Teile während des Versands zu schützen,
-- Informative Beschriftung erstellen, die Benutzern hilft, das Ürün auf einen Blick zu verstehen,
-- Einhaltung der Vorschriften sicherstellen,
-- Die Verpackung visuell ansprechend machen,
-- Und umweltfrevelich sein, indem Plastikverwendung wo immer möglich minimiert wird.
+- Sevkiyat sırasında ürünü ve parçalarını koruyacak sağlamlıkta malzeme seçmek,
+- Kullanıcıların ürünü bir bakışta anlamalarına yardımcı olacak bilgilendirici etiketlemeler oluşturmak,
+- Mevzuatlara uygunluğun sağlanması,
+- Ambalajın görsel olarak çekici hale getirilmesi,
+- Mümkün olan her yerde plastik kullanımını en aza indirerek çevre dostu olmak.
 
-Zusätzlich haben wir mehrere Verbesserungen an der alten Toolkit-Tasche vorgenommen, einschließlich:
+Ayrıca eski alet çantasında aşağıdakiler de dahil olmak üzere çeşitli iyileştirmeler yaptık:
 
-- Größerer Stauraum,
-- Stilvollem orangen Reißverschluss,
-- Aufgewerteten Außen- ve Innenmaterialien,
-- Und einer super dehnbaren Mesh-Tasche.
+- Daha büyük depolama alanı,
+- Şık turuncu fermuar,
+- Geliştirilmiş dış ve iç malzemeler,
+- Ve süper esnek file cep.
 
-Wir haben dieses Material gewählt, weil es das ideale Gleichgewicht zwischen budgetfrevelich, angenehm zu berühren ve haltbar genug, um die Artikel darin zu schützen, bietet. **Wir sind zuversichtlich, dass ihr es lieben werdet**.
+Bu malzemeyi bütçe dostu olması, dokunuşu hoş olması ve içindeki eşyaları koruyacak kadar dayanıklı olması arasında ideal dengeyi sağladığı için seçtik. **Beğeneceğinizden eminiz**.
 
 ![240823-5](https://www.crowdsupply.com/img/099a/75e16f52-bd0c-4652-af27-08caf448099a/openterface-240823-5_jpg_md-xl.jpg)
 
-Wir aktualisieren auch die Beschriftungen auf dem Aluminiumgehäuse, um sie so informativ ve visuell ansprechend wie möglich zu machen. Wir hoffen, dass diese Verbesserungen eure Benutzererfahrung verbessern ve es einfacher machen werden, ile Openterface zu beginnen.
+Ayrıca alüminyum kasa üzerindeki etiketleri de güncelleyerek mümkün olduğunca bilgilendirici ve görsel olarak çekici hale getiriyoruz. Bu geliştirmelerin kullanıcı deneyiminizi geliştireceğini ve Openterface'i kullanmaya başlamanızı kolaylaştıracağını umuyoruz.
 
 ![240823-6](https://www.crowdsupply.com/img/94d8/441a5757-2d6a-4c79-885b-7b5b3a7094d8/openterface-240823-6_jpg_md-xl.jpg)
 
-Wir finalisieren das Openterface-Handbuch, das auf Englisch, Deutsch, Französisch, Japanisch ve Chinesisch verfügbar sein wird. Entschuldigung, wenn wir eure Sprache verpasst haben—unsere Box ist değil TARDIS-groß (die Polizeibox von Doctor Who)! Aber wir werden unser Bestes geben, um mehr Übersetzungen auf unserer Website hinzuzufügen.
+İngilizce, Almanca, Fransızca, Japonca ve Çince dillerinde mevcut olacak Openterface kılavuzunu tamamlıyoruz. Dilinizi kaçırmışsak özür dileriz; kutumuz TARDIS boyutunda değil (Doctor Who'nun polis kulübesi)! Ancak web sitemize daha fazla çeviri eklemek için elimizden geleni yapacağız.
 
 ![240823-7](https://www.crowdsupply.com/img/e2d9/2e5a2086-20f0-47ec-a27b-288d10d0e2d9/openterface-240823-7_jpg_md-xl.jpg)
 
-## Community-Sprachhakkındaprüfung
+## Topluluk Dili İncelemesi
 
-Ich habe ChatGPT verwendet, um bei Übersetzungen zu helfen, aber es kann manchmal bei Formulierungen ve Wortwahl daneben liegen. Wenn es değil zu viel Mühe ist, würde ich jede Hilfe bei der Überprüfung von Inhalten in anderen Sprachen sehr schätzen, besonders için die Druckmaterialien, die wir gerade finalisieren. Ich habe alle Textinhalte için die Verpackung in unserem GitHub-Ordner [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials) aktualisiert, wo ihr hakkındaprüfen ve Verbesserungen einreichen könnt. Ihr könnt mich auch direkt DMen. Danke!
+Çevirilere yardımcı olması için ChatGPT'yi kullanıyorum ancak bazen ifadeler ve ifadeler açısından hedefi kaçırabiliyor. Çok fazla sorun olmazsa, özellikle tamamlamak üzere olduğumuz basılı materyaller için, diğer dillerdeki içeriğin gözden geçirilmesi konusunda her türlü yardıma çok minnettar olurum. Paketlemeye ilişkin tüm metin içeriğini GitHub klasörümüz [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials)'de güncelledim; burada iyileştirmeleri inceleyebilir ve gönderebilirsiniz. Ayrıca doğrudan DM'den bana ulaşabilirsiniz. Teşekkürler!
 
-## Abschließende Bemerkungen ve laufende Fortschritte
+## Son Açıklamalar ve Devam Eden İlerleme
 
-Wir entschuldigen uns nochmals için die Verzögerungen ve die Änderung in der ETA unseres Ürüns. Danke için eure Geduld ve daiçin, dass ihr bei uns bleibt—wir arbeiten hart daran, es euch so schnell wie möglich zu bringen! Ich werde euch sofort aktualisieren, sobald unser Versand arrangiert ist. Mehr Güncellemeler sind unterwegs, also trett unserer Openterface-Community bei ve bleibt dran!
+Gecikmelerden ve ürünümüzün ETA'sındaki değişiklikten dolayı tekrar özür dileriz. Sabrınız ve bize sadık kaldığınız için teşekkür ederiz; bunu size mümkün olan en kısa sürede ulaştırmak için çok çalışıyoruz! Gönderimiz ayarlandığında sizi hemen bilgilendireceğim. Daha fazla güncelleme yolda, bu yüzden lütfen Openterface topluluğumuza katılın ve bizi izlemeye devam edin!
 
-Prost,
+Şerefe,
 
 Billy Wang  
-Ürünmanager  
-Openterface-Team | TechxArtisan
+Ürün Müdürü  
+Açık Arayüz Ekibi | TechxArtisan

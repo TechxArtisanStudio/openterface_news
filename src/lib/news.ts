@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { localizedPath, type SiteLocale } from './locale';
+import { intlLocale, localizedPath, type SiteLocale } from './locale';
 import type { ProductSlug } from '../config/products';
 
 export type NewsEntry = CollectionEntry<'news'>;
@@ -46,7 +46,7 @@ export function filterByProduct(articles: NewsEntry[], product: string | null): 
 }
 
 export function formatArticleDate(date: Date, locale: SiteLocale): string {
-  return date.toLocaleDateString(locale === 'zh' ? 'zh-CN' : locale, {
+  return date.toLocaleDateString(intlLocale(locale), {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

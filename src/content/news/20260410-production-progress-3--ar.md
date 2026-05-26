@@ -2,89 +2,88 @@
 locale: ar
 translationKey: "20260410-production-progress-3"
 slug: "20260410-production-progress-3"
-title: "KVM-GO منتجionsupdate #3 – Fertigung, CE/RoHS/UKCA, OSHWA و Versandzeitplan"
-description: "Drittes KVM-GO-منتجionsupdate: neue Chargen an Verbinderplatinen و V1.0-Boards in der Vorbereitung, CE-, RoHS- و UKCA-Zertifizierungen abgeschlossen, OSHWA-Open-Source-الأجهزة-Zertifikat CN000022, HDMI-zuerst-Fertigungsfolge و angepasste Schätzungen inklusive Mouser-Fulfillment لـ die erste HDMI-Welle."
+title: "تحديث تقدم إنتاج KVM-GO رقم 3 - الإنتاج، وCE/RoHS/UKCA، وOSHWA، والجدول الزمني للشحن"
+description: "التحديث الثالث لإنتاج KVM-GO: مجموعات الموصلات ولوحات V1.0 في مرحلة إعداد الإنتاج، واكتمال شهادات CE RoHS وUKCA، وشهادة الأجهزة المفتوحة CN000022 من OSHWA، وتسلسل البناء الأول لـ HDMI، والتقديرات المنقحة بما في ذلك تحقيق Mouser للموجة الأولى من HDMI."
 date: 2026-04-10
 channel: product
 product: kvm-go
-topic: ["production", "community"]
-category: "منتج-التحديثات"
-tags: ["KVM-GO", "منتج-التحديثات", "منتجion", "Fertigung", "Konforمعät", "CE", "RoHS", "UKCA", "OSHWA", "Open الأجهزة", "Unterstützer"]
+topic: ["shipping", "production", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Production", "Manufacturing", "Compliance", "CE", "RoHS", "UKCA", "OSHWA", "Open Hardware", "Backers"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+مرحبا بالجميع،
 
-Hallo zusammen,
+نود أن نشارك تحديثًا جديدًا على KVM-GO. خلال الفترة الماضية، استمر العمل بشكل مطرد عبر إعداد الإنتاج، وإصدار الشهادات، وجهودنا في مجال الأجهزة المفتوحة. من المثير رؤية المزيد من القطع معًا مع اقتراب KVM-GO من المرحلة التالية.
 
-wir möchten ein neues Update zu KVM-GO teilen. In den letzten Wochen ging es stetig voran bei der منتجionsvorbereitung, Zertifizierung و unseren Open-الأجهزة-Aktivitäten. Es ist spannend zu sehen, wie mehr Teile zusammenfinden, während KVM-GO der nächsten Phase näherkommt.
+![KVM-GO VGA, DisplayPort, and HDMI variants — exploded assembly](https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp)
 
-![KVM-GO VGA-, DisplayPort- و HDMI-Varianten — Explosionszeichnung](https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp)
+*التكرارات الأخيرة للوحة KVM-GO ومقارنة الأجهزة.*
 
-*Aktuelle KVM-GO-Platineniterationen و الأجهزةvergleich.*
+## الإنتاج على قدم وساق
 
-## منتجion in vollem Gang
+يستمر إنتاج KVM-GO في المضي قدمًا بثبات. لقد تلقينا وقمنا بترتيب دفعات جديدة من لوحات الموصلات، ويجري إعداد الأجهزة خطوة بخطوة. من أحدث صور الدفعة، يمكنك أن ترى أنه يتم بالفعل إعداد الأجزاء من حيث الكمية، مما يمثل خطوة قوية أخرى نحو الاستعداد للإنتاج.
 
-Die KVM-GO-منتجion kommt weiterhin zuverlässig voran. Wir haben neue Chargen Verbinderplatinen erhalten و sortiert, و die الأجهزةvorbereitung schreitet Schritt لـ Schritt fort. Auf den neuesten Chargenfotos sieht man, dass Teile bereits in nennenswerter Menge vorbereitet werden – ein weiterer fester Schritt Richtung منتجionsreife.
+![Recent KVM-GO V1.0 board units](https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.webp)
 
-![Aktuelle KVM-GO-V1.0-Platineneinheiten](https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.webp)
+![USB-C connector boards batch in production tray](https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp)
 
-![USB-C-Verbinderplatinen-Charge im منتجionstray](https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp)
+*تم إعداد دفعات جديدة من لوحات موصلات KVM-GO لمرحلة الإنتاج التالية.*
 
-*Neue Chargen KVM-GO-Verbinderplatinen لـ die nächste منتجionsphase.*
+تمثل هذه الدفعات أكثر من مجرد نماذج أولية فردية. لقد أظهروا أن KVM-GO تتجه نحو مرحلة إنتاج أكثر تنظيماً، حيث أصبحت تفاصيل الأجهزة واتساق الدفعة وجاهزية التجميع مهمة أكثر من أي وقت مضى.
 
-Diese Chargen sind mehr als einzelne Prototypen. Sie zeigen, dass KVM-GO weiter in eine organisiertere منتجionsphase حولgeht, in der الأجهزةdetails, Chargenkonsistenz و Montagebereitschaft wichtiger sind denn je.
+ومن المثير بالنسبة لنا أن نرى هذه المجالس تجتمع معًا. تساعد كل جولة من مراحل الإعداد والاختبار والتحقق في جعل المنتج النهائي أكثر استقرارًا وموثوقية. وبينما لا يزال هناك عمل أمامنا، فإن الاتجاه العام واضح، والتقدم مستمر في المضي قدمًا بثبات.
 
-Es ist aufregend zu sehen, wie diese Boards zusammenkommen. Jede Rوe Vorbereitung, Tests و Verifikation trägt dazu bei, das Endprodukt stabiler و zuverlässiger zu machen. Es liegt noch Arbeit vor, aber die Richtung ist klar و der Fortschritt bleibt stetig.
+## معتمد وجاهز
 
-## Zertifiziert و bereit
+يسعدنا أيضًا أن نعلن أن KVM-GO قد حصلت الآن على شهادات CE وRoHS وUKCA**.
 
-Wir freuen uns معzuteilen, dass KVM-GO nun die Zertifizierungen **CE, RoHS و UKCA** erhalten hat.
+تعتبر هذه الشهادات علامة فارقة مهمة بالنسبة لنا. ويؤكدون أن KVM-GO قد أكملت عملية الامتثال المطلوبة وهي مستعدة بشكل أفضل للتسليم والتوزيع على نطاق أوسع. يستغرق الوصول إلى هذه المرحلة وقتًا وجهدًا، ولكنها خطوة ذات معنى نحو تقديم KVM-GO بالجودة والسلامة والثقة التي نريدها.
 
-Diese Zertifikate sind ein wichtiger Meilenstein. Sie bestätigen, dass KVM-GO den erforderlichen Konforمعätsprozess durchlaufen hat و besser لـ breitere Auslieferung و Vertrieb vorbereitet ist. Diese Stufe zu erreichen kostet Zeit و Mühe, ist aber ein sinnvoller Schritt zu KVM-GO مع der Qualität, Sicherheit و dem Vertrauen, die wir anstreben.
+![CE, RoHS, UKCA compliance certificates and EMC test documentation](https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp)
 
-![CE-, RoHS- و UKCA-Konforمعätszertifikate و EMC-Prüfdokumentation](https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp)
+*حصلت KVM-GO على شهادات CE وRoHS وUKCA.*
 
-*KVM-GO hat CE-, RoHS- و UKCA-Zertifizierungen erhalten.*
+بالنسبة لنا، الشهادة ليست مجرد مربع يجب التحقق منه. إنه جزء من التأكد من أن KVM-GO جاهز للاستخدام على نطاق أوسع، مع مستوى الثقة ونضج المنتج الذي يتوقعه مجتمعنا منا.
 
-Für uns ist Zertifizierung لا nur ein Häkchen. Sie gehört dazu, sicherzustellen, dass KVM-GO breiter eingesetzt werden kann – مع dem Vertrauen و der منتجreife, die unsere Community von uns erwartet.
+## شهادة OSHWA
 
-## OSHWA-Zertifizierung
+بالإضافة إلى شهادات الامتثال، تم أيضًا اعتماد KVM-GO رسميًا كجهاز مفتوح المصدر من **OSHWA**، مع [**UID: CN000022**](https://certification.oshwa.org/cn000022.html).
 
-Neben den Konforمعätszertifikaten wurde KVM-GO offiziell von **OSHWA** als Open-Source-الأجهزة zertifiziert, مع [**UID: CN000022**](https://certification.oshwa.org/cn000022.html).
+![OSHWA open source hardware certification CN000022](https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp)
 
-![OSHWA Open-Source-الأجهزة-Zertifikat CN000022](https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp)
+*تم اعتماد KVM-GO رسميًا كجهاز مفتوح المصدر من قبل OSHWA، UID: CN000022.*
 
-*KVM-GO ist offiziell von OSHWA als Open-Source-الأجهزة zertifiziert, UID: CN000022.*
+هذا الإنجاز يعني الكثير بالنسبة لنا. لقد أردنا دائمًا أن يكون KVM-GO أكثر من مجرد أداة عملية. نريد أن يكون شيئًا يمكن للأشخاص فحصه والتعلم منه والبناء عليه ومشاركته. وتعكس شهادة OSHWA هذا الالتزام وتعزز الاتجاه المفتوح للأجهزة الذي نؤمن به.
 
-Dieser Meilenstein bedeutet uns viel. Wir wollten KVM-GO schon immer als mehr als praktisches Werkzeug: etwas, das man inspizieren, daraus lernen, darauf aufbauen و teilen kann. Die OSHWA-Zertifizierung spiegelt dieses Engagement wider و stärkt die Open-الأجهزة-Richtung, an die wir glauben.
+![KVM-GO HDMI, DP, VGA, and KM interface board lineup](https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp)
 
-![KVM-GO HDMI-, DP-, VGA- و KM-Schnittstellenplatinen im Überblick](https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp)
+بالنسبة لنا، الأجهزة المفتوحة ليست مجرد علامة. إنه جزء من الطريقة التي نبني بها. نحن نؤمن بأن المستخدمين يجب أن يكونوا قادرين على فهم المنتج بشكل أعمق، واستكشاف كيفية عمله، والمشاركة في تحسينه وتوسيع نطاقه.
 
-Open الأجهزة ist لـ uns لا nur ein Label. Es ist Teil unserer Art zu bauen. Nutzerinnen و Nutzer sollten das منتج tiefer verstehen, erkوen, wie es funktioniert, و an Verbesserung و Erweiterung معwirken können.
+## تحديث الجدول الزمني للداعمين
 
-## Zeitplan-Update لـ Unterstützer
+نريد أن نشارك صورة صادقة عن **وضع كل متغير** و**ما يمكن توقعه بالنسبة للشحن**.
 
-Wir möchten ein ehrliches Bild davon geben, **wo jede Variante steht** و **was beim Versand zu erwarten ist**.
+**تسلسل البناء.** بدأ مصنعنا الإنتاج، بدءًا من **إصدار HDMI**. سيتم اتباع متغيرات **VGA وDisplayPort** في **تشغيل الإنتاج الثاني**. يعكس هذا المراحل ** سعة خط ثنائي الفينيل متعدد الكلور والجدول الزمني **. يتم إعطاء الأولوية لجميع الإصدارات بشكل متساوٍ، ولكن تشغيلها بالتسلسل يضمن حصول كل دفعة على الاهتمام الجيد الذي تستحقه.
 
-**Fertigungsfolge.** Unsere Fabrik hat مع der منتجion begonnen, zuerst مع der **HDMI-Version**. Die **VGA- و DisplayPort-**Varianten folgen in einem **zweiten منتجionslauf**. Diese Phasierung spiegelt **Kapazität و Planung der PCB-Linie** wider. Alle Versionen sind gleich priorisiert, aber die sequenzielle Abwicklung stellt sicher, dass jede Charge die nötige Qualitätsaufmerksamkeit erhält.
+**حالة الجدول الزمني.** مقارنة بتقديراتنا السابقة، فإننا نتطلع إلى **أسبوعين إضافيين تقريبًا**، ويرجع ذلك أساسًا إلى **القيود المفروضة على قدرة شركاء PCB**. نحن **نعمل معهم بشكل نشط** لتأمين الخانات السابقة ودفع كل دفعة للأمام في أسرع وقت ممكن.
 
-**Zeitplan.** Im Vergleich zu unserer früheren Schätzung rechnen wir مع **etwa zwei zusätzlichen Wochen**, vor allem wegen **Kapazitätsgrenzen beim PCB-Partner**. Wir **arbeiten aktiv** مع ihnen zusammen, um frühere Slots zu sichern و jede Charge so früh wie möglich voranzubringen.
+**التقديرات الحالية** (سنقوم بالتحديث فورًا إذا تغير أي شيء):
 
-**Aktuelle Schätzungen** (wir aktualisieren sofort, falls sich etwas ändert):
+- **HDMI:** متوقع **جاهز للشحن من جانبنا خلال 3 أسابيع تقريبًا**
+- **VGA وDP:** متوقع **جاهزان بعد مرور شهر تقريبًا على HDMI**
+- **التوصيل العالمي:** بمجرد وصول الوحدات إلى **شبكة توصيل أجهزة الماوس**، فإننا نقدر **منتصف يونيو تسليم الموجة الأولى من HDMI**، مع تتبع VGA/DP بالتسلسل
 
-- **HDMI:** voraussichtlich **in ~3 Wochen versandbereit von unserer Seite**
-- **VGA و DP:** voraussichtlich **~1 Monat nach HDMI** bereit
-- **Weltweite Lieferung:** Sobald die Geräte im **Erfüllungsnetzwerk von Mouser** sind, schätzen wir **Mitte Juni لـ die erste HDMI-Welle**, VGA/DP folgen in der Reihenfolge
+نحن نعلم أن الانتظار أمر محبط، خاصة عندما تتغير الجداول الزمنية. نحن نقدر سعة صدرك، ونحن ملتزمون بـ **تحديثات شفافة**: ما تم، وما هو التالي، وما الذي تغير. لا التخمين، لا مفاجآت. 
 
-Wir wissen, dass Warten frustrierend ist, besonders wenn sich Zeitpläne verschieben. Vielen Dank لـ eure Geduld; wir verpflichten uns zu **transparenten التحديثات**: was erledigt ist, was als Nächstes kommt و was sich geändert hat. Kein Rätselraten, keine Überraschungen.
+أسئلة؟ تواصل معنا على info@openterface.com، أو انضم إلى المحادثة على [Discord](https://openterface.com/about/community/) حيث يناقش مجتمعنا بنشاط تطوير Openterface.
 
-أسئلة? Schreibt uns an info@openterface.com أو diskutiert auf [Discord](https://openterface.com/about/community/), wo die Community die Openterface-Entwicklung aktiv begleitet.
+## المضي قدما
 
-## Weiter geht’s
+الإنتاج والشهادات وتسجيل OSHWA كلها تتحرك في الاتجاه الصحيح. القسم أعلاه هو الرفيق الصادق لهذا التقدم: معالم حقيقية، مع تواريخ واقعية.
 
-منتجion, Zertifizierungen و OSHWA-Registrierung bewegen sich in die richtige Richtung. Der Abschnitt oben ist die ehrliche Ergänzung zu diesem Fortschritt: echte Meilensteine مع realistischen Terminen.
+شكرا مرة أخرى على دعمكم والصبر. سنستمر في مشاركة التقدم الواضح والجداول الزمنية الواضحة بينما نمضي قدمًا.
 
-Nochmals vielen Dank لـ eure Unterstützung و Geduld. Wir werden weiter sichtbaren Fortschritt و klare Zeitpläne teilen.
-
-Openterface Team, TechxArtisan
+فريق Openterface، TechxArtisan

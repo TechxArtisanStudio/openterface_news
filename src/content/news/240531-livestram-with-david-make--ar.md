@@ -2,65 +2,64 @@
 locale: ar
 translationKey: "240531-livestram-with-david-make"
 slug: "240531_livestram_with_david_make"
-title: "Entspanntes Gespräch مع David Groom von MAKE: Magazine: Die Geschichte von Openterface Mini-KVM"
-description: "Schauen Sie sich unseren Livestream مع David Groom von MAKE: Magazine an, während wir die Entstehungsgeschichte von Openterface Mini-KVM besprechen, von Tech-Kunstprojekten bis hin zur gemeinschaftsgetriebenen Entwicklung و unserer Reise bei der Erstellung einer Open-Source-Lösung لـ die Verwaltung von Headless-Geräten."
+title: "محادثة غير رسمية مع David Groom من MAKE: المجلة: قصة Openterface Mini-KVM"
+description: "شاهد البث المباشر الخاص بنا مع MAKE: David Groom من المجلة بينما نناقش قصة أصل Openterface Mini-KVM، بدءًا من المشاريع الفنية التقنية وحتى التطوير الذي يقوده المجتمع، ورحلتنا لإنشاء حل مفتوح المصدر لإدارة الأجهزة مقطوعة الرأس."
 date: 2024-05-31
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "event", "community", "analysis"]
-category: "Product التحديثات"
+topic: ["shipping", "production", "beta", "software", "campaign", "event", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+مرحباً جميعاً!
 
-Hallo alle zusammen!
-
-Wir haben gerade einen großartigen [YouTube-Livestream](https://www.youtube.com/live/lwitzvmxsgc?si=s9a1t5_Sce5v22e1) مع David Groom von MAKE: Magazine beendet! Während der Session haben wir uns tief in die Geschichte hinter unserem Openterface Mini-KVM eingegraben, einer innovativen Open-Source-الأجهزة-Lösung, die darauf ausgelegt ist, Headless-Geräte و Einplatinencomputer wie Raspberry Pis mühelos مع nur Ihrem Laptop zu steuern. Sie können den YouTube-Livestream لـ weitere Details ansehen أو einfach die Geschichte unten lesen.
+لقد انتهينا للتو من [YouTube livestream](https://www.youtube.com/live/lwitzvmxsgc?si=s9a1t5_Sce5v22e1) رائع مع David Groom من MAKE: Magazine! خلال الجلسة، بحثنا في القصة وراء Openterface Mini-KVM، وهو حل مبتكر للأجهزة مفتوحة المصدر مصمم للتحكم بسهولة في الأجهزة مقطوعة الرأس وأجهزة الكمبيوتر ذات اللوحة الواحدة مثل Raspberry Pis باستخدام الكمبيوتر المحمول الخاص بك فقط. يمكنك مشاهدة البث المباشر على YouTube لمزيد من التفاصيل أو ببساطة قراءة القصة أدناه.
 
 ![youtube-with-david-2](https://www.crowdsupply.com/img/2b83/081f1376-b266-4e83-b1af-5628dbe62b83/youtube-with-david_jpg_gallery-lg.jpg)
 
-## Die Geburt einer Idee
+## ولادة فكرة
 
-Die Reise des Mini-KVM begann in der geschäftigen Stadt Guangzhou, China, in unserem TechxArtisan Studio. In den letzten fünf Jahren waren wir tief in zahlreiche Tech-Kunstprojekte لـ lokale و internationale Künstler involviert. Unsere Arbeit umfasst den Bau interaktiver Beleuchtungsinstallationen مع KI-Erkennung, Roboterarme لـ Theateraufführungen, selbstfahrende Mini-Autos, die zufällige Labyrinthe lösen, و sogar einen Roboterhو, der darauf ausgelegt ist, Niemandsland wie Wüsten و Wälder zu erkوen.
+بدأت رحلة Mini-KVM في مدينة قوانغتشو الصاخبة، الصين، داخل استوديو TechxArtisan الخاص بنا. على مدى السنوات الخمس الماضية، شاركنا بعمق في العديد من المشاريع الفنية التقنية للفنانين المحليين والعالميين. يتضمن عملنا إنشاء منشآت إضاءة تفاعلية مع اكتشاف الذكاء الاصطناعي، وأذرع آلية للعروض المسرحية، وسيارات صغيرة ذاتية القيادة تحل متاهات عشوائية، وحتى كلبًا آليًا مصممًا لاستكشاف الأراضي الحرام مثل الصحاري والغابات.
 
 ![techxartisan_tech_art](https://www.crowdsupply.com/img/bce8/9c580077-993a-42b2-b781-a30d34acbce8/techxartisan-tech-art_jpg_gallery-lg.jpg)
 
-### Ein häufiges Problem
-Eine wiederkehrende Herausforderung in unserer Arbeit war die Verwaltung einer Vielzahl von Headless-Computern wie Raspberry Pis و Jetson Nanos, denen Monitore, Tastaturen أو Netzwerkkonnektivität fehlten. Dies führte oft zu hektischen Suchen nach Ersatzmonitoren و Tastaturen, um diese Geräte unter rauen Bedingungen zu troubleshooten و darauf zuzugreifen.
+### الصداع الشائع
+كان التحدي المتكرر في عملنا هو إدارة عدد كبير من أجهزة الكمبيوتر بدون رأس مثل Raspberry Pis وJetson Nanos، والتي كانت تفتقر إلى الشاشات أو لوحات المفاتيح أو الاتصال بالشبكة. أدى هذا غالبًا إلى عمليات بحث محمومة عن الشاشات ولوحات المفاتيح الاحتياطية لاستكشاف أخطاء هذه الأجهزة وإصلاحها والوصول إليها في الظروف القاسية.
 
-### Behelfslösungen
-Ursprünglich griffen wir auf behelfsmäßige tragbare Monitor-Lösungen zurück, die von Batteriepacks betrieben wurden و drahtlose Mini-Tastaturen مع Touchpads kombinierten. Diese wurden jedoch oft vergessen أو verlegt, was den Bedarf an einer dedizierten الأجهزة-Lösung hervorrief, die die Laptops nutzen könnte, die wir immer لـ das Programmieren و Einrichten معführten.
+### حلول مؤقتة
+في البداية، لجأنا إلى حلول شاشات محمولة مؤقتة تعمل بحزم البطاريات ولوحات المفاتيح الصغيرة اللاسلكية المزودة بلوحات اللمس. ومع ذلك، غالبًا ما يتم نسيان هذه العناصر أو وضعها في غير مكانها، مما أدى إلى الحاجة إلى حل مخصص للأجهزة يمكنه الاستفادة من أجهزة الكمبيوتر المحمولة التي نحملها دائمًا لأغراض البرمجة والإعداد.
 
 ![diy-monitor-keyboard](https://www.crowdsupply.com/img/2efd/4459eff9-2d01-4552-ac91-a1941ed82efd/diy-monitor-keyboard_jpg_gallery-lg.jpg)
-*Diese beiden Gadgets müssen لـ Vor-Ort-Projekte معgeführt werden.*
+*يجب حمل هاتين الأداتين للمشروعات في الموقع.*
 
-### Der erste Prototyp
-Unser erster DIY-Prototyp war eine einfache aber effektive Kombination aus einer Capture-Karte, um Video vom Headless-Gerät zu holen, و einem USB-Tastatur/Maus-Simulator, alles in ein einziges USB-Kabel integriert, das sich مع unseren Laptops verbindet.
+### النموذج الأول
+كان أول نموذج أولي لدينا عبارة عن مزيج بسيط ولكنه فعال من بطاقة التقاط لاسترداد الفيديو من الجهاز مقطوع الرأس ومحاكي لوحة مفاتيح/ماوس USB، وكلها مدمجة في كابل USB واحد متصل بأجهزة الكمبيوتر المحمولة الخاصة بنا. 
 
 ![/early-mini-kvm-pcb](https://www.crowdsupply.com/img/1f7e/fb91d879-dee7-45cc-bbdc-dc3ea5731f7e/early-mini-kvm-pcb_jpg_gallery-lg.jpg)
-*Eine der frühen Versionen des Mini-KVM-PCB*
+*أحد الإصدارات المبكرة من mini-KVM PCB*
 
-Wir stellten unsere coolen Tech-Kunstprojekte auf der Shenzhen Maker Faire im November 2023 vor و beabsichtigten, David den Mini-KVM-Prototyp zu zeigen. Wir waren jedoch so aufgeregt حول die Geschenke von David, dass wir es vergaßen!
+لقد عرضنا مشاريعنا الفنية التقنية الرائعة في معرض Shenzhen Maker Faire في نوفمبر 2023، بهدف عرض النموذج الأولي لـ Mini-KVM على David. ومع ذلك، فقد تحمسنا كثيرًا بشأن الهدايا المقدمة من ديفيد ونسيناها!
 
 ![techxartisan_team_with_david_groom](https://www.crowdsupply.com/img/bc4e/17bdcc6e-0a34-4f2f-bf64-fee0b8d6bc4e/techxartisan-team-with-david-groom_jpg_gallery-lg.jpg)
-*Aufkleber و Postkarten von MAKE: Magazine sind wirklich cool!*
+*الملصقات والبطاقات البريدية من MAKE: المجلة رائعة حقًا!*
 
-## Community-Feedback و Entwicklung
-Nachdem wir unseren Prototyp auf Reddit geteilt hatten, erhielten wir unschätzbares Feedback von [der Community](/community/), das uns ermutigte, unsere Lösung zu verfeinern و zu einem polierten منتج zu entwickeln. Diese Community-Unterstützung war entscheidend daلـ, unser behelfsmäßiges Gerät in ein elegantes, effizientes Tool لـ Homelabber, Systemadministratoren, Tech-Enthusiasten و jeden zu verwandeln, der مع Headless-Computern arbeitet.
+## ردود فعل المجتمع والتنمية
+بعد مشاركة نموذجنا الأولي على Reddit، تلقينا تعليقات لا تقدر بثمن من [the community](/community/)، مما شجعنا على تحسين الحل الذي نقدمه وتطويره إلى منتج مصقول. كان دعم المجتمع هذا فعالاً في تحويل أجهزتنا المؤقتة إلى أداة أنيقة وفعالة للعاملين في المنازل ومسؤولي النظام وعشاق التكنولوجيا وأي شخص يعمل مع أجهزة كمبيوتر بدون رأس.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
-*Eine riesige Menge Feedback von Homelabbern erhalten*
+*تلقيت قدرًا كبيرًا من التعليقات من العاملين في المنزل*
 
-## Zweifel حولwinden
-Trotz anfänglicher Zweifel حول den Wettbewerb مع bestehenden ähnlichen Lösungen halfen die positive Resonanz و konstruktiven Vorschläge aus Online-Communities dabei, potenzielle Anwendungsfälle zu klären و unser Vertrauen zu stärken. Ohne diese Unterstützung و Bestätigung unserer Bemühungen hätten wir das Projekt möglicherweise لا weiter verfolgt.
+## التغلب على الشكوك
+على الرغم من الشكوك الأولية حول التنافس مع الحلول المماثلة الحالية، ساعدت الاستجابة الإيجابية والاقتراحات البناءة من المجتمعات عبر الإنترنت في توضيح حالات الاستخدام المحتملة وعززت ثقتنا. وبدون هذا الدعم والتأكيد على جهودنا، لم نكن لنواصل المشروع أكثر.
 
-## Crowdfوing و zukünftige Pläne
-Die Crowdfوing-Kampagne لـ das Openterface Mini-KVM auf Crowd Supply nimmt ernsthaft Fahrt auf, مع etwa zwei Wochen verbleibender Zeit. Diese Kampagne geht لا nur um die Entwicklung des Mini-KVM; sie ist ein Zeugnis der Kraft gemeinschaftsgetriebener Innovation. Als nächstes werden wir uns in منتجionsmanagement, البرمجيات-Verbesserungen و die Lieferung dieses praktischen Gadgets an unsere großartigen Unterstützer vertiefen—alles angetrieben von unserer erstaunlichen Open-Source-Community.
+## التمويل الجماعي والخطط المستقبلية
+تكتسب حملة التمويل الجماعي لـ Openterface Mini-KVM على Crowd Supply قوة كبيرة، مع بقاء حوالي أسبوعين. هذه الحملة لا تتعلق فقط بتطوير Mini-KVM؛ إنها شهادة على قوة الابتكار الذي يقوده المجتمع. بعد ذلك، سنتعمق في إدارة الإنتاج، وتحسينات البرامج، وتسليم هذه الأداة سهلة الاستخدام إلى الداعمين الرائعين لدينا - وكل ذلك مدعوم من مجتمعنا المذهل مفتوح المصدر.
 
 ![techxartisan_openterface_discord](https://www.crowdsupply.com/img/8d7a/58e213e7-7a81-47b4-9d6b-69be3c698d7a/techxartisan-openterface-discord_jpg_gallery-lg.jpg)
-*Beta-Tester teilen ihre Nutzung des Openterface Mini-KVM in ihren täglichen Tech-Aufgaben auf TechxArtisans Discord*
+*يشارك مختبرو النسخة التجريبية استخدامهم لـ Openterface Mini-KVM في مهامهم التقنية اليومية على TechxArtisan's Discord*
 
-## Die Open-Source-Vision umarmen
+## تبني رؤية المصدر المفتوح
 
-Das Openterface Mini-KVM ist ein Zeugnis unserer Kreativität و Ausdauer و der unterstützenden Open-Source-Community. Was als einfache Lösung لـ unsere persönlichen Herausforderungen begann, hat sich zu einem vielseitigen, Open-Source-Tool entwickelt, das bereit ist, Hackern, Bastlern و Tech-Enthusiasten weltweit zu nützen. Bleiben Sie dran لـ weitere التحديثات, während das Mini-KVM seinem offiziellen Release näher kommt!
+يعد Openterface Mini-KVM بمثابة شهادة على إبداعنا ومثابرتنا ومجتمع المصادر المفتوحة الداعم. ما بدأ كحل بسيط لتحدياتنا الشخصية تطور إلى أداة متعددة الاستخدامات ومفتوحة المصدر مستعدة لإفادة المتسللين والمصلحين وعشاق التكنولوجيا في جميع أنحاء العالم. ترقبوا المزيد من التحديثات مع اقتراب Mini-KVM من إصداره الرسمي!

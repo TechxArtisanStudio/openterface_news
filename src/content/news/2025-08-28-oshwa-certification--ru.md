@@ -2,41 +2,40 @@
 locale: ru
 translationKey: "2025-08-28-oshwa-certification"
 slug: "2025-08-28-oshwa-certification"
-title: "OSHWA-Zertifizierung Erreicht! 🎉"
-description: "28. August 2025 - Wir freuen uns, bekannt zu geben, dass die Openterface KVM Extension for uConsole offiziell von der Open Source Оборудование Association OSHWA zertifiziert wurde! 🤠⚙️"
+title: "Сертификация OSHWA получена! 🎉"
+description: "28 августа 2025 г. — Мы рады сообщить, что расширение Openterface KVM для uConsole официально сертифицировано Ассоциацией оборудования с открытым исходным кодом (OSHWA)! 🤠⚙️"
 date: 2025-08-28
 channel: product
 product: uconsole-kvm-extension
 topic: ["software", "community"]
-category: "Product Обновления"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**28 августа 2025 г.** — Мы рады сообщить, что **Расширение Openerface KVM для uConsole** официально сертифицировано **Ассоциацией оборудования с открытым исходным кодом (OSHWA)**! 🤠⚙️
 
-**28. August 2025** - Wir freuen uns, bekannt zu geben, dass die **Openterface KVM Extension for uConsole** offiziell von der **Open Source Оборудование Association (OSHWA)** zertifiziert wurde! 🤠⚙️
+## Подробности сертификации
 
-## Zertifizierungsdetails
+- **Идентификатор сертификации**: CN000021 ✅
+- **Просмотр сертификата**: [OSHWA Certification](https://lnkd.in/gt-yvDuU)
+- **Репозиторий оборудования**: [Openterface_KVM_Ext_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware)
 
-- **Zertifizierungs-ID**: CN000021 ✅
-- **Zertifikat anzeigen**: [OSHWA-Zertifizierung](https://lnkd.in/gt-yvDuU)
-- **Оборудование-Repository**: [Openterface_KVM_Ext_Оборудование](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Оборудование)
+## Что это значит
 
-## Was das bedeutet
+Эта сертификация подтверждает, что все схемы, принципиальные схемы и соответствующие открытые аппаратные ресурсы общедоступны и доступны сообществу. Вы можете:
 
-Diese Zertifizierung bestätigt, dass alle Schaltpläne, Schaltkreise и verwandten Open-Source-Оборудование-Ressourcen öffentlich verfügbar и для die Community zugänglich sind. Sie können:
+- **Изучите** полную конструкцию оборудования.
+- **Тинкер** и модификация под ваши конкретные нужды.  
+- **Создайте** свою собственную версию, если хотите.
+- **Вносить** вклад в улучшение оборудования и программного обеспечения.
 
-- **Studieren** das komplette Оборудование-Design
-- **Basteln** и для Ihre spezifischen Bedürfnisse modifizieren  
-- **Bauen** Ihre eigene Version, wenn gewünscht
-- **Beitragen** zu Оборудование- и Программное обеспечение-Verbesserungen
+## Присоединяйтесь к путешествию с открытым исходным кодом
 
-## Werden Sie Teil der Open-Source-Reise
+Мы приглашаем вас стать частью этого удивительного сообщества с открытым исходным кодом! Являетесь ли вы энтузиастом аппаратного обеспечения, разработчиком или просто интересуетесь, как оно работает, в нашей растущей экосистеме для вас найдется место.
 
-Wir laden Sie ein, Teil dieser erstaunlichen Open-Source-Community zu werden! Ob Sie Оборудование-Enthusiast, Entwickler или einfach nur neugierig sind, wie es funktioniert - es gibt einen Platz для Sie in unserem wachsenden Ökosystem.
-
-**Bereit loszulegen?** [Заказать Sie Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) и werden Sie Teil der Open-Source-Revolution! 🚀
+**Готовы начать?** [Order your KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) и присоединяйтесь к революции открытого исходного кода! 🚀
 
 ---
 
-*Folgen Sie unserem [GitHub-Repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Оборудование) для die neuesten Оборудование-Обновления и Community-Beiträge.*
+*Следите за нашим [GitHub repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware), чтобы быть в курсе последних обновлений оборудования и информации от сообщества.*

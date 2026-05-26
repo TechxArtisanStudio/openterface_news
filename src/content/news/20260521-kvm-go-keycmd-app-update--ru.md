@@ -2,175 +2,174 @@
 locale: ru
 translationKey: "20260521-kvm-go-keycmd-app-update"
 slug: "20260521-kvm-go-keycmd-app-update"
-title: "KVM-GO Update: Steuern Sie Ihr Zielgerät vom Handy aus с KeyCmd 0.19"
-description: "Nutzen Sie KeyCmd 0.19 с KVM-GO о USB или Bluetooth: KM Basic и Pro Tastaturen, Compose-Modus, Gamepad-Presets, Shortcut Hub и Präsentationssteuerung – kein Video-Dongle для HID-Eingabe erforderlich."
+title: "Обновление KVM-GO: управляйте своей целью со своего телефона с помощью KeyCmd 0.19"
+description: "Используйте KeyCmd 0.19 с KVM-GO через USB или Bluetooth: клавиатуры KM Basic и Pro, режим Compose, настройки геймпада, Shortcut Hub и элементы управления презентацией — для HID-входа видеоадаптер не требуется."
 date: 2026-05-21
 channel: software
 product: keymod
-topic: ["beta", "software", "campaign", "community"]
-category: "Продукт-Обновления"
-tags: ["KVM-GO", "KeyCmd", "Продукт-Обновления", "Android", "USB", "Bluetooth", "Tastatur", "Gamepad", "Release"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KVM-GO", "KeyCmd", "Product Updates", "Android", "USB", "Bluetooth", "Keyboard", "Gamepad", "Release"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+Привет всем,
 
-Hallo zusammen,
+Благодарим вас за поддержку **KVM-GO** и за ваше терпение в процессе производства и поставки устройств. Мы знаем, что многие из вас все еще ждут аппаратного обеспечения, и мы хотим, чтобы ваша установка выглядела завершенной с первого дня.
 
-vielen Dank для Ihre Unterstützung von **KVM-GO** и для Ihre Geduld, während die Geräte produziert и versendet werden. Wir wissen, dass viele von Ihnen noch auf ihre Оборудование warten, и wir möchten, dass sich Ihr Setup vom ersten Tag an komplett anfühlt.
+Наряду с приложением **Openterface KVM** (видео и полное управление KVM на телефоне или планшете) мы совершенствуем **KeyCmd**, наше сопутствующее приложение для клавиатуры, мыши, геймпада и быстрого ввода. **KeyCmd 0.19** — это сборка, которую мы рекомендуем сегодня, если вы используете KVM-GO. Подключите **USB** или **Bluetooth**, установите поверх любой предыдущей сборки, и ваши настройки, профили и сопряженные устройства сохранятся.
 
-Neben der **Openterface KVM** App (Video и volle KVM-Steuerung auf Ihrem Handy или Tablet) haben wir **KeyCmd** verbessert, unsere Begleit-App для Tastatur-, Maus-, Gamepad- и Shortcut-Eingaben. **KeyCmd 0.19** ist die Version, die wir heute для die Nutzung с KVM-GO empfehlen. Die Kopplung erfolgt о **USB** или **Bluetooth**. Sie können sie einfach о jede vorherige Version installieren; Ihre Einstellungen, Profile и gekoppelten Geräte bleiben erhalten.
+<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp" alt="KVM-GO на ноутбуке с клавиатурой KeyCmd на телефоне" style="max-width:720px;width:100%;height:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp" alt="KVM-GO an einem Laptop с KeyCmd-Tastatur auf einem Handy" style="max-width:720px;width:100%;height:auto" loading="lazy">
+Ниже описано, что KeyCmd делает с KVM-GO, какой режим открывать для какого задания и как получить от него максимальную пользу на реальной целевой машине.
 
-Im Folgenden erfahren Sie, was KeyCmd с KVM-GO leistet, welchen Modus Sie для welche Aufgabe öffnen sollten и wie Sie das Beste daraus an einem echten Zielgerät herausholen.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp" alt="Экран приветствия KeyCmd" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp" alt="KeyCmd Willkommensbildschirm" style="max-height:320px;width:auto" loading="lazy">
+## Режимы и как их использовать
 
-## Modi и ihre Verwendung
+### Клавиатура и мышь (базовая версия)
 
-### Tastatur & Maus (Basic)
+Откройте его, если вам нужна **простая полноэкранная клавиатура**, и ничего больше не будет мешать.
 
-Öffnen Sie diesen Modus, wenn Sie eine **einfache Vollbild-Tastatur** möchten и неs anderes im Weg sein soll.
+**Подходит для:** паролей BIOS, коротких команд оболочки, ввода цифровой клавиатуры или управления мышью с помощью большой сенсорной панели, когда KVM-GO показывает экран.
 
-**Ideal для:** BIOS-Passwörter, kurze Shell-Befehle, Eingaben о den Ziffernblock или Maussteuerung с einem großen Touchpad, während KVM-GO Ihnen den Bildschirm zeigt.
+**Как это использовать:**
 
-**So verwenden Sie es:**
+– Откройте **KM Basic** в панели навигации.
+– При необходимости используйте экранную клавиатуру, **цифровую клавиатуру** (книжную или альбомную ориентацию) или вкладку **сенсорную панель**.
+– В **Настройки** выберите **липкие модификаторы** (нажмите, чтобы зафиксировать Shift/Ctrl) или **модификаторы в стиле аккорда**, если вы предпочитаете комбинации удерживания и касания.
 
-- Öffnen Sie **KM Basic** о das Navigationsmenü.
-- Verwenden Sie die Bildschirmtastatur, den **Ziffernblock** (Hoch- или Querformat) или den **Touchpad**-Tab nach Bedarf.
-- In den **Einstellungen** können Sie zwischen **Sticky Modifiers** (Tippen zum Einrasten von Shift/Strg) или **Chord-Style** Modifikatoren wählen, wenn Sie Tastenkombinationen bevorzugen.
+**Почему это помогает**: больше места на экране для клавиш, меньше хрома, быстрее, когда вам нужен только ввод, а не сочетания клавиш.
 
-**Vorteile:** Mehr Platz auf dem Bildschirm для die Tasten, weniger Benutzeroberfläche, schneller, wenn Sie nur Eingaben и keine Shortcuts benötigen.
+<img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp" alt="Базовая полноэкранная клавиатура KM" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp" alt="KM Basic Vollbild-Tastatur" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp" alt="KeyCmd numpad в альбомной ориентации" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp" alt="KeyCmd Ziffernblock im Querformat" style="max-height:320px;width:auto" loading="lazy">
+### Клавиатура и мышь (Pro)
 
-### Tastatur & Maus (Pro)
+<img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp" alt="KM Pro разделенная клавиатура в альбомной ориентации" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp" alt="KM Pro geteilte Tastatur im Querformat" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp" alt="KeyCmd клавиатура и тачпад в портретной ориентации" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp" alt="KeyCmd Tastatur и Touchpad im Hochformat" style="max-height:320px;width:auto" loading="lazy">
+Откройте его для **ежедневной работы** по управлению компьютерами с KVM-GO: разделенные клавиатуры, IME, полосы Shortcut Hub и редактор **Compose**.
 
-Öffnen Sie diesen Modus для die **tägliche Steuerungsarbeit** an Geräten hinter KVM-GO: geteilte Tastaturen, IME, Shortcut Hub Leisten и der **Compose**-Editor.
+**Подходит для:** более длительных сеансов набора текста, макросов и сочетаний клавиш, отправки блоков текста или сценариев на хост, пока вы наблюдаете за результатом в представлении KVM.
 
-**Ideal для:** längeres Tippen, Makros и Shortcuts, das Senden von Textblöcken или Skripten an den Host, während Sie das Ergebnis in der KVM-Ansicht beobachten.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp" alt="Режим создания сценария с отправкой сценария" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp" alt="Compose-Modus beim Senden eines Skripts" style="max-height:320px;width:auto" loading="lazy">
+**Создание** стоит попробовать, если вы часто вставляете команды или сценарии: пишите на телефоне, просматриваете, а затем отправляете хосту с помощью нажатия клавиш. [Short demo on YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) показывает весь поток от начала до конца.
 
-**Compose** ist einen Versuch wert, wenn Sie häufig Befehle или Skripte einfügen: Schreiben Sie auf Ihrem Handy, оprüfen Sie den Text и senden Sie ihn dann als Tastenanschläge an den Host. Eine [kurze Demo auf YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) zeigt den Ablauf von Anfang bis Ende.
+**Как это использовать:**
 
-**So verwenden Sie es:**
+- Откройте **KM Pro** из панели навигации.
+- Используйте клавиатуру и тачпад, как в базовом режиме, а также категории **Shortcut Hub** вверху для действий одним касанием, которые вы настроили в профилях.
+– Откройте **Создание**, чтобы составить более длинный текст на телефоне, просмотрите его, а затем **отправьте** в виде HID-нажатий клавиш. Длинные отправки показывают индикатор выполнения. Если ваш текст содержит символы, отличные от ASCII, приложение предупреждает вас перед отправкой, чтобы вы могли проверить совместимость хоста (особенно полезно для macOS).
 
-- Öffnen Sie **KM Pro** о das Navigationsmenü.
-- Verwenden Sie Tastatur и Touchpad wie in der Basic-Version, plus **Shortcut Hub** Kategorien am oberen Rand для Ein-Klick-Aktionen, die Sie in Profilen eingerichtet haben.
-- Öffnen Sie **Compose**, um längere Texte auf Ihrem Handy zu entwerfen, zu оprüfen и dann als HID-Tastenanschläge zu **senden**. Bei langen Sendevorgängen wird ein Fortschrittsbalken angezeigt. Wenn Ihr Text Nicht-ASCII-Zeichen enthält, warnt die App Sie vor dem Senden, daс Sie die Host-Kompatibilität prüfen können (besonders hilfreich unter macOS).
+**Почему это помогает:** одно место для ввода текста, указания курсора, быстрых клавиш и рабочих процессов, похожих на вставку, без использования полной клавиатуры.
 
-**Vorteile:** Ein Ort для Texteingabe, Maussteuerung, Shortcuts и paste-ähnliche Workflows, ohne eine physische Tastatur zum Zielgerät сführen zu müssen.
+### Геймпад
 
-### Gamepad
+Откройте его, если вам нужен макет **виртуального контроллера** на экране, настроенный для игр или любого приложения на цели, которое ожидает геймпад.
 
-Öffnen Sie diesen Modus, wenn Sie ein **virtuelles Controller-Layout** auf dem Bildschirm wünschen, das для Spiele или Apps optimiert ist, die ein Gamepad erwarten.
+**Подходит для** эмуляторов, казуальных игр или компактной панели управления с джойстиками и кнопками, а отображением управляет KVM-GO.
 
-**Ideal для:** Emulatoren, Gelegenheitsspiele или eine kompakte Steuerfläche с Sticks и Tasten, während KVM-GO die Anzeige оnimmt.
+**Как это использовать:**
 
-**So verwenden Sie es:**
+- Переключитесь в режим **Геймпад**.
+– Нажмите **Предустановка** на панели инструментов, чтобы **переключить** сохраненные макеты. **Длительно нажмите «Предустановки»**, чтобы открыть полный список, **импортировать/экспортировать** или **добавить модули** (джойстики, кнопки, сенсорные панели).
+- Начните с встроенного пресета **emu-6** и редактируйте оттуда. Вы можете добавить **несколько тачпадов** и дополнительные модули Stick в один макет.
 
-- Wechseln Sie in den **Gamepad**-Modus.
-- Tippen Sie auf **Preset** in der Toolbar, um durch gespeicherte Layouts zu **blättern**. **Halten Sie Preset gedrückt**, um die vollständige Liste zu öffnen, Layouts zu **importieren/exportieren** или **Module hinzuzufügen** (Sticks, Tasten, Touchpads).
-- Starten Sie с dem сgelieferten **emu-6** Preset и bearbeiten Sie es nach Ihren Wünschen. Sie können **mehrere Touchpads** и zusätzliche Stick-Module in einem Layout hinzufügen.
+**Почему это помогает:** вы не привязаны к одной заводской компоновке; сохраняйте макеты для каждой игры или для каждой машины и делитесь пресетами с другими.
 
-**Vorteile:** Sie sind не auf ein festes Layout beschränkt; speichern Sie Layouts pro Spiel или pro Maschine и teilen Sie Presets с anderen.
+<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp" alt="Предустановленная компоновка геймпада" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp" alt="Gamepad Preset Layout" style="max-height:320px;width:auto" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp" alt="Предустановка геймпада, используемая в Minecraft" style="max-height:320px;width:auto" loading="lazy">
 
-<img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp" alt="Gamepad Preset genutzt in Minecraft" style="max-height:320px;width:auto" loading="lazy">
+*Индивидуальные настройки для Minecraft.*
 
-*Angepasstes Preset для Minecraft.*
+### Центр ярлыков
 
-### Shortcut Hub
+Это главная страница **профилей и ярлыков** в KM Pro: категории, панели сведений и ярлыки, которые вы назначаете полосам.
 
-Dies ist die Zentrale для **Profile и Shortcuts** innerhalb von KM Pro: Kategorien, Detail-Panels и die Shortcuts, die Sie den Leisten zuweisen.
+**Подходит для:** повторяющихся операций над целью (открытие терминала, вставка цепочки команд, переключение настроек), пока KVM-GO остается подключенным для видео.
 
-**Ideal для:** wiederkehrende Aufgaben auf dem Zielgerät (Terminal öffnen, Befehlskette einfügen, Einstellungen umschalten), während KVM-GO для das Video verbиen bleibt.
+**Как это использовать:**
 
-**So verwenden Sie es:**
+- В KM Pro работайте с профилем **По умолчанию** (или собственным).
+- Используйте вкладки категорий и подробный пользовательский интерфейс для управления ярлыками.
+– Если вы не знакомы с организацией профилей, запустите **путеводитель по Shortcut Hub**.
 
-- Arbeiten Sie in KM Pro im **Default**-Profil (или Ihrem eigenen).
-- Nutzen Sie Kategorie-Tabs и die Detail-UI, um Shortcuts zu verwalten.
-- Starten Sie die **Shortcut Hub Tour**, wenn Sie neu in der Organisation von Profilen sind.
+### Презентация
 
-### Präsentation
+Упрощенная панель управления **в стиле презентатора**, сохраненная в **портретном** режиме, чтобы кнопки не прыгали при повороте телефона.
 
-Eine einfachere Steuerung im **Presenter-Stil**, die im **Hochformat** gehalten ist, daс die Tasten не springen, wenn Sie das Handy drehen.
+**Подходит для:** прохождения слайдов или элементов управления световым презентатором на цели.
 
-**Ideal для:** das Durchblättern von Folien или einfache Präsentationssteuerungen am Zielgerät.
-
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp" alt="Präsentationsmodus zur Steuerung von Google Slides" style="max-height:320px;width:auto" loading="lazy">
-
----
-
-## Sprachen
-
-Die App-Benutzeroberfläche ist in **11 Sprachen** verfügbar. Neu hinzugekommen sind: Koreanisch, Italienisch, Russisch и Brasilianisches Portugiesisch.
-
-Öffnen Sie **Settings** → **App language**, um die Sprache zu ändern.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp" alt="Режим презентации, управляющий Google Slides" style="max-height:320px;width:auto" loading="lazy">
 
 ---
 
-## KeyCmd 0.19 herunterladen и с KVM-GO verbinden
+## Языки
 
-**Скачать:** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
+Пользовательский интерфейс приложения доступен на **11 языках**. Недавние добавления: корейский, итальянский, русский и бразильский португальский.
 
-Installieren Sie die Version о Ihre bestehende App, falls vorhanden. Ein Löschen der Daten ist не erforderlich.
-
-**Подключение с KVM-GO (Video-Port kann ausgesteckt bleiben):**
-
-Bei **allen drei KVM-GO Varianten** (HDMI, VGA и DP) müssen Sie den **Videoanschluss am Dongle** для die KeyCmd-Eingabe nirgendwo einstecken. Der HDMI-, VGA- или DP-Port kann leer bleiben. Wählen Sie eines der folgenden Setups.
-
-**Option A — Bluetooth (Zielgerät versorgt KVM-GO с Strom)**
-
-1. Stecken Sie das **kurze schwarze USB-Kabel** in den **Target**-Port des KVM-GO и in das Gerät, das Sie steuern möchten. Diese Подключение allein **versorgt** KVM-GO с Strom.
-2. Öffnen Sie auf Ihrem Handy **KeyCmd** и suchen Sie KVM-GO о **Bluetooth**.
-
-**Option B — USB zu Ihrem Android-Handy (Host-Port)**
-
-1. Verbinden Sie das **lange orangefarbene Kabel** vom **Host**-Port des KVM-GO с Ihrem Android-Handy.
-2. Öffnen Sie **KeyCmd** и verbinden Sie sich in der App о **USB**.
-
-<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp" alt="KVM-GO Target-Port verbиen с einem Laptop о das kurze schwarze USB-Kabel" style="max-height:360px;width:auto" loading="lazy">
-
-Für Vollbild-Video plus Eingabe verwenden Sie **Openterface KVM** для die Anzeige des Zielgeräts и **KeyCmd** для Tastatur, Maus и Shortcuts. KeyCmd allein reicht aus, wenn das Zielgerät bereits einen eigenen Bildschirm hat и Sie nur die Eingabe benötigen.
-
-**Funktioniert auch с Mini-KVM** о USB, falls Sie beide Geräte nutzen.
-
-> **Noch Beta.** Gamepad-Presets и Compose-Sendevorgänge können sich je nach Host-Betriebssystem unterschiedlich verhalten. Wenn etwas Ungewöhnliches с KVM-GO passiert, kontaktieren Sie uns auf **Discord** с einem Screenshot, Ihrer KVM-GO Variante (HDMI / DP / VGA) и dem, was Sie erwartet haben.
-
-> **Quellcode:** Noch не öffentlich. Wir planen, ihn nach Erreichen von Crowdfиing-Meilensteinen для verwandte Projekte als Open Source zu veröffentlichen. Вопросы Sie auf Discord nach, wenn Sie Hilfe beim Finden der APK benötigen.
+Откройте **Настройки** → **Язык приложения**, чтобы переключиться.
 
 ---
 
-## Über KeyMod (optional, separat von KVM-GO)
+## Получите KeyCmd 0.19 и подключитесь к KVM-GO
 
-Wir entwickeln auch **[KeyMod](https://openterface.com/product/keymod/)**, einen dedizierten USB- и Bluetooth-HID-Dongle для dieselbe KeyCmd-App. KVM-GO Unterstützer benötigen KeyMod для die oben genannten Workflows не; KeyCmd о KVM-GO ist der Weg, den wir Ihnen jetzt empfehlen.
+**Загрузить:** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
 
-Wenn Sie neugierig auf einen eigenständigen Dongle для Nicht-KVM-Setups sind, können Sie die [KeyMod-Kampagne auf Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-keymod) verfolgen. Dies ist unabhängig von der KVM-GO Auslieferung.
+Установите поверх существующего приложения, если оно у вас уже есть. Нет необходимости стирать данные.
+
+**Подключение к KVM-GO (видеопорт может оставаться отключенным):**
+
+Для **всех трех вариантов KVM-GO** (HDMI, VGA и DP) вам не нужно подключать **видеоразъем на ключе** к чему-либо для ввода KeyCmd. Порт HDMI, VGA или DP может оставаться пустым. Выберите любую настройку ниже.
+
+**Вариант A — Bluetooth (целевая мощность KVM-GO)**
+
+1. Подключите **короткий черный USB-кабель** к **целевому** порту KVM-GO и к машине, которой вы управляете. Только это соединение **питает** KVM-GO.
+2. На телефоне откройте **KeyCmd** и найдите KVM-GO через **Bluetooth**.
+
+**Вариант Б – USB-подключение к телефону Android (хост-порт)**
+
+1. Подключите **длинный оранжевый кабель** от **хост-порта** KVM-GO к телефону Android.
+2. Откройте **KeyCmd** и подключитесь через **USB** в приложении.
+
+<img src="https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp" alt="Целевой порт KVM-GO, подключенный к ноутбуку с помощью короткого черного USB-кабеля" style="max-height:360px;width:auto" loading="lazy">
+
+Для полноэкранного видео и ввода используйте **Openterface KVM** для целевого дисплея и **KeyCmd** для клавиатуры, мыши и сочетаний клавиш. Одного KeyCmd достаточно, когда цель уже имеет собственный дисплей и вам нужен только ввод.
+
+**Также работает с Mini-KVM** через USB, если вы используете оба устройства.
+
+> **Все еще бета-версия.** Настройки геймпада и отправки сообщений могут вести себя по-разному в зависимости от операционной системы хоста. Если с KVM-GO произойдет что-то странное, свяжитесь с нами в **Discord** и сообщите скриншот, ваш вариант KVM-GO (HDMI/DP/VGA) и то, что вы ожидали.
+
+> **Исходный код:** Пока не опубликовано. Мы планируем открыть исходный код после краудфандинга соответствующих проектов. Спросите в Discord, нужна ли вам помощь в поиске APK.
 
 ---
 
-## Wir freuen uns auf Ihr Feedback
+## О KeyMod (дополнительно, отдельно от KVM-GO)
 
-Wenn Sie ein paar Minuten Zeit haben, installieren Sie **KeyCmd 0.19**, verbinden Sie es с Ihrem KVM-GO (или Mini-KVM) и sagen Sie uns, was sich noch unpraktisch anfühlt. Berichte aus Crash-Cart- и Homelab-Szenarien fließen direkt in unsere nächsten Releases ein.
+Мы также разрабатываем **[KeyMod](https://openterface.com/product/keymod/)**, специальный HID-ключ USB и Bluetooth для того же приложения KeyCmd. Сторонникам KVM-GO не нужен KeyMod для описанных выше рабочих процессов; KeyCmd поверх KVM-GO — это путь, по которому мы хотим, чтобы вы сейчас пошли.
 
-Praktische Wege, das KVM-GO Projekt zu unterstützen:
+Если вас интересует автономный ключ для настроек без KVM, вы можете воспользоваться [KeyMod campaign on Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-keymod). Это отличается от выполнения KVM-GO.
 
-- **Teilen Sie, was funktioniert**, auf Discord или in Ihrer Community (BIOS-Tipps, Bluetooth-Kopplung, Lieblingsmodi)
-- **Empfehlen Sie uns einem Kollegen**, der Headless-Systeme betreibt и ein KVM для die Hosentasche gebrauchen könnte
-- **Senden Sie uns weiterhin ehrliches Feedback**, besonders zu Ecken и Kanten. Das prägt das Продукт mehr als reine Begeisterung
+---
 
-Vielen Dank nochmals для Ihre Unterstützung von KVM-GO и daдля, dass Sie uns helfen, portable KVM-over-USB Lösungen для alle besser zu machen.
+## Мы будем рады вашим отзывам
 
-Beste Grüße,
+Если у вас есть несколько минут, установите **KeyCmd 0.19**, подключите его к KVM-GO (или Mini-KVM) и расскажите нам, что вам все еще кажется неудобным. Отчеты о случаях использования аварийных тележек и домашних лабораторий сразу войдут в наши следующие выпуски.
 
-**Openterface Team | TechxArtisan**
+Практические способы помощи проекту KVM-GO:
+
+- **Поделитесь тем, что работает**, в Discord или в вашем сообществе (советы по BIOS, сопряжение по Bluetooth, избранные режимы).
+- **Расскажите коллеге**, который использует безголовое оборудование и может использовать карманный KVM.
+- **Продолжайте присылать честные отзывы**, особенно острые замечания. Это формирует продукт больше, чем просто черлидинг.
+
+Еще раз спасибо за поддержку KVM-GO и за помощь в улучшении портативного KVM-over-USB для всех.
+
+С уважением,
+
+**Команда Openinterface | TechxArtisan**

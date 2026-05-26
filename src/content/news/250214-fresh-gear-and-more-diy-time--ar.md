@@ -2,92 +2,90 @@
 locale: ar
 translationKey: "250214-fresh-gear-and-more-diy-time"
 slug: "250214-fresh-gear-and-more-diy-time"
-title: "Rückstand Abgearbeitet, Frische Ausrüstung و Mehr Zeit zum USB KVM Bauen!"
-description: "Große Openterface-التحديثات: Rückstand abgearbeitet, Lager vollständig bestückt, DIY-Challenge verlängert مع besseren Preisen! Plus: neue orange Nylon-Kabel, Android-Stift-Integration, Bug-Fixes و erstaunliche Community-Anwendungsfälle geteilt."
+title: "مسح الأعمال المتراكمة والعتاد الجديد والمزيد من الوقت لبناء USB KVM!"
+description: "تحديثات Openinterface الرئيسية: تم مسح الأعمال المتراكمة، وتم تخزين المستودع بالكامل، وتم توسيع تحدي DIY بجوائز أفضل! بالإضافة إلى ذلك: كابلات نايلون برتقالية جديدة، وتكامل قلم Android، وإصلاحات للأخطاء، وحالات استخدام مجتمعية مذهلة تمت مشاركتها."
 date: 2025-02-19
 channel: product
 product: minikvm
-topic: ["software", "campaign", "event", "community"]
-category: "Product التحديثات"
+topic: ["shipping", "software", "campaign", "event", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**مرحبًا، عائلة Openterface!**
 
-**Hey, Openterface-Familie!**
+لقد مر وقت طويل، ولدينا بعض الأخبار المثيرة لمشاركتها! دعونا نتعمق!
 
-Es ist eine Weile her, و wir haben aufregende Neuigkeiten zu teilen! Lassen Sie uns eintauchen!
+### **تم تصفية الأعمال المتراكمة ومخزونها بالكامل**
 
-### **Rückstand Abgearbeitet & Vollständig Bestückt**
+وفقًا لـCrowd Supply، تم شحن معظم الطلبات بالفعل! إذا لم تكن قد استلمت طلبك بعد، فتحقق مرة أخرى من معلومات الشحن الخاصة بالطلب ومن المحتمل أن يكون قيد المعالجة ويجب أن يكون في طريقه قريبًا. لا تتردد في [reach out to Crowd Supply](https://www.crowdsupply.com/contact) للحصول على تحديثات حول حالة طلبك.
 
-Laut Crowd Supply sind die meisten Bestellungen bereits versandt! Wenn Sie Ihre noch لا erhalten haben, حولprüfen Sie die Versandinformationen Ihrer Bestellung erneut—sie wird wahrscheinlich bearbeitet و sollte bald unterwegs sein. Zögern Sie لا, [Crowd Supply zu kontaktieren](https://www.crowdsupply.com/contact) لـ التحديثات zu Ihrem Bestellstatus.
+بالإضافة إلى ذلك، قمنا مؤخرًا بشحن مجموعة أخرى من وحدات Openterface Mini-KVM، وأصبح مستودع Crowd Supply في تكساس مجهزًا الآن بالكامل! لذا، إذا أثبت جهاز Mini-KVM الحالي أنه لا يقدر بثمن لإدارة أجهزتك مقطوعة الرأس في خط المواجهة التكنولوجي لديك، ففكر في [grabbing another via Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) — أو انشر الكلمة لأصدقائك المحبين للتكنولوجيا!
 
-Zusätzlich haben wir kürzlich eine weitere Charge von Openterface Mini-KVM-Einheiten versandt, و Crowd Supplys Texas-Lager ist jetzt vollständig bestückt! Wenn sich Ihr aktuelles Mini-KVM als unschätzbar لـ die Verwaltung Ihrer headless-Geräte an Ihrer Tech-Front erweist, erwägen Sie [ein weiteres حول Crowd Supply zu holen](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)—أو verbreiten Sie das Wort an Ihre tech-begeisterten Freوe!
+### **الأخطاء؟ لا مشكلة! فريق التطوير أثناء العمل**  
 
-### **Bugs? Kein Problem! Dev-Team in Aktion**
+لقد كانت المشاركات على Reddit وDiscord وGitHub رائعة! لقد وصلت إلينا تعليقاتك وأسئلتك وتقارير المشكلات، ونحن ممتنون جدًا لذلك.
 
-Der Trubel auf unserem Reddit, Discord و GitHub war großartig! Ihre Rückmeldungen, أسئلة و Problemberichte sind hereingeströmt—و wir sind so dankbar daلـ.
+إليك ما يركز عليه فريق التطوير لدينا الآن:
 
-Hier ist, worauf sich unser Entwicklungsteam gerade konzentriert:
+- **إصلاح الأخطاء:** القضاء على تلك المشكلات المزعجة التي أبلغت عنها.  
+- **دعمك:** تحديث مستنداتنا والأسئلة الشائعة لجعل تجربتك أكثر سلاسة.  
 
-- **Bugs Beheben:** Diese lästigen Probleme, die Sie gemeldet haben, werden behoben.
-- **Sie Unterstützen:** Unsere التوثيق و FAQs aktualisieren, um Ihre Erfahrung reibungsloser zu machen.
+نحن نقوم بمراجعة كل مشكلة، ونجري عمليات تسجيل وصول منتظمة، ونتخلص من الأخطاء واحدًا تلو الآخر. إن جعل التطبيق أكثر صلابة وموثوقية هو أولويتنا القصوى، ومدخلاتك هي المفتاح لتحقيق ذلك.  
 
-Wir حولprüfen jedes Problem, halten regelmäßige Check-ins ab و beheben Bugs einen nach dem anderen. Die App solider و zuverlässiger zu machen ist unsere oberste Priorität—و Ihr Input ist der Schlüssel dazu, das zu erreichen.
+هل لديك خطأ يجب الإبلاغ عنه أو وجدت طريقة رائعة لاستخدام Mini-KVM لإنقاذ الموقف؟ نحن ** نحب ** أن نسمع عن ذلك! سواء كان ذلك إعدادًا إبداعيًا، أو فكرة مميزة لا بد منها، أو مجرد إثارة خالصة - فنحن جميعًا آذان صاغية.  
 
-Haben Sie einen Bug zu melden أو einen coolen Weg gefوen, Ihr Mini-KVM zu nutzen, um den Tag zu retten? Wir würden es **lieben**, davon zu hören! Ob es ein kreatives Setup, eine Must-Have-Feature-Idee أو pure Begeisterung ist—wir sind ganz Ohr.
+لمساعدة فريق التطوير لدينا على تتبع الأخطاء بشكل منهجي (والحفاظ على سلامتهم العقلية)، **نوصي بشدة** بالإبلاغ عنها في مستودعات GitHub أولاً:
 
-Um unserem Entwicklungsteam zu helfen, Bugs systematisch zu verfolgen (و ihre geistige Gesوheit intakt zu halten), **empfehlen wir dringend**, sie zuerst in unseren GitHub-Repos zu melden:
-
-- [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT) لـ Windows & Linux
+- [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT) لنظامي التشغيل Windows وLinux
 - [Openterface MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS)
 - [Openterface Android](https://github.com/TechxArtisanStudio/Openterface_Android)
-- [Openterface Mini-KVM الأجهزة](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_الأجهزة)
+- [Openterface Mini-KVM Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)
 
-Bevorzugen Sie Echtzeit-Diskussionen مع dem Entwicklungsteam و anderen Openterface-Fans? Treten Sie unserer großartigen Community bei:
+هل تفضل المناقشات في الوقت الفعلي مع فريق التطوير وزملائك من عشاق Openterface؟ انضم إلى مجتمعنا الرائع:
 
-- **Reddit:** [r/Openterface_miniKVM](https://openterface.com/reddit)
-- **Discord:** [Openterface](https://openterface.com/discord)
+- **رديت:** [r/Openterface_miniKVM](https://openterface.com/reddit)  
+- **الخلاف:** [Openterface](https://openterface.com/discord)  
 
-Oh, و wenn Sie es altmodisch mögen, können Sie uns immer **eine E-Mail** an info@openterface.com senden أو uns eine Nachricht حول unser **Google-Formular** hinterlassen: [Feedback Einreichen](https://forms.gle/enVJYFGn6gghEFaJ9).
+أوه، وإذا كنت تحب الحفاظ على الأمور القديمة، فيمكنك دائمًا **مراسلتنا عبر البريد الإلكتروني** على info@openterface.com أو إرسال رسالة إلينا عبر **نموذج Google**: [Submit Feedback](https://forms.gle/enVJYFGn6gghEFaJ9).  
 
-Ihre Geduld و Unterstützung bedeuten uns die Welt, während wir alle Unebenheiten auf dem Weg durcharbeiten. Großer Dank an alle, die Probleme gemeldet, Ideen geteilt و sogar Code beigetragen haben! Das Openterface-Gerät ist لا perfekt (noch لا!), aber vertrauen Sie uns—مع der Energie dieser Community wird es jeden Tag besser. 🚀💙
+إن صبركم ودعمكم يعنيان العالم بالنسبة لنا ونحن نعمل على التغلب على أي عقبات على طول الطريق. شكرًا جزيلاً لكل من أبلغ عن المشكلات وشارك الأفكار وحتى ساهم في المساهمة بالكود! جهاز Openterface ليس مثاليًا (حتى الآن!)، ولكن ثق بنا — بفضل طاقة هذا المجتمع، فإنه يتحسن يومًا بعد يوم. 🚀💙
+### **تحدي DIY KVM: جوائز موسعة ومحدثة!**
 
-### **DIY KVM Challenge: Verlängert & Aufgewertete Preise!**
-
-Da unsere Kits später als erwartet versandt wurden, verlängern wir die DIY KVM Challenge um **zwei Monate**! Außerdem werten wir die Preise auf—bleiben Sie dran لـ Details auf der Crowd Supply Contest-Seite. Das bedeutet mehr Zeit zum Basteln, Experimentieren و Präsentieren Ihrer Builds. Machen Sie مع و reichen Sie Ihre Projekte حول Crowd Supplys USB DIY Contest-Seite ein: [USB KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
+نظرًا لأنه تم شحن مجموعاتنا في وقت متأخر عما كان متوقعًا، فقد قمنا بتمديد تحدي DIY KVM لمدة **شهرين**! بالإضافة إلى ذلك، نقوم بترقية الجوائز — تابعونا للحصول على التفاصيل على صفحة مسابقة Crowd Supply. وهذا يعني المزيد من الوقت لإصلاح تصميماتك وتجربتها وعرضها. انضم إلى المرح وأرسل مشاريعك عبر صفحة مسابقة USB الخاصة بـ Crowd Supply: [USB KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
 
 ![USB KVM DIY Challenge 2024](https://www.crowdsupply.com/img/18e5/5e596d38-80c5-4b99-aea6-ed31586d18e5/usb-kvm-diy-2024-logo-2.svg)
 
 ![contest-parties](https://www.crowdsupply.com/img/4a8d/30e316fe-f0df-43bc-958b-b7f480b74a8d/250214-contest-parties_png_md-xl.jpg)
 
-### **Neues Helles Orange Nylon-Kabel**
+### **كابل نايلون برتقالي ساطع جديد**
 
-Mit unserer neuesten Mini-KVM-Charge haben wir das Type-C-Kabel in unserer Toolkit-Version offiziell auf das neue helle orange Nylon-Kabel aufgerüstet. Dieses neue Kabel ist لا nur visuell auffällig—es ist لـ Leistung gebaut, مع حولlegener EMI-Resistenz, stabiler Datenحولtragung و außergewöhnlicher Haltbarkeit.
+مع أحدث مجموعة Mini-KVM لدينا، قمنا رسميًا بترقية كابل Type-C في إصدار مجموعة الأدوات لدينا إلى كابل النايلون البرتقالي اللامع الجديد. هذا الكابل الجديد ليس ملفتًا للنظر فحسب، بل إنه مصمم للأداء، مع مقاومة EMI فائقة، ونقل مستقر للبيانات، ومتانة استثنائية.
 
 ![New Toolkit](https://www.crowdsupply.com/img/322c/84a85be0-7f68-48ec-a30c-7db01243322c/250214-toolkit-open_jpg_gallery-lg.jpg)
 
-Aber wenn Sie das weichere, flexiblere Gefühl des ursprünglichen silikonähnlichen Type-C-Kabels bevorzugen, keine Sorge! Sie können sie immer noch von unserem [TxA المتجر](https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0) holen. Beide Kabel haben ihre Stärken, و wir sind zuversichtlich, dass die neue Nylon-Version eine solide Ergänzung zu Ihrem Tech-Toolkit sein wird.
+ولكن إذا كنت تفضل الملمس الأكثر نعومة ومرونة لكابل Type-C الأصلي الذي يشبه السيليكون، فلا داعي للقلق! لا يزال بإمكانك الحصول عليها من [TxA Shop](https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0). يتمتع كلا الكابلين بقوتهما، ونحن واثقون من أن إصدار النايلون الجديد سيكون إضافة قوية لمجموعة أدواتك التقنية.
 
-### **Nahtlose Kontrolle: Mini-KVM + Android-Stift = Reine Magie**
+### **تحكم سلس: Mini-KVM + Android Pencil = Pure Magic**
 
-Haben Sie sich jemals gefragt, was passiert, wenn Sie [das Mini-KVM مع einem Android-Stift paaren](https://www.reddit.com/r/Openterface_miniKVM/comments/1hnh79n/kicad_is_the_fisrt_software_we_tried_first_with/)? Reine Magie! Vom Skizzieren von Designs bis zur Navigation von macOS أو Windows ist die Erfahrung unserer [Openterface Android Host-App](https://github.com/TechxArtisanStudio/Openterface_Android) reibungslos, intuitiv و befriedigend. Schauen Sie sich unser Demo-Video an, um es in Aktion zu sehen!
+هل تساءلت يومًا ماذا يحدث عندما [pair the Mini-KVM with an Android Pencil](https://www.reddit.com/r/Openterface_miniKVM/comments/1hnh79n/kicad_is_the_fisrt_software_we_tried_first_with/)؟ سحر خالص! بدءًا من رسم التصميمات وحتى التنقل في نظام التشغيل macOS أو Window، تتميز تجربة [Opoenterface Android host app](https://github.com/TechxArtisanStudio/Openterface_Android) بالسلاسة والبديهية والمرضية. تحقق من الفيديو التجريبي لدينا لرؤيته في العمل!
 
-### **Erstaunliche Anwendungsfälle aus der Community:**
+### **حالات استخدام رائعة من المجتمع:**
 
-Hier sind nur ein paar weitere Ideen, wie Sie das Openterface Mini-KVM verwenden können:
+فيما يلي بعض الأفكار الإضافية حول كيفية استخدام Openterface Mini-KVM:
 
-- **Headless-Kontrolle مع Android-Telefon:** [Mein Pi 5 Setup: UPS, Aluminium-Gehäuse & Openterface-Magie](https://www.reddit.com/r/Openterface_miniKVM/comments/1hrx1j5/my_pi_5_setup_ups_aluminium_case_openterface_magic/)
-- **Ein kaputtes MacBook wiederbeleben:** [Äh... Ein Weg, den Tag dieses rosa Bildschirms zu retten!](https://www.reddit.com/r/macbookpro/comments/1hwkh64/uh_a_way_to_save_the_day_of_this_pink_screen/)
-- **Erkوen Sie mehr Anwendungsfälle** auf unserer [Website](https://openterface.com/use-cases/).
+- **التحكم بدون رأس باستخدام هاتف Android:** [My Pi 5 setup: UPS, Aluminium Case, & Openterface Magic](https://www.reddit.com/r/Openterface_miniKVM/comments/1hrx1j5/my_pi_5_setup_ups_aluminium_case_openterface_magic/)
+- **إحياء جهاز MacBook المكسور:** [Uh... A way to save the day of this pink screen!](https://www.reddit.com/r/macbookpro/comments/1hwkh64/uh_a_way_to_save_the_day_of_this_pink_screen/)
+- **استكشف المزيد من حالات الاستخدام** على [website](https://openterface.com/use-cases/).
 
-Ihre Kreativität و Leidenschaft sind das Herz der Openterface-Community.
+إن إبداعك وشغفك هما قلب مجتمع Openterface. 
 
-In der Zwischenzeit erkوen Sie unseren [TechxArtisan المتجر](http://shop.techxartisan.com/) لـ Openterface-Merchandise و hochwertige Kabel, die entwickelt wurden, um nahtlos مع Ihren Openterface-Geräten zu funktionieren.
+في غضون ذلك، تأكد من استكشاف [TechxArtisan Shop](http://shop.techxartisan.com/) لبضائع Openterface والكابلات عالية الجودة المصممة للعمل بسلاسة مع أجهزة Openterface الخاصة بك. 
 
-Bis dahin... fröhliches Basteln!
+حتى ذلك الحين...ترقيع سعيد!
 
-Mit Dankbarkeit,  
-Billy Wang  
-منتجmanager  
-Openterface Team | TechxArtisan
+مع الامتنان،  
+بيلي وانغ  
+مدير المنتج  
+فريق الواجهة المفتوحة | TechxArtisan

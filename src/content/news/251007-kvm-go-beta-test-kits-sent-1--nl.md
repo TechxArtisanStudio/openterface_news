@@ -2,38 +2,37 @@
 locale: nl
 translationKey: "251007-kvm-go-beta-test-kits-sent-1"
 slug: "251007-kvm-go-beta-test-kits-sent-1"
-title: "KVM-Go HDMI Beta-Charge wird ausgeliefert!"
-description: "Die erste Charge der KVM-Go HDMI Beta-Geräte wurde versandt! Nehmen Sie an unserem Beta-Testprogramm teil, um die nächsten Iterationen dieser ultrakompakten KVM-Lösung metzugestalten. Weitere Testrenen voor Maker, Sysadmins en IT-Bastler folgen bald."
+title: "KVM-Go HDMI bètabatch wordt uitgerold!"
+description: "De eerste batch KVM-Go HDMI-bètaapparaten is verzonden! Sluit u aan bij ons bètatestprogramma om de volgende iteraties van deze ultracompacte KVM-oplossing vorm te geven. Binnenkort volgen er meer testrondes voor makers, systeembeheerders en IT-knutselaars."
 date: 2025-10-07
 channel: product
 product: kvm-go
-topic: ["beta", "software", "campaign", "community"]
-category: "Productupdates"
-tags: ["KVM-Go", "Beta-Test", "Versandupdate", "Community", "Productentwicklung"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Beta Testing", "Shipping Update", "Community", "Product Development"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+<img src="https://assets.openterface.com/images/kvm-go/beta-test/1.webp" alt="kvm-go-beta-test-1" style="max-width:720px" laden="lui">
 
-<img src="https://assets.openterface.com/images/kvm-go/beta-test/1.webp" alt="kvm-go-beta-test-1" style="max-width:720px" loading="lazy">
+Hartelijk dank aan iedereen die zich heeft aangemeld om lid te worden van ons **KVM-GO bètateam**. We hebben zojuist de eerste kleine batch bètaapparaten ingepakt en verzonden! 🎉
 
-Großen Dank an alle, die sich angemeldet haben, um unserem **KVM-GO Beta-Team** beizutreten. Wir haben gerade die erste kleine Charge von Beta-Geräten verpackt en versandt! 🎉
+Het was een hele klus om deze compacte kleine KVM te laten werken zoals we ons hadden voorgesteld: ultradraagbaar en toch krachtig genoeg om serieuze workflows aan te kunnen. We zijn onderweg een aantal lastige uitdagingen tegengekomen (hitteproblemen zijn reëel als je hogere resoluties pusht in zo'n klein lichaam), maar we zijn ermee bezig en leren snel met jouw hulp.
 
-Es war eine ziemliche Reise, dieses kompakte kleine KVM so zum Laufen zu bringen, wie wir es uns vorgestellt haben, ultratragbar en dennoch leistungsstark genug, um ernsthafte Workflows zu bewältigen. Wir sind unterwegs auf einige harte Herausforderungen gestoßen (Hitzeprobleme sind real, wenn man höhere Auflösungen in so einem winzigen Gehäuse erreichen will), aber wir arbeiten daran en lernen schnell met Ihrer Hilfe.
+<img src="https://assets.openterface.com/images/kvm-go/beta-test/6.webp" alt="kvm-go-beta-test-6" style="max-width:720px" laden="lui">
 
-<img src="https://assets.openterface.com/images/kvm-go/beta-test/6.webp" alt="kvm-go-beta-test-6" style="max-width:720px" loading="lazy">
+We waarderen het enorm dat iedereen ons open source hardware- en softwaretraject steunt. 🙏 Dit project zou niet mogelijk zijn zonder dat de community test, feedback deelt en de boodschap verspreidt.
 
-Wir schätzen wirklich jeden, der unsere Open-Source-Hardware- en Software-Reise unterstützt. 🙏 Dieses Projekt wäre ohne das Community-Testing, das Teilen von Feedback en die Verbreitung niet möglich.
+Er komen meer rondes met bètatests, hoewel de plaatsen beperkt zijn. Als je een maker, systeembeheerder of IT-knutselaar bent die graag apparaten tot het uiterste drijft, let dan op: we hebben jouw hulp nodig om de volgende iteraties vorm te geven.
 
-Weitere Beta-Test-Renen kommen, obwohl die Plätze begrenzt sind. Wenn Sie ein Maker, Sysadmin of IT-Bastler sind, der es liebt, Geräte an ihre Grenzen zu bringen, bleiben Sie dran, wir werden Ihre Hilfe brauchen, um die nächsten Iterationen zu gestalten.
+<img src="https://assets.openterface.com/images/kvm-go/beta-test/7.webp" alt="kvm-go-beta-test-7" style="max-width:720px" laden="lui">
 
-<img src="https://assets.openterface.com/images/kvm-go/beta-test/7.webp" alt="kvm-go-beta-test-7" style="max-width:720px" loading="lazy">
+Ondertussen:
 
-In der Zwischenzeit:
+* 🔗 **Abonneer** op onze [Crowd Supply page](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) om updates te ontvangen.
+* 🧰 Je kunt ook onze klassieke [Openterface Mini-KVM](https://www.crowdsupply.com/techxartisan/mini-kvm) pakken. Vers aangevuld!
+* 📘 We hebben onze [documentation site](https://openterface.com) vernieuwd met vroege informatie over KVM-GO-functies en veelgestelde vragen (nog steeds een work-in-progress).
+  Heb je feedback of suggesties? Vind ons op **Discord**, **Reddit**, of stuur ons gewoon een e-mail. We horen graag van je.
 
-* 🔗 **Abonnieren** Sie auf unserer [Crowd Supply-Seite](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), um Updates zu erhalten.
-* 🧰 Sie können auch unser klassisches [Openterface Mini-KVM](https://www.crowdsupply.com/techxartisan/mini-kvm) erwerben. Frisch aufgestockt!
-* 📘 Wir haben unsere [Documentatiesseite](https://openterface.com) met frühen Informationen zu KVM-GO-Functies en FAQs overarbeitet (noch in Arbeit).
-  Haben Sie Feedback of Vorschläge? Finden Sie uns auf **Discord**, **Reddit**, of schicken Sie uns einfach eine E-Mail — wir würden gerne von Ihnen hören.
-
-Bleiben Sie dran 😄 Weitere Entwicklungsgeschichten en Behind-the-Scenes-Updates kommen bald!
+Blijf op de hoogte 😄 Binnenkort meer ontwikkelaarsverhalen en updates achter de schermen!

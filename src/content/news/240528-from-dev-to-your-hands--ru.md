@@ -2,138 +2,134 @@
 locale: ru
 translationKey: "240528-from-dev-to-your-hands"
 slug: "240528-from-dev-to-your-hands"
-title: "Von der Entwicklung in Ihre Hände: Hinter den Kulissen"
-description: "Hinter-den-Kulissen-Update zur Entwicklung von Openterface Mini-KVM: 1100% Finanzierungsziel erreicht, Fabrikbesuch in Shenzhen, aufgerüstete Zubehörteile, Open-Source-Fortschritte auf mehreren Plattformen и Beta-Tests с einem globalen Team. Begleiten Sie uns auf unserer Reise von der Entwicklung bis zur Auslieferung!"
+title: "От разработки к вашим рукам: за кулисами"
+description: "Закулисная информация о разработке Openterface Mini-KVM: получено 1100% финансирования, посещение завода в Шэньчжэне, обновленные аксессуары, прогресс с открытым исходным кодом на нескольких платформах и бета-тестирование с глобальной командой. Присоединяйтесь к нашему пути от разработки до поставки!"
 date: 2024-05-28
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "community"]
-category: "Product Обновления"
+topic: ["shipping", "production", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Всем привет!
 
-Hallo zusammen!
+Мы вернулись с очередной новостью о нашем краудфандинговом путешествии, и у нас есть несколько интересных новостей, которыми мы можем поделиться!
 
-Wir sind zurück с einem weiteren Update zu unserer Crowdfиing-Reise, и wir haben einige aufregende Neuigkeiten zu teilen!
+### Достижение важной вехи
 
-## Ein wichtiger Meilenstein erreicht
+Перво-наперво, мы на седьмом небе от счастья, чтобы сообщить, что мы достигли потрясающего [**1100% of our original funding goal**](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)! Огромное спасибо каждому из вас. Ваша поддержка просто феноменальна!
 
-Zunächst einmal sind wir absolut оglücklich, bekannt zu geben, dass wir ein erstaunliches [**1100% unseres ursprünglichen Finanzierungsziels**](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) erreicht haben! Ein riesiges Dankeschön an jeden einzelnen von Ihnen. Ihre Unterstützung war einfach phänomenal!
+### Планирование производства
 
-## Продуктionsplanung
-
-Wir waren bereits sehr beschäftigt auf der Продуктionsseite! Diese Woche besuchten wir die tech-orientierte Stadt Shenzhen и hatten die Gelegenheit, einen der Top-Tech-Hersteller zu besichtigen. Diese Leute arbeiten с großen Namen wie Meta, ABB и Blaupunkt zusammen, и es war unglaublich, ihre fortschrittlichen Продуктionslinien и Qualitätskontrollmaschinen in Aktion zu sehen. Ich wünschte, ich könnte mehr Fotos teilen, aber hier ist eines с etwas digitalem Mosaik для die Vertraulichkeit.
+Мы уже были очень заняты на производственном фронте! На этой неделе мы посетили технологический город Шэньчжэнь и имели возможность совершить поездку по одному из ведущих производителей технологий. Эти люди работают с такими громкими именами, как Meta, ABB и Blaupunkt, и было невероятно видеть в действии их передовые производственные линии и оборудование для контроля качества. Я бы хотел поделиться другими фотографиями, но вот одна с небольшой цифровой мозаикой для конфиденциальности.
 
 ![txa-team-visit-sz-factory-1](https://www.crowdsupply.com/img/3007/e8391f0f-7d97-4236-9199-35c1157a3007/txa-team-visit-sz-factory-1_jpg_gallery-lg.jpg)
 
-(Wir diskutierten QC с dem Продуктionslinienmanager.)
+(Мы обсуждали контроль качества с менеджером производственной линии.)
 
-Wir fühlen uns sehr positiv о diese Partnerschaft и ihre Begeisterung, ein Tech-Startup wie unseres zu unterstützen. Wir sind verpflichtet sicherzustellen, dass die Herstellungsphase с höchster Hingabe и Qualität behandelt wird, daс wir unser Продукт bald in Ihre Hände bekommen können! Hier ist ein Schnappschuss unserer Kernteamсglieder am Fabrikeingang:
-
+Мы очень позитивно относимся к этому партнерству и их энтузиазму по поддержке такого технологического стартапа, как наш. Мы стремимся обеспечить, чтобы этап производства выполнялся с максимальной самоотдачей и качеством, чтобы мы могли как можно скорее передать наш продукт в ваши руки! Вот снимок членов нашей основной команды у входа на завод:
+  
 ![txa-team-visit-sz-factory-2](https://www.crowdsupply.com/img/0842/ab0ded56-7b84-4961-a19e-f30510d30842/txa-team-visit-sz-factory-2_jpg_gallery-lg.jpg)
 
-(Von links nach rechts: Shawn, Billy, Kevin, Vileer.)
+(Слева направо: Шон, Билли, Кевин, Вилир.)
 
-## Toolkit-Zubehör aufrüsten
+### Обновление аксессуаров набора инструментов
 
-Wir suchen immer nach Verbesserungsmöglichkeiten, и unser zusätzliches **VGA-to-HDMI-Kabel** wurde nun auf 1 Meter Länge с verbesserter Qualität aufgerüstet, wie Sie aus unserem vorherigen [Update der Woche 2](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/our-vga-to-hdmi-cable-is-now-available-to-european-backers-and-its-a-full-meter-long) sehen können.
+Мы всегда ищем способы улучшения, и наш дополнительный **кабель VGA-HDMI** теперь увеличен до 1 метра в длину и улучшенного качества, как вы можете видеть из нашего предыдущего [Week 2 update](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/our-vga-to-hdmi-cable-is-now-available-to-european-backers-and-its-a-full-meter-long).
 
-Als nächstes schauen wir uns auch unser **1,5 Meter langes Type-C-Kabel** для die Подключение zum Host-Computer an. Type-C wird bei neuen Computern, Laptops и sogar Servern immer häufiger. Nachdem wir viele Hersteller getestet haben, fanden wir einen, der dieses stilvolle orange Type-C-Kabel с einem schönen Silikon-Feeling produzieren konnte, das unseren Qualitätsstandards entspricht.
+Далее мы также рассматриваем наш **кабель Type-C длиной 1,5 метра** для подключения к главному компьютеру. Type-C становится все более распространенным в новых компьютерах, ноутбуках и даже серверах. Протестировав множество производителей, мы нашли одного, который может производить этот стильный оранжевый кабель Type-C с приятным ощущением силикона, соответствующий нашим стандартам качества.
 
-Derzeit ist **ein zusätzlicher Type-C-to-USB-A-Adapter erforderlich**, wenn unser Mini-KVM с einem Host-Computer arbeitet, der nur USB-A-Ports hat.
-
+В настоящее время **требуется дополнительный адаптер Type-C-USB-A**, если наш Mini-KVM работает с хост-компьютером, имеющим только порты USB-A.
 ![typec-cable-need-adapter| link](https://www.crowdsupply.com/img/36a3/64ccc024-68b8-4d04-9ea9-ae21223136a3/typec-cable-need-adapter_jpg_gallery-lg.jpg)
 
-Wir wissen, dass es etwas umständlich ist, also arbeiten wir eng с unserem Hersteller zusammen, um es zu verbessern, indem wir **einen angebrachten Type-C-to-USB-A-Adapter integrieren**. Hier ist ein Mock-up, wie es aussehen könnte.
+Мы знаем, что это немного хлопотно, поэтому мы тесно сотрудничаем с нашим производителем, чтобы улучшить его, **интегрировав подключенный адаптер Type-C-USB-A**. Вот макет того, как это может выглядеть.
 
 ![upgrade-for-typ-c-cable-with-adapter](https://www.crowdsupply.com/img/6863/e9fba3f2-004f-465b-afde-29bacc236863/upgrade-for-typ-c-cable-with-adapter_png_md-xl.jpg)
 
-Dieses stilvolle orange Kabel с gutem Silikon-Feeling и 1,5 Metern Länge hat Type-C-Stecker an beiden Enden и enthält einen Adapter, um ein Ende von Type-C zu USB-A zu konvertieren. Es existiert не auf dem Markt и erfordert unsere kиenspezifische OEM-Продуктion. Wir streben danach, diese Lösung in unser finales Toolkit-Paket для Backer einzubeziehen, aber ich rechne noch die Zahlen и lasse meinen Taschenrechner arbeiten! Um dies zu verwirklichen, **brauchen wir mehr Unterstützung, um die Gesamtproduktionskosten** unseres Mini-KVM-Toolkits zu reduzieren. Angesichts der aktuellen Crowdfиing-Zahlen и Продуктionskosten wird die Herstellung dieses kиenspezifischen Type-C-Kabels machbarer, da es sich dem Break-Even-Punkt nähert. Ich werde alle о jeden Fortschritt in der Openterface-Community auf dem Laufenden halten!
+Этот стильный оранжевый кабель длиной 1,5 метра с приятным ощущением силикона оснащен разъемами Type-C на обоих концах и включает адаптер для преобразования одного конца с Type-C на USB-A. Его не существует на рынке, и для него требуется наше индивидуальное OEM-производство. Мы планируем включить это решение в наш окончательный пакет инструментов для спонсоров, но я все еще подсчитываю цифры и тренирую свой калькулятор! Чтобы это произошло, **нам нужна дополнительная поддержка для снижения общей стоимости производства** для нашего набора инструментов mini-KVM. Учитывая текущие объемы краудфандинга и производственные затраты, изготовление специального кабеля Type-C становится все более осуществимым, поскольку он приближается к точке безубыточности. Я буду держать всех в сообществе Openterface в курсе любого прогресса!
 
-Ihrerseits, wenn Sie unser Projekt vielversprechend finden и glauben, dass das Mini-KVM Ihr Tech-Leben erleichtern kann, erwägen Sie bitte, uns zu unterstützen и das Wort an Ihre Freиe weiterzugeben. Lassen Sie uns sicherstellen, dass wir das Продукт noch weiter verbessern können, während wir es in dieser Crowdfиing-Kampagne для alle preisgünstig halten! Vielen Dank!
+Со своей стороны, если вы считаете наш проект многообещающим и верите, что Mini-KVM может облегчить вашу техническую жизнь, пожалуйста, поддержите нас и расскажите об этом своим друзьям. Давайте позаботимся о том, чтобы мы могли еще больше усовершенствовать продукт, сохраняя при этом его удобство для всех участников этой краудфандинговой кампании! Спасибо большое!
 
-## Open-Source-Обновления и globale Teamarbeit!
+### Обновления с открытым исходным кодом и глобальная командная работа!
 
-Bitte haben Sie Geduld с uns in diesem frühen Entwicklungsstadium, da es noch Bugs и Änderungen in unseren Host-Anwendungen gibt. Hier kommt unser Beta-Team ins Spiel! Wir haben bereits **zwei Rиen von Beta-Tests** organisiert. Schauen Sie sich unsere Posts hier an, um mehr zu erfahren:
+Пожалуйста, будьте терпеливы на этом раннем этапе разработки, так как в наших хост-приложениях все еще происходят ошибки и изменения. Вот здесь-то и приходит на помощь наша бета-команда! Мы уже организовали **два раунда бета-тестирования**. Ознакомьтесь с нашими публикациями здесь, чтобы узнать больше:
 
-- [Update zu Bewerbungen для Beta-Team Rиe 1](https://www.reddit.com/r/Openterface_miniKVM/comments/1bszggn/update_for_our_beta_test_applicants_roи_1/) am 1. April 2024
-- [Versand an Beta-Team Rиe 1](https://www.reddit.com/r/Openterface_miniKVM/comments/1cayi8v/meet_your_new_tech_allies_soon_beta_team/) am 23. April 2024
-- [Bewerbung для Beitritt zum Beta-Team Rиe 2](https://www.reddit.com/r/Openterface_miniKVM/comments/1cpcowl/make_your_mark_join_our_roи_2_beta_testing_crew/) am 11. Mai 2024
-- [Update zu Bewerbungen для Beta-Team Rиe 2](https://www.reddit.com/r/Openterface_miniKVM/comments/1cxr3zp/update_for_our_beta_test_applicants_roи_2/) am 22. Mai 2024
+- [Update on Applications for Beta Team Round 1](https://www.reddit.com/r/Openterface_miniKVM/comments/1bszggn/update_for_our_beta_test_applicants_round_1/) 1 апреля 2024 г.
+- [Shipment to Beta Team Round 1](https://www.reddit.com/r/Openterface_miniKVM/comments/1cayi8v/meet_your_new_tech_allies_soon_beta_team/) 23 апреля 2024 г.
+- [Application for Joining Beta Team Round 2](https://www.reddit.com/r/Openterface_miniKVM/comments/1cpcowl/make_your_mark_join_our_round_2_beta_testing_crew/) 11 мая 2024 г.
+- [Update on Applications for Beta Team Round 2](https://www.reddit.com/r/Openterface_miniKVM/comments/1cxr3zp/update_for_our_beta_test_applicants_round_2/) 22 мая 2024 г.
 
-Wie Sie aus den obigen Posts sehen können, erhielten wir eine оwältigende Anzahl fantastischer Bewerbungen in Rиe 1 и 2, и es war eine echte Herausforderung, die Kandidaten aus einem solch brillanten Pool zu reduzieren. Wir mussten aufgrи der begrenzten verfügbaren Plätze in dieser exklusiven Phase einige schwierige Entscheidungen treffen!
+Как вы можете видеть из приведенных выше сообщений, мы получили огромное количество фантастических заявок в раундах 1 и 2, и сузить список кандидатов из такого блестящего пула было настоящей проблемой. Нам пришлось принять несколько трудных решений из-за ограниченного количества мест на этом эксклюзивном этапе!
 
-Unser Beta-Team ist eine außergewöhnliche, wirklich globale Zusammenarbeit с Mitgliedern aus den USA 🇺🇸, Großbritannien 🇬🇧, Japan 🇯🇵, Deutschland 🇩🇪, der Tschechischen Republik 🇨🇿, Norwegen 🇳🇴, Belgien 🇧🇪, Frankreich 🇫🇷, Österreich 🇦🇹, Australien 🇦🇺, Polen 🇵🇱, den Niederlanden 🇳🇱, China 🇨🇳 и mehr, die bald beitreten. Diese Tester bringen Entwicklungserfahrung, reale Anwendungsfälle для das Openterface Mini-KVM и eine Leidenschaft для die Unterstützung von Open-Source-Projekten wie unserem с. Unser Beta-Team verwendet dieses praktische Gadget bereits in ihren täglichen Aufgaben, meldet Probleme и schlägt Функции vor, daс wir uns weiter verbessern können.
+Наша бета-команда — это исключительное, поистине глобальное сотрудничество, в которое входят участники из США 🇺🇸, Великобритании 🇬🇧, Японии 🇯🇵, Германии 🇩🇪, Чехии 🇨🇿, Норвегии 🇳🇴, Бельгии 🇧🇪, Франции 🇫🇷, Австрии 🇦🇹, Австралии 🇦🇺, Польша 🇵🇱, Нидерланды 🇳🇱, Китай 🇨🇳 и многие другие в ближайшее время присоединятся. Эти тестировщики обладают опытом разработки, реальными примерами использования Openterface Mini-KVM и страстью к поддержке проектов с открытым исходным кодом, подобных нашему. Наша бета-команда уже использует этот удобный гаджет в своих повседневных задачах, поднимает проблемы и предлагает нам функции для дальнейшего улучшения.
 
-Obwohl die meisten von Ihnen diese frühe Version des Mini-KVM noch не haben, können Sie immer noch unseren Code auf GitHub оprüfen и sich der Unterhaltung с unseren Beta- и Dev-Teams in [unserer Community](/community/) anschließen! Lassen Sie uns wissen, was Sie finden, daс wir dieses Gerät zusammen großartig machen können!
+Хотя у большинства из вас нет этой ранней версии mini-KVM, вы все равно можете просмотреть наш код на GitHub и присоединиться к общению с нашими бета-командами и командами разработчиков в [our community](/community/)! Дайте нам знать, что вы нашли, чтобы мы вместе могли сделать это устройство потрясающим!
 
-Hier sind Обновления zu unserem Open-Source-GitHub-Repo:
+Вот обновления в нашем репозитории Github с открытым исходным кодом:
 
 #### [**Openterface_MacOS**](https://github.com/TechxArtisanStudio/Openterface_MacOS)
 
-Unsere Openterface MacOS Host-App ist bereits offiziell im **Apple App Store** live. Suchen Sie einfach nach 'Openterface' или 'mini-KVM', um unsere App-Seite zu finden. Noch besser, wir haben den vollständigen Code in unser GitHub-Repo hochgeladen: Openterface_MacOS для das Mini-KVM. Sie können diese [grиlegende Operationsdemo](/basic-testing/) auf **MacOS** оprüfen.
-
+Наше хост-приложение Openterface для MacOS уже официально доступно в **Apple App Store**. Просто введите в поиск «Openterface» или «mini-KVM», чтобы найти страницу нашего приложения. Более того, мы загрузили полный код в наш репозиторий GitHub: Openterface_MacOS для Mini-KVM. Вы можете проверить этот [basic operation demo](/basic-testing/) на **MacOS**.
 ![openterface-macos-app-store](https://www.crowdsupply.com/img/1c9c/f855deb7-a88e-415b-a826-f360e6d41c9c/openterface-macos-app-store_png_md-xl.jpg)
 
 #### [**Openterface_QT**](https://github.com/TechxArtisanStudio/Openterface_QT)
 
-QT ist ein vielseitiges Framework, das wir lieben, also bauten wir unser Mini-KVM darauf auf. Für die **Windows-Version** schauen Sie sich unser frühes Demo-Video [hier](/basic-testing/) an. Sie können aus der Demo sehen, dass es großartig с niedriger Latenz и stabiler Подключение funktioniert! Sie können die frühe Beta-App von dort aus dem GitHub-Repo finden и herunterladen.
+QT — это универсальная среда, которая нам нравится, поэтому мы создали на ее основе мини-KVM. Для **версии для Windows** посмотрите наше раннее демонстрационное видео [here](/basic-testing/). Из демо видно, что он отлично работает с низкой задержкой и стабильным соединением! Вы можете найти и загрузить раннюю бета-версию приложения из репозитория GitHub.
 
 ![openterface-win-app-demo-1](https://www.crowdsupply.com/img/fff1/6900b965-207d-4d91-8816-9ab73489fff1/openterface-win-app-demo-1_jpg_gallery-lg.jpg)
-
+  
 ![openterface-win-app-demo-2](https://www.crowdsupply.com/img/373b/48737a7e-7793-49c1-9efc-a284d1ae373b/openterface-win-app-demo-2_jpg_gallery-lg.jpg)
 
-Für Linux-basierte Systeme ist das Packaging для verschiedene Architekturen wie ARM32, ARM64, ARMv7 и ARMv8, besonders для den **Raspberry Pi**, eine ziemliche Herausforderung (с stиenlangem Warten auf das Packaging), aber wir arbeiten daran. Erwarten Sie bald eine Linux-Demo, hoffentlich innerhalb einer Woche.
+Что касается систем на базе Linux, упаковка для различных архитектур, таких как ARM32, ARM64, ARMv7 и ARMv8, особенно для **Raspberry Pi**, является довольно сложной задачей (с часами ожидания упаковки), но мы над этим работаем. Ожидайте демо-версию Linux в ближайшее время, надеюсь, в течение недели.
 
-Сейчас haben wir gerade all unseren frischen Code для Openterface_QT auf GitHub hochgeladen! Tauchen Sie ein и schauen Sie sich um, aber bereiten Sie sich vor – es ist noch in den frühen Entwicklungsstadien, also gibt es noch einige unvermeidliche Eigenarten и etwas Arbeit для uns, es zu verbessern. Wir würden Hilfe не ablehnen. Wenn Sie Entwickler sind, schließen Sie sich uns an. Viel Spaß beim Programmieren!
+Мы только что загрузили весь наш свежий код для Openterface_QT на GitHub! Погрузитесь и посмотрите, но будьте готовы — он все еще находится на ранней стадии разработки, поэтому есть еще немало неизбежных особенностей и нам предстоит поработать над его улучшением. Мы бы не отказались от руки. Если вы разработчик, присоединяйтесь к нам. Приятного кодирования!
 
-####  **[Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) и [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension)**
+#### **[Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) и [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension)**
 
-Wir haben den **Machbarkeitsnachweis** для sowohl Android als auch WebExtension abgeschlossen. Obwohl diese niedrigere Prioritäten im Vergleich zu macOS, Windows и Linux haben, seien Sie versichert, dass sie in der Pipeline sind. Basierend auf unserer vorläufigen Forschung könnte das Openterface_Android-Projekt auch **ChromeOS** unterstützen. Wenn Sie Einblicke haben, schließen Sie sich der Diskussion an!
+Мы завершили **проверку концепции** для Android и WebExtension. Хотя это более низкие приоритеты по сравнению с macOS, Windows и Linux, будьте уверены, они находятся в стадии разработки. Согласно нашим предварительным исследованиям, проект Openterface_Android также может поддерживать **ChromeOS**. Если у вас есть какие-либо идеи, пожалуйста, присоединяйтесь к обсуждению!
 
-####  **Sogar для iPadOS?**
+#### **Даже для iPadOS?**
 
-Wir erkиen auch die Kompatibilität с Apples mobilen Systemen wie iPadOS. Aufgrи von Apples strengen Kontrollen könnten diese Plattformen keine kabelgebиenen Подключениеen с Drittanbieter-Geräten unterstützen. Wir untersuchen jedoch potenzielle Workaroиs, besonders для iPads с M-Series-Chips. Unser Beta-Kollege **Seb** hat bereits [einige interessante Erkenntnisse](https://discord.com/channels/1199611503469408276/1221755356896825424/1238070985794781265) gemacht, и das ist es wert, weiter zu erkиen, obwohl noch неs bestätigt ist. Wenn Sie Einblicke или Vorschläge haben, treten Sie unserer Community bei и lassen Sie uns diskutieren!
+Мы также изучаем совместимость с мобильными системами Apple, такими как iPadOS. Из-за строгого контроля Apple эти платформы могут не поддерживать проводные соединения со сторонними устройствами. Однако мы изучаем потенциальные обходные пути, особенно для iPad с чипами серии M. Наш бета-партнер **Seb** уже создал [some interesting findings](https://discord.com/channels/1199611503469408276/1221755356896825424/1238070985794781265), и это стоит изучить дальше, хотя пока ничего не подтверждено. Если у вас есть идеи или предложения, присоединяйтесь к нашему сообществу и давайте обсудим!
 
 ![seb-explore-minikvm-for-ipados](https://www.crowdsupply.com/img/cf00/534f1b87-fcf9-4588-a207-d7a305aacf00/seb-explore-minikvm-for-ipados_jpg_gallery-lg.jpg)
 
-#### [**Openterface_Mini-KVM_Оборудование**](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Оборудование)
+#### [**Openterface_Mini-KVM_Hardware**](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)
 
-Wir werden beginnen, die Оборудование-Details in den nächsten zwei bis drei Wochen schrittweise freizugeben. Zusätzlich planen wir, um einen hohen Open-Source-Standard aufrechtzuerhalten, den Zertifizierungsanforderungen der Open Source Оборудование Association (**OSHWA**) zu entsprechen.
+Мы начнем публиковать подробную информацию об оборудовании постепенно в течение следующих двух-трех недель. Кроме того, для поддержания высоких стандартов открытого исходного кода мы планируем придерживаться требований сертификации Open Source Hardware Association (**OSHWA**).
 
-In der Zwischenzeit können Sie hier mehr о unsere Оборудование erfahren: [Datenblatt](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) и [Wie es funktioniert](/faq/kvm-over-usb/) для jetzt. Diese Seite erklärt unsere USB-HDMI-Capture-Integration с dem **CH9329**-Chip для Tastatur- и Maussteuerung. Tech-Enthusiasten könnten die Details zu diesem Chip besonders interessant finden. Zusätzlich nutzt unser Mini-KVM den **CH340**-Chip и unterstützt zwei eingebaute USB-Hubs для sowohl die Host- als auch die Target-Seite. Unser Mini-KVM ist vergleichbar с vielen Video-Capture-Karten, die derzeit auf dem Markt sind.
+А пока вы можете узнать больше о нашем оборудовании здесь: [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) и [How It Works](/faq/kvm-over-usb/) на данный момент. На этой странице описана интеграция захвата USB-HDMI с микросхемой **CH9329** для управления клавиатурой и мышью. Технические энтузиасты могут найти подробности об этом чипе особенно интересными. Кроме того, в нашем мини-KVM используется чип **CH340**, поддерживающий два встроенных USB-концентратора как для хостовой, так и для целевой стороны. Наша мини-KVM сравнима со многими картами видеозахвата, представленными в настоящее время на рынке.
 
-#### Bitte bleiben Sie dran!
+#### Пожалуйста, держитесь!
+Мы усердно работаем и находимся в процессе **открытия исходного кода нашего программного и аппаратного обеспечения**. На приготовление хороших вещей нужно время!  Мы будем держать вас в курсе этого прогресса в нашем сообществе. Спасибо за ваше терпение и понимание! Оставайтесь с нами и удачи!
 
-Wir arbeiten hier hart и sind im Prozess der **Open-Source-Freigabe sowohl unserer Программное обеспечение als auch unserer Оборудование**. Gute Dinge brauchen Zeit zum Garen! Wir werden Sie о diesen Fortschritt in unserer Community auf dem Laufenden halten. Danke для Ihre Geduld и Ihr Verständnis! Bleiben Sie dran и Prost!
+### Решение проблем
 
-## Bedenken ansprechen
+Мы понимаем, что некоторые люди могут быть настроены *скептически*, учитывая количество мошеннических краудфандинговых проектов. Вот несколько моментов, которые могут вас успокоить в отношении нашего краудфандингового проекта:
 
-Wir verstehen, dass einige Leute angesichts der Anzahl von Betrugs-Crowdfиing-Projekten da draußen *skeptisch* sein könnten. Hier sind einige Punkte, die Sie о unser Crowdfиing-Projekt beruhigen könnten:
+1. **Доверьтесь платформе массового предложения**. Это *одна из ведущих платформ краудфандинга электронных продуктов* в США **с 2012 года**. Команда Crowd Supply внимательно следит за ходом разработки Openterface Mini-KVM и предлагает нам профессиональные советы, чтобы убедиться, что то, что мы создаем, подходит именно вам. Здесь также выражается благодарность команде Crowd Supply! Более того, вы можете узнать больше о том, как защищаются ваши права как бэкера, на платформе Crowd Supply, в том числе для нашего проекта: [Crowd Supply Guide: How are Backers Protected?](https://www.crowdsupply.com/guide/backer-protection)
+    > «Каждый проект, который когда-либо получал средства через Crowd Supply, уже доставлен своим спонсорам (или находится на пути к этому). Вы не финансируете чью-то несбыточную мечту; в Crowd Supply вы покупаете реальный продукт».
 
-1. **Vertrauen Sie der Crowd Supply-Plattform:** Das ist *eine der Top-Crowdfиing-Plattformen для elektronische Продуктe* in den USA **seit 2012**. Das Crowd Supply-Team hat unsere Entwicklung des Openterface Mini-KVM genau оwacht и uns professionelle Beratung angeboten, um sicherzustellen, dass das, was wir geschaffen haben, genau richtig для Sie ist. Ein Dankeschön auch an das Crowd Supply-Team hier! Darо hinaus können Sie mehr darо lesen, wie Ihre Rechte als Backer auf der Crowd Supply-Plattform geschützt sind, einschließlich для unser Projekt: [Crowd Supply Guide: Wie werden Backer geschützt?](https://www.crowdsupply.com/guide/backer-protection)
-    > "Jedes Projekt, das jemals Mittel durch Crowd Supply erhalten hat, hat an seine Backer geliefert (или ist auf dem Weg dazu). Sie finanzieren не jemandes Traum; bei Crowd Supply kaufen Sie ein echtes Продукт."
+2. **Доверьтесь опыту нашей команды.** Мы — группа разносторонних разработчиков, опытных производителей и опытных менеджеров проектов и производства, особенно в работе, которая предполагает сочетание разработки аппаратного и программного обеспечения. Мы — инновационная творческая студия в сфере технологий с *более шести лет опыта работы в передовых технологических проектах* в таких областях, как Интернет вещей, искусственный интеллект, периферийные вычисления и техническое искусство. Чтобы узнать о нас больше, посетите наш сайт [TechxArtisan Studio](https://techxartisan.com/en/).
 
-2. **Vertrauen Sie der Erfahrung unseres Teams:** Wir sind eine Gruppe vielseitiger Entwickler, geschickter Hersteller и erfahrener Projekt- и Продуктionsmanager, besonders in Arbeiten, die eine Mischung aus Оборудование- и Программное обеспечениеentwicklung beinhalten. Wir sind ein innovatives Tech-Kreativstudio с *о sechs Jahren Erfahrung in fortgeschrittenen Tech-Projekten* in Bereichen wie IoT, KI, Edge Computing и Tech-Kunst. Um mehr о uns zu erfahren, schauen Sie sich unsere [TechxArtisan Studio](https://techxartisan.com/en/) Website an.
+3. **Доверьтесь культуре нашей команды.** Наша команда стремится не только к техническому совершенству, но и к общему удобству пользователей. Сюда входит все: от документации пользователя и разработчика до эстетики дизайна. Мы увлечены передовыми технологиями и часто участвуем в оживленных дискуссиях о новых достижениях с различных точек зрения. Эти дебаты помогают нам определить, что делает выдающийся электронный продукт и как воплотить его в жизнь посредством нашей командной работы. Такой совместный подход гарантирует, что наши продукты улучшат пользовательский опыт и продемонстрируют нашу приверженность качеству и деталям. Кроме того, мы придерживаемся культуры открытого исходного кода и сотрудничества с сообществом.
 
-3. **Vertrauen Sie der Kultur unseres Teams:** Unser Team widmet sich не nur technischer Exzellenz, sondern auch der gesamten Benutzererfahrung. Das umfasst alles von Benutzer- и Entwicklerdokumentation bis hin zu Design-Ästhetik. Wir sind leidenschaftlich для Spitzentechnologie и engagieren uns häufig in lebhaften Diskussionen о neue Fortschritte aus verschiedenen Perspektiven. Diese Debatten helfen uns zu definieren, was ein herausragendes elektronisches Продукт ausmacht и wie wir es durch unsere Teamarbeit zum Leben erwecken können. Dieser kollaborative Ansatz stellt sicher, dass unsere Продуктe die Benutzererfahrung verbessern и unsere Hingabe zu Qualität и Details demonstrieren. Darо hinaus umarmen wir eine Kultur von Open Source и Community-Zusammenarbeit.
+4. **Обратите внимание на то, чего мы достигли и что делаем.** Мы очень усердно работали над этим проектом. Вы можете присоединиться к нашему сообществу на [Reddit](https://www.reddit.com/r/Openterface_miniKVM/) и [Discord](/discord), увидеть, что мы создавали, от самого раннего прототипа до текущей предсерийной версии, и оставаться в курсе наших последних достижений. Мы будем рады видеть вас в нашем сообществе и сотрудничать с нами!
 
-4. **Beobachten Sie, was wir erreicht haben и tun:** Wir haben sehr hart an diesem Projekt gearbeitet. Sie können unserer Community auf [Reddit](https://www.reddit.com/r/Openterface_miniKVM/) и [Discord](/discord) beitreten, sehen, was wir vom frühesten Prototyp bis zur aktuellen Vorproduktionsversion geschaffen haben, и о unsere aktuellen Fortschritte informiert bleiben. Wir würden uns freuen, Sie in unserer Community zu sehen и с uns zu interagieren!
+5. **Общайтесь с нами напрямую:** Если у вас есть какие-либо вопросы или сомнения по поводу нашего Mini-KVM, напишите мне по адресу info@openterface.com. Кроме того, мы планируем прямую трансляцию, которую проведет [**David Groom from MAKE: Magazine**](https://www.youtube.com/@MAKE/streams) в среду, 29 числа. Мы обсудим наш Openinterface Mini-KVM и его историю. Видео позже опубликую на странице нашего сообщества.
 
-5. **Chatten Sie direkt с uns:** Wenn Sie Вопросы или Bedenken zu unserem Mini-KVM haben, zögern Sie не, mir eine E-Mail an info@openterface.com zu senden. Zusätzlich planen wir einen Livestream, mилиiert von [**David Groom von MAKE: Magazine**](https://www.youtube.com/@MAKE/streams) am Mittwoch, dem 29. Wir werden unser Openterface Mini-KVM и die Geschichte dahinter diskutieren. Ich werde das Video später auf unserer Community-Seite posten.
+Наконец, мы полностью понимаем, если вы все еще не уверены. Это нормально! Если ваша работа связана с управлением автономными устройствами, мы уверены, что наши усилия по созданию Openterface Mini-KVM в конечном итоге принесут вам пользу. Подождите и увидите! 😄
 
-Schließlich verstehen wir völlig, wenn Sie sich immer noch unsicher sind. Das ist OK! Wenn Ihre Arbeit die Verwaltung von Headless-Geräten beinhaltet, sind wir zuversichtlich, dass unsere Bemühungen bei der Herstellung des Openterface Mini-KVM Sie schließlich оzeugen werden. Warten Sie ab и sehen Sie! 😄
+### Что дальше?
 
-## Was kommt als nächstes?
+Следите за новостями на следующей неделе, где мы более подробно расскажем о функциях нашего хост-приложения, его планах, ходе производства, реальных сценариях использования, которыми поделилась наша бета-команда, и многом другом! А пока посетите наш веб-сайт [Openterface](/) и [FAQs](/faq/), рассмотрите [backing us on Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) и помогите распространить информацию!
 
-Bleiben Sie dran для das Update der nächsten Woche, wo wir tiefer in mehr Details о unsere Host-Anwendungsfunktionen, ihre Roadmap, Продуктionsfortschritt, echte Anwendungsfälle, die von unserem Beta-Team geteilt werden, и mehr eintauchen werden! In der Zwischenzeit schauen Sie sich unsere Website [Openterface](/) и [FAQ](/faq/) an, erwägen Sie [uns auf Crowd Supply zu unterstützen](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm), и helfen Sie, das Wort zu verbreiten!
+Спасибо, что читаете и являетесь частью этого путешествия вместе с нами! Мир!
 
-Danke дляs Lesen и daдля, Teil dieser Reise с uns zu sein! Frieden!
+Лучший,
 
-Mit freиlichen Grüßen,
+Билли Ванг, менеджер проекта
 
-Billy Wang, Projektmanager
-
-Openterface Team | TechxArtisan Studio
+Команда Openinterface | TechxArtisan Студия

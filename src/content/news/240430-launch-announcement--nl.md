@@ -2,8 +2,8 @@
 locale: nl
 translationKey: "240430-launch-announcement"
 slug: "240430-launch-announcement"
-title: "Die Openterface Mini-KVM Crowdfening-Kampagne ist jetzt live!"
-description: "Ankündigung des Starts der Crowdfening-Kampagne voor Openterface Mini-KVM - eine erschwingliche, Open-Source KVM-over-USB-Lösung zur Steuerung von Headless-Computern. Perfekt voor IT-Profis, Entwickler en Technik-Enthusiasten, die eine effiziente Geräteverwaltung suchen."
+title: "Openterface Mini-KVM Crowdfunding-campagne gaat NU live!"
+description: "Aankondiging van de lancering van de crowdfundingcampagne van Openterface Mini-KVM - een betaalbare, open-source KVM-over-USB-oplossing voor het besturen van headless computers. Perfect voor IT-professionals, ontwikkelaars en tech-enthousiastelingen die op zoek zijn naar efficiënt apparaatbeheer."
 date: 2024-04-30
 channel: product
 product: minikvm
@@ -13,46 +13,45 @@ featured: false
 draft: false
 author: "Openterface Team"
 ---
+We zijn verheugd om aan te kondigen dat de crowdfundingcampagne voor de Openterface Mini-KVM nu live is! Dit feature-rijke, open-source en community-gestuurde apparaat vereenvoudigt de manier waarop u headless computers bestuurt en ermee communiceert.
 
-Wir freuen uns, bekannt zu geben, dass die Crowdfening-Kampagne voor das Openterface Mini-KVM jetzt live ist! Dieses funktionsreiche, Open-Source en Community-gesteuerte Gerät vereinfacht die Art, wie Sie Headless-Computer steuern en met ihnen interagieren.
+Het biedt een compacte, lichtgewicht en snelle KVM-over-USB-oplossing die de noodzaak van extra toetsenborden, muizen, monitoren of netwerkconfiguratie elimineert. U kunt een headless computer rechtstreeks vanaf uw laptop of desktopcomputer bedienen, waardoor uw installatie wordt vereenvoudigd en uw workflow wordt verbeterd.
 
-Es bietet eine kompakte, leichte en schnelle KVM-over-USB-Lösung, die den Bedarf an zusätzlichen Tastaturen, Mäusen, Monitoren of Netzwerkkonfigurationen eliminiert. Sie können einen Headless-Computer direkt von Ihrem Laptop of Desktop-Computer aus steuern, was Ihr Setup vereinfacht en Ihren Workflow verbessert.
-
-Machen Sie met en erleichtern Sie Ihr Tech-Leben!
+Doe mee en maak uw technische leven eenvoudiger!
 
 ![openterface-mini-kvm-wired-up-mini-kvm-angled-view](https://www.crowdsupply.com/img/418f/c93dc838-7dbf-4281-b6e0-16f1bee6418f/openterface-mini-kvm-wired-up-mini-kvm-angled-view_jpg_gallery-lg.jpg)
 
-### Ein vielseitiges Tool voor verschiedene mobile Bedürfnisse
+### Een veelzijdig hulpmiddel voor verschillende behoeften onderweg
 
-Das Openterface Mini-KVM ist der perfekte Begleiter voor eine breite Palette von Benutzern en Szenarien:
+De Openterface Mini-KVM is de perfecte metgezel voor een breed scala aan gebruikers en scenario's:
 
-- IT-Profis, die Server troubleshooten
-- Techniker, die ATMs, VLTs en Kioske warten
-- Entwickler, die Edge-Computing-Geräte verwalten
-- Technik-Enthusiasten, die met Single-Board-Computern experimentieren
-- Profis, die sichere lokale Operationen bei Netzwerk-Segregation benötigen, wie diejenigen, die Krypto-Assets verwalten
-- Jeder, der häufig integrierte Workflows zwischen persönlichen en Arbeitscomputern benötigt.
+- IT-professionals die problemen met servers oplossen
+- Technici die geldautomaten, VLT's en kiosken onderhouden
+- Ontwikkelaars die edge computing-apparaten beheren
+- Tech-enthousiastelingen die experimenteren met computers met één board
+- Professionals die veilige lokale activiteiten op het gebied van netwerksegregatie nodig hebben, zoals degenen die cryptocurrency-activa beheren
+- Iedereen die regelmatig geïntegreerde workflows nodig heeft tussen persoonlijke en zakelijke computers.
 
 ![use-case-pc-angled-view](https://www.crowdsupply.com/img/4003/335f6301-8abd-4efd-9803-9c6f8c6d4003/use-case-pc-angled-view_jpg_gallery-lg.jpg)
 
-### Von Community-Feedback angetrieben
+### Gedreven door communityfeedback
 
-Unser Abenteuer in der Erstellung des Openterface Mini-KVM wurde von unseren eigenen Herausforderungen en dem kollektiven Wunsch nach einem effektiveren Tool inspiriert. Mit einer reichen Geschichte in unserem [TechxArtisan Studio](https://techxartisan.com/en/), das coole Tech-Art-Projekte en Outdoor-IoT-Lösungen entwickelt, standen wir oft vor dem Dilemma, Geräte in unzuverlässigen Netzwerkbedingungen zu verwalten, ohne den Luxus zu haben, zusätzliche Ausrüstung metzutragen. Angetrieben von Gesprächen met Gleichgesinnten en Feedback von einer Community, die unsere Notlage teilt, machten wir uns daran, ein Gerät zu entwickeln, das diese Bedürfnisse direkt angeht en die Kontrolle von Headless-Geräten zuverlässig en mühelos erleichtert.
+Onze onderneming in de creatie van de Openterface Mini-KVM werd aangewakkerd door onze eigen uitdagingen en een collectief verlangen naar een effectievere tool. Met een geschiedenis die rijk is aan onze [TechxArtisan studio](https://techxartisan.com/en/) ontwikkeling van coole technische kunstprojecten en IoT-oplossingen voor buiten, werden we vaak geconfronteerd met het dilemma van het beheren van apparaten in onbetrouwbare netwerkomstandigheden zonder de luxe om extra apparatuur mee te nemen. Gevoed door gesprekken met collega's en feedback van een gemeenschap die onze benarde situatie deelt, hebben we ons tot doel gesteld een apparaat te ontwikkelen dat deze behoeften direct aanpakt en de bediening van headless-apparaten op een betrouwbare en moeiteloze manier vergemakkelijkt.
 
-### Der Openterface Mini-KVM Unterschied
+### Het Openterface Mini-KVM-verschil
 
-Sie fragen sich vielleicht, warum Sie bei den verschiedenen verfügbaren KVM-Lösungen das Openterface Mini-KVM wählen sollten? Hier ist der Gren:
+U vraagt zich misschien af waarom u, aangezien er verschillende KVM-oplossingen beschikbaar zijn, voor de Openterface Mini-KVM kiest? Dit is waarom:
 
-1. **Kompakt en effizient**: Für IT-Profis en Enthusiasten gleichermaßen konzipiert, glänzt unsere KVM-over-USB-Lösung in Umgebungen met begrenztem of keinem Netzwerkzugang en bietet ein portables, netzwerkunabhängiges en schnelles Troubleshooting-Tool.
+1. **Compact en efficiënt**: Onze KVM-over-USB-oplossing is op maat gemaakt voor zowel IT-professionals als enthousiastelingen en schittert in omgevingen met beperkte of geen netwerktoegang en biedt een draagbaar, netwerkonafhankelijk en snel hulpprogramma voor probleemoplossing.
     
-2. **Erschwinglichkeit**: Wir haben hart daran gearbeitet, das Openterface Mini-KVM kosteneffizienter als seine Konkurrenten zu machen en sicherzustellen, dass es voor jeden erreichbar ist, der dieses unverzichtbare Tool voor Arbeits- of Hobbyprojekte benötigt.
+2. **Betaalbaarheid**: We hebben er hard aan gewerkt om de Openterface Mini-KVM kosteneffectiever te maken dan zijn tegenhangers, zodat hij binnen handbereik is voor iedereen die dit essentiële hulpmiddel nodig heeft voor werk- of hobbyprojecten.
     
-3. **Community-gesteuert en Open-Source**: Im Kern geht es beim Openterface Mini-KVM darum, eine Community voor Innovation en Zusammenarbeit zu fördern. Durch die Übernahme von Open-Source-Werten laden wir Benutzer ein, benutzerdefinierte Functies en Verbesserungen beizutragen, was die Fähigkeiten en Vielseitigkeit des Tools bereichert.
+3. **Gemeenschapsgedreven en open source**: In de kern gaat de Openterface Mini-KVM over het bevorderen van een gemeenschap van innovatie en samenwerking. Door open-sourcewaarden te omarmen, nodigen we gebruikers uit om aangepaste functies en verbeteringen bij te dragen, waardoor de mogelijkheden en veelzijdigheid van de tool worden verrijkt.
 
-### Bleiben Sie verbenen en engagiert
+### Blijf verbonden en betrokken
 
-Um over die neuesten Entwicklungen auf dem Laufenden zu bleiben, technischen Ondersteuning zu erhalten en sich met anderen Benutzern zu vernetzen, laden wir Sie ein, unsere [Pre-Launch-Seite](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) auf Crowd Supply zu besuchen, unsere Website unter [openterface.com](/) zu erkenen en unseren Subreddit [r/Openterface_miniKVM](/reddit) en Discord-Communities [TechxArtisan](https://discord.com/invite/4khsrbGS) beizutreten.
+Om op de hoogte te blijven van de laatste ontwikkelingen, technische ondersteuning te ontvangen en in contact te komen met medegebruikers, nodigen wij u uit om onze [Pre-Launch page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) op Crowd Supply te bezoeken, onze website op [openterface.com](/) te verkennen en lid te worden van onze subreddit [r/Openterface_miniKVM](/reddit) en Discord-gemeenschappen [TechxArtisan](https://discord.com/invite/4khsrbGS).
 
-Lassen Sie uns gemeinsam diese aufregende Reise antreten en die Art revolutionieren, wie Sie Headless-Geräte steuern. Machen Sie met en helfen Sie uns, das Openterface Mini-KVM Wirklichkeit werden zu lassen!
+Laten we samen aan deze spannende reis beginnen en een revolutie teweegbrengen in de manier waarop u headless-apparaten bedient. Help ons mee om de Openterface Mini-KVM werkelijkheid te maken! 
 
-Prost!
+Proost!

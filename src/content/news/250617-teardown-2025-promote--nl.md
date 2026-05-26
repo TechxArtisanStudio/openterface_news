@@ -2,8 +2,8 @@
 locale: nl
 translationKey: "250617-teardown-2025-promote"
 slug: "250617-teardown-2025-promote"
-title: "Teardown 2025: Wir kommen zurück nach Portland!"
-description: "Openterface kündigt ihre Rückkehr zu Teardown 2025 in Portland an en präsentiert neue Entwicklungen en QT-App-Verbesserungen voor Hacker en Maker."
+title: "Teardown 2025: we komen terug naar Portland!"
+description: "Openterface kondigt hun terugkeer aan naar Teardown 2025 in Portland, waar nieuwe ontwikkelingen en QT-app-verbeteringen voor hackers en makers worden getoond."
 date: 2025-06-17
 channel: events
 eventType: exhibition
@@ -13,20 +13,19 @@ featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hallo allemaal! Terwijl onze tech-wizard Kevin Peng tot laat in de avond aan het trekken is, verbindingsdraden in zijn haar en krimpkousen verspreid over zijn bureau, is hij iets heel gaafs aan het voorbereiden. Waarom? Omdat onze man met de megafoon, Billy Wang, zich klaarmaakt om alles te laten zien tijdens Teardown 2025! We kunnen niet wachten om te delen wat we hebben gekookt, en we denken dat jij het ook geweldig zult vinden.
 
-Hallo zusammen! Während unser Tech-Zauberer Kevin Peng späte Nächte durchgemacht hat, met Jumper-Kabeln in den Haaren en Schrumpfschläuchen verstreut auf seinem Schreibtisch, hat er etwas wirklich Cooles vorbereitet. Warum? Weil unser Mann met dem Megaphon, Billy Wang, bereit ist, alles bei Teardown 2025 zu präsentieren! Wir können es kaum erwarten zu teilen, was wir ausgearbeitet haben, en wir denken, ihr werdet es auch lieben.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f0nQYxOnck4?si=Lh9jknJcSpD15nac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; klembord-schrijven; gecodeerde media; gyroscoop; beeld-in-beeld; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f0nQYxOnck4?si=Lh9jknJcSpD15nac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Als je er nog nooit bent geweest, beschouw het dan als een speeltuin voor hackers en makers waar niets heilig is, waar alles uit elkaar wordt gehaald, bestudeerd en beter (of op zijn minst gekker) wordt teruggeplaatst. Dit wil je zeker in de gaten houden. Klik op de onderstaande afbeelding om naar de evenementpagina te gaan: https://www.crowdsupply.com/teardown/portland-2025
 
-Falls ihr noch nie dort wart, stellt euch vor, es ist ein Spielplatz voor Hacker en Maker, wo niets heilig ist, wo alles auseinandergenommen, studiert en besser (of zumindest verrückter) wieder zusammengesetzt wird. Ihr solltet definitiv ein Auge darauf haben. Klickt auf das Bild unten, um die Veranstaltungsseite zu besuchen: https://www.crowdsupply.com/teardown/portland-2025
+### De QT-app blijft evolueren omdat u blijft vragen
 
-### Die QT-App entwickelt sich weiter, weil ihr weiter fragt
+Weet je hoe we nooit stoppen met het aanpassen, verbeteren en verleggen van grenzen? Welnu, die geest is springlevend in ons nieuwste werk aan de Openterface QT. Of je nu Windows, macOS of Linux gebruikt, wij werken achter de schermen om het scherper, vloeiender en krachtiger dan ooit te houden. Benieuwd naar al die coole visuele verbeteringen? Ga je gang, klik hier eens hard: <https://github.com/TechxArtisanStudio/Openterface_QT>
 
-Ihr wisst, wie wir nie aufhören zu optimieren, zu verbessern en Grenzen zu verschieben? Nun, dieser Geist ist lebendig en aktiv in unserer neuesten Arbeit an der Openterface QT. Ob ihr auf Windows, macOS of Linux seid, wir arbeiten hinter den Kulissen daran, sie schärfer, flüssiger en leistungsstärker zu machen als je zuvor. Neugierig, all diese coolen visuellen Verbesserungen zu sehen? Dann klickt einfach hier: <https://github.com/TechxArtisanStudio/Openterface_QT>
+Dus dat is de primeur, vriend.
 
-Das ist also die Neuigkeit, Freene.
-
-Wir bauen, zerbrechen, verbessern en teilen jeden Schritt des Weges, weil diese Community niet nur over Technik geht. Es ist eine Familie von Makern en Träumern. Bleibt neugierig. Tüftelt weiter. Und wir sehen uns im nächsten Update.
+We bouwen, breken, verbeteren en delen elke stap, omdat deze community niet alleen over technologie gaat. Het is een familie van makers en dromers. Blijf nieuwsgierig. Blijf sleutelen. En we zien je in de volgende update.
 
 Billy Wang
-Product Lead, Openterface
+Productleider, Openinterface

@@ -2,84 +2,83 @@
 locale: ar
 translationKey: "20260203-macos-ubuntu-copy-paste"
 slug: "20260203-macos-ubuntu-copy-paste"
-title: "Ubuntu Kopieren/Einfügen-Tipp (macOS → Ubuntu)"
-description: "Beheben Sie Einfügen-Shortcuts beim Steuern von Ubuntu von macOS مع Openterface. Verwenden Sie den Windows-Modus لـ zuverlässiges Ctrl-Style-Einfügen أو Bearbeiten → Einfügen als Alternative im Mac-Modus."
+title: "نصيحة للنسخ/اللصق في Ubuntu (نظام التشغيل MacOS → Ubuntu)"
+description: "أصلح اختصارات اللصق عند التحكم في Ubuntu من macOS باستخدام Openterface. استخدم وضع Windows للصق موثوق بنمط Ctrl، أو تحرير → لصق كحل بديل في وضع Mac."
 date: 2026-02-03
 channel: software
 topic: ["software"]
-category: "Product التحديثات"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface"
 ---
-
-Beim Steuern von **Ubuntu** von **macOS** مع **Openterface** funktioniert das Einfügen per Shortcut im **Mac-Modus** möglicherweise لا zuverlässig. Diese دليل zeigt die empfohlene Lösung و eine einfache Alternative.
+عند التحكم في **Ubuntu** من **macOS** باستخدام **Openterface**، قد لا يعمل لصق الاختصار بشكل موثوق في **Mac Mode**. يوضح هذا الدليل الإصلاح الموصى به والحل البسيط.
 
 ![setting](https://assets2.openterface.com/images/setting.webp)
 
 ---
 
-## Schnelle Lösung (empfohlen لـ Ubuntu/Linux)
+## إصلاح سريع (موصى به لنظام التشغيل Ubuntu/Linux)
 
-1. Öffnen Sie **Openterface** auf macOS.
-2. Gehen Sie zu **Einstellungen**.
-3. Suchen Sie **Tastaturlayout-Modus des Zielgeräts**.
-4. Wählen Sie **Windows-Modus**.
+1. افتح **Openterface** على نظام التشغيل macOS.
+2. انتقل إلى **الإعدادات**.
+3. ابحث عن **وضع تخطيط لوحة مفاتيح الجهاز المستهدف**.
+4. حدد **وضع Windows**.
 
 ![win-mode](https://assets2.openterface.com/images/win-mode.webp)
 
 
-✅ Ergebnis: Einfügen-Shortcuts verhalten sich unter Ubuntu wie erwartet (Ctrl-Style-Verhalten).
+✅ النتيجة: تتصرف اختصارات اللصق كما هو متوقع على Ubuntu (سلوك نمط Ctrl).
 
 ![win-ctrl+v](https://assets2.openterface.com/images/win-ctrl+v.webp)
 
 ---
 
-## Alternative (wenn Sie im Mac-Modus bleiben möchten)
+## الحل البديل (إذا كنت تريد البقاء في وضع Mac)
 
-Wenn Sie den **Mac-Modus** beibehalten möchten, können Sie weiterhin zuverlässig حول das Menü einfügen:
+إذا كنت تفضل الاحتفاظ بـ **Mac Mode**، فلا يزال بإمكانك اللصق بشكل موثوق باستخدام القائمة:
 
-- **Bearbeiten → Einfügen**
+- **تحرير → لصق**
 
 ![edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
 
-✅ Ergebnis: Einfügen funktioniert auch, wenn Shortcut-Einfügen im Mac-Modus inkonsistent ist.
+✅ النتيجة: يعمل اللصق حتى إذا كان لصق الاختصار غير متناسق في وضع Mac.
 
-![workaroو](https://assets2.openterface.com/images/workaroو.webp)
-
----
-
-## Warum passiert das?
-
-Die meisten Ubuntu-Apps verwenden **Ctrl-basierte** Shortcuts zum Einfügen. In einigen Konfigurationen kann die **Mac-Modus**-Shortcut-Zuordnung das Einfügen لا zuverlässig auslösen, während **Bearbeiten → Einfügen** zuverlässig funktioniert.
+![workaround](https://assets2.openterface.com/images/workaround.webp)
 
 ---
 
-## Kurz zusammengefasst
+## لماذا يحدث هذا
 
-- **Beste Erfahrung unter Ubuntu/Linux:** **Windows-Modus** verwenden
-- **Bei Mac-Modus:** **Bearbeiten → Einfügen** verwenden
-
----
-
-## Brauchen Sie Hilfe bei der Auswahl des richtigen Modus?
-
-Wenn Sie unsicher sind, welchen Modus Sie verwenden sollen, hier eine einfache Faustregel:
-
-- Wenn Ihr Ziel-OS **Ubuntu/Linux** ist, beginnen Sie مع dem **Windows-Modus** (am konsistentesten لـ gängige Shortcuts).
-- Wenn Sie hauptsächlich **macOS-Ziele** steuern و Mac-Style-Shortcuts möchten, verwenden Sie den **Mac-Modus**.
-
-Wenn Sie häufig zwischen verschiedenen Ziel-OS wechseln, bookmarken Sie diese Seite. Es ist meist eine Ein-Klick-Lösung.
+تستخدم معظم تطبيقات Ubuntu اختصارات **تعتمد على Ctrl** لللصق. في بعض الإعدادات، قد لا يؤدي تعيين الاختصارات **Mac Mode** إلى تشغيل اللصق بشكل متسق، بينما يعمل **Edit → Paste** بشكل موثوق.
 
 ---
 
-## FAQ
+## ملخص سريع
 
-**Ändert der Windows-Modus meine Mac-Shortcuts?**  
-Er ändert, wie Openterface Shortcuts an das **Zielgerät** sendet, sodass Ubuntu das erwartete **Ctrl-Style**-Verhalten erhält.
+- **أفضل تجربة على Ubuntu/Linux:** استخدم **Windows Mode**
+- **إذا بقيت في وضع Mac:** استخدم **تحرير → لصق**
 
-**Kann ich Menü-Einfügen in jedem Modus verwenden?**  
-Ja — **Bearbeiten → Einfügen** ist in beiden Modi eine zuverlässige Option.
+---
 
-**Betrifft das auch Raspberry Pi OS?**  
-Oft weniger betroffen, aber bei ähnlichem Verhalten gilt dieselbe Lösung.
+## هل تحتاج إلى مساعدة في تحديد الوضع المناسب لإعدادك؟
+
+إذا لم تكن متأكدًا من الوضع الذي يجب استخدامه، فإليك القاعدة الأساسية السريعة:
+
+- إذا كان نظام التشغيل المستهدف لديك هو **Ubuntu/Linux**، فابدأ بـ **Windows Mode** (الأكثر اتساقًا مع الاختصارات الشائعة).
+- إذا كنت تتحكم بشكل أساسي في **أهداف macOS** وتريد اختصارات على نمط Mac، فاستخدم **Mac Mode**.
+
+إذا كنت تقوم بالتبديل بين أنظمة تشغيل مستهدفة مختلفة في كثير من الأحيان، ففكر في الاحتفاظ بإشارة مرجعية لهذه الصفحة. عادة ما يكون الإصلاح بنقرة واحدة.
+
+---
+
+## الأسئلة الشائعة
+
+**هل يغير وضع Windows اختصارات Mac الخاصة بي؟**  
+فهو يغير كيفية إرسال Openterface الاختصارات إلى **الجهاز المستهدف**، بحيث يتلقى Ubuntu السلوك المتوقع **Ctrl**.
+
+**هل يمكنني استخدام لصق القائمة في أي وضع؟**  
+نعم — **تحرير → لصق** هو خيار موثوق به في كلا الوضعين.
+
+**هل يؤثر هذا على نظام التشغيل Raspberry Pi أيضًا؟**  
+غالبًا ما يكون أقل تأثرًا، ولكن إذا رأيت سلوكًا مشابهًا، فسيتم تطبيق نفس الإصلاح.

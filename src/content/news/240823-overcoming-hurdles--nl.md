@@ -2,111 +2,110 @@
 locale: nl
 translationKey: "240823-overcoming-hurdles"
 slug: "240823-overcoming-hurdles"
-title: "Hürden overwinden: Fortschritts-Update en neuer Zeitplan"
-description: "Wichtiges Openterface Mini-KVM Update: CE-Zertifizierung abgeschlossen, Production läuft, neue ETA Mitte Januar. Hardware V1.9 finalisiert met Erweiterungs-Pins, Android-App-Entwicklung, verbesserter Verpackung en mehrsprachigem Handbuch in Arbeit."
+title: "Hindernissen overwinnen: voortgangsupdate en nieuwe tijdlijn"
+description: "Belangrijke Openterface Mini-KVM-update: CE-certificering voltooid, productie gestart, nieuwe verwachte aankomsttijd medio januari. Hardware V1.9 afgerond met uitbreidingspinnen, ontwikkeling van Android-apps, verbeterde verpakking en meertalige handleiding in uitvoering."
 date: 2024-08-22
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
+topic: ["shipping", "production", "software", "campaign", "community"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hallo allemaal,
 
-Hey alle zusammen,
+Ik hoop dat het goed met jullie gaat. Het is alweer een tijdje geleden sinds onze laatste update. Ik wou dat ik kon zeggen dat alles soepel verliep voor Openterface, maar we zijn een paar verkeersdrempels tegengekomen die onze levertijd zullen vertragen. Hoewel dit niet was wat we hadden verwacht, pakken we deze uitdagingen frontaal aan en boeken we gestage vooruitgang, met veel goed nieuws om te delen. Dit bericht duurt ongeveer **een leestijd van zeven minuten**, dus laten we in de details duiken, zodat u precies weet waar de zaken voor staan ​​en wat er gaat gebeuren.
 
-Ich hoffe, es geht euch allen gut. Es ist eine Weile her seit unserem letzten Update. Ich wünschte, ich könnte sagen, dass alles reibungslos voor Openterface gelaufen ist, aber wir sind auf ein paar Hindernisse gestoßen, die unseren Lieferzeitplan verzögern werden. Obwohl das niet das war, was wir erwartet hatten, gehen wir diese Herausforderungen direkt an en machen stetige Fortschritte met vielen guten Nachrichten zum Teilen. Dieser Post ist etwa **7 Minuten Lesezeit**, also lasst uns in die Details eintauchen, damet ihr genau wisst, wo die Dinge stehen en was als nächstes kommt.
+## Regulering, productie en kwaliteit
 
-## Regulierung, Production en Qualität
-
-Bevor wir die Production starten konnten, mussten wir notwendige Qualitätstests gemäß den Vorschriften bestehen, insbesondere die CE-Zertifizierung. Da unsere Toolkit-Version niet nur das Mini-KVM, sondern auch mehrere Zubehörteile enthält, musste jeder Teil CE-Tests durchlaufen. Diese Tests dauerten länger als erwartet (es stellt sich heraus, dass Kabel ziemlich wählerisch sein können), aber die gute Nachricht ist, dass **wir CE voor unser Mini-KVM en alle seine Komponenten bestanden haben!** Unten ist eine Overzicht der Zertifizierungen voor alle unsere Teile: Mini-KVM, HDMI-Kabel, oranges Type-C-Kabel, schwarzes kurzes Type-C-Kabel en VGA2HDMI-Kabel. Mit der Zertifizierung in der Hand ist unser Productionszeitplan jetzt sicher, en unsere Hersteller **produzieren derzeit alle Teile**, während ich spreche.
+Voordat we de productie konden starten, moesten we de noodzakelijke kwaliteitstests doorstaan volgens de regelgeving, met name de CE-certificering. Omdat onze toolkitversie niet alleen de Mini-KVM bevat, maar ook verschillende accessoires, moest elk onderdeel een CE-test ondergaan. Deze tests duurden langer dan verwacht (het blijkt dat kabels behoorlijk kieskeurig kunnen zijn), maar het goede nieuws is dat **we CE hebben doorstaan ​​voor onze Mini-KVM en al zijn componenten!** Hieronder vindt u een overzicht van de certificeringen voor al onze onderdelen: Mini-KVM, HDMI-kabel, oranje Type-C-kabel, zwarte korte Type-C-kabel en VGA2HDMI-kabel. Nu de certificering in handen is, is onze productietijdlijn nu zeker, en onze fabrikanten produceren momenteel **alle onderdelen** terwijl ik spreek.
 
 ![240823-0](https://www.crowdsupply.com/img/fcb5/db59e179-2413-4d57-8462-2285c007fcb5/openterface-240823-0_jpg_gallery-lg.jpg)
-*UKCA- en CE-Anforderungen sind voor unsere Elektronikprodukte gleich, wobei CE auch RoHS-Konformetät abdeckt.*
+*UKCA- en CE-vereisten zijn hetzelfde voor onze elektronische producten, waarbij CE ook de RoHS-conformiteit dekt.*
 
-Vor zwei Wochen besuchten wir einen unserer Hersteller, um ihre Linienmanager in Qualitätskontrolle voor die orangen Kabel zu schulen, bevor sie sie an uns verschickten. Nu wurden ALLE orangen Kabel produziert en sitzen in einer Ecke unseres Studios.
+Twee weken geleden hebben we een van onze fabrikanten bezocht om hun lijnmanagers te trainen in de kwaliteitscontrole van de oranje kabels voordat ze deze naar ons verscheepten. Nu zijn ALLE oranje kabels geproduceerd en liggen ze in een hoek van onze studio.
 ![240823-1](https://www.crowdsupply.com/img/28dc/34844b54-0e02-414d-b58b-d40e8abe28dc/openterface-240823-1_jpg_gallery-lg.jpg)
-*Kevin en Shawn erklärten die Testmethoden, um sicherzustellen, dass das orange Kabel ordnungsgemäß met unserem Openterface Mini-KVM funktioniert.*
+*Kevin en Shawn legden de testmethoden uit om ervoor te zorgen dat de oranje kabel goed werkt met onze Openterface Mini-KVM.*
 
-Wir werden diese Woche dieselbe Aufgabe voor andere Teile durchführen, um QA an der Productionsfront zu schulen. Hier sind Proben zusätzlicher Kabel.
+We zullen deze week dezelfde taak uitvoeren om QA aan de productiefrontlijn ook voor andere onderdelen te trainen. Hier vindt u voorbeelden van extra kabels.
 ![240823-2](https://www.crowdsupply.com/img/e703/abb8ffa5-eb85-4eb9-b5f8-d8a3d349e703/openterface-240823-2_jpg_md-xl.jpg)
-*Stolz met unserem TechxArtisan-Logo markiert, das sind Proben des HDMI-Kabels, des kurzen Type-C-Kabels en des VGA-to-HDMI-Kabels.*
+*Trots gemarkeerd met ons TechxArtisan-logo. Dit zijn voorbeelden van de HDMI-kabel, de korte Type-C-kabel en de VGA-naar-HDMI-kabel.*
 
-Wir erwarten, dass die anderen Teile en Mini-KVMs bald von unseren Herstellern ankommen, zu welchem Zeitpunkt wir die Qualität jeder Komponente overprüfen en sie ordnungsgemäß in unserem Studio verpacken werden, bevor sie versandt werden. Mit anderen Worten, **unser Team wird persönlich die Qualität sicherstellen**, bevor sie eure Hände erreicht.
+We verwachten dat de andere onderdelen en Mini-KVM's binnenkort van onze fabrikanten arriveren. Op dat moment zullen we de kwaliteit van elk onderdeel dubbel controleren en ze vóór verzending op de juiste manier in onze studio verpakken. Met andere woorden: **ons team zal persoonlijk de kwaliteit garanderen** voordat deze bij u terechtkomt.
 
-## Versand, potenzielle Verzögerungen en neue ETA
+## Verzending, mogelijke vertragingen en nieuwe verwachte aankomsttijd
 
-**Die aktuelle Unsicherheit liegt im Versandprozess**. Nach der Untersuchung mehrerer Versandunternehmen fanden wir heraus, dass der Versand zusätzliche Zeit in Anspruch nehmen wird, da wir wahrscheinlich Pakete over ein Lager transferieren werden, bevor sie das Lager von Crowd Supply erreichen. Wir diskutieren noch, ob wir Seefracht of Luftfracht wählen sollen—bitte habt noch ein paar Tage Geduld, während wir die Arrangements klären.
+**De huidige onzekerheid ligt in het verzendproces**. Nadat we verschillende rederijen hadden onderzocht, kwamen we erachter dat de verzending extra tijd in beslag zal nemen, omdat we pakketten waarschijnlijk via een magazijn zullen overbrengen voordat we het magazijn van Crowd Supply bereiken. We zijn nog steeds aan het twijfelen of we voor zee- of luchtvracht zullen kiezen. Heb nog een paar dagen geduld terwijl we de regelingen regelen.
 
-Der Zollabfertigung ist ein weiteres potenzielles Hindernis, das unerwartete Verzögerungen verursachen könnte. Sobald unsere Producte im US-Lager von Crowd Supply ankommen, werden sie ein bis zwei Wochen brauchen, um weltweit basierend auf jeder Bestellung versandt zu werden. Für Unterstützer außerhalb der USA müssen individuelle Pakete immer noch durch globalen Versand en Zollabfertigung im Zielland gehen.
+Inklaring door de douane is een ander potentieel obstakel dat onverwachte vertragingen kan veroorzaken. Zodra onze producten aankomen in het magazijn van Crowd Supply in de VS, duurt het één tot twee weken voordat ze wereldwijd worden verzonden, afhankelijk van elke bestelling. Voor donateurs buiten de VS moeten individuele pakketten nog steeds door de wereldwijde verzending en douane-inklaring in het land van bestemming gaan.
 
-Unter Berücksichtigung der aktuellen Situation en dem Hinzufügen von etwas Pufferzeit bleibe ich vorsichtig optimistisch, dass wir die Lieferung vor Ende dieses Jahres abschließen werden, met **einer neuen ETA von Mitte Januar**. Es tut mir wirklich leid voor die Unannehmlichkeiten en ich schätze eure Unterstützung en Geduld während dieser Änderung.
+Rekening houdend met de huidige situatie en wat buffertijd toevoegend, blijf ik voorzichtig optimistisch dat we de levering vóór het einde van dit jaar zullen voltooien, met **een nieuwe verwachte aankomsttijd van medio januari**. Mijn excuses voor het ongemak en ik waardeer uw steun en geduld tijdens deze wijziging.
 
-## Finalisierte Hardware V1.9
+## Gefinaliseerde hardware V1.9
 
-Wie ihr vielleicht aus unserem vorherigen [Reddit-Post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/) wisst, haben wir beschlossen, **unsere Hardware auf V1.9 zu upgraden**, einschließlich eines Satzes hackbarer Erweiterungs-Pins. Das war niet Teil des ursprünglichen Plans voor die Crowdfening-Kampagne, aber wir glauben, dass es das **Potenzial voor breitere Nutzung** der Hardware erheblich verbessert.
+Zoals je misschien weet uit onze vorige [Reddit post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/), hebben we besloten **onze hardware te upgraden naar V1.9**, inclusief een set hackbare uitbreidingspinnen. Dit maakte geen deel uit van het oorspronkelijke plan voor de crowdfundingcampagne, maar we zijn van mening dat dit het **potentieel van de hardware voor breder gebruik** aanzienlijk vergroot.
 
 ![240823-3](https://www.crowdsupply.com/img/77d7/09a9d0e5-3065-4f3e-8b61-bae66b5c77d7/openterface-240823-3_jpg_md-xl.jpg)
-*Die VCC-, GND-, Target D+-, Target D--, Host D+- en Host D--Pins—wobei 'D' voor USB-Daten steht.*
+*De VCC-, GND-, Target D+-, Target D--, Host D+- en Host D--pinnen, waarbij ‘D’ staat voor USB-gegevens.*
 
-Ein wichtiger Antrieb war, **den USB-Schalter auf Software-Ebene umschalten zu können**. Warum ist das wichtig? Auf unserer Roadmap **streben wir an, eine KVM-over-IP-Lösung** wie VNC in der Zukunft zu unterstützen. Die Idee ist, lokale KVM-Steuerung met dem VNC-Protokoll zu verbinden, wodurch Benutzer den Zielcomputer over den Host-Computer fernsteuern können. In einem solchen Remote-Szenario ist die Fähigkeit voor Benutzer, den USB-Port zu wechseln, wesentlich, besonders wenn Dateiovertragungen zwischen Host en Ziel erforderlich sind.
+Eén belangrijke motivatie was om ervoor te zorgen dat **de USB-schakelaar op softwareniveau kon worden omgeschakeld**. Waarom is dit belangrijk? Op onze roadmap streven we ernaar om in de toekomst een KVM-over-IP-oplossing**, zoals VNC, te ondersteunen. Het idee is om lokale KVM-besturing te matchen met het VNC-protocol, waardoor gebruikers de doelcomputer op afstand kunnen bedienen via de hostcomputer. In een dergelijk extern scenario is de mogelijkheid voor gebruikers om van USB-poort te wisselen essentieel, vooral wanneer bestandsoverdracht tussen de host en het doel vereist is.
 
-**Die Erweiterungs-Pins öffnen auch Möglichkeiten voor mehr**, wie Integration met iPadOS, ATX-Steuerung, Netzwerk-Bridging en Audio-Bypass. Obwohl ich hier niet in alle Details eintauchen werde, ermutige ich euch, unserer Openterface-Community beizutreten, um met uns weiter zu diskutieren.
+**De uitbreidingspinnen bieden ook mogelijkheden voor meer**, zoals integratie met iPadOS, ATX-bediening, netwerkbridging en audio-bypass. Hoewel ik hier niet op alle details zal ingaan, moedig ik je aan om lid te worden van onze Openterface-gemeenschap om verder met ons te praten.
 
-Dieses Hardware-Upgrade könnte potenziell unsere Openterface-Lösung erweitern, um over IP zu operieren en erweiterte Functies zu enthalten, während es seine Kernstärke als Plug-and-Play KVM-over-USB-Tool beibehält—perfekt voor IT-Profis, die unsichere IT-Umgebungen wie unbekannte Rechenzentren navigieren.
+Deze hardware-upgrade zou onze Openterface-oplossing mogelijk kunnen uitbreiden om via IP te werken en meer geavanceerde functies te bevatten, terwijl de kernkracht als plug-and-play KVM-over-USB-tool behouden blijft - perfect voor IT-professionals die door onzekere IT-omgevingen navigeren, zoals onbekende datacenters.
 
-Ich bin froh zu berichten, dass V1.9 unsere internen Basistests bestanden hat en als offizielle Version voor alle unsere Unterstützer finalisiert wird. Dieses Hardware-Upgrade wird jedoch weitere Tests erfordern, en jede Entwicklung basierend auf diesen Erweiterungs-Pins wird experimentell sein en wahrscheinlich Bugs haben. Hier könnt ihr beitragen. Wir verlassen uns auf die Open-Source-Community, um uns zu helfen, Openterface zusammen zu verbessern.
+Ik ben blij te kunnen melden dat V1.9 onze interne basistests heeft doorstaan ​​en zal worden afgerond als de officiële versie voor al onze donateurs. Deze hardware-upgrade vereist echter verder testen, en elke ontwikkeling op basis van deze uitbreidingspinnen zal experimenteel zijn en waarschijnlijk bugs bevatten. Hier kunt u een bijdrage leveren. We rekenen op de open-sourcegemeenschap om ons samen te helpen Openterface te verbeteren.
 
-## Mehr Software-Updates
+## Meer software-updates
 
-Auf der Software-Seite machen wir aufregende Fortschritte. Wir tauchen jetzt in die **Openterface Android-App** ein! Schaut euch diesen [Tweet](https://x.com/TechxArtisan/status/1825460088922071398) voor eine frühe Demo an, die flüssige KVM-Steuerung, Mausbewegung en Klicks in Aktion zeigt. Mehr Functies sind unterwegs, en wie immer, sobald wir den Code etwas mehr poliert haben, **wird diese App auch open-sourced** in unserem GitHub-Repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
+Op softwaregebied maken we spannende stappen. We duiken nu in de **Openterface Android-app**! Bekijk deze [tweet](https://x.com/TechxArtisan/status/1825460088922071398) voor een vroege demo die soepele KVM-bediening, muisbewegingen en klikken in actie laat zien. Er komen nog meer functies aan, en zoals altijd, zodra we de code wat verder hebben opgepoetst, zal **deze app ook open source zijn** op onze GitHub-repository [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
 ![240823-4](https://www.crowdsupply.com/img/7007/b192f260-1e1f-4dab-905b-fb0a6d927007/openterface-240823-4_jpg_md-xl.jpg)
-*Nur unsere Fingerspitzen verwenden, um einen Linux-Computer von einem Android-Tablet aus KVM zu steuern. Schick!*
+*Met slechts onze vingertoppen kunt u met KVM een Linux-computer bedienen vanaf een Android-tablet. Leuk!*
 
-Unsere QT-Version hat gerade ein praktisches Update erhalten—ihr könnt jetzt [Text vom Host zum Ziel overtragen](https://x.com/TechxArtisan/status/1825919721960780131)! Also wird diese Funktion jetzt auf macOS-, Windows- en Linux-Host-Apps unterstützt.
+Onze QT-versie heeft zojuist een handige update gekregen: je kunt nu [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131)! Deze functie wordt nu dus ondersteund op macOS-, Windows- en Linux-host-apps.
 
-Außerdem planen wir, eine lustige Funktion hinzuzufügen—[eine automatische Mausbewegung, um zu verhindern, dass euer Zielcomputer schläft](https://x.com/TechxArtisan/status/1825471186668847241). Sollen wir met dem Ping-Pong-Ball gehen, der um den Bildschirm hüpft, of dem klassischen DVD-Bildschirmschoner-Effekt? Stimmt ab en kommentiert den [Tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
+Bovendien zijn we ook van plan een leuke functie toe te voegen: [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825471186668847241). Moeten we kiezen voor de pingpongbal die over het scherm stuitert of voor het klassieke dvd-screensaver-effect? Stem en reageer op [tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
 
-## Verpackungsdesign, Beschriftung en Handbuch
+## Pakketontwerp, etikettering en handleiding
 
-Wir haben [met verschiedenen Mock-ups en Verpackungsdesigns experimentiert](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/), um das perfekte Gleichgewicht zwischen mehreren Schlüsselfaktoren zu finden:
+We hebben [experimenting with various mock-ups and packaging designs](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/) gezocht naar de perfecte balans tussen verschillende belangrijke factoren:
 
-- Materialien auswählen, die robust genug sind, um das Product en seine Teile während des Versands zu schützen,
-- Informative Beschriftung erstellen, die Benutzern hilft, das Product auf einen Blick zu verstehen,
-- Einhaltung der Vorschriften sicherstellen,
-- Die Verpackung visuell ansprechend machen,
-- Und umweltfreenlich sein, indem Plastikverwendung wo immer möglich minimiert wird.
+- Het selecteren van materialen die stevig genoeg zijn om het product en de onderdelen ervan tijdens verzending te beschermen,
+- Het creëren van informatieve labels die gebruikers helpen het product in één oogopslag te begrijpen,
+- Zorgdragen voor naleving van de regelgeving,
+- Het visueel aantrekkelijk maken van de verpakking,
+- En milieuvriendelijk zijn door het plasticgebruik waar mogelijk te minimaliseren.
 
-Zusätzlich haben wir mehrere Verbesserungen an der alten Toolkit-Tasche vorgenommen, einschließlich:
+Daarnaast hebben we verschillende verbeteringen aangebracht aan de oude toolkit, waaronder:
 
-- Größerer Stauraum,
-- Stilvollem orangen Reißverschluss,
-- Aufgewerteten Außen- en Innenmaterialien,
-- Und einer super dehnbaren Mesh-Tasche.
+- Grotere opslagruimte,
+- Een stijlvolle oranje ritssluiting,
+- Verbeterde exterieur- en interieurmaterialen,
+- En een super rekbare mesh zak.
 
-Wir haben dieses Material gewählt, weil es das ideale Gleichgewicht zwischen budgetfreenlich, angenehm zu berühren en haltbar genug, um die Artikel darin zu schützen, bietet. **Wir sind zuversichtlich, dass ihr es lieben werdet**.
+We hebben voor dit materiaal gekozen omdat het de ideale balans biedt tussen budgetvriendelijk, aangenaam om aan te raken en duurzaam genoeg om de spullen erin te beschermen. **We zijn ervan overtuigd dat je het geweldig zult vinden**.
 
 ![240823-5](https://www.crowdsupply.com/img/099a/75e16f52-bd0c-4652-af27-08caf448099a/openterface-240823-5_jpg_md-xl.jpg)
 
-Wir aktualisieren auch die Beschriftungen auf dem Aluminiumgehäuse, um sie so informativ en visuell ansprechend wie möglich zu machen. Wir hoffen, dass diese Verbesserungen eure Benutzererfahrung verbessern en es einfacher machen werden, met Openterface zu beginnen.
+We werken ook de labels op de aluminium behuizing bij om ze zo informatief en visueel aantrekkelijk mogelijk te maken. We hopen dat deze verbeteringen uw gebruikerservaring zullen verbeteren en het gemakkelijker zullen maken om aan de slag te gaan met Openterface.
 
 ![240823-6](https://www.crowdsupply.com/img/94d8/441a5757-2d6a-4c79-885b-7b5b3a7094d8/openterface-240823-6_jpg_md-xl.jpg)
 
-Wir finalisieren das Openterface-Handbuch, das auf Englisch, Deutsch, Französisch, Japanisch en Chinesisch verfügbar sein wird. Entschuldigung, wenn wir eure Sprache verpasst haben—unsere Box ist niet TARDIS-groß (die Polizeibox von Doctor Who)! Aber wir werden unser Bestes geben, um mehr Übersetzungen auf unserer Website hinzuzufügen.
+We zijn bezig met de laatste hand aan de Openterface-handleiding, die beschikbaar zal zijn in het Engels, Duits, Frans, Japans en Chinees. Excuses als we uw taalgebruik hebben gemist: onze box is niet van TARDIS-formaat (de politiebox van Doctor Who)! Maar we zullen ons best doen om meer vertalingen op onze website toe te voegen.
 
 ![240823-7](https://www.crowdsupply.com/img/e2d9/2e5a2086-20f0-47ec-a27b-288d10d0e2d9/openterface-240823-7_jpg_md-xl.jpg)
 
-## Community-Sprachoverprüfung
+## Gemeenschapstaalrecensie
 
-Ich habe ChatGPT verwendet, um bei Übersetzungen zu helfen, aber es kann manchmal bei Formulierungen en Wortwahl daneben liegen. Wenn es niet zu viel Mühe ist, würde ich jede Hilfe bei der Überprüfung von Inhalten in anderen Sprachen sehr schätzen, besonders voor die Druckmaterialien, die wir gerade finalisieren. Ich habe alle Textinhalte voor die Verpackung in unserem GitHub-Ordner [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials) aktualisiert, wo ihr overprüfen en Verbesserungen einreichen könnt. Ihr könnt mich auch direkt DMen. Danke!
+Ik gebruik ChatGPT om te helpen met vertalingen, maar het kan soms de plank misslaan met frasering en formulering. Als het niet te veel moeite is, zou ik alle hulp bij het beoordelen van de inhoud in andere talen zeer op prijs stellen, vooral voor het gedrukte materiaal dat we binnenkort gaan afronden. Ik heb alle tekstinhoud voor de verpakking bijgewerkt in onze GitHub-map [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials), waar u eventuele verbeteringen kunt bekijken en indienen. Je kunt mij ook rechtstreeks een DM sturen. Bedankt!
 
-## Abschließende Bemerkungen en laufende Fortschritte
+## Slotopmerkingen en voortdurende vooruitgang
 
-Wir entschuldigen uns nochmals voor die Verzögerungen en die Änderung in der ETA unseres Products. Danke voor eure Geduld en davoor, dass ihr bei uns bleibt—wir arbeiten hart daran, es euch so schnell wie möglich zu bringen! Ich werde euch sofort aktualisieren, sobald unser Versand arrangiert ist. Mehr Updates sind unterwegs, also trett unserer Openterface-Community bei en bleibt dran!
+Wij verontschuldigen ons nogmaals voor de vertragingen en de wijziging in de verwachte aankomsttijd van ons product. Bedankt voor uw geduld en dat u bij ons blijft. We werken er hard aan om dit zo snel mogelijk bij u te bezorgen! Ik breng u onmiddellijk op de hoogte zodra onze verzending is geregeld. Er komen meer updates aan, dus sluit u aan bij onze Openterface-community en blijf op de hoogte!
 
-Prost,
+Proost,
 
 Billy Wang  
 Productmanager  
-Openterface-Team | TechxArtisan
+Openterface-team | TechxArtisan

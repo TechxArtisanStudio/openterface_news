@@ -2,104 +2,103 @@
 locale: pl
 translationKey: "241107-orange-cable"
 slug: "241107-orange-cable"
-title: "Das Schiff ist Ausgelaufen i Zusätzliche Kabel zum Toolkit Hinzugefügt. Was Kommt Als Nächstes?"
-description: "Openterface Mini-KVM Versand beginnt! Kostenloses Upgrade: zusätzliche hochwertige USB 3.2-Kabel zum Toolkit hinzugefügt. Produkty auf dem Weg in die USA, Lieferung Mitte Dezember erwartet. Plus: EMI-Testergebnisse, Merchandise-Launch i DIY-Challenge-Erinnerung."
+title: "Statek odpłynął i dodano dodatkowe kable do zestawu narzędzi. Co dalej?"
+description: "Rozpoczyna się dostawa Openterface Mini-KVM! Bezpłatna aktualizacja: do zestawu narzędzi dodano dodatkowe, wysokiej jakości kable USB 3.2. Produkty w drodze do USA, spodziewana dostawa w połowie grudnia. Plus: wyniki testów EMI, premiera gadżetów i przypomnienie o wyzwaniu DIY."
 date: 2024-11-13
 channel: product
 product: minikvm
-topic: ["production", "software", "campaign", "event", "community"]
-category: "Product Aktualizacje"
+topic: ["shipping", "production", "software", "campaign", "event", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Witaj, społeczność Openterface!
 
-Hallo, Openterface-Community!
-
-Wir freuen uns, bekannt zu geben, dass unsere Openterface-Produkty offiziell versandt wurden. Sie befinden sich derzeit im Hafen von Shenzhen i sind bereit, auf ein Frachtschiff in die USA zu gehen!
+Z radością ogłaszamy, że nasze produkty Openterface zostały oficjalnie wysłane. Obecnie przebywają w porcie w Shenzhen, gotowi na wejście na statek towarowy płynący do USA!
 
 ![cardboard boxs to Crowdsupply](https://www.crowdsupply.com/img/fa1e/e8712da8-fb16-4947-9ce7-56c261c4fa1e/241107-s_jpg_gallery-lg.jpg)
 ![product packing](https://www.crowdsupply.com/img/fa1e/e8712da8-fb16-4947-9ce7-56c261c4fa1e/241107-s_jpg_gallery-lg.jpg)
 
-Hier ist was neu ist:
+Oto nowości:
 
-## Erfüllungsvorbereitungen: Qualitätsprüfungen i Verpackung
+## Przygotowania do realizacji: kontrola jakości i pakowanie
 
-Vor der Verpackung i dem Versand haben wir jede Einheit gründlich getestet, um die höchste Qualität zu gewährleisten, wie wir im vorherigen Update erwähnt haben: [DIY-Challenge, Coole Preise i die Produktion Nähert sich dem Ziel!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/diy-challenge-cool-prizes-and-production-nears-the-finish-line). Jedes Kabel wurde z unserem Mini-KVM auf Signalotragungsstabilität untersucht.
+Przed zapakowaniem i wysyłką dokładnie przetestowaliśmy każde urządzenie, aby zapewnić najwyższą jakość, jak wspomnieliśmy w poprzedniej aktualizacji: [DIY Challenge, Cool Prizes, and Production Nears the Finish Line!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/diy-challenge-cool-prizes-and-production-nears-the-finish-line). Każdy kabel został sprawdzony pod kątem stabilności transmisji sygnału przy użyciu naszego Mini-KVM.
 
-Lassen Sie uns jetzt o die Nachrichten sprechen—sowohl die schlechten als auch die guten.
+Porozmawiajmy teraz o nowościach – zarówno tych złych, jak i dobrych.
 
-### SCHLECHTE Nachrichten: Einige Orange Kabel Erfüllten Nicht die Erwartungen Unter Harten Bedingungen
+### ZŁA wiadomość: niektóre pomarańczowe kable nie spełniły oczekiwań w trudnych warunkach
 
-Unser Mini-KVM oträgt Video, Audio, Maus/Tastatur-Steuerung i USB-Daten o ein einziges Type-C-Kabel. Die Leistung des Kabels ist kritisch dla die Datenstabilität, besonders in herausfordernden Umgebungen.
+Nasz Mini-KVM przesyła wideo, dźwięk, sterowanie myszą/klawiaturą i dane USB za pomocą jednego kabla typu C. Wydajność kabla ma kluczowe znaczenie dla stabilności danych, szczególnie w trudnych warunkach.
 
-Um reale Störungen zu simulieren, haben wir das orange Type-C-Kabel um einen elektrischen Lüftermotor gewickelt, während mehrere Computer in der Nähe liefen. Dies erzeugte ein hohes Maß an elektromagnetischer Störung (EMI), um die Datenotragungsstabilität unserer Kabel zu bewerten.
+Aby zasymulować zakłócenia w świecie rzeczywistym, owinęliśmy pomarańczowy kabel Type-C wokół silnika wentylatora elektrycznego, uruchamiając jednocześnie wiele komputerów w pobliżu. Stworzyło to wysoki poziom zakłóceń elektromagnetycznych (EMI), co pozwoliło ocenić stabilność transmisji danych w naszych kablach.
 
 ![Testing Setup](https://www.crowdsupply.com/img/582f/cf618b42-e6ea-41dc-9fc9-7c9f2443582f/241107-0_jpg_gallery-lg.jpg)
-*Eine budgetfreiliche aber effektive Testmethode.*
+*Niedroga, ale skuteczna metoda testowania.*
 
-Schauen Sie sich [unseren Video-Tweet](https://x.com/TechxArtisan/status/1856559677296816347) an, der einen unserer Leistungstests zum Vergleich zeigt.
+Sprawdź [our video tweet](https://x.com/TechxArtisan/status/1856559677296816347) przedstawiający jeden z naszych testów wydajności dla porównania.
 
-Unter diesen Bedingungen hatten einige orange Kabel Probleme z Signalverlust, was Bedenken o ihre Zuverlässigkeit in komplexen Umgebungen wie Rechenzentren lub während kritischer IT-Operationen aufwarf.
+W tych warunkach niektóre pomarańczowe kable borykały się z utratą sygnału, co budziło obawy co do ich niezawodności w złożonych środowiskach, takich jak centra danych lub podczas krytycznych operacji IT.
 
-Um dies zu beheben, entwickelte Kevin Peng, unser Technischer Direktor, ein maßgeschneidertes Testprogramm. Dieses Tool, das es Ihnen ermöglicht, die Qualität Ihrer eigenen USB-Kabel zu testen, wird bald open-source z weiteren Aktualizacje später.
+Aby rozwiązać ten problem, Kevin Peng, nasz dyrektor techniczny, opracował dostosowany do potrzeb program testów. To narzędzie, umożliwiające testowanie jakości własnych kabli USB, wkrótce będzie dostępne jako oprogramowanie typu open source z dodatkowymi aktualizacjami później.
 
 ![Testing programme interface](https://www.crowdsupply.com/img/edad/3a30e668-b0e4-4a2d-ace3-446292d6edad/241107-1_jpg_md-xl.jpg)
-*Unser Programm macht Kabeltests zum Kinderspiel.*
+*Nasz program sprawia, że testowanie kabli jest dziecinnie proste.*
 
-Während unsere orange Kabel z ihrer weichen, silikonähnlichen Textur i attraktiven Erscheinung großartig i perfekt dla den täglichen Gebrauch wie schnelles Laden i regelmäßige Datenotragungen sind, fallen sie bei schweren Übertragungsarbeiten unter harten Bedingungen wie hoher EMI kurz.
+Chociaż nasze pomarańczowe kable o miękkiej, przypominającej silikon teksturze i atrakcyjnym wyglądzie są świetne i doskonale nadają się do codziennego użytku, np. szybkiego ładowania i regularnej transmisji danych, nie sprawdzają się w przypadku ciężkich transmisji w trudnych warunkach, takich jak wysokie zakłócenia elektromagnetyczne.
 
-### GUTE Nachrichten: Unsere Lösung ist Hier
+### DOBRA wiadomość: nasze rozwiązanie jest tutaj
 
-Wir haben sofort hochwertige Nylon-USB 3.2-Kabel beschafft, um sie als Extra in der Toolkit-Version einzuschließen—**ohne zusätzliche Kosten** dla Sie. Diese langlebigen Kabel gibt es in drei Längen in grauer Farbe: *1M (3.2 ft)*, *1.5M (4.9 ft)* i *2M (6.5 ft)*. Sie erhalten ein zufällig ausgewähltes Kabel aus diesen Längenoptionen in Ihrer Toolkit-Version, was sicherstellt, dass Sie eine robuste i zuverlässige Połączenie dla Ihr Mini-KVM haben.
+Natychmiast pozyskaliśmy wysokiej jakości nylonowe kable USB 3.2, które można dołączyć jako dodatek do wersji Toolkit — **bez dodatkowych kosztów** dla Ciebie. Te wytrzymałe kable są dostępne w trzech długościach w kolorze szarym: *1M (3,2 stopy)*, *1,5M (4,9 stopy)* i *2M (6,5 stopy)*. Otrzymasz jeden losowo wybrany kabel z tych opcji długości w wersji zestawu narzędzi, co zapewni solidne i niezawodne połączenie dla Twojego Mini-KVM.
 
 ![New Grey Nylon Type-C cables](https://www.crowdsupply.com/img/ec4c/0490dce1-7209-404e-bc3c-894de726ec4c/241107-2_jpg_md-xl.jpg)
 
-In zukünftigen Mini-KVM Toolkit-Versionen wird unser orange Kabel dla die Połączenie zur Host-Seite des Mini-KVM auf das Nylon Type-C 3.2-Kabel aufgerüstet, was Funktionalität, Stabilität i Stil kombiniert.
+W przyszłych wersjach zestawu narzędzi Mini-KVM nasz pomarańczowy kabel do podłączenia Mini-KVM po stronie hosta zostanie zastąpiony nylonowym kablem Type-C 3.2, łączącym funkcjonalność, stabilność i styl.
 
 ![Custom Nylon Type-C cables](https://www.crowdsupply.com/img/1f6b/27fa6407-e058-4cf1-82f5-d788c8fa1f6b/241107-3_jpg_md-xl.jpg)
 
-Wir hoffen, Sie schätzen diese Entscheidung i verlassen sich weiterhin auf Openterface während kritischer Momente an Ihren Tech-Fronten.
+Mamy nadzieję, że docenisz tę decyzję i nadal będziesz polegać na Openterface w krytycznych momentach na linii frontu technologicznego.
 
-## Versandplan
-Wann können Sie Ihr Mini-KVM erwarten?
-Wenn alles reibungslos z unserem Versand läuft, sollten unsere Produkty **Mitte Dezember** im Mouser-Lager von Crowd Supply ankommen, dann werden sie unser Openterface entsprechend jeder Bestellung versenden.
+## Harmonogram wysyłek
+Kiedy można się spodziewać Mini-KVM?
+Jeśli wszystko przebiegnie pomyślnie z naszą wysyłką, nasze produkty powinny dotrzeć do **magazynu Mouser firmy Crowd Supply do połowy grudnia**, a następnie nasz Openterface zostanie wysłany zgodnie z każdym zamówieniem.
 
-- **Für Unterstützer in den USA**: Es gibt eine kleine Chance auf Lieferung vor Weihnachten, aber das ist nie garantiert, da alles dazu neigt, langsamer zu werden, wenn die Feiertage näher rücken.
+- **W przypadku osób wspierających w USA**: istnieje niewielka szansa na dostawę przed Świętami Bożego Narodzenia, ale nie jest to gwarantowane, ponieważ w miarę zbliżania się świąt wszystko zwykle zwalnia.
 
-- **Für Unterstützer außerhalb der USA**: Die Lieferzeiten werden variieren. Unsere beste Schätzung ist Mitte Januar.
+- **Dla osób wspierających spoza USA**: Czas dostawy będzie się różnić. Nasze najlepsze szacunki to połowa stycznia.
 
-Hier ist die Hoffnung auf eine reibungslose Reise dla unsere Openterface-Produkty—keine Seekrankheit, Autokrankheit lub Jetlag! 😃
+Mamy nadzieję, że nasza podróż z produktami Openterface przebiegnie bezproblemowo — bez choroby morskiej, samochodowej i opóźnienia spowodowanego zmianą strefy czasowej! 😃
 
-## Coole Openterface T-Shirts i Hoodies
+## Fajne koszulki i bluzy z otwartym interfejsem
 
-Wir werden dieses Wochenende (16-17 Nov) auf der Shenzhen Maker Fair sein. Um uns vorzubereiten, haben wir Teamkleidung entworfen, einschließlich T-Shirt, Reißverschluss- i Pullover-Hoodie.
+W najbliższy weekend (16–17 listopada) będziemy na targach Shenzhen Maker Fair. Aby się przygotować, zaprojektowaliśmy odzież zespołową, w tym T-shirt, bluzę zapinaną na zamek i pulower z kapturem.
 
-Schauen Sie sich das an i lassen Sie uns wissen, was Sie denken:
+Spójrz i daj nam znać, co myślisz:
 ![Openterface T-shirt and Hoodie](https://www.crowdsupply.com/img/b669/000e2c39-c738-48c2-96c4-14c822acb669/241107-c_jpg_md-xl.jpg)
 
-## Unterstützen Sie Unsere Entwicklung
+## Wspieraj nasz rozwój
 
-Wenn Sie unsere Open-Source-Entwicklung weiter unterstützen möchten, können Sie auch unseren [TechxArtisan Sklep](https://shop.techxartisan.com/) besuchen. Sie können Kabel, T-Shirts i Hoodies kaufen—alles während Sie uns finanziell helfen, weiter zu innovieren. Jeder Kauf zählt i unterstützt den Open-Source-Community-Geist.
+Jeśli chcesz dalej wspierać nasz rozwój oprogramowania open source, możesz również zapoznać się z naszym [TechxArtisan Shop](https://shop.techxartisan.com/). Możesz kupić kable, T-shirty i bluzy, a wszystko to pomagając nam finansowo w dalszym wprowadzaniu innowacji. Każdy zakup się liczy i wspiera ducha społeczności open source.
 
-## Was Kommt Als Nächstes: Host-App-Aktualizacje
+## Co dalej: aktualizacje aplikacji hosta
 
-Teraz, da der Versand läuft, wird sich unser Fokus zurück auf die Verfeinerung unserer Host-Apps verlagern. Wir arbeiten daran, sie o verschiedene App-Stores verifizieren zu lassen, um eine nahtlose Erfahrung zu gewährleisten, wenn Sie z Openterface beginnen.
+Teraz, gdy wysyłka już się rozpoczęła, skupimy się z powrotem na udoskonalaniu naszych aplikacji hostujących. Pracujemy nad ich weryfikacją w różnych sklepach z aplikacjami, aby zapewnić bezproblemową obsługę na początku korzystania z Openterface.
 
 ![App stores](https://www.crowdsupply.com/img/eeed/f4a77105-24d0-4c43-96f9-5a1383c7eeed/241107-4_png_md-xl.jpg)
 
-## Was Kommt Als Nächstes: Treten Sie Unserem USB DIY-Wettbewerb Bei
+## Co dalej: dołącz do naszego konkursu DIY na USB
 
-Warum treten Sie nie unserem **USB KVM DIY Challenge 2024** bei, sobald Sie Ihr Openterface Mini-KVM in der Hand haben? Es ist eine großartige Gelegenheit, zu unserer Open-Source-Entwicklung beizutragen i sogar einen Preis zu gewinnen——einschließlich zwei Sondereditionen Openterface Mini-KVM i mehr! Für weitere Details schauen Sie sich [die Wettbewerbsseite von Crowd Supply](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024) an.
+Dlaczego nie dołączyć do naszego **USB KVM DIY Challenge 2024**, gdy już będziesz mieć w ręku swój Openterface Mini-KVM? To świetna okazja, aby przyczynić się do naszego rozwoju oprogramowania open source, a nawet wygrać nagrodę — — w tym dwie specjalne edycje Openterface Mini-KVM i nie tylko! Aby uzyskać więcej informacji, sprawdź [the Crowd Supply's contest page](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024).
 
 ![alt text](https://www.crowdsupply.com/img/3dca/b5afab10-8174-4eb2-b3d7-222844333dca/usb-kvm-diy-2024-logo-1.svg)
 ![alt text](https://www.crowdsupply.com/img/59e4/b021e19a-21ed-4ba1-840e-1d20877159e4/openterface-241017-03-jpg-md-xl_jpg_gallery-lg.jpg)
 
-## Zusammenfassung
+## Podsumowanie
 
-Danke, dass Sie ein integraler Teil unserer Reise sind. Ihre Unterstützung i Ihr Feedback halten uns in Bewegung. Wenn Sie Pytania lub Ideen haben, würden wir gerne von Ihnen hören! Treten Sie dem Gespräch in unserer Community auf [Reddit](https://openterface.com/reddit) i [Discord](https://openterface.com/discord) bei.
+Dziękujemy, że jesteś integralną częścią naszej podróży. Twoje wsparcie i opinie pozwalają nam iść do przodu. Jeśli masz jakieś pytania lub pomysły, chętnie się z Tobą skontaktujemy! Dołącz do rozmowy w naszej społeczności na [Reddit](https://openterface.com/reddit) i [Discord](https://openterface.com/discord).
 
-Mit Dankbarkeit,  
-Billy Wang  
-Produktmanager  
-Openterface Team | TechxArtisan
+Z wdzięcznością,  
+Billy'ego Wanga  
+Menedżer produktu  
+Zespół Openinterface | TechxArtisan

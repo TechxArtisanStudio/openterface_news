@@ -2,104 +2,103 @@
 locale: tr
 translationKey: "241107-orange-cable"
 slug: "241107-orange-cable"
-title: "Das Schiff ist Ausgelaufen ve Zusätzliche Kabel zum Toolkit Hinzugefügt. Was Kommt Als Nächstes?"
-description: "Openterface Mini-KVM Versand beginnt! Kostenloses Upgrade: zusätzliche hochwertige USB 3.2-Kabel zum Toolkit hinzugefügt. Ürüne auf dem Weg in die USA, Lieferung Mitte Dezember erwartet. Plus: EMI-Testergebnisse, Merchandise-Launch ve DIY-Challenge-Erinnerung."
+title: "Gemi Yelken Açtı ve Araç Takımına Ekstra Kablolar Eklendi. Sırada Ne Var?"
+description: "Openterface Mini-KVM sevkiyatı başlıyor! Ücretsiz yükseltme: Araç setine ilave yüksek kaliteli USB 3.2 kabloları eklendi. Ürünler ABD'ye gidiyor; teslimatın Aralık ortasında yapılması bekleniyor. Artı: EMI testi sonuçları, ürün lansmanı ve Kendin Yap mücadelesi hatırlatıcısı."
 date: 2024-11-13
 channel: product
 product: minikvm
-topic: ["production", "software", "campaign", "event", "community"]
-category: "Product Güncellemeler"
+topic: ["shipping", "production", "software", "campaign", "event", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Merhaba Openterface topluluğu!
 
-Hallo, Openterface-Community!
-
-Wir freuen uns, bekannt zu geben, dass unsere Openterface-Ürüne offiziell versandt wurden. Sie befinden sich derzeit im Hafen von Shenzhen ve sind bereit, auf ein Frachtschiff in die USA zu gehen!
+Openterface ürünlerimizin resmi olarak gönderildiğini duyurmaktan heyecan duyuyoruz. Şu anda Shenzhen limanındalar, ABD'ye gidecek bir kargo gemisine binmeye hazırlar!
 
 ![cardboard boxs to Crowdsupply](https://www.crowdsupply.com/img/fa1e/e8712da8-fb16-4947-9ce7-56c261c4fa1e/241107-s_jpg_gallery-lg.jpg)
 ![product packing](https://www.crowdsupply.com/img/fa1e/e8712da8-fb16-4947-9ce7-56c261c4fa1e/241107-s_jpg_gallery-lg.jpg)
 
-Hier ist was neu ist:
+İşte yenilikler:
 
-## Erfüllungsvorbereitungen: Qualitätsprüfungen ve Verpackung
+## Yerine Getirme Hazırlıkları: Kalite Kontrolleri ve Paketleme
 
-Vor der Verpackung ve dem Versand haben wir jede Einheit gründlich getestet, um die höchste Qualität zu gewährleisten, wie wir im vorherigen Update erwähnt haben: [DIY-Challenge, Coole Preise ve die Ürünion Nähert sich dem Ziel!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/diy-challenge-cool-prizes-and-production-nears-the-finish-line). Jedes Kabel wurde ile unserem Mini-KVM auf Signalhakkındatragungsstabilität untersucht.
+Paketlemeden ve nakliyeden önce, önceki güncellemede belirttiğimiz gibi, en yüksek kaliteyi sağlamak için her üniteyi kapsamlı bir şekilde test ettik: [DIY Challenge, Cool Prizes, and Production Nears the Finish Line!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/diy-challenge-cool-prizes-and-production-nears-the-finish-line). Mini-KVM'miz kullanılarak her kablo sinyal iletim stabilitesi açısından incelendi.
 
-Lassen Sie uns jetzt hakkında die Nachrichten sprechen—sowohl die schlechten als auch die guten.
+Şimdi hem kötü hem de iyi haberler hakkında konuşalım.
 
-### SCHLECHTE Nachrichten: Einige Orange Kabel Erfüllten Nicht die Erwartungen Unter Harten Bedingungen
+### KÖTÜ Haber: Bazı Turuncu Kablolar Zor Koşullarda Beklentileri Karşılayamadı
 
-Unser Mini-KVM hakkındaträgt Video, Audio, Maus/Tastatur-Steuerung ve USB-Daten hakkında ein einziges Type-C-Kabel. Die Leistung des Kabels ist kritisch için die Datenstabilität, besonders in herausfordernden Umgebungen.
+Mini-KVM'miz video, ses, fare/klavye kontrolü ve USB verilerini tek bir C Tipi kablo aracılığıyla iletir. Kablonun performansı, özellikle zorlu ortamlarda veri istikrarı açısından kritik öneme sahiptir.
 
-Um reale Störungen zu simulieren, haben wir das orange Type-C-Kabel um einen elektrischen Lüftermotor gewickelt, während mehrere Computer in der Nähe liefen. Dies erzeugte ein hohes Maß an elektromagnetischer Störung (EMI), um die Datenhakkındatragungsstabilität unserer Kabel zu bewerten.
+Gerçek dünyadaki paraziti simüle etmek için, yakınlarda birden fazla bilgisayarı çalıştırırken turuncu C Tipi kabloyu elektrikli fan motorunun etrafına sardık. Bu, kablolarımızın veri iletim stabilitesini değerlendirmek için yüksek düzeyde elektromanyetik girişim (EMI) yarattı.
 
 ![Testing Setup](https://www.crowdsupply.com/img/582f/cf618b42-e6ea-41dc-9fc9-7c9f2443582f/241107-0_jpg_gallery-lg.jpg)
-*Eine budgetfreveliche aber effektive Testmethode.*
+*Bütçe dostu ancak etkili bir test yöntemi.*
 
-Schauen Sie sich [unseren Video-Tweet](https://x.com/TechxArtisan/status/1856559677296816347) an, der einen unserer Leistungstests zum Vergleich zeigt.
+Karşılaştırma için performans testlerimizden birini gösteren [our video tweet](https://x.com/TechxArtisan/status/1856559677296816347)'e göz atın.
 
-Unter diesen Bedingungen hatten einige orange Kabel Probleme ile Signalverlust, was Bedenken hakkında ihre Zuverlässigkeit in komplexen Umgebungen wie Rechenzentren veya während kritischer IT-Operationen aufwarf.
+Bu koşullar altında, bazı turuncu kablolar sinyal kaybıyla boğuşuyor, bu da veri merkezleri gibi karmaşık ortamlarda veya kritik BT operasyonları sırasında güvenilirlikleriyle ilgili endişeleri artırıyordu.
 
-Um dies zu beheben, entwickelte Kevin Peng, unser Technischer Direktor, ein maßgeschneidertes Testprogramm. Dieses Tool, das es Ihnen ermöglicht, die Qualität Ihrer eigenen USB-Kabel zu testen, wird bald open-source ile weiteren Güncellemeler später.
+Bu sorunu çözmek için teknoloji direktörümüz Kevin Peng özel bir test programı geliştirdi. Kendi USB kablolarınızın kalitesini test etmenize olanak tanıyan bu araç, daha sonra daha fazla güncellemeyle yakında açık kaynaklı olacak.
 
 ![Testing programme interface](https://www.crowdsupply.com/img/edad/3a30e668-b0e4-4a2d-ace3-446292d6edad/241107-1_jpg_md-xl.jpg)
-*Unser Programm macht Kabeltests zum Kinderspiel.*
+*Programımız kablo testini kolaylaştırır.*
 
-Während unsere orange Kabel ile ihrer weichen, silikonähnlichen Textur ve attraktiven Erscheinung großartig ve perfekt için den täglichen Gebrauch wie schnelles Laden ve regelmäßige Datenhakkındatragungen sind, fallen sie bei schweren Übertragungsarbeiten unter harten Bedingungen wie hoher EMI kurz.
+Yumuşak, silikon benzeri dokusu ve çekici görünümüyle turuncu kablolarımız, hızlı şarj ve düzenli veri aktarımı gibi günlük kullanım için harika ve mükemmel olsa da, yüksek EMI gibi zorlu koşullardaki ağır aktarım çalışmalarında yetersiz kalıyor.
 
-### GUTE Nachrichten: Unsere Lösung ist Hier
+### İYİ Haber: Çözümümüz Burada
 
-Wir haben sofort hochwertige Nylon-USB 3.2-Kabel beschafft, um sie als Extra in der Toolkit-Version einzuschließen—**ohne zusätzliche Kosten** için Sie. Diese langlebigen Kabel gibt es in drei Längen in grauer Farbe: *1M (3.2 ft)*, *1.5M (4.9 ft)* ve *2M (6.5 ft)*. Sie erhalten ein zufällig ausgewähltes Kabel aus diesen Längenoptionen in Ihrer Toolkit-Version, was sicherstellt, dass Sie eine robuste ve zuverlässige Bağlantı için Ihr Mini-KVM haben.
+Araç Seti sürümüne ekstra olarak dahil etmek için hemen yüksek kaliteli naylon USB 3.2 kabloları temin ettik—**hiçbir ek ücret ödemeden**. Bu dayanıklı kablolar gri renkte üç uzunlukta mevcuttur: *1M (3,2 ft)*, *1,5M (4,9 ft)* ve *2M (6,5 ft)*. Araç Seti sürümünüzdeki bu uzunluk seçeneklerinden rastgele seçilmiş bir kablo alacaksınız, böylece Mini-KVM'niz için sağlam ve güvenilir bir bağlantıya sahip olacaksınız.
 
 ![New Grey Nylon Type-C cables](https://www.crowdsupply.com/img/ec4c/0490dce1-7209-404e-bc3c-894de726ec4c/241107-2_jpg_md-xl.jpg)
 
-In zukünftigen Mini-KVM Toolkit-Versionen wird unser orange Kabel için die Bağlantı zur Host-Seite des Mini-KVM auf das Nylon Type-C 3.2-Kabel aufgerüstet, was Funktionalität, Stabilität ve Stil kombiniert.
+Gelecekteki Mini-KVM Araç Seti sürümlerinde, Mini-KVM'nin ana bilgisayar tarafına bağlanmaya yönelik turuncu kablomuz, işlevsellik, sağlamlık ve stili birleştiren naylon Type-C 3.2 kabloya yükseltilecektir.
 
 ![Custom Nylon Type-C cables](https://www.crowdsupply.com/img/1f6b/27fa6407-e058-4cf1-82f5-d788c8fa1f6b/241107-3_jpg_md-xl.jpg)
 
-Wir hoffen, Sie schätzen diese Entscheidung ve verlassen sich weiterhin auf Openterface während kritischer Momente an Ihren Tech-Fronten.
+Bu kararı takdir edeceğinizi ve teknoloji cephenizdeki kritik anlarda Openterface'e güvenmeye devam edeceğinizi umuyoruz.
 
-## Versandplan
-Wann können Sie Ihr Mini-KVM erwarten?
-Wenn alles reibungslos ile unserem Versand läuft, sollten unsere Ürüne **Mitte Dezember** im Mouser-Lager von Crowd Supply ankommen, dann werden sie unser Openterface entsprechend jeder Bestellung versenden.
+## Gönderim Programı
+Mini-KVM'nizi ne zaman bekleyebilirsiniz?
+Gönderimimizde her şey yolunda giderse ürünlerimiz Aralık ortasına kadar Crowd Supply'ın **Mouser deposuna** ulaşacak, ardından Openterface'imiz de her siparişe göre gönderilecek.
 
-- **Für Unterstützer in den USA**: Es gibt eine kleine Chance auf Lieferung vor Weihnachten, aber das ist değil garantiert, da alles dazu neigt, langsamer zu werden, wenn die Feiertage näher rücken.
+- **ABD'deki destekçiler için**: Noel'den önce teslimat için küçük bir şans var, ancak bu garanti değil çünkü tatil yaklaştıkça her şey yavaşlama eğiliminde.
 
-- **Für Unterstützer außerhalb der USA**: Die Lieferzeiten werden variieren. Unsere beste Schätzung ist Mitte Januar.
+- **ABD dışındaki destekçiler için**: Teslimat süreleri değişiklik gösterecektir. En iyi tahminimiz Ocak ortası.
 
-Hier ist die Hoffnung auf eine reibungslose Reise için unsere Openterface-Ürüne—keine Seekrankheit, Autokrankheit veya Jetlag! 😃
+Openterface ürünlerimiz için deniz tutması, araba tutması veya jet lag olmadan sorunsuz bir yolculuk geçirmenizi umuyoruz! 😃
 
-## Coole Openterface T-Shirts ve Hoodies
+## Harika Openterface Tişörtler ve Kapüşonlular
 
-Wir werden dieses Wochenende (16-17 Nov) auf der Shenzhen Maker Fair sein. Um uns vorzubereiten, haben wir Teamkleidung entworfen, einschließlich T-Shirt, Reißverschluss- ve Pullover-Hoodie.
+Bu hafta sonu (16-17 Kasım) Shenzhen Maker Fuarı'nda olacağız. Donanımı artırmak için tişört, fermuarlı ve kapüşonlu üst gibi takım kıyafetleri tasarladık.
 
-Schauen Sie sich das an ve lassen Sie uns wissen, was Sie denken:
+Bir göz atın ve ne düşündüğünüzü bize bildirin:
 ![Openterface T-shirt and Hoodie](https://www.crowdsupply.com/img/b669/000e2c39-c738-48c2-96c4-14c822acb669/241107-c_jpg_md-xl.jpg)
 
-## Unterstützen Sie Unsere Entwicklung
+## Gelişimimizi Destekleyin
 
-Wenn Sie unsere Open-Source-Entwicklung weiter unterstützen möchten, können Sie auch unseren [TechxArtisan Mağaza](https://shop.techxartisan.com/) besuchen. Sie können Kabel, T-Shirts ve Hoodies kaufen—alles während Sie uns finanziell helfen, weiter zu innovieren. Jeder Kauf zählt ve unterstützt den Open-Source-Community-Geist.
+Açık kaynak geliştirmemizi daha fazla desteklemek isterseniz [TechxArtisan Shop](https://shop.techxartisan.com/) sayfamıza da göz atabilirsiniz. Kabloları, tişörtleri ve kapüşonlu üstleri satın alabilir ve aynı zamanda finansal olarak yenilik yapmaya devam etmemize yardımcı olabilirsiniz. Her satın alma, açık kaynak topluluk ruhunu dikkate alır ve destekler.
 
-## Was Kommt Als Nächstes: Host-App-Güncellemeler
+## Sırada Ne Var? Uygulama Güncellemelerini Barındırın
 
-Şimdi, da der Versand läuft, wird sich unser Fokus zurück auf die Verfeinerung unserer Host-Apps verlagern. Wir arbeiten daran, sie hakkında verschiedene App-Stores verifizieren zu lassen, um eine nahtlose Erfahrung zu gewährleisten, wenn Sie ile Openterface beginnen.
+Artık nakliye devam ettiği için odak noktamız yeniden ana uygulama uygulamalarımızı iyileştirmeye kayacak. Openterface'i kullanmaya başladığınızda kusursuz bir deneyim sağlamak için bunların çeşitli uygulama mağazalarında doğrulanması üzerinde çalışıyoruz.
 
 ![App stores](https://www.crowdsupply.com/img/eeed/f4a77105-24d0-4c43-96f9-5a1383c7eeed/241107-4_png_md-xl.jpg)
 
-## Was Kommt Als Nächstes: Treten Sie Unserem USB DIY-Wettbewerb Bei
+## Sırada Ne Var: USB Kendin Yap Yarışmamıza Katılın
 
-Warum treten Sie değil unserem **USB KVM DIY Challenge 2024** bei, sobald Sie Ihr Openterface Mini-KVM in der Hand haben? Es ist eine großartige Gelegenheit, zu unserer Open-Source-Entwicklung beizutragen ve sogar einen Preis zu gewinnen——einschließlich zwei Sondereditionen Openterface Mini-KVM ve mehr! Für weitere Details schauen Sie sich [die Wettbewerbsseite von Crowd Supply](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024) an.
+Openterface Mini-KVM'nizi elinize aldıktan sonra neden **USB KVM Kendin Yap Yarışması 2024**'e katılmıyorsunuz? Açık kaynak geliştirmemize katkıda bulunmak ve hatta Openterface Mini-KVM'nin iki özel sürümü ve daha fazlasını içeren bir ödül kazanmak için harika bir fırsat! Daha fazla ayrıntı için [the Crowd Supply's contest page](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024) adresini inceleyin.
 
 ![alt text](https://www.crowdsupply.com/img/3dca/b5afab10-8174-4eb2-b3d7-222844333dca/usb-kvm-diy-2024-logo-1.svg)
 ![alt text](https://www.crowdsupply.com/img/59e4/b021e19a-21ed-4ba1-840e-1d20877159e4/openterface-241017-03-jpg-md-xl_jpg_gallery-lg.jpg)
 
-## Zusammenfassung
+## Paketliyoruz
 
-Danke, dass Sie ein integraler Teil unserer Reise sind. Ihre Unterstützung ve Ihr Feedback halten uns in Bewegung. Wenn Sie Sorular veya Ideen haben, würden wir gerne von Ihnen hören! Treten Sie dem Gespräch in unserer Community auf [Reddit](https://openterface.com/reddit) ve [Discord](https://openterface.com/discord) bei.
+Yolculuğumuzun ayrılmaz bir parçası olduğunuz için teşekkür ederiz. Desteğiniz ve geri bildirimleriniz ilerlememizi sağlıyor. Herhangi bir sorunuz veya fikriniz varsa sizden haber almak isteriz! [Reddit](https://openterface.com/reddit) ve [Discord](https://openterface.com/discord) adresindeki topluluğumuzdaki sohbete katılın.
 
-Mit Dankbarkeit,  
+Minnettarlıkla,  
 Billy Wang  
-Ürünmanager  
-Openterface Team | TechxArtisan
+Ürün Müdürü  
+Açık Arayüz Ekibi | TechxArtisan

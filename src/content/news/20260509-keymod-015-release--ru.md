@@ -2,90 +2,156 @@
 locale: ru
 translationKey: "20260509-keymod-015-release"
 slug: "20260509-keymod-015-release"
-title: "KeyMod 0.15: Gamepad-Preset-Pipeline, Tastatur & Maus (Basic)-Tier, Multi-Touchpad-Layouts"
-description: "KeyMod 0.15 liefert die Gamepad-Preset-Pipeline с Schema v7, Multi-Touchpad-Layouts, ein dediziertes Tastatur & Maus (Basic)-Tier с Vollbild-Tastatur и KeyMod-Branding in der gesamten App. Ein wichtiger Schritt hin zu einer polierten Eingabe-Erfahrung."
+title: "KeyMod 0.15: конвейер предустановок геймпада, уровень клавиатуры и мыши (базовый), раскладки мультитачпада"
+description: "KeyMod 0.15 включает в себя конвейер предустановок геймпада со схемой v7, раскладками для нескольких тачпадов, уровнем клавиатуры и мыши (базовый) с полноэкранной клавиатурой и брендингом KeyMod во всем приложении. Важный шаг на пути к безупречному вводу данных."
 date: 2026-05-09
 channel: product
 product: keymod
-topic: ["beta", "software", "campaign", "community"]
-category: "Продукт-Обновления"
-tags: ["KeyMod", "Продукт-Обновления", "Release", "Gamepad", "Tastatur", "Android"]
+topic: ["shipping", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KeyMod", "Product Updates", "Release", "Gamepad", "Keyboard", "Android"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+KeyMod **0.15** (`versionCode` **15**) — это эпохальный выпуск, включающий три основные функции: **конвейер предустановок геймпада** со схемой раскладки **v6–v7**, выделенный уровень **Клавиатура и мышь (базовый)** и раскладки **мультитачпад**. В этом обновлении также реализована полная маркировка **KeyMod** в потоке приветствия и артефактах сборки.
 
-KeyMod **0.15** (`versionCode` **15**) ist ein Meilenstein-Release с drei Hauptfunktionen: der **Gamepad-Preset-Pipeline** с Layout-Schema **v6-v7**, dem dedizierten **Tastatur & Maus (Basic)**-Tier и **Multi-Touchpad**-Layouts. Dieses Update bringt außerdem vollständiges **KeyMod**-Branding im Willkommens-Flow и in den Build-Artefakten.
+#### Клавиатура и мышь (базовая версия)
 
-## Gamepad: Preset-Pipeline v7
+<div class="slideshow-container" id="slideshow-keymod-015-km-basic" data-auto-slide="true" data-auto-slide-interval="3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp" alt="Базовая полноэкранная клавиатура" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp" alt="Базовый режим создания и отправки" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp" alt="Базовая раскладка цифровой клавиатуры" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.webp" alt="Базовый режим сенсорной панели" loading="lazy"></div>
+  </div>
+  <div class="slideshow-navigation">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-km-basic', -1)">❮</button>
+    <div class="slideshow-dots">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-km-basic', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 4)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-km-basic', 1)">❯</button>
+  </div>
+</div>
 
-Das Gamepad nutzt nun ein echtes **Preset-System**, с dem ihr benutzerdefinierte Controller-Layouts speichern, laden, importieren и exportieren könnt.
+#### Геймпад
 
-### Was sich geändert hat
+<div class="slideshow-container" id="slideshow-keymod-015-gamepad" data-auto-slide="true" data-auto-slide-interval="3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp" alt="Предустановленный вид геймпада" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp" alt="Управление пресетами геймпада" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp" alt="Список настроек геймпада" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-4.webp" alt="Добавить модуль предустановленных настроек геймпада" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp" alt="Предустановка геймпада в Minecraft" loading="lazy"></div>
+  </div>
+  <div class="slideshow-navigation">
+<button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-gamepad', -1)">❮</button>
+    <div class="slideshow-dots">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-gamepad', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 5)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-gamepad', 1)">❯</button>
+  </div>
+</div>
 
-- **Preset-Store v7** ersetzt die alten eingebauten Layouts. Die klassischen Factory-Presets (`preset_classic_*`) и **Two Buttons** (`preset_two_buttons`) wurden von der Festplatte entfernt. Nur **`preset_default`** bleibt als löschgeschütztes Factory-Layout.
-- **Schema v7** macht **`stick_left`** optional. Ein Layout kann nun оhaupt kein Linker-Thumb-Modul haben. Das **Add Module**-Menü fügt **`stick_left`**, **`stick_left_2`**, **`stick_left_3`** usw. ein.
-- **Multi-Touchpad-Unterstützung**: Presets können mehrere Touchpads enthalten (`touchpad_1`, `touchpad_2`). Hinzufügen eines Touchpads belegt die nächste verfügbare ID с leicht versetztem Anker. Gebündelte L/M/R-Maustasten werden о alle Touchpads hinweg geteilt.
-- **Touchpad-Maustastengröße**: Maustasten verwenden nun einen größeren Standard-Zeichenradius. Größe anpassen per Long-Press **Mouse button size** auf dem Touchpad или **This button size** auf einzelnen Mausmodulen.
-- **Aux-Stick-Defaults**: **`stick_left_2+`** standardmäßig auf D-Pad-Kreuz + WASD-Mapping.
+#### Клавиатура и мышь (Pro)
 
-### Preset-Verwaltung
+<div class="slideshow-container" id="slideshow-keymod-015-km-pro" data-auto-slide="true" data-auto-slide-interval="3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp" alt="Профессиональная портретная клавиатура" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp" alt="Профессиональный портрет IME" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp" alt="Pro портретная цифровая клавиатура" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp" alt="Полная альбомная клавиатура Pro" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp" alt="Pro альбомная разделенная клавиатура" loading="lazy"></div>
+  </div>
+  <div class="slideshow-navigation">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-km-pro', -1)">❮</button>
+    <div class="slideshow-dots">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-km-pro', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 5)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-km-pro', 1)">❯</button>
+  </div>
+</div>
 
-- **Tippt** den Preset-Chip in der Toolbar, um durch verfügbare Layouts zu schalten
-- **Long-Press** для die vollständige Preset-Liste с Import-, Add Module- и Export-Optionen
-- Das сgelieferte **emu-6**-Layout ist das Starter-Preset
-- Der Export-Creator unterstützt i18n zum Teilen von Presets о Sprachen hinweg
+## Геймпад: предустановленный конвейер v7
 
-## Tastatur & Maus (Basic)
+Геймпад теперь использует правильную **систему предустановок**, которая позволяет сохранять, загружать, импортировать и экспортировать пользовательские макеты контроллера.
 
-Ein dediziertes Vollbild-Tastatur-Tier для konzentriertes Tippen ohne den App-Header.
+### Что изменилось
 
-### Was ihr bekommt
+- **Магазин предустановок v7** заменяет старые встроенные макеты. Классические заводские настройки (`preset_classic_*`) и **Две кнопки** (`preset_two_buttons`) были удалены с диска. Только **`preset_default`** остается заводским макетом, защищенным от удаления.
+- **Schema v7** делает **`stick_left`** необязательным. Теперь в макете вообще может не быть модуля левого пальца. Меню **Добавить модуль** вставляет **`stick_left`**, **`stick_left_2`**, **`stick_left_3`** и т. д.
+- **Поддержка нескольких сенсорных панелей**: предустановки могут включать несколько сенсорных панелей («touchpad_1», «touchpad_2»). При добавлении тачпада следующий доступный идентификатор выделяется со слегка смещенной привязкой. Входящие в комплект кнопки мыши L/M/R используются на всех сенсорных панелях.
+- **Размер кнопок мыши на сенсорной панели**: кнопки мыши теперь используют больший радиус прорисовки по умолчанию. Вы можете изменить размер, нажав и удерживая кнопку **Размер кнопки мыши** на сенсорной панели или **Размер этой кнопки** на отдельных модулях мыши.
+- **Настройки по умолчанию для дополнительного джойстика**: **`stick_left_2+`** по умолчанию — перекрестие D-pad + отображение WASD.
 
-- **Vollbild-Tastatur** ohne Haupt-App-Header для mehr Bildschirmfläche
-- **Porträt- и Landschafts-Numpad**: 5x8-Raster im Porträt (PrtSc / ScrLk / Pause / Home / End), 8x5-Raster in Landschaft с hohem +, Enter и 00
-- **IME ASCII-only Send-Gate**: Längeren Text im Compose-Modus eingeben, als saubere HID-Tastendrücke senden
-- **Long-Press-Repeat**: Zeichen- или Funktionstasten gedrückt halten для Auto-Repeat (~400 ms Verzögerung, ~50 ms Wiederholung)
-- **Key-Preview**: Schwebende Blase zeigt das effektive Label о der gedrückten Taste
-- **Haptisches Feedback** и **themengesteuerte** Tastenflächen
+### Управление предустановками
 
-### Sticky vs Chord-Modifikatoren
+- **Нажмите** значок «Предустановки» на панели инструментов, чтобы просмотреть доступные макеты.
+- **Длительное нажатие** для просмотра полного списка предустановок с опциями импорта, добавления модуля и экспорта.
+- В комплекте с макетом **emu-6** поставляется в качестве стартовой предустановки.
+- Создатель экспорта поддерживает i18n для обмена пресетами на разных языках.
 
-Einstellungen ermöglichen die Wahl zwischen **sticky Modifiers** (Tippen zum Einrasten) и **momentary + Long-Press Chord** (Standard) для die Basic-Tastatur.
+## Клавиатура и мышь (базовая версия)
 
-## Branding
+Специальный уровень полноэкранной клавиатуры, предназначенный для сосредоточенного набора текста без заголовка приложения.
 
-- Der App-Anzeigename ist jetzt **KeyMod**
-- Der Begrüßungsbildschirm zeigt die **KeyMod**-Wortmarke
-- CI-Artefakte и APK-Dateinamen verwenden das **KeyMod**-Präfix
-- `applicationId` bleibt **`com.openterface.keymod`** для In-Place-Upgrades
+### Что вы получаете
 
-## Was unverändert bleibt
+- **Полноэкранная клавиатура** без основного заголовка приложения для увеличения площади экрана.
+- **Портретная и альбомная цифровая клавиатура**: сетка 5x8 в книжной ориентации (PrtSc / ScrLk / Pause / Home / End), сетка 8x5 в альбомной ориентации с высоким +, Enter и 00.
+- **Шлюз отправки только для IME ASCII**: вводите длинный текст в режиме создания, отправляйте как чистые нажатия HID-клавиш.
+- **Повтор при длительном нажатии**: удерживайте символьные/функциональные клавиши для автоматического повтора (задержка ~400 мс, повтор ~50 мс).
+- **Предварительный просмотр клавиши**: при нажатии плавающий пузырь показывает действующую метку над клавишей.
+- **Тактильная обратная связь** и **ключевые поверхности с поддержкой тем**.
 
-**Tastatur & Maus Pro** (Composite-Modus с Shortcut-Hub-Strips, geteilten Layouts и reichem IME-Verhalten) bleibt die voll ausgestattete Erfahrung wie bisher.
+### Модификаторы Sticky vs Chord
 
-## Update herunterladen
+Настройки позволяют выбирать между **липкими модификаторами** (нажатие для фиксации) и **мгновенное + длительное нажатие** (по умолчанию) для базовой клавиатуры.
 
-**Diese Version (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
+## Брендинг
 
-> **Beta-Hinweis:** Die KeyMod Android-App befindet sich noch in der aktiven Beta-Phase. Das Repo ist noch не öffentlich — wir planen, es nach einer erfolgreichen Crowdfиing-Kampagne zu open-sourcen. Wenn du Beta-Tester bist и den neuesten APK brauchst, meld dich bei uns auf Discord и wir schicken dir den Build.
+- Отображаемое имя приложения теперь **KeyMod**.
+- На экране приветствия отображается надпись **KeyMod**.
+- Артефакты CI и имена файлов APK используют префикс **KeyMod**.
+- `applicationId` остаётся **`com.openterface.keymod`** для обновлений на месте.
 
-> **Bekannte Probleme:** Dieses Release führt erhebliche Änderungen am Gamepad-Preset-System и dem Basic-Tastatur-Tier ein. Unser Dev-Team testet noch intern, es können also noch Bugs auftreten. Falls du auf etwas Unerwartetes stößt, melde es bitte auf Discord — dein Feedback hilft uns, schneller zu stabilisieren.
+## Что не изменилось
 
-Bestehende Установкаen werden vor Ort aktualisiert.
+**Keyboard & Mouse Pro** (составной режим с полосами Shortcut Hub, разделенными макетами и расширенным поведением IME) остается полнофункциональным, каким он был раньше.
 
-## Funktioniert с Mini-KVM и KVM-Go
+## Получить обновление
 
-Die KeyMod-App ist не auf KeyMod-Оборудование beschränkt. Bestehende Openterface-Nutzer können sie ebenfalls ausprobieren:
+**Эта версия (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-- **KVM-Go**: Подключение о **Bluetooth** или **USB**
-- **Mini-KVM**: Подключение о **USB**
+> **Уведомление о бета-версии:** Приложение KeyMod для Android все еще находится в активной бета-версии. Репозиторий исходного кода пока не является общедоступным — мы планируем открыть его после успешной краудфандинговой кампании. Если вы бета-тестер и вам нужна последняя версия APK, свяжитесь с нами в Discord, и мы предоставим вам сборку.
 
-## Upgrade-Hinweise
+> **Известные проблемы.** В этом выпуске внесены существенные изменения в систему предустановок геймпада и базовый уровень клавиатуры. Наша команда разработчиков все еще проводит внутреннее тестирование, поэтому вы можете столкнуться с ошибками. Если вы столкнетесь с чем-то неожиданным, сообщите об этом в Discord — ваши отзывы помогут нам быстрее стабилизировать ситуацию.
 
-- **Gamepad**: Eure bisherige Zwei-Tasten-Präferenz aktiviert beim ersten Start automatisch das **Two Buttons**-Preset. Verwendet **Preset** (Tippen zum Schalten, Long-Press для die Liste) anstelle der alten 1 Button / 2 Buttons Steuerung.
-- **Tastatur & Maus (Basic)**: Öffnet Basic, um die Vollbild-Tastatur zu erleben. Der Pro-Modus ist о das Navigations-Drawer для das komplette Shortcut-Hub-Erlebnis verfügbar.
+Существующие установки обновления на месте.
 
-Beste Grüße,
+## Работает с Mini-KVM и KVM-Go.
 
-Openterface Team | TechxArtisan
+Приложение KeyMod не ограничивается оборудованием KeyMod. Существующие пользователи Openinterface также могут попробовать его:
+
+- **KVM-Go**: подключение через **Bluetooth** или **USB**
+- **Мини-KVM**: подключение через **USB**
+
+## Примечания к обновлению
+
+- **Геймпад**: предыдущие настройки двух кнопок автоматически активируют предустановку **Две кнопки** при первом запуске. Используйте **Предустановку** (нажмите для переключения, нажмите и удерживайте для просмотра списка) вместо старого элемента управления «1 кнопка/2 кнопки».
+- **Клавиатура и мышь (базовая версия)**: откройте базовую версию, чтобы воспользоваться полноэкранной клавиатурой. Режим Pro доступен через панель навигации для полного использования Shortcut Hub.
+
+С уважением,
+
+Команда Openinterface | TechxArtisan

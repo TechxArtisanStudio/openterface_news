@@ -2,125 +2,124 @@
 locale: tr
 translationKey: "20251127-why-kvm-go"
 slug: "20251127-why-kvm-go"
-title: "Warum das physische Format von KVM-GO so aussieht, wie es aussieht"
-description: "Eine Geschichte hinter den Kulissen der Design-Reise von KVM-GO. Erfahren Sie mehr hakkında die Prototypen, Community-Umfragen, Kompromisse ve realen Szenarien, die unser ultra-kompaktes, Plug-and-Go KVM-over-USB-Gerät geprägt haben. Entdecken Sie, warum wir Geschwindigkeit ve Portabilität hakkında maximale Flexibilität gewählt haben."
+title: "KVM-GO'nun Fiziksel Formatı Neden Öyle Görünüyor?"
+description: "KVM-GO'nun tasarım yolculuğunun perde arkası hikayesi. Ultra kompakt, tak-çalıştır USB üzerinden KVM cihazımızı şekillendiren prototipler, topluluk anketleri, ödünler ve gerçek dünya senaryoları hakkında bilgi edinin. Maksimum esneklik yerine neden hız ve taşınabilirliği seçtiğimizi keşfedin."
 date: 2025-11-27
 channel: product
 product: kvm-go
-topic: ["software", "campaign", "community", "analysis"]
-category: "Ürün-Güncellemeler"
-tags: ["KVM-GO", "Üründesign", "Hinter den Kulissen", "Ürünentwicklung", "Design-Geschichte"]
+topic: ["production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Design", "Behind the Scenes", "Product Development", "Design Story"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+### Bir Kamera Arkası Hikayesi
 
-### Eine Geschichte hinter den Kulissen
+[Openterface](https://openterface.com/), başından beri her zaman *gerçek dünyaya ait araçlar* oluşturmakla ilgili olmuştur. Gösterişli parçalar değil. Hile değil. En çok ihtiyaç duyduğunuz anda anında çalışan küçük, güvenilir cihazlar.
 
-Von Anfang an ging es bei [Openterface](https://openterface.com/) immer darum, *Werkzeuge için die reale Welt* zu schaffen. Keine Schaustücke. Keine Spielereien. Nur kleine, zuverlässige Geräte, die sofort funktionieren, wenn Sie sie am dringendsten brauchen.
+[Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)'in daha taşınabilir bir versiyonunu yapma fikrini ilk araştırdığımızda, bunun yalnızca donanımsal bir zorluk olmadığını hemen fark ettik. Aynı zamanda sunucular, dizüstü bilgisayarlar, uç cihazlar, raf donanımı ve her türlü kurulum arasında geçiş yapan insanlar için gerçek sıkıntılı noktaları çözmekle de ilgiliydi. Çoğu kullanıcının, bazen baskı altındayken, hareket halindeyken kontrolü hızlı bir şekilde değiştirmesi gerekir.
 
-Als wir zum ersten Mal die Idee erkveeten, eine portablere Version des [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) zu erstellen, wurde uns schnell klar, dass dies değil nur eine Donanım-Herausforderung war. Es ging auch darum, echte Schmerzpunkte için Menschen zu lösen, die zwischen Servern, Laptops, Edge-Geräten, Rack-Ausrüstung ve allen möglichen Setups wechseln. Viele Benutzer müssen schnell die Kontrolle wechseln, manchmal unter Druck.
+Bu yepyeni bir tasarım yolculuğunu başlattı. Sonunda kompaktlık, hız ve rahatlık açısından daha da ileriye giden bir cihaz olan KVM-GO'ya dönüştü. Birçok konsepti denedik, artılarını ve eksilerini karşılaştırdık, deliler gibi tartıştık ve ilk benimseyenlerin ve ev laboratuarı arkadaşlarımızın bizimle paylaştıklarını yakından dinledik. Bu hikayeyi paylaşmak istiyoruz çünkü şeffaflık ve güven bu projenin her zaman temelini oluşturdu.
 
-Dies startete eine völlig neue Design-Reise. Eine, die sich schließlich zu KVM-GO entwickelte, einem Gerät, das noch weiter in Kompaktheit, Geschwindigkeit ve Bequemlichkeit geht. Wir haben mehrere Konzepte ausprobiert, Vor- ve Nachteile verglichen, heftig diskutiert ve genau zugehört, was Early Adopters ve Homelab-Frevee ile uns teilten. Wir möchten diese Geschichte teilen, weil Transparenz ve Vertrauen schon immer der Kern dieses Projekts waren.
+## Neyi Denedik: Prototipler, Anketler ve Gerçek Takaslar
 
-## Was wir versucht haben: Prototypen, Umfragen ve echte Kompromisse
-
-Wir haben mehrere mögliche "Formate" erkveet, die wir als Option A, B, C usw. bezeichneten. Jedes repräsentierte eine andere Philosophie bezüglich Videoeingang, Host-Bağlantı, Kabel-Flexibilität ve Benutzerfrevelichkeit.
+Seçenek A, B, C vb. olarak etiketlediğimiz birkaç olası "formatı" araştırdık. Her biri video girişi, ana bilgisayar bağlantısı, kablo esnekliği ve kullanım kolaylığı ile ilgili farklı bir felsefeyi temsil ediyordu.
 
 ![kvm-go-post-kvm-stick-options-all](https://assets.openterface.com/images/kvm-go/post/kvm-stick-options-all.webp)
 
-### Die beiden Hauptrichtungen waren:
+### İki ana yön şunlardı:
 
-**1. Kabelbasiertes, modulares Design**
-Verwendung eines HDMI-Steckplatzanschlusses ve Standardkabel, die Benutzer bereits besitzen.
+**1. Kablo tabanlı, modüler tasarım**
+Kullanıcıların zaten sahip olduğu bir HDMI soket bağlantı noktası ve standart kabloların kullanılması.
 
-* **Vorteile:** maximale Flexibilität, einfacher Kabelaustausch, passt sich fast allem an
-* **Nachteile:** Benutzer müssen das richtige Videokabel finden veya ileführen, was dringende Aufgaben verlangsamt
+* **Artıları:** maksimum esneklik, kolay kablo değişimi, neredeyse her şeye uyum sağlar
+* **Dezavantajları:** kullanıcıların doğru video kablosunu bulması veya taşıması gerekir, bu da acil görevleri yavaşlatır
 
-**2. Plug-in-Stil ile eingebauten Steckeranschlüssen**
-Ein Dongle-ähnliches Werkzeug, das direkt in das Zielgerät gesteckt wird, ohne separates Videokabel.
+**2. Yerleşik fiş konnektörleriyle takılabilir stil**
+Ayrı bir video kablosu olmadan doğrudan hedefe bağlanan donanım kilidi benzeri bir araç.
 
-* **Vorteile:** "Plug-and-Go"-Geschwindigkeit, ultraschnelle Einrichtung, weniger Gegenstände zum Mitführen, ideal için Crash-Cart ve Notfallnutzung
-* **Nachteile:** weniger flexibel, fester Anschlusstyp, değil için jedes Szenario geeignet
+* **Avantajları:** "tak ve çalıştır" hızı, ultra hızlı kurulum, taşınacak daha az eşya, çarpışma arabası ve acil durum kullanımı için ideal
+* **Dezavantajları:** daha az esnek, sabit konnektör tipi, her senaryoya uygun değildir
 
-Wir haben auch [eine Community-Umfrage](https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/) auf Reddit durchgeführt. Hier waren die Ergebnisse aus der Homelab-Community:
+Ayrıca Reddit'te [a community poll](https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/)'ü de çalıştırdık. İşte homelab topluluğunun sonuçları:
 
 ![kvm-go-post-KVM-lite-dev-analysis](https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis-2.webp)
 
-Die meisten Menschen bevorzugten das hochflexible, modulare "Option B"-Layout. Das passte perfekt zum Mini-KVM-Design, das sich bereits bei echten Benutzern bewährt hatte. Viele Mini-KVM-Besitzer lieben seine Flexibilität, ve diese Umfrage bestätigte erneut, dass wir dieses Format richtig gemacht haben.
+Çoğu kişi son derece esnek, modüler "Seçenek B" düzenini tercih etti. Bu, gerçek kullanıcılar nezdinde kendini kanıtlamış olan Mini-KVM tasarımıyla mükemmel bir şekilde eşleşiyordu. Birçok Mini-KVM sahibi esnekliğini seviyor ve bu anket, bu formatı doğru şekilde kullandığımızı bir kez daha doğruladı.
 
 ![kvm-go-post-KVM-lite-dev-analysis](https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis.webp)
-*Wir haben diese Optionen in einem detaillierten Vergleichsblatt ile Vor-/Nachteilen, Kabel-Szenarien ve Kompromissen zusammengestellt.*
+*Bu seçenekleri, artıları/eksileri, kablo senaryoları ve ödünleşimleri içeren ayrıntılı bir karşılaştırma sayfasında derledik.*
 
-## Warum KVM-GO anders ist
+## KVM-GO Neden Farklıdır
 
-### Geschwindigkeit, Portabilität ve Einfachheit wählen
+### Hızı, Taşınabilirliği ve Basitliği Seçmek
 
-Als wir ile der Arbeit an dem begannen, was wir zunächst "Mini-KVM Lite" nannten, war der Plan einfach: ein minimales KVM-over-USB-Gerät, das kompakt ve funktional war. Mit fortschreitender Entwicklung wurde uns klar, dass wir diese Idee viel weiter treiben konnten. Wir konnten değil nur das Design verkleinern, sondern auch einen echten 4K-Chip, Bluetooth ve einen microSD-Leser/Schreiber integrieren.
+İlk olarak "Mini-KVM Lite" adını verdiğimiz şey üzerinde çalışmaya başladığımızda plan basitti: kompakt ve işlevsel, minimal bir USB üzerinden KVM cihazı. Geliştirme ilerledikçe bu fikri daha da ileriye taşıyabileceğimizi fark ettik. Tasarımı küçültmenin yanı sıra gerçek bir 4K çip, Bluetooth ve microSD okuyucu/yazıcıyı da entegre edebildik.
 
-Das Projekt wuchs schnell hakkında "Lite" hinaus, ve der Name **KVM-GO** erfasste den Geist dessen, was wir için Menschen bauen wollten, die in kritischen Momenten Probleme lösen.
+Proje hızla "Lite"ın ötesine geçti ve **KVM-GO** adı, kritik anlarda sorunları çözen insanlar için oluşturmak istediğimiz şeyin ruhunu yansıtıyordu.
 
-Anstatt die Flexibilität wie beim Mini-KVM zu maximieren, priorisierten wir:
+Mini-KVM gibi esnekliği en üst düzeye çıkarmak yerine aşağıdakilere öncelik verdik:
 
-* Portabilität
-* Plug-and-Play-Geschwindigkeit
-* sofortige Nutzbarkeit
+* taşınabilirlik
+* tak ve çalıştır hızı
+* anında kullanılabilirlik
 
-Wir wissen, dass dieses Format değil jedermanns Favorit sein wird, ve das ist völlig in Ordnung. Dies ist keine Allzwecklösung.
+Bu formatın herkesin favorisi olmayacağını biliyoruz ve bu tamamen sorun değil. Bu, herkese uyan tek boyutlu bir çözüm değildir.
 
 ![kvm-go-post-design-chat-20241218b](https://assets.openterface.com/images/kvm-go/post/design-chat-20241218b.webp)
 
-*Ende 2024 war dies auch eine der frühen Design-Erkveungen, die half, die Schlüsselanhänger-große Richtung von KVM-GO zu formen ve uns dazu brachte, Modularität, Haltbarkeit, Benutzerfrevelichkeit ve reale Einschränkungen neu zu hakkındadenken.*
+*2024'ün sonlarında bu aynı zamanda KVM-GO'nun anahtarlık boyutundaki yönünün şekillenmesine yardımcı olan ve bizi modülerlik, dayanıklılık, kullanılabilirlik ve gerçek dünya kısıtlamalarını yeniden düşünmeye iten ilk tasarım keşiflerinden biriydi.*
 
-### Was die Entscheidung antrieb:
+### Karara neden olan şey:
 
-* In vielen realen Situationen wie Crash-Cart-Arbeit, Rechenzentrums-Racks, Feldreparaturen, Notfallzugriff veya mobiler Technik wollen Menschen değil nach einem Videokabel suchen. Sie wollen *einstöpseln ve sofort die Kontrolle hakkındanehmen*.
-* Ein eingebauter Stecker-Videoanschluss entfernt diese Reibung. Benutzer benötigen immer noch zwei USB-C-Kabel (eines için den Host ve eines için Tastatur/Maus-Injektion), aber USB-C-Kabel sind heute hakkındaall. Die Notwendigkeit eines Videokabels zu eliminieren reduziert die Einrichtungszeit erheblich.
-* Diese Wahl opfert Flexibilität. Es gibt weniger Adapter- ve Kabeloptionen. Dennoch bevorzugen viele Benutzer, die unter Zeitdruck arbeiten, die sofortige "sofort einsatzbereite" Bequemlichkeit.
-* Einige unserer Benutzer arbeiten in ungewöhnlichen veya extremen Umgebungen wie der Reparatur von Telekommunikationstürmen, der Arbeit ile öffentlichen Sicherheitsgeräten veya dem Debuggen von Rennwagen-Edge-Computern. Sie sagen uns wiederholt, dass Geschwindigkeit wichtiger ist als Konfigurierbarkeit.
-* Für Benutzer, die maximale Flexibilität veya Unterstützung için seltene Video-Setups wünschen, bleibt **Mini-KVM unsere Hauptlösung**. KVM-GO ersetzt es değil. Diese beiden Geräte ergänzen sich.
+* Acil durum arabası çalışması, veri merkezi rafları, saha onarımları, acil durum erişimi veya mobil mühendislik gibi gerçek dünyadaki pek çok durumda, insanlar bir video kablosu aramak istemezler. *Hemen bağlanıp kontrolü ele geçirmek* istiyorlar.
+* Yerleşik fişli video konektörü bu sürtünmeyi ortadan kaldırır. Kullanıcıların hâlâ iki USB-C kablosuna ihtiyacı var (biri ana bilgisayar için, diğeri klavye/fare enjeksiyonu için), ancak USB-C kabloları bugün her yerde. Video kablosu ihtiyacını ortadan kaldırmak kurulum süresini önemli ölçüde azaltır.
+* Bu seçim esneklikten ödün verir. Daha az adaptör ve kablo seçeneği vardır. Yine de zaman baskısı altında çalışan birçok kullanıcı, anında "kullanıma hazır" rahatlığını tercih ediyor.
+* Kullanıcılarımızdan bazıları telekomünikasyon kulelerini onarmak, kamu güvenliği ekipmanlarıyla çalışmak veya yarış arabası teknolojisindeki bilgisayarlarda hata ayıklamak gibi olağandışı veya zorlu ortamlarda çalışmaktadır. Bize defalarca hızın yapılandırılabilirlikten daha önemli olduğunu söylüyorlar.
+* Maksimum esneklik veya nadir video kurulumları için destek isteyen kullanıcılar için **Mini-KVM ana çözümümüz olmaya devam ediyor**. KVM-GO onun yerini almaz. Bu iki cihaz birbirini tamamlıyor.
 
-Obwohl die Umfrage stark zur Modularität neigte, wählten wir için KVM-GO eine andere Richtung, nachdem wir Nischen-Szenarien untersucht hatten, in denen Geschwindigkeit wertvoller ist als Konfigurierbarkeit. Die Welt brauchte ein zweites Format, değil nur eine Wiederholung von Mini-KVM.
+Anket güçlü bir şekilde modülerliğe yönelse de hızın yapılandırılabilirlikten daha değerli olduğu niş senaryoları inceledikten sonra KVM-GO için farklı bir yön seçtik. Dünyanın sadece Mini-KVM'nin tekrarına değil, ikinci bir formata ihtiyacı vardı.
 
-## KVM-GO ist mehr als nur ein Stick
+## KVM-GO Bir Çubuktan Daha Fazlasıdır
 
-### Upgrades hakkında das Formfaktor hinaus
+### Form Faktörünün Ötesindeki Yükseltmeler
 
-Das physische Layout ist nur ein Teil der Geschichte. Während der gesamten Entwicklung haben wir fast alles im Inneren des Geräts aufgerüstet.
+Fiziksel düzen hikayenin yalnızca bir kısmıdır. Geliştirme boyunca cihazın içindeki hemen hemen her şeyi yükselttik.
 
-* Die Yazılım-Unterstützung erstreckt sich jetzt weit hakkında macOS ve Windows hinaus. KVM-GO funktioniert ile mehreren Linux-Distributionen, Android, iPadOS ve Bluetooth-Tastatur/Maus auf iPad. Es gibt auch aktives Community-Interesse an einer Web-App-Version.
-* Der alte schaltbare USB-Port wurde durch einen **schaltbaren microSD-Steckplatz** ersetzt, der entweder am Host veya am Zielgerät montiert werden kann. KVM-GO kann jetzt den microSD-Leser in Ihrer Tasche ersetzen ve eliminiert auch die Notwendigkeit, ein separates USB-Videoaufnahmegerät için grvelegende Aufgaben ilezuführen.
-* Wir haben einen **viel leistungsstärkeren Videoprozessor-Chip** hinzugefügt, der echte 4K ausgibt. Viele konkurrierende Geräte werben ile "4K", unterstützen aber nur 4K-Eingang, während sie 1080p ausgeben. KVM-GO bietet echte 4K-Ausgabe.
-* Hohe Leistung in einem kompakten Gehäuse schuf eine neue Herausforderung: Wärme. Die Dichte ist hoch, ve wir feinen das Kühlsystem durch aktive Belastungstests ab.
+* Yazılım desteği artık macOS ve Windows'un çok ötesine uzanıyor. KVM-GO, iPad'de birden fazla Linux dağıtımı, Android, iPadOS ve Bluetooth klavye/fare ile çalışır. Bir web uygulaması sürümüne de aktif bir topluluk ilgisi var.
+* Eski değiştirilebilir USB bağlantı noktası, ana bilgisayara veya hedefe takılan **değiştirilebilir microSD yuvası** ile değiştirildi. KVM-GO artık çantanızdaki microSD okuyucuyu değiştirebilir ve ayrıca temel görevler için ayrı bir USB video yakalama cihazı taşıma ihtiyacını da ortadan kaldırır.
+* Gerçek 4K çıkışı sağlayan **çok daha güçlü bir video işlemci çipi** ekledik. Rakip cihazların çoğu "4K" reklamı yapar ancak 1080p çıktı verirken yalnızca 4K girişi destekler. KVM-GO gerçek 4K çıktı sağlar.
+* Kompakt bir gövdedeki yüksek performans yeni bir zorluk yarattı: ısı. Yoğunluk yüksek ve aktif stres testi yoluyla soğutma sistemine ince ayar yapıyoruz.
 
 ![heat-challenge-202509](https://assets.openterface.com/images/kvm-go/post/heat-challenge-202509.webp)
 
-*Kevin bespricht die Wärmetaktik ile [Ryan Dunwoody](https://www.linkedin.com/in/ryandunwoody/) von Powerhouse Engineering. Ryans Erfahrung war von unschätzbarem Wert. Echte 4K-Leistung in einen so winzigen Körper zu packen, führte zu unerwarteten Wärmedichte-Problemen, ve er half uns, Luftströmung, Kupfer-Layout, Wärmeausbreitung ve langfristige Zuverlässigkeit neu zu hakkındadenken. Danke, Ryan, için die frühe Kılavuz.*
+*Kevin, Powerhouse Engineering'den [Ryan Dunwoody](https://www.linkedin.com/in/ryandunwoody/) ile termal taktiği inceliyor. Ryan'ın deneyimi çok değerliydi. Gerçek 4K performansını bu kadar küçük bir gövdeye sığdırmak beklenmedik ısı yoğunluğu sorunlarına yol açtı ve hava akışını, bakır düzenini, ısı yayılımını ve uzun vadeli güvenilirliği yeniden düşünmemize yardımcı oldu. Erken rehberlik için teşekkürler Ryan.*
 
-Zusammen verwandeln diese Upgrades KVM-GO in ein tragbares, zukunftssicheres, immer bereites Werkzeug.
+Bu yükseltmeler hep birlikte KVM-GO'yu taşınabilir, geleceğe hazır, her zaman hazır bir araca dönüştürüyor.
 
 ![prototype-first](https://assets.openterface.com/images/kvm-go/post/prototype-first.webp)
 
-*Hier ist einer der frühesten KVM-GO-Prototypen, nur eine nackte Leiterplatte in der Hand. Rau ve winzig, aber er bewies, dass die Idee echtes Potenzial hatte.*
+*İşte en eski KVM-GO prototiplerinden biri, elinizde sadece çıplak bir PCB. Kaba ve küçük ama fikrin gerçek potansiyele sahip olduğunu kanıtladı.*
 
-## Was das alles bedeutet
+## Tüm Bunların Anlamı
 
-Unser Ziel ile KVM-GO war es, ein Werkzeug zu schaffen, das sich fast unsichtbar anfühlt, wenn Sie es brauchen. Sie nehmen es heraus, stecken es ein ve hakkındanehmen sofort die Kontrolle. Keine Videokabel-Suche. Kein "Ich habe den HDMI-Adapter zu Hause vergessen". Nur sofortiger Zugriff.
+KVM-GO ile hedefimiz, ihtiyaç duyduğunuzda neredeyse görünmez hissettiren bir araç yaratmaktı. Çıkarırsınız, takarsınız ve anında kontrolü ele alırsınız. Video kablosu çöpçü avı yok. Hayır “HDMI adaptörünü evde unuttum.” Sadece anında erişim.
 
-KVM-GO ist eine **tragbare, 4K-fähige, Multi-OS, Crash-Cart-freveliche** KVM-over-USB-Lösung, gebaut için echte Benutzer ve echte Szenarien.
+KVM-GO, gerçek kullanıcılar ve gerçek senaryolar için tasarlanmış, **taşınabilir, 4K özellikli, çoklu işletim sistemi, acil durum arabası dostu** USB üzerinden KVM çözümüdür.
 
-Einige Menschen werden weiterhin maximale Modularität bevorzugen. Genau deshalb existiert [Mini-KVM](https://openterface.com/product/minikvm/). (Und ja, Sie können es jetzt noch kaufen… zwinker zwinker :D)
+Bazı insanlar maksimum modülerliği tercih etmeye devam edecek. [Mini-KVM](https://openterface.com/product/minikvm/) tam olarak bu yüzden var. (Ve evet, şimdi hala satın alabilirsiniz… göz kırpın :D)
 
-Aber için Reisen, Rechenzentrumsarbeit, Wartung unterwegs veya Notfall-Debugging könnte KVM-GO das Format sein, das den Sweet Spot trifft.
+Ancak seyahat, veri merkezi çalışması, yolda bakım veya acil durum hata ayıklama için KVM-GO en uygun format olabilir.
 
-## Danke
+## Teşekkür ederim
 
-### Und was kommt als Nächstes
+### Ve Sırada Ne Var?
 
-Danke an alle, die an der Reddit-Diskussion teilgenommen, die Umfrage ausgefüllt, Feedback geteilt ve schwierige Sorular gestellt haben. Ohne Ihren Input hätten wir vielleicht weiterhin perfekte Modularität verfolgt, anstatt uns auf das zu konzentrieren, was viele Benutzer wirklich brauchen.
+Reddit tartışmasına katılan, anketi dolduran, geri bildirimlerini paylaşan ve zor sorular soran herkese teşekkür ederiz. Sizin görüşleriniz olmasaydı, birçok kullanıcının gerçekten ihtiyaç duyduğu şeylere odaklanmak yerine mükemmel modülerliğin peşinde koşmaya devam edebilirdik.
 
-Wir verfeinern weiterhin sowohl Donanım als auch Yazılım. Weitere Güncellemeler werden folgen. Wenn Sie Gedanken veya Vorschläge haben, senden Sie uns gerne eine E-Mail an **[support@openterface.com](mailto:support@openterface.com)** veya treten Sie unserem **Openterface Discord** bei. Wir lesen jede Nachricht.
+Hem donanım hem de yazılımı geliştirmeye devam ediyoruz. Daha fazla güncelleme takip edecek. Düşünceleriniz veya önerileriniz varsa **[support@openterface.com](mailto:support@openterface.com)** adresinden bize e-posta göndermekten veya **Openterface Discord'umuza** katılmaktan çekinmeyin. Her mesajı okuyoruz.
 
-Wenn Ihnen gefällt, was wir bauen, erwägen Sie bitte, KVM-GO zu unterstützen ve uns zu helfen, **das Wort zu verbreiten**. Die Kampagne ile einem Freve veya einer Community zu teilen macht einen enormen Unterschied için ein kleines Team wie unseres. **Wir bauen dies için Sie ve wegen Ihnen.**
+Yaptığımız şeyi beğendiyseniz lütfen KVM-GO'yu desteklemeyi ve **yaymamıza** yardımcı olmayı düşünün. Kampanyayı bir arkadaşınızla veya toplulukla paylaşmak bizim gibi küçük bir ekip için büyük fark yaratıyor. **Bunu sizin için ve sizin yüzünüzden inşa ediyoruz.**
 
-**Openterface / TechxArtisan Team**
+**Openterface / TechxArtisan Ekibi**

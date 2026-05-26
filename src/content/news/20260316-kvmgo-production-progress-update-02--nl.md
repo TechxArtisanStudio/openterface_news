@@ -2,140 +2,139 @@
 locale: nl
 translationKey: "20260316-kvmgo-production-progress-update-02"
 slug: "20260316-kvmgo_production-progress-update_02"
-title: "KVM-GO Productionsupdate #2 – Design fixiert, Chargen gestaffelt, Fertigung im Plan"
-description: "Zweites KVM-GO-Productionsupdate: Industriedesign abgeschlossen (Anti-Verlust-Band am Verbinderdeckel), Teile in Chargen vorbereitet, Rückdeckel fertig, schwarzer Nylon-Frontdeckel en orangefarbene Verbinderdeckel in Production. CE/RoHS/FCC/OSHWA-Vorbereitung en QC-Ablauf schreiten voran."
+title: "KVM-GO-productievoortgangsupdate #2 – Ontwerp vergrendeld, batchfasering, productie op schema"
+description: "Tweede KVM-GO-productie-update: industrieel ontwerp afgerond (anti-verlies-tether van connectordop), onderdelen in batchfase, achterkant compleet, nylon voorkant en oranje connectordop in productie. CE/RoHS/FCC/OSHWA-voorbereiding en QC-stroom vordert."
 date: 2026-03-16
 channel: product
 product: kvm-go
-topic: ["campaign"]
-category: "Product-Updates"
-tags: ["KVM-GO", "Product-Updates", "Production", "Fertigung", "Hardware", "Montage", "Industriedesign", "Konformetät"]
+topic: ["shipping", "production", "campaign"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Production", "Manufacturing", "Hardware", "Assembly", "Industrial Design", "Compliance"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+## Ontwerpdetails vastgelegd, batch-fasering op zijn plaats en productie vooruit
 
-## Designdetails fixiert, Chargen vorbereitet, Production kommt voran
+Hallo donateurs. Hier is onze tweede update van de productievoortgang met duidelijkere, beter verifieerbare momentopnamen van de productievoorbereiding. De korte versie is dat KVM-GO gestaag door de productie beweegt, belangrijke mechanische beslissingen vastliggen en meerdere onderdelen al in productie zijn of in herhaalbare batches worden geënsceneerd voor assemblage en verpakking.
 
-Hallo Backer. Hier ist unser zweites Productionsupdate met klareren, besser nachvollziehbaren Fotos aus der Fertigungsvorbereitung. Kurz gesagt: KVM-GO bewegt sich stetig durch die Production, zentrale mechanische Entscheidungen sind getroffen, en mehrere Teile sind bereits in Fertigung of in wiederholbaren Chargen voor Montage en Verpackung vorbereitet.
+Een verfijning van de bruikbaarheid die we in deze ronde hebben afgerond, is de antiverlieskabel voor de connectordop. In het connectorkapje kunnen twee microSD-kaarten worden opgeborgen en het is een verwijderbaar onderdeel dat vaak wordt gebruikt, zodat het koord helpt voorkomen dat het tijdens de dagelijkse workflows kwijtraakt.
 
-Eine Nutzungsverbesserung, die wir in dieser Rene finalisiert haben, ist das **Anti-Verlust-Band am Verbinderdeckel**. Der Deckel kann zwei microSD-Karten aufnehmen en wird oft abgenommen; das Band hilft, ihn im Alltag niet zu verlegen.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 16px;">
+<div style="positie: relatief; opvulling-onder: 56,25%; hoogte: 0; overloop: verborgen; marge-boven: 16px;">
   <iframe
     src="https://www.youtube.com/embed/EZ2bMsB9fXE?si=gc7PPuW1_QwUuN7B"
-    title="KVM-GO Productionsupdate #2"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    title="KVM-GO-productie-update #2"
+    frameborder = "0"
+    allow="accelerometer; autoplay; klembord-schrijven; gecodeerde media; gyroscoop; beeld-in-beeld; web-share"
+    referrerpolicy="strikte-origin-wanneer-cross-origin"
+    volledig scherm toestaan
+    style="positie: absoluut; boven: 0; links: 0; breedte: 100%; hoogte: 100%;">
   </iframe>
 </div>  
 
-<p align="center"><small><em>60-Sekenen-Video: KVM-GO Productionsupdate #2.</em></small></p>
+<p align="center"><small><em>Bekijk de video-update uit de jaren 60: KVM-GO productievoortgangsupdate #2.</em></small></p>
 
 ---
 
-## 1) Industriedesign-Konvergenz (Verbinderdeckel en Band finalisiert)
+## 1) Convergentie van industrieel ontwerp (connectorkap en kabel voltooid)
 
 ![New-Version](https://assets2.openterface.com/images/New-Version.webp)
 
-<p align="center"><small><em>Neue Außenansicht. Das Anti-Verlust-Band am Verbinderdeckel ist Teil des finalisierten Designs voor Alltagstauglichkeit.</em></small></p>
+<p align="center"><small><em>Snapshot van de buitenkant van de nieuwe versie. De anti-verlies kabel voor de connectordop maakt nu deel uit van het definitieve ontwerp voor dagelijkse betrouwbaarheid.</em></small></p>
 
-Wir harmonisieren weiter Details over HDMI / DP / VGA hinweg, damet Montage en QC in großem Maßstab konsistent bleiben. Da der Deckel klein en wegen microSD oft abgenommen wird, macht das Band den Ablauf Abnehmen – Zugriff of Wechsel – Wieder anbringen sicherer en fehlerresistenter.
+We blijven details over HDMI/DP/VGA samenbrengen om de montage en kwaliteitscontrole op schaal consistent te houden. Omdat het connectorkapje klein is en regelmatig wordt verwijderd voor microSD-toegang, zorgt de kabel ervoor dat het verwijderen van het kapje, het openen of verwisselen van microSD en het opnieuw installeren veiliger en minder foutgevoelig is.
 
 ---
 
-## 2) Chargen-Vorbereitung (Verbinderdeckel-Bänder voor Verpackung bereit)
+## 2) Batch-fasering (connectoren van connectordoppen klaar voor verpakking)
 
 ![keychain-cord-2](https://assets2.openterface.com/images/keychain-cord-2.webp)
 
-<p align="center"><small><em>Verbinderdeckel-Bänder in gezählten Chargen vorbereitet, bereit voor Verpackung en wiederholbare Montageabläufe.</em></small></p>
+<p align="center"><small><em>Verbinders voor connectordoppen in getelde batches, klaar voor verpakking en herhaalbare assemblagestroom.</em></small></p>
 
-Wir staffeln Zubehör in sauberen, zählbaren Chargen, passend zur Production. Das reduziert Verpackungsfehler en unterstützt reproduzierbareres QA.
+Om de productieworkflows op elkaar af te stemmen, bieden we accessoires aan in schone, telbare batches. Dit vermindert verpakkingsfouten en ondersteunt een meer herhaalbaar QA-proces.
 
 ---
 
-## 3) Kennzeichnung en Documentatie (Open-Source-Beschriftung wird vollständiger)
+## 3) Markeringen en documentatie (Open Source-labeling wordt completer)
 
 ![Open-source](https://assets2.openterface.com/images/Open-source.webp)
 
-<p align="center"><small><em>Gehäusekennzeichnung en Open-Source-Markierungen werden finalisiert, damet ausgelieferte Geräte klar, einheitlich en konform sind.</em></small></p>
+<p align="center"><small><em>Behuizingsmarkeringen en open-source-labeling worden afgerond om de geleverde eenheden duidelijk, consistent en conform te houden.</em></small></p>
 
-Neben Hardware verfeinern wir Kennzeichnung en Open-Source-bezogene Markierungen en treiben OSHWA-Vorbereitungen weiter voran.
+Naast de hardware verfijnen we de etikettering en open source-gerelateerde markeringen om elke geleverde eenheid duidelijker en meer gestandaardiseerd te maken, terwijl we de OSHWA-gerelateerde voorbereidingen voortzetten.
 
 ---
 
-## 4) Montagebereitschaft (Hardware voor Konsistenzprüfungen vorbereitet)
+## 4) Gereedheid voor montage (hardware geënsceneerd voor consistentiecontroles)
 
 ![Back-cover-screw](https://assets2.openterface.com/images/Back-cover-screw.webp)
 
-<p align="center"><small><em>Montage-Kleinteile vorbereitet voor bevorstehende Build-Konsistenzprüfungen en wiederholbare QC-Schritte.</em></small></p>
+<p align="center"><small><em>De assemblagehardware wordt gereedgemaakt voor komende build-consistentiecontroles en herhaalbare QC-stappen.</em></small></p>
 
-Befestigungsteile früh zu staffeln stabilisiert die Montage, reduziert Nacharbeit en unterstützt einheitliche QC-Prüfungen.
+Door bevestigingsmiddelen en kleine hardware in een vroeg stadium te plaatsen, blijft de assemblage stabiel, wordt nabewerking verminderd en wordt consistente kwaliteitscontrole ondersteund.
 
 ---
 
-## 5) VGA-Variante Montagevorbereitung (Hardware en Werkzeuge bereit)
+## 5) Voorbereiding van de VGA-variant (klaar voor hardware en tools)
 
 ![New-vga-version-screwdrivers](https://assets2.openterface.com/images/New-vga-version-screwdrivers.webp)
 
-<p align="center"><small><em>VGA-spezifische Montagevorbereitung, damet Builds konsistent en Service einfach bleiben.</em></small></p>
+<p align="center"><small><em>De voorbereiding van de assemblage van VGA-varianten vindt plaats om de builds consistent te houden en het onderhoud eenvoudig te houden.</em></small></p>
 
-Die VGA-Montagevorbereitung läuft parallel, damet wir Verifikations-Builds fahren en QC over Varianten hinweg angleichen können.
+De VGA-specifieke assemblagevoorbereiding wordt parallel uitgevoerd, zodat we verificatiebuilds kunnen uitvoeren en de QC-stappen consistent kunnen houden voor alle varianten.
 
 ---
 
-## 6) Kunststoff-Fortschritt (Rückdeckel-Production abgeschlossen)
+## 6) Vooruitgang op het gebied van kunststoffen (productie achteromslag voltooid)
 
 ![Back-cover](https://assets2.openterface.com/images/Back-cover.webp)
 
-<p align="center"><small><em>Rückdeckel-Production in Chargen abgeschlossen – stabile Basis voor die nächsten Montageschritte.</em></small></p>
+<p align="center"><small><em>De productie van de achteromslag wordt in batches voltooid, waardoor een stabiele basis ontstaat voor de volgende montagestappen.</em></small></p>
 
-Bei den Kunststoffteilen ist die Rückdeckel-Production fertig. Das stabilisiert den Montagerhythmus en ermöglicht reproduzierbarere Passform- en Oberflächenprüfung.
+Aan de kunststofzijde is de productie van de achteromslag voltooid. Dit helpt het montageritme te stabiliseren en maakt een meer herhaalbare fit-and-finish-validatie mogelijk.
 
 ---
 
-## 7) Kunststoff-Fortschritt (schwarzer Nylon-Frontdeckel in Arbeit)
+## 7) Vooruitgang in kunststof (zwarte nylon voorkant in uitvoering)
 
 ![Various-versions-of-interface-nylon-front-covers](https://assets2.openterface.com/images/Various-versions-of-interface-nylon-front-covers.webp)
 
-<p align="center"><small><em>Schwarze Nylon-Frontdeckel over Varianten hinweg in Vorbereitung; Passform en Konsistenz voor die Montage werden geprüft.</em></small></p>
+<p align="center"><small><em>Voorkappen van zwart nylon zijn in ontwikkeling voor alle varianten terwijl we de pasvorm en consistentie voor montage verifiëren.</em></small></p>
 
-Der schwarze Nylon-Frontdeckel durchläuft die Productionsvorbereitung. Wir validieren Passform en Konsistenz voor einen reibungslosen Einbau in die Montagelinie.
+De zwarte nylon voorkant is bezig met de productievoorbereiding. We valideren de pasvorm en consistentie, zodat het soepel in de assemblagestroom kan worden geïntegreerd.
 
 ---
 
-## 8) Verbinderdeckel-Production (orangefarbene Deckel in Chargenfertigung)
+## 8) Productie van connectordoppen (oranje connectordoppen in fabrieksproductie)
 
 ![connection-cap](https://assets2.openterface.com/images/connection-cap.webp)
 
-<p align="center"><small><em>Orangefarbene Verbinderdeckel in Chargenproduktion; Prozessparameter werden voor Ausbeute en Montagestabilität optimiert.</em></small></p>
+<p align="center"><small><em>Oranje connectordoppen worden in serie geproduceerd, omdat we de procesconsistentie afstemmen om de opbrengst en de stabiliteit van de montage te verbeteren.</em></small></p>
 
-Der orangefarbene Verbinderdeckel ist in Production. Wir justieren Prozessparameter en overwachen Konsistenz voor bessere Ausbeute en stabile Montagepassung.
-
----
-
-## Fertigungsstatus (Kurzoverblick)
-
-- Aluminiumgehäuse (HDMI / DP / VGA): bestätigt, in Production  
-- CNC-Kühlkörperteile: in Production  
-- Rückdeckel: Production abgeschlossen  
-- Schwarzer Nylon-Frontdeckel: in Arbeit  
-- Orangefarbener Verbinderdeckel: in Production  
-- Verbinderdeckel-Bänder: in gezählten Chargen voor Verpackung en Montage vorbereitet  
+De oranje connectordop is momenteel in productie. We stemmen de procesparameters af en bewaken de consistentie om de opbrengst te verbeteren en een stabiele pasvorm van de montage te garanderen.
 
 ---
 
-## Als Nächstes (Meilensteine voor Backer)
+## Samenvatting van de productiestatus (snel lezen)
 
-- Aluminiumgehäuse-Production plus Montage-Passform-Validierung  
-- CNC-Kühlkörper-Production plus Bearbeitungskonsistenz en Passform  
-- Schwarzer Nylon-Frontdeckel plus Montage-Passform  
-- Orangefarbener Deckel: Chargenkonsistenz plus Montagevalidierung  
-- Konformetätsvorbereitung (CE / RoHS / FCC / OSHWA Documentatie en Testplanung)  
-- Productionstest en QC weiter verfestigen (einheitlicher Prüfstandard pro Gerät)  
+- Aluminium behuizingen (HDMI / DP / VGA): bevestigd en in productie  
+- CNC-koellichaamonderdelen: in productie  
+- Achteromslag: productie voltooid  
+- Zwarte nylon voorkant: in uitvoering  
+- Oranje connectordop: in productie  
+- Verbindingsdoppen voor connectoren: geënsceneerd in getelde batches voor verpakking en montage  
 
-Vielen Dank voor eure Unterstützung en Geduld. Wir teilen weiterhin nachvollziehbaren Fortschritt.  
+---
+
+## Wat is het volgende (mijlpalen gericht op de backer)
+
+- De productie van aluminium behuizingen gaat door, plus validatie van de montage  
+- De productie van CNC-koellichamen gaat door, plus consistentie van de bewerking en bevestiging van de pasvorm  
+- Vooruitgang van zwarte nylon voorkant plus validatie van montagepasvorm  
+- Oranje connectordop batchconsistentie plus assemblagevalidatie  
+- Voorbereiding op compliance (CE / RoHS / FCC / OSHWA documentatie en testplanning)  
+- Productietest en QC-stroom verder gestold (consistente verificatiestandaard voor elke eenheid)  
+
+Nogmaals bedankt voor uw steun en geduld. We zullen echte, verifieerbare vooruitgang blijven delen terwijl we verder gaan.  
 Billy / Openterface (TechxArtisan)

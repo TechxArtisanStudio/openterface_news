@@ -2,40 +2,39 @@
 locale: pl
 translationKey: "241224-merry-christmas"
 slug: "241224-merry-christmas"
-title: "Frohe Weihnachten & Glückliches Neues Jahr & Eine Kleine Überraschung vom Openterface Team!"
-description: "Feiertagsangebot: Erhalten Sie $20 Sklep-Guthaben beim Kauf von zwei Mini-KVM Toolkits! Feiern Sie Weihnachten i Neujahr z Openterface's speziellem Angebot, läuft vom 24. Dezember bis 10. Januar. Plus: genießen Sie unser festliches Weihnachtsvideo i Jahresendbotschaft."
+title: "Wesołych Świąt i Szczęśliwego Nowego Roku oraz mały poczęstunek od zespołu Openterface!"
+description: "Oferta świąteczna: zdobądź kredyt w sklepie o wartości 20 USD przy zakupie dwóch zestawów narzędzi Mini-KVM! Świętuj Boże Narodzenie i Nowy Rok dzięki specjalnej ofercie Openterface, trwającej od 24 grudnia do 10 stycznia. Dodatkowo: ciesz się naszym świątecznym filmem bożonarodzeniowym i wiadomością na koniec roku."
 date: 2024-12-24
 channel: product
 product: minikvm
-topic: ["beta", "campaign", "community"]
-category: "Product Aktualizacje"
+topic: ["beta", "software", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+<iframe szerokość="560" wysokość="315" loading="lazy" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title="Odtwarzacz wideo YouTube" Frameborder="0" zezwolenie="akcelerometr; autoodtwarzanie; zapis w schowku; multimedia zaszyfrowane; żyroskop; obraz w obrazie; udostępnianie w sieci" referrerpolicy="strict-origin-when-cross-origin" zezwoleniefullscreen></iframe>
 
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Cześć,
 
-Hallo,
+Mamy nadzieję, że ten e-mail zastanie Cię w dobrym zdrowiu, gdy zakończymy rok! Aby uczcić Nowy Rok i wyrazić naszą wdzięczność za Wasze wsparcie, mamy dla Was coś specjalnego.
 
-wir hoffen, dass diese E-Mail Sie gut erreicht, während wir das Jahr abschließen! Um das Neue Jahr zu feiern i unsere Wertschätzung dla Ihre Unterstützung zu zeigen, haben wir etwas Besonderes dla Sie.
+Ale najpierw chcielibyśmy poświęcić chwilę, aby bardzo podziękować wszystkim, którzy byli częścią naszej tegorocznej podróży. Niezależnie od tego, czy jesteś programistą, który pomógł nam wcielić nasze pomysły w życie, jednym z naszych beta testerów, który przekazał nam bezcenne opinie na początku, osobą wspierającą, która zaoferowała wskazówki i zachętę, czy jednym z naszych niesamowitych sponsorów, który wierzył w nas od początku – sprawiłeś, że ten rok będzie niezapomniany. Nie moglibyśmy tego zrobić bez ciebie.
 
-Aber zuerst möchten wir einen Moment nehmen, um allen zu danken, die Teil unserer Reise in diesem Jahr waren. Ob Sie ein Entwickler sind, der uns geholfen hat, unsere Ideen zum Leben zu erwecken, einer unserer Beta-Tester, der uns wertvolles frühes Feedback gegeben hat, ein Unterstützer, der Przewodnik i Ermutigung angeboten hat, lub einer unserer erstaunlichen Backer, der von Anfang an an uns geglaubt hat—Sie haben dieses Jahr unvergesslich gemacht. Ohne Sie hätten wir es nie geschafft.
+Oto umowa:
+W okresie od **24 grudnia 2024 r.** do **10 stycznia 2025 r.**, jeśli kupisz dwa zestawy Mini-KVM Toolkitson Crowd Supply, wyślemy Ci **kredyt sklepowy o wartości 20 USD na nasz sklep TxA**.
 
-Hier ist das Angebot:
-Zwischen dem **24. Dezember 2024** i dem **10. Januar 2025**, wenn Sie zwei Mini-KVM Toolkits auf Crowd Supply kaufen, senden wir Ihnen **ein $20 Sklep-Guthaben dla unseren TxA Sklep**.
+To bardzo proste — po prostu zrób zrzut ekranu potwierdzenia zamówienia z Crowd Supply i wyślij go e-mailem na adres [info@openterface.com](mailto:info@openterface.com). Zweryfikujemy Twój zakup i w odpowiedzi przekażemy kod kredytu sklepowego o wartości 20 USD.
 
-Es ist super einfach—machen Sie einfach einen Screenshot Ihrer Bestellbestätigung von Crowd Supply i senden Sie ihn per E-Mail an [info@openterface.com](mailto:info@openterface.com). Wir werden Ihren Kauf verifizieren i z Ihrem $20 Sklep-Guthaben-Code antworten.
+Mamy dla Was także specjalną świąteczną niespodziankę. Poświęć chwilę na relaks i obejrzenie naszego przytulnego świątecznego wideo — zobacz piękne światła i posłuchaj [soothing Christmas tunes](https://www.youtube.com/watch?v=wEWAhXCXQ1E). Mamy nadzieję, że wniesie on odrobinę radości do Twojego dnia!
 
-Wir haben auch eine besondere Feiertagsoraschung dla Sie. Nehmen Sie sich einen Moment Zeit, um sich zu entspannen i unser gemütliches Weihnachtsvideo zu genießen—schauen Sie sich die schönen Lichter an i hören Sie [beruhigende Weihnachtsmelodien](https://www.youtube.com/watch?v=wEWAhXCXQ1E). Wir hoffen, es bringt ein wenig Freude in Ihren Tag!
+W ten sposób możemy podziękować i rozpocząć rok 2025 drobnym prezentem od nas dla Ciebie.
 
-Das ist unsere Art, Danke zu sagen i 2025 z einem kleinen Geschenk von uns an Sie zu beginnen.
+Kiedy wspominamy miniony rok, jesteśmy naprawdę wdzięczni za niesamowite wsparcie ze strony naszej społeczności. Twoja wiara w naszą wizję była siłą napędową wszystkiego, co robimy. Naszym programistom, którzy zamienili pomysły w rzeczywistość, naszym beta testerom, którzy pomogli udoskonalić nasz produkt, oraz naszym wczesnym zwolennikom, którzy przekazali nam opinie, zachętę i wskazówki – dziękujemy za bycie częścią naszej podróży. A dla naszych wspierających: Wasze zaufanie jest dla nas całym światem i nieskończenie doceniamy Waszą rolę, dzięki której to wszystko stało się możliwe.
 
-Während wir auf das vergangene Jahr zurückblicken, sind wir wirklich dankbar dla die unglaubliche Unterstützung unserer Community. Ihr Glaube an unsere Vision war die treibende Kraft hinter allem, was wir tun. An unsere Entwickler, die Ideen in die Realität umgesetzt haben, unsere Beta-Tester, die geholfen haben, unser Produkt zu verfeinern, i unsere frühen Unterstützer, die Feedback, Ermutigung i Przewodnik angeboten haben—danke, dass Sie Teil unserer Reise waren. Und an unsere Backer, Ihr Vertrauen bedeutet uns die Welt, i wir sind unendlich dankbar dla Ihre Rolle dabei, all dies möglich zu machen.
+Masz pytania? Po prostu napisz do nas – zawsze chętnie pomożemy. Witając rok 2025, życzymy Tobie i Twoim bliskim radosnego Nowego Roku, pełnego szczęścia, sukcesu i nowych, ekscytujących przygód.
 
-Haben Sie Pytania? Schreiben Sie uns einfach—wir sind immer da, um zu helfen. Während wir 2025 willkommen heißen, wünschen wir Ihnen i Ihren Lieben ein fröhliches Neues Jahr voller Glück, Erfolg i aufregender neuer Abenteuer.
+Dziękujemy, że jesteś częścią naszej historii. Cieszymy się, że w nadchodzącym roku będziemy mogli wspólnie tworzyć jeszcze więcej niesamowitych rzeczy!
 
-Danke, dass Sie Teil unserer Geschichte sind. Wir freuen uns darauf, im kommenden Jahr noch mehr erstaunliche Dinge zusammen zu schaffen!
-
-Herzliche Grüße,
-Das Openterface Team
+Pozdrawiam,
+Zespół Openterface'a

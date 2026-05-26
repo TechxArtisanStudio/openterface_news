@@ -2,90 +2,156 @@
 locale: ar
 translationKey: "20260509-keymod-015-release"
 slug: "20260509-keymod-015-release"
-title: "KeyMod 0.15: Gamepad-Preset-Pipeline, Tastatur & Maus (Basic)-Tier, Multi-Touchpad-Layouts"
-description: "KeyMod 0.15 liefert die Gamepad-Preset-Pipeline مع Schema v7, Multi-Touchpad-Layouts, ein dediziertes Tastatur & Maus (Basic)-Tier مع Vollbild-Tastatur و KeyMod-Branding in der gesamten App. Ein wichtiger Schritt hin zu einer polierten Eingabe-Erfahrung."
+title: "KeyMod 0.15: خط أنابيب محدد مسبقًا للوحة الألعاب، وطبقة لوحة المفاتيح والماوس (الأساسية)، وتخطيطات لوحة اللمس المتعددة"
+description: "يقوم KeyMod 0.15 بشحن مسار الإعداد المسبق للوحة الألعاب مع المخطط v7، وتخطيطات لوحة اللمس المتعددة، وطبقة لوحة المفاتيح والماوس (الأساسية) مع لوحة مفاتيح بملء الشاشة، وعلامة KeyMod التجارية عبر التطبيق. خطوة رئيسية نحو تجربة إدخال مصقولة."
 date: 2026-05-09
 channel: product
 product: keymod
-topic: ["beta", "software", "campaign", "community"]
-category: "منتج-التحديثات"
-tags: ["KeyMod", "منتج-التحديثات", "Release", "Gamepad", "Tastatur", "Android"]
+topic: ["shipping", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KeyMod", "Product Updates", "Release", "Gamepad", "Keyboard", "Android"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+يعد KeyMod **0.15** (`versionCode` **15**) إصدارًا بارزًا يقدم ثلاث ميزات رئيسية: **مسار الإعداد المسبق للوحة الألعاب** مع مخطط التخطيط **v6-v7**، وطبقة **لوحة المفاتيح والماوس (الأساسية)** المخصصة، وتخطيطات **لوحة اللمس المتعددة**. يوفر هذا التحديث أيضًا العلامة التجارية **KeyMod** الكاملة عبر تدفق الترحيب وبناء العناصر.
 
-KeyMod **0.15** (`versionCode` **15**) ist ein Meilenstein-Release مع drei Hauptfunktionen: der **Gamepad-Preset-Pipeline** مع Layout-Schema **v6-v7**, dem dedizierten **Tastatur & Maus (Basic)**-Tier و **Multi-Touchpad**-Layouts. Dieses Update bringt außerdem vollständiges **KeyMod**-Branding im Willkommens-Flow و in den Build-Artefakten.
+#### لوحة المفاتيح والماوس (أساسي)
 
-## Gamepad: Preset-Pipeline v7
+<div class = "slideshow-container" id = "slideshow-keymod-015-km-basic" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp" alt="لوحة المفاتيح الأساسية بملء الشاشة" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp" alt="وضع الإنشاء والإرسال الأساسي"load="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp" alt="التخطيط الأساسي للوحة الأرقام" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.webp" alt="وضع لوحة اللمس الأساسي" جاري التحميل="lazy"></div>
+  </div>
+  <div class="عرض الشرائح">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-km-basic', -1)">❮</button>
+    <div class="عرض الشرائح-النقاط">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-km-basic', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-basic', 4)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-km-basic', 1)">❯</button>
+  </div>
+</div>
 
-Das Gamepad nutzt nun ein echtes **Preset-System**, مع dem ihr benutzerdefinierte Controller-Layouts speichern, laden, importieren و exportieren könnt.
+#### لوحة الألعاب
 
-### Was sich geändert hat
+<div class = "slideshow-container" id = "slideshow-keymod-015-gamepad" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp" alt="عرض لوحة الألعاب المُعد مسبقًا"load="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp" alt="إدارة الإعدادات المسبقة للوحة الألعاب" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp" alt="قائمة الإعدادات المسبقة للوحة الألعاب" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-4.webp" alt="إضافة وحدة نمطية مُعدة مسبقًا للوحة الألعاب"load="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp" alt="إعداد لوحة الألعاب مسبقًا في Minecraft" upload="lazy"></div>
+  </div>
+  <div class="عرض الشرائح">
+<button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-gamepad', -1)">❮</button>
+    <div class="عرض الشرائح-النقاط">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-gamepad', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 5)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-gamepad', 1)">❯</button>
+  </div>
+</div>
 
-- **Preset-Store v7** ersetzt die alten eingebauten Layouts. Die klassischen Factory-Presets (`preset_classic_*`) و **Two Buttons** (`preset_two_buttons`) wurden von der Festplatte entfernt. Nur **`preset_default`** bleibt als löschgeschütztes Factory-Layout.
-- **Schema v7** macht **`stick_left`** optional. Ein Layout kann nun حولhaupt kein Linker-Thumb-Modul haben. Das **Add Module**-Menü fügt **`stick_left`**, **`stick_left_2`**, **`stick_left_3`** usw. ein.
-- **Multi-Touchpad-Unterstützung**: Presets können mehrere Touchpads enthalten (`touchpad_1`, `touchpad_2`). Hinzufügen eines Touchpads belegt die nächste verfügbare ID مع leicht versetztem Anker. Gebündelte L/M/R-Maustasten werden حول alle Touchpads hinweg geteilt.
-- **Touchpad-Maustastengröße**: Maustasten verwenden nun einen größeren Standard-Zeichenradius. Größe anpassen per Long-Press **Mouse button size** auf dem Touchpad أو **This button size** auf einzelnen Mausmodulen.
-- **Aux-Stick-Defaults**: **`stick_left_2+`** standardmäßig auf D-Pad-Kreuz + WASD-Mapping.
+#### لوحة المفاتيح والماوس (برو)
 
-### Preset-Verwaltung
+<div class = "slideshow-container" id = "slideshow-keymod-015-km-pro" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp" alt="لوحة مفاتيح بورتريه احترافية" Loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp" alt="Pro Portrait IME" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp" alt="لوحة رقمية احترافية" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp" alt="لوحة مفاتيح احترافية كاملة" جاري التحميل="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp" alt="لوحة مفاتيح احترافية مقسمة أفقيًا" جاري التحميل = "lazy"></div>
+  </div>
+  <div class="عرض الشرائح">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-km-pro', -1)">❮</button>
+    <div class="عرض الشرائح-النقاط">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-km-pro', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-km-pro', 5)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-km-pro', 1)">❯</button>
+  </div>
+</div>
 
-- **Tippt** den Preset-Chip in der Toolbar, um durch verfügbare Layouts zu schalten
-- **Long-Press** لـ die vollständige Preset-Liste مع Import-, Add Module- و Export-Optionen
-- Das معgelieferte **emu-6**-Layout ist das Starter-Preset
-- Der Export-Creator unterstützt i18n zum Teilen von Presets حول Sprachen hinweg
+## لوحة الألعاب: خط أنابيب محدد مسبقًا v7
 
-## Tastatur & Maus (Basic)
+تستخدم لوحة الألعاب الآن **نظامًا محددًا مسبقًا** مناسبًا يتيح لك حفظ تخطيطات وحدة التحكم المخصصة وتحميلها واستيرادها وتصديرها.
 
-Ein dediziertes Vollbild-Tastatur-Tier لـ konzentriertes Tippen ohne den App-Header.
+### ما الذي تغير
 
-### Was ihr bekommt
+- **متجر الإعداد المسبق الإصدار 7** يحل محل التخطيطات المدمجة القديمة. تمت إزالة إعدادات المصنع المسبقة الكلاسيكية (`preset_classic_*`) و**زرين** (`preset_two_buttons`) من القرص. يبقى فقط **`preset_default`** كتخطيط المصنع المحمي ضد الحذف.
+- **Schema v7** يجعل **`stick_left`** اختياريًا. لا يمكن أن يحتوي التخطيط الآن على وحدة إبهام يسرى على الإطلاق. تقوم قائمة **إضافة وحدة** بإدراج **`stick_left`**، **`stick_left_2`**، **`stick_left_3`**، وما إلى ذلك.
+- **دعم لوحة اللمس المتعددة**: قد تتضمن الإعدادات المسبقة لوحات لمس متعددة (`touchpad_1`، `touchpad_2`). تؤدي إضافة لوحة اللمس إلى تخصيص المعرف التالي المتاح مع مرساة قابلة للإزاحة قليلاً. تتم مشاركة أزرار الماوس L/M/R المجمعة عبر جميع لوحات اللمس.
+- **تحجيم زر الماوس في لوحة اللمس**: تستخدم أزرار الماوس الآن نصف قطر رسم افتراضي أكبر. يمكنك ضبط الحجم من خلال الضغط لفترة طويلة على **حجم زر الماوس** على لوحة اللمس، أو **حجم الزر هذا** على وحدات الماوس الفردية.
+- **إعدادات عصا Aux الافتراضية**: **`stick_left_2+`** الافتراضي هو D-pad cross + تعيين WASD.
 
-- **Vollbild-Tastatur** ohne Haupt-App-Header لـ mehr Bildschirmfläche
-- **Porträt- و Landschafts-Numpad**: 5x8-Raster im Porträt (PrtSc / ScrLk / Pause / Home / End), 8x5-Raster in Landschaft مع hohem +, Enter و 00
-- **IME ASCII-only Send-Gate**: Längeren Text im Compose-Modus eingeben, als saubere HID-Tastendrücke senden
-- **Long-Press-Repeat**: Zeichen- أو Funktionstasten gedrückt halten لـ Auto-Repeat (~400 ms Verzögerung, ~50 ms Wiederholung)
-- **Key-Preview**: Schwebende Blase zeigt das effektive Label حول der gedrückten Taste
-- **Haptisches Feedback** و **themengesteuerte** Tastenflächen
+### إدارة الإعداد المسبق
 
-### Sticky vs Chord-Modifikatoren
+- **انقر** على شريحة الإعداد المسبق في شريط الأدوات للتنقل عبر التخطيطات المتاحة
+- **اضغط لفترة طويلة** للحصول على القائمة الكاملة المعدة مسبقًا مع خيارات الاستيراد وإضافة الوحدة والتصدير
+- يأتي تخطيط **emu-6** المجمع كإعداد مسبق للمبتدئين
+- يدعم منشئ التصدير i18n لمشاركة الإعدادات المسبقة عبر اللغات
 
-Einstellungen ermöglichen die Wahl zwischen **sticky Modifiers** (Tippen zum Einrasten) و **momentary + Long-Press Chord** (Standard) لـ die Basic-Tastatur.
+## لوحة المفاتيح والماوس (أساسي)
 
-## Branding
+طبقة لوحة مفاتيح مخصصة بملء الشاشة مصممة للكتابة المركزة بدون رأس التطبيق.
 
-- Der App-Anzeigename ist jetzt **KeyMod**
-- Der Begrüßungsbildschirm zeigt die **KeyMod**-Wortmarke
-- CI-Artefakte و APK-Dateinamen verwenden das **KeyMod**-Präfix
-- `applicationId` bleibt **`com.openterface.keymod`** لـ In-Place-Upgrades
+### ما تحصل عليه
 
-## Was unverändert bleibt
+- **لوحة مفاتيح بملء الشاشة** بدون رأس التطبيق الرئيسي لمزيد من مساحة الشاشة
+- **لوحة رقمية عمودية وأفقية**: شبكة مقاس 5 × 8 في الوضع العمودي (PrtSc / ScrLk / إيقاف مؤقت / الصفحة الرئيسية / النهاية)، وشبكة مقاس 8 × 5 في الوضع الأفقي مع + طويل، وEnter، و00
+- ** بوابة إرسال IME ASCII فقط **: اكتب نصًا طويلًا في وضع الإنشاء، وأرسله كضغطات مفاتيح HID نظيفة
+- ** تكرار الضغط لفترة طويلة **: اضغط مع الاستمرار على مفاتيح الأحرف/الوظائف للتكرار التلقائي (تأخير ~ 400 مللي ثانية، تكرار ~ 50 مللي ثانية)
+- **معاينة المفتاح**: تظهر الفقاعة العائمة التسمية الفعالة أعلى المفتاح عند الضغط عليه
+- **ردود الفعل اللمسية** والأسطح الرئيسية **المدركة للموضوع**
 
-**Tastatur & Maus Pro** (Composite-Modus مع Shortcut-Hub-Strips, geteilten Layouts و reichem IME-Verhalten) bleibt die voll ausgestattete Erfahrung wie bisher.
+### معدّلات Sticky vs Chord
 
-## Update herunterladen
+تتيح لك الإعدادات الاختيار بين **المعدلات الثابتة** (النقر للتثبيت) و**الوتر اللحظي + الضغط لفترة طويلة** (افتراضي) للوحة المفاتيح الأساسية.
 
-**Diese Version (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
+## العلامة التجارية
 
-> **Beta-Hinweis:** Die KeyMod Android-App befindet sich noch in der aktiven Beta-Phase. Das Repo ist noch لا öffentlich — wir planen, es nach einer erfolgreichen Crowdfوing-Kampagne zu open-sourcen. Wenn du Beta-Tester bist و den neuesten APK brauchst, meld dich bei uns auf Discord و wir schicken dir den Build.
+- أصبح اسم عرض التطبيق الآن **KeyMod**
+- تعرض شاشة الترحيب العلامة النصية **KeyMod**
+- تستخدم عناصر CI وأسماء ملفات APK البادئة **KeyMod**
+- يظل `applicationId` **`com.openterface.keymod`** للترقيات الموضعية
 
-> **Bekannte Probleme:** Dieses Release führt erhebliche Änderungen am Gamepad-Preset-System و dem Basic-Tastatur-Tier ein. Unser Dev-Team testet noch intern, es können also noch Bugs auftreten. Falls du auf etwas Unerwartetes stößt, melde es bitte auf Discord — dein Feedback hilft uns, schneller zu stabilisieren.
+## ما لم يتغير
 
-Bestehende التثبيتen werden vor Ort aktualisiert.
+**Keyboard & Mouse Pro** (الوضع المركب مع شرائط Shortcut Hub والتخطيطات المقسمة وسلوك IME الغني) يظل تجربة كاملة الميزات كما كانت من قبل.
 
-## Funktioniert مع Mini-KVM و KVM-Go
+## احصل على التحديث
 
-Die KeyMod-App ist لا auf KeyMod-الأجهزة beschränkt. Bestehende Openterface-Nutzer können sie ebenfalls ausprobieren:
+**هذا الإصدار (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-- **KVM-Go**: الاتصال حول **Bluetooth** أو **USB**
-- **Mini-KVM**: الاتصال حول **USB**
+> **إشعار تجريبي:** لا يزال تطبيق KeyMod Android في مرحلة تجريبية نشطة. لم يتم نشر الريبو المصدر بعد، ونحن نخطط لفتحه بعد حملة تمويل جماعي ناجحة. إذا كنت أحد مختبري الإصدار التجريبي وتحتاج إلى أحدث إصدار APK، فتواصل معنا على Discord وسنقوم بتزويدك بالإصدار.
 
-## Upgrade-Hinweise
+> **المشكلات المعروفة:** يقدم هذا الإصدار تغييرات مهمة على نظام لوحة الألعاب وطبقة لوحة المفاتيح الأساسية. لا يزال فريق التطوير لدينا يقوم بالاختبار داخليًا، لذا قد تواجه أخطاء. إذا واجهت أي شيء غير متوقع، فيرجى الإبلاغ عنه على Discord — تساعدنا تعليقاتك على تحقيق الاستقرار بشكل أسرع.
 
-- **Gamepad**: Eure bisherige Zwei-Tasten-Präferenz aktiviert beim ersten Start automatisch das **Two Buttons**-Preset. Verwendet **Preset** (Tippen zum Schalten, Long-Press لـ die Liste) anstelle der alten 1 Button / 2 Buttons Steuerung.
-- **Tastatur & Maus (Basic)**: Öffnet Basic, um die Vollbild-Tastatur zu erleben. Der Pro-Modus ist حول das Navigations-Drawer لـ das komplette Shortcut-Hub-Erlebnis verfügbar.
+ترقية عمليات التثبيت الحالية في مكانها.
 
-Beste Grüße,
+## يعمل مع Mini-KVM وKVM-Go
 
-Openterface Team | TechxArtisan
+لا يقتصر تطبيق KeyMod على أجهزة KeyMod. يمكن أيضًا لمستخدمي Openterface الحاليين تجربتها:
+
+- **KVM-Go**: اتصل عبر **Bluetooth** أو **USB**
+- **Mini-KVM**: الاتصال عبر **USB**
+
+## ترقية الملاحظات
+
+- **لوحة الألعاب**: يقوم تفضيلك السابق المكون من زرين تلقائيًا بتنشيط **الزرين** المعين مسبقًا عند التشغيل لأول مرة. استخدم **الإعداد المسبق** (انقر للتنقل، اضغط لفترة طويلة للوصول إلى القائمة) بدلاً من عنصر التحكم القديم 1 زر / 2 زر.
+- **لوحة المفاتيح والماوس (الأساسية)**: افتح Basic لتجربة لوحة المفاتيح بملء الشاشة. يتوفر الوضع الاحترافي عبر درج التنقل للاستمتاع بتجربة Shortcut Hub الكاملة.
+
+مع أطيب التحيات،
+
+فريق الواجهة المفتوحة | TechxArtisan

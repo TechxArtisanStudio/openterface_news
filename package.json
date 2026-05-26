@@ -12,7 +12,7 @@
     "predev": "npm run migrate:news && npm run normalize:media",
     "prebuild": "npm run migrate:news && npm run normalize:media",
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/post-build-en-redirects.mjs",
     "preview": "astro preview",
     "test:smoke": "playwright test tests/smoke",
     "test:a11y": "playwright test tests/a11y",

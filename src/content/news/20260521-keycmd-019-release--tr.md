@@ -2,208 +2,207 @@
 locale: tr
 translationKey: "20260521-keycmd-019-release"
 slug: "20260521-keycmd-019-release"
-title: "KeyCmd 0.19: App-Rebranding, KM Pro Compose-Modus, Mehrsprachige Unterstützung ve Modus-führungen"
-description: "KeyCmd 0.19 bringt ein wichtiges Rebranding von KeyMod zu KeyCmd, den neuen KM Pro Compose-Modus ile Unicode-HID-Senden, mehrsprachige UI (Koreanisch, Italienisch, Russisch, pt-BR), interaktive Modus-führungen ve Dutzende UX-Verbesserungen."
+title: "KeyCmd 0.19: Uygulamanın Yeniden Markalanması, KM Pro Oluşturma Modu, Çoklu Dil Desteği ve Mod Başına Rehber Turları"
+description: "KeyCmd 0.19, KeyMod'dan KeyCmd'ye büyük bir yeniden markalaşma, Unicode HID gönderimi ile yeni KM Pro Compose modu, çok dilli kullanıcı arayüzü (Korece, İtalyanca, Rusça, pt-BR), mod başına etkileşimli rehber turları ve düzinelerce UX iyileştirmesi getiriyor."
 date: 2026-05-21
 channel: software
 product: keymod
-topic: ["beta", "software", "campaign"]
-category: "Product Güncellemeler"
-tags: ["KeyCmd", "Product Güncellemeler", "Release", "Compose", "i18n", "Android"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KeyCmd", "Product Updates", "Release", "Compose", "i18n", "Android"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+KeyCmd **0.19** (`versionCode` **19**), KeyMod'dan KeyCmd'ye **uygulamanın yeniden markalanmasını**, Unicode uyumlu HID gönderimi ile yepyeni **KM Pro Compose modunu**, genişletilmiş **çok dilli kullanıcı arayüzünü** (Korece, İtalyanca, Rusça ve Brezilya Portekizcesi dahil), **mod başına etkileşimli rehber turlarını** ve klavye, oyun kumandası ve sunum modlarında düzinelerce UX iyileştirmesi sağlayan büyük bir güncellemedir.
 
-KeyCmd **0.19** (`versionCode` **19**) ist ein großes Update, das das **App-Rebranding** von KeyMod zu KeyCmd, den brandneuen **KM Pro Compose-Modus** ile Unicode-fähigem HID-Senden, eine erweiterte **mehrsprachige UI** (einschließlich Koreanisch, Italienisch, Russisch ve brasilianischem Portugiesisch), **interaktive Modus-führungen** ve Dutzende von UX-Verbesserungen in Tastatur-, Gamepad- ve Präsentationsmodi bringt.
+## Uygulamanın Yeniden Markalanması: KeyMod → KeyCmd
 
-## App-Rebranding: KeyMod → KeyCmd
+Uygulamanın görünen adı artık tüm giriş noktalarında **KeyCmd** şeklindedir. Bu yeniden markalama, **KeyMod donanımı** ile ona eşlik eden **KeyCmd uygulaması** arasındaki ayrımı netleştiriyor.
 
-Der App-Anzeigename ist jetzt an allen Einstiegspunkten **KeyCmd**. Dieses Rebranding verdeutlicht die Unterscheidung zwischen der **KeyMod-Donanım** ve ihrer begleitenden **KeyCmd-App**.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp" alt = "KeyCmd karşılama ekranı" style = "max-width:100%; border-radius:8px; marj:16px 0;" yükleniyor = "tembel">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp" alt="KeyCmd Willkommensbildschirm" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
+### Ne değişti
 
-### Was sich geändert hat
+- **Uygulamanın görünen adı**: Başlatıcı simgesi ve sistem arayüzü artık "KeyCmd"yi gösteriyor
+- **Karşılama akışı**: Kelime işareti ve KeyMod'dan KeyCmd'ye kopyalama güncellendi
+- **CI yapıları ve APK dosya adları**: **KeyCmd** önekini kullanın
+- Sorunsuz yerinde yükseltmeler için `applicationId` **`com.openterface.keymod`** olarak kalır
 
-- **App-Anzeigename**: Launcher-Symbol ve System-UI zeigen jetzt „KeyCmd"
-- **Willkommensablauf**: Wortmarke ve Texte von KeyMod zu KeyCmd aktualisiert
-- **CI-Artefakte ve APK-Dateinamen**: Verwenden das **KeyCmd**-Präfix
-- `applicationId` bleibt **`com.openterface.keymod`** için nahtlose Inplace-Upgrades
+Mevcut kullanıcılar: ayarlarınız, profilleriniz ve eşlenen cihazlarınız korunur. Yükseltme sorunsuzdur.
 
-Bestehende Benutzer: Eure Einstellungen, Profile ve gekoppelten Geräte werden beibehalten. Das Upgrade ist nahtlos.
+## Klavye ve Fare: Tam Ekran Deneyimi
 
-## Tastatur & Maus: Vollbild-Erfahrung
+KeyCmd, tümü hem dikey hem de yatay yönlendirmeler için optimize edilmiş tam ekran klavye, dokunmatik yüzey ve sayısal tuş takımı deneyimi sağlar.
 
-KeyCmd bietet eine Vollbild-Tastatur-, Touchpad- ve Ziffernblock-Erfahrung — optimiert için sowohl Porträt- als auch Landschaftsorientierung.
-
-<div class="slideshow-container" id="slideshow-keycmd-019-kbm-de" data-auto-slide="true" data-auto-slide-interval="3000">
-  <div class="slideshow-wrapper">
-    <div class="slide active">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp" alt="Vollbildtastatur Landschaft"  loading="lazy">
+<div class = "slideshow-container" id = "slideshow-keycmd-019-kbm" data-auto-slide = "true" data-auto-slide-interval = "3000">
+  <div class = "slayt gösterisi-sarmalayıcı">
+    <div class = "slayt etkin">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp" alt = "Tam klavye ortamı" yükleme = "tembel">
     </div>
-    <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp" alt="Ziffernblock Landschaft"  loading="lazy">
+    <div class = "slayt">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp" alt = "Sayısal tuş takımı manzarası" yükleme = "tembel">
     </div>
-    <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp" alt="Ziffernblock Porträt"  loading="lazy">
+    <div class = "slayt">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp" alt = "Sayısal tuş takımı portresi" yükleme = "tembel">
     </div>
-    <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp" alt="Tastatur ve Touchpad Porträt"  loading="lazy">
+    <div class = "slayt">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp" alt = "Klavye ve dokunmatik yüzey portresi" yükleme = "tembel">
     </div>
-    <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp" alt="Touchpad Landschaft"  loading="lazy">
+    <div class = "slayt">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp" alt = "Dokunmatik yüzey manzarası" yükleme = "tembel">
     </div>
-    <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp" alt="Remote-Coding ile KeyCmd"  loading="lazy">
+    <div class = "slayt">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp" alt = "KeyCmd ile uzaktan kodlama" yükleme = "tembel">
     </div>
-    <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp" alt="KeyCmd Einstellungsbildschirm"  loading="lazy">
+    <div class = "slayt">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp" alt = "KeyCmd ayarları ekranı" yükleme = "tembel">
     </div>
   </div>
 
-  <div class="slideshow-navigation">
-    <button class="nav-arrow left" onclick="changeSlide('slideshow-keycmd-019-kbm-de', -1)">❮</button>
-    <div class="slideshow-dots">
-      <span class="dot active" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 1)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 2)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 3)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 4)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 5)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 6)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 7)"></span>
+  <div class = "slayt gösterisi-navigasyon">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keycmd-019-kbm', -1)">❮</button>
+    <div class = "slayt gösterisi-noktalar">
+      <span class="dot active" onclick="currentSlide('slideshow-keycmd-019-kbm', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 5)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 6)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 7)"></span>
     </div>
-    <button class="nav-arrow right" onclick="changeSlide('slideshow-keycmd-019-kbm-de', 1)">❯</button>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keycmd-019-kbm', 1)">❯</button>
   </div>
 </div>
 
-## KM Pro: Compose & Send-Modus
+## KM Pro: Oluşturma ve Gönderme Modu
 
-Das größte neue Feature in 0.19 ist der **Compose-Modus** in KM Pro — ein dedizierter Texteditor, der es euch ermöglicht, lange Texte einzugeben ve als HID-Tastendrücke an das Zielgerät zu senden.
+0.19'daki en büyük yeni özellik, uzun pasajlar yazmanıza ve bunları hedef makineye HID tuş vuruşları olarak göndermenize olanak tanıyan özel bir metin düzenleyici olan KM Pro'daki **Oluşturma modu**'dur.
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="Skriptausführung im Compose-Modus" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt = "Oluşturma modunda çalışan komut dosyası" style = "max-width:100%; border-radius:8px; marj:16px 0;" yükleniyor = "tembel">
 
-<p><strong>Compose &amp; Send demo (YouTube Short)</strong></p>
+<p><strong>Oluştur ve amp; Demo gönder (YouTube Short)</strong></p>
 
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send demo (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width = "560" height = "315" yükleme = "lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title = "KeyCmd Demo Oluştur ve Gönder (YouTube Kısa)" çerçeveborder = "0" izin = ivmeölçer; otomatik oynatma; panoya yazma; şifreli medya; jiroskop; resim içinde resim; web paylaşımı" referrerpolicy = "strict-origin-when-cross-origin" izin veren tam ekran></iframe>
 
 
-### Compose-Editor
+### Oluşturma düzenleyicisi
 
-- **Obere Shortcut-Leiste + Composer-Aktionszeile** ile **Löschen**- ve **Rückgängig/Löschen**-Steuerungen
-- **Entwurfserhaltung**: Euer Text wird beim Wechseln von Submodi ve sogar nach einem erfolgreichen Senden beibehalten
-- **IME-Integration**: Tippt ile der Telefon-Tastatur, sendet als saubere HID-Tastendrücke
-- **Determinierter Sende-Fortschritt**: Eine sichtbare Fortschrittsleiste için lange HID-Puffer, sodass ihr genau wisst, wie weit der Sende-Vorgang fortgeschritten ist
+- **Temizle** ve **Geri Al/Temizle** kontrolleriyle **Üst kısayol şeridi + eylem satırı oluşturma**
+- **Taslak saklama**: Metniniz alt mod geçişlerinde ve hatta başarılı bir gönderimden sonra bile korunur
+- **IME entegrasyonu**: telefonunuzun klavyesini kullanarak yazın, temiz HID tuş vuruşları olarak gönderin
+- **Gönderme ilerlemesini belirleme**: uzun HID arabellekleri için görünür bir ilerleme çubuğu; böylece gönderimin tam olarak ne kadar ilerlediğini bilirsiniz
 
-### Unicode-fähiges HID-Senden
+### Unicode uyumlu HID gönderimi
 
-- **Dual-Modus-Risikoprüfung**: Vor dem Senden von değil-ASCII-Text warnt ein Dialog hakkında Unicode-Kompatibilität ve bietet Inspektions- ve Vorschauaktionen
-- **macOS Unicode-Hex-Flow**: Auf macOS-Hosts verwendet die App die Option+Hex-Code-Eingabemethode için erweiterte Zeichen
-- **Sicherere Sende-Dialoge**: Der Prüfungsbildschirm passt seinen Inhalt basierend darauf an, ob der Puffer reines ASCII veya Unicode-Zeichen enthält
-- **Zeicheninspektions-Tools**: Der Sende-Risiko-Dialog bietet **Prüfen**- ve **Vorschau**-Aktionen, ve macOS-Hosts enthalten einen dedizierten **Unicode-Hex-Pfad-Audit**-Eintrag
+- **Çift modlu risk incelemesi**: ASCII olmayan metin göndermeden önce, bir iletişim kutusu Unicode uyumluluğu konusunda uyarır ve inceleme/önizleme eylemleri sağlar
+- **macOS Unicode hex akışı**: macOS ana makinelerinde uygulama, genişletilmiş karakterler için Option+hex kod giriş yöntemini kullanır
+- **Daha güvenli gönderme iletişim kutuları**: İnceleme ekranı, arabelleğin saf ASCII olmasına veya Unicode karakterleri içerip içermediğine göre içeriğini uyarlar
+- **Karakter inceleme araçları**: risk gönderme iletişim kutusu **Kontrol Et** ve **Önizleme** eylemleri sağlar ve macOS ana bilgisayarları özel bir **Unicode onaltılık yol denetimi** girişi içerir
 
-### KM Basic-Umfang
+### KM Temel kapsamı
 
-In 0.19 bleibt **Compose & Send eine Funktion von Tastatur & Maus Pro**. KM Basic konzentriert sich auf Vollbildtastatur-, Touchpad- ve Ziffernblock-Workflows.
+0.19'da **Oluştur ve Gönder, Klavye ve Fare Pro özelliği olarak kalmaya devam ediyor**. KM Basic, tam ekran klavye, dokunmatik yüzey ve sayısal tuş takımı iş akışlarına odaklanır.
 
-## Mehrsprachige Unterstützung
+## Çoklu Dil Desteği
 
-KeyCmd unterstützt jetzt **11 App-UI-Sprachen**. Dieses Release fügt vier neue Lokalisierungen hinzu:
+KeyCmd artık **11 uygulama kullanıcı arayüzü dilini** destekliyor. Bu sürüm dört yeni yerelleştirme ekler:
 
-- **Koreanisch (ko)**: vollständige UI-Übersetzung
-- **Italienisch (it)**: vollständige UI-Übersetzung
-- **Russisch (ru)**: vollständige UI-Übersetzung
-- **Brasilianisches Portugiesisch (pt-BR)**: vollständige UI-Übersetzung
+- **Korece (ko)**: tam kullanıcı arayüzü çevirisi
+- **İtalyanca (it)**: tam kullanıcı arayüzü çevirisi
+- **Rusça (ru)**: tam kullanıcı arayüzü çevirisi
+- **Brezilya Portekizcesi (pt-BR)**: tam kullanıcı arayüzü çevirisi
 
-Zusammen ile dem bestehenden Englisch, vereinfachtem Chinesisch, traditionellem Chinesisch, Japanisch, Französisch, Deutsch ve Spanisch deckt KeyCmd jetzt den Großteil unserer globalen Nutzerbasis ab.
+Mevcut İngilizce, Basitleştirilmiş Çince, Geleneksel Çince, Japonca, Fransızca, Almanca ve İspanyolca ile birlikte KeyCmd artık küresel kullanıcı tabanımızın büyük çoğunluğunu kapsıyor.
 
-### Was sich geändert hat
+### Ne değişti
 
-- **Sprachauswahl** in den Einstellungen ile kanonischen App-Sprachnamen
-- **Bluetooth-Header** ve **Tastenvorschau** lokalisiert
-- **Release-Lint**-Korrekturen için Compose-Warn-Tabs in allen Sprachen
+- Ayarlar'da standart uygulama dili adlarına sahip **Dil seçici**
+- **Bluetooth başlıkları** ve **tuş dokunuşu önizlemesi** yerelleştirilmiş
+- Tüm dillerde uyarı sekmeleri oluşturmaya yönelik **lint yayınlayın** düzeltmeleri
 
-## Interaktive Modus-führungen
+## İnteraktif Rehber Turları
 
-Jeder Modus hat jetzt eine **integrierte interaktive Modus-führung**, die euch Schritt için Schritt durch seine Özellikler führt.
+Artık her modda, özellikleri konusunda size adım adım yol gösteren **yerleşik etkileşimli bir rehber turu** bulunmaktadır.
 
-### Verfügbare Modus-führungen
+### Mevcut turlar
 
-- **Shortcut Hub-Modus-führung**: Öffnet das Standard-Profil ve deckt Detail-UI, Kategorie-Tabs ve Shortcut-Verwaltung ab
-- **Gamepad-Modus-führung**: Erklärt das Gamepad-Layout, Modulverwaltung ve Voreinstellungssystem
-- **KM Pro-Modus-führung**: Deckt den Compose-Modus, Shortcut-Panel ve Pro-spezifische Özellikler ab
-- **KM Basic-Modus-führung**: Erklärt die Vollbildtastatur, Modifikator-Halte-Wischgeste ve Ziffernblock
+- **Kısayol Merkezi turu**: Varsayılan profili açar ve ayrıntılı kullanıcı arayüzünü, kategori sekmelerini ve kısayol yönetimini kapsar
+- **Oyun kumandası turu**: oyun kumandası düzenini, modül yönetimini ve ön ayar sistemini açıklar
+- **KM Pro turu**: Oluşturma modunu, kısayol panelini ve Pro'ya özgü özellikleri kapsar
+- **KM Temel turu**: tam ekran klavyeyi, değiştiriciyi basılı tutmayı ve sayısal tuş takımını açıklar
 
-### Modus-führungsfunktionen
+### Tur özellikleri
 
-- **Modus-spezifische Modus-führungen**: Jeder Modus hat seine eigene maßgeschneiderte Modus-führung
-- **Wiederholungsblatt**: Jede Modus-führung jederzeit hakkında die **Modus-führung**-Taste (Symbol links neben der Bağlantısleiste) erneut aufrufen
-- **i18n-Unterstützung**: Modus-führungsinhalte sind in der gesamten App-Sprachmenge lokalisiert
-- **Landschafts-optimiert**: Bottom-Sheet-Layouts passen sich in Landschaftsorientierung korrekt an
+- **Moda özel kılavuzlar**: her modun kendine özel turu vardır
+- **Tekrar oynatma sayfası**: **Mod Kılavuzu** düğmesi (bağlantı kromunun solundaki simge) aracılığıyla herhangi bir turu istediğiniz zaman yeniden ziyaret edin
+- **i18n desteği**: tur içeriği tüm uygulama dili kümesinde yerelleştirilmiştir
+- **Yatay optimizasyonlu**: alt sayfa düzenleri yatay yönde doğru şekilde uyarlanır
 
-## UX-Verbesserungen
+## Kullanıcı Deneyimi İyileştirmeleri
 
-### Tastatur
+### Klavye
 
-- **Tastenvorschau**: Seht genau, was gesendet wird, bevor ihr tippt. Über Einstellungen aktivierbar. Standardmäßig aktiviert.
-- **Schnell-Tipp-HID-Korrektur**: Verbessertes Timing der Tastenfreigabe ve zusammengeführte Freigabe-Ereignisse için schnelleres Tippen
-- **Alternativen-Tipp-Verarbeitung**: Langes Drücken der Taste `a` zeigt jetzt Alternativen için ¥ (oben), £ (links), € (rechts) ile verbessertem visuellen Feedback
-- **Modifikator-Halte-Wischgeste**: In KM Basic/Pro-Modus-führungen lehrt ein neuer Schritt die Halte-Wischgeste için schnellen Modifikatorzugriff
+- **Tuş dokunuşu önizlemesi**: Dokunmadan önce tam olarak ne gönderileceğini görün. Ayarlar aracılığıyla etkinleştirin. Varsayılan olarak etkindir.
+- **Hızlı dokunma HID düzeltmesi**: daha hızlı yazma için iyileştirilmiş klavye dokunma bırakma zamanlaması ve birleştirilmiş bırakma etkinlikleri
+- **Alternatif dokunma kullanımı**: `a' tuşuna uzun basıldığında artık iyileştirilmiş görsel geri bildirimle ¥ (yukarı), £ (sol), € (sağ) alternatifleri gösteriliyor
+- **Değiştiriciyi basılı tutarak hızlıca kaydırma**: KM Temel/Pro turlarında, yeni bir adım, hızlı değiştirici erişimi için basılı tutarak kaydırma hareketini öğretir
 
-### Gamepad
+### Oyun Kumandası
 
-- **Bearbeitungs-Sitzungsleiste entfernt**: Saubereres Gamepad-Chrome ohne die alte Bearbeitungs-Sitzungs-Symbolleiste
-- **Gamepad-Chrome ve Modus-führung**: Neuer visueller Schliff ve integrierte Modus-führung
-- **Modus-führungssymbol**: Links neben der Bağlantısleiste için einfachen Zugriff platziert
+- **Oturum düzenleme çubuğu kaldırıldı**: eski düzenleme oturumu araç çubuğu olmadan daha temiz oyun kumandası kromu
+- **Gamepad kromu ve tur**: yeni görsel cila ve entegre rehber turu
+- **Mod kılavuzu simgesi**: kolay erişim için bağlantı kromunun soluna yerleştirilmiştir
 
-### Präsentation
+### Sunum
 
-- **Porträt-Paar-Sperre**: Der Präsentationsmodus ist auf Porträt- ve umgekehrte Porträt-Orientierungen için stabile Präsentationssteuerung beschränkt
+- **Portre çifti kilidi**: Sunum modu, kararlı sunucu kontrolleri için dikey ve ters dikey yönlerle sınırlandırılmıştır
 
-### UI & Thema
+### Kullanıcı Arayüzü ve Tema
 
-- **Akzent-Farbfelder**: Ersetzt den Themenfarben-Familiendreher durch visuelle Akzent-Farbfelder için einfachere Farbauswahl
-- **UI-Akzent-Ausrichtung**: Alle UI-Akzente folgen jetzt der Themenfarbenfamilie (değil der Legacy-Primärfarbe)
-- **Header-Rechts-Cluster**: Verbesserte Dimensionen için Bağlantıssymbole sowohl in der Haupt-App als auch im KM Basic-Chrome
-- **Compose-Sende-Taste-Styling**: Angeglichene değil-ASCII-Sende-Tasten-Appearance im Hell-Modus
+- **Vurgu renk örnekleri**: Daha kolay renk seçimi için tema renk ailesi döndürücüyü görsel vurgu renk örnekleriyle değiştirdik
+- **Kullanıcı arayüzü vurgu hizalaması**: Tüm kullanıcı arayüzü vurguları artık tema renk ailesini takip ediyor (eski ana rengi değil)
+- **Sağ başlık kümesi**: hem ana uygulamada hem de KM Basic kromunda bağlantı simgeleri için iyileştirilmiş boyutlar
+- **Gönderme düğmesi stili oluşturma**: ışık modunda hizalanmış, ASCII olmayan gönderme düğmesi görünümü
 
-### Einstellungen
+### Ayarlar
 
-- **Einstellungs-Neuordnung**: Kanonische App-Sprachnamen; Emulator-Kurulumsskripte için Klarheit umbenannt
-- **Dev-Helfer-Skripte**: Für klarere Geräte-Identifikation ve Aktionsbenennung umbenannt
-- **FAQ-Docs**: `docs/FAQ.md` ile aktuellem App-Verhalten aktualisiert
+- **Ayarların yeniden düzenlenmesi**: standart uygulama dili adları; Anlaşılır olması için emülatör yükleme komut dosyaları yeniden adlandırıldı
+- **Geliştirme yardımcı komut dosyaları**: daha net cihaz tanımlaması ve eylem adlandırması için yeniden adlandırıldı
+- **SSS belgeleri**: güncel uygulama davranışıyla birlikte `docs/FAQ.md' güncellendi
 
-## Reale Anwendungsfälle
+## Gerçek Dünyadaki Kullanım Durumları
 
-### Remote-Coding
+### Uzaktan Kodlama
 
-KeyCmd ist değil nur için die Serververwaltung gedacht. Entwickler verwenden es için **Remote-Coding-Sitzungen** — Steuerung einer Headless-Entwicklungsbox vom Telefon veya Tablet aus, ile vollständiger Tastatur-, Touchpad- ve Ziffernblock-Unterstützung.
+KeyCmd yalnızca sunucu yönetimi için değildir. Geliştiriciler bunu **uzaktan kodlama oturumları** için kullanıyor; tam klavye, dokunmatik yüzey ve sayısal tuş takımı desteğiyle tamamlanan bir telefon veya tabletten başsız bir geliştirici kutusunu kontrol ediyor.
 
-## Was unverändert bleibt
+## Değişmeyen şey
 
-**Tastatur & Maus Pro** (Composite-Modus ile Shortcut Hub-Leisten, geteilten Layouts ve reichem IME-Verhalten) bleibt die voll ausgestattete Erfahrung, die es vorher war. Alle bestehenden Profile, Voreinstellungen ve gekoppelten Geräte werden beibehalten.
+**Klavye ve Fare Pro** (Kısayol Hub şeritleri, bölünmüş düzenler ve zengin IME davranışıyla bileşik mod) daha önce olduğu gibi tam özellikli bir deneyim olmaya devam ediyor. Mevcut tüm profiller, ön ayarlar ve eşleştirilmiş cihazlar korunur.
 
-## Update holen
+## Güncellemeyi alın
 
-**Diese Version (0.19):** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
+**Bu sürüm (0.19):** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
 
-> **Beta-Hinweis:** Die KeyCmd Android-App befindet sich noch in der aktiven Beta-Phase. Das Quellcode-Repo ist noch değil öffentlich — wir planen, es nach einer erfolgreichen Crowdfveing-Kampagne zu open-sourcen. Wenn ihr ein Beta-Tester seid ve die neueste APK benötigt, kontaktiert uns auf Discord ve wir schicken euch den Build.
+> **Beta bildirimi:** KeyCmd Android uygulaması hâlâ aktif beta sürümündedir. Kaynak deposu henüz halka açık değil; başarılı bir kitlesel fonlama kampanyasından sonra açık kaynak kodlu hale getirmeyi planlıyoruz. Beta testçisiyseniz ve en son APK'ya ihtiyacınız varsa Discord üzerinden bize ulaşın, biz de size sürümü sunalım.
 
-Bestehende Kurulumen werden vor Ort aktualisiert.
+Mevcut yüklemeler güncelleniyor.
 
-## Funktioniert ile Mini-KVM ve KVM-Go
+## Mini-KVM ve KVM-Go ile çalışır
 
-Die KeyCmd-App ist değil auf KeyMod-Donanım beschränkt. Bestehende Openterface-Nutzer können sie ebenfalls ausprobieren:
+KeyCmd uygulaması KeyMod donanımıyla sınırlı değildir. Mevcut Openterface kullanıcıları da deneyebilir:
 
-- **KVM-Go**: Bağlantı hakkında **Bluetooth** veya **USB**
-- **Mini-KVM**: Bağlantı hakkında **USB**
+- **KVM-Go**: **Bluetooth** veya **USB** ile bağlanın
+- **Mini-KVM**: **USB** aracılığıyla bağlanın
 
-## Upgrade-Hinweise
+## Yükseltme notları
 
-- **Rebranding**: Der App-Name ändert sich von KeyMod zu KeyCmd. Eure Daten werden beibehalten.
-- **Compose-Modus**: Neu için Tastatur & Maus Pro.
-- **Modus-führungen**: Tippt in jedem Modus auf das Modus-führungssymbol (links neben der Bağlantısleiste), um die interaktive Modus-führung zu starten.
-- **Sprachen**: Geht zu den Einstellungen, um die App-Sprache zu ändern. KeyCmd unterstützt jetzt 11 App-UI-Sprachen.
+- **Yeniden Markalama**: Uygulama adı KeyMod'dan KeyCmd'ye değişir. Verileriniz korunur.
+- **Oluşturma modu**: Keyboard & Mouse Pro'da yeni.
+- **Rehber turları**: Etkileşimli turu başlatmak için herhangi bir modda rehber simgesine (bağlantı kromunun solunda) dokunun.
+- **Diller**: Uygulama dilini değiştirmek için Ayarlar'a gidin. KeyCmd artık 11 uygulama kullanıcı arayüzü dilini destekliyor.
 
-Mit frevelichen Grüßen,
+Saygılarımızla,
 
-Openterface Team | TechxArtisan
+Açık Arayüz Ekibi | TechxArtisan

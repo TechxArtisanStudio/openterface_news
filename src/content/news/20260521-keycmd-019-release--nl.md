@@ -2,208 +2,207 @@
 locale: nl
 translationKey: "20260521-keycmd-019-release"
 slug: "20260521-keycmd-019-release"
-title: "KeyCmd 0.19: App-Rebranding, KM Pro Compose-Modus, Mehrsprachige Unterstützung en Modus-führungen"
-description: "KeyCmd 0.19 bringt ein wichtiges Rebranding von KeyMod zu KeyCmd, den neuen KM Pro Compose-Modus met Unicode-HID-Senden, mehrsprachige UI (Koreanisch, Italienisch, Russisch, pt-BR), interaktive Modus-führungen en Dutzende UX-Verbesserungen."
+title: "KeyCmd 0.19: app-rebranding, KM Pro Compose-modus, ondersteuning in meerdere talen en rondleidingen per modus"
+description: "KeyCmd 0.19 brengt een grote rebranding van KeyMod naar KeyCmd, de nieuwe KM Pro Compose-modus met Unicode HID-verzending, meertalige gebruikersinterface (Koreaans, Italiaans, Russisch, pt-BR), interactieve rondleidingen per modus en tientallen UX-verfijningen."
 date: 2026-05-21
 channel: software
 product: keymod
-topic: ["beta", "software", "campaign"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"
 tags: ["KeyCmd", "Product Updates", "Release", "Compose", "i18n", "Android"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+KeyCmd **0.19** (`versionCode` **19**) is een belangrijke update die de **app-rebrand** levert van KeyMod naar KeyCmd, de gloednieuwe **KM Pro Compose-modus** met Unicode-bewuste HID-verzending, uitgebreide **meertalige gebruikersinterface** (inclusief Koreaans, Italiaans, Russisch en Braziliaans Portugees), **interactieve rondleidingen per modus** en tientallen UX-verfijningen voor toetsenbord-, gamepad- en presentatiemodi.
 
-KeyCmd **0.19** (`versionCode` **19**) ist ein großes Update, das das **App-Rebranding** von KeyMod zu KeyCmd, den brandneuen **KM Pro Compose-Modus** met Unicode-fähigem HID-Senden, eine erweiterte **mehrsprachige UI** (einschließlich Koreanisch, Italienisch, Russisch en brasilianischem Portugiesisch), **interaktive Modus-führungen** en Dutzende von UX-Verbesserungen in Tastatur-, Gamepad- en Präsentationsmodi bringt.
+## Rebranding van apps: KeyMod → KeyCmd
 
-## App-Rebranding: KeyMod → KeyCmd
+De weergavenaam van de app is nu **KeyCmd** voor alle toegangspunten. Deze rebranding verduidelijkt het onderscheid tussen de **KeyMod-hardware** en de bijbehorende **KeyCmd-app**.
 
-Der App-Anzeigename ist jetzt an allen Einstiegspunkten **KeyCmd**. Dieses Rebranding verdeutlicht die Unterscheidung zwischen der **KeyMod-Hardware** en ihrer begleitenden **KeyCmd-App**.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp" alt="KeyCmd welkomstscherm" style="max-width:100%; border-radius:8px; marge:16px 0;" laden = "lui">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp" alt="KeyCmd Willkommensbildschirm" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
+### Wat is er veranderd
 
-### Was sich geändert hat
+- **App-weergavenaam**: Launcher-pictogram en systeem-UI tonen nu "KeyCmd"
+- **Welkomststroom**: woordmerk bijgewerkt en gekopieerd van KeyMod naar KeyCmd
+- **CI-artefacten en APK-bestandsnamen**: gebruik het voorvoegsel **KeyCmd**
+- `applicationId` blijft **`com.openterface.keymod`** voor naadloze in-place upgrades
 
-- **App-Anzeigename**: Launcher-Symbol en System-UI zeigen jetzt „KeyCmd"
-- **Willkommensablauf**: Wortmarke en Texte von KeyMod zu KeyCmd aktualisiert
-- **CI-Artefakte en APK-Dateinamen**: Verwenden das **KeyCmd**-Präfix
-- `applicationId` bleibt **`com.openterface.keymod`** voor nahtlose Inplace-Upgrades
+Bestaande gebruikers: uw instellingen, profielen en gekoppelde apparaten blijven behouden. De upgrade verloopt naadloos.
 
-Bestehende Benutzer: Eure Einstellungen, Profile en gekoppelten Geräte werden beibehalten. Das Upgrade ist nahtlos.
+## Toetsenbord en muis: ervaring op volledig scherm
 
-## Tastatur & Maus: Vollbild-Erfahrung
+KeyCmd biedt een toetsenbord-, touchpad- en numeriek toetsenbordervaring op volledig scherm, allemaal geoptimaliseerd voor zowel portret- als landschapsoriëntatie.
 
-KeyCmd bietet eine Vollbild-Tastatur-, Touchpad- en Ziffernblock-Erfahrung — optimiert voor sowohl Porträt- als auch Landschaftsorientierung.
-
-<div class="slideshow-container" id="slideshow-keycmd-019-kbm-de" data-auto-slide="true" data-auto-slide-interval="3000">
+<div class="slideshow-container" id="slideshow-keycmd-019-kbm" data-auto-slide="true" data-auto-slide-interval="3000">
   <div class="slideshow-wrapper">
-    <div class="slide active">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp" alt="Vollbildtastatur Landschaft"  loading="lazy">
+    <div class="dia actief">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp" alt="Volledig toetsenbord liggend" laden="lui">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp" alt="Ziffernblock Landschaft"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp" alt="Numpad landschap" laden="lui">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp" alt="Ziffernblock Porträt"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp" alt="Numpad portret" laden="lui">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp" alt="Tastatur en Touchpad Porträt"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp" alt="Toetsenbord en touchpad staand" loading="lui">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp" alt="Touchpad Landschaft"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp" alt="Touchpad liggend" laden="lui">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp" alt="Remote-Coding met KeyCmd"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp" alt="Codering op afstand met KeyCmd" loading="lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp" alt="KeyCmd Einstellungsbildschirm"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp" alt="KeyCmd instellingenscherm" loading="lui">
     </div>
   </div>
 
-  <div class="slideshow-navigation">
-    <button class="nav-arrow left" onclick="changeSlide('slideshow-keycmd-019-kbm-de', -1)">❮</button>
+  <div class="slideshow-navigatie">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keycmd-019-kbm', -1)">❮</button>
     <div class="slideshow-dots">
-      <span class="dot active" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 1)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 2)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 3)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 4)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 5)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 6)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 7)"></span>
+      <span class="dot active" onclick="currentSlide('slideshow-keycmd-019-kbm', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 5)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 6)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 7)"></span>
     </div>
-    <button class="nav-arrow right" onclick="changeSlide('slideshow-keycmd-019-kbm-de', 1)">❯</button>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keycmd-019-kbm', 1)">❯</button>
   </div>
 </div>
 
-## KM Pro: Compose & Send-Modus
+## KM Pro: modus voor opstellen en verzenden
 
-Das größte neue Feature in 0.19 ist der **Compose-Modus** in KM Pro — ein dedizierter Texteditor, der es euch ermöglicht, lange Texte einzugeben en als HID-Tastendrücke an das Zielgerät zu senden.
+De grootste nieuwe functie in 0.19 is de **Opstelmodus** in KM Pro – een speciale teksteditor waarmee u lange passages kunt typen en deze als HID-toetsaanslagen naar de doelmachine kunt sturen.
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="Skriptausführung im Compose-Modus" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="Script wordt uitgevoerd in de modus Opstellen" style="max-width:100%; border-radius:8px; margin:16px 0;" laden = "lui">
 
-<p><strong>Compose &amp; Send demo (YouTube Short)</strong></p>
+<p><strong>Componeer &amp; Stuur demo (YouTube Short)</strong></p>
 
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send demo (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Demo verzenden (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gecodeerde media; gyroscoop; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-### Compose-Editor
+### Componeer-editor
 
-- **Obere Shortcut-Leiste + Composer-Aktionszeile** met **Löschen**- en **Rückgängig/Löschen**-Steuerungen
-- **Entwurfserhaltung**: Euer Text wird beim Wechseln von Submodi en sogar nach einem erfolgreichen Senden beibehalten
-- **IME-Integration**: Tippt met der Telefon-Tastatur, sendet als saubere HID-Tastendrücke
-- **Determinierter Sende-Fortschritt**: Eine sichtbare Fortschrittsleiste voor lange HID-Puffer, sodass ihr genau wisst, wie weit der Sende-Vorgang fortgeschritten ist
+- **Bovenste snelkoppelingsstrook + actierij opstellen** met de bedieningselementen **Wissen** en **Ongedaan maken/Wissen**
+- **Conceptbehoud**: uw tekst blijft behouden bij submodusschakelaars en zelfs na een succesvolle verzending
+- **IME-integratie**: typ met het toetsenbord van uw telefoon, verzend als schone HID-toetsaanslagen
+- **Bepaal de verzendvoortgang**: een zichtbare voortgangsbalk voor lange HID-buffers, zodat u precies weet hoe ver de verzending is gevorderd
 
-### Unicode-fähiges HID-Senden
+### Unicode-bewuste HID-verzending
 
-- **Dual-Modus-Risikoprüfung**: Vor dem Senden von niet-ASCII-Text warnt ein Dialog over Unicode-Kompatibilität en bietet Inspektions- en Vorschauaktionen
-- **macOS Unicode-Hex-Flow**: Auf macOS-Hosts verwendet die App die Option+Hex-Code-Eingabemethode voor erweiterte Zeichen
-- **Sicherere Sende-Dialoge**: Der Prüfungsbildschirm passt seinen Inhalt basierend darauf an, ob der Puffer reines ASCII of Unicode-Zeichen enthält
-- **Zeicheninspektions-Tools**: Der Sende-Risiko-Dialog bietet **Prüfen**- en **Vorschau**-Aktionen, en macOS-Hosts enthalten einen dedizierten **Unicode-Hex-Pfad-Audit**-Eintrag
+- **Dual-mode risicobeoordeling**: voordat niet-ASCII-tekst wordt verzonden, waarschuwt een dialoogvenster voor Unicode-compatibiliteit en biedt het inspectie-/voorbeeldacties
+- **macOS Unicode hex flow**: op macOS-hosts gebruikt de app de Option+hex-code-invoermethode voor uitgebreide tekens
+- **Veiliger verzenden van dialoogvensters**: het beoordelingsscherm past de inhoud aan op basis van het feit of de buffer puur ASCII is of Unicode-tekens bevat
+- **Tools voor tekeninspectie**: het dialoogvenster voor verzendrisico's biedt de acties **Check** en **Preview**, en macOS-hosts bevatten een speciale **Unicode hex path audit**-invoer
 
-### KM Basic-Umfang
+### KM Basisbereik
 
-In 0.19 bleibt **Compose & Send eine Funktion von Tastatur & Maus Pro**. KM Basic konzentriert sich auf Vollbildtastatur-, Touchpad- en Ziffernblock-Workflows.
+In 0.19 blijft **Opstellen en verzenden een Keyboard & Mouse Pro-functie**. KM Basic richt zich op toetsenbord-, touchpad- en numerieke workflows op volledig scherm.
 
-## Mehrsprachige Unterstützung
+## Meertalige ondersteuning
 
-KeyCmd unterstützt jetzt **11 App-UI-Sprachen**. Dieses Release fügt vier neue Lokalisierungen hinzu:
+KeyCmd ondersteunt nu **11 app-UI-talen**. Deze release voegt vier nieuwe lokalisaties toe:
 
-- **Koreanisch (ko)**: vollständige UI-Übersetzung
-- **Italienisch (it)**: vollständige UI-Übersetzung
-- **Russisch (ru)**: vollständige UI-Übersetzung
-- **Brasilianisches Portugiesisch (pt-BR)**: vollständige UI-Übersetzung
+- **Koreaans (ko)**: volledige UI-vertaling
+- **Italiaans (it)**: volledige UI-vertaling
+- **Russisch (ru)**: volledige UI-vertaling
+- **Braziliaans Portugees (pt-BR)**: volledige UI-vertaling
 
-Zusammen met dem bestehenden Englisch, vereinfachtem Chinesisch, traditionellem Chinesisch, Japanisch, Französisch, Deutsch en Spanisch deckt KeyCmd jetzt den Großteil unserer globalen Nutzerbasis ab.
+Gecombineerd met het bestaande Engels, Vereenvoudigd Chinees, Traditioneel Chinees, Japans, Frans, Duits en Spaans, dekt KeyCmd nu de overgrote meerderheid van ons wereldwijde gebruikersbestand.
 
-### Was sich geändert hat
+### Wat is er veranderd
 
-- **Sprachauswahl** in den Einstellungen met kanonischen App-Sprachnamen
-- **Bluetooth-Header** en **Tastenvorschau** lokalisiert
-- **Release-Lint**-Korrekturen voor Compose-Warn-Tabs in allen Sprachen
+- **Taalkiezer** in Instellingen met canonieke app-taalnamen
+- **Bluetooth-headers** en **key tap preview** gelokaliseerd
+- **Release lint**-oplossingen voor opstelwaarschuwingstabbladen in alle talen
 
-## Interaktive Modus-führungen
+## Interactieve rondleidingen
 
-Jeder Modus hat jetzt eine **integrierte interaktive Modus-führung**, die euch Schritt voor Schritt durch seine Functies führt.
+Elke modus heeft nu een **ingebouwde interactieve rondleiding** die u stap voor stap door de functies leidt.
 
-### Verfügbare Modus-führungen
+### Beschikbare rondleidingen
 
-- **Shortcut Hub-Modus-führung**: Öffnet das Standard-Profil en deckt Detail-UI, Kategorie-Tabs en Shortcut-Verwaltung ab
-- **Gamepad-Modus-führung**: Erklärt das Gamepad-Layout, Modulverwaltung en Voreinstellungssystem
-- **KM Pro-Modus-führung**: Deckt den Compose-Modus, Shortcut-Panel en Pro-spezifische Functies ab
-- **KM Basic-Modus-führung**: Erklärt die Vollbildtastatur, Modifikator-Halte-Wischgeste en Ziffernblock
+- **Shortcut Hub-rondleiding**: opent het standaardprofiel en behandelt de gedetailleerde gebruikersinterface, categorietabbladen en snelkoppelingsbeheer
+- **Gamepadrondleiding**: legt de lay-out van de gamepad, het modulebeheer en het vooraf ingestelde systeem uit
+- **KM Pro-rondleiding**: behandelt de Compose-modus, het snelkoppelingspaneel en Pro-specifieke functies
+- **KM Basisrondleiding**: legt het toetsenbord op volledig scherm, de modifier hold-swipe en het numpad uit
 
-### Modus-führungsfunktionen
+### Tourfuncties
 
-- **Modus-spezifische Modus-führungen**: Jeder Modus hat seine eigene maßgeschneiderte Modus-führung
-- **Wiederholungsblatt**: Jede Modus-führung jederzeit over die **Modus-führung**-Taste (Symbol links neben der Verbindingsleiste) erneut aufrufen
-- **i18n-Unterstützung**: Modus-führungsinhalte sind in der gesamten App-Sprachmenge lokalisiert
-- **Landschafts-optimiert**: Bottom-Sheet-Layouts passen sich in Landschaftsorientierung korrekt an
+- **Gidsen per modus**: elke modus heeft zijn eigen rondleiding op maat
+- **Herhalingsblad**: bekijk elke tour op elk gewenst moment opnieuw via de knop **Modusgids** (pictogram links van verbindingschrome)
+- **i18n-ondersteuning**: de inhoud van de tour is gelokaliseerd in de volledige app-taalset
+- **Landschapsgeoptimaliseerd**: de lay-outs van het onderste blad passen zich correct aan in liggende richting
 
-## UX-Verbesserungen
+## UX-verfijningen
 
-### Tastatur
+### Toetsenbord
 
-- **Tastenvorschau**: Seht genau, was gesendet wird, bevor ihr tippt. Über Einstellungen aktivierbar. Standardmäßig aktiviert.
-- **Schnell-Tipp-HID-Korrektur**: Verbessertes Timing der Tastenfreigabe en zusammengeführte Freigabe-Ereignisse voor schnelleres Tippen
-- **Alternativen-Tipp-Verarbeitung**: Langes Drücken der Taste `a` zeigt jetzt Alternativen voor ¥ (oben), £ (links), € (rechts) met verbessertem visuellen Feedback
-- **Modifikator-Halte-Wischgeste**: In KM Basic/Pro-Modus-führungen lehrt ein neuer Schritt die Halte-Wischgeste voor schnellen Modifikatorzugriff
+- **Toetstapvoorbeeld**: zie precies wat er wordt verzonden voordat u tikt. Schakel in via Instellingen. Standaard ingeschakeld.
+- **Rapid-tap HID-oplossing**: verbeterde timing van het tikken op het toetsenbord en samengevoegde release-gebeurtenissen voor sneller typen
+- **Alternatieve aanraakbediening**: lang indrukken van toets `a` toont nu alternatieven voor ¥ (omhoog), £ (links), € (rechts) met verbeterde visuele feedback
+- **Modifier hold-swipe**: in KM Basic/Pro-tours leert een nieuwe stap het hold-swipe-gebaar voor snelle toegang tot modifiers
 
 ### Gamepad
 
-- **Bearbeitungs-Sitzungsleiste entfernt**: Saubereres Gamepad-Chrome ohne die alte Bearbeitungs-Sitzungs-Symbolleiste
-- **Gamepad-Chrome en Modus-führung**: Neuer visueller Schliff en integrierte Modus-führung
-- **Modus-führungssymbol**: Links neben der Verbindingsleiste voor einfachen Zugriff platziert
+- **Bewerkingssessiebalk verwijderd**: schoner gamepad-chroom zonder de oude bewerkingssessiewerkbalk
+- **Gamepad-chroom en rondleiding**: nieuwe visuele verfijning en geïntegreerde rondleiding
+- **Modusgidspictogram**: links van het verbindingschroom geplaatst voor gemakkelijke toegang
 
-### Präsentation
+### Presentatie
 
-- **Porträt-Paar-Sperre**: Der Präsentationsmodus ist auf Porträt- en umgekehrte Porträt-Orientierungen voor stabile Präsentationssteuerung beschränkt
+- **Portretpaarvergrendeling**: de presentatiemodus is beperkt tot portret- en omgekeerd portret-oriëntaties voor stabiele presentatorbediening
 
-### UI & Thema
+### Gebruikersinterface en thema
 
-- **Akzent-Farbfelder**: Ersetzt den Themenfarben-Familiendreher durch visuelle Akzent-Farbfelder voor einfachere Farbauswahl
-- **UI-Akzent-Ausrichtung**: Alle UI-Akzente folgen jetzt der Themenfarbenfamilie (niet der Legacy-Primärfarbe)
-- **Header-Rechts-Cluster**: Verbesserte Dimensionen voor Verbindingssymbole sowohl in der Haupt-App als auch im KM Basic-Chrome
-- **Compose-Sende-Taste-Styling**: Angeglichene niet-ASCII-Sende-Tasten-Appearance im Hell-Modus
+- **Accentstalen**: de spinner van de themakleurfamilie vervangen door visuele accentstalen voor eenvoudigere kleurselectie
+- **UI-accentuitlijning**: alle UI-accenten volgen nu de themakleurfamilie (niet de oude primaire kleur)
+- **Kop rechts cluster**: verbeterde afmetingen voor verbindingspictogrammen in zowel de hoofdapp als KM Basic Chrome
+- **Styling van de verzendknop samenstellen**: uitgelijnde niet-ASCII-verzendknopweergave in de lichte modus
 
-### Einstellungen
+### Instellingen
 
-- **Einstellungs-Neuordnung**: Kanonische App-Sprachnamen; Emulator-Installatiesskripte voor Klarheit umbenannt
-- **Dev-Helfer-Skripte**: Für klarere Geräte-Identifikation en Aktionsbenennung umbenannt
-- **FAQ-Docs**: `docs/FAQ.md` met aktuellem App-Verhalten aktualisiert
+- **Reorganisatie van instellingen**: canonieke app-taalnamen; hernoemd naar emulator-installatiescripts voor de duidelijkheid
+- **Dev helper-scripts**: hernoemd voor duidelijkere apparaatidentificatie en naamgeving van acties
+- **FAQ-documenten**: `docs/FAQ.md` bijgewerkt met huidig app-gedrag
 
-## Reale Anwendungsfälle
+## Gebruiksscenario's uit de echte wereld
 
-### Remote-Coding
+### Codering op afstand
 
-KeyCmd ist niet nur voor die Serververwaltung gedacht. Entwickler verwenden es voor **Remote-Coding-Sitzungen** — Steuerung einer Headless-Entwicklungsbox vom Telefon of Tablet aus, met vollständiger Tastatur-, Touchpad- en Ziffernblock-Unterstützung.
+KeyCmd is niet alleen voor serverbeheer. Ontwikkelaars gebruiken het voor **codeersessies op afstand**: het besturen van een headless dev box vanaf een telefoon of tablet, compleet met volledige ondersteuning voor toetsenbord, touchpad en numeriek toetsenblok.
 
-## Was unverändert bleibt
+## Wat is ongewijzigd
 
-**Tastatur & Maus Pro** (Composite-Modus met Shortcut Hub-Leisten, geteilten Layouts en reichem IME-Verhalten) bleibt die voll ausgestattete Erfahrung, die es vorher war. Alle bestehenden Profile, Voreinstellungen en gekoppelten Geräte werden beibehalten.
+**Keyboard & Mouse Pro** (samengestelde modus met Shortcut Hub-strips, gesplitste lay-outs en rijk IME-gedrag) blijft de complete ervaring die het voorheen was. Alle bestaande profielen, voorinstellingen en gekoppelde apparaten blijven behouden.
 
-## Update holen
+## Download de update
 
-**Diese Version (0.19):** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
+**Deze versie (0.19):** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
 
-> **Beta-Hinweis:** Die KeyCmd Android-App befindet sich noch in der aktiven Beta-Phase. Das Quellcode-Repo ist noch niet öffentlich — wir planen, es nach einer erfolgreichen Crowdfening-Kampagne zu open-sourcen. Wenn ihr ein Beta-Tester seid en die neueste APK benötigt, kontaktiert uns auf Discord en wir schicken euch den Build.
+> **Beta-opmerking:** De KeyCmd Android-app is nog steeds in actieve bèta. De bronrepository is nog niet openbaar; we zijn van plan deze open source te maken na een succesvolle crowdfundingcampagne. Als je een bètatester bent en de nieuwste APK nodig hebt, neem dan contact met ons op via Discord en wij bezorgen je de build.
 
-Bestehende Installatieen werden vor Ort aktualisiert.
+Bestaande installaties worden geüpgraded.
 
-## Funktioniert met Mini-KVM en KVM-Go
+## Werkt met Mini-KVM en KVM-Go
 
-Die KeyCmd-App ist niet auf KeyMod-Hardware beschränkt. Bestehende Openterface-Nutzer können sie ebenfalls ausprobieren:
+De KeyCmd-app is niet beperkt tot KeyMod-hardware. Bestaande Openterface-gebruikers kunnen het ook uitproberen:
 
-- **KVM-Go**: Verbinding over **Bluetooth** of **USB**
-- **Mini-KVM**: Verbinding over **USB**
+- **KVM-Go**: verbinding maken via **Bluetooth** of **USB**
+- **Mini-KVM**: aansluiten via **USB**
 
-## Upgrade-Hinweise
+## Upgrade-opmerkingen
 
-- **Rebranding**: Der App-Name ändert sich von KeyMod zu KeyCmd. Eure Daten werden beibehalten.
-- **Compose-Modus**: Neu voor Tastatur & Maus Pro.
-- **Modus-führungen**: Tippt in jedem Modus auf das Modus-führungssymbol (links neben der Verbindingsleiste), um die interaktive Modus-führung zu starten.
-- **Sprachen**: Geht zu den Einstellungen, um die App-Sprache zu ändern. KeyCmd unterstützt jetzt 11 App-UI-Sprachen.
+- **Rebrand**: de app-naam verandert van KeyMod in KeyCmd. Uw gegevens blijven behouden.
+- **Opstelmodus**: nieuw bij Keyboard & Mouse Pro.
+- **Rondleidingen**: tik in een willekeurige modus op het gidspictogram (links van het verbindingschromosoom) om de interactieve rondleiding te starten.
+- **Talen**: ga naar Instellingen om de app-taal te wijzigen. KeyCmd ondersteunt nu 11 app-UI-talen.
 
-Mit freenlichen Grüßen,
+Met vriendelijke groet,
 
-Openterface Team | TechxArtisan
+Openterface-team | TechxArtisan

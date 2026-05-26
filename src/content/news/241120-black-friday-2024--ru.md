@@ -2,69 +2,71 @@
 locale: ru
 translationKey: "241120-black-friday-2024"
 slug: "241120-black-friday-2024"
-title: "50% RABATT auf ALLE Продуктe – Nur an diesem Black Friday! Zeigen Sie Ihre Unterstützung для Open Source!"
-description: "Exklusives Black Friday Angebot: 50% Rabatt auf alle Openterface Продуктe! Neue Tech-inspirierte Bekleidungslinie с Mini-KVM Designs, Developer Mode T-Shirts, Hoodies и Premium Orange Datenkabel. Zeitlich begrenztes Angebot bis zum 1. Dezember."
+title: "СКИДКА 50% на ВСЕ товары – только в эту Черную пятницу! Покажите свою поддержку открытому исходному коду!"
+description: "Эксклюзивное предложение «Черной пятницы»: скидка 50 % на все товары Openterface! Новая технологичная линия одежды с дизайном Mini-KVM, футболками Developer Mode, толстовками и оранжевыми кабелями для передачи данных премиум-класса. Предложение ограничено по времени до 1 декабря."
 date: 2024-11-27
 channel: product
 product: minikvm
 topic: ["software", "campaign", "community"]
-category: "Product Обновления"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-<style>
+<стиль>
   .heartbeat-label {
-    display: inline-block;
-    backgroи-color: #000000;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 5px 15px;
-    border-radius: 25px;
-    animation: heartbeat 1.6s infinite;
-    text-align: center;
+    отображение: встроенный блок;
+    цвет фона: #000000;
+    цвет: белый;
+    размер шрифта: 1,5em;
+    начертание шрифта: жирный;
+    отступ: 5 пикселей 15 пикселей;
+    радиус границы: 25 пикселей;
+    анимация: сердцебиение 1,6 с бесконечно;
+    выравнивание текста: по центру;
   }
 
-  @keyframes heartbeat {
-    0% { transform: scale(1); }
-    30% { transform: scale(1.01); }
-    60% { transform: scale(1); }
+  @keyframes сердцебиение {
+    0% {преобразование: масштаб (1); }
+    30% {преобразование: масштаб (1.01); }
+    60% {преобразование: масштаб (1); }
   }
-</style>
+</стиль>
 
 
 
-Hallo liebe Openterface-Leute,
+Привет, дорогие ребята из Openinterface,
 
-Aufregende Neuigkeiten—wir haben **eine neue Bekleidungslinie** bei Openterface gestartet! Unsere Kollektion zeigt T-Shirts и Hoodies, die den Geist unserer Community verkörpern. Sie sind не nur Kleidung; sie sind eine Feier unserer gemeinsamen Werte и der Openterface-Ethik.
+Отличные новости — мы запустили **новую линию одежды** на Openterface! В нашей коллекции представлены футболки и толстовки, которые воплощают дух нашего сообщества. Это не просто одежда; это праздник наших общих ценностей и идеала Openinterface.
 
-Was macht diese Designs noch spezieller? Sowohl das T-Shirt als auch der Hoodie zeigen stolz **die technische Linienkunst unseres Openterface mini-KVM**, die unglaublich cool aussieht. Außerdem haben wir den **"Developer Mode"**-Text unseres mini-KVM im Design hervorgehoben—eine Idee, die wir absolut brillant finden. Wenn Sie unser T-Shirt или unseren Hoodie tragen, geht es не nur darum, diesen Winter warm zu bleiben; es geht darum, in den Super-Entwickler-Modus для all Ihre Coding- и Hacking-Sessions zu treten.
-
-Und wenn Sie sich fragen, wie diese im wirklichen Leben aussehen, schauen Sie sich an, wie unser Team sie in Aktion trägt! Vom gemütlichen Verweilen im **Developer Mode** beim Programmieren ([Tweet ansehen](https://x.com/TechxArtisan/status/1861611266705379346)), bis hin zu einem lustigen Fotoshooting с David Groom von **MAKE: Magazine** auf der Shenzhen Maker Faire ([Foto ansehen](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)), haben wir stolz unsere Ausrüstung präsentiert. Wir wurden sogar von einem Vortrag des legendären Eric Migicovsky von Pebble inspiriert ([Post ansehen](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)), während wir das Openterface Mini-KVM demonstrierten и uns с Tech-Freиen verbanden ([mehr ansehen](https://twitter.com/TechxArtisan/status/1858397377196965913), [и hier](https://twitter.com/TechxArtisan/status/1858400923325726750)). Das sind не nur Kleider—das sind Gesprächsstarter и eine Art, unsere Community оall zu feiern, wo wir hingehen!
+Что делает эти конструкции еще более особенными? И на футболке, и на толстовке изображена **техническая линия нашего мини-KVM Openterface**, которая выглядит невероятно круто. Кроме того, мы выделили в дизайне текст **"Режим разработчика"** нашего мини-KVM — идея, которую мы считаем абсолютно блестящей. Когда вы надеваете нашу футболку или худи, речь идет не только о том, чтобы согреться этой зимой; речь идет о переходе в режим суперразработчика для всех сеансов кодирования и взлома.
 
 
-*David и ich können не genug von unseren Hoodies bekommen—wir leben praktisch darin!😉 Ein riesiges Dankeschön an David для das Teilen eines so großartigen Fotos—wirklich geschätzt!🎉*
 
-Und для diesen tristen Winter, warum geben Sie unserem lebendigen orangen Datenkabel не eine Chance? Es ist ein perfekter Weg, Ihren Arbeitsplatz zu erhellen и gleichzeitig schnelle и zuverlässige Datenоtragung zu gewährleisten.
-
-Um das Geschäft zu versüßen, bieten wir einen <a href="https://shop.techxartisan.com" style="text-decoration: none;"><span class="heartbeat-label">🔥 SPEZIELLEN 50% RABATT 🔥</span></a> auf alle Artikel для die nächsten fünf Tage для diesen **Black Friday 2024**, vom Moment an, in dem Sie diese Nachricht sehen, bis zum 1. Dezember. Es ist unsere Art zu sagen, danke, dass Sie Teil unserer Reise sind.
-
-Stöbern Sie hier in unserem Магазин: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Schauen Sie sich unsere neue Bekleidung an и schnappen Sie sich ein Stück zum halben Preis—verpassen Sie не dieses zeitlich begrenzte Angebot!
-
-### Openterface Продуктe
+А если вам интересно, как они выглядят в реальной жизни, посмотрите, как наша команда носила их в действии! От комфортного пребывания в **Режиме разработчика** во время написания кода ([see tweet](https://x.com/TechxArtisan/status/1861611266705379346)) до веселой фотосессии с Дэвидом Грумом из **MAKE: Magazine** на Шэньчжэньской ярмарке производителей ([view photo](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)) — мы с гордостью демонстрируем наше оборудование. Нас даже вдохновило выступление легендарного Эрика Мигиковски, известного как Pebble ([see post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)), когда он демонстрировал Openterface Mini-KVM и общался с техническими друзьями ([see more](https://twitter.com/TechxArtisan/status/1858397377196965913), [and here](https://twitter.com/TechxArtisan/status/1858400923325726750)). Это не просто одежда — это повод для разговора и способ прославить наше сообщество, куда бы мы ни пошли!  
+А если вам интересно, как они выглядят в реальной жизни, посмотрите, как наша команда носила их в действии! От комфортного пребывания в **Режиме разработчика** во время программирования ([see tweet](https://x.com/TechxArtisan/status/1861611266705379346)) до веселой фотосессии с Дэвидом Грумом из **MAKE: Magazine** на выставке Shenzhen Maker Faire ([view photo](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)) – мы с гордостью демонстрируем наше оборудование. Нас даже вдохновило выступление легендарного Эрика Мигиковски, известного как Pebble ([see post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)), когда он демонстрировал Openterface Mini-KVM и общался с техническими друзьями ([see more](https://twitter.com/TechxArtisan/status/1858397377196965913), [and here](https://twitter.com/TechxArtisan/status/1858400923325726750)). Это не просто одежда — это повод для разговора и способ прославить наше сообщество, куда бы мы ни пошли!  
 
 
-### Openterface Zubehör
+*Дэвид и я не можем насытиться нашими толстовками — мы практически живем в них!😉 Огромное спасибо Дэвиду за то, что поделился такой потрясающей фотографией — очень ценю!🎉*
+
+А в эту унылую зиму почему бы не дать шанс нашему ярко-оранжевому кабелю передачи данных? Это идеальный способ украсить ваше рабочее пространство, обеспечив при этом быструю и надежную передачу данных.
+
+Чтобы подсластить сделку, мы предлагаем <a href="https://shop.techxartisan.com" style="text-decoration: none;"><span class="heartbeat-label">🔥 СПЕЦИАЛЬНУЮ СКИДКУ 50 % 🔥</span></a> на все товары в течение следующих пяти дней в рамках **Черной пятницы 2024 года**, начиная с момента, когда вы увидите это сообщение, и до 1 декабря. Это наш способ сказать спасибо за участие в нашем путешествии.
+
+Просмотрите наш магазин здесь: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Взгляните на нашу новую одежду и купите ее за полцены — не упустите это ограниченное по времени предложение!
+
+### Товары с открытым интерфейсом
 
 
-Danke, dass Sie uns auf diesem Abenteuer begleitet haben. Ihre Unterstützung bedeutet uns die Welt, и wir sind dankbar для jedes Gespräch, jede Idee и jede Interaktion, die wir hatten.
+### Аксессуары Openinterface
 
-Herzliche Grüße,
 
-**Billy Wang**  
-Продуктmanager  
-Openterface Team | TechxArtisan  
+Спасибо, что были с нами в этом приключении. Ваша поддержка очень важна для нас, и мы благодарны за каждый разговор, каждую идею и каждое взаимодействие, которое у нас было.
 
-**P.S.** Haben Sie Gedanken или Feedback? Wir sind ganz Ohr! Treten Sie dem Gespräch auf [Reddit](https://openterface.com/reddit) или [Discord](https://openterface.com/discord) bei, или senden Sie uns gerne eine E-Mail an **info@openterface.com** ✉️.
+С уважением,
+
+**Билли Ванг**  
+Менеджер по продукту  
+Команда Openinterface | TechxArtisan  
+
+**P.S.** Есть какие-нибудь мысли или отзывы? Мы все уши! Присоединяйтесь к обсуждению на [Reddit](https://openterface.com/reddit) или [Discord](https://openterface.com/discord) или напишите нам по адресу **info@openterface.com** ✉️.

@@ -2,101 +2,100 @@
 locale: ru
 translationKey: "20260518-kvm-go-us-shipment-update"
 slug: "20260518-kvm-go-us-shipment-update"
-title: "KVM-GO Versandupdate: Die Ware ist auf dem Weg in die USA"
-description: "KVM-GO VGA-, DP- и HDMI-Einheiten wurden in die USA versandt: Verpackung, Zubehör-Sets, Qualitätsprüfungen, Openterface KVM для iPad и eine kleine Gibby-Sticker-Überraschung для Unterstützer."
+title: "Обновление о доставке KVM-GO: товары уже на пути в США"
+description: "Устройства KVM-GO VGA, DP и HDMI уже отправлены в Соединенные Штаты: упаковка, комплекты аксессуаров, проверки качества, Openterface KVM для iPad и небольшая наклейка Gibby для спонсоров."
 date: 2026-05-18
 channel: product
 product: kvm-go
-topic: ["shipping", "software", "campaign"]
-category: "Продуктupdates"
-tags: ["KVM-GO", "Продуктupdates", "Versand", "Erfüllung", "USA", "Crowd Supply", "Unterstützer", "Openterface KVM", "iPad"]
+topic: ["shipping", "production", "software", "campaign", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Shipping", "Fulfillment", "United States", "Crowd Supply", "Backers", "Openterface KVM", "iPad"]
 featured: false
 draft: false
-author: "Openterface-Team | TechxArtisan"
+author: "Openterface Team | TechxArtisan"
 ---
+Привет всем,  
 
-Hallo zusammen,
+Мы рады сообщить о важной вехе для KVM-GO: наши товары отправлены в Соединенные Штаты.
 
-wir freuen uns, einen wichtigen Meilenstein для KVM-GO сzuteilen: Unsere Ware ist nun auf dem Weg in die USA.
+В течение последних нескольких недель наша команда неуклонно продвигалась к заключительным этапам подготовки всех трех продуктов KVM-GO: VGA, DP и HDMI. Эта работа включала проверку оборудования, подготовку комплекта аксессуаров, розничную упаковку, окончательную упаковку в картонную коробку и исходящую отгрузку.
 
-In den letzten Wochen hat unser Team kontinuierlich die letzten Vorbereitungsphasen для alle drei KVM-GO-Продуктe vorangetrieben: VGA, DP и HDMI. Diese Arbeiten umfassten Оборудование-Validierung, Vorbereitung der Zubehör-Sets, Retail-Verpackung, finales Kartonieren и den Ausgangsversand.
+Мы знаем, что доставка заняла немного больше времени, чем первоначально ожидалось, и приносим искренние извинения за задержку. Тем не менее, мы настаиваем на проведении тщательных проверок качества и тщательной упаковке каждой единицы, чтобы гарантировать, что каждый спонсор получит наилучшие впечатления при получении своего продукта. Спасибо за ваше невероятное терпение.
 
-Wir wissen, dass der Versand etwas länger gedauert hat als ursprünglich erwartet, и wir entschuldigen uns aufrichtig для die Verzögerung. Wir haben jedoch darauf bestanden, bei jedem einzelnen Gerät sorgfältige Qualitätsprüfungen и eine sorgfältige Verpackung durchzuführen, um sicherzustellen, dass jeder Unterstützer die bestmögliche Erfahrung beim Erhalt seines Продуктs macht. Vielen Dank для Ihre unglaubliche Geduld.
-
-Nun freuen wir uns zu berichten, dass der Vorbereitungsprozess abgeschlossen ist. Die Ware ist verpackt, organisiert и auf dem Weg.
-
----
-
-## Оборудование и Verpackungsintegration
-
-![KVM-GO Оборудование-Einheiten с Retail-Verpackung](https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-with-retail-packaging.webp)
-
-Dieses Bild zeigt Оборудование-Einheiten neben der Retail-Verpackung и demonstriert die erste Phase der Zusammenführung aller Продуктionselemente vor dem finalen Verpacken.
+Теперь мы рады сообщить, что процесс вышел за рамки подготовки. Товары упакованы, организованы и уже в пути.
 
 ---
 
-## Anschlusskappen с Anti-Verlust-Sicherung installiert
+## Интеграция оборудования и упаковки
 
-![KVM-GO Einheiten с installierten Anti-Verlust-Sicherungen для Anschlusskappen](https://assets2.openterface.com/images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp)
+![KVM-GO hardware units with retail packaging](https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-with-retail-packaging.webp)
 
-Die Установка der Anti-Verlust-Sicherungen ist ein entscheidender Schritt, um den sicheren Umgang и Transport der Оборудование zu gewährleisten. Jedes Gerät ist nun bereit, nahtlos in die nächste Phase оzugehen.
-
----
-
-## Zubehör-Sets и Verpackung
-
-![KVM-GO Zubehör-Sets для die Verpackung vorbereitet](https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-1.webp)
-
-![KVM-GO Zubehör-Sets in Verpackungsboxen organisiert](https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-2.webp)
-
-Alle Zubehör-Sets wurden parallel zur Оборудование vorbereitet, um sicherzustellen, dass jedes Gerät vollständig ausgestattet ist. Die chargenweise Organisation и das Einbringen in Verpackungsboxen gewährleisten Konsistenz, Vollständigkeit и einen reibungslosen Ablauf bis zum Versand.
+На этом изображении показаны аппаратные блоки, расположенные рядом с розничной упаковкой, что демонстрирует первый этап объединения всех производственных элементов перед окончательной упаковкой.
 
 ---
 
-## Оборудование-Validierung
+## Установлены тросы с защитой от потери на колпачке соединителя
 
-![KVM-GO Оборудование-Qualitätsvalidierung](https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-verification.webp)
+![KVM-GO units with connector cap anti-loss tethers installed](https://assets2.openterface.com/images/kvm-go/kvm-go-connector-cap-anti-loss-tethers.webp)
 
-Jede KVM-GO-Einheit wurde auf Qualität и Konsistenz geprüft. Dieser Schritt stellt sicher, dass alle Geräte unsere Standards erfüllen, bevor sie с Zubehör и Verpackung integriert werden.
-
----
-
-## Verpackte Retail-Boxen
-
-![KVM-GO verpackte Retail-Boxen in Kartons](https://assets2.openterface.com/images/kvm-go/kvm-go-packed-retail-boxes.webp)
-
-Nachdem Оборудование и Zubehör-Sets vorbereitet waren, wurden die Retail-Boxen для den Versand in Kartons verpackt. Alles ist organisiert, um einen reibungslosen Lieferprozess zu gewährleisten.
+Установка тросов, предотвращающих потерю, является важным шагом для обеспечения безопасного обращения и безопасной транспортировки оборудования. Теперь каждое подразделение готово беспрепятственно перейти к следующему этапу.
 
 ---
 
-## Versand in die USA
+## Комплекты аксессуаров и упаковка
 
-![KVM-GO Kartons для den Versand in die USA vorbereitet](https://assets2.openterface.com/images/kvm-go/kvm-go-shipment-us-cartons.webp)
+![KVM-GO accessory kits prepared for packaging](https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-1.webp)
 
-Schließlich wurden die Kartons vorbereitet и versandt. Dies markiert einen wichtigen Meilenstein: Unsere KVM-GO-Einheiten sind offiziell auf dem Weg zu den Unterstützern in den USA, komplett с Оборудование, Zubehör, Verpackung и Schutzmaßnahmen.
+![KVM-GO accessory kits organized in packaging boxes](https://assets2.openterface.com/images/kvm-go/kvm-go-accessory-kits-batch-2.webp)
 
----
-
-## Openterface KVM iPad-Version veröffentlicht
-
-![Openterface KVM-App auf iPad](https://assets2.openterface.com/images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp)
-
-Wir freuen uns bekanntzugeben, dass Openterface KVM nun eine iPad-Version hat. Diese neue App verwandelt Ihr iPad in eine tragbare KVM-Konsole, die es Ihnen ermöglicht, unterstützte Openterface-Оборудование zu verbinden и Zielgeräte direkt о den iPad-Touchscreen zu steuern.
-
-Ob Sie eine neue Maschine konfigurieren, Embedded-Оборудование debuggen, auf BIOS-Einstellungen zugreifen или Offline-Systeme wiederherstellen – die KVM-iPad-Version macht es einfach и tragbar. Wir haben zudem weitere Demos и Обновления для die Zukunft geplant, also bleiben Sie dran.
+Вместе с оборудованием были подготовлены все комплекты аксессуаров, что обеспечивает полную оснащенность каждого устройства. Организация их партиями и размещение в упаковочных коробках обеспечивает согласованность, полноту и бесперебойность рабочего процесса при отправке.
 
 ---
 
-## Eine kleine Überraschung: Gibby-Sticker
+## Проверка оборудования
 
-Als kleines Dankeschön haben wir in jeder Box eine Überraschung beigelegt: einen Gibby-Sticker! Gibby ist das offizielle Maskottchen von Openterface, и wir hoffen, dass dieses kleine Extra Ihnen beim Auspacken Ihres KVM-GO ein Lächeln ins Gesicht zaubert.
+![KVM-GO hardware quality verification](https://assets2.openterface.com/images/kvm-go/kvm-go-hardware-verification.webp)
+
+Каждый блок KVM-GO был проверен на качество и целостность. Этот шаг гарантирует, что все устройства соответствуют нашим стандартам, прежде чем их можно будет интегрировать с аксессуарами и упаковкой.
 
 ---
 
-## Nächste Schritte
+## Упакованные розничные коробки
 
-Mit dem Versand der Einheiten wurde der Workflow von der Продуктion bis zur Lieferung erfolgreich abgeschlossen. Jeder Schritt – von der Оборудование-Vorbereitung о die Установка der Anti-Verlust-Sicherungen, die Organisation der Zubehör-Sets, die Verpackung bis hin zur Kartonierung – wurde sorgfältig koordiniert, um sicherzustellen, dass Unterstützer vollständig vorbereitete Продуктe direkt aus der Box erhalten.
+![KVM-GO packed retail boxes in cartons](https://assets2.openterface.com/images/kvm-go/kvm-go-packed-retail-boxes.webp)
 
-Vielen Dank для Ihre anhaltende Unterstützung и Geduld. Sobald Sie Ihre Lieferung erhalten, freuen wir uns о Ihr Feedback! Wenn Sie Anregungen haben или auf Probleme stoßen, lassen Sie es uns wissen или treten Sie unserem Discord bei.
+После подготовки комплектов оборудования и аксессуаров розничные коробки были помещены в картонные коробки для отправки. Все организовано так, чтобы обеспечить бесперебойный процесс доставки.
 
-**Openterface-Team (TechxArtisan)**
+---
+
+## Отгрузка в США
+
+![KVM-GO cartons prepared for shipment to the United States](https://assets2.openterface.com/images/kvm-go/kvm-go-shipment-us-cartons.webp)
+
+Наконец коробки были подготовлены и отправлены. Это знаменует собой важную веху: наши устройства KVM-GO официально отправляются спонсорам в США вместе с оборудованием, аксессуарами, упаковкой и защитными мерами.
+
+---
+
+## Выпущена версия Openinterface KVM для iPad
+
+![Openterface KVM app on iPad](https://assets2.openterface.com/images/kvm-go/kvm-go-openterface-kvm-ipad-app.webp)
+
+Мы рады сообщить, что у Openterface KVM теперь есть версия для iPad. Это новое приложение превращает ваш iPad в портативную KVM-консоль, позволяя вам подключать поддерживаемое оборудование Openterface и управлять целевыми устройствами непосредственно с сенсорного экрана вашего iPad.
+
+Независимо от того, настраиваете ли вы новую машину, отлаживаете встроенное оборудование, получаете доступ к настройкам BIOS или восстанавливаете автономные системы, версия KVM для iPad делает это простым и портативным. В будущем у нас также запланировано больше демо-версий и обновлений, так что следите за обновлениями.
+
+---
+
+## Маленький сюрприз: наклейки Гибби
+
+В знак нашей признательности мы включили в каждую коробку сюрприз: наклейку Гибби! Гибби — официальный талисман Openterface, и мы надеемся, что это небольшое дополнение вызовет улыбку на вашем лице, когда вы распакуете KVM-GO.
+
+---
+
+## Движение вперед
+
+После отгрузки единиц рабочий процесс от производства до реализации был успешно завершен. Каждый этап, включая подготовку оборудования, установку троса защиты от потерь, организацию комплекта аксессуаров, упаковку и загрузку коробок, был тщательно скоординирован, чтобы спонсоры получали полностью готовые продукты прямо из коробки.
+
+Спасибо за вашу постоянную поддержку и терпение. Как только вы получите посылку, мы будем рады услышать ваше мнение! Если у вас есть какие-либо отзывы или вы столкнулись с какими-либо проблемами, сообщите нам об этом или присоединяйтесь к нам в Discord.
+
+**Команда Openterface (TechxArtisan)**

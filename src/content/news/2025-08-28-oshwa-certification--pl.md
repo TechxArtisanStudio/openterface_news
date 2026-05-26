@@ -2,41 +2,40 @@
 locale: pl
 translationKey: "2025-08-28-oshwa-certification"
 slug: "2025-08-28-oshwa-certification"
-title: "OSHWA-Zertifizierung Erreicht! 🎉"
-description: "28. August 2025 - Wir freuen uns, bekannt zu geben, dass die Openterface KVM Extension for uConsole offiziell von der Open Source Sprzęt Association OSHWA zertifiziert wurde! 🤠⚙️"
+title: "Certyfikat OSHWA zdobyty! 🎉"
+description: "28 sierpnia 2025 r. — Z radością ogłaszamy, że rozszerzenie KVM Openterface dla uConsole zostało oficjalnie certyfikowane przez stowarzyszenie Open Source Hardware Association OSHWA! 🤠⚙️"
 date: 2025-08-28
 channel: product
 product: uconsole-kvm-extension
 topic: ["software", "community"]
-category: "Product Aktualizacje"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**28 sierpnia 2025** — Z radością ogłaszamy, że **Rozszerzenie KVM Openerface dla uConsole** zostało oficjalnie certyfikowane przez **Open Source Hardware Association (OSHWA)**! 🤠⚙️
 
-**28. August 2025** - Wir freuen uns, bekannt zu geben, dass die **Openterface KVM Extension for uConsole** offiziell von der **Open Source Sprzęt Association (OSHWA)** zertifiziert wurde! 🤠⚙️
+## Szczegóły certyfikatu
 
-## Zertifizierungsdetails
+- **Identyfikator certyfikatu**: CN000021 ✅
+- **Wyświetl certyfikat**: [OSHWA Certification](https://lnkd.in/gt-yvDuU)
+- **Repozytorium sprzętu**: [Openterface_KVM_Ext_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware)
 
-- **Zertifizierungs-ID**: CN000021 ✅
-- **Zertifikat anzeigen**: [OSHWA-Zertifizierung](https://lnkd.in/gt-yvDuU)
-- **Sprzęt-Repository**: [Openterface_KVM_Ext_Sprzęt](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Sprzęt)
+## Co to oznacza
 
-## Was das bedeutet
+Certyfikat ten potwierdza, że wszystkie schematy, diagramy obwodów i powiązane zasoby otwartego sprzętu są publicznie dostępne i dostępne dla społeczności. Możesz:
 
-Diese Zertifizierung bestätigt, dass alle Schaltpläne, Schaltkreise i verwandten Open-Source-Sprzęt-Ressourcen öffentlich verfügbar i dla die Community zugänglich sind. Sie können:
+- **Przestudiuj** cały projekt sprzętu
+- **Majstruj** i modyfikuj pod swoje specyficzne potrzeby  
+- **Zbuduj** własną wersję, jeśli chcesz
+- **Wkład** w ulepszenia sprzętu i oprogramowania
 
-- **Studieren** das komplette Sprzęt-Design
-- **Basteln** i dla Ihre spezifischen Bedürfnisse modifizieren  
-- **Bauen** Ihre eigene Version, wenn gewünscht
-- **Beitragen** zu Sprzęt- i Oprogramowanie-Verbesserungen
+## Dołącz do podróży po otwartym kodzie źródłowym
 
-## Werden Sie Teil der Open-Source-Reise
+Zapraszamy Cię do bycia częścią tej niesamowitej społeczności open source! Niezależnie od tego, czy jesteś entuzjastą sprzętu, programistą, czy po prostu ciekawi Cię, jak to działa, w naszym rozwijającym się ekosystemie jest miejsce dla Ciebie.
 
-Wir laden Sie ein, Teil dieser erstaunlichen Open-Source-Community zu werden! Ob Sie Sprzęt-Enthusiast, Entwickler lub einfach nur neugierig sind, wie es funktioniert - es gibt einen Platz dla Sie in unserem wachsenden Ökosystem.
-
-**Bereit loszulegen?** [Zamów Sie Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) i werden Sie Teil der Open-Source-Revolution! 🚀
+**Gotowy do rozpoczęcia?** [Order your KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) i dołącz do rewolucji open source! 🚀
 
 ---
 
-*Folgen Sie unserem [GitHub-Repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Sprzęt) dla die neuesten Sprzęt-Aktualizacje i Community-Beiträge.*
+*Śledź nasz [GitHub repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware), aby uzyskać najnowsze aktualizacje sprzętu i wkład społeczności.*

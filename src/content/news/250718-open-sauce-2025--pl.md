@@ -2,31 +2,30 @@
 locale: pl
 translationKey: "250718-open-sauce-2025"
 slug: "250718-open-sauce-2025"
-title: "Openterface bei Open Sauce 2025 - Stand F.9!"
-description: "Openterface kündigt seine Teilnahme an Open Sauce 2025 in San Mateo z Stand F.9 an i bietet eine Spiel-Herausforderung, bei der Gewinner einen Mini-KVM erhalten können."
+title: "Openterface na Open Sauce 2025 - Stoisko F.9!"
+description: "Openterface ogłasza swoją obecność na Open Sauce 2025 w San Mateo ze stoiskiem F.9, na którym znajdziesz wyzwanie w grze, w którym zwycięzcy mogą zdobyć nagrodę Mini-KVM."
 date: 2025-07-18
 channel: events
 eventType: exhibition
 topic: ["campaign", "event"]
-category: "Product Aktualizacje"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hej ludzie!
 
-Hey Leute!
+Cały nasz sprzęt Openterface będziemy konfigurować na Open Sauce 2025 w rejonie zatoki. Znajdź nas na stoisku F.9 w centrum wydarzeń hrabstwa San Mateo!
 
-Wir bereiten all unsere Openterface-Ausrüstung dla Open Sauce 2025 in der Bay Area vor. Kommt uns am Stand F.9 im San Mateo County Event Center besuchen!
+🗓️ 18–20 lipca (od piątku do niedzieli)
 
-🗓️ 18.-20. Juli (Freitag bis Sonntag)
-
-**Wir haben eine Spiel-Herausforderung am Stand, i ihr gewinnt einen Mini-KVM, wenn ihr sie besiegt!** Ihr könnt auch folgendes entdecken:
+**Na stoisku mamy wyzwanie w grze, a jeśli go ukończysz, wygrasz Mini-KVM!** Możesz także sprawdzić:
 
 🖥️ Openterface Mini-KVM
-🧩 KVM-Erweiterung dla uConsole
+🧩 Rozszerzenie KVM dla uConsole
 🚀 KVM-GO i KeyMod
 
-Wir freuen uns darauf, euch dort zu sehen!
+Nie mogę się doczekać, aż cię tam zobaczę!
 
 ![openterface-mini-kvm-pcu01-i01](https://www.crowdsupply.com/img/5364/7e309d7c-e594-480e-9e41-1a4f91aa5364/openterface-mini-kvm-pcu01-i01_jpg_gallery-lg.jpg)
 

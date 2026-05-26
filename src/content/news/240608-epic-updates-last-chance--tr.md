@@ -2,111 +2,110 @@
 locale: tr
 translationKey: "240608-epic-updates-last-chance"
 slug: "240608-epic_updates_last_chance"
-title: "Epische Güncellemeler & Letzte Woche – Letzte Chance, Mini-KVM zu Unterstützen!"
-description: "Letzte Woche des Openterface Mini-KVM Crowdfveing! Wichtige Güncellemeler umfassen plattformhakkındagreifende Unterstützung (macOS, Windows, Linux), Open-Source-Donanım-Release, verbesserte Zubehörteile (benutzerdefiniertes Type-C-Kabel) ve verbesserte Toolkit-Verpackung. Letzte Chance, uns zu einem Sonderpreis zu unterstützen!"
+title: "Destansı Güncellemeler ve Son Hafta – Mini KVM'ye Geri Dönmek için Son Şans!"
+description: "Openterface Mini-KVM kitlesel fonlamasının son haftası! Önemli güncellemeler arasında platformlar arası destek (macOS, Windows, Linux), açık kaynaklı donanım sürümü, özel Type-C kabloyla yükseltilmiş aksesuarlar ve gelişmiş araç seti paketi yer alıyor. Özel fiyatlarla geri dönmek için son şans!"
 date: 2024-06-08
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "community"]
-category: "Product Güncellemeler"
+topic: ["production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Herkese merhaba!
 
-Hallo alle zusammen!
+Eğlenirken zaman uçup gidiyor! Artık Crowd Supply'da Openterface Mini-KVM için kitlesel fonlama kampanyamızın son haftasındayız. Hadi bazı heyecan verici güncellemelere dalalım!
 
-Die Zeit vergeht wie im Flug, wenn man Spaß hat! Wir sind jetzt in der letzten Woche unserer Crowdfveing-Kampagne için das Openterface Mini-KVM auf Crowd Supply. Lassen Sie uns in einige aufregende Güncellemeler eintauchen!
+## Yazılım Güncellemeleri
 
-## Yazılım-Güncellemeler
+Size harika haberlerimiz var; mini KVM'miz artık macOS, Windows ve Linux'u destekliyor! Üstelik hepsi açık kaynak!
 
-Wir haben fantastische Neuigkeiten için Sie – unser mini-KVM unterstützt jetzt macOS, Windows ve Linux! Darhakkında hinaus ist alles Open Source!
-
-🎉 Schauen Sie sich die Details için jedes System unten an:
+🎉 Aşağıda her bir sistemin ayrıntılarına göz atın:
 
 ### Openterface_MacOS
 
-  - **GitHub Repository:** [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)
+  - **GitHub Deposu:** [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)
   ![openterface-macos-app-store](https://www.crowdsupply.com/img/50cb/9cdf2fb2-d3e9-411c-a90e-9fb2e1ac50cb/openterface-macos-app-store-1_png_gallery-lg.jpg)
-  - **Frühes Beta-Demo-Video:** [Mini-KVM: Grvelegende KVM-Steuerungstests](https://www.youtube.com/watch?v=m7OpUem0zqY)
-  - **Kurulum:**
-    - **App Store:** Finden Sie unsere Host-App, indem Sie nach "Openterface" veya "Mini-KVM" suchen.
-    - **Aus Quellcode bauen:** Installieren Sie CodeX ve bauen Sie die macOS-App aus dem Quellcode.
+  - **Erken Beta Demo Videosu:** [Mini-KVM: Basic KVM Control Tests](https://www.youtube.com/watch?v=m7OpUem0zqY)
+  - **Nasıl Kurulur:**
+    - **App Store:** "Openterface" veya "Mini-KVM"yi arayarak ana bilgisayar uygulamamızı bulun.
+    - **Kaynaktan Derleme:** CodeX'i yükleyin ve macOS uygulamasını kaynaktan derleyin.
 
 ### Openterface_QT
 
-  - **GitHub Repository:** [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)
-  - **Frühe Beta-Demos:**
-    - **Windows:** [Mini-KVM: Beta-Demo-Video için Windows](https://www.youtube.com/watch?v=ERzpGtRvP2o&t=23s)
+  - **GitHub Deposu:** [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)
+  - **Erken Beta Demoları:**
+    - **Windows:** [Mini-KVM: Beta Demo Video for Windows](https://www.youtube.com/watch?v=ERzpGtRvP2o&t=23s)
     ![openterface-win-app-demo-2](https://www.crowdsupply.com/img/d146/26c5df78-f942-4743-ad32-97659a89d146/openterface-win-app-demo-2-1_jpg_gallery-lg.jpg)
-    - **Linux:** [Mini-KVM: Beta-Demo-Video için Linux](https://www.youtube.com/watch?v=_ScpI6TC0Pk)
+    - **Linux:** [Mini-KVM: Beta Demo Video for Linux](https://www.youtube.com/watch?v=_ScpI6TC0Pk)
     ![openterface-linux-app-demo.png](https://www.crowdsupply.com/img/61a9/58109b24-3d4e-4058-8377-9860631661a9/openterface-linux-app-demo_png_md-xl.jpg)
-  - **Kurulum:**
-    - Laden Sie die Windows-App von unserem GitHub-Release [hier](https://github.com/TechxArtisanStudio/Openterface_QT/releases/tag/v0.0.1) herunter.
-    - Bauen Sie aus dem Quellcode için Windows ve Linux gemäß unseren Anweisungen.
-    - **Raspberry Pi Challenge:** Wir arbeiten noch hart daran, unsere Host-App reibungslos auf Raspberry Pi zum Laufen zu bringen. Wir werden bald dort ankommen.
+  - **Nasıl Kurulur:**
+    - Windows uygulamasını GitHub sürümümüz [here](https://github.com/TechxArtisanStudio/Openterface_QT/releases/tag/v0.0.1)'den indirin.
+    - Talimatlarımızı izleyerek hem Windows hem de Linux için kaynaktan oluşturun.
+    - **Raspberry Pi Mücadelesi:** Host uygulamamızın Raspberry Pi'de sorunsuz şekilde çalışmasını sağlamak için hâlâ çok çalışıyoruz. Yakında oraya varacağız.
 
-### Andere Apps
+### Diğer Uygulamalar
 
-  - Wie in unserem [vorherigen Update](/blog/from-development-to-your-hands--behind-the-scenes-/#openterface_android-and-openterface_webextension) erwähnt, haben wir Machbarkeitsnachweise için Android ve WebExtension abgeschlossen. Obwohl sie niedrigere Priorität haben, sind sie definitiv in der Pipeline. Wir erkveen auch ChromeOS-Unterstützung ve die Möglichkeit, das mini-KVM auf iPads ile M-Series-Chips zum Laufen zu bringen. Treten Sie der Diskussion in unserer Community bei, wenn Sie Einblicke haben!
+  - [previous update](/blog/from-development-to-your-hands--behind-the-scenes-/#openterface_android-and-openterface_webextension) belgemizde belirtildiği gibi, Android ve WebExtension için kavram kanıtlarını tamamladık. Daha düşük öncelikli olsalar da kesinlikle yoldalar. Ayrıca ChromeOS desteğini ve mini KVM'nin M serisi yongalara sahip iPad'lerde çalışmasını sağlama olasılığını da araştırıyoruz. Herhangi bir görüşünüz varsa topluluğumuzdaki tartışmaya katılın!
 
-## Donanım Open Source JETZT!
+## Donanım Açık Kaynak ŞİMDİ!
 
 ![openterface-hardware-repo](https://www.crowdsupply.com/img/e221/34b41a81-4f7e-48dc-a8e6-b133473be221/openterface-hardware-repo_png_md-xl.jpg)
 
-Wir haben unser Donanım-Repository einem großen Upgrade unterzogen! Es ist jetzt vollgepackt ile **Datenblättern, 3D-Modellen, BOM ve Schaltplänen** – alles, was Sie brauchen, um unser Gadget in die Hand zu nehmen.
+Donanım depomuza büyük bir yükseltme yaptık! Artık **veri sayfaları, 3D modeller, Malzeme Listesi ve şemalar** ile doludur; gadget'ımızı uygulamalı olarak kullanmak için ihtiyacınız olan her şey.
 
 ![pcb-v1-6-both-sides](https://www.crowdsupply.com/img/8090/691c6e65-aeb4-426b-8108-61313a228090/pcb-v1-6-both-sides_jpg_md-xl.jpg)
 
-Schauen Sie sich das Donanım-Repository an: [Openterface_Mini-KVM_Donanım](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Donanım)
+Donanım deposuna göz atın: [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)
 
-Ob Sie ein erfahrener Profi sind veya gerade erst anfangen, wir wollen Ihr Feedback ve Ihre wilden Vorschläge! Und için Sie Maker da draußen, warum versuchen Sie değil, unser mini-KVM von Grve auf zu bauen? Passen Sie unseren Code an, machen Sie ihn zu Ihrem eigenen ve zeigen Sie uns, was Sie haben!
+İster deneyimli bir profesyonel olun ister yeni başlıyor olun, geri bildirimlerinizi ve çılgın önerilerinizi bekliyoruz! Ve siz yaratıcılar için neden mini KVM'mizi sıfırdan oluşturmayı denemiyorsunuz? Kodumuzda değişiklik yapın, kendinize özel hale getirin ve bize neye sahip olduğunuzu gösterin!
 
-## Noch Bessere Zubehörteile
+## Daha da İyi Aksesuarlar
 
-### NEUES 1,5m Orange Type-C-Kabel ile Konverter
+### YENİ 1,5m Turuncu Tip-C Dönüştürücülü Kablo
 
 ![type-c-cable-v2-plugged-old-mac](https://www.crowdsupply.com/img/9871/2f6f967e-b9ea-4b48-b5dd-da135fb29871/type-c-cable-v2-plugged-old-mac_jpg_md-xl.jpg)
 
-Erinnern Sie sich an unser [stilvolles orange Type-C-Kabel](/blog/from-development-to-your-hands--behind-the-scenes-/#upgrading-toolkit-accessories) ile dem schönen Silikon-Gefühl? Wir haben die ersten Muster erhalten, ve sie sehen fantastisch aus! Diese Kabel unterstützen **240W-Schnellladung** (Spannung DC50V, Strom 5A, Leistung 240W) ve funktionieren perfekt ile unseren mini-KVMs. Großer Dank an unseren Hersteller ve unsere Unterstützer, die dies möglich gemacht haben!
+Güzel silikon hissi veren [stylish orange Type-C cable](/blog/from-development-to-your-hands--behind-the-scenes-/#upgrading-toolkit-accessories) modelimizi hatırlıyor musunuz? İlk numuneleri aldık ve muhteşem görünüyorlar! Bu kablolar **240W hızlı şarjı** (Voltaj DC50V, Akım 5A, Güç 240W) destekler ve mini KVM'lerimizle mükemmel çalışır. Bunu gerçekleştirdikleri için üreticimize ve destekçilerimize çok teşekkür ederiz!
 
 ![type-c-cable-v2-open-2](https://www.crowdsupply.com/img/71b2/b37b66e3-7f2e-4c5e-bb45-8944ee2971b2/type-c-cable-v2-open-2_jpg_gallery-lg.jpg)
 
 
-### Aufgerüstete Toolkit-Tasche
+### Yükseltilmiş Alet Çantası
 
-Mit dem neuen praktischen Adapter için unser 1,5m Type-C-Kabel ve dem [1m langen VGA-to-HDMI-Kabel-Update](/blog/-upgrade-on-vga-to-hdmi-cable-as-a-free-bonus-/) glauben wir, dass es notwendig ist, die Größe unserer Toolkit-Tasche auf 16 cm L x 10 cm B x 3,8 cm H zu erhöhen, um etwas mehr Platz zu bieten!
+1,5 m Type-C kablomuz ve [1m long VGA-to-HDMI cable update](/blog/-upgrade-on-vga-to-hdmi-cable-as-a-free-bonus-/) için yeni kullanışlı eklenmiş adaptörle, alet çantamızın boyutunu 16 cm U x 10 cm G x 3,8 cm Y'ye çıkararak biraz daha fazla alan sağlamanın gerekli olduğuna inanıyoruz!
 
-![beta-rove2-toolkit](https://www.crowdsupply.com/img/0f20/4aed395b-dbef-4670-b340-403ee8e30f20/beta-rove2-toolkit_jpg_md-xl.jpg)
+![beta-round2-toolkit](https://www.crowdsupply.com/img/0f20/4aed395b-dbef-4670-b340-403ee8e30f20/beta-round2-toolkit_jpg_md-xl.jpg)
 
-### Verpackungsexperimente
+### Paketleme Deneyleri
 
-Wir experimentieren ile verschiedenen Designs için unsere äußeren Verpackungskartons – bunt, grau, schwarz ve mehr. Wir tendieren zum bunten Design, aber wir wollen Ihr Feedback!
+Dış ambalaj kutularımız için renkli, gri, siyah ve daha birçok farklı tasarım üzerinde denemeler yapıyoruz. Renkli tasarıma sıcak bakıyoruz ancak geri bildiriminizi de istiyoruz!
 
 ![toolkit-boxes-showcase.jpg](https://www.crowdsupply.com/img/b54b/a041e188-b6ea-4f49-a550-46bc9565b54b/toolkit-boxes-showcase_jpg_gallery-lg.jpg)
 
-Schauen Sie sich die Details unseres Beta-Toolkits an, das an unser Beta-Team gesendet wurde [hier](https://www.reddit.com/r/Openterface_miniKVM/comments/1d40atr/tactical_reinforcements_rove_2_are_on_their_way/). Lassen Sie uns wissen, was Sie denken! Nur ein Hinweis, dieses Verpackungsdesign ist değil endgültig. Wir müssen möglicherweise noch die Kartongröße anpassen ve wesentliche Details wie das CE-Zeichen ve andere erforderliche Informationen hinzufügen.
+Beta ekibimize [here](https://www.reddit.com/r/Openterface_miniKVM/comments/1d40atr/tactical_reinforcements_round_2_are_on_their_way/) gönderilen beta araç kitimizin ayrıntılarına göz atın. Ne düşündüğünüzü bize bildirin! Sadece bir uyarı, bu ambalaj tasarımı nihai değil. Yine de kutu boyutunu ayarlamamız ve CE işareti ve diğer gerekli bilgiler gibi temel ayrıntıları eklememiz gerekebilir.
 
-## Letzte Chance, Uns zu Unterstützen!
+## Bize Destek Olmak İçin Son Şans!
 
-Dies ist die letzte Woche unserer Kampagne. Unterstützen Sie uns jetzt, um das Openterface Mini-KVM **zu einem preisgünstigen Preis** zu erhalten. Post-Kampagnen-Preise werden wahrscheinlich steigen, wenn das Ürün reift. Verpassen Sie es değil – handeln Sie jetzt!
+Bu hafta kampanyamızın son haftası. Openterface Mini-KVM'yi **cüzdan dostu bir fiyata** almak için şimdi bize katılın. Ürün olgunlaştıkça kampanya sonrası fiyatların artması muhtemeldir. Fırsatı kaçırmayın – hemen harekete geçin!
 
-## Bedenken Ansprechen
+## Endişelerin Ele Alınması
 
-Wir verstehen [Skepsis](/blog/from-development-to-your-hands--behind-the-scenes-/#addressing-concerns) aufgrve von betrügerischen Crowdfveing-Projekten. Hier ist, warum Sie uns vertrauen können:
+[scepticism](/blog/from-development-to-your-hands--behind-the-scenes-/#addressing-concerns)'nin dolandırıcılık kitle fonlaması projelerinden kaynaklandığını anlıyoruz. İşte bu yüzden bize güvenebilirsiniz:
 
-**Vertrauen Sie Crowd Supply:** Seit 2012 ist Crowd Supply eine führende Plattform için elektronische Ürüne, [schützt Ihre Rechte als Unterstützer](https://www.crowdsupply.com/guide/backer-protection), hakkındawacht unsere Entwicklung genau ve bietet uns professionelle Beratung, um sicherzustellen, dass das, was wir erstellen, genau richtig için Sie ist.
+**Crowd Supply'a Güvenin:** 2012'den beri Crowd Supply, elektronik ürünler için lider bir platformdur ([protecting your rights as a backer](https://www.crowdsupply.com/guide/backer-protection)), gelişimimizi yakından denetler ve ürettiğimiz şeyin sizin için doğru olduğundan emin olmak için bize profesyonel tavsiyeler sağlar.
 
-**Vertrauen Sie Unserem Team:** Wir haben hakkında sechs Jahre Erfahrung in IoT, KI ve Tech-Kunst. Erfahren Sie mehr hakkında uns auf unserer [TechxArtisan Studio](https://techxartisan.com/en/) Website.
+**Ekibimize Güvenin:** Nesnelerin İnterneti, yapay zeka ve teknoloji sanatında altı yıldan fazla deneyime sahibiz. [TechxArtisan Studio](https://techxartisan.com/en/) web sitemizde hakkımızda daha fazla bilgi edinin.
 
-**Vertrauen Sie Unserer Kultur:** Wir konzentrieren uns auf technische Exzellenz ve Benutzererfahrung ve umarmen Open-Source-Zusammenarbeit. Treten Sie unserer Community auf [Reddit r/Openterface_miniKVM](/reddit) ve [Discord TechxArtisan](/discord) bei, um unsere Reise von frühen Prototypen zur aktuellen Vorproduktionsversion zu sehen.
+**Kültürümüze Güvenin:** Açık kaynak işbirliğini benimseyerek teknik mükemmellik ve kullanıcı deneyimine odaklanıyoruz. İlk prototiplerden mevcut üretim öncesi sürüme kadar olan yolculuğumuzu görmek için [Reddit r/Openterface_miniKVM](/reddit) ve [Discord TechxArtisan](/discord) adresindeki topluluğumuza katılın.
 
-Wenn Sie sich immer noch değil sicher sind, ist das in Ordnung! Wir glauben, dass unser Openterface Mini-KVM Sie schließlich hakkındazeugen wird.
+Hala emin değilseniz sorun değil! Openterface Mini-KVM'mizin eninde sonunda sizi kazanacağına inanıyoruz.
 
-### Mehr Kommt
+### Daha Fazlası Gelecek
 
-Wir kochen immer etwas Aufregendes, also bleiben Sie dran! Wenn Sie Sorular haben, verbringen Sie Zeit ile uns in unserer [Community](/community/) veya senden Sie uns eine E-Mail: info@openterface.com. Bleiben Sie dran ve danke için Ihre Unterstützung! 😄
+Her zaman heyecan verici bir şeyler pişiriyoruz, bu yüzden lütfen sıkı durun! Sorularınız varsa [community](/community/) adresimizden bizimle görüşün veya bize bir e-posta gönderin: info@openterface.com. Bizi izlemeye devam edin ve desteğiniz için teşekkür ederiz! 😄
 
-Prost,
+Şerefe,
 
-Openterface Team | TechxArtisian Studio
+Açık Arayüz Ekibi | TechxArtisian Stüdyosu

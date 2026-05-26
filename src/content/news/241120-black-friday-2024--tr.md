@@ -2,69 +2,71 @@
 locale: tr
 translationKey: "241120-black-friday-2024"
 slug: "241120-black-friday-2024"
-title: "50% RABATT auf ALLE Ürüne – Nur an diesem Black Friday! Zeigen Sie Ihre Unterstützung için Open Source!"
-description: "Exklusives Black Friday Angebot: 50% Rabatt auf alle Openterface Ürüne! Neue Tech-inspirierte Bekleidungslinie ile Mini-KVM Designs, Developer Mode T-Shirts, Hoodies ve Premium Orange Datenkabel. Zeitlich begrenztes Angebot bis zum 1. Dezember."
+title: "TÜM Ürünlerde %50 İNDİRİM – Sadece Bu Kara Cuma! Açık Kaynak Desteğinizi Gösterin!"
+description: "Özel Black Friday teklifi: Tüm Openterface ürünlerinde %50 indirim! Mini-KVM tasarımları, Geliştirici Modu Tişörtleri, kapüşonlular ve birinci sınıf turuncu veri kablolarını içeren, teknolojiden ilham alan yeni giyim serisi. 1 Aralık'a kadar sınırlı süreli teklif."
 date: 2024-11-27
 channel: product
 product: minikvm
 topic: ["software", "campaign", "community"]
-category: "Product Güncellemeler"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-<style>
-  .heartbeat-label {
-    display: inline-block;
-    backgrove-color: #000000;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 5px 15px;
-    border-radius: 25px;
-    animation: heartbeat 1.6s infinite;
-    text-align: center;
+<stil>
+  .kalp atışı etiketi {
+    ekran: satır içi blok;
+    arka plan rengi: #000000;
+    renk: beyaz;
+    yazı tipi boyutu: 1,5em;
+    yazı tipi ağırlığı: kalın;
+    dolgu: 5 piksel 15 piksel;
+    kenarlık yarıçapı: 25px;
+    animasyon: kalp atışı 1,6 sn sonsuz;
+    metin hizalama: ortala;
   }
 
-  @keyframes heartbeat {
-    0% { transform: scale(1); }
-    30% { transform: scale(1.01); }
-    60% { transform: scale(1); }
+  @keyframes kalp atışı {
+    0% { dönüşüm: ölçek(1); }
+    %30 { dönüşüm: ölçek(1,01); }
+    %60 { dönüşüm: ölçek(1); }
   }
 </style>
 
 
 
-Hallo liebe Openterface-Leute,
+Merhaba sevgili Openterface halkı,
 
-Aufregende Neuigkeiten—wir haben **eine neue Bekleidungslinie** bei Openterface gestartet! Unsere Kollektion zeigt T-Shirts ve Hoodies, die den Geist unserer Community verkörpern. Sie sind değil nur Kleidung; sie sind eine Feier unserer gemeinsamen Werte ve der Openterface-Ethik.
+Heyecan verici haberler; Openterface'te **yeni bir giyim serisini** piyasaya sürdük! Koleksiyonumuzda topluluğumuzun ruhunu yansıtan tişörtler ve kapüşonlular yer alıyor. Onlar sadece kıyafet değil; bunlar ortak değerlerimizin ve Openterface ahlakının bir kutlamasıdır.
 
-Was macht diese Designs noch spezieller? Sowohl das T-Shirt als auch der Hoodie zeigen stolz **die technische Linienkunst unseres Openterface mini-KVM**, die unglaublich cool aussieht. Außerdem haben wir den **"Developer Mode"**-Text unseres mini-KVM im Design hervorgehoben—eine Idee, die wir absolut brillant finden. Wenn Sie unser T-Shirt veya unseren Hoodie tragen, geht es değil nur darum, diesen Winter warm zu bleiben; es geht darum, in den Super-Entwickler-Modus için all Ihre Coding- ve Hacking-Sessions zu treten.
-
-Und wenn Sie sich fragen, wie diese im wirklichen Leben aussehen, schauen Sie sich an, wie unser Team sie in Aktion trägt! Vom gemütlichen Verweilen im **Developer Mode** beim Programmieren ([Tweet ansehen](https://x.com/TechxArtisan/status/1861611266705379346)), bis hin zu einem lustigen Fotoshooting ile David Groom von **MAKE: Magazine** auf der Shenzhen Maker Faire ([Foto ansehen](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)), haben wir stolz unsere Ausrüstung präsentiert. Wir wurden sogar von einem Vortrag des legendären Eric Migicovsky von Pebble inspiriert ([Post ansehen](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)), während wir das Openterface Mini-KVM demonstrierten ve uns ile Tech-Freveen verbanden ([mehr ansehen](https://twitter.com/TechxArtisan/status/1858397377196965913), [ve hier](https://twitter.com/TechxArtisan/status/1858400923325726750)). Das sind değil nur Kleider—das sind Gesprächsstarter ve eine Art, unsere Community hakkındaall zu feiern, wo wir hingehen!
+Bu tasarımları daha da özel kılan şey nedir? Hem tişört hem de kapüşonlu üst, inanılmaz derecede havalı görünen **Openterface mini-KVM'mizin** teknik çizgi sanatını gururla taşıyor. Ayrıca, tasarımda mini KVM'mizin **"Geliştirici Modu"** metnini vurguladık; bu kesinlikle harika olduğunu düşündüğümüz bir fikir. Tişörtümüzü veya kapüşonlu üstümüzü giydiğinizde önemli olan bu kış sadece sıcak kalmak değil; tüm kodlama ve hackleme oturumlarınız için süper geliştirici moduna adım atmakla ilgilidir.
 
 
-*David ve ich können değil genug von unseren Hoodies bekommen—wir leben praktisch darin!😉 Ein riesiges Dankeschön an David için das Teilen eines so großartigen Fotos—wirklich geschätzt!🎉*
 
-Und için diesen tristen Winter, warum geben Sie unserem lebendigen orangen Datenkabel değil eine Chance? Es ist ein perfekter Weg, Ihren Arbeitsplatz zu erhellen ve gleichzeitig schnelle ve zuverlässige Datenhakkındatragung zu gewährleisten.
-
-Um das Geschäft zu versüßen, bieten wir einen <a href="https://shop.techxartisan.com" style="text-decoration: none;"><span class="heartbeat-label">🔥 SPEZIELLEN 50% RABATT 🔥</span></a> auf alle Artikel için die nächsten fünf Tage için diesen **Black Friday 2024**, vom Moment an, in dem Sie diese Nachricht sehen, bis zum 1. Dezember. Es ist unsere Art zu sagen, danke, dass Sie Teil unserer Reise sind.
-
-Stöbern Sie hier in unserem Mağaza: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Schauen Sie sich unsere neue Bekleidung an ve schnappen Sie sich ein Stück zum halben Preis—verpassen Sie değil dieses zeitlich begrenzte Angebot!
-
-### Openterface Ürüne
+Bunların gerçek hayatta nasıl göründüğünü merak ediyorsanız ekibimizin bunları çalışırken nasıl giydiğine bir göz atın! Kodlama sırasında **Geliştirici Modu**'nda rahat kalmaktan ([see tweet](https://x.com/TechxArtisan/status/1861611266705379346)) David Groom ile Shenzhen Maker Faire'de ([view photo](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)) **MAKE: Magazine**'den eğlenceli bir fotoğraf çekimine kadar, ekipmanlarımızı gururla sergiliyoruz. Hatta Openterface Mini-KVM'nin tanıtımını yaparken ve teknoloji arkadaşlarıyla bağlantı kurarken ([see more](https://twitter.com/TechxArtisan/status/1858397377196965913), [and here](https://twitter.com/TechxArtisan/status/1858400923325726750)) Pebble şöhretli efsanevi Eric Migicovsky'nin ([see post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)) konuşmasından bile ilham aldık. Bunlar sadece kıyafet değil, aynı zamanda sohbet başlatıcıdır ve nereye gidersek gidelim topluluğumuzu kutlamanın bir yoludur!  
+Bunların gerçek hayatta nasıl göründüğünü merak ediyorsanız ekibimizin bunları çalışırken nasıl giydiğine bir göz atın! Kodlama sırasında **Geliştirici Modu**'nda rahat kalmaktan ([see tweet](https://x.com/TechxArtisan/status/1861611266705379346)) David Groom ile Shenzhen Maker Faire'de ([view photo](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)) **MAKE: Magazine**'den eğlenceli bir fotoğraf çekimine kadar, ekipmanlarımızı gururla sergiliyoruz. Hatta Openterface Mini-KVM'nin tanıtımını yaparken ve teknik arkadaşlarla bağlantı kurarken ([see more](https://twitter.com/TechxArtisan/status/1858397377196965913), [and here](https://twitter.com/TechxArtisan/status/1858400923325726750)) Pebble şöhretli efsanevi Eric Migicovsky'nin ([see post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)) konuşmasından bile ilham aldık. Bunlar sadece kıyafet değil, aynı zamanda sohbet başlatıcıdır ve gittiğimiz her yerde topluluğumuzu kutlamanın bir yoludur!  
 
 
-### Openterface Zubehör
+*David ve ben kapüşonlularımıza doyamıyoruz; adeta onların içinde yaşıyoruz! 😉 Böyle harika bir fotoğrafı paylaştığı için David'e çok teşekkür ederiz, gerçekten takdir ediyoruz!🎉*
+
+Ve bu sıkıcı kış için neden canlı turuncu veri kablomuza bir şans vermiyorsunuz? Hızlı ve güvenilir veri aktarımı sağlarken çalışma alanınızı aydınlatmanın mükemmel bir yoludur.
+
+Anlaşmayı tatlandırmak için, bu mesajı gördüğünüz andan 1 Aralık'a kadar bu **2024 Kara Cuma** için önümüzdeki beş gün boyunca tüm ürünlerde <a href="https://shop.techxartisan.com" style="text-decoration: none;"><span class="heartbeat-label">🔥 ÖZEL %50 İNDİRİM 🔥</span></a> sunuyoruz. Yolculuğumuzun bir parçası olduğunuz için teşekkür etme şeklimiz.
+
+Mağazamıza buradan göz atın: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Yeni kıyafetlerimize göz atın ve yarı fiyatına bir parça alın; bu sınırlı süreli teklifi kaçırmayın!
+
+### Openinterface Ürünleri
 
 
-Danke, dass Sie uns auf diesem Abenteuer begleitet haben. Ihre Unterstützung bedeutet uns die Welt, ve wir sind dankbar için jedes Gespräch, jede Idee ve jede Interaktion, die wir hatten.
+### Açık Arayüz Aksesuarları
 
-Herzliche Grüße,
+
+Bu macerada yanımızda olduğunuz için teşekkür ederiz. Desteğiniz bizim için dünyalar anlamına geliyor ve yaptığımız her konuşma, her fikir ve her etkileşim için minnettarız.
+
+Saygılarımızla,
 
 **Billy Wang**  
-Ürünmanager  
-Openterface Team | TechxArtisan  
+Ürün Müdürü  
+Açık Arayüz Ekibi | TechxArtisan  
 
-**P.S.** Haben Sie Gedanken veya Feedback? Wir sind ganz Ohr! Treten Sie dem Gespräch auf [Reddit](https://openterface.com/reddit) veya [Discord](https://openterface.com/discord) bei, veya senden Sie uns gerne eine E-Mail an **info@openterface.com** ✉️.
+**Not:** Herhangi bir düşünceniz veya geri bildiriminiz var mı? Hepimiz kulağımız! [Reddit](https://openterface.com/reddit) veya [Discord](https://openterface.com/discord) adresindeki sohbete katılın veya **info@openterface.com** ✉️ adresinden bize e-posta göndermekten çekinmeyin.

@@ -2,222 +2,220 @@
 locale: pl
 translationKey: "20251218-macos-mouse-speed"
 slug: "20251218-macos-mouse-speed"
-title: "Openterface Mini-KVM Mausgeschwindigkeit & Spielleistung unter macOS"
-description: "Umfassende spielorientierte Mausleistungstests von Openterface Mini-KVM unter macOS. Vergleichen Sie absolute, relative Event- i relative HID-Mausmodi z 9600 vs 115200 Baudraten dla optimale Spielkonfiguration."
+title: "Szybkość myszy Openterface Mini-KVM i wydajność w grach w systemie macOS"
+description: "Kompleksowe testowanie wydajności myszy Openterface Mini-KVM dla gier w systemie macOS. Porównaj tryby myszy bezwzględnej, względnej i względnej HID z szybkościami transmisji 9600 i 115200, aby uzyskać optymalną konfigurację do gier."
 date: 2025-12-18
 channel: software
-topic: ["software"]
-category: "Product Aktualizacje"
+topic: ["shipping", "production", "software", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface"
 ---
+### Analiza zachowania myszy skupiona na grach
 
-### Spielorientierte Mausverhaltensanalyse
+W tym artykule podsumowano testy wydajności myszy **Openterface Mini-KVM na macOS** w rzeczywistych warunkach, ze szczególnym uwzględnieniem **zachowania myszy w grach**, ograniczeń szybkości transmisji szeregowej i zalecanych konfiguracji.
 
-Dieser Artikel fasst reale Mausleistungstests von **Openterface Mini-KVM unter macOS** zusammen, z Fokus auf **spielbezogenes Mausverhalten**, serielle Baudraten-Beschränkungen i empfohlene Konfigurationen.
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Gaming isn't the main goal of Openterface KVMs, but we pushed them to explore the lizs of KVM-over-USB. On macOS, 115200 baud + Relative HID gives the best mouse latency. Built for setup and debugging, tuned to stretch performance further. <a href="https://t.co/ianurD9ArL">pic.twitter.com/ianurD9ArL</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/2003418343806742992?ref_src=twsrc%5Etfw">December 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Gry nie są głównym celem maszyn KVM Openterface, ale popchnęliśmy je do zbadania ograniczeń KVM-over-USB. W systemie macOS najlepsze opóźnienie myszy zapewnia prędkość 115200 bodów + względny HID. Stworzony do konfiguracji i debugowania, dostrojony tak, aby jeszcze bardziej zwiększyć wydajność. <a href="https://t.co/ianurD9ArL">pic.twitter.com/ianurD9ArL</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/2003418343806742992?ref_src=twsrc%5Etfw">23 grudnia 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
-## 1. Testsoftware & Umgebung
+## 1. Przetestuj oprogramowanie i środowisko
 
 ### Oprogramowanie
 
-* **Host-Anwendung:**
-  **Openterface dla macOS v1.21** *(In Entwicklung)*
+* **Aplikacja hosta:**
+  **Openterface dla macOS v1.21** *(Praca w toku)*
 
-* **Mess-Tool auf Zielseite:**
-  Eine **maßgeschneiderte interne Testanwendung**, entwickelt, um hochfrequente Mauseingaben i Ereignisverarbeitungsraten auf dem Zielsystem genau zu messen.
+* **Narzędzie pomiarowe po stronie docelowej:**
+  **Niestandardowa, wewnętrzna aplikacja do testowania** opracowana w celu dokładnego pomiaru szybkości wprowadzania danych wejściowych myszy o wysokiej częstotliwości i szybkości przetwarzania zdarzeń w systemie docelowym.
 
-> ⚠️ Da v1.21 noch aktiv entwickelt wird, können sich einige Verhaltensweisen i Leistungseigenschaften in zukünftigen Versionen verbessern.
-
----
-
-### Testbedingungen: Mausgeschwindigkeits-Drosselung
-
-**Während keiner der Tests wurde eine Mausgeschwindigkeits-Drosselung lub künstliche Ratenbegrenzung angewendet**.
-
-Mauseingaben wurden z **nativem Gerätegeschwindigkeit** erfasst i weitergeleitet, abhängig nur von:
-
-* Maus-Sprzęt-Abfragerate
-* Gewähltem Mausmodus (Absolut / Relatives Event / Relatives HID)
-* Serieller Baudrate
-* Mauseingabeverarbeitung des Ziel-Betriebssystems
+> ⚠️ Ponieważ wersja 1.21 jest wciąż w fazie aktywnego rozwoju, niektóre zachowania i cechy wydajności mogą ulec poprawie w przyszłych wydaniach.
 
 ---
 
-## 2. Grilagen des Mausdaten-Durchsatzes
+### Warunki testowania: Ograniczanie szybkości myszy
 
-Jedes o Mini-KVM otragene Mausbewegungsereignis besteht aus:
+**Podczas żadnego z testów nie zastosowano żadnego ograniczania prędkości myszy ani sztucznego ograniczania szybkości.**
+
+Dane wejściowe myszy zostały przechwycone i przekazane z **natywną szybkością urządzenia**, z zastrzeżeniem:
+
+* Częstotliwość odpytywania sprzętu myszy
+* Wybrany tryb myszy (zdarzenie bezwzględne / względne / względne HID)
+* Szybkość transmisji szeregowej
+* Obsługa danych wejściowych myszy w docelowym systemie operacyjnym
+
+---
+
+## 2. Podstawy przepustowości danych myszy
+
+Każde zdarzenie ruchu myszy przesyłane przez Mini-KVM składa się z:
 
 ```
-11 Bytes = 88 Bits
+11 bajtów = 88 bitów
 ```
 
-### Theoretischer serieller Durchsatz
+### Teoretyczna przepustowość szeregowa
 
-| Baudrate | Max. Ereignisse / Sekie |
+| Szybkość transmisji | Maksymalna liczba wydarzeń / sekunda |
 | --------- | ------------------- |
-| 9600      | ~109 Ereignisse/s       |
-| 115200    | ~1309 Ereignisse/s      |
+| 9600 | ~109 zdarzeń/s |
+| 115200 | ~1309 zdarzeń/s |
 
-⚠️ Diese Werte stellen **obere theoretische Grenzen** dar.
-Die tatsächliche Leistung wird beeinflusst von:
+⚠️ Wartości te reprezentują **górne limity teoretyczne**.
+Na rzeczywistą wydajność mają wpływ:
 
-* Host-Mausabfragerate
-* Mausmodus (Absolut vs Relativ)
-* macOS-Eingabeereignis-Planung
-* Serielle Pufferung i Firmware-Behandlung
-* **Mausabfragerate des Ziel-Betriebssystems**, die die wahrgenommene Reaktionsfähigkeit erheblich beeinflussen kann (z. B. niedrige Standardabfrageraten bei einigen Linux-Distributionen)
-
----
-
-## 3. Testergebnisse
+* Częstotliwość odpytywania myszy hosta
+* Tryb myszy (bezwzględny vs względny)
+* Planowanie zdarzeń wejściowych w systemie macOS
+* Buforowanie szeregowe i obsługa oprogramowania sprzętowego
+* **Częstotliwość odpytywania myszy w docelowym systemie operacyjnym**, która może znacząco wpłynąć na postrzeganą responsywność (np. niska domyślna częstotliwość odpytywania w niektórych dystrybucjach Linuksa)
 
 ---
 
-### A. Absoluter Mausmodus (9600 & 115200 Baud)
-
-| Maus-Typ | Baudrate | Host-Rate (Hz) | Ziel-Rate (Hz) | Hinweise                                                                |
-| ---------- | --------- | -------------- | ---------------- | -------------------------------------------------------------------- |
-| Bluetooth  | 9600      | ~125           | ~75              | Serielle Bandbreite gesättigt; Eingaben in Warteschlange, Bewegung verzögert           |
-| Kabelgebien      | 9600      | ~150           | ~75              | Serielle Bandbreite gesättigt; Eingaben in Warteschlange, Bewegung verzögert           |
-| Gaming     | 9600      | ~1000          | ~75              | Hochfrequente Eingaben stark in Warteschlange; Reaktionsfähigkeit erheblich reduziert |
-| Bluetooth  | 115200    | ~125           | ~125             | Stabile 1:1 Host-zu-Ziel-Zuordnung                                    |
-| Kabelgebien      | 115200    | ~175           | ~175             | Verbesserter Durchsatz; Latenz bei schneller Bewegung sichtbar               |
-| Gaming     | 115200    | ~1000          | ~350             | Serieller Durchsatzgrenze erreicht; oschüssige Eingaben in Warteschlange                 |
-
-**Fazit (Absolutmodus):**
-
-Der absolute Mausmodus skaliert z der Baudrate, bleibt aber durch **seriellen Durchsatz i Eingabepufferung** eingeschränkt.
-Bei **9600 Baud** sind alle Maus-Typen eingeschränkt i die Bewegung verzögert.
-Bei **115200 Baud** erreichen Standard-Mäuse stabiles Verhalten, aber **Hochabfrage-Spielemäuse oschreiten immer noch die verfügbare Bandbreite**, was Latenz einführt.
-
-**Absolutmodus eignet sich dla Desktop-Steuerung, nie dla latenzsensitive Spiele.**
+## 3. Wyniki testu
 
 ---
 
-### B. Relativer Maus-Event-Modus
+### A. Bezwzględny tryb myszy (9600 i 115200 bodów)
 
-Der relative Maus-Event-Modus erfasst **Mausbewegungsereignisse direkt aus dem Betriebssystemfenster**, berechnet das **Bewegungsdelta zwischen aufeinanderfolgenden Cursorpositionen** i leitet nur die relativen Bewegungsdaten an das Zielsystem weiter.
+| Typ myszy | Szybkość transmisji | Częstotliwość hosta (Hz) | Częstotliwość docelowa (Hz) | Notatki |
+| ---------- | --------- | -------------- | ---------------- | ---------------------------------------------------------------------------------- |
+| Bluetooth | 9600 | ~125 | ~75 | Przepustowość szeregowa nasycona; wejście w kolejce, ruch opóźniony |
+| Przewodowy | 9600 | ~150 | ~75 | Przepustowość szeregowa nasycona; wejście w kolejce, ruch opóźniony |
+| Gry | 9600 | ~1000 | ~75 | Wejście wysokiej częstotliwości w dużej kolejce; responsywność znacznie zmniejszona |
+| Bluetooth | 115200 | ~125 | ~125 | Stabilne mapowanie hosta do celu 1:1 |
+| Przewodowy | 115200 | ~175 | ~175 | Poprawiona przepustowość; w przypadku przyspieszonego ruchu pojawia się opóźnienie |
+| Gry | 115200 | ~1000 | ~350 | Osiągnięto limit przepustowości szeregowej; nadmiar danych wejściowych w kolejce |
 
-Dieser Modus:
+**Wniosek (tryb absolutny):**
 
-* **Benötigt keine zusätzlichen Systemberechtigungen**
-* Ist unabhängig von **absoluten Bildschirmkoordinaten**
-* Nutzt einen **größeren Erfassungsbereich**, was feinere Bewegungsdeltas ermöglicht
-* Vermeidet absolute Positionspufferung, was zu **niedrigerer Latenz i besserer Reaktionsfähigkeit** führt
+Bezwzględny tryb myszy skaluje się wraz z szybkością transmisji, ale pozostaje ograniczony przez **przepustowość szeregową i buforowanie wejścia**.
+Przy **9600 bodów** wszystkie typy myszy mają wąskie gardło i ruch jest opóźniony.
+Przy **115200 bodów** standardowe myszy osiągają stabilne zachowanie, ale **myszy do gier o wysokim odpytywaniu nadal przekraczają dostępną przepustowość**, wprowadzając opóźnienia.
 
-#### Relative Maus-Event-Modus Leistung
+**Tryb absolutny nadaje się do sterowania komputerem stacjonarnym, a nie do gier wrażliwych na opóźnienia.**
 
-| Maus-Typ | Baudrate | Host-Rate (Hz) | Ziel-Rate (Hz) | Hinweise                                              |
+---
+
+### B. Względny tryb zdarzenia myszy
+
+Tryb względnych zdarzeń myszy przechwytuje **zdarzenia ruchu myszy bezpośrednio z okna systemu operacyjnego**, oblicza **deltę ruchu pomiędzy kolejnymi pozycjami kursora** i przekazuje tylko dane dotyczące ruchu względnego do systemu docelowego.
+
+Ten tryb:
+
+* Czy **nie wymaga dodatkowych uprawnień systemowych**
+* Jest niezależny od **bezwzględnych współrzędnych ekranu**
+* Korzyści z **większego okna przechwytywania**, umożliwiającego dokładniejsze delty ruchu
+* Unika buforowania pozycji bezwzględnej, co skutkuje **mniejszymi opóźnieniami i lepszą responsywności**
+
+#### Względna wydajność trybu zdarzenia myszy
+
+| Typ myszy | Szybkość transmisji | Częstotliwość hosta (Hz) | Częstotliwość docelowa (Hz) | Notatki |
 | ---------- | --------- | -------------- | ---------------- | -------------------------------------------------- |
-| Bluetooth  | 9600      | ~100           | ~90              | Nahe serieller Grenze; stabil dla gelegentliche Nutzung           |
-| Kabelgebien      | 9600      | ~125           | ~90              | Serielle Bandbreite gesättigt; geringe Latenz          |
-| Gaming     | 9600      | ~1000          | ~100             | Hohe Abfrage oschreitet Bandbreite; Eingaben komprimiert   |
-| Bluetooth  | 115200    | ~125           | ~125             | 1:1 Host-zu-Ziel-Zuordnung                         |
-| Kabelgebien      | 115200    | ~180           | ~150             | Verbesserter Durchsatz; sanftes Tracking               |
-| Gaming     | 115200    | ~1000          | ~450             | Beste beobachtete Leistung; serieller Durchsatz begrenzt |
+| Bluetooth | 9600 | ~100 | ~90 | Blisko limitu seryjnego; stabilny do codziennego użytku |
+| Przewodowy | 9600 | ~125 | ~90 | Przepustowość szeregowa nasycona; drobne opóźnienie |
+| Gry | 9600 | ~1000 | ~100 | Wysokie odpytywanie przekracza przepustowość; wejście skompresowane |
+| Bluetooth | 115200 | ~125 | ~125 | Mapowanie hosta do celu 1:1 |
+| Przewodowy | 115200 | ~180 | ~150 | Poprawiona przepustowość; płynne śledzenie |
+| Gry | 115200 | ~1000 | ~450 | Najlepiej zaobserwowane wyniki; ograniczona przepustowość szeregowa |
 
-🔴 **9600 Baud ist unzureichend dla Hochabfrage-Spielemäuse**
-🟢 **115200 Baud ermöglicht reaktive Spieleingabe im relativen Event-Modus**
+🔴 **9600 bodów jest niewystarczające dla myszy do gier o wysokim poziomie odpytywania**
+🟢 **115200 bodów umożliwia czułe wejście klasy gamingowej w trybie zdarzenia względnego**
+---
+
+### C. Względny tryb HID myszy
+
+Tryb względnego myszy HID **bezpośrednio konwertuje dane wejściowe myszy macOS HID na zdarzenia HID w systemie docelowym**, omijając przetwarzanie kursora na poziomie okna i bezwzględne mapowanie współrzędnych.
+
+Ten tryb:
+
+* Działa na **surowych zdarzeniach myszy na poziomie HID**
+* Czy **nie zależy od rozmiaru okna aplikacji**
+* Zachowuje **natywną charakterystykę odpytywania myszy**
+* Minimalizuje pośrednie buforowanie i translację
+* Zapewnia **najniższe opóźnienie** spośród wszystkich trybów myszy
+
+W rezultacie tryb Relative Mouse HID zapewnia zachowanie **najbliższe bezpośredniemu połączeniu myszy USB**, szczególnie przy wyższych szybkościach transmisji.
+
+#### Względna wydajność trybu HID myszy
+
+| Typ myszy | Szybkość transmisji | Częstotliwość hosta (Hz) | Częstotliwość docelowa (Hz) | Notatki |
+| ---------- | --------- | -------------- | ---------------- | -------------------------------------------------- |
+| Bluetooth | 9600 | ~100 | ~90 | Blisko limitu seryjnego; dopuszczalne do podstawowego użytku |
+| Przewodowy | 9600 | ~250 | ~180 | Pasmo szeregowe częściowo nasycone |
+| Gry | 9600 | >1000 | ~90 | Wysokie odpytywanie przekracza dostępną przepustowość |
+| Bluetooth | 115200 | ~160 | ~155 | Prawie 1:1 mapowanie hosta do celu |
+| Przewodowy | 115200 | ~250 | ~150 | Stabilny i responsywny |
+| Gry | 115200 | >1000 | ~500 | Najlepsza ogólna wydajność; ograniczona przepustowość szeregowa |
+
+**Kluczowe wnioski (względny tryb HID):**
+
+* Zapewnia **najniższe opóźnienie** ze wszystkich trybów myszy
+* Przy **9600 bodów** myszy o wysokim poziomie odpytywania mają ograniczoną przepustowość
+* Przy **115200 bodach** myszy do gier osiągają **setki zdarzeń po stronie docelowej na sekundę**
+* **Zdecydowanie zalecany do gier i szybkiego ruchu kamery**
 
 ---
 
-### C. Relativer Maus-HID-Modus
+### D. Bezpośrednia mysz w systemie Windows (odniesienie)
 
-Der relative Maus-HID-Modus **wandelt macOS-HID-Mauseingaben direkt in HID-Ereignisse auf dem Zielsystem um**, umgeht fensterebene Cursorverarbeitung i absolute Koordinatenzuordnung.
-
-Dieser Modus:
-
-* Arbeitet z **rohen HID-Ebene-Mausereignissen**
-* **Hängt nie von der Anwendungsfenstergröße ab**
-* Erhält **native Mausabfrage-Charakteristika**
-* Minimiert Zwischenpufferung i Übersetzung
-* Liefert die **niedrigste Latenz** aller Mausmodi
-
-Infolgedessen bietet der relative Maus-HID-Modus ein Verhalten, **das einer direkten USB-Mausverbindung am nächsten kommt**, insbesondere bei höheren Baudraten.
-
-#### Relative Maus-HID-Modus Leistung
-
-| Maus-Typ | Baudrate | Host-Rate (Hz) | Ziel-Rate (Hz) | Hinweise                                             |
-| ---------- | --------- | -------------- | ---------------- | ------------------------------------------------- |
-| Bluetooth  | 9600      | ~100           | ~90              | Nahe serieller Grenze; akzeptabel dla grilegende Nutzung       |
-| Kabelgebien      | 9600      | ~250           | ~180             | Serielle Bandbreite teilweise gesättigt              |
-| Gaming     | 9600      | >1000          | ~90              | Hohe Abfrage oschreitet verfügbare Bandbreite          |
-| Bluetooth  | 115200    | ~160           | ~155             | Nahe 1:1 Host-zu-Ziel-Zuordnung                   |
-| Kabelgebien      | 115200    | ~250           | ~150             | Stabil i reaktiv                             |
-| Gaming     | 115200    | >1000          | ~500             | Beste Gesamtleistung; serieller Durchsatz begrenzt |
-
-**Kernerkenntnisse (Relativer HID-Modus):**
-
-* Liefert die **niedrigste Latenz** aller Mausmodi
-* Bei **9600 Baud** bleiben Hochabfrage-Mäuse bandbreitenbegrenzt
-* Bei **115200 Baud** erreichen Spielmäuse **Hierte von Zielseiten-Ereignissen pro Sekie**
-* **Stark empfohlen dla Spiele i schnelle Kamerabewegungen**
-
----
-
-### D. Direkte Maus unter Windows (Referenz)
-
-| Maus-Typ      | Ziel-Rate (Hz) |
+| Typ myszy | Częstotliwość docelowa (Hz) |
 | --------------- | ---------------- |
-| Bluetooth-Maus | 80–85            |
-| Kabelgebiene Maus     | 120–125          |
-| Spielmaus    | >1000            |
+| Mysz Bluetooth | 80–85 |
+| Mysz przewodowa | 120–125 |
+| Mysz do gier | >1000 |
 
-Diese Referenz zeigt, dass **Mini-KVM (115200 Baud, HID-Relativmodus)** die native kabelgebiene Mausleistung annähern kann, obwohl es die inhärente KVM- i serielle Transport-Overhead nie vollständig eliminieren kann.
-
----
-
-## 4. Empfohlene Spielkonfiguration
-
-### ✅ Empfohlen
-
-* **Mausmodus:** Relative Maus HID
-* **Baudrate:** 115200
-* **Maus-Typ:** Kabelgebien lub Spielmaus
-* **Abfragerate:** ≤1000 Hz empfohlen
-
-### ❌ Vermeiden
-
-* Absoluter Mausmodus dla Spiele
-* 9600 Baud z Hochabfrage-Mäusen
-* Übermäßig hohe Abfrageraten ohne ausreichende serielle Bandbreite
+To odniesienie pokazuje, że **Mini-KVM (115200 bodów, tryb względny HID)** może zbliżyć się do wydajności natywnej myszy przewodowej, chociaż nie może w pełni wyeliminować nieodłącznego obciążenia KVM i transportu szeregowego.
 
 ---
 
-## 5. Wichtige Erwartungen
+## 4. Zalecana konfiguracja gier
 
-Openterface Mini-KVM ist hauptsächlich konzipiert dla:
+### ✅Polecane
 
-✔ BIOS / UEFI-Interaktion
-✔ Systemeinrichtung i Debugging
-✔ Remote-Zugriff i Verwaltung
+* **Tryb myszy:** Względny HID myszy
+* **Szybkość transmisji:** 115200
+* **Typ myszy:** Mysz przewodowa lub do gier
+* **Częstotliwość odpytywania:** zalecana ≤1000 Hz
 
-Während **Spielen möglich ist**, ist Mini-KVM **kein Ersatz dla eine direkte USB-Spielmaus**, besonders nie dla hochkompetitive lub latenzkritische Titel.
+### ❌ Unikaj
 
----
-
-## 6. Zusammenfassung
-
-* **Spielen z Openterface Mini-KVM ist möglich**, wenn korrekt konfiguriert
-* Spielreaktionsfähigkeit wird von **Mausmodus, Abfragerate i Baudrate** dominiert, nie von der Host-CPU-Leistung
-* **Absoluter Mausmodus** priorisiert Positionsgenauigkeit i eignet sich nie dla Spiele
-* **9600 Baud** schafft eine harte Eingabebandbreiten-Obergrenze
-* **Relativer Maus-HID-Modus bei 115200 Baud** liefert das beste Gleichgewicht aus:
-
-  * Eingabefrequenz
-  * Latenz
-  * Stabilität
-* Obwohl Mini-KVM nie vollständig z einer nativen USB-Połączenie zhalten kann, kann es eine **spielbare i reaktive Erfahrung** dla Casual- i einige kompetitive Spielszenarien bieten
+* Absolutny tryb myszy do gier
+* 9600 bodów w przypadku myszy o wysokim poziomie odpytywania
+* Zbyt wysokie współczynniki odpytywania bez wystarczającej przepustowości szeregowej
 
 ---
 
-### Gesamturteil
+## 5. Ważne oczekiwania
 
-✅ **Technisch solide**
-✅ **Klare Positionierung dla Spieler**
-✅ **Ehrlich o Einschränkungen**
+Openterface Mini-KVM jest przeznaczony przede wszystkim do:
+
+✔ Interakcja BIOS/UEFI
+✔ Konfiguracja systemu i debugowanie
+✔ Zdalny dostęp i zarządzanie
+
+Chociaż **gra jest możliwa**, Mini-KVM **nie zastępuje bezpośredniej myszy do gier USB**, szczególnie w przypadku tytułów o dużej konkurencji lub wymagających krytycznych opóźnień.
+
+---
+
+## 6. Podsumowanie końcowe
+
+* **Gra za pomocą Openterface Mini-KVM jest możliwa** przy prawidłowej konfiguracji
+* Responsywność w grach jest zdominowana przez **tryb myszy, szybkość odpytywania i szybkość transmisji**, a nie wydajność procesora hosta
+* **Tryb myszy bezwzględnej** priorytetem jest dokładność pozycjonowania i nie nadaje się do gier
+* **9600 bodów** tworzy sztywny pułap przepustowości wejściowej
+* **Tryb względnej myszy HID przy 115200 bodach** zapewnia najlepszą równowagę:
+
+  * Częstotliwość wejściowa
+  * Opóźnienie
+  * Stabilność
+* Chociaż Mini-KVM nie może w pełni dorównać natywnemu połączeniu USB, może zapewnić **grywalne i responsywne wrażenia** w przypadku zwykłych i niektórych scenariuszy gier rywalizacyjnych
+
+---
+
+### Ogólny werdykt
+
+✅ **Sprawny technicznie**
+✅ **Przejrzyste pozycjonowanie dla graczy**
+✅ **Szczerze mówiąc o ograniczeniach**

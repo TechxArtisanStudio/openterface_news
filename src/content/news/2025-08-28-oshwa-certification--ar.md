@@ -2,41 +2,40 @@
 locale: ar
 translationKey: "2025-08-28-oshwa-certification"
 slug: "2025-08-28-oshwa-certification"
-title: "OSHWA-Zertifizierung Erreicht! 🎉"
-description: "28. August 2025 - Wir freuen uns, bekannt zu geben, dass die Openterface KVM Extension for uConsole offiziell von der Open Source الأجهزة Association OSHWA zertifiziert wurde! 🤠⚙️"
+title: "تم الحصول على شهادة OSHWA! 🎉"
+description: "28 أغسطس 2025 - يسعدنا أن نعلن أن ملحق Openterface KVM لـ uConsole قد تم اعتماده رسميًا من قبل جمعية الأجهزة مفتوحة المصدر (OSHWA)! 🤠⚙️"
 date: 2025-08-28
 channel: product
 product: uconsole-kvm-extension
 topic: ["software", "community"]
-category: "Product التحديثات"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**28 أغسطس 2025** - يسعدنا أن نعلن أن **Openterface KVM Extension for uConsole** قد تم اعتماده رسميًا من قبل **جمعية الأجهزة مفتوحة المصدر (OSHWA)**! 🤠⚙️
 
-**28. August 2025** - Wir freuen uns, bekannt zu geben, dass die **Openterface KVM Extension for uConsole** offiziell von der **Open Source الأجهزة Association (OSHWA)** zertifiziert wurde! 🤠⚙️
+## تفاصيل الشهادة
 
-## Zertifizierungsdetails
+- **معرف الشهادة**: CN000021 ✅
+- **عرض الشهادة**: [OSHWA Certification](https://lnkd.in/gt-yvDuU)
+- **مستودع الأجهزة**: [Openterface_KVM_Ext_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware)
 
-- **Zertifizierungs-ID**: CN000021 ✅
-- **Zertifikat anzeigen**: [OSHWA-Zertifizierung](https://lnkd.in/gt-yvDuU)
-- **الأجهزة-Repository**: [Openterface_KVM_Ext_الأجهزة](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_الأجهزة)
+## ماذا يعني هذا
 
-## Was das bedeutet
+تؤكد هذه الشهادة أن جميع المخططات ومخططات الدوائر وموارد الأجهزة المفتوحة ذات الصلة متاحة للجمهور ويمكن للمجتمع الوصول إليها. يمكنك:
 
-Diese Zertifizierung bestätigt, dass alle Schaltpläne, Schaltkreise و verwandten Open-Source-الأجهزة-Ressourcen öffentlich verfügbar و لـ die Community zugänglich sind. Sie können:
+- **دراسة** التصميم الكامل للأجهزة
+- **العبث** والتعديل حسب احتياجاتك الخاصة  
+- **إنشاء** نسختك الخاصة إذا رغبت في ذلك
+- ** المساهمة ** في تحسينات الأجهزة والبرامج
 
-- **Studieren** das komplette الأجهزة-Design
-- **Basteln** و لـ Ihre spezifischen Bedürfnisse modifizieren  
-- **Bauen** Ihre eigene Version, wenn gewünscht
-- **Beitragen** zu الأجهزة- و البرمجيات-Verbesserungen
+## انضم إلى رحلة المصادر المفتوحة
 
-## Werden Sie Teil der Open-Source-Reise
+نحن ندعوك لتكون جزءًا من هذا المجتمع المذهل مفتوح المصدر! سواء كنت من عشاق الأجهزة أو المطورين أو مجرد فضول حول كيفية عملها، فهناك مكان لك في نظامنا البيئي المتنامي.
 
-Wir laden Sie ein, Teil dieser erstaunlichen Open-Source-Community zu werden! Ob Sie الأجهزة-Enthusiast, Entwickler أو einfach nur neugierig sind, wie es funktioniert - es gibt einen Platz لـ Sie in unserem wachsenden Ökosystem.
-
-**Bereit loszulegen?** [طلب Sie Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) و werden Sie Teil der Open-Source-Revolution! 🚀
+**هل أنت مستعد للبدء؟** [Order your KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) وانضم إلى ثورة المصادر المفتوحة! 🚀
 
 ---
 
-*Folgen Sie unserem [GitHub-Repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_الأجهزة) لـ die neuesten الأجهزة-التحديثات و Community-Beiträge.*
+*تابع [GitHub repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware) للحصول على آخر تحديثات الأجهزة ومساهمات المجتمع.*

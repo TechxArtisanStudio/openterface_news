@@ -2,60 +2,59 @@
 locale: tr
 translationKey: "20260408-keymod-connector-feedback"
 slug: "20260408-keymod-connector-feedback"
-title: "KeyMod Update: USB-C vs USB-A Connectors—Prototyp-Fotos ve Community-Feedback"
-description: "KeyMod Prototyp-Update: USB-C, USB-A ve Hybrid-Layouts için unseren Telefon-Tastatur-Maus-Emulator. Helfen Sie bei der Wahl des Connectors—Feedback-Formular, YouTube Short ve r/homelab."
+title: "KeyMod Güncellemesi: USB-C ve USB-A Konektörleri—Prototip Fotoğraflar ve Topluluk Geri Bildirimi"
+description: "KeyMod prototip güncellemesi: Telefon klavye-fare emülatörümüz için USB-C, USB-A ve hibrit düzenler. Bağlayıcıyı seçmenize yardımcı olun: geri bildirim formu, YouTube Short ve r/homelab."
 date: 2026-04-08
 channel: product
 product: keymod
-topic: ["beta", "campaign", "community"]
-category: "Ürün-Güncellemeler"
-tags: ["KeyMod", "Ürün-Güncellemeler", "USB", "Prototyp", "Community-Feedback", "Beta"]
+topic: ["shipping", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KeyMod", "Product Updates", "USB", "Prototype", "Community Feedback", "Beta"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+Bu [**KeyMod**](https://openterface.com/product/keymod/) geliştirme güncellemesi, **HID kontrolü**, **BT sorunlarını giderme** ve **ev laboratuvarı** kurulumları için siz telefonunuzda takana kadar telefonunuzun önünde duran ultra kompakt **klavye ve fare öykünücümüz** için **fiziksel konektör seçeneklerini** kapsar. Firmware ve uyumluluk çalışmaları devam ediyor; Cevap bekleyen soru, hangi **USB konektörü yaklaşımının** (USB-C, USB-A veya hibrit) gerçek günlük kullanıma en uygun olduğudur.
 
-Dieses [**KeyMod**](https://openterface.com/product/keymod/) Entwicklungsupdate behandelt **physische Connector-Auswahlen** için unseren ultra-kompakten **Tastatur-ve-Maus-Emulator**—ein Gerät, das auf Ihrem Telefon değil stört, bis Sie es için **HID-Steuerung**, **IT-Fehlerbehebung** ve **homelab**-Setups einstecken. Firmware- ve Kompatibilitätsarbeiten laufen weiter; die offene Frage ist, welcher **USB-Connector-Ansatz** (USB-C, USB-A veya Hybrid) am besten zur tatsächlichen täglichen Nutzung passt.
+## Gelişimin neresindeyiz
 
-## Wo wir in der Entwicklung stehen
+Ürün yazılımı, performans ve uyumluluk çalışmaları ilerlemektedir. Şu anda en çok tartıştığımız konu **mekanik**: Hangi **USB konnektör düzeni** insanların KeyMod'u günlük olarak nasıl kullanacaklarına en iyi şekilde uyuyor.
 
-Firmware-, Performance- ve Kompatibilitätsarbeiten schreiten voran. Das Thema, das wir derzeit am meisten diskutieren, ist **mechanisch**: welches **USB-Connector-Layout** am besten dazu passt, wie Menschen KeyMod tatsächlich von Tag zu Tag nutzen werden.
+![Openterface KeyMod update cover—prototype connector development](https://assets2.openterface.com/images/youtube-cover.jpg)
 
-![Openterface KeyMod Update-Cover—Prototyp-Connector-Entwicklung](https://assets2.openterface.com/images/youtube-cover.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo A](https://assets2.openterface.com/images/keymod-connector-a.jpg)
 
-![KeyMod-Prototyp-Gehäuse ile USB-Connector-Option—Vergleichsfoto A](https://assets2.openterface.com/images/keymod-connector-a.jpg)
+**USB-C**, **USB-A** ve **hibrit** düzenlerini ve **3D baskılı** birkaç prototip muhafazayı inceledik; böylece uyum, kullanım, kablo karmaşası ve gerçek dünyadaki sıkıntıları yan yana karşılaştırabiliyoruz.
 
-Wir haben **USB-C**, **USB-A** ve **Hybrid**-Layouts erkveet ve mehrere Prototyp-Gehäuse **3D-gedruckt**, daile wir Passform, Handhabung, Kabelchaos ve echte Ärgernisse Seite an Seite vergleichen können.
+![KeyMod prototype housing with USB connector option—comparison photo B](https://assets2.openterface.com/images/keymod-connector-b.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo C](https://assets2.openterface.com/images/keymod-connector-c.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo D](https://assets2.openterface.com/images/keymod-connector-d.jpg)
 
-![KeyMod-Prototyp-Gehäuse ile USB-Connector-Option—Vergleichsfoto B](https://assets2.openterface.com/images/keymod-connector-b.jpg)
-![KeyMod-Prototyp-Gehäuse ile USB-Connector-Option—Vergleichsfoto C](https://assets2.openterface.com/images/keymod-connector-c.jpg)
-![KeyMod-Prototyp-Gehäuse ile USB-Connector-Option—Vergleichsfoto D](https://assets2.openterface.com/images/keymod-connector-d.jpg)
+## USB-C, USB-A ve hibrit: Fikriniz neden önemli?
 
-## USB-C vs USB-A vs Hybrid: Warum Ihre Meinung zählt
+Farklı kullanıcılar **sunuculara**, **dizüstü bilgisayarlara**, **ince istemcilere** ve **yalnızca eski USB-A** donanımlarına bağlanır. Bazıları telefon tarafında **tersine çevrilebilir USB-C**'yi tercih ediyor; diğerlerinin eski raflar veya adaptörler için **USB-A**'ya ihtiyacı vardır. **Hibrit** düzen, esnekliğin yanı sıra boyut ve maliyeti de artırabilir. Tahmin etmiyoruz; KeyMod'u gerçekten taşıyacak kişilerden **saha deneyimi** ve **iş akışı hikayeleri** istiyoruz.
 
-Verschiedene Benutzer stecken **Server**, **Laptops**, **Thin Clients** ve **legacy USB-A-only**-Geräte an. Einige bevorzugen **reversibles USB-C** auf der Telefonseite; andere benötigen **USB-A** için ältere Racks veya Adapter. Ein **Hybrid**-Layout kann Flexibilität hinzufügen, aber auch Größe ve Kosten. Wir raten değil—wir wollen **Felderfahrung** ve **Workflow-Berichte** von Menschen, die KeyMod tatsächlich tragen würden.
+## Görüşlerinizi bekliyoruz
 
-## Wir bitten um Ihre Meinung
+Topluluk geribildirimi, boşlukta tasarım yapmaktan kaçınmamıza yardımcı olur. Birkaç dakikanız varsa, lütfen **kısa geri bildirim formumuz** aracılığıyla bakış açınızı paylaşın veya bağlayıcılar hakkında kısa bir **kişisel açıklamayı** izleyin:
 
-Community-Feedback hilft uns, değil isoliert zu entwickeln. Wenn Sie ein paar Minuten Zeit haben, teilen Sie bitte Ihre Perspektive hakkında unser **kurzes Feedback-Formular** ile, veya sehen Sie sich eine kurze **persönliche Erklärung** der Connector-Kompromisse an:
+* **[KeyMod connector feedback (Google Form)](https://forms.gle/BS9ARmDBk4TcT7Nr5)**
+* **[Connector formats explained by Billy Wang (YouTube Short)](https://www.youtube.com/shorts/vpQwN9VdOf8)**
 
-*   **[KeyMod-Connector-Feedback (Google Form)](https://forms.gle/BS9ARmDBk4TcT7Nr5)**
-*   **[Connector-Formate erklärt von Billy Wang (YouTube Short)](https://www.youtube.com/shorts/vpQwN9VdOf8)**
+Düşünceli, somut cevaplar en önemlisidir. Özellikle net ve yararlı yanıtlar için **ücretsiz bir beta birimi sunabiliriz**, böylece KeyMod'u erken deneyebilir ve deneyimi iyileştirmeye yardımcı olabilirsiniz.
 
-Durchdachte, konkrete Yanıtlar zählen am meisten. Für Yanıtlar, die besonders klar ve nützlich sind, können wir **eine kostenlose Beta-Einheit anbieten**, daile Sie KeyMod frühzeitig ausprobieren ve helfen können, die Erfahrung zu verfeinern.
+Ayrıca Reddit'teki tartışmaya da katılabilirsiniz: [**We got stuck on this keyboard-emulator format**](https://www.reddit.com/r/homelab/comments/1s9nxut/we_got_stuck_on_this_keyboard_emulator_format/) (r/homelab).
 
-Sie sind auch eingeladen, an der Diskussion auf Reddit teilzunehmen: [**Wir sind bei diesem Tastatur-Emulator-Format stecken geblieben**](https://www.reddit.com/r/homelab/comments/1s9nxut/we_got_stuck_on_this_keyboard_emulator_format/) (r/homelab).
+## Beta toplu zaman çizelgesi
 
-## Zeitplan için die Beta-Phase
+Yakında **ilk beta test birimleri grubunu** göndermeye hazırlanıyoruz. KeyMod'u gerçek kılmak topluluk desteğine bağlıdır; yalnızca geri bildirime değil aynı zamanda başkalarının projeyi bulup katkıda bulunabilmesi için **bu duyurunun yayılmasına yardımcı olan kişilere** bağlıdır. **Bu ürünü bizimle şekillendirmek** istiyorsanız, bunu form aracılığıyla, ilgilenebilecek arkadaşlarınıza veya iş arkadaşlarınıza söyleyerek veya bu güncellemeyi uygun olduğu yerde paylaşarak yapın. Bu, dahil olmak için iyi bir zaman.
 
-Wir bereiten uns darauf vor, bald eine **erste Charge von Beta-Test-Einheiten** zu versenden. KeyMod real zu machen, hängt von Community-Unterstützung ab—değil nur Feedback, sondern **Leute, die helfen, das Wort zu verbreiten**, daile andere das Projekt finden ve sich einbringen können. Wenn Sie **dieses Ürün ile uns gestalten möchten**, tun Sie es hakkında das Formular, indem Sie Freveen veya Kollegen davon erzählen, die es interessieren könnte, veya indem Sie dieses Update teilen, wo es passt. Dies ist ein guter Zeitpunkt, um sich zu beteiligen.
+## Yaratıcılar, etkileyiciler ve basın
 
-## Creator, Influencer ve Presse
+**Teknoloji, BT veya operasyonlar** ile ilgiliyseniz ve **KeyMod'u incelemek** veya projeyi öne çıkarmak istiyorsanız, [**openterface.com**](https://openterface.com/) adresindeki iletişim seçenekleri aracılığıyla iletişime geçin. **Dürüst geri bildirim** istiyoruz - neyin işe yarayıp neyin yaramadığı ve nerede zor olduğu gibi - çünkü hem övgü hem de eleştiri, KeyMod'u yalnızca düzgün bir demo değil, **günlük BT işleri için güvenebileceğiniz bir araca** dönüştürmemize yardımcı olur.
 
-Wenn Sie hakkında **Tech, IT veya Operations** berichten ve **KeyMod reviewen** veya das Projekt vorstellen möchten, nehmen Sie hakkında die Kontaktoptionen auf [**openterface.com**](https://openterface.com/) Kontakt auf. Wir wollen **ehrliches Feedback**—was funktioniert, was değil ve wo es sich holprig anfühlt—denn Lob ve Kritik helfen uns gleichermaßen, KeyMod in ein **Werkzeug zu verwandeln, auf das Sie sich için die tägliche IT-Arbeit verlassen können**, değil nur in eine coole Demo.
+Projeyi takip ettiğiniz ve bu güncellemeyi okumaya zaman ayırdığınız için teşekkür ederiz. Daha fazla kişi varsayımları test ettiğinde ve hikayenin taşınmasına yardımcı olduğunda açık donanım daha iyi hale gelir; Girişiniz ve sesiniz bir sonraki tasarım yinelemesini besler.
 
-Vielen Dank, dass Sie dem Projekt folgen ve sich die Zeit genommen haben, dieses Update zu lesen. Open Donanım wird besser, wenn mehr Menschen Annahmen stresstesten ve helfen, die Geschichte zu tragen; Ihr Input ve Ihre Stimme speisen beide die nächste Design-Iteration.
+Saygılarımızla,
 
-Mit frevelichen Grüßen,
-
-Openterface Team | TechxArtisan
+Açık Arayüz Ekibi | TechxArtisan

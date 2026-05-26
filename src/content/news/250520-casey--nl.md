@@ -2,83 +2,82 @@
 locale: nl
 translationKey: "250520-casey"
 slug: "250520-Casey"
-title: "iPad KVM: Kreative Brücke zwischen iOS en Low-Level-Geräten"
-description: "Entdecken Sie, wie Casey Howard eine innovative iPad KVM-Lösung met Raspberry Pi als Brücke erstellt hat, die eine direkte BIOS-Level-Steuerung von Geräten von einem iPad aus ermöglicht. Erfahren Sie mehr over dieses DIY-Projekt, das Raspberry Pi Gadget-Modus, VNC en Openterface Mini-KVM voor Headless-Geräteverwaltung kombiniert."
+title: "iPad KVM: creatieve brug tussen iOS en apparaten op laag niveau"
+description: "Ontdek hoe Casey Howard een innovatieve iPad KVM-oplossing creëerde met de Raspberry Pi als bridge, waardoor directe bediening van apparaten op BIOS-niveau vanaf een iPad mogelijk wordt. Lees meer over dit doe-het-zelf-project dat de Raspberry Pi-gadgetmodus, VNC en Openterface Mini-KVM combineert voor headless apparaatbeheer."
 date: 2025-05-20
 channel: events
 eventType: contest
-topic: ["software", "campaign", "event"]
+topic: ["shipping", "software", "campaign", "event", "community", "analysis"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Casey Howard's innovatieve "iPad KVM"-project demonstreert uitzonderlijke probleemoplossing in actie. Als student Computerwetenschappen en Wiskunde aan de Universiteit van Kentucky, waar elke student een iPad krijgt, stond Casey voor een uitdaging: toegang krijgen tot en beheren van apparaten op laag niveau, rechtstreeks vanaf hun iPad. Nadat ze ontdekten dat de Openterface Mini-KVM geen native iOS-connectiviteit had, bouwden ze hun eigen bridge.
 
-Casey Howards innovatives "iPad KVM"-Projekt demonstriert außergewöhnliche Problemlösung in Aktion. Als Informatik- en Mathematikstudent an der University of Kentucky, wo jeder Student ein iPad erhält, stand Casey vor einer Herausforderung: direkter Zugriff auf en Verwaltung von Low-Level-Geräten von seinem iPad aus. Nachdem er entdeckt hatte, dass dem Openterface Mini-KVM die native iOS-Konnektivität fehlte, baute er seine eigene Brücke.
+![Screenshot of YouTube chat interview with Casey on iPad KVM](https://assets.openterface.com/images/blog/Casey-iPad-KVM-chat.webp)
 
-![Screenshot des YouTube-Chat-Interviews met Casey over iPad KVM](https://assets.openterface.com/images/blog/Casey-iPad-KVM-chat.webp)
+## De uitdaging
 
-## Die Herausforderung
+- iOS vergrendelt USB, waardoor Arduino-programmering, controle op BIOS-niveau en headless servertoegang worden voorkomen
+- Casey had een manier nodig om hun iPad te gebruiken als console op BIOS-niveau voor alles, van Arduino's tot Ubuntu-servers, zonder Wi-Fi, externe voeding of omvangrijke randapparatuur
 
--   iOS sperrt USB, verhindert Arduino-Programmierung, BIOS-Level-Steuerung en Headless-Server-Zugriff
--   Casey brauchte einen Weg, sein iPad als BIOS-Level-Konsole voor alles von Arduinos bis Ubuntu-Servern zu nutzen, ohne Wi-Fi, externe Stromversorgung of sperrige Peripheriegeräte
+## De oplossing: Raspberry Pi-brug
 
-## Die Lösung: Raspberry Pi-Brücke
+De kerninnovatie van het project maakt gebruik van een Raspberry Pi in "gadgetmodus" als brug voor twee doeleinden:
 
-Die Kerninnovation des Projekts nutzt einen Raspberry Pi im "Gadget-Modus" als Dual-Purpose-Brücke:
-
-1. **Bezieht Strom**
-    - Der USB-C-Port des Pi ist konfiguriert, um 5 V direkt vom iPad zu ziehen
-2. **Trägt IP-Traffic**
-    - Interne Netzwerkbrücke trägt IP-Pakete over dasselbe USB-C-Kabel
+1. **Trekt kracht**
+    - De USB-C-poort van Pi is geconfigureerd om 5 V rechtstreeks van de iPad te halen
+2. **Vervoert IP-verkeer**
+    - Interne netwerkbrug verzendt IP-pakketten via dezelfde USB-C-kabel
 3. **Bedient VNC**
-    - VNC-Server auf dem Pi ermöglicht direkten Remote-Desktop auf dem iPad, ohne Wi-Fi erforderlich
-4. **Treibt KVM an**
-    - OpenterfaceQT auf dem Pi interfaced met der Mini-KVM-Hardware
-    - Die VNC-Session des iPad streamt Video en sendet Tastatur/Maus-Ereignisse an jeden Zielcomputer
+    - VNC-server op de Pi maakt direct extern bureaublad op de iPad mogelijk, geen Wi-Fi vereist
+4. **Schijft KVM aan**
+    - OpenterfaceQT op de Pi-interfaces met de Mini-KVM-hardware
+    - De VNC-sessie van iPad streamt video en verzendt toetsenbord-/muisgebeurtenissen naar elke doelcomputer
 
-## Implementierungsdetails
+## Implementatiedetails
 
-1. **Raspberry Pi-Konfiguration**
+1. **Raspberry Pi-configuratie**
 
-    - Gadget-Modus in _/boot/config.txt_ en _/etc/modules_ aktivieren
-    - USB-C voor 5-V-Stromversorgung konfigurieren
-    - Netzwerkbrücke met statischer IP (10.55.0.1) einrichten
+    - Schakel de gadgetmodus in _/boot/config.txt_ en _/etc/modules_ in
+    - Configureer USB-C voor 5 V-stroomvoorziening
+    - Breng een netwerkbrug tot stand met statisch IP-adres (10.55.0.1)
 
-2. **Remote-Desktop-Setup**
+2. **Installatie van extern bureaublad**
 
-    - _x11vnc_ auf dem Pi installieren en konfigurieren
-    - VNC-Server auf der Brücken-Schnittstelle automatisch starten
-    - Auf dem iPad met einem VNC-Client (z.B. RNC Viewer) zu `10.55.0.1` of `pi.local` verbinden
+    - Installeer en configureer _x11vnc_ op de Pi
+    - Auto-start VNC-server op de bridge-interface
+    - Maak op de iPad verbinding met een VNC-client (bijvoorbeeld RNC Viewer) naar `10.55.0.1` of `pi.local`
 
-3. **Mini-KVM-Integration**
+3. **Mini-KVM-integratie**
 
-    - OpenterfaceQT voor ARM-Architektur kompilieren
-    - Mini-KVM in die USB- en HDMI-Ports des Pi einstecken
-    - Den Pi over seinen USB-C-Port met Strom versorgen
+    - Compileer OpenterfaceQT voor ARM-architectuur
+    - Sluit Mini-KVM aan op de USB- en HDMI-poorten van de Pi
+    - Voed de Pi via de USB-C-poort
 
-4. **Betrieb**
-    - Den Pi met einem einzigen USB-C-Kabel an das iPad anschließen
-    - VNC-Client starten en authentifizieren
-    - Mini-KVM-Interface auf dem Pi öffnen
-    - Video-Feed des Zielgeräts streamen en es in Echtzeit steuern
+4. **Bediening**
+    - Sluit de Pi aan op de iPad met behulp van een enkele USB-C-kabel
+    - Start de VNC-client en authenticeer
+    - Open de Mini-KVM-interface op de Pi
+    - Stream de videofeed van het doelapparaat en beheer deze in realtime
 
-## Systemarchitektur
+## Systeemarchitectuur
 
-![Standalone-KVM-Setup](https://assets.openterface.com/images/blog/Casey-Setup-with-Pi-and-minikvm.webp)
+![Standalone KVM Setup](https://assets.openterface.com/images/blog/Casey-Setup-with-Pi-and-minikvm.webp)
 
-### Komponenten
+### Componenten
 
--   **iPad (Host)**: VNC-Client en Stromquelle
--   **Raspberry Pi 5**: USB-Gadget, Netzwerkbrücke en OpenterfaceQT-Host
--   **Openterface Mini-KVM**: Hardware-Interface voor Zielcomputer
--   **Konnektivität**: USB-C (Strom + Netzwerk), HDMI en USB-A-Kabel
+- **iPad (Host)**: VNC-client en stroombron
+- **Raspberry Pi 5**: USB-gadget, netwerkbrug en OpenterfaceQT-host
+- **Openterface Mini-KVM**: hardware-interface voor doelcomputers
+- **Connectiviteit**: USB-C (voeding + netwerk), HDMI- en USB-A-kabels
 
-## Auswirkung en Zugänglichkeit
+## Impact en toegankelijkheid
 
-Mit nur einem iPad, einem Pi en einem Mini-KVM verwandelte Casey alltägliche Tablets in BIOS-Level-Konsolen, ohne zusätzliche Ausrüstung of Netzwerk erforderlich. Diese Lösung läuft vollständig met iPad-Batteriestrom, benötigt keine externe Stromversorgung of Internet en bleibt voor den Feldeinsatz hochgradig portabel. Caseys detaillierte Documentatie en Build-Skripte machen diesen Ansatz voor jeden met einem Raspberry Pi en einem iPad zugänglich.
+Met slechts een iPad, een Pi en een Mini-KVM veranderde Casey alledaagse tablets in consoles op BIOS-niveau, zonder dat extra apparatuur of netwerk nodig was. Deze oplossing werkt volledig op de batterij van de iPad, vereist geen externe voeding of internet, en blijft zeer draagbaar voor gebruik in het veld. Casey's gedetailleerde documentatie en build-scripts maken deze aanpak toegankelijk voor iedereen met een Raspberry Pi en een iPad.
 
-Besonderen Dank an Casey Howard, unseren **Hardware-Helden**-Gewinner des USB-KVM DIY Challenge 2024, voor die Erweiterung der Mini-KVM-Fähigkeiten en die Bereitstellung einer eleganten Lösung, bis native iOS-Unterstützung verfügbar wird. Meer informatie hier:
+Speciale dank aan Casey Howard, onze **Hardware Hero**-winnaar in de USB-KVM DIY Challenge 2024, voor het uitbreiden van de mogelijkheden van de Mini-KVM en het bieden van een elegante oplossing totdat native iOS-ondersteuning beschikbaar komt. Lees hier meer:
 
--   [Wettbewerb auf Crowd Supply](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
--   [GitHub: iPad-KVM](https://github.com/FireFreexe/iPad-KVM)
+- [Contest on Crowd Supply](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
+- [GitHub: iPad-KVM](https://github.com/FireFreexe/iPad-KVM)

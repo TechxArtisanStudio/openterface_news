@@ -42,6 +42,43 @@ export const LOCALE_LABELS: Record<SiteLocale, string> = {
 
 export const DEFAULT_LOCALE: SiteLocale = 'en';
 
+/** BCP 47 tags for `<html lang>`, hreflang, and Intl APIs. */
+export const LOCALE_BCP47: Record<SiteLocale, string> = {
+  en: 'en',
+  zh: 'zh-CN',
+  ja: 'ja',
+  ko: 'ko',
+  de: 'de',
+  fr: 'fr',
+  es: 'es',
+  it: 'it',
+  pt: 'pt',
+  ro: 'ro',
+  hk: 'zh-HK',
+  tw: 'zh-TW',
+  ru: 'ru',
+  ar: 'ar',
+  tr: 'tr',
+  pl: 'pl',
+  nl: 'nl',
+};
+
+export function htmlLang(locale: SiteLocale): string {
+  return LOCALE_BCP47[locale];
+}
+
+export function hreflangCode(locale: SiteLocale): string {
+  return LOCALE_BCP47[locale];
+}
+
+export function intlLocale(locale: SiteLocale): string {
+  return LOCALE_BCP47[locale];
+}
+
+export function textDirection(locale: SiteLocale): 'ltr' | 'rtl' {
+  return locale === 'ar' ? 'rtl' : 'ltr';
+}
+
 export const INVALID_LOCALE_REDIRECT = '/';
 
 export function isSiteLocale(value: string): value is SiteLocale {

@@ -2,84 +2,83 @@
 locale: tr
 translationKey: "20260203-macos-ubuntu-copy-paste"
 slug: "20260203-macos-ubuntu-copy-paste"
-title: "Ubuntu Kopieren/Einfügen-Tipp (macOS → Ubuntu)"
-description: "Beheben Sie Einfügen-Shortcuts beim Steuern von Ubuntu von macOS ile Openterface. Verwenden Sie den Windows-Modus için zuverlässiges Ctrl-Style-Einfügen veya Bearbeiten → Einfügen als Alternative im Mac-Modus."
+title: "Ubuntu Kopyala/Yapıştır İpucu (macOS → Ubuntu)"
+description: "Ubuntu'yu macOS'tan Openterface ile kontrol ederken yapıştırma kısayollarını düzeltin. Güvenilir Ctrl stili yapıştırma için Windows Modunu kullanın veya Mac Modunda geçici çözüm olarak Düzen → Yapıştır'ı kullanın."
 date: 2026-02-03
 channel: software
 topic: ["software"]
-category: "Product Güncellemeler"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface"
 ---
-
-Beim Steuern von **Ubuntu** von **macOS** ile **Openterface** funktioniert das Einfügen per Shortcut im **Mac-Modus** möglicherweise değil zuverlässig. Diese Kılavuz zeigt die empfohlene Lösung ve eine einfache Alternative.
+**Ubuntu**'yu **macOS** üzerinden **Openterface** kullanarak kontrol ederken, kısayol yapıştırma **Mac Modunda** güvenilir şekilde çalışmayabilir. Bu kılavuzda önerilen düzeltme ve basit bir geçici çözüm gösterilmektedir.
 
 ![setting](https://assets2.openterface.com/images/setting.webp)
 
 ---
 
-## Schnelle Lösung (empfohlen için Ubuntu/Linux)
+## Hızlı Düzeltme (Ubuntu/Linux için önerilir)
 
-1. Öffnen Sie **Openterface** auf macOS.
-2. Gehen Sie zu **Einstellungen**.
-3. Suchen Sie **Tastaturlayout-Modus des Zielgeräts**.
-4. Wählen Sie **Windows-Modus**.
+1. macOS'ta **Openterface**'i açın.
+2. **Ayarlar**'a gidin.
+3. **Hedef cihaz klavye düzeni modunu** bulun.
+4. **Windows Modu**'nu seçin.
 
 ![win-mode](https://assets2.openterface.com/images/win-mode.webp)
 
 
-✅ Ergebnis: Einfügen-Shortcuts verhalten sich unter Ubuntu wie erwartet (Ctrl-Style-Verhalten).
+✅ Sonuç: Yapıştırma kısayolları Ubuntu'da beklendiği gibi davranıyor (Ctrl tarzı davranış).
 
 ![win-ctrl+v](https://assets2.openterface.com/images/win-ctrl+v.webp)
 
 ---
 
-## Alternative (wenn Sie im Mac-Modus bleiben möchten)
+## Geçici Çözüm (Mac Modunda kalmak istiyorsanız)
 
-Wenn Sie den **Mac-Modus** beibehalten möchten, können Sie weiterhin zuverlässig hakkında das Menü einfügen:
+**Mac Modu**'nu korumayı tercih ederseniz menüyü kullanarak yine de güvenilir bir şekilde yapıştırabilirsiniz:
 
-- **Bearbeiten → Einfügen**
+- **Düzenle → Yapıştır**
 
 ![edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
 
-✅ Ergebnis: Einfügen funktioniert auch, wenn Shortcut-Einfügen im Mac-Modus inkonsistent ist.
+✅ Sonuç: Mac Modunda kısayol yapıştırma tutarsız olsa bile yapıştırma işlemi çalışır.
 
-![workarove](https://assets2.openterface.com/images/workarove.webp)
-
----
-
-## Warum passiert das?
-
-Die meisten Ubuntu-Apps verwenden **Ctrl-basierte** Shortcuts zum Einfügen. In einigen Konfigurationen kann die **Mac-Modus**-Shortcut-Zuordnung das Einfügen değil zuverlässig auslösen, während **Bearbeiten → Einfügen** zuverlässig funktioniert.
+![workaround](https://assets2.openterface.com/images/workaround.webp)
 
 ---
 
-## Kurz zusammengefasst
+## Bu neden oluyor?
 
-- **Beste Erfahrung unter Ubuntu/Linux:** **Windows-Modus** verwenden
-- **Bei Mac-Modus:** **Bearbeiten → Einfügen** verwenden
-
----
-
-## Brauchen Sie Hilfe bei der Auswahl des richtigen Modus?
-
-Wenn Sie unsicher sind, welchen Modus Sie verwenden sollen, hier eine einfache Faustregel:
-
-- Wenn Ihr Ziel-OS **Ubuntu/Linux** ist, beginnen Sie ile dem **Windows-Modus** (am konsistentesten için gängige Shortcuts).
-- Wenn Sie hauptsächlich **macOS-Ziele** steuern ve Mac-Style-Shortcuts möchten, verwenden Sie den **Mac-Modus**.
-
-Wenn Sie häufig zwischen verschiedenen Ziel-OS wechseln, bookmarken Sie diese Seite. Es ist meist eine Ein-Klick-Lösung.
+Çoğu Ubuntu uygulaması yapıştırma için **Ctrl tabanlı** kısayolları kullanır. Bazı kurulumlarda, **Mac Modu** kısayol eşlemesi yapıştırmayı tutarlı bir şekilde tetiklemeyebilir, **Düzenle → Yapıştır** ise güvenilir bir şekilde çalışır.
 
 ---
 
-## FAQ
+## Hızlı Özet
 
-**Ändert der Windows-Modus meine Mac-Shortcuts?**  
-Er ändert, wie Openterface Shortcuts an das **Zielgerät** sendet, sodass Ubuntu das erwartete **Ctrl-Style**-Verhalten erhält.
+- **Ubuntu/Linux'ta en iyi deneyim:** **Windows Modunu** kullanın
+- **Mac Modunda kalırsanız:** **Düzenle → Yapıştır** seçeneğini kullanın
 
-**Kann ich Menü-Einfügen in jedem Modus verwenden?**  
-Ja — **Bearbeiten → Einfügen** ist in beiden Modi eine zuverlässige Option.
+---
 
-**Betrifft das auch Raspberry Pi OS?**  
-Oft weniger betroffen, aber bei ähnlichem Verhalten gilt dieselbe Lösung.
+## Kurulumunuz için doğru modu belirleme konusunda yardıma mı ihtiyacınız var?
+
+Hangi modu kullanacağınızdan emin değilseniz, işte kısa bir genel kural:
+
+- Hedef işletim sisteminiz **Ubuntu/Linux** ise **Windows Modu** ile başlayın (genel kısayollar için en tutarlısı).
+- Esas olarak **macOS hedeflerini** kontrol ediyorsanız ve Mac tarzı kısayollar istiyorsanız **Mac Modu**'nu kullanın.
+
+Farklı hedef işletim sistemleri arasında sık sık geçiş yapıyorsanız, bu sayfayı yer imlerine eklenmiş olarak tutmayı düşünün. Genellikle tek tıklamayla yapılan bir düzeltmedir.
+
+---
+
+## SSS
+
+**Windows Modu Mac kısayollarımı değiştirir mi?**  
+Openterface'in **hedef cihaza** kısayolları nasıl gönderdiğini değiştirir, böylece Ubuntu beklenen **Ctrl tarzı** davranışı alır.
+
+**Menü yapıştırmayı herhangi bir modda kullanabilir miyim?**  
+Evet — **Düzenle → Yapıştır** her iki modda da güvenilir bir seçenektir.
+
+**Bu durum Raspberry Pi işletim sistemini de etkiliyor mu?**  
+Genellikle daha az etkilenir, ancak benzer bir davranışla karşılaşırsanız aynı düzeltme uygulanır.

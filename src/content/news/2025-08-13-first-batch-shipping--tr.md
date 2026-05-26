@@ -2,52 +2,51 @@
 locale: tr
 translationKey: "2025-08-13-first-batch-shipping"
 slug: "2025-08-13-first-batch-shipping"
-title: "Erste Charge wird jetzt versendet! 🚚"
-description: "13. August 2025 - Große Neuigkeiten! Unsere erste Charge von KVM Extensions için uConsole wird jetzt an Kveen weltweit versendet! 🎉"
+title: "Şimdi İlk Toplu Gönderim! 🚚"
+description: "13 Ağustos 2025 - Harika bir haber! uConsole için ilk KVM Uzantıları grubumuz artık dünya çapındaki müşterilere gönderiliyor! 🎉"
 date: 2025-08-13
 channel: product
 product: uconsole-kvm-extension
-topic: ["production", "beta", "campaign", "community"]
-category: "Product Güncellemeler"
+topic: ["shipping", "production", "beta", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**13 Ağustos 2025** - Harika bir haber! **uConsole için ilk KVM Uzantısı grubumuz** artık dünya çapındaki müşterilere gönderiliyor! 🎉
 
-**13. August 2025** - Große Neuigkeiten! Unsere **erste Charge von KVM Extensions için uConsole** wird jetzt an Kveen weltweit versendet! 🎉
+## Destekçilerimize Teşekkür ederiz
 
-## Dank an unsere Unterstützer
+Bu lansmanı mümkün kılan tüm destekçilerimize ve ilk destekçilerimize çok teşekkür ederiz. Bu ürünün pazara sunulmasında desteğiniz ve geri bildirimleriniz çok değerliydi.
 
-Ein riesiges Dankeschön an alle unsere Unterstützer ve frühen Förderer, die diesen Launch möglich gemacht haben. Ihre Unterstützung ve Ihr Feedback waren unschätzbar, um dieses Ürün auf den Markt zu bringen.
+## Stoklarla Sınırlıdır
 
-## Begrenzte Verfügbarkeit
-
-Wir haben noch **einige Einheiten** aus dieser ersten Ürünionsserie. Wenn Sie darauf gewartet haben, eine zu bekommen, ist jetzt die Zeit zu handeln!
+Bu ilk üretimden hâlâ **birkaç birimimiz kaldı**. Eğer bir tanesini ele geçirmek için bekliyorsanız, şimdi harekete geçme zamanı!
 
 <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;margin:20px 0;">
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="KVM Extension Production" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt = "KVM Uzantı Üretimi" style = "max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="KVM Extension Packaging" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt = "KVM Uzantı Paketlemesi" style = "max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="KVM Extension Quality Control" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt = "KVM Uzantısı Kalite Kontrolü" style = "max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
 </div>
 
-## Was kommt als nächstes?
+## Sırada Ne Var?
 
-Sobald diese Charge ausverkauft ist, werden wir **zurück zu Vorbestellungen wechseln**, bis wir die Mindestmenge için die nächste Ürünionsserie erreichen. Das bedeutet, es könnte eine Wartezeit geben, bevor die nächste Charge verfügbar ist.
+Bu parti tükendiğinde, bir sonraki üretim çalışması için gereken minimum miktara ulaşana kadar **ön siparişlere geri döneceğiz**. Bu, bir sonraki parti hazır olana kadar bekleme süresinin olabileceği anlamına gelir.
 
-## Holen Sie sich jetzt Ihre
+## Şimdi Kendinizinkini Alın
 
-Verpassen Sie es değil! [Sipariş ver Sie jetzt Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), solange der Vorrat reicht.
+Kaçırmayın! [Order your KVM Extension now](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) stoklar bitene kadar.
 
-## Bleiben Sie auf dem Laufenden
+## Güncel Kalın
 
-Folgen Sie unseren Güncellemeler ve treten Sie unserer [Discord-Community](https://discord.gg/ruAD9kcYbq) bei, um als Erste hakkında zukünftige Ürünionsserien ve neue Ürünankündigungen informiert zu werden.
+Gelecekteki üretim çalışmaları ve yeni ürün duyurularından ilk siz haberdar olmak için güncellemelerimizi takip edin ve [Discord community](https://discord.gg/ruAD9kcYbq) sayfamıza katılın.
 
 ---
 
-*Danke, dass Sie Teil der Openterface-Reise sind! 🙏*
+*Openterface yolculuğunun bir parçası olduğunuz için teşekkür ederiz! 🙏*

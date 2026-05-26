@@ -2,73 +2,72 @@
 locale: nl
 translationKey: "250830-kvm-go-pre-launch"
 slug: "250830-kvm-go-pre-launch"
-title: "Sag Hallo zu KVM-Go – das nächste ultra-portable Kapitel in deinem KVM-Abenteuer"
-description: "Openterface kündigt KVM-Go Pre-Launch-Anmeldungen an - ein ultra-portables KVM-over-USB-Gerät met eingebauten Videoanschlüssen, 4K-Unterstützung en Schlüsselanhänger-geeignetem Design."
+title: "Zeg hallo tegen KVM-Go – het volgende ultradraagbare hoofdstuk in uw KVM-avontuur"
+description: "Openterface kondigt pre-launch-aanmeldingen voor KVM-Go aan - een ultradraagbaar KVM-over-USB-apparaat met ingebouwde videoconnectoren, 4K-ondersteuning en een ontwerp dat klaar is voor een sleutelhanger."
 date: 2025-08-30
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "community"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-Wir freuen uns, die nächste Evolution deiner KVM-over-USB-Erfahrung anzukündigen: **Openterface KVM-Go**, jetzt verfügbar voor [Pre-Launch-Anmeldungen](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)!
+We zijn verheugd de volgende evolutie in uw KVM-over-USB-ervaring aan te kondigen: **Openterface KVM-Go**, nu beschikbaar voor [pre-launch signups](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)!
 
 ![keychain-kvm-go](https://www.crowdsupply.com/img/d0fd/3fe2afa6-051e-41e0-9f59-cbab8d7bd0fd/kvm-go-group-03_jpg_gallery-lg.jpg)
 
-Aufbauend auf dem Erfolg unseres Flaggschiffs [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) en dem lebendigen Wachstum unserer Open-Source-Community, treibt KVM-Go die Portabilität noch weiter voran. Mini-KVM glänzt weiterhin als flexibler Allroener, während KVM-Go voor diejenigen entwickelt wurde, die maximale Bequemlichkeit im kleinstmöglichen Formfaktor fordern.
+Voortbouwend op het succes van ons vlaggenschip [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) en de levendige groei van onze open-sourcegemeenschap, tilt KVM-Go de portabiliteit nog verder. Mini-KVM blijft schitteren als de flexibele alleskunner, terwijl KVM-Go is gemaakt voor degenen die maximaal gemak eisen in de kleinst mogelijke vormfactor.
 
-### Was macht KVM-Go overzeugend?
+### Wat maakt KVM-Go aantrekkelijk?
 
-* **Schlüsselanhänger-geeignet, videokabel-freies Design**
-  Eingebaute Videoanschlüsse (HDMI, DisplayPort of VGA) bedeuten, dass du bei dringenden Server-Rack-Interventionen niet mehr nach Videokabeln suchen musst. Einfach einstecken en loslegen.
+* **Klaar voor sleutelhanger, ontwerp zonder videokabel**
+  Ingebouwde videoconnectoren (HDMI, DisplayPort of VGA) zorgen ervoor dat u niet langer hoeft te zoeken naar videokabels tijdens dringende serverrackinterventies. Gewoon aansluiten en gaan.
 
-* **Kompakt aber leistungsstark**
-  Trotz seines winzigen Formfaktors bietet KVM-Go eine starke Spezifikationssteigerung:
+* **Compact maar toch krachtig**
+  Ondanks zijn kleine vormfactor heeft KVM-Go een sterke spec-boost:
 
-  * **4K @ 60 Hz Videoausgabe**-Unterstützung im Vergleich zu Mini-KVMs 1080p @ 30 Hz
-  * HDMI- en DisplayPort-Modelle verfügen over einen **USB 3.0**-Videoprozessor voor hohe Leistung, während das VGA-Modell USB 2.0 nutzt, um die Kompatibilität met Legacy-Systemen zu gewährleisten
-  * Praktischer **micro SD-Slot** voor Dateiovertragungen of bootfähige OS-Installatie
+  * **4K @ 60 Hz video-uitgang** ondersteuning vergeleken met Mini-KVM's 1080p @ 30 Hz
+  * HDMI- en DisplayPort-modellen zijn voorzien van een **USB 3.0**-videoprocessor voor hoge prestaties, terwijl het VGA-model USB 2.0 gebruikt om de compatibiliteit met oudere systemen te behouden
+  * Handig **micro SD-slot** voor bestandsoverdracht of opstartbare besturingssysteeminstallatie
 
-  *Hinweis: Die endgültige Gehäusegröße en das Gewicht werden bestätigt, sobald wir das Design abgeschlossen haben. Wir streben etwa 18 × 18 × 55 mm (ca. 25 g) an. Das PCB-Design ist bereits finalisiert en robust. Für das VGA-Modell ist das Gehäusedesign noch in Arbeit en wird etwas größer als die HDMI- en DP-Versionen sein.*
+  *Opmerking: de definitieve maat en het gewicht van de behuizing worden bevestigd zodra we het ontwerp voltooien. We mikken op ongeveer 18 × 18 × 55 mm (ongeveer 25 g). Het PCB-ontwerp is al afgerond en robuust. Voor het VGA-model is het ontwerp van de behuizing nog in ontwikkeling en zal iets groter zijn dan de HDMI- en DP-versies.*
 
-* **Open-Source-Ethos, overall**
-  Wie zuvor ist KVM-Go vollständig Open-Hardware en kommt met Open-Source-Software, unserer [Openterface KVM](https://openterface.com/app/), die verschiedene Betriebssysteme unterstützt, kompatibel met Windows, macOS, Linux, Android en Chrome-Browsern.
+* **Open source-ethos, overal**
+  Net als voorheen is KVM-Go volledig open hardware en wordt het geleverd met open-sourcesoftware, onze [Openterface KVM](https://openterface.com/app/), die verschillende besturingssystemen ondersteunt, compatibel met Windows-, macOS-, Linux-, Android- en Chrome-browsers.
 
-* **Null-Setup auf Zielgeräten**
-  Keine Treiber, keine Installatie, nur reine Plug-and-Play-Funktionalität, unabhängig von Netzwerk of Konfiguration.
+* **Nul configuratie op doelapparaten**
+  Geen stuurprogramma's, geen installatie, alleen pure plug-and-play-functionaliteit, onafhankelijk van netwerk of configuratie.
 
 ![Early prototype in action](https://www.crowdsupply.com/img/7b74/38c6794b-7e24-48b2-b917-d3e97b7b7b74/kvm-go-hdmi-early-test-2_jpg_md-xl.jpg)
-*Früher Prototyp in Aktion, steuert einen Jetson Nano SBC over ein Android-Tablet, das die Openterface KVM-App ausführt. Plug and Play, super cool!*
+*Vroeg prototype in actie, bestuurt een Jetson Nano SBC via een Android-tablet met de Openterface KVM-app. Plug-and-play, supergaaf!*
 
-### Was ist met dem Preis?
+### Hoe zit het met de prijzen?
 
-Wir möchten, dass KVM-Go zugänglich bleibt, während wir die Qualität en Innovation aufrechterhalten, die Sie von uns erwarten. Unser Ziel ist es, KVM-Go in einem ähnlichen Bereich wie das Flaggschiff Mini-KVM zu bepreisen, met nur einer bescheidenen Erhöhung, um seine aufgerüsteten Spezifikationen en das ultra-kompakte Design zu berücksichtigen. Der genaue Preis ist noch niet festgelegt, da er von der Productionsskala en dem Community-Interesse abhängt, daher macht Ihre frühe Unterstützung wirklich einen Unterschied.
+Wij willen dat KVM-Go toegankelijk blijft, met behoud van de kwaliteit en innovatie die u van ons verwacht. Ons doel is om de prijs van KVM-Go in een vergelijkbaar bereik te brengen als het vlaggenschip Mini-KVM, met slechts een bescheiden verhoging vanwege de verbeterde specificaties en het ultracompacte ontwerp. De exacte prijs staat nog niet vast, omdat deze afhangt van de productieschaal en het belang van de gemeenschap, dus uw vroege steun maakt echt een verschil.
 
-**Warum Ihre frühe Unterstützung wichtig ist:**
+**Waarom uw vroege ondersteuning belangrijk is:**
 
-* **Productionsplanung wird erleichtert** – Das Verständnis der Nachfrage hilft uns, Fertigungsprozesse zu optimieren en Kosten durch Skaleneffekte zu reduzieren.
-* **Geldbeutel-freenliche Preise** – Mehr Unterstützer bedeuten bessere Preise voor alle durch optimierte Productionsläufe.
-* **Open-Hardware-Nachhaltigkeit** – Die Entwicklung en Herstellung von Open-Source-Hardware ist niet einfach of billig, aber wir sind engagiert, met noch aufregenderen Plänen auf unserer Roadmap, en Ihre Unterstützung macht es möglich.
-* **Community-getriebene Entwicklung** – Ihr Feedback en frühe Adoption helfen uns, das Product vor der Vollproduktion zu verfeinern.
+* **Productieplanning eenvoudiger gemaakt** – Door de vraag te begrijpen, kunnen we productieprocessen optimaliseren en de kosten verlagen door schaalvoordelen.
+* **Portefeuillevriendelijke prijzen** – Meer supporters betekenen betere prijzen voor iedereen dankzij geoptimaliseerde productieruns.
+* **Duurzaamheid van open hardware** – Het ontwikkelen en produceren van open-source hardware is niet eenvoudig of goedkoop, maar we zijn toegewijd, met nog spannendere plannen op onze routekaart, en uw steun maakt het mogelijk.
+* **Gemeenschapsgestuurde ontwikkeling** – Uw feedback en vroege acceptatie helpen ons het product te verfijnen voordat het op volledige schaal wordt geproduceerd.
 
-Wenn Sie an KVM-Go interessiert sind, geben Sie bitte Ihre E-Mail ein en klicken Sie auf ***Abonnieren***, um auf dem Laufenden zu bleiben en zu den Ersten zu gehören, die Updates erhalten.
+Als u geïnteresseerd bent in KVM-Go, voer dan uw e-mailadres in en klik op ***Abonneren*** om op de hoogte te blijven en als een van de eersten updates te ontvangen.
 
 ![Openterface KVM-Go product page](https://www.crowdsupply.com/img/8e4b/1d3f5064-defa-490c-a3e6-e3f2179b8e4b/kvm-go-product-page-subscribe_jpg_gallery-lg.jpg)
 
-### Kleinserienproduktion & Beta-Test-Programm
+### Productie in kleine batches en bètatestprogramma
 
-Im September werden wir met der Kleinserienproduktion von drei Versionen in Folge beginnen: **HDMI**, **DisplayPort** en **VGA**. Jede wird gründliche Tests en Verfeinerungen durchlaufen, bevor wir die Production weiter ausbauen.
+In september beginnen we met de productie in kleine batches van drie opeenvolgende versies: **HDMI**, **DisplayPort** en **VGA**. Ze zullen allemaal grondig worden getest en verfijnd voordat we de productie verder opschalen.
 
-Wir freuen uns, sowohl langjährige Unterstützer als auch Neulinge zu begrüßen, die sich voor unser **exklusives Beta-Test-Programm** voor diese Kleinserie bewerben. Die Teilnahmeplätze sind extrem begrenzt, daher können wir niet alle aufnehmen. Wenn Sie einzigartige Anwendungsfälle of kreative Ideen haben, die uns helfen könnten, die Zuverlässigkeit en Benutzerfreenlichkeit von KVM-Go zu verfeinern, würden wir das gerne wissen! Bitte teilen Sie Ihr Feedback over [dieses Google-Formular](https://forms.gle/yaS1F5E5MSo8DWNZ6).
+We heten zowel oude supporters als nieuwkomers van harte welkom om zich aan te melden voor ons **exclusieve bètatestprogramma** voor deze kleine batch. De plaatsen voor deelname zijn zeer beperkt, dus we kunnen niet iedereen huisvesten. Als u unieke gebruiksscenario's of creatieve ideeën heeft die ons kunnen helpen de betrouwbaarheid en bruikbaarheid van KVM-Go te verfijnen, willen we dat graag weten! Deel uw feedback via [this Google form](https://forms.gle/yaS1F5E5MSo8DWNZ6).
 
-Bitte wissen Sie, dass ich jeden Kommentar en Vorschlag sorgfältig lese. Ihr Feedback ist entscheidend, um uns zu helfen, dieses Open-Source-Projekt zu gestalten en zu verbessern. Wenn Sie voor das frühe Beta-Test-Team ausgewählt werden, werde ich Sie direkt per E-Mail kontaktieren.
+Weet dat ik elke opmerking en suggestie zorgvuldig lees. Uw feedback is cruciaal om ons te helpen dit open-sourceproject vorm te geven en te verbeteren. Als u wordt gekozen voor het vroege bètatestteam, neem ik rechtstreeks contact met u op via e-mail.
 
-### Bleiben Sie verbenen
+### Blijf verbonden 
 
-Wir laden Sie ein, sich met uns zu verbinden en over unsere Social-Media-Kanäle auf dem Laufenden zu bleiben:
+ Wij nodigen u uit om contact met ons op te nemen en op de hoogte te blijven via onze sociale kanalen:
 
   - [LinkedIn](https://www.linkedin.com/company/techxartisan)
   - [Instagram](https://www.instagram.com/techxartisan/)
@@ -76,14 +75,14 @@ Wir laden Sie ein, sich met uns zu verbinden en over unsere Social-Media-Kanäle
   - [Discord](https://openterface.com/discord)
   - [Reddit](https://openterface.com/reddit)
 
-Treten Sie unseren Communities auf Discord of Reddit bei, um direkt met unserem Entwicklungsteam en anderen Nutzern zu interagieren, Ihre Ideen zu teilen en Teil des Gesprächs zu werden.
+Sluit u aan bij onze communities op Discord of Reddit om rechtstreeks in contact te komen met ons ontwikkelteam en medegebruikers, uw ideeën te delen en deel uit te maken van het gesprek.
 
-### Helfen Sie uns, das Wort zu verbreiten
+### Help ons de boodschap te verspreiden
 
-Bitte helfen Sie uns, **das Wort zu verbreiten**, besonders diejenigen unter Ihnen, die bereits unsere Openterface-Magie in Ihren Tech-Workflows erlebt haben!
+Help ons alstublieft om **het woord te verspreiden**, vooral degenen onder u die onze Openterface-magie al hebben ervaren in uw technische workflows!
 
-**Danke** voor Ihre fortlaufende Unterstützung en Zusammenarbeit. Diese Reise von Mini-KVM zu KVM-Go war nur dank Ihnen möglich. Wir freuen uns darauf, dieses aufregende nächste Kapitel der Open-Hardware gemeinsam met Ihnen zu gestalten.
+**Bedankt** voor uw voortdurende steun en samenwerking. Deze reis van Mini-KVM naar KVM-Go is alleen mogelijk dankzij jou. We kijken ernaar uit om samen met u aan dit spannende volgende hoofdstuk van open hardware te bouwen.
 
-Mit freenlichen Grüßen,
+Met vriendelijke groet,
 
-Openterface Team | TechxArtisan
+Openterface-team | TechxArtisan

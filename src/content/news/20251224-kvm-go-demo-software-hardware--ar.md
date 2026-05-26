@@ -2,114 +2,114 @@
 locale: ar
 translationKey: "20251224-kvm-go-demo-software-hardware"
 slug: "20251224-kvm-go-demo-software-hardware"
-title: "Neues Demo-Video, البرمجيات-Fortschritte و was sich in KVM-GO befindet"
-description: "Schauen Sie sich das neue Demo-Video لـ KVM-GO an و sehen Sie, wie die HDMI/DP/VGA-Versionen in Aktion sind. Erfahren Sie mehr حول einheitliche البرمجيات لـ Mini-KVM و KVM-GO, الأجهزة-Upgrades einschließlich des MS2130S 4K@60Hz-Video-Prozessors و CH32V208-MCU, sowie bevorstehende الميزات wie die Unterstützung benutzerdefinierter EDID. Kampagnenupdate: $72k مع حول 220 Unterstützern."
+title: "فيديو تجريبي جديد، والتقدم الذي أحرزه البرنامج، وما هو بداخل KVM-GO"
+description: "شاهد الفيديو التوضيحي الجديد لـ KVM-GO والذي يعرض إصدارات HDMI/DP/VGA أثناء العمل. تعرف على البرامج الموحدة لـ Mini-KVM وKVM-GO، وترقيات الأجهزة بما في ذلك معالج الفيديو MS2130S 4K@60 هرتز وCH32V208 MCU، بالإضافة إلى الميزات القادمة مثل دعم EDID المخصص. تحديث الحملة: 72 ألف دولار مع أكثر من 220 داعمًا."
 date: 2025-12-24
 channel: product
 product: kvm-go
-topic: ["software", "campaign", "community"]
-category: "منتج-التحديثات"
-tags: ["KVM-GO", "منتج-التحديثات", "البرمجيات", "الأجهزة", "Demo-Video", "Crowdfوing", "Technischer Deep Dive"]
+topic: ["production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Software", "Hardware", "Demo Video", "Crowdfunding", "Technical Deep Dive"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+مرحبًا بالجميع! آسف لفترة الهدوء. لقد كنا منشغلين بتحسين كل من الأجهزة والبرامج الخاصة بـ [KVM-GO](https://openterface.com/product/kvm-go/)، ومضى الوقت سريعًا. اعتبارًا من أواخر ديسمبر، وصلنا إلى **72 ألف دولار أمريكي مع أكثر من 220 داعمًا**، وهو أمر مذهل. إذا كان بإمكانك مساعدتنا في المضي قدمًا، من فضلك **انشر الكلمة**!
 
-Hey everyone! Entschuldigung لـ die ruhige Phase. Wir haben uns voll و ganz darauf konzentriert, sowohl الأجهزة als auch البرمجيات لـ [KVM-GO](https://openterface.com/product/kvm-go/) zu polieren, و die Zeit ist einfach vorbeigegangen. Bis Ende Dezember haben wir **$72k مع حول 220 Unterstützern** erreicht, was unglaublich ist. Falls Sie uns dabei helfen können, dies noch weiter zu steigern, teilen Sie bitte die Nachricht!
-
-Vielen herzlichen Dank لـ Ihre Geduld و Unterstützung. Ja, Weihnachten hat sicherlich zur Verwirrung beigetragen 🙂🎄 الآن fangen wir an, aufzuholen.
+شكرا جزيلا على صبركم ودعمكم. ونعم، عيد الميلاد بالتأكيد زاد من الفوضى 🙂🎄 الآن، دعونا نلحق بالركب.
 
 ![blog-Gemini_Generated_Image_kvm-go](https://assets.openterface.com/images/blog/Gemini_Generated_Image_kvm-go.webp)
-*Weihnachts-geprägtes Bild, generiert مع Nano Banana, basierend auf realen Fotos unserer KVM-GO منتجe.*
+*صورة تحمل طابع العطلة تم إنشاؤها باستخدام Nano Banana، استنادًا إلى صور حقيقية لمنتجات KVM-GO الخاصة بنا.*
 
-## Neues Demo-Video: KVM-GO in Aktion
+## فيديو تجريبي جديد: KVM-GO أثناء العمل
 
-Wir haben gerade ein [**neues Demo-Video**](https://www.youtube.com/watch?v=459rWCQbJRE) veröffentlicht, das KVM-GO in der realen Anwendung zeigt.
+لقد قمنا للتو بنشر [**new demo video**](https://www.youtube.com/watch?v=459rWCQbJRE) يُظهر استخدام KVM-GO في العالم الحقيقي.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/459rWCQbJRE?si=6IbiJwkcpuZurepz" title="مشغل فيديو YouTube"frameborder="0"allow="accelerometer; autoplay; clipboard-write; الوسائط المشفرة; جيروسكوب; صورة داخل صورة; مشاركة الويب" referrpolicy="strict-origin-when-cross-origin"allowfullscreen></iframe>
 
-Im Video sehen Sie:
+في الفيديو ستشاهد:
 
-* KVM-GO **HDMI / DP / VGA** Versionen in Aktion
-* Was im **Karton enthalten ist**
-* Wie Sie verschiedene Zielgeräte steuern
-* Wie KVM-GO in reale Workflows passt, von schnellem Zugriff bis hin zu Multi-Target-Einstellungen
+* إصدارات KVM-GO **HDMI / DP / VGA ** قيد التشغيل
+* ما هو مدرج ** في الصندوق **
+* كيفية التحكم في الأجهزة المستهدفة المختلفة
+* كيف يتناسب KVM-GO مع سير العمل الحقيقي، بدءًا من الوصول السريع إلى الإعدادات متعددة الأهداف
 
-Wenn Sie neugierig auf mehr lockeren, hands-on-Tests و reale Nutzung sind, können Sie auch unsere [sozialen Medien](https://openterface.com/about/community/) besuchen. Wir teilen häufig Roh-Testclips و praktische Szenarien, die zeigen, wie KVM-GO in realen Tech-Frontlines funktioniert.
+إذا كنت مهتمًا بإجراء المزيد من الاختبارات العملية غير الرسمية والاستخدام الحقيقي، فلا تتردد في الاطلاع على [social media](https://openterface.com/about/community/) أيضًا. غالبًا ما نشارك مقاطع اختبار أولية وسيناريوهات عملية توضح كيفية تصرف KVM-GO على الخطوط الأمامية للتكنولوجيا الحقيقية.
 
-## البرمجيات-Fortschritte: Eine App لـ Mini-KVM و KVM-GO
+## تقدم البرنامج: تطبيق واحد لـ Mini-KVM وKVM-GO
 
-Auf der البرمجياتseite haben wir einen soliden Schritt nach vorne gemacht.
+ومن ناحية البرمجيات، فقد خطونا خطوة قوية إلى الأمام.
 
-Unsere neuesten التحديثات ermöglichen es der **gleichen Openterface-App, nahtlos مع beiden Mini-KVM و der KVM-GO-Serie zu funktionieren**. Für Benutzer bedeutet dies:
+تتيح آخر تحديثاتنا **لتطبيق Openterface نفسه العمل بسلاسة مع سلسلتي Mini-KVM وKVM-GO**. بالنسبة للمستخدمين، فهذا يعني:
 
-* Eine konsistente Erfahrung حول alle منتجe hinweg
-* Weniger Fragmentierung, wenn Sie mehr als ein Openterface-Gerät verwenden
+* تجربة متسقة عبر المنتجات
+* تجزئة أقل إذا كنت تستخدم أكثر من جهاز Openterface
 
-Wir haben auch Zeit investiert, die **Tastatur- و Mausleistung zu verbessern**, مع Fokus auf:
+لقد أمضينا بعض الوقت أيضًا في تحسين **أداء لوحة المفاتيح والماوس**، مع التركيز على:
 
-* Geringere Gesamtlatenz
-* Stabilere Eingabebehandlung, einschließlich besserer Erkennung des الاتصالsstatus و Signalqualität
-* Schnelleres Reagieren bei schnellen أو kontinuierlichen Interaktionen
+* انخفاض الكمون العام
+* معالجة أكثر استقرارًا للمدخلات، بما في ذلك الكشف بشكل أفضل عن حالة الاتصال وجودة الإشارة
+* استجابة سريعة أثناء التفاعلات السريعة أو المستمرة
 
-Obwohl Gaming لا der primäre Anwendungsfall unserer KVM-Lösungen ist, kümmern wir uns dennoch sehr um die Reaktionsfähigkeit der Eingaben in realen Szenarien. Wenn Sie sich لـ die technischen Details interessieren, insbesondere unter macOS, haben wir kürzlich einen tiefen Einblick hier veröffentlicht:
-👉 **[Openterface Mini-KVM Mausgeschwindigkeit & Gaming-Leistung unter macOS](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
+على الرغم من أن الألعاب ليست حالة الاستخدام المستهدفة الأساسية لحلول KVM الخاصة بنا، إلا أننا لا نزال نهتم بشدة باستجابة المدخلات في سيناريوهات العالم الحقيقي. إذا كنت مهتمًا بالتفاصيل الفنية، خاصة فيما يتعلق بنظام التشغيل macOS، فقد نشرنا مؤخرًا نظرة تفصيلية هنا:
+👉 **[Openterface Mini-KVM Mouse Speed & Gaming Performance on macOS](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
 
-Viele der dort besprochenen Verbesserungen fließen nun direkt in unsere einheitliche البرمجيات-Stack لـ beide Mini-KVM و KVM-GO.
+يتم الآن إدخال العديد من التحسينات التي تمت مناقشتها هناك مباشرةً في مجموعة برامجنا الموحدة لكل من Mini-KVM وKVM-GO.
 
-## Kern-الأجهزة-Upgrades in KVM-GO (Vergleich zu Mini-KVM)
+## ترقيات الأجهزة الأساسية في KVM-GO (مقارنة بـ Mini-KVM)
 
-Für alle, die sich لـ die internen Details interessieren, hier ein schneller Vergleich der wichtigsten الأجهزة-Änderungen von Mini-KVM zu KVM-GO.
+بالنسبة للمهتمين بالأجزاء الداخلية، إليك مقارنة سريعة لتغييرات الأجهزة الرئيسية من Mini-KVM إلى KVM-GO.
 
-### Video-Pipeline-Upgrades
+### ترقية خط أنابيب الفيديو
 
-| Aspekt           | **MS2109 (Mini-KVM)**    | **MS2130S (KVM-GO)** | Verbesserung           |
+| الجانب | **MS2109 (Mini-KVM)** | **MS2130S (KVM-GO)** | تحسين |
 | ---------------- | ------------------------ | -------------------- | --------------------- |
-| HDMI-Eingabe     | 4K @ 30Hz                | 4K @ 60Hz            | 2× Eingabebandbreite    |
-| USB-Videowiedergabe | 1080p @ 30Hz             | 4K @ 60Hz            | 4× Pixeldurchsatz   |
-| Interne Skalierung | 4K → 1080p               | Native 4K            | Keine erzwungene Downskalierung |
-| Bildlatenz       | Höher (Scaler + Puffer)  | Niedriger (Direkter Pfad) | Verringerte Latenz       |
+| مدخل اتش دي ام اي | 4K @ 30 هرتز | 4K @ 60 هرتز | 2 × عرض النطاق الترددي للإدخال |
+| إخراج فيديو USB | 1080p @ 30 هرتز | 4K @ 60 هرتز | إنتاجية 4 × بكسل |
+| التحجيم الداخلي | 4K → 1080p | أصلي 4K | لا يوجد تصغير قسري |
+| زمن انتقال الإطار | أعلى (قشارة + المخزن المؤقت) | السفلي (المسار المباشر) | الكمون المنخفض |
 
-### USB-Tastatur- & Maus-Emulation-Upgrades
+### ترقية لوحة المفاتيح والماوس USB
 
-| Aspekt             | **CH340 + CH9329 (Mini-KVM)** | **CH32V208 (KVM-GO)** | Verbesserung     |
+| الجانب | **CH340 + CH9329 (Mini-KVM)** | **CH32V208 (KVM-GO)** | تحسين |
 | ------------------ | ----------------------------- | --------------------- | --------------- |
-| Chipanzahl         | 2 Chips                       | Ein MCU               | Einfacheres System |
-| USB-Verarbeitung   | USB–Serial Bridge             | Native USB-Gerät      | Geringere Latenz |
-| HID-Erzeugung      | Festfunktion                  | Firmware-definiert    | Vollständige Kontrolle |
-| Datenpfad          | USB → UART → HID              | USB → HID             | Ein Hopf entfernt |
-| BIOS-Kompatibilität | Gemischt                      | Ausgezeichnet         | Zuverlässiger     |
+| عدد الرقائق | 2 رقائق | MCU واحد | نظام أبسط |
+| التعامل مع USB | USB – الجسر التسلسلي | جهاز USB الأصلي | الكمون أقل |
+| اختبأ الجيل | وظيفة ثابتة | تعريف البرامج الثابتة | التحكم الكامل |
+| مسار البيانات | USB → UART → HID | USB → اختبأ | تمت إزالة قفزة واحدة |
+| توافق BIOS | مختلط | ممتاز | أكثر موثوقية |
 
-## Fortgeschrittene الميزات in aktiver Entwicklung
+## ميزات متقدمة في التطوير النشط
 
-Viele fortgeschrittene الميزات sind geplant و werden aktiv لـ die finale KVM-GO-Firmware entwickelt. Ein kurzer Vorgeschmack:
+تم التخطيط للعديد من الميزات المتقدمة وهي قيد التطوير النشط لبرنامج KVM-GO الثابت النهائي. معاينة سريعة:
 
-* **Benutzerdefinierte EDID-Unterstützung** zur Lösung von Anzeigeverträglichkeitsproblemen
-* **Skriptbasierte Steuerung** لـ Automatisierung و fortgeschrittene Workflows
+* **دعم EDID مخصص** لحل مشكلات توافق العرض
+* **التحكم المستند إلى البرنامج النصي** للأتمتة وسير العمل المتقدم
 
-Wir werden weitere Details teilen, sobald diese الميزات reif sind.
+سنشارك المزيد من التفاصيل مع نضوج هذه الميزات.
 
-## Open-Source-Verpflichtung (Wie immer)
+## الالتزام بالمصادر المفتوحة (كما هو الحال دائمًا)
 
-Ja, **KVM-GO bleibt vollständig Open Source**.
+نعم، **ستظل KVM-GO مفتوحة المصدر بالكامل**.
 
-Sobald das الأجهزة-Design لـ die Massenproduktion finalisiert ist, beantragen wir die **OSHWA (Open Source الأجهزة Association)-Zertifizierung**.
+بمجرد الانتهاء من تصميم الأجهزة للإنتاج الضخم، سوف نتقدم بطلب للحصول على **شهادة OSHWA (جمعية الأجهزة مفتوحة المصدر)**.
 
-Alle الأجهزة-Designdateien و STL-Modelle werden hier veröffentlicht:
-👉 [https://github.com/TechxArtisanStudio/Openterface_KVM-GO_الأجهزة](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_الأجهزة)
+سيتم نشر جميع ملفات تصميم الأجهزة ونماذج STL هنا:
+👉 [https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware)
 
-Transparenz و Community-Kooperation bleiben zentral لـ das, was wir tun.
+تظل الشفافية والتعاون المجتمعي جوهر ما نقوم به.
 
-## Letzte Tage der Kampagne: Ein nettes Erinnerung
+## الأيام الأخيرة للحملة: تذكير ودي
 
-Wir sind nun in den **letzten Tagen** der Crowdfوing-Kampagne.
+نحن الآن في **الأيام الأخيرة** لحملة التمويل الجماعي.
 
-Crowdfوing ist die **beste Chance, KVM-GO zum niedrigsten Preis zu erhalten**. Sobald die Kampagne endet و wir auf Post-Crowdfوing-Bestellungen umschalten, steigt der Preis.
+التمويل الجماعي هو **أفضل فرصة للحصول على KVM-GO بأقل سعر**. بمجرد انتهاء الحملة والانتقال إلى طلبات ما بعد التمويل الجماعي، سيرتفع السعر.
 
-Wenn Sie sich noch unschlüssig sind, ist jetzt die Zeit.
+إذا كنت على الحياد، فهذا هو الوقت المناسب.
 
-👉 **Unterstützen Sie die Kampagne و sichern Sie sich Ihr Gerät bei Crowd Supply:**
+👉 ** ادعم الحملة وقم بتأمين وحدتك على Crowd Supply: **
 [https://www.crowdsupply.com/techxartisan/openterface-kvm-go](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)
 
-Vielen herzlichen Dank nochmals لـ Ihre Geduld, Vertrauen و Unterstützung. Weitere التحديثات kommen bald, و wir werden versuchen, لا wieder so still zu sein. Warme Weihnachtsgrüße von uns allen!
+شكرًا لك مرة أخرى على صبركم وثقتكم ودعمكم. سيتم طرح المزيد من التحديثات قريبًا، وسنحاول عدم الصمت مرة أخرى. تمنيات عطلة دافئة منا جميعا!
 
-**Openterface Team | TechxArtisan**
+** فريق أوبنتيرفيس | تككسارتيزان**

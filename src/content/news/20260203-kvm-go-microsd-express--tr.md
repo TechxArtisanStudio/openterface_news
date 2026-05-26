@@ -2,106 +2,107 @@
 locale: tr
 translationKey: "20260203-kvm-go-microsd-express"
 slug: "20260203-kvm-go-microsd-express"
-title: "microSD EXPRESS auf KVM-GO: Kompatibilitätstest ve reale Übertragungsgeschwindigkeiten"
-description: "KVM-GO microSD EXPRESS Kompatibilitätstest ile SanDisk 128GB Karte. Bestätigt: Erkennung ve Lese-/Schreibzugriff funktionieren. Reale Geschwindigkeiten ~30 MB/s Schreiben, ~20 MB/s Lesen aufgrve USB 2.0 Brücke. UHS-I Karten reichen için KVM-GOs microSD-Pfad."
+title: "KVM-GO'da microSD EXPRESS: Uyumluluk Testi ve Gerçek Aktarım Hızları"
+description: "SanDisk 128GB kartla KVM-GO microSD EXPRESS uyumluluk testi. Onaylandı: algılama ve okuma/yazma çalışması. USB 2.0 köprüsü sayesinde gerçek dünya hızları ~30 MB/s yazma, ~20 MB/s okuma. KVM-GO'nun microSD yolu için UHS-I kartları yeterlidir."
 date: 2026-02-03
 channel: product
 product: kvm-go
-topic: ["community"]
-category: "Ürün-Güncellemeler"
-tags: ["KVM-GO", "Ürün-Güncellemeler", "microSD", "Speicher", "Kompatibilität", "Leistung"]
+topic: ["software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "microSD", "Storage", "Compatibility", "Performance"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
-
-Ein Community-Mitglied fragte, ob KVM-GO microSD EXPRESS Karten unterstützt. Statt zu raten, haben wir eine echte microSD EXPRESS Karte besorgt ve einen einfachen Kompatibilitäts- ve Geschwindigkeitstest durchgeführt.
-
----
-
-## Was wir getestet haben
-
-- **Karte:** SanDisk microSD EXPRESS 128GB  
-
-![Verwendete Testkarte: SanDisk microSD EXPRESS 128GB.](https://assets2.openterface.com/images/blog/SD-card.webp)  
-*Verwendete Testkarte: SanDisk microSD EXPRESS 128GB.*
-
-- **Ziel:** Grvelegende Kompatibilität (Erkennung + Lese-/Schreibzugriff) bestätigen ve reale Übertragungsgeschwindigkeiten hakkında KVM-GOs microSD-Pfad messen.
+Bir topluluk üyesi, KVM-GO'nun microSD EXPRESS kartlarını destekleyip desteklemediğini sordu. Tahmin etmek yerine gerçek bir microSD EXPRESS kartı aldık ve basit bir uyumluluk + hız kontrolü yaptık.
 
 ---
 
-## Testaufbau
+## Neyi test ettik
 
-Dies war ein einfacher Transfertest im „Real-World“-Stil:
+- **Kart:** SanDisk microSD EXPRESS 128GB  
 
-1. microSD EXPRESS Karte in KVM-GOs microSD-Steckplatz einstecken.  
-2. Auf einem Windows-PC einen großen Ordner/Dateisatz auf die microSD Karte kopieren, um die anhaltende Schreibgeschwindigkeit zu beobachten.  
-3. Daten von der microSD Karte zurück auf den PC kopieren, um die anhaltende Lesegeschwindigkeit zu beobachten.  
-4. Wir verwendeten die normale OS-Dateikopie ve notierten die im Windows-Transferdialog angezeigte Geschwindigkeit.
+![Test card used: SanDisk microSD EXPRESS 128GB.](https://assets2.openterface.com/images/blog/SD-card.webp)  
+*Kullanılan test kartı: SanDisk microSD EXPRESS 128GB.*
 
-![Testaufbau: microSD EXPRESS zur Lese-/Schreibprüfung in KVM-GO einstecken.](https://assets2.openterface.com/images/blog/plug.webp)  
-*Testaufbau: microSD EXPRESS zur Lese-/Schreibprüfung in KVM-GO einstecken.*
+- **Hedef:** Temel uyumluluğu (algılama + okuma/yazma) doğrulayın ve KVM-GO'nun microSD yolu aracılığıyla gerçek aktarım hızlarını ölçün.
 
 ---
 
-## Kompatibilitätsergebnis
+## Test kurulumu
 
-KVM-GO erkennt die SanDisk microSD EXPRESS Karte normal.  
-Lesen ve Schreiben funktionieren beide ohne Probleme.
+Bu basit bir "gerçek kullanım" tarzı aktarım testiydi:
 
-Wenn Ihre Frage also einfach „Funktioniert es?“ ist, lautet die Antwort **ja**.
+1. microSD EXPRESS kartını KVM-GO'nun microSD yuvasına takın.  
+2. Windows PC'de, sürekli yazma hızını gözlemlemek için büyük bir klasör/dosya setini microSD karta kopyalayın.  
+3. Sürdürülebilir okuma hızını gözlemlemek için verileri microSD karttan bilgisayara geri kopyalayın.  
+4. Normal işletim sistemi dosya kopyalamayı kullandık ve Windows aktarım iletişim kutusunda gösterilen hızı kaydettik.
 
----
-
-## Übertragungsgeschwindigkeitsergebnis
-
-Obwohl die Karte microSD EXPRESS ist, hängt die hier erzielte Übertragungsgeschwindigkeit vom internen Speicherpfad in KVM-GO ab.
-
-In unserem Test beobachteten wir ungefähr:
-
-- **Schreibgeschwindigkeit:** etwa **30 MB/s** 
-
-![Schreibtest (PC → microSD): ~28 MB/s während der Dateikopie beobachtet.](https://assets2.openterface.com/images/blog/Performance.webp) 
-*Schreibtest (PC → microSD): ~28 MB/s während der Dateikopie beobachtet.*
-
-- **Lesegeschwindigkeit:** etwa **20 MB/s**
-
-![Lesetest (microSD → PC): ~22 MB/s während der Dateikopie beobachtet.](https://assets2.openterface.com/images/blog/Performance2.webp)  
-*Lesetest (microSD → PC): ~22 MB/s während der Dateikopie beobachtet.*
-
-Diese Werte können je nach Dateigrößen, Mischung aus kleinen ve großen Dateien, OS-Caching-Verhalten ve Gesamtworkload variieren, aber dies ist der Bereich, den wir konsistent beobachtet haben.
+![Test setup: inserting microSD EXPRESS into KVM-GO for read/write checks.](https://assets2.openterface.com/images/blog/plug.webp)  
+*Test kurulumu: okuma/yazma kontrolleri için microSD EXPRESS'in KVM-GO'ya takılması.*
 
 ---
 
-## Warum es değil ile Express-Geschwindigkeit läuft
+## Uyumluluk sonucu
 
-microSD EXPRESS Karten sind in der richtigen Umgebung zu viel höherer Leistung fähig, aber KVM-GOs microSD-Speicherpfad wird durch die interne Brücke/den Controller için microSD-zu-USB-Speicher begrenzt.
+KVM-GO, SanDisk microSD EXPRESS kartını normal şekilde tanıyabilir.  
+Okuma ve yazma her ikisi de sorunsuz çalışıyor.
 
-In KVM-GO arbeitet diese Brücke ile USB 2.0. USB 2.0 wird oft als 480 Mbps (theoretisch) beschrieben, aber bei realen Dateihakkındatragungen ist der anhaltende Durchsatz aufgrve von Protokoll-Overhead ve Implementierungsdetails typischerweise viel niedriger.
-
-![USB 2.0 Speicherpfad-Referenz.](https://assets2.openterface.com/images/blog/USB.webp)
-*Die microSD-Speicherbrücke ist USB 2.0 (theoretisch 480 Mbps). Der reale Dateihakkındatragungsdurchsatz ist niedriger.*
-
-Deshalb funktioniert microSD EXPRESS auf KVM-GO einwandfrei, aber Sie sollten keine Express-Geschwindigkeiten hakkında diesen spezifischen microSD-Pfad erwarten.
+Yani sorunuz basitçe "İşe yarıyor mu?" cevap **evet**.
 
 ---
 
-## Praktische Erkenntnisse
+## Aktarım hızı sonucu
 
-1. **microSD EXPRESS ist ile KVM-GO kompatibel**  
-   Es wird normal erkannt ve Lese-/Schreibzugriff funktioniert.
+Kart microSD EXPRESS olsa da burada elde edeceğiniz aktarım hızı KVM-GO içindeki dahili depolama yoluna bağlıdır.
 
-2. **Express-Geschwindigkeit erscheint değil hakkında KVM-GOs microSD-Pfad**  
-   Der Engpass ist die interne USB 2.0 Speicherbrücke, değil die Karte selbst.
+Testimizde yaklaşık olarak şunları gözlemledik:
 
-3. **Welche Karte sinnvoll zu kaufen ist**  
-   Wenn Sie eine Karte hauptsächlich için KVM-GOs microSD-Funktion kaufen, reicht eine gute UHS-I microSD Karte normalerweise aus, da die Schnittstelle in diesem Szenario der begrenzende Faktor ist.
+- **Yazma hızı:** yaklaşık **30 MB/sn** 
 
-4. **Wenn Sie Express-Geschwindigkeiten benötigen**  
-   Verwenden Sie einen dedizierten microSD EXPRESS Leser an einer schnelleren USB-Schnittstelle (getrennt von KVM-GO).
+![Write test (PC → microSD): ~28 MB/s observed during file copy.](https://assets2.openterface.com/images/blog/Performance.webp) 
+
+*Yazma testi (PC → microSD): Dosya kopyalama sırasında ~28 MB/s gözlemlendi.*
+
+- **Okuma hızı:** yaklaşık **20 MB/sn**
+
+![Read test (microSD → PC): ~22 MB/s observed during file copy.](https://assets2.openterface.com/images/blog/Performance2.webp)  
+
+*Okuma testi (microSD → PC): Dosya kopyalama sırasında ~22 MB/s gözlemlendi.*
+
+Bu sayılar, dosya boyutlarına, küçük ve büyük dosyaların karışımına, işletim sisteminin önbelleğe alma davranışına ve genel iş yüküne bağlı olarak değişebilir, ancak bu, sürekli olarak gördüğümüz aralıktır.
 
 ---
 
-## Wenn Sie möchten, dass wir eine andere Karte testen
+## Neden Ekspres hızlarda çalışmıyor?
 
-Wenn Sie ein bestimmtes microSD EXPRESS Modell interessiert (Marke + Kapazität + Modellnummer), teilen Sie es ile ve wir führen denselben Check durch ve fügen die Ergebnisse hinzu.
+microSD EXPRESS kartlar, doğru kurulumda çok daha yüksek performans gösterme kapasitesine sahiptir, ancak KVM-GO'nun microSD depolama yolu, microSD'den USB'ye depolama için kullanılan dahili köprü/denetleyici ile sınırlıdır.
+
+KVM-GO'da bu köprü USB 2.0'da çalışır. USB 2.0 genellikle 480 Mbps (teorik) olarak tanımlanır, ancak gerçek dünyadaki dosya aktarımlarında sürekli verim, protokol yükü ve uygulama ayrıntıları nedeniyle genellikle çok daha düşüktür.
+
+![USB 2.0 storage path reference.](https://assets2.openterface.com/images/blog/USB.webp)
+*MicroSD depolama köprüsü USB 2.0'dır (teorik olarak 480 Mbps). Gerçek dünyadaki dosya aktarımı verimi daha düşüktür.*
+
+Bu nedenle microSD EXPRESS, KVM-GO'da iyi çalışır, ancak bu özel microSD yolu üzerinden Express düzeyinde hızlar beklememelisiniz.
+
+---
+
+## Pratik paket servisi
+
+1. **microSD EXPRESS, KVM-GO ile uyumludur**  
+   Normal olarak algılanır ve okuma/yazma çalışır.
+
+2. **Ekspres seviyedeki hız, KVM-GO'nun microSD yolunda gösterilmeyecektir**  
+   Darboğaz, kartın kendisi değil, dahili USB 2.0 depolama köprüsüdür.
+
+3. **Hangi kartı satın almak mantıklıdır**  
+   Esas olarak KVM-GO'nun microSD özelliğiyle kullanmak için bir kart satın alıyorsanız, iyi bir UHS-I microSD kartı genellikle yeterlidir çünkü arayüz bu senaryoda sınırlayıcı faktördür.
+
+4. **Ekspres hızlara ihtiyacınız varsa**  
+   Daha hızlı bir USB arayüzünde (KVM-GO'dan ayrı) özel bir microSD EXPRESS okuyucu kullanın.
+
+---
+
+## Başka bir kartı test etmemizi istiyorsanız
+
+İlgilendiğiniz belirli bir microSD EXPRESS modeliniz varsa (marka + kapasite + model numarası), paylaşın, biz de aynı kontrolü çalıştırıp sonuçları ekleyelim.

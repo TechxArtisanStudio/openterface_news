@@ -2,74 +2,74 @@
 locale: pl
 translationKey: "240716-teardown-to-production"
 slug: "240716-teardown-to-production"
-title: "Von Teardown zur Produktion: Wir gehen voran!"
-description: "Openterface Mini-KVM Produktions-Update: Erfolgreiche Teardown 2024 Showcase, OSHWA-Zertifizierung erreicht, Sprzęt V1.9 Release z hackbaren Pins, i auf Kurs dla September-Lieferung. Plus Raspberry Pi Kompatibilität i uConsole Integration!"
+title: "Od rozbiórki do produkcji: idziemy do przodu!"
+description: "Aktualizacja produkcyjna Openterface Mini-KVM: udana prezentacja Teardown 2024, uzyskanie certyfikatu OSHWA, wydanie sprzętu w wersji 1.9 z hakowalnymi pinami i dostawa na wrzesień. Plus kompatybilność z Raspberry Pi i integracja z uConsole!"
 date: 2024-07-16
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "event", "community"]
-category: "Product Aktualizacje"
+topic: ["shipping", "production", "beta", "software", "campaign", "event", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hej wszystkim,
 
-Hey alle zusammen,
+Minęło trochę czasu od zakończenia naszej kampanii crowdfundingowej i mamy dla Ciebie fantastyczne aktualizacje. Jesteśmy podekscytowani możliwością rozpoczęcia fazy produkcyjnej naszego Openterface Mini-KVM i informowania Cię o naszych postępach.
 
-Es ist eine Weile her, seit unsere Crowdfiing-Kampagne beendet wurde, i wir haben einige fantastische Aktualizacje z euch zu teilen. Wir sind begeistert, uns voll in die Produktionsphase unseres Openterface Mini-KVM zu stürzen i euch o unsere Fortschritte zu informieren.
+## Porzucenie – najważniejsze wydarzenia w 2024 r
 
-## Teardown 2024 Highlights
-
-Zunächst einmal war das [Teardown 2024](https://x.com/TechxArtisan/status/1810619822948090092), das letzten Monat von [**Crowd Supply**](https://www.crowdsupply.com/teardown/portland-2024) in Portland veranstaltet wurde, nies weniger als erstaunlich. Es war fantastisch, so viele unserer Tech-Freie i Unterstützer persönlich an unserem Demo-Tisch zu treffen! Eure freilichen Worte sind eine große Ermutigung i Motivation dla uns. Hier sind einige Schnappschüsse von der Veranstaltung:
+Po pierwsze, zeszłomiesięczny [Teardown 2024](https://x.com/TechxArtisan/status/1810619822948090092) prowadzony przez [**Crowd Supply**](https://www.crowdsupply.com/teardown/portland-2024) w Portland był po prostu niesamowity. Wspaniale było spotkać się osobiście przy naszym stole demonstracyjnym z tak wieloma naszymi przyjaciółmi i sponsorami z branży technologicznej! Wasze miłe słowa są dla nas wielką zachętą i motywacją. Oto kilka migawek z wydarzenia:
 
 ![openterface-billy-at-teardown2024-2](https://www.crowdsupply.com/img/f0a2/16c34150-c59a-40d0-ab77-7c5dada8f0a2/openterface-billy-at-teardown2024-2_jpg_gallery-lg.jpg)
 
-Ein großes Dankeschön an Electromaker dla die Präsentation unseres Produkts während der Veranstaltung! Schaut euch unser Gespräch in diesem Video an:
+Ogromne podziękowania dla firmy Electromaker za zaprezentowanie naszego produktu podczas wydarzenia! Obejrzyj naszą rozmowę w tym filmie:
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/K0EuMSQEwKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe szerokość="800" wysokość="450" src="https://www.youtube.com/embed/K0EuMSQEwKo" title="Odtwarzacz wideo YouTube" Frameborder="0" pozwalają="akcelerometr; autoodtwarzanie; zapis w schowku; multimedia zaszyfrowane; żyroskop; obraz w obrazie; udostępnianie w Internecie" zezwoleniefullscreen></iframe>
 
-## Produktion in vollem Gange
+## Produkcja pełną parą
 
-Gerade jetzt sind wir daz beschäftigt, **Teile i Chips zu bestellen** wie den CH9329 i CH340, während wir uns dla die Produktion rüsten. Wir reichen auch unser Mini-KVM i Kabel dla CE-, RoHS- i UKCA-Zertifizierungstests ein. Wenn alles gut läuft, werden wir bald in den Fabriken z der Produktion beginnen. Unser Team stellt sicher, dass jeder Schritt der Produktionslinie reibungslos läuft, um ein erstklassiges Produkt zu liefern, das sowohl Spaß macht als auch zuverlässig ist! Hier sind einige Schnappschüsse der Testberichte dla RoHS i CE dla unser oranges Type-C-Kabel:
+W tej chwili jesteśmy zajęci **zamawianiem części i chipów**, takich jak CH9329 i CH340, przygotowując się do produkcji. Przesyłamy również nasz Mini-KVM i kable do testów certyfikacyjnych CE, RoHS i UKCA. Jeśli wszystko pójdzie dobrze, wkrótce rozpoczniemy produkcję w fabrykach. Nasz zespół dba o to, aby każdy etap linii produkcyjnej przebiegał sprawnie, aby dostarczać najwyższej klasy produkt, który jest zarówno zabawny, jak i niezawodny! Oto kilka migawek raportów z testów dla RoHS i CE dla naszego pomarańczowego kabla typu C:
 
 ![openterface-test-report-typec](https://www.crowdsupply.com/img/8d57/cd1d5f8e-820b-40c2-b758-1f075e2e8d57/openterface-test-report-typec_jpg_gallery-lg.jpg)
 
-Bleibt dran, da wir ähnliche Berichte dla unsere Mini-KVMs i andere Kabel haben werden, um sicherzustellen, dass sie alle den erforderlichen Zertifizierungsstandards entsprechen.
+Bądź na bieżąco, ponieważ będziemy mieli więcej podobnych raportów dla naszych Mini-KVM i innych kabli, aby upewnić się, że wszystkie spełniają wymagane standardy certyfikacyjne.
 
-## OSHWA-Zertifizierung
+## Certyfikat OSHWA
 
-Wir freuen uns, bekannt zu geben, dass unser Openterface Mini-KVM jetzt offiziell **OSHWA**-zertifiziert als vollständig open-source ist! 🥳 Ihr könnt unsere Zertifizierung hier oprüfen: [OSHWA UID CN000015](https://certification.oshwa.org/cn000015.html). Wir verpflichten uns, sowohl Oprogramowanie als auch Sprzęt open-source zu halten, daz Tech-Liebhaber das Potenzial von USB KVM erkien, zu seiner Entwicklung beitragen i gemeinsam eine lebendige Community aufbauen können.
+Z radością ogłaszamy, że nasz Openterface Mini-KVM posiada teraz oficjalny certyfikat **OSHWA** jako w pełni open source! 🥳 Nasz certyfikat możesz sprawdzić tutaj: [OSHWA UID CN000015](https://certification.oshwa.org/cn000015.html). Zależy nam na tym, aby zarówno oprogramowanie, jak i sprzęt były typu open source, umożliwiając miłośnikom technologii odkrywanie potencjału USB KVM, przyczynianie się do jego rozwoju i wspólne budowanie tętniącej życiem społeczności.
 
 ![openterface-oshw-cn000015](https://www.crowdsupply.com/img/925a/fbf33f8d-0c0d-405e-bb34-6e0038c9925a/openterface-oshw-cn000015_jpg_md-xl.jpg)
 
-## Sprzęt-Update V1.9
+## Aktualizacja sprzętu V1.9
 
-Wir haben gerade **Sprzęt V1.9 z zusätzlichen Pins gestartet: VCC, GND, Target D+, Target D-, Host D+, Host D-** dla noch mehr hackbaren Spaß! Diese Datenpins sind z dem USB-Hub des Targets i Hosts verbien. Teraz könnt ihr DIY-Erweiterungen dla Openterface machen — denkt an ATX, Netzwerk-Bridging, Audio-Bypass i mehr. Welche kreativen Ideen habt ihr dla das Hacken unseres Mini-KVM z diesen Pins? Tretet unserem [Reddit](/reddit) lub [Discord](/discord) bei, teilt eure Gedanken i programmiert z uns!
+
+Właśnie wypuściliśmy **sprzęt V1.9 z dodatkowymi pinami: VCC, GND, Target D+, Target D-, Host D+, Host D-** dla jeszcze większej zabawy z hackowaniem! Te piny danych są podłączone do koncentratora USB urządzenia docelowego i hosta. Teraz możesz samodzielnie dodawać rozszerzenia do Openterface — pomyśl o ATX, mostowaniu sieciowym, obejściu audio i nie tylko. Jakie masz kreatywne pomysły na zhakowanie naszego Mini-KVM za pomocą tych pinów? Dołącz do naszych [Reddit](/reddit) lub [Discord](/discord), podziel się swoimi przemyśleniami i baw się z nami kodowaniem!
 
 ![openterface-v1-9-hackable](https://www.crowdsupply.com/img/caf8/7b5bb696-2342-487a-b0e8-aa137e6dcaf8/openterface-v1-9-hackable_jpg_md-xl.jpg)
 
-## Openterface auf Pi ausführen i z uConsole zusammenarbeiten
+## Uruchom Openterface na Pi i połącz siły z uConsole
 
-Wir haben erfolgreich **unsere QT-Host-App in einer Pi-Umgebung ausgeführt**! Was noch aufregender ist, ist, wie unser Mini-KVM z Clockworks **uConsole** zusammenarbeiten kann, um es in ein tragbares KVM-Tool zu verwandeln. Es ist super praktisch dla Plug-and-Play i schnelle Fehlerbehebung bei jedem headless Gerät in der Nähe.
+Udało nam się **uruchomić naszą aplikację hosta QT w środowisku Pi**! Jeszcze bardziej ekscytujące jest to, jak nasz Mini-KVM może współpracować z **uConsole** firmy Clockwork, aby przekształcić go w przenośne narzędzie KVM. Jest bardzo przydatny do podłączania i szybkiego rozwiązywania problemów z dowolnymi urządzeniami bezgłowymi w pobliżu.
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/n7k_FwgM9kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe szerokość="800" wysokość="450" src="https://www.youtube.com/embed/n7k_FwgM9kA" title="Odtwarzacz wideo YouTube" Frameborder="0" pozwalają="akcelerometr; autoodtwarzanie; zapis w schowku; multimedia zaszyfrowane; żyroskop; obraz w obrazie; udostępnianie w sieci" zezwoleniefullscreen></iframe>
 
-## Entwicklung i finale Berührungen
+## Rozwój i ostatnie poprawki
 
-Unser Dev-Team unter der Leitung von Kevin arbeitet unermüdlich daran, den Code zu testen i zu verfeinern. Tretet unserem [Techxartisan Discord](/discord) bei, um z unserem Dev- i Beta-Team abzuhängen i o unsere Fortschritte auf dem Laufenden zu bleiben. Währenddessen kümmert sich Billy um alle Papierarbeiten i finalisiert das Design dla unser Produkt, Verpackung i Produkthandbuch.
+Nasz zespół programistów, kierowany przez Kevina, niestrudzenie pracuje nad testowaniem i udoskonalaniem kodu. Dołącz do naszego [Techxartisan's Discord](/discord), aby spędzać czas z naszym zespołem programistów i beta oraz być na bieżąco z naszymi postępami. W międzyczasie Billy zajmuje się całą dokumentacją i finalizuje projekt naszego produktu, opakowania i instrukcji produktu. 
 
-Hier ist ein Vorgeschmack auf unsere aktualisierten Drucke i Etiketten dla das Aluminiumgehäuse, gezeigt in [Kazubus Tweet](https://x.com/_kazubu/status/1803442407800971612), als Billy es z ihm in Tokio, Japan teilte:
+Oto rzut oka na nasze zaktualizowane nadruki i etykiety na aluminiową obudowę, zaprezentowane w [Kazubu’s tweet](https://x.com/_kazubu/status/1803442407800971612), kiedy Billy udostępnił mu je w Tokio w Japonii:
 
 ![openterface-kazubu-tweet-new-look](https://www.crowdsupply.com/img/a680/71cdf2d7-27a3-4b93-8271-b3e82229a680/openterface-kazubu-tweet-new-look_jpg_md-xl.jpg)
 
-## Auf Kurs dla September
+## W planach na wrzesień
 
-Wir sind derzeit genau im Zeitplan i arbeiten hart daran, unsere Mini-KVMs bis Ende September in eure Hände zu bekommen.
+Obecnie działamy zgodnie z harmonogramem i ciężko pracujemy, aby dostarczyć nasze Mini-KVM do końca września.
 
-Wir würden eure Hilfe bei der Verbreitung der Nachricht o unser Mini-KVM schätzen. Wir hoffen, dass es mehr Tech-Enthusiasten zugute kommen i das Tech-Leben dla jeden, der headless Geräte verwaltet, einfacher machen kann.
+Będziemy wdzięczni za pomoc w rozpowszechnianiu informacji o naszym Mini-KVM. Mamy nadzieję, że przyniesie korzyści większej liczbie entuzjastów technologii i ułatwi życie techniczne każdemu, kto zarządza urządzeniami bezgłowymi.
 
-Vielen Dank dla all eure Unterstützung i Begeisterung. Ohne euch hätten wir es nie geschafft!
+Dziękuję bardzo za całe wsparcie i entuzjazm. Nie udałoby nam się to bez Was!
 
-Prost,  
-Billy Wang  
-Openterface-Team
+Pozdrawiam,  
+Billy'ego Wanga  
+Zespół Openterface'a

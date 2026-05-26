@@ -2,86 +2,85 @@
 locale: ru
 translationKey: "250520-kashall-project"
 slug: "250520-kashall-project"
-title: "Openterface Viewer: Kashalls leichte, browserbasierte KVM-Lösung"
-description: "Entdecken Sie Kashalls innovativen Openterface Viewer, eine browserbasierte KVM-Lösung, die direkte Kontrolle von Headless-Geräten ohne Установка ermöglicht. Dieses Open-Source-Projekt nutzt WebUSB-, WebSerial- и WebHID-APIs, um eine leichte, tragbare Alternative zu traditioneller KVM-Программное обеспечение zu bieten, perfekt для IT-Profis и Entwickler."
+title: "Openterface Viewer: легкое KVM-решение Kashall на основе браузера"
+description: "Познакомьтесь с инновационным Openterface Viewer от Kashall — KVM-решением на основе браузера, которое обеспечивает прямое управление безголовыми устройствами без установки. Этот проект с открытым исходным кодом использует API-интерфейсы WebUSB, WebSerial и WebHID, чтобы предоставить легкую и портативную альтернативу традиционному программному обеспечению KVM, идеально подходящую для ИТ-специалистов и разработчиков."
 date: 2025-05-20
 channel: events
 eventType: contest
-topic: ["software", "campaign", "event"]
-category: "Product Обновления"
+topic: ["software", "campaign", "event", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**Openterface Viewer** от Kashall — выдающийся проект **USB-KVM DIY Challenge 2024**, предлагающий легкую альтернативу настольному приложению Openterface_QT с открытым исходным кодом. Этот браузерный KVM-интерфейс работает полностью на стороне клиента в браузерах на базе Chromium и не требует установки или внутреннего сервера. Разработанный для использования с Openterface Mini-KVM, он основан на новых веб-стандартах, таких как WebUSB, WebSerial и WebHID, и представляет собой портативное решение для управления автономными устройствами.
 
-Kashalls **Openterface Viewer** ist ein herausragender Beitrag zur **USB-KVM DIY Challenge 2024**, der eine leichte, Open-Source-Alternative zur Openterface_QT-Desktopanwendung bietet. Diese browserbasierte KVM-Oberfläche läuft vollständig clientseitig in Chromium-basierten Browsern и benötigt keine Установка или Backend-Server. Für die Verwendung с dem Openterface Mini-KVM konzipiert, ist sie auf aufkommenden Web-Standards wie WebUSB, WebSerial и WebHID aufgebaut, um eine tragbare Lösung для die Verwaltung von Headless-Geräten zu bieten.
+![Screenshot of Openterface Viewer Web Interface showing the browser-based control panel](https://assets.openterface.com/images/blog/Kashall-app-ui.webp)
+![Screenshot of Openterface Viewer in action controlling a target device](https://assets.openterface.com/images/blog/Kashall-app-in-action.webp)
 
-![Screenshot der Openterface Viewer Web-Oberfläche, die das browserbasierte Bedienfeld zeigt](https://assets.openterface.com/images/blog/Kashall-app-ui.webp)
-![Screenshot von Openterface Viewer in Aktion beim Steuern eines Zielgeräts](https://assets.openterface.com/images/blog/Kashall-app-in-action.webp)
+## Почему это важно
 
-## Warum es wichtig ist
+Ранняя версия Openterface_QT требовала установки и предлагала только базовые функции. Напротив, Openinterface Viewer:
 
-Die frühe Version von Openterface_QT erforderte eine Установка и bot nur grиlegende Функции. Im Gegensatz dazu bietet Openterface Viewer:
+- Запускается в браузере без необходимости установки.
+- Работает в разных системах благодаря статическому развертыванию.
+- Расширяет функциональность благодаря таким функциям, как ввод с клавиатуры и захват мыши.
+- Демонстрирует возможности современных веб-API для управления оборудованием.
 
--   Läuft im Browser ohne Установкаsbedarf
--   Funktioniert auf verschiedenen Systemen dank statischem Deployment
--   Erweitert die Funktionalität с Features wie Tastatureingabe и Maus-Erfassung
--   Demonstriert die Macht mилиner Web-APIs для Оборудование-Steuerung
+## Ключевые особенности
 
-## Hauptfunktionen
+1. **Работа без установки**
+   Работает напрямую в браузерах на базе Chromium, таких как Chrome — не требуется никакого программного обеспечения или настройки сервера.
 
-1. **Установкаsfreier Betrieb**
-   Funktioniert direkt in Chromium-basierten Browsern wie Chrome — keine Программное обеспечение- или Server-Einrichtung erforderlich.
+2. **Клиентская архитектура**
+   Средство просмотра, созданное как статическое веб-приложение и размещенное на страницах Cloudflare ([openterface-viewer.pages.dev](https://openterface-viewer.pages.dev)), напрямую взаимодействует с Mini-KVM, используя:
 
-2. **Client-seitige Architektur**
-   Als statische Web-App erstellt и auf Cloudflare Pages ([openterface-viewer.pages.dev](https://openterface-viewer.pages.dev)) gehostet, kommuniziert der Viewer direkt с dem Mini-KVM о:
+    - **WebUSB** для видео и управляющих данных
+    - **WebSerial** для настройки.
+    - **WebHID** для ввода с помощью мыши и клавиатуры.
 
-    - **WebUSB** для Video- и Steuerungsdaten
-    - **WebSerial** для Konfiguration
-    - **WebHID** для Maus- и Tastatureingabe
+3. **Легкий и портативный**
+   Идеально подходит для быстрого доступа к различным устройствам — от ноутбуков до планшетов — с минимальным использованием ресурсов.
 
-3. **Leicht и tragbar**
-   Ideal для schnellen Zugriff о verschiedene Setups — von Laptops bis Tablets — с minimalem Ressourcenverbrauch.
+4. **Расширенные функции управления**
+   Улучшены ранние ограничения QT за счет захвата мыши, поддержки ввода с клавиатуры и адаптивного интерфейса.
 
-4. **Erweiterte Steuerungsfunktionen**
-   Verbessert die frühen Einschränkungen von QT с Maus-Erfassung, Tastatureingabe-Unterstützung и responsiver Oberfläche.
+## Реализация
 
-## Implementierung
+- **Кодовая база**: разработана на TypeScript с модульной конструкцией и Vite для быстрой сборки.
+- **Хостинг**: статическое развертывание через Cloudflare Pages.
+- **Зависимости**: включает библиотеки USB и Serialport для низкоуровневого взаимодействия с устройствами.
+- **UI**: адаптивный веб-интерфейс с прямой трансляцией видео, переключателями ввода и поддержкой динамического разрешения.
+- **Обработка ошибок**: включает логику повторного подключения для обработки нестабильного поведения USB API, особенно на портах USB 3.0/3.1.
 
--   **Codebase**: In TypeScript с modularer Architektur и Vite для schnelle Builds entwickelt
--   **Hosting**: Statisches Deployment о Cloudflare Pages
--   **Abhängigkeiten**: Enthält `usb`- и `serialport`-Bibliotheken для Low-Level-Geräteinteraktionen
--   **UI**: Responsive Web-Oberfläche с Live-Video-Feed, Eingabe-Toggles и dynamischer Auflösungsunterstützung
--   **Fehlerbehandlung**: Integriert Reconnection-Logik для den Umgang с instabilem USB-API-Verhalten, besonders auf USB 3.0/3.1-Ports
+## Обзор системы
 
-## Systemоsicht
+- **Хостовое устройство**: любой браузер Chromium (например, Chrome).
+- **Мини-KVM**: подключение к безголовым устройствам через USB и HDMI.
+- **Целевое устройство**: SBC или серверы (например, Jetson Nano).
+- **Связь**: USB (управление + данные), HDMI (видео)
+- **Развертывание**: статическое веб-приложение, размещенное на страницах Cloudflare.
 
--   **Host-Gerät**: Jeder Chromium-basierte Browser (z.B. Chrome)
--   **Mini-KVM**: Verbindet sich с Headless-Geräten о USB и HDMI
--   **Zielgerät**: SBCs или Server (z.B. Jetson Nano)
--   **Kommunikation**: USB (Steuerung + Daten), HDMI (Video)
--   **Deployment**: Statische Web-App gehostet auf Cloudflare Pages
+## Проблемы и ограничения
 
-## Herausforderungen и Einschränkungen
+- WebUSB/WebSerial/WebHID все еще являются экспериментальными и могут вести себя по-разному на разных портах или платформах.
+- Ограничено браузерами на базе Chromium.
+- Разработка средства просмотра иногда отставала от быстрых обновлений QT, хотя вклад Кашалла напрямую влиял на новые функции QT (например, улучшенную поддержку мыши).
 
--   WebUSB/WebSerial/WebHID sind noch experimentell и können sich inkonsistent auf verschiedenen Ports или Plattformen verhalten
--   Beschränkt auf Chromium-basierte Browser
--   Viewer-Entwicklung hinkte gelegentlich den schnellen QT-Обновления hinterher, obwohl Kashalls Beiträge direkt neue Features in QT beeinflussten (z.B. verbesserte Maus-Unterstützung)
+## Влияние
 
-## Auswirkung
+Openterface Viewer меняет представление о доступе к KVM по принципу «подключи и работай» — никаких загрузок и драйверов, просто откройте браузер и приступайте. Это практичный инструмент для:
 
-Openterface Viewer definiert Plug-and-Play-KVM-Zugriff neu — keine Скачатьs, keine Treiber, einfach einen Browser öffnen и loslegen. Es ist ein praktisches Tool для:
+- ИТ-специалистам, которым требуется портативный пульт дистанционного управления.
+- Любители, управляющие SBC и безголовыми устройствами.
+- Разработчики работают на разных платформах, не загромождая настройки.
 
--   IT-Profis, die tragbare Fernsteuerung benötigen
--   Hobbyisten, die SBCs и Headless-Geräte verwalten
--   Entwickler, die plattformоgreifend arbeiten, ohne ihre Einrichtung zu оladen
+Этот проект также подчеркивает растущий потенциал аппаратных веб-интерфейсов, открывая путь для более совершенных кроссплатформенных инструментов в будущем.
 
-Dieses Projekt hebt auch das wachsende Potenzial web-nativer Оборудование-Interfaces hervor и ebnet den Weg для fortschrittlichere, plattformоgreifende Tools in der Zukunft.
+## Исследуйте дальше
 
-## Weiter erkиen
+- Попробуйте прямо сейчас: [openterface-viewer.pages.dev](https://openterface-viewer.pages.dev)
+— Репозиторий GitHub: [github.com/kashalls/openterface-viewer](https://github.com/kashalls/openterface-viewer).
+- Страница конкурса: [USB-KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
 
--   Сейчас ausprobieren: [openterface-viewer.pages.dev](https://openterface-viewer.pages.dev)
--   GitHub-Repository: [github.com/kashalls/openterface-viewer](https://github.com/kashalls/openterface-viewer)
--   Challenge-Seite: [USB-KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
-
-Besonderen Dank an **Kashall** для diese elegante и visionäre Lösung in der USB-KVM DIY Challenge 2024!
+Особая благодарность **Kashall** за это элегантное и дальновидное решение для конкурса USB-KVM DIY Challenge 2024!

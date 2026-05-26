@@ -2,60 +2,59 @@
 locale: nl
 translationKey: "20260408-keymod-connector-feedback"
 slug: "20260408-keymod-connector-feedback"
-title: "KeyMod Update: USB-C vs USB-A Connectors—Prototyp-Fotos en Community-Feedback"
-description: "KeyMod Prototyp-Update: USB-C, USB-A en Hybrid-Layouts voor unseren Telefon-Tastatur-Maus-Emulator. Helfen Sie bei der Wahl des Connectors—Feedback-Formular, YouTube Short en r/homelab."
+title: "KeyMod-update: USB-C versus USB-A-connectoren: prototypefoto's en communityfeedback"
+description: "KeyMod-prototype-update: USB-C-, USB-A- en hybride lay-outs voor onze telefoon-toetsenbord-muis-emulator. Help bij het kiezen van de connector: feedbackformulier, YouTube Short en r/homelab."
 date: 2026-04-08
 channel: product
 product: keymod
-topic: ["beta", "campaign", "community"]
-category: "Product-Updates"
-tags: ["KeyMod", "Product-Updates", "USB", "Prototyp", "Community-Feedback", "Beta"]
+topic: ["shipping", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KeyMod", "Product Updates", "USB", "Prototype", "Community Feedback", "Beta"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+Deze [**KeyMod**](https://openterface.com/product/keymod/) ontwikkelingsupdate heeft betrekking op **fysieke connectorkeuzes** voor onze ultracompacte **toetsenbord-en-muis-emulator**: een apparaat dat uit de weg blijft op uw telefoon totdat u het aansluit voor **HID-bediening**, **IT-probleemoplossing** en **thuislab**-instellingen. Het werk aan firmware en compatibiliteit gaat door; de open vraag is welke **USB-connectorbenadering** (USB-C, USB-A of hybride) het beste past bij echt dagelijks gebruik.
 
-Dieses [**KeyMod**](https://openterface.com/product/keymod/) Entwicklungsupdate behandelt **physische Connector-Auswahlen** voor unseren ultra-kompakten **Tastatur-en-Maus-Emulator**—ein Gerät, das auf Ihrem Telefon niet stört, bis Sie es voor **HID-Steuerung**, **IT-Fehlerbehebung** en **homelab**-Setups einstecken. Firmware- en Kompatibilitätsarbeiten laufen weiter; die offene Frage ist, welcher **USB-Connector-Ansatz** (USB-C, USB-A of Hybrid) am besten zur tatsächlichen täglichen Nutzung passt.
+## Waar we in ontwikkeling zijn
 
-## Wo wir in der Entwicklung stehen
+Het werk aan firmware, prestaties en compatibiliteit gaat vooruit. Het onderwerp waar we momenteel het meest over debatteren is **mechanisch**: welke **USB-connectorindeling** het beste overeenkomt met hoe mensen KeyMod dagelijks zullen gebruiken.
 
-Firmware-, Performance- en Kompatibilitätsarbeiten schreiten voran. Das Thema, das wir derzeit am meisten diskutieren, ist **mechanisch**: welches **USB-Connector-Layout** am besten dazu passt, wie Menschen KeyMod tatsächlich von Tag zu Tag nutzen werden.
+![Openterface KeyMod update cover—prototype connector development](https://assets2.openterface.com/images/youtube-cover.jpg)
 
-![Openterface KeyMod Update-Cover—Prototyp-Connector-Entwicklung](https://assets2.openterface.com/images/youtube-cover.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo A](https://assets2.openterface.com/images/keymod-connector-a.jpg)
 
-![KeyMod-Prototyp-Gehäuse met USB-Connector-Option—Vergleichsfoto A](https://assets2.openterface.com/images/keymod-connector-a.jpg)
+We hebben de indelingen **USB-C**, **USB-A** en **hybride** onderzocht en verschillende prototypebehuizingen **3D-geprint**, zodat we de pasvorm, het gebruik, de wirwar aan kabels en de ergernissen uit de praktijk naast elkaar kunnen vergelijken.
 
-Wir haben **USB-C**, **USB-A** en **Hybrid**-Layouts erkenet en mehrere Prototyp-Gehäuse **3D-gedruckt**, damet wir Passform, Handhabung, Kabelchaos en echte Ärgernisse Seite an Seite vergleichen können.
+![KeyMod prototype housing with USB connector option—comparison photo B](https://assets2.openterface.com/images/keymod-connector-b.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo C](https://assets2.openterface.com/images/keymod-connector-c.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo D](https://assets2.openterface.com/images/keymod-connector-d.jpg)
 
-![KeyMod-Prototyp-Gehäuse met USB-Connector-Option—Vergleichsfoto B](https://assets2.openterface.com/images/keymod-connector-b.jpg)
-![KeyMod-Prototyp-Gehäuse met USB-Connector-Option—Vergleichsfoto C](https://assets2.openterface.com/images/keymod-connector-c.jpg)
-![KeyMod-Prototyp-Gehäuse met USB-Connector-Option—Vergleichsfoto D](https://assets2.openterface.com/images/keymod-connector-d.jpg)
+## USB-C versus USB-A versus hybride: waarom uw mening ertoe doet
 
-## USB-C vs USB-A vs Hybrid: Warum Ihre Meinung zählt
+Verschillende gebruikers kunnen worden aangesloten op **servers**, **laptops**, **thin clients** en **verouderde USB-A-only** apparatuur. Sommigen geven de voorkeur aan **omkeerbare USB-C** aan de telefoonzijde; anderen hebben **USB-A** nodig voor oudere racks of adapters. Een **hybride** lay-out kan flexibiliteit toevoegen, maar ook omvang en kosten. We raden niet: we willen **veldervaring** en **workflowverhalen** van mensen die KeyMod daadwerkelijk zouden gebruiken.
 
-Verschiedene Benutzer stecken **Server**, **Laptops**, **Thin Clients** en **legacy USB-A-only**-Geräte an. Einige bevorzugen **reversibles USB-C** auf der Telefonseite; andere benötigen **USB-A** voor ältere Racks of Adapter. Ein **Hybrid**-Layout kann Flexibilität hinzufügen, aber auch Größe en Kosten. Wir raten niet—wir wollen **Felderfahrung** en **Workflow-Berichte** von Menschen, die KeyMod tatsächlich tragen würden.
+## We willen graag jouw inbreng
 
-## Wir bitten um Ihre Meinung
+Communityfeedback helpt ons te voorkomen dat we in een vacuüm ontwerpen. Als u een paar minuten de tijd heeft, deel dan uw mening via ons **korte feedbackformulier**, of bekijk een korte **persoonlijke uitleg** van de afwegingen tussen de connectoren:
 
-Community-Feedback hilft uns, niet isoliert zu entwickeln. Wenn Sie ein paar Minuten Zeit haben, teilen Sie bitte Ihre Perspektive over unser **kurzes Feedback-Formular** met, of sehen Sie sich eine kurze **persönliche Erklärung** der Connector-Kompromisse an:
+* **[KeyMod connector feedback (Google Form)](https://forms.gle/BS9ARmDBk4TcT7Nr5)**
+* **[Connector formats explained by Billy Wang (YouTube Short)](https://www.youtube.com/shorts/vpQwN9VdOf8)**
 
-*   **[KeyMod-Connector-Feedback (Google Form)](https://forms.gle/BS9ARmDBk4TcT7Nr5)**
-*   **[Connector-Formate erklärt von Billy Wang (YouTube Short)](https://www.youtube.com/shorts/vpQwN9VdOf8)**
+Doordachte, concrete antwoorden zijn het belangrijkst. Voor antwoorden die bijzonder duidelijk en nuttig zijn, kunnen we **een gratis bèta-eenheid aanbieden**, zodat u KeyMod vroegtijdig kunt uitproberen en de ervaring kunt verfijnen.
 
-Durchdachte, konkrete Antwoorden zählen am meisten. Für Antwoorden, die besonders klar en nützlich sind, können wir **eine kostenlose Beta-Einheit anbieten**, damet Sie KeyMod frühzeitig ausprobieren en helfen können, die Erfahrung zu verfeinern.
+Je bent ook welkom om deel te nemen aan de discussie op Reddit: [**We got stuck on this keyboard-emulator format**](https://www.reddit.com/r/homelab/comments/1s9nxut/we_got_stuck_on_this_keyboard_emulator_format/) (r/homelab).
 
-Sie sind auch eingeladen, an der Diskussion auf Reddit teilzunehmen: [**Wir sind bei diesem Tastatur-Emulator-Format stecken geblieben**](https://www.reddit.com/r/homelab/comments/1s9nxut/we_got_stuck_on_this_keyboard_emulator_format/) (r/homelab).
+## Bètabatchtijdlijn
 
-## Zeitplan voor die Beta-Phase
+We bereiden ons voor om binnenkort een **eerste batch bètatesteenheden** te verzenden. Om KeyMod echt te maken, is de steun van de gemeenschap afhankelijk: niet alleen feedback, maar ook **mensen die helpen de boodschap te verspreiden** zodat anderen het project kunnen vinden en mee kunnen denken. Als je **dit product samen met ons vorm wilt geven**, doe dat dan via het formulier, door het te vertellen aan vrienden of collega's die er mogelijk om geven, of door deze update te delen waar het past. Dit is een goed moment om mee te doen.
 
-Wir bereiten uns darauf vor, bald eine **erste Charge von Beta-Test-Einheiten** zu versenden. KeyMod real zu machen, hängt von Community-Unterstützung ab—niet nur Feedback, sondern **Leute, die helfen, das Wort zu verbreiten**, damet andere das Projekt finden en sich einbringen können. Wenn Sie **dieses Product met uns gestalten möchten**, tun Sie es over das Formular, indem Sie Freenen of Kollegen davon erzählen, die es interessieren könnte, of indem Sie dieses Update teilen, wo es passt. Dies ist ein guter Zeitpunkt, um sich zu beteiligen.
+## Makers, beïnvloeders en pers
 
-## Creator, Influencer en Presse
+Als u zich bezighoudt met **technologie, IT of operations** en u wilt **KeyMod** beoordelen of het project onder de aandacht brengen, neem dan contact met ons op via de contactopties op [**openterface.com**](https://openterface.com/). We willen **eerlijke feedback** – wat werkt, wat niet, en waar het moeilijk voelt – omdat zowel lof als kritiek ons ​​helpen om van KeyMod een **tool te maken waarop u kunt vertrouwen voor het dagelijkse IT-werk**, en niet alleen maar een nette demo.
 
-Wenn Sie over **Tech, IT of Operations** berichten en **KeyMod reviewen** of das Projekt vorstellen möchten, nehmen Sie over die Kontaktoptionen auf [**openterface.com**](https://openterface.com/) Kontakt auf. Wir wollen **ehrliches Feedback**—was funktioniert, was niet en wo es sich holprig anfühlt—denn Lob en Kritik helfen uns gleichermaßen, KeyMod in ein **Werkzeug zu verwandeln, auf das Sie sich voor die tägliche IT-Arbeit verlassen können**, niet nur in eine coole Demo.
+Bedankt voor het volgen van het project en voor het nemen van de tijd om deze update te lezen. Open hardware wordt beter als meer mensen aannames testen en het verhaal helpen overbrengen; uw inbreng en uw stem voeden beide de volgende ontwerpiteratie.
 
-Vielen Dank, dass Sie dem Projekt folgen en sich die Zeit genommen haben, dieses Update zu lesen. Open Hardware wird besser, wenn mehr Menschen Annahmen stresstesten en helfen, die Geschichte zu tragen; Ihr Input en Ihre Stimme speisen beide die nächste Design-Iteration.
+Met vriendelijke groet,
 
-Mit freenlichen Grüßen,
-
-Openterface Team | TechxArtisan
+Openterface-team | TechxArtisan

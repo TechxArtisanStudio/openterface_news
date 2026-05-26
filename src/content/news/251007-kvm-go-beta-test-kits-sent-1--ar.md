@@ -2,38 +2,37 @@
 locale: ar
 translationKey: "251007-kvm-go-beta-test-kits-sent-1"
 slug: "251007-kvm-go-beta-test-kits-sent-1"
-title: "KVM-Go HDMI Beta-Charge wird ausgeliefert!"
-description: "Die erste Charge der KVM-Go HDMI Beta-Geräte wurde versandt! Nehmen Sie an unserem Beta-Testprogramm teil, um die nächsten Iterationen dieser ultrakompakten KVM-Lösung معzugestalten. Weitere Testrوen لـ Maker, Sysadmins و IT-Bastler folgen bald."
+title: "تم طرح الدفعة التجريبية من KVM-Go HDMI!"
+description: "تم شحن الدفعة الأولى من أجهزة KVM-Go HDMI التجريبية! انضم إلى برنامج الاختبار التجريبي الخاص بنا للمساعدة في تشكيل التكرارات التالية لحل KVM الصغير للغاية. سيتم طرح المزيد من جولات الاختبار قريبًا للمصنّعين ومسؤولي النظام ومصلحي تكنولوجيا المعلومات."
 date: 2025-10-07
 channel: product
 product: kvm-go
-topic: ["beta", "software", "campaign", "community"]
-category: "منتجupdates"
-tags: ["KVM-Go", "Beta-Test", "Versandupdate", "Community", "منتجentwicklung"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Beta Testing", "Shipping Update", "Community", "Product Development"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+<img src="https://assets.openterface.com/images/kvm-go/beta-test/1.webp" alt="kvm-go-beta-test-1" style="max-width:720px" upload="lazy">
 
-<img src="https://assets.openterface.com/images/kvm-go/beta-test/1.webp" alt="kvm-go-beta-test-1" style="max-width:720px" loading="lazy">
+شكرًا جزيلاً لكل من قام بالتسجيل للانضمام إلى **فريق KVM-GO التجريبي**. لقد قمنا للتو بتعبئة وشحن الدفعة الصغيرة الأولى من الأجهزة التجريبية! 🎉
 
-Großen Dank an alle, die sich angemeldet haben, um unserem **KVM-GO Beta-Team** beizutreten. Wir haben gerade die erste kleine Charge von Beta-Geräten verpackt و versandt! 🎉
+لقد كانت رحلة طويلة جدًا لجعل جهاز KVM الصغير هذا يعمل بالطريقة التي تخيلناها، فهي سهلة الحمل للغاية ولكنها قوية بما يكفي للتعامل مع سير العمل الجاد. لقد واجهنا بعض التحديات الصعبة على طول الطريق (تصبح مشكلات الحرارة حقيقية عندما تدفع دقة أعلى في مثل هذا الجسم الصغير)، ولكننا نواجهها ونتعلم بسرعة بمساعدتك.
 
-Es war eine ziemliche Reise, dieses kompakte kleine KVM so zum Laufen zu bringen, wie wir es uns vorgestellt haben, ultratragbar و dennoch leistungsstark genug, um ernsthafte Workflows zu bewältigen. Wir sind unterwegs auf einige harte Herausforderungen gestoßen (Hitzeprobleme sind real, wenn man höhere Auflösungen in so einem winzigen Gehäuse erreichen will), aber wir arbeiten daran و lernen schnell مع Ihrer Hilfe.
+<img src="https://assets.openterface.com/images/kvm-go/beta-test/6.webp" alt="kvm-go-beta-test-6" style="max-width:720px" upload="lazy">
 
-<img src="https://assets.openterface.com/images/kvm-go/beta-test/6.webp" alt="kvm-go-beta-test-6" style="max-width:720px" loading="lazy">
+نحن نقدر حقًا كل من يدعم رحلتنا في الأجهزة والبرامج مفتوحة المصدر. 🙏 لم يكن هذا المشروع ممكنًا بدون اختبار المجتمع ومشاركة التعليقات ونشر الكلمة.
 
-Wir schätzen wirklich jeden, der unsere Open-Source-الأجهزة- و البرمجيات-Reise unterstützt. 🙏 Dieses Projekt wäre ohne das Community-Testing, das Teilen von Feedback و die Verbreitung لا möglich.
+المزيد من جولات الاختبار التجريبي قادمة، على الرغم من أن الأماكن محدودة. إذا كنت صانعًا أو مسؤول نظام أو متخصصًا في تكنولوجيا المعلومات ويحب دفع الأجهزة إلى أقصى حدودها، فترقب، فسنحتاج إلى مساعدتك لتشكيل التكرارات التالية.
 
-Weitere Beta-Test-Rوen kommen, obwohl die Plätze begrenzt sind. Wenn Sie ein Maker, Sysadmin أو IT-Bastler sind, der es liebt, Geräte an ihre Grenzen zu bringen, bleiben Sie dran, wir werden Ihre Hilfe brauchen, um die nächsten Iterationen zu gestalten.
+<img src="https://assets.openterface.com/images/kvm-go/beta-test/7.webp" alt="kvm-go-beta-test-7" style="max-width:720px" upload="lazy">
 
-<img src="https://assets.openterface.com/images/kvm-go/beta-test/7.webp" alt="kvm-go-beta-test-7" style="max-width:720px" loading="lazy">
+وفي الوقت نفسه:
 
-In der Zwischenzeit:
+* 🔗 **اشترك** على موقعنا [Crowd Supply page](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) للحصول على التحديثات.
+* 🧰 يمكنك أيضًا الحصول على [Openterface Mini-KVM](https://www.crowdsupply.com/techxartisan/mini-kvm) الكلاسيكي الذي تم إعادة تخزينه حديثًا!
+* 📘 لقد قمنا بتجديد [documentation site](https://openterface.com) الخاص بنا بمعلومات مبكرة حول ميزات KVM-GO والأسئلة الشائعة (لا يزال العمل قيد التقدم).
+  حصلت على ردود الفعل أو الاقتراحات؟ تابعنا على **Discord**، **Reddit**، أو أرسل لنا رسالة بالبريد الإلكتروني - فنحن نحب أن نسمع منك.
 
-* 🔗 **Abonnieren** Sie auf unserer [Crowd Supply-Seite](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), um التحديثات zu erhalten.
-* 🧰 Sie können auch unser klassisches [Openterface Mini-KVM](https://www.crowdsupply.com/techxartisan/mini-kvm) erwerben. Frisch aufgestockt!
-* 📘 Wir haben unsere [التوثيقsseite](https://openterface.com) مع frühen Informationen zu KVM-GO-الميزات و FAQs حولarbeitet (noch in Arbeit).
-  Haben Sie Feedback أو Vorschläge? Finden Sie uns auf **Discord**, **Reddit**, أو schicken Sie uns einfach eine E-Mail — wir würden gerne von Ihnen hören.
-
-Bleiben Sie dran 😄 Weitere Entwicklungsgeschichten و Behind-the-Scenes-التحديثات kommen bald!
+ترقبوا المزيد من قصص التطوير والتحديثات من وراء الكواليس قريبًا!

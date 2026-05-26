@@ -2,57 +2,56 @@
 locale: ru
 translationKey: "240430-launch-announcement"
 slug: "240430-launch-announcement"
-title: "Die Openterface Mini-KVM Crowdfиing-Kampagne ist jetzt live!"
-description: "Ankündigung des Starts der Crowdfиing-Kampagne для Openterface Mini-KVM - eine erschwingliche, Open-Source KVM-over-USB-Lösung zur Steuerung von Headless-Computern. Perfekt для IT-Profis, Entwickler и Technik-Enthusiasten, die eine effiziente Geräteverwaltung suchen."
+title: "Краудфандинговая кампания Openinterface Mini-KVM уже началась!"
+description: "Объявляем о запуске краудфандинговой кампании Openterface Mini-KVM — доступного решения KVM-over-USB с открытым исходным кодом для управления автономными компьютерами. Идеально подходит для ИТ-специалистов, разработчиков и технических энтузиастов, которым требуется эффективное управление устройствами."
 date: 2024-04-30
 channel: product
 product: minikvm
 topic: ["beta", "campaign", "community", "analysis"]
-category: "Product Обновления"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Мы рады сообщить, что краудфандинговая кампания для Openterface Mini-KVM уже началась! Это многофункциональное устройство с открытым исходным кодом, управляемое сообществом, упрощает управление и взаимодействие с автономными компьютерами.
 
-Wir freuen uns, bekannt zu geben, dass die Crowdfиing-Kampagne для das Openterface Mini-KVM jetzt live ist! Dieses funktionsreiche, Open-Source и Community-gesteuerte Gerät vereinfacht die Art, wie Sie Headless-Computer steuern и с ihnen interagieren.
+Он предлагает компактное, легкое и быстрое решение KVM-over-USB, которое устраняет необходимость в дополнительных клавиатурах, мышах, мониторах или настройке сети. Вы можете управлять безголовым компьютером непосредственно со своего ноутбука или настольного компьютера, что упрощает настройку и улучшает рабочий процесс.
 
-Es bietet eine kompakte, leichte и schnelle KVM-over-USB-Lösung, die den Bedarf an zusätzlichen Tastaturen, Mäusen, Monitoren или Netzwerkkonfigurationen eliminiert. Sie können einen Headless-Computer direkt von Ihrem Laptop или Desktop-Computer aus steuern, was Ihr Setup vereinfacht и Ihren Workflow verbessert.
-
-Machen Sie с и erleichtern Sie Ihr Tech-Leben!
+Присоединяйтесь к нам и сделайте свою техническую жизнь проще!
 
 ![openterface-mini-kvm-wired-up-mini-kvm-angled-view](https://www.crowdsupply.com/img/418f/c93dc838-7dbf-4281-b6e0-16f1bee6418f/openterface-mini-kvm-wired-up-mini-kvm-angled-view_jpg_gallery-lg.jpg)
 
-### Ein vielseitiges Tool для verschiedene mobile Bedürfnisse
+### Универсальный инструмент для решения различных задач в дороге
 
-Das Openterface Mini-KVM ist der perfekte Begleiter для eine breite Palette von Benutzern и Szenarien:
+Openterface Mini-KVM — идеальный компаньон для широкого круга пользователей и сценариев:
 
-- IT-Profis, die Server troubleshooten
-- Techniker, die ATMs, VLTs и Kioske warten
-- Entwickler, die Edge-Computing-Geräte verwalten
-- Technik-Enthusiasten, die с Single-Board-Computern experimentieren
-- Profis, die sichere lokale Operationen bei Netzwerk-Segregation benötigen, wie diejenigen, die Krypto-Assets verwalten
-- Jeder, der häufig integrierte Workflows zwischen persönlichen и Arbeitscomputern benötigt.
+- ИТ-специалисты по устранению неполадок серверов
+- Техники по обслуживанию банкоматов, VLT и киосков
+- Разработчики, управляющие периферийными вычислительными устройствами
+- Технические энтузиасты, экспериментирующие с одноплатными компьютерами
+- Профессионалы, которым требуются безопасные локальные операции по сегрегации сети, например те, кто управляет криптовалютными активами.
+- Любой, кому нужна частая интеграция рабочих процессов между персональным и рабочим компьютером.
 
 ![use-case-pc-angled-view](https://www.crowdsupply.com/img/4003/335f6301-8abd-4efd-9803-9c6f8c6d4003/use-case-pc-angled-view_jpg_gallery-lg.jpg)
 
-### Von Community-Feedback angetrieben
+### На основе отзывов сообщества
 
-Unser Abenteuer in der Erstellung des Openterface Mini-KVM wurde von unseren eigenen Herausforderungen и dem kollektiven Wunsch nach einem effektiveren Tool inspiriert. Mit einer reichen Geschichte in unserem [TechxArtisan Studio](https://techxartisan.com/en/), das coole Tech-Art-Projekte и Outdoor-IoT-Lösungen entwickelt, standen wir oft vor dem Dilemma, Geräte in unzuverlässigen Netzwerkbedingungen zu verwalten, ohne den Luxus zu haben, zusätzliche Ausrüstung сzutragen. Angetrieben von Gesprächen с Gleichgesinnten и Feedback von einer Community, die unsere Notlage teilt, machten wir uns daran, ein Gerät zu entwickeln, das diese Bedürfnisse direkt angeht и die Kontrolle von Headless-Geräten zuverlässig и mühelos erleichtert.
+Наше предприятие по созданию Openterface Mini-KVM было вызвано нашими собственными проблемами и коллективным стремлением к более эффективному инструменту. Имея богатую историю нашей [TechxArtisan studio](https://techxartisan.com/en/) разработки интересных проектов в области технического искусства и решений IoT для использования на открытом воздухе, мы часто сталкивались с дилеммой управления устройствами в ненадежных сетевых условиях без необходимости носить с собой дополнительное оборудование. Вдохновленные беседами с коллегами и отзывами сообщества, разделяющего наше тяжелое положение, мы решили создать устройство, которое напрямую отвечает этим потребностям, облегчая надежное и легкое управление безголовыми устройствами.
 
-### Der Openterface Mini-KVM Unterschied
+### Отличие Openinterface Mini-KVM
 
-Sie fragen sich vielleicht, warum Sie bei den verschiedenen verfügbaren KVM-Lösungen das Openterface Mini-KVM wählen sollten? Hier ist der Grи:
+Вы можете задаться вопросом, почему при наличии различных KVM-решений стоит выбрать Openterface Mini-KVM? Вот почему:
 
-1. **Kompakt и effizient**: Für IT-Profis и Enthusiasten gleichermaßen konzipiert, glänzt unsere KVM-over-USB-Lösung in Umgebungen с begrenztem или keinem Netzwerkzugang и bietet ein portables, netzwerkunabhängiges и schnelles Troubleshooting-Tool.
+1. **Компактность и эффективность**. Наше решение KVM-over-USB, созданное как для ИТ-специалистов, так и для энтузиастов, отлично подходит для сред с ограниченным или отсутствующим доступом к сети, предлагая портативный, независимый от сети и быстрый инструмент устранения неполадок.
     
-2. **Erschwinglichkeit**: Wir haben hart daran gearbeitet, das Openterface Mini-KVM kosteneffizienter als seine Konkurrenten zu machen и sicherzustellen, dass es для jeden erreichbar ist, der dieses unverzichtbare Tool для Arbeits- или Hobbyprojekte benötigt.
+2. **Доступность**: мы приложили все усилия, чтобы сделать Openterface Mini-KVM более экономичным, чем его аналоги, гарантируя, что он будет доступен каждому, кому нужен этот важный инструмент для работы или хобби.
     
-3. **Community-gesteuert и Open-Source**: Im Kern geht es beim Openterface Mini-KVM darum, eine Community для Innovation и Zusammenarbeit zu fördern. Durch die Übernahme von Open-Source-Werten laden wir Benutzer ein, benutzerdefinierte Функции и Verbesserungen beizutragen, was die Fähigkeiten и Vielseitigkeit des Tools bereichert.
+3. **Управляемый сообществом и открытый исходный код**. По своей сути Openterface Mini-KVM призван способствовать развитию сообщества инноваций и сотрудничества. Принимая ценности открытого исходного кода, мы приглашаем пользователей вносить собственные функции и улучшения, расширяя возможности и универсальность инструмента.
 
-### Bleiben Sie verbиen и engagiert
+### Оставайтесь на связи и участвуйте
 
-Um о die neuesten Entwicklungen auf dem Laufenden zu bleiben, technischen Поддержка zu erhalten и sich с anderen Benutzern zu vernetzen, laden wir Sie ein, unsere [Pre-Launch-Seite](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) auf Crowd Supply zu besuchen, unsere Website unter [openterface.com](/) zu erkиen и unseren Subreddit [r/Openterface_miniKVM](/reddit) и Discord-Communities [TechxArtisan](https://discord.com/invite/4khsrbGS) beizutreten.
+Чтобы быть в курсе последних разработок, получать техническую поддержку и общаться с другими пользователями, мы приглашаем вас посетить наш [Pre-Launch page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) на Crowd Supply, изучить наш веб-сайт [openterface.com](/) и присоединиться к нашему субреддиту [r/Openterface_miniKVM](/reddit) и сообществам Discord [TechxArtisan](https://discord.com/invite/4khsrbGS).
 
-Lassen Sie uns gemeinsam diese aufregende Reise antreten и die Art revolutionieren, wie Sie Headless-Geräte steuern. Machen Sie с и helfen Sie uns, das Openterface Mini-KVM Wirklichkeit werden zu lassen!
+Давайте вместе отправимся в это захватывающее путешествие и изменим способы управления безголовыми устройствами. Присоединяйтесь к нам, чтобы сделать Openterface Mini-KVM реальностью! 
 
-Prost!
+Ваше здоровье!

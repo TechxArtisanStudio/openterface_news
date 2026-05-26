@@ -2,125 +2,124 @@
 locale: nl
 translationKey: "20251127-why-kvm-go"
 slug: "20251127-why-kvm-go"
-title: "Warum das physische Format von KVM-GO so aussieht, wie es aussieht"
-description: "Eine Geschichte hinter den Kulissen der Design-Reise von KVM-GO. Erfahren Sie mehr over die Prototypen, Community-Umfragen, Kompromisse en realen Szenarien, die unser ultra-kompaktes, Plug-and-Go KVM-over-USB-Gerät geprägt haben. Entdecken Sie, warum wir Geschwindigkeit en Portabilität over maximale Flexibilität gewählt haben."
+title: "Waarom het fysieke formaat van KVM-GO er zo uitziet"
+description: "Een verhaal achter de schermen van het ontwerptraject van KVM-GO. Lees meer over de prototypes, community-polls, afwegingen en praktijkscenario's die vorm hebben gegeven aan ons ultracompacte, plug-and-go KVM-over-USB-apparaat. Ontdek waarom we snelheid en draagbaarheid verkozen boven maximale flexibiliteit."
 date: 2025-11-27
 channel: product
 product: kvm-go
-topic: ["software", "campaign", "community", "analysis"]
-category: "Product-Updates"
-tags: ["KVM-GO", "Productdesign", "Hinter den Kulissen", "Productentwicklung", "Design-Geschichte"]
+topic: ["production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Design", "Behind the Scenes", "Product Development", "Design Story"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+### Een verhaal achter de schermen
 
-### Eine Geschichte hinter den Kulissen
+Vanaf het begin ging het bij [Openterface](https://openterface.com/) altijd om het creëren van *real-world tools*. Geen pronkstukken. Geen gimmicks. Gewoon kleine, betrouwbare apparaten die direct werken wanneer u ze het meest nodig heeft.
 
-Von Anfang an ging es bei [Openterface](https://openterface.com/) immer darum, *Werkzeuge voor die reale Welt* zu schaffen. Keine Schaustücke. Keine Spielereien. Nur kleine, zuverlässige Geräte, die sofort funktionieren, wenn Sie sie am dringendsten brauchen.
+Toen we voor het eerst het idee onderzochten om een ​​meer draagbare versie van de [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) te maken, beseften we al snel dat dit niet alleen een hardware-uitdaging was. Het ging ook over het oplossen van echte pijnpunten voor mensen die zich verplaatsen tussen servers, laptops, edge-apparaten, rackapparatuur en allerlei opstellingen. Veel gebruikers moeten snel en onderweg van besturing wisselen, soms onder druk.
 
-Als wir zum ersten Mal die Idee erkeneten, eine portablere Version des [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) zu erstellen, wurde uns schnell klar, dass dies niet nur eine Hardware-Herausforderung war. Es ging auch darum, echte Schmerzpunkte voor Menschen zu lösen, die zwischen Servern, Laptops, Edge-Geräten, Rack-Ausrüstung en allen möglichen Setups wechseln. Viele Benutzer müssen schnell die Kontrolle wechseln, manchmal unter Druck.
+Dit was het startschot voor een gloednieuw ontwerptraject. Eén die uiteindelijk uitgroeide tot KVM-GO, een apparaat dat nog verder gaat in compactheid, snelheid en gemak. We probeerden meerdere concepten uit, vergeleken de voor- en nadelen, debatteerden als gekken en luisterden aandachtig naar wat early adopters en homelab-vrienden met ons deelden. Dat verhaal willen we delen omdat transparantie en vertrouwen altijd de kern van dit project zijn geweest.
 
-Dies startete eine völlig neue Design-Reise. Eine, die sich schließlich zu KVM-GO entwickelte, einem Gerät, das noch weiter in Kompaktheit, Geschwindigkeit en Bequemlichkeit geht. Wir haben mehrere Konzepte ausprobiert, Vor- en Nachteile verglichen, heftig diskutiert en genau zugehört, was Early Adopters en Homelab-Freene met uns teilten. Wir möchten diese Geschichte teilen, weil Transparenz en Vertrauen schon immer der Kern dieses Projekts waren.
+## Wat we hebben geprobeerd: prototypes, peilingen en echte afwegingen
 
-## Was wir versucht haben: Prototypen, Umfragen en echte Kompromisse
-
-Wir haben mehrere mögliche "Formate" erkenet, die wir als Option A, B, C usw. bezeichneten. Jedes repräsentierte eine andere Philosophie bezüglich Videoeingang, Host-Verbinding, Kabel-Flexibilität en Benutzerfreenlichkeit.
+We hebben verschillende mogelijke ‘formaten’ onderzocht, die we Optie A, B, C enzovoort hebben genoemd. Elk vertegenwoordigde een andere filosofie met betrekking tot video-invoer, hostverbinding, kabelflexibiliteit en gebruiksgemak.
 
 ![kvm-go-post-kvm-stick-options-all](https://assets.openterface.com/images/kvm-go/post/kvm-stick-options-all.webp)
 
-### Die beiden Hauptrichtungen waren:
+### De twee hoofdrichtingen waren:
 
-**1. Kabelbasiertes, modulares Design**
-Verwendung eines HDMI-Steckplatzanschlusses en Standardkabel, die Benutzer bereits besitzen.
+**1. Kabelgebaseerd, modulair ontwerp**
+Met behulp van een HDMI-aansluiting en standaardkabels die gebruikers al bezitten.
 
-* **Vorteile:** maximale Flexibilität, einfacher Kabelaustausch, passt sich fast allem an
-* **Nachteile:** Benutzer müssen das richtige Videokabel finden of metführen, was dringende Aufgaben verlangsamt
+* **Voordelen:** maximale flexibiliteit, eenvoudige kabelvervanging, past zich aan bijna alles aan
+* **Nadelen:** gebruikers moeten de juiste videokabel vinden of meenemen, wat urgente taken vertraagt
 
-**2. Plug-in-Stil met eingebauten Steckeranschlüssen**
-Ein Dongle-ähnliches Werkzeug, das direkt in das Zielgerät gesteckt wird, ohne separates Videokabel.
+**2. Plug-in-stijl met ingebouwde connectoren**
+Een dongle-achtig hulpmiddel dat rechtstreeks op het doel wordt aangesloten zonder een aparte videokabel.
 
-* **Vorteile:** "Plug-and-Go"-Geschwindigkeit, ultraschnelle Einrichtung, weniger Gegenstände zum Mitführen, ideal voor Crash-Cart en Notfallnutzung
-* **Nachteile:** weniger flexibel, fester Anschlusstyp, niet voor jedes Szenario geeignet
+* **Voordelen:** “plug and go”-snelheid, ultrasnelle installatie, minder items om mee te nemen, ideaal voor gebruik in een crashcart en in noodgevallen
+* **Nadelen:** minder flexibel, vast connectortype, niet geschikt voor elk scenario
 
-Wir haben auch [eine Community-Umfrage](https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/) auf Reddit durchgeführt. Hier waren die Ergebnisse aus der Homelab-Community:
+We hebben ook [a community poll](https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/) op Reddit uitgevoerd. Hier waren de resultaten van de homelab-gemeenschap:
 
 ![kvm-go-post-KVM-lite-dev-analysis](https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis-2.webp)
 
-Die meisten Menschen bevorzugten das hochflexible, modulare "Option B"-Layout. Das passte perfekt zum Mini-KVM-Design, das sich bereits bei echten Benutzern bewährt hatte. Viele Mini-KVM-Besitzer lieben seine Flexibilität, en diese Umfrage bestätigte erneut, dass wir dieses Format richtig gemacht haben.
+De meeste mensen gaven de voorkeur aan de zeer flexibele, modulaire “Optie B”-indeling. Dat sloot perfect aan bij het Mini-KVM-ontwerp, dat zich al had bewezen bij echte gebruikers. Veel Mini-KVM-eigenaren zijn dol op de flexibiliteit ervan, en deze enquête bevestigde opnieuw dat we dat formaat goed hadden.
 
 ![kvm-go-post-KVM-lite-dev-analysis](https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis.webp)
-*Wir haben diese Optionen in einem detaillierten Vergleichsblatt met Vor-/Nachteilen, Kabel-Szenarien en Kompromissen zusammengestellt.*
+*We hebben deze opties verzameld in een gedetailleerd vergelijkingsblad met voor- en nadelen, kabelscenario's en afwegingen.*
 
-## Warum KVM-GO anders ist
+## Waarom KVM-GO anders is
 
-### Geschwindigkeit, Portabilität en Einfachheit wählen
+### Kiezen voor snelheid, draagbaarheid en eenvoud
 
-Als wir met der Arbeit an dem begannen, was wir zunächst "Mini-KVM Lite" nannten, war der Plan einfach: ein minimales KVM-over-USB-Gerät, das kompakt en funktional war. Mit fortschreitender Entwicklung wurde uns klar, dass wir diese Idee viel weiter treiben konnten. Wir konnten niet nur das Design verkleinern, sondern auch einen echten 4K-Chip, Bluetooth en einen microSD-Leser/Schreiber integrieren.
+Toen we begonnen te werken aan wat we voor het eerst ‘Mini-KVM Lite’ noemden, was het plan eenvoudig: een minimaal KVM-over-USB-apparaat dat compact en functioneel was. Naarmate de ontwikkeling vorderde, beseften we dat we dit idee nog veel verder konden ontwikkelen. We konden niet alleen het ontwerp verkleinen, we konden ook een echte 4K-chip, Bluetooth en een microSD-lezer/-schrijver integreren.
 
-Das Projekt wuchs schnell over "Lite" hinaus, en der Name **KVM-GO** erfasste den Geist dessen, was wir voor Menschen bauen wollten, die in kritischen Momenten Probleme lösen.
+Het project groeide al snel verder dan ‘Lite’ en de naam **KVM-GO** vatte de geest samen van wat we wilden bouwen voor mensen die problemen oplossen op kritieke momenten.
 
-Anstatt die Flexibilität wie beim Mini-KVM zu maximieren, priorisierten wir:
+In plaats van de flexibiliteit te maximaliseren zoals bij de Mini-KVM, hebben we prioriteit gegeven aan:
 
-* Portabilität
-* Plug-and-Play-Geschwindigkeit
-* sofortige Nutzbarkeit
+* draagbaarheid
+* plug-and-play-snelheid
+* onmiddellijke bruikbaarheid
 
-Wir wissen, dass dieses Format niet jedermanns Favorit sein wird, en das ist völlig in Ordnung. Dies ist keine Allzwecklösung.
+We weten dat dit formaat niet ieders favoriet zal zijn, en dat is volkomen oké. Dit is geen one-size-fits-all oplossing.
 
 ![kvm-go-post-design-chat-20241218b](https://assets.openterface.com/images/kvm-go/post/design-chat-20241218b.webp)
 
-*Ende 2024 war dies auch eine der frühen Design-Erkenungen, die half, die Schlüsselanhänger-große Richtung von KVM-GO zu formen en uns dazu brachte, Modularität, Haltbarkeit, Benutzerfreenlichkeit en reale Einschränkungen neu zu overdenken.*
+*Eind 2024 was dit ook een van de eerste ontwerpverkenningen die de richting van KVM-GO op sleutelhangerformaat hielpen vormgeven en ons ertoe aanzette om modulariteit, duurzaamheid, bruikbaarheid en beperkingen in de echte wereld te heroverwegen.*
 
-### Was die Entscheidung antrieb:
+### Wat leidde tot de beslissing:
 
-* In vielen realen Situationen wie Crash-Cart-Arbeit, Rechenzentrums-Racks, Feldreparaturen, Notfallzugriff of mobiler Technik wollen Menschen niet nach einem Videokabel suchen. Sie wollen *einstöpseln en sofort die Kontrolle overnehmen*.
-* Ein eingebauter Stecker-Videoanschluss entfernt diese Reibung. Benutzer benötigen immer noch zwei USB-C-Kabel (eines voor den Host en eines voor Tastatur/Maus-Injektion), aber USB-C-Kabel sind heute overall. Die Notwendigkeit eines Videokabels zu eliminieren reduziert die Einrichtungszeit erheblich.
-* Diese Wahl opfert Flexibilität. Es gibt weniger Adapter- en Kabeloptionen. Dennoch bevorzugen viele Benutzer, die unter Zeitdruck arbeiten, die sofortige "sofort einsatzbereite" Bequemlichkeit.
-* Einige unserer Benutzer arbeiten in ungewöhnlichen of extremen Umgebungen wie der Reparatur von Telekommunikationstürmen, der Arbeit met öffentlichen Sicherheitsgeräten of dem Debuggen von Rennwagen-Edge-Computern. Sie sagen uns wiederholt, dass Geschwindigkeit wichtiger ist als Konfigurierbarkeit.
-* Für Benutzer, die maximale Flexibilität of Unterstützung voor seltene Video-Setups wünschen, bleibt **Mini-KVM unsere Hauptlösung**. KVM-GO ersetzt es niet. Diese beiden Geräte ergänzen sich.
+* In veel praktijksituaties, zoals crashkarwerk, datacenterracks, veldreparaties, noodtoegang of mobiele engineering, willen mensen niet zoeken naar een videokabel. Ze willen *inpluggen en onmiddellijk de controle overnemen*.
+* Een ingebouwde plug-videoconnector neemt die wrijving weg. Gebruikers hebben nog steeds twee USB-C-kabels nodig (één voor de host en één voor toetsenbord-/muisinjectie), maar USB-C-kabels zijn tegenwoordig overal te vinden. Doordat er geen videokabel meer nodig is, wordt de installatietijd aanzienlijk verkort.
+* Deze keuze levert flexibiliteit op. Er zijn minder adapter- en kabelopties. Toch geven veel gebruikers die onder tijdsdruk werken de voorkeur aan het instant ‘ready-to-go’-gemak.
+* Sommige van onze gebruikers werken in ongebruikelijke of extreme omgevingen, zoals het repareren van telecommunicatietorens, het werken met openbare veiligheidsapparatuur of het debuggen van edge-computers in racewagens. Ze vertellen ons herhaaldelijk dat snelheid belangrijker is dan configureerbaarheid.
+* Voor gebruikers die maximale flexibiliteit of ondersteuning voor zeldzame video-opstellingen willen, blijft **Mini-KVM onze belangrijkste oplossing**. KVM-GO vervangt dit niet. Deze twee apparaten vullen elkaar aan.
 
-Obwohl die Umfrage stark zur Modularität neigte, wählten wir voor KVM-GO eine andere Richtung, nachdem wir Nischen-Szenarien untersucht hatten, in denen Geschwindigkeit wertvoller ist als Konfigurierbarkeit. Die Welt brauchte ein zweites Format, niet nur eine Wiederholung von Mini-KVM.
+Hoewel de peiling sterk neigde naar modulariteit, kozen we voor KVM-GO een andere richting na het bestuderen van de nichescenario's waarin snelheid waardevoller is dan configureerbaarheid. De wereld had een tweede format nodig, niet alleen een herhaling van Mini-KVM.
 
-## KVM-GO ist mehr als nur ein Stick
+## KVM-GO is meer dan alleen een stok
 
-### Upgrades over das Formfaktor hinaus
+### Upgrades die verder gaan dan de vormfactor
 
-Das physische Layout ist nur ein Teil der Geschichte. Während der gesamten Entwicklung haben wir fast alles im Inneren des Geräts aufgerüstet.
+De fysieke lay-out is slechts een deel van het verhaal. Tijdens de ontwikkeling hebben we bijna alles in het apparaat geüpgraded.
 
-* Die Software-Unterstützung erstreckt sich jetzt weit over macOS en Windows hinaus. KVM-GO funktioniert met mehreren Linux-Distributionen, Android, iPadOS en Bluetooth-Tastatur/Maus auf iPad. Es gibt auch aktives Community-Interesse an einer Web-App-Version.
-* Der alte schaltbare USB-Port wurde durch einen **schaltbaren microSD-Steckplatz** ersetzt, der entweder am Host of am Zielgerät montiert werden kann. KVM-GO kann jetzt den microSD-Leser in Ihrer Tasche ersetzen en eliminiert auch die Notwendigkeit, ein separates USB-Videoaufnahmegerät voor grenlegende Aufgaben metzuführen.
-* Wir haben einen **viel leistungsstärkeren Videoprozessor-Chip** hinzugefügt, der echte 4K ausgibt. Viele konkurrierende Geräte werben met "4K", unterstützen aber nur 4K-Eingang, während sie 1080p ausgeben. KVM-GO bietet echte 4K-Ausgabe.
-* Hohe Leistung in einem kompakten Gehäuse schuf eine neue Herausforderung: Wärme. Die Dichte ist hoch, en wir feinen das Kühlsystem durch aktive Belastungstests ab.
+* Softwareondersteuning reikt nu veel verder dan macOS en Windows. KVM-GO werkt met meerdere Linux-distributies, Android, iPadOS en Bluetooth-toetsenbord/muis op iPad. Er is ook actieve belangstelling van de gemeenschap voor een webapp-versie.
+* De oude schakelbare USB-poort is vervangen door een **schakelbare microSD-sleuf** die op een host of doel kan worden aangesloten. KVM-GO kan nu de microSD-lezer in uw tas vervangen en maakt het ook niet meer nodig om een ​​apart USB-video-opnameapparaat mee te nemen voor basistaken.
+* We hebben een **veel krachtigere videoprocessorchip** toegevoegd die echte 4K uitvoert. Veel concurrerende apparaten adverteren met ‘4K’, maar ondersteunen alleen 4K-invoer terwijl ze 1080p uitvoeren. KVM-GO biedt echte 4K-uitvoer.
+* Hoge prestaties in een compacte behuizing creëerden een nieuwe uitdaging: hitte. De dichtheid is hoog en we zijn het koelsysteem aan het verfijnen door middel van actieve stresstests.
 
 ![heat-challenge-202509](https://assets.openterface.com/images/kvm-go/post/heat-challenge-202509.webp)
 
-*Kevin bespricht die Wärmetaktik met [Ryan Dunwoody](https://www.linkedin.com/in/ryandunwoody/) von Powerhouse Engineering. Ryans Erfahrung war von unschätzbarem Wert. Echte 4K-Leistung in einen so winzigen Körper zu packen, führte zu unerwarteten Wärmedichte-Problemen, en er half uns, Luftströmung, Kupfer-Layout, Wärmeausbreitung en langfristige Zuverlässigkeit neu zu overdenken. Danke, Ryan, voor die frühe Handleiding.*
+*Kevin bespreekt de thermische tactiek met [Ryan Dunwoody](https://www.linkedin.com/in/ryandunwoody/) van Powerhouse Engineering. Ryans ervaring is van onschatbare waarde geweest. Door echte 4K-prestaties in zo'n klein lichaam te stoppen, kwamen er onverwachte problemen met de warmtedichtheid, en hij hielp ons bij het heroverwegen van de luchtstroom, de koperindeling, de warmteverspreiding en de betrouwbaarheid op de lange termijn. Bedankt, Ryan, voor de vroege begeleiding.*
 
-Zusammen verwandeln diese Upgrades KVM-GO in ein tragbares, zukunftssicheres, immer bereites Werkzeug.
+Samen maken deze upgrades KVM-GO tot een draagbaar, toekomstbestendig en altijd gereed hulpmiddel.
 
 ![prototype-first](https://assets.openterface.com/images/kvm-go/post/prototype-first.webp)
 
-*Hier ist einer der frühesten KVM-GO-Prototypen, nur eine nackte Leiterplatte in der Hand. Rau en winzig, aber er bewies, dass die Idee echtes Potenzial hatte.*
+*Hier is een van de eerste KVM-GO-prototypes, met slechts een kale printplaat in de hand. Ruw en klein, maar het bewees dat het idee echt potentieel had.*
 
-## Was das alles bedeutet
+## Wat dit allemaal betekent
 
-Unser Ziel met KVM-GO war es, ein Werkzeug zu schaffen, das sich fast unsichtbar anfühlt, wenn Sie es brauchen. Sie nehmen es heraus, stecken es ein en overnehmen sofort die Kontrolle. Keine Videokabel-Suche. Kein "Ich habe den HDMI-Adapter zu Hause vergessen". Nur sofortiger Zugriff.
+Ons doel met KVM-GO was om een ​​tool te creëren die bijna onzichtbaar aanvoelt wanneer je hem nodig hebt. Je haalt hem eruit, sluit hem aan en neemt meteen de controle over. Geen speurtocht naar videokabels. Nee “Ik ben de HDMI-adapter thuis vergeten.” Gewoon direct toegang.
 
-KVM-GO ist eine **tragbare, 4K-fähige, Multi-OS, Crash-Cart-freenliche** KVM-over-USB-Lösung, gebaut voor echte Benutzer en echte Szenarien.
+KVM-GO is een **draagbare, 4K-compatibele, multi-OS, crash-cart-vriendelijke** KVM-over-USB-oplossing, gebouwd voor echte gebruikers en echte scenario's.
 
-Einige Menschen werden weiterhin maximale Modularität bevorzugen. Genau deshalb existiert [Mini-KVM](https://openterface.com/product/minikvm/). (Und ja, Sie können es jetzt noch kaufen… zwinker zwinker :D)
+Sommige mensen zullen de voorkeur blijven geven aan maximale modulariteit. Dat is precies waarom [Mini-KVM](https://openterface.com/product/minikvm/) bestaat. (En ja, je kunt het nu nog steeds kopen… knipoog: D)
 
-Aber voor Reisen, Rechenzentrumsarbeit, Wartung unterwegs of Notfall-Debugging könnte KVM-GO das Format sein, das den Sweet Spot trifft.
+Maar voor reizen, datacenterwerk, onderhoud onderweg of het opsporen van fouten in noodgevallen is KVM-GO wellicht het ideale formaat.
 
-## Danke
+## Bedankt
 
-### Und was kommt als Nächstes
+### En wat is het volgende
 
-Danke an alle, die an der Reddit-Diskussion teilgenommen, die Umfrage ausgefüllt, Feedback geteilt en schwierige Vragen gestellt haben. Ohne Ihren Input hätten wir vielleicht weiterhin perfekte Modularität verfolgt, anstatt uns auf das zu konzentrieren, was viele Benutzer wirklich brauchen.
+Bedankt aan iedereen die heeft deelgenomen aan de Reddit-discussie, de enquête heeft ingevuld, feedback heeft gedeeld en lastige vragen heeft gesteld. Zonder jouw inbreng waren we misschien blijven streven naar perfecte modulariteit in plaats van ons te concentreren op wat veel gebruikers echt nodig hebben.
 
-Wir verfeinern weiterhin sowohl Hardware als auch Software. Weitere Updates werden folgen. Wenn Sie Gedanken of Vorschläge haben, senden Sie uns gerne eine E-Mail an **[support@openterface.com](mailto:support@openterface.com)** of treten Sie unserem **Openterface Discord** bei. Wir lesen jede Nachricht.
+We blijven zowel de hardware als de software verfijnen. Meer updates zullen volgen. Als u ideeën of suggesties heeft, kunt u ons een e-mail sturen op **[support@openterface.com](mailto:support@openterface.com)** of lid worden van onze **Openterface Discord**. Wij lezen elk bericht.
 
-Wenn Ihnen gefällt, was wir bauen, erwägen Sie bitte, KVM-GO zu unterstützen en uns zu helfen, **das Wort zu verbreiten**. Die Kampagne met einem Freen of einer Community zu teilen macht einen enormen Unterschied voor ein kleines Team wie unseres. **Wir bauen dies voor Sie en wegen Ihnen.**
+Als het je bevalt wat we bouwen, overweeg dan om KVM-GO te steunen en ons te helpen **het woord te verspreiden**. Het delen van de campagne met een vriend of community maakt een groot verschil voor een klein team als het onze. **Wij bouwen dit voor jou, en dankzij jou.**
 
-**Openterface / TechxArtisan Team**
+**Openterface / TechxArtisan-team**

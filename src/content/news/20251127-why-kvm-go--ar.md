@@ -2,125 +2,124 @@
 locale: ar
 translationKey: "20251127-why-kvm-go"
 slug: "20251127-why-kvm-go"
-title: "Warum das physische Format von KVM-GO so aussieht, wie es aussieht"
-description: "Eine Geschichte hinter den Kulissen der Design-Reise von KVM-GO. Erfahren Sie mehr حول die Prototypen, Community-Umfragen, Kompromisse و realen Szenarien, die unser ultra-kompaktes, Plug-and-Go KVM-over-USB-Gerät geprägt haben. Entdecken Sie, warum wir Geschwindigkeit و Portabilität حول maximale Flexibilität gewählt haben."
+title: "لماذا يبدو التنسيق المادي لـ KVM-GO بهذه الطريقة"
+description: "قصة من وراء الكواليس لرحلة تصميم KVM-GO. تعرف على النماذج الأولية، واستطلاعات الرأي المجتمعية، والمقايضات، وسيناريوهات العالم الحقيقي التي شكلت جهاز KVM-over-USB فائق الصغر، والذي يمكن توصيله بالتوصيل والتشغيل. اكتشف سبب اختيارنا للسرعة وسهولة النقل بدلاً من المرونة القصوى."
 date: 2025-11-27
 channel: product
 product: kvm-go
-topic: ["software", "campaign", "community", "analysis"]
-category: "منتج-التحديثات"
-tags: ["KVM-GO", "منتجdesign", "Hinter den Kulissen", "منتجentwicklung", "Design-Geschichte"]
+topic: ["production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Design", "Behind the Scenes", "Product Development", "Design Story"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+### قصة من وراء الكواليس
 
-### Eine Geschichte hinter den Kulissen
+منذ البداية، كان [Openterface](https://openterface.com/) دائمًا يدور حول إنشاء *أدوات واقعية*. ليست تحف. ليست حيل. مجرد أجهزة صغيرة وموثوقة تعمل على الفور عندما تكون في أمس الحاجة إليها.
 
-Von Anfang an ging es bei [Openterface](https://openterface.com/) immer darum, *Werkzeuge لـ die reale Welt* zu schaffen. Keine Schaustücke. Keine Spielereien. Nur kleine, zuverlässige Geräte, die sofort funktionieren, wenn Sie sie am dringendsten brauchen.
+عندما استكشفنا لأول مرة فكرة إنشاء نسخة محمولة أكثر من [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)، أدركنا سريعًا أن هذا لم يكن مجرد تحدي للأجهزة. كان الأمر يتعلق أيضًا بحل نقاط الضعف الحقيقية للأشخاص الذين يتنقلون بين الخوادم وأجهزة الكمبيوتر المحمولة والأجهزة الطرفية وأجهزة الحامل وجميع أنواع الإعدادات. يحتاج العديد من المستخدمين إلى تبديل التحكم بسرعة وأثناء التنقل، وأحيانًا تحت الضغط.
 
-Als wir zum ersten Mal die Idee erkوeten, eine portablere Version des [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) zu erstellen, wurde uns schnell klar, dass dies لا nur eine الأجهزة-Herausforderung war. Es ging auch darum, echte Schmerzpunkte لـ Menschen zu lösen, die zwischen Servern, Laptops, Edge-Geräten, Rack-Ausrüstung و allen möglichen Setups wechseln. Viele Benutzer müssen schnell die Kontrolle wechseln, manchmal unter Druck.
+بدأ هذا رحلة تصميم جديدة تمامًا. جهاز تطور في النهاية إلى KVM-GO، وهو جهاز يدفع إلى أبعد من ذلك من حيث الحجم الصغير والسرعة والراحة. لقد جربنا مفاهيم متعددة، وقارننا بين الإيجابيات والسلبيات، وتناقشنا بجنون، واستمعنا عن كثب إلى ما شاركه معنا المتبنون الأوائل وأصدقاؤنا في مختبرنا المنزلي. نريد أن نشارك هذه القصة لأن الشفافية والثقة كانتا دائمًا جوهر هذا المشروع.
 
-Dies startete eine völlig neue Design-Reise. Eine, die sich schließlich zu KVM-GO entwickelte, einem Gerät, das noch weiter in Kompaktheit, Geschwindigkeit و Bequemlichkeit geht. Wir haben mehrere Konzepte ausprobiert, Vor- و Nachteile verglichen, heftig diskutiert و genau zugehört, was Early Adopters و Homelab-Freوe مع uns teilten. Wir möchten diese Geschichte teilen, weil Transparenz و Vertrauen schon immer der Kern dieses Projekts waren.
+## ما جربناه: النماذج الأولية واستطلاعات الرأي والمقايضات الحقيقية
 
-## Was wir versucht haben: Prototypen, Umfragen و echte Kompromisse
-
-Wir haben mehrere mögliche "Formate" erkوet, die wir als Option A, B, C usw. bezeichneten. Jedes repräsentierte eine andere Philosophie bezüglich Videoeingang, Host-الاتصال, Kabel-Flexibilität و Benutzerfreوlichkeit.
+لقد استكشفنا العديد من "الصيغ" المحتملة، والتي أطلقنا عليها اسم "الخيارات أ" و"ب" و"ج" وما إلى ذلك. يمثل كل منها فلسفة مختلفة فيما يتعلق بإدخال الفيديو، واتصال المضيف، ومرونة الكابل وسهولة الاستخدام.
 
 ![kvm-go-post-kvm-stick-options-all](https://assets.openterface.com/images/kvm-go/post/kvm-stick-options-all.webp)
 
-### Die beiden Hauptrichtungen waren:
+### الاتجاهان الرئيسيان هما:
 
-**1. Kabelbasiertes, modulares Design**
-Verwendung eines HDMI-Steckplatzanschlusses و Standardkabel, die Benutzer bereits besitzen.
+**1. تصميم معياري قائم على الكابلات**
+استخدام منفذ مقبس HDMI والكابلات القياسية التي يمتلكها المستخدمون بالفعل.
 
-* **Vorteile:** maximale Flexibilität, einfacher Kabelaustausch, passt sich fast allem an
-* **Nachteile:** Benutzer müssen das richtige Videokabel finden أو معführen, was dringende Aufgaben verlangsamt
+* **الإيجابيات:** أقصى قدر من المرونة، وسهولة استبدال الكابل، والتكيف مع أي شيء تقريبًا
+* **السلبيات:** يجب على المستخدمين العثور على كابل الفيديو الصحيح أو حمله، مما يؤدي إلى إبطاء المهام العاجلة
 
-**2. Plug-in-Stil مع eingebauten Steckeranschlüssen**
-Ein Dongle-ähnliches Werkzeug, das direkt in das Zielgerät gesteckt wird, ohne separates Videokabel.
+**2. نمط المكونات الإضافية مع موصلات المكونات المدمجة**
+أداة تشبه الدونجل يتم توصيلها مباشرة بالهدف بدون كابل فيديو منفصل.
 
-* **Vorteile:** "Plug-and-Go"-Geschwindigkeit, ultraschnelle Einrichtung, weniger Gegenstände zum Mitführen, ideal لـ Crash-Cart و Notfallnutzung
-* **Nachteile:** weniger flexibel, fester Anschlusstyp, لا لـ jedes Szenario geeignet
+* **الإيجابيات:** سرعة "التوصيل والتشغيل"، وإعداد فائق السرعة، وعدد أقل من العناصر التي يمكن حملها، ومثالية لعربة التصادم والاستخدام في حالات الطوارئ
+* **السلبيات:** نوع موصل أقل مرونة وثابت وغير مناسب لكل السيناريوهات
 
-Wir haben auch [eine Community-Umfrage](https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/) auf Reddit durchgeführt. Hier waren die Ergebnisse aus der Homelab-Community:
+قمنا أيضًا بتشغيل [a community poll](https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/) على Reddit. فيما يلي النتائج من مجتمع homelab:
 
 ![kvm-go-post-KVM-lite-dev-analysis](https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis-2.webp)
 
-Die meisten Menschen bevorzugten das hochflexible, modulare "Option B"-Layout. Das passte perfekt zum Mini-KVM-Design, das sich bereits bei echten Benutzern bewährt hatte. Viele Mini-KVM-Besitzer lieben seine Flexibilität, و diese Umfrage bestätigte erneut, dass wir dieses Format richtig gemacht haben.
+فضل معظم الأشخاص تخطيط "الخيار ب" المعياري عالي المرونة. ويتطابق ذلك تمامًا مع تصميم Mini-KVM، الذي أثبت نفسه بالفعل مع مستخدمين حقيقيين. يحب العديد من مالكي Mini-KVM مرونته، وقد أكد هذا الاستطلاع مرة أخرى أننا حصلنا على هذا التنسيق بشكل صحيح.
 
 ![kvm-go-post-KVM-lite-dev-analysis](https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis.webp)
-*Wir haben diese Optionen in einem detaillierten Vergleichsblatt مع Vor-/Nachteilen, Kabel-Szenarien و Kompromissen zusammengestellt.*
+*قمنا بتجميع هذه الخيارات في ورقة مقارنة تفصيلية تتضمن الإيجابيات/السلبيات وسيناريوهات الكابلات والمقايضات.*
 
-## Warum KVM-GO anders ist
+## لماذا يختلف KVM-GO
 
-### Geschwindigkeit, Portabilität و Einfachheit wählen
+### اختيار السرعة وقابلية النقل والبساطة
 
-Als wir مع der Arbeit an dem begannen, was wir zunächst "Mini-KVM Lite" nannten, war der Plan einfach: ein minimales KVM-over-USB-Gerät, das kompakt و funktional war. Mit fortschreitender Entwicklung wurde uns klar, dass wir diese Idee viel weiter treiben konnten. Wir konnten لا nur das Design verkleinern, sondern auch einen echten 4K-Chip, Bluetooth و einen microSD-Leser/Schreiber integrieren.
+عندما بدأنا العمل على ما أطلقنا عليه في البداية "Mini-KVM Lite"، كانت الخطة بسيطة: جهاز KVM-over-USB بسيط الحجم وفعال. ومع تقدم عملية التطوير، أدركنا أنه بإمكاننا دفع هذه الفكرة إلى أبعد من ذلك بكثير. لا يمكننا تقليص التصميم فحسب، بل يمكننا أيضًا دمج شريحة 4K حقيقية وبلوتوث وقارئ/كاتب microSD.
 
-Das Projekt wuchs schnell حول "Lite" hinaus, و der Name **KVM-GO** erfasste den Geist dessen, was wir لـ Menschen bauen wollten, die in kritischen Momenten Probleme lösen.
+وسرعان ما تطور المشروع إلى ما هو أبعد من "Lite"، وجسد الاسم **KVM-GO** روح ما أردنا بناءه للأشخاص الذين يحلون المشكلات في اللحظات الحرجة.
 
-Anstatt die Flexibilität wie beim Mini-KVM zu maximieren, priorisierten wir:
+بدلاً من زيادة المرونة مثل Mini-KVM، أعطينا الأولوية لما يلي:
 
-* Portabilität
-* Plug-and-Play-Geschwindigkeit
-* sofortige Nutzbarkeit
+* قابلية النقل
+* سرعة التوصيل والتشغيل
+* سهولة الاستخدام الفوري
 
-Wir wissen, dass dieses Format لا jedermanns Favorit sein wird, و das ist völlig in Ordnung. Dies ist keine Allzwecklösung.
+نحن نعلم أن هذا التنسيق لن يكون المفضل لدى الجميع، وهذا أمر جيد تمامًا. وهذا ليس حلاً واحدًا يناسب الجميع.
 
 ![kvm-go-post-design-chat-20241218b](https://assets.openterface.com/images/kvm-go/post/design-chat-20241218b.webp)
 
-*Ende 2024 war dies auch eine der frühen Design-Erkوungen, die half, die Schlüsselanhänger-große Richtung von KVM-GO zu formen و uns dazu brachte, Modularität, Haltbarkeit, Benutzerfreوlichkeit و reale Einschränkungen neu zu حولdenken.*
+*في أواخر عام 2024، كان هذا أيضًا أحد استكشافات التصميم المبكرة التي ساعدت في تشكيل اتجاه حجم سلسلة المفاتيح لـ KVM-GO ودفعتنا إلى إعادة التفكير في الوحدات النمطية والمتانة وسهولة الاستخدام والقيود الواقعية.*
 
-### Was die Entscheidung antrieb:
+### ما الذي دفع إلى اتخاذ القرار:
 
-* In vielen realen Situationen wie Crash-Cart-Arbeit, Rechenzentrums-Racks, Feldreparaturen, Notfallzugriff أو mobiler Technik wollen Menschen لا nach einem Videokabel suchen. Sie wollen *einstöpseln و sofort die Kontrolle حولnehmen*.
-* Ein eingebauter Stecker-Videoanschluss entfernt diese Reibung. Benutzer benötigen immer noch zwei USB-C-Kabel (eines لـ den Host و eines لـ Tastatur/Maus-Injektion), aber USB-C-Kabel sind heute حولall. Die Notwendigkeit eines Videokabels zu eliminieren reduziert die Einrichtungszeit erheblich.
-* Diese Wahl opfert Flexibilität. Es gibt weniger Adapter- و Kabeloptionen. Dennoch bevorzugen viele Benutzer, die unter Zeitdruck arbeiten, die sofortige "sofort einsatzbereite" Bequemlichkeit.
-* Einige unserer Benutzer arbeiten in ungewöhnlichen أو extremen Umgebungen wie der Reparatur von Telekommunikationstürmen, der Arbeit مع öffentlichen Sicherheitsgeräten أو dem Debuggen von Rennwagen-Edge-Computern. Sie sagen uns wiederholt, dass Geschwindigkeit wichtiger ist als Konfigurierbarkeit.
-* Für Benutzer, die maximale Flexibilität أو Unterstützung لـ seltene Video-Setups wünschen, bleibt **Mini-KVM unsere Hauptlösung**. KVM-GO ersetzt es لا. Diese beiden Geräte ergänzen sich.
+* في العديد من المواقف الواقعية مثل العمل في عربة التسوق أو رفوف مركز البيانات أو الإصلاحات الميدانية أو الوصول في حالات الطوارئ أو هندسة الهاتف المحمول، لا يرغب الأشخاص في البحث عن كابل فيديو. إنهم يريدون *التوصيل والتحكم على الفور*.
+* يعمل موصل الفيديو المدمج على إزالة هذا الاحتكاك. لا يزال المستخدمون بحاجة إلى كابلين USB-C (واحد للمضيف والآخر لإدخال لوحة المفاتيح/الماوس)، ولكن كابلات USB-C موجودة في كل مكان اليوم. يؤدي التخلص من الحاجة إلى كابل فيديو إلى تقليل وقت الإعداد بشكل كبير.
+* هذا الاختيار يضحي بالمرونة. هناك عدد أقل من خيارات المحول والكابلات. ومع ذلك، فإن العديد من المستخدمين الذين يعملون تحت ضغط الوقت يفضلون الراحة الفورية "الجاهزة للانطلاق".
+* يعمل بعض مستخدمينا في بيئات غير عادية أو قاسية مثل إصلاح أبراج الاتصالات، أو العمل مع معدات السلامة العامة، أو تصحيح أخطاء أجهزة الكمبيوتر الطرفية الخاصة بسيارات السباق. يخبروننا مرارًا وتكرارًا أن السرعة مهمة أكثر من قابلية التهيئة.
+* بالنسبة للمستخدمين الذين يريدون أقصى قدر من المرونة أو الدعم لإعدادات الفيديو النادرة، **يظل Mini-KVM هو الحل الرئيسي لدينا**. KVM-GO لا يحل محله. وهذان الجهازان يكملان بعضهما البعض.
 
-Obwohl die Umfrage stark zur Modularität neigte, wählten wir لـ KVM-GO eine andere Richtung, nachdem wir Nischen-Szenarien untersucht hatten, in denen Geschwindigkeit wertvoller ist als Konfigurierbarkeit. Die Welt brauchte ein zweites Format, لا nur eine Wiederholung von Mini-KVM.
+على الرغم من أن الاستطلاع كان يميل بقوة نحو النمطية، فقد اخترنا اتجاهًا مختلفًا لـ KVM-GO بعد دراسة السيناريوهات المتخصصة حيث تكون السرعة أكثر قيمة من قابلية التهيئة. كان العالم بحاجة إلى تنسيق ثانٍ، وليس مجرد تكرار لـ Mini-KVM.
 
-## KVM-GO ist mehr als nur ein Stick
+## KVM-GO أكثر من مجرد عصا
 
-### Upgrades حول das Formfaktor hinaus
+### ترقيات تتجاوز عامل الشكل
 
-Das physische Layout ist nur ein Teil der Geschichte. Während der gesamten Entwicklung haben wir fast alles im Inneren des Geräts aufgerüstet.
+التصميم المادي ليس سوى جزء واحد من القصة. طوال فترة التطوير، قمنا بترقية كل شيء تقريبًا داخل الجهاز.
 
-* Die البرمجيات-Unterstützung erstreckt sich jetzt weit حول macOS و Windows hinaus. KVM-GO funktioniert مع mehreren Linux-Distributionen, Android, iPadOS و Bluetooth-Tastatur/Maus auf iPad. Es gibt auch aktives Community-Interesse an einer Web-App-Version.
-* Der alte schaltbare USB-Port wurde durch einen **schaltbaren microSD-Steckplatz** ersetzt, der entweder am Host أو am Zielgerät montiert werden kann. KVM-GO kann jetzt den microSD-Leser in Ihrer Tasche ersetzen و eliminiert auch die Notwendigkeit, ein separates USB-Videoaufnahmegerät لـ grوlegende Aufgaben معzuführen.
-* Wir haben einen **viel leistungsstärkeren Videoprozessor-Chip** hinzugefügt, der echte 4K ausgibt. Viele konkurrierende Geräte werben مع "4K", unterstützen aber nur 4K-Eingang, während sie 1080p ausgeben. KVM-GO bietet echte 4K-Ausgabe.
-* Hohe Leistung in einem kompakten Gehäuse schuf eine neue Herausforderung: Wärme. Die Dichte ist hoch, و wir feinen das Kühlsystem durch aktive Belastungstests ab.
+* يمتد دعم البرامج الآن إلى ما هو أبعد من نظامي التشغيل macOS وWindows. يعمل KVM-GO مع العديد من توزيعات Linux وAndroid وiPadOS ولوحة مفاتيح/ماوس Bluetooth على iPad. هناك اهتمام مجتمعي نشط بإصدار تطبيق الويب أيضًا.
+* تم استبدال منفذ USB القديم القابل للتحويل بـ **فتحة microSD قابلة للتحويل** والتي يمكن تركيبها على المضيف أو الهدف. يمكن لـ KVM-GO الآن أن يحل محل قارئ microSD في حقيبتك، كما يلغي الحاجة إلى حمل جهاز التقاط فيديو USB منفصل للمهام الأساسية.
+* أضفنا **شريحة معالج فيديو أكثر قوة** والتي تنتج دقة 4K حقيقية. تعلن العديد من الأجهزة المنافسة عن "4K" ولكنها تدعم إدخال 4K فقط أثناء إخراج 1080 بكسل. يوفر KVM-GO إخراجًا حقيقيًا بدقة 4K.
+* خلق الأداء العالي في هيكل مدمج تحديًا جديدًا: الحرارة. الكثافة عالية، ونحن نقوم بضبط نظام التبريد من خلال اختبار الضغط النشط.
 
 ![heat-challenge-202509](https://assets.openterface.com/images/kvm-go/post/heat-challenge-202509.webp)
 
-*Kevin bespricht die Wärmetaktik مع [Ryan Dunwoody](https://www.linkedin.com/in/ryandunwoody/) von Powerhouse Engineering. Ryans Erfahrung war von unschätzbarem Wert. Echte 4K-Leistung in einen so winzigen Körper zu packen, führte zu unerwarteten Wärmedichte-Problemen, و er half uns, Luftströmung, Kupfer-Layout, Wärmeausbreitung و langfristige Zuverlässigkeit neu zu حولdenken. Danke, Ryan, لـ die frühe دليل.*
+*كيفن يراجع التكتيك الحراري مع [Ryan Dunwoody](https://www.linkedin.com/in/ryandunwoody/) من شركة Powerhouse Engineering. لقد كانت تجربة رايان لا تقدر بثمن. أدى تعبئة أداء 4K الحقيقي في مثل هذا الجسم الصغير إلى ظهور مشكلات غير متوقعة تتعلق بكثافة الحرارة، وقد ساعدنا في إعادة التفكير في تدفق الهواء والتخطيط النحاسي وانتشار الحرارة والموثوقية على المدى الطويل. شكرًا لك رايان على التوجيه المبكر.*
 
-Zusammen verwandeln diese Upgrades KVM-GO in ein tragbares, zukunftssicheres, immer bereites Werkzeug.
+تعمل هذه الترقيات معًا على تحويل KVM-GO إلى أداة محمولة وجاهزة للمستقبل وجاهزة دائمًا.
 
 ![prototype-first](https://assets.openterface.com/images/kvm-go/post/prototype-first.webp)
 
-*Hier ist einer der frühesten KVM-GO-Prototypen, nur eine nackte Leiterplatte in der Hand. Rau و winzig, aber er bewies, dass die Idee echtes Potenzial hatte.*
+*إليك أحد أقدم نماذج KVM-GO، وهو مجرد لوحة PCB عارية في متناول اليد. خشنة وصغيرة الحجم، لكنها أثبتت أن الفكرة لها إمكانات حقيقية.*
 
-## Was das alles bedeutet
+## ماذا يعني كل هذا
 
-Unser Ziel مع KVM-GO war es, ein Werkzeug zu schaffen, das sich fast unsichtbar anfühlt, wenn Sie es brauchen. Sie nehmen es heraus, stecken es ein و حولnehmen sofort die Kontrolle. Keine Videokabel-Suche. Kein "Ich habe den HDMI-Adapter zu Hause vergessen". Nur sofortiger Zugriff.
+كان هدفنا مع KVM-GO هو إنشاء أداة تبدو غير مرئية تقريبًا عندما تحتاج إليها. يمكنك إخراجه وتوصيله بالكهرباء والتحكم فيه على الفور. لا يوجد مطاردة لكابلات الفيديو. لا "لقد نسيت محول HDMI في المنزل." مجرد الوصول الفوري.
 
-KVM-GO ist eine **tragbare, 4K-fähige, Multi-OS, Crash-Cart-freوliche** KVM-over-USB-Lösung, gebaut لـ echte Benutzer و echte Szenarien.
+KVM-GO هو حل **محمول، قادر على تشغيل 4K، ومتعدد أنظمة التشغيل، وصديق لعربة التصادم**، وهو حل KVM-over-USB، مصمم للمستخدمين الحقيقيين والسيناريوهات الحقيقية.
 
-Einige Menschen werden weiterhin maximale Modularität bevorzugen. Genau deshalb existiert [Mini-KVM](https://openterface.com/product/minikvm/). (Und ja, Sie können es jetzt noch kaufen… zwinker zwinker :D)
+سيستمر بعض الأشخاص في تفضيل الحد الأقصى من الوحدات النمطية. وهذا هو بالضبط سبب وجود [Mini-KVM](https://openterface.com/product/minikvm/). (ونعم، لا يزال بإمكانك شرائه الآن... غمزة غمزة:D)
 
-Aber لـ Reisen, Rechenzentrumsarbeit, Wartung unterwegs أو Notfall-Debugging könnte KVM-GO das Format sein, das den Sweet Spot trifft.
+ولكن بالنسبة للسفر أو العمل في مركز البيانات أو الصيانة على الطريق أو تصحيح الأخطاء في حالات الطوارئ، قد يكون KVM-GO هو التنسيق الذي يصل إلى النقطة المثالية.
 
-## Danke
+## شكرا لك
 
-### Und was kommt als Nächstes
+### وماذا بعد
 
-Danke an alle, die an der Reddit-Diskussion teilgenommen, die Umfrage ausgefüllt, Feedback geteilt و schwierige أسئلة gestellt haben. Ohne Ihren Input hätten wir vielleicht weiterhin perfekte Modularität verfolgt, anstatt uns auf das zu konzentrieren, was viele Benutzer wirklich brauchen.
+شكرًا لكل من انضم إلى مناقشة Reddit، وملء الاستطلاع، وشارك التعليقات وطرح الأسئلة الصعبة. بدون مدخلاتك، ربما كنا سنستمر في السعي وراء النمطية المثالية بدلاً من التركيز على ما يحتاجه العديد من المستخدمين حقًا.
 
-Wir verfeinern weiterhin sowohl الأجهزة als auch البرمجيات. Weitere التحديثات werden folgen. Wenn Sie Gedanken أو Vorschläge haben, senden Sie uns gerne eine E-Mail an **[support@openterface.com](mailto:support@openterface.com)** أو treten Sie unserem **Openterface Discord** bei. Wir lesen jede Nachricht.
+نحن مستمرون في تحسين كل من الأجهزة والبرامج. المزيد من التحديثات سوف تتبع. إذا كانت لديك أفكار أو اقتراحات، فلا تتردد في مراسلتنا عبر البريد الإلكتروني على **[support@openterface.com](mailto:support@openterface.com)** أو الانضمام إلى **Openterface Discord**. نقرأ كل رسالة.
 
-Wenn Ihnen gefällt, was wir bauen, erwägen Sie bitte, KVM-GO zu unterstützen و uns zu helfen, **das Wort zu verbreiten**. Die Kampagne مع einem Freو أو einer Community zu teilen macht einen enormen Unterschied لـ ein kleines Team wie unseres. **Wir bauen dies لـ Sie و wegen Ihnen.**
+إذا أعجبك ما نقوم ببنائه، فيرجى التفكير في دعم KVM-GO ومساعدتنا **في نشر الكلمة**. تُحدث مشاركة الحملة مع صديق أو مجتمع فرقًا كبيرًا لفريق صغير مثل فريقنا. **نحن نبني هذا من أجلك، وبسببك.**
 
-**Openterface / TechxArtisan Team**
+**Openerface / فريق TechxArtisan**

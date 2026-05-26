@@ -2,67 +2,65 @@
 locale: tr
 translationKey: "250614-tinyrack-review"
 slug: "250614-tinyrack-review"
-title: "Eine sehr aufschlussreiche ve wertvolle Bewertung aus Südkorea."
-description: "Eine tiefgründige ve technisch scharfe Bewertung des Openterface Mini-KVM von der TinyRack-Community aus Südkorea, gefolgt von einer transparenten ve herzlichen Antwort unseres Teams. Dieser Austausch beleuchtet reale Nutzungsrückmeldungen, unser Open-Source-Engagement ve die gemeinsame Reise der Verbesserung von Tools durch Community-Zusammenarbeit."
+title: "Güney Kore'den son derece anlayışlı ve değerli bir inceleme."
+description: "Güney Kore'nin TinyRack topluluğunun Openterface Mini-KVM'ye ilişkin derinlemesine düşünülmüş ve teknik açıdan keskin bir incelemesi ve ardından ekibimizden şeffaf ve içten bir yanıt. Bu paylaşım, gerçek dünyadaki kullanım geri bildirimlerini, açık kaynak taahhüdümüzü ve topluluk işbirliği yoluyla araçları iyileştirmeye yönelik ortak yolculuğumuzu vurguluyor."
 date: 2025-05-19
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
-category: "Product Güncellemeler"
+topic: ["shipping", "production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-### Eine Durchdachte Bewertung aus Korea ve Unsere Gedanken dazu
+### Kore'den Düşünceli Bir İnceleme ve Karşılığında Bizim Düşüncelerimiz
 
 ![mini-kvm](https://tinyrack.net/content/images/size/w2000/2025/05/_1013207.JPG)
 
-Wir lieben Überraschungen, zumindest die guten. Vor ein paar Wochen haben wir einen YouTuber aus Südkorea kontaktiert, der için seine ehrlichen ve technisch detaillierten Bewertungen bekannt ist. Wir haben ein kleines Paket geschickt: ein [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), plus unser Mini-KVM-Toolkit zum Testen. Dann haben wir gewartet.
+Zaten iyi türden sürprizleri severiz. Birkaç hafta önce, dürüst ve teknik açıdan ayrıntılı incelemeleriyle tanınan Güney Kore merkezli bir YouTuber'a ulaştık. Küçük bir paket gönderdik: bir [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) ve ayrıca test için mini KVM araç setimiz. Daha sonra bekledik.
 
-Was als nächstes kam, hakkındatraf unsere Erwartungen.
+Bundan sonra olanlar beklentilerimizin ötesindeydi.
 
-Er hat değil nur das Mini-KVM ausgiebig getestet, sondern sich auch die Zeit genommen, einen detaillierten Artikel voller Erkenntnisse zu schreiben:
-👉 [Vollständige Bewertung hier lesen](https://tinyrack.net/openterface-mini-kvm)
+Yalnızca mini KVM'yi kapsamlı bir şekilde test etmekle kalmadı, aynı zamanda içgörülerle dolu ayrıntılı bir makale yazmaya da zaman ayırdı:
+👉 [Read the full review here](https://tinyrack.net/openterface-mini-kvm)
 
-Sein Feedback war scharf, konstruktiv ve in der realen Nutzung verwurzelt. Das ist Gold için uns. Obwohl wir değil ile jedem Punkt einverstanden waren, war das genau der Grve, warum es wertvoll war. Es hat uns dazu gebracht, einige Design-Annahmen noch einmal zu betrachten ve bestätigt, wo wir richtig lagen. Wenn ihr neugierig seid, scrollt nach unten için das vollständige Gespräch.
+Geri bildirimi keskin, yapıcıydı ve gerçek dünyadaki kullanıma dayanıyordu. Bu bizim için altın değerinde. Her ne kadar her noktada aynı fikirde olmasak da tam da bu yüzden değerliydi. Bizi bazı tasarım varsayımlarına yeniden bakmaya itti ve nerede doğru yaptığımızı doğruladı. Merak ediyorsanız konuşmanın tamamı için aşağı kaydırın.
 
-Und wenn ihr ihm noch değil folgt:
-- 🎥 [YouTube-Kanal](https://youtube.com/@tinyrack)
-- 💬 [Community-Forum](https://forum.tinyrack.net/)
+Zaten onu takip etmiyorsanız:
+- 🎥 [YouTube Channel](https://youtube.com/@tinyrack)
+- 💬 [Community Forum](https://forum.tinyrack.net/)
 
-Diese Art von Dialog ist genau das, was Tools wie unsere weiterentwickelt. Also danke, TinyRack - wir hören euch.
+Bu tür bir diyalog tam olarak bizimki gibi araçların gelişmesine yardımcı olan şeydir. Teşekkürler TinyRack, seni duyuyoruz.
 
-# Einige Worte von Herzen: Unsere Ziele ve Verpflichtungen
+# Kalpten Gelen Bazı Sözler: Hedeflerimiz ve Taahhütlerimiz
 
-### 1. Einzelhandelskanäle
-Unser aktueller ve exklusiver Verkaufskanal için das Openterface Mini‑KVM ist Crowd Supply, ve diese Partnerschaft soll bis Mitte 2026 fortgesetzt werden. Wir sind aufrichtig dankbar için ihre Unterstützung. Crowd Supply spezialisiert sich auf Open‑Donanım-Projekte, ve ihre Plattform ve Community haben eine entscheidende Rolle dabei gespielt, unserem kleinen Team beim Wachsen ve erfolgreichen Ausliefern des Mini‑KVM zu helfen.
+### 1. Perakende Kanalları
+Openterface Mini‑KVM için mevcut ve özel satış kanalımız Crowd Supply'dir ve bu ortaklığın 2026 ortasına kadar devam etmesi planlanmaktadır. Destekleri için gerçekten minnettarız, Crowd Supply açık donanım projelerinde uzmanlaşıyor ve onların platformu ve topluluğu, küçük ekibimizin büyümesine ve Mini‑KVM'yi başarılı bir şekilde teslim etmesine yardımcı olmada çok önemli bir rol oynadı.
 
-Dank Crowd Supply, das Erfüllung ve Vertrieb so effizient verwaltet, konnten wir unsere Energien vollständig auf Üründesign, Ürünion ve Yazılımentwicklung konzentrieren. Aus diesem Grve konnten wir noch değil auf größeren Marktplätzen wie Amazon veya AliExpress starten. Die Erweiterung unserer Distribution bleibt jedoch eine Top-Priorität, ve wir planen, diese Kanäle zu erkveen, sobald unsere aktuelle Verpflichtung Mitte 2026 endet.
+Crowd Supply'ın sipariş karşılama ve dağıtımı bu kadar verimli bir şekilde yönetmesi sayesinde, enerjimizi tamamen ürün tasarımı, üretim ve yazılım geliştirmeye odaklayabildik. Bu nedenle henüz Amazon veya AliExpress gibi daha büyük pazaryerlerinde lansman yapamadık. Ancak dağıtımımızı genişletmek en büyük önceliğimiz olmaya devam ediyor ve mevcut taahhüdümüz 2026 ortasında sona erdiğinde bu kanalları keşfetmeyi planlıyoruz.
+Henüz yerine getiremeyeceğimiz sözler vermek yerine şeffaf olmaya inanıyoruz. Sabrınız ve sürekli desteğiniz, diğer pazarlara açılmadan önce daha güçlü bir temel oluşturmamıza olanak tanıyor.
 
-Wir glauben an Transparenz, anstatt Versprechungen zu machen, die wir noch değil erfüllen können. Eure Geduld ve fortlaufende Unterstützung ermöglichen es uns, ein stärkeres Fveament zu schaffen, bevor wir auf zusätzliche Marktplätze expandieren.
+### 2. Fiyat
+Bazı kullanıcıların fiyatı beklenenden yüksek bulduğunu anlıyoruz. Maliyetin büyük bir kısmı Windows, macOS, Linux, Android (ve yakında iPad/iOS) için yerel yazılım geliştirmeye yaptığımız yatırımı yansıtıyor. Temel bir web uygulamasının çok ötesinde, tam özellikli, güvenli uygulamalar geliştiriyoruz (ancak web sürümümüzün oluşturulmasına yardımcı olduğu için topluluğa katkıda bulunan Kashall'a minnettarız!). Zorlukların üstesinden geliyoruz ve kendimizi BT profesyonelleri ve kuruluşlarının güvendiği araçlarla karşılaştırıyoruz ve endüstrinin en iyi uygulamalarına uygun geliştirme ve güvenlik standartlarında ısrar ediyoruz.
 
-### 2. Preis
-Wir verstehen, dass einige Nutzer den Preis höher als erwartet finden. Ein großer Teil der Kosten spiegelt unsere Investition in native Yazılımentwicklung için Windows, macOS, Linux, Android (ve bald iPad/iOS) wider. Wir bauen vollständige, sichere Anwendungen, weit hakkında eine grvelegende Web-App hinaus (obwohl wir dem Community-Mitwirkenden Kashall dankbar sind, der beim Aufbau unserer Web-Version geholfen hat!). Wir nehmen die Herausforderungen an ve vergleichen uns ile Tools, denen IT-Profis ve Unternehmen vertrauen, ve bestehen auf Entwicklungs- ve Sicherheitsstandards, die den Branchenbest Practices entsprechen.
+### 3. Açık Kaynak Taahhüdü
+Açık kaynak kullanımının bazen tamamlanmamış işleri devretmenin bir yolu olabileceğini belirttiğiniz için teşekkür ederiz. Bu biz değiliz. Geliştirme ekibimizin tamamı kendini tamamen açık kaynağa adamıştır ve yol haritamızda heyecan verici özellikler bulunmaktadır. Bu yolun kolay olmadığını biliyoruz, ancak zorlamaya devam edeceğiz ve topluluğumuzun bizi desteklemeye devam edeceğini umuyoruz.
 
-### 3. Open-Source-Verpflichtung
-Wir schätzen es, dass ihr darauf hingewiesen habt, dass Open‑Sourcing manchmal ein Weg sein kann, unvollständige Arbeit abzugeben. Das sind wir değil. Unser gesamtes Entwicklungsteam ist vollständig dem Open‑Source verpflichtet, ve wir haben aufregende Features auf der Roadmap. Wir wissen, dass dieser Weg değil einfach ist, aber wir werden weiter pushen ve hoffen, dass unsere Community uns weiterhin unterstützt.
+### 4. Windows SmartScreen Uyarısı
+Windows yükleyici uyarısına ilişkin geri bildiriminiz çok yerindeydi. Zaten açık kaynaklı bir sertifika (SignPath) kullanıyoruz ancak uyarılar hâlâ görünüyor. Yeni şirketler için hala zor olsa da Genişletilmiş Doğrulama (EV) sertifikalarının peşindeyiz. Biz evrak işlerinde gezinirken ve ilk kurulum deneyiminizi geliştirirken lütfen sabırlı olun.
 
-### 4. Windows SmartScreen-Warnung
-Euer Feedback zur Windows-Installer-Warnung war genau richtig. Wir verwenden bereits ein Open‑Source-Zertifikat (SignPath), aber Warnungen erscheinen immer noch. Wir verfolgen Extended Validation (EV)-Zertifikate, obwohl sie için neuere Unternehmen schwierig bleiben. Bitte habt Geduld ile uns, während wir die Bürokratie durchlaufen ve eure anfängliche Kurulumserfahrung verbessern.
+### 5. Çalışma Deneyimi Övgüsü
+Kabloları yeniden bağlayarak, BIOS'tan önyükleme yaparak vb. bu kadar sıkı tak ve çalıştır stres testleri gerçekleştirdiğiniz için teşekkür ederiz. Bu tür gerçek dünya doğrulaması çok şey ifade ediyor.
 
-### 5. Arbeitserfahrung-Lob
-Danke, dass ihr so rigorose Plug-and-Play-Stresstests durchgeführt habt, indem ihr Kabel neu verbveen, vom BIOS gebootet ve ähnliches gemacht habt. Diese Art der realen Validierung bedeutet viel.
+### 6. Linux Sorunları
+Linux'ta karşılaştığınız hayal kırıklıklarından dolayı çok üzgünüz. İzin hataları, eksik ekranlar, ürün yazılımı sorunları ve çökmeler kabul edilemez. Aşağıdakiler de dahil olmak üzere iyileştirmelere öncelik veriyoruz: Kolay kurulum için Ubuntu Yazılım Mağazasına yükleme; Flatpak ve tek tıklamayla yükleyicilerin sağlanması; Udev kurallarını, bağımlılık yönetimini ve kilitlenme direncini geliştirme. Windows ve macOS kalitemizle eşleşen bir Linux deneyimi sunmaya kararlıyız.
 
-### 6. Linux-Probleme
-Es tut uns wirklich leid için die Frustrationen, die ihr unter Linux erlebt habt. Berechtigungsfehler, fehlende Displays, Firmware-Probleme ve Abstürze sind inakzeptabel. Wir priorisieren Verbesserungen, einschließlich: Upload zum Ubuntu Yazılım Store için einfache Kurulum; Bereitstellung von Flatpak ve Ein-Klick-Installern; Verbesserung der Udev-Regeln, Abhängigkeitsbehandlung ve Absturz-Resilienz. Wir sind verpflichtet, eine Linux-Erfahrung zu liefern, die unserer Windows- ve macOS-Qualität entspricht.
+### 7. İleriye Doğru Yol
+Özellikle fiyatla ilgili geri bildirimleriniz, maliyetlerin ve ölçeklenebilirliğin optimize edilmesine yönelik şirket içi tartışmaların başlatılmasına yardımcı oldu. Büyüdükçe değer ve kaliteyi daha iyi dengelemek için tüm cephelerde, satış kanallarında, pazarlama harcamalarında ve operasyonlarda ayarlamaları değerlendiriyoruz.
 
-### 7. Weg nach vorn
-Euer Feedback, besonders zum Preis, hat dabei geholfen, interne Diskussionen hakkında Kostenoptimierung ve Skalierbarkeit zu katalysieren. Wir bewerten Anpassungen auf allen Fronten, Verkaufskanäle, Marketing-Ausgaben ve Betrieb, um Wert ve Qualität besser auszugleichen, während wir wachsen.
+[tinyrack](https://www.youtube.com/@tinyrack) ve açık kaynak topluluğunun birçok üyesinden gelen düşünceli geri bildirim ve destek için gerçekten minnettarız. Openterface'i neden bir üründen daha fazlası olarak geliştirdiğimizi bize hatırlatan şey, sizin gibi insanların gösterdiği özen, katkı ve teşviktir. İşbirliği, merak ve birlikte işleri daha iyi yapmaya yönelik ortak inançla şekillenen ortak bir yolculuktur. Bu yolun bir parçası olduğunuz için teşekkür ederiz. Önümüzdekileri sabırsızlıkla bekliyoruz ve hepinizle birlikte öğrenmeye ve büyümeye devam edeceğiz.
 
-Wir sind wirklich dankbar için das durchdachte Feedback ve die Unterstützung von [tinyrack](https://www.youtube.com/@tinyrack) ve so vielen Mitgliedern der Open-Source-Community. Es ist die Fürsorge, Beiträge ve Ermutigung von Menschen wie euch, die uns daran erinnern, warum wir Openterface als mehr als nur ein Ürün aufbauen. Es ist eine gemeinsame Reise, geprägt von Zusammenarbeit, Neugier ve einem gemeinsamen Glauben daran, Dinge besser zusammen zu machen. Danke, dass ihr Teil dieses Weges seid. Wir freuen uns auf das, was vor uns liegt, ve werden weiter lernen ve ile euch allen wachsen.
-
-Mit Dankbarkeit,  
+Minnettarlıkla,  
 Billy Wang  
-Product Manager  
-Openterface Team | TechxArtisan
+Ürün Müdürü  
+Açık Arayüz Ekibi | TechxArtisan

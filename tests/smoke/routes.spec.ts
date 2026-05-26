@@ -106,3 +106,25 @@ test('/en/feed.xml redirects to /feed.xml', async ({ page }) => {
   await page.goto('/en/feed.xml', { waitUntil: 'commit' });
   await expect(page).toHaveURL(/\/feed\.xml$/);
 });
+
+test('hk and tw pages use BCP47 html lang and hreflang', async ({ page }) => {
+  const cases = [
+    { path: '/hk/', lang: 'zh-HK' },
+    { path: '/tw/', lang: 'zh-TW' },
+  ] as const;
+
+  for (const { path, lang } of cases) {
+    await page.goto(path, { waitUntil: 'domcontentloaded' });
+    await expect(page.locator('html')).toHaveAttribute('lang', lang);
+    await expect(page.locator(`link[rel="alternate"][hreflang="${lang}"]`)).toHaveCount(1);
+    const internalCode = path === '/hk/' ? 'hk' : 'tw';
+    await expect(page.locator(`link[rel="alternate"][hreflang="${internalCode}"]`)).toHaveCount(0);
+  }
+});
+
+test('zh page uses zh-CN BCP47 codes', async ({ page }) => {
+  await page.goto('/zh/', { waitUntil: 'domcontentloaded' });
+  await expect(page.locator('html')).toHaveAttribute('lang', 'zh-CN');
+  await expect(page.locator('link[rel="alternate"][hreflang="zh-CN"]')).toHaveCount(1);
+  await expect(page.locator('link[rel="alternate"][hreflang="zh"]')).toHaveCount(0);
+});

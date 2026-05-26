@@ -2,8 +2,8 @@
 locale: nl
 translationKey: "20260203-macos-ubuntu-copy-paste"
 slug: "20260203-macos-ubuntu-copy-paste"
-title: "Ubuntu Kopieren/Einfügen-Tipp (macOS → Ubuntu)"
-description: "Beheben Sie Einfügen-Shortcuts beim Steuern von Ubuntu von macOS met Openterface. Verwenden Sie den Windows-Modus voor zuverlässiges Ctrl-Style-Einfügen of Bearbeiten → Einfügen als Alternative im Mac-Modus."
+title: "Tip voor kopiëren/plakken van Ubuntu (macOS → Ubuntu)"
+description: "Plaksnelkoppelingen repareren bij het besturen van Ubuntu vanuit macOS met Openterface. Gebruik de Windows-modus voor betrouwbaar plakken in Ctrl-stijl, of Bewerken → Plakken als tijdelijke oplossing in de Mac-modus."
 date: 2026-02-03
 channel: software
 topic: ["software"]
@@ -12,74 +12,73 @@ featured: false
 draft: false
 author: "Openterface"
 ---
-
-Beim Steuern von **Ubuntu** von **macOS** met **Openterface** funktioniert das Einfügen per Shortcut im **Mac-Modus** möglicherweise niet zuverlässig. Diese Handleiding zeigt die empfohlene Lösung en eine einfache Alternative.
+Bij het besturen van **Ubuntu** vanuit **macOS** met behulp van **Openterface**, werkt het plakken van snelkoppelingen mogelijk niet betrouwbaar in de **Mac-modus**. Deze handleiding toont de aanbevolen oplossing en een eenvoudige oplossing.
 
 ![setting](https://assets2.openterface.com/images/setting.webp)
 
 ---
 
-## Schnelle Lösung (empfohlen voor Ubuntu/Linux)
+## Snelle oplossing (aanbevolen voor Ubuntu/Linux)
 
-1. Öffnen Sie **Openterface** auf macOS.
-2. Gehen Sie zu **Einstellungen**.
-3. Suchen Sie **Tastaturlayout-Modus des Zielgeräts**.
-4. Wählen Sie **Windows-Modus**.
+1. Open **Openterface** op macOS.
+2. Ga naar **Instellingen**.
+3. Zoek **Toetsenbordindelingsmodus doelapparaat**.
+4. Selecteer **Windows-modus**.
 
 ![win-mode](https://assets2.openterface.com/images/win-mode.webp)
 
 
-✅ Ergebnis: Einfügen-Shortcuts verhalten sich unter Ubuntu wie erwartet (Ctrl-Style-Verhalten).
+✅ Resultaat: Plaksnelkoppelingen gedragen zich zoals verwacht op Ubuntu (Ctrl-stijlgedrag).
 
 ![win-ctrl+v](https://assets2.openterface.com/images/win-ctrl+v.webp)
 
 ---
 
-## Alternative (wenn Sie im Mac-Modus bleiben möchten)
+## Oplossing (als u in de Mac-modus wilt blijven)
 
-Wenn Sie den **Mac-Modus** beibehalten möchten, können Sie weiterhin zuverlässig over das Menü einfügen:
+Als u de **Mac-modus** liever behoudt, kunt u nog steeds betrouwbaar plakken via het menu:
 
-- **Bearbeiten → Einfügen**
+- **Bewerken → Plakken**
 
 ![edit-paste](https://assets2.openterface.com/images/edit-paste.webp)
 
-✅ Ergebnis: Einfügen funktioniert auch, wenn Shortcut-Einfügen im Mac-Modus inkonsistent ist.
+✅ Resultaat: Plakken werkt zelfs als het plakken van snelkoppelingen inconsistent is in de Mac-modus.
 
-![workaroen](https://assets2.openterface.com/images/workaroen.webp)
-
----
-
-## Warum passiert das?
-
-Die meisten Ubuntu-Apps verwenden **Ctrl-basierte** Shortcuts zum Einfügen. In einigen Konfigurationen kann die **Mac-Modus**-Shortcut-Zuordnung das Einfügen niet zuverlässig auslösen, während **Bearbeiten → Einfügen** zuverlässig funktioniert.
+![workaround](https://assets2.openterface.com/images/workaround.webp)
 
 ---
 
-## Kurz zusammengefasst
+## Waarom dit gebeurt
 
-- **Beste Erfahrung unter Ubuntu/Linux:** **Windows-Modus** verwenden
-- **Bei Mac-Modus:** **Bearbeiten → Einfügen** verwenden
-
----
-
-## Brauchen Sie Hilfe bei der Auswahl des richtigen Modus?
-
-Wenn Sie unsicher sind, welchen Modus Sie verwenden sollen, hier eine einfache Faustregel:
-
-- Wenn Ihr Ziel-OS **Ubuntu/Linux** ist, beginnen Sie met dem **Windows-Modus** (am konsistentesten voor gängige Shortcuts).
-- Wenn Sie hauptsächlich **macOS-Ziele** steuern en Mac-Style-Shortcuts möchten, verwenden Sie den **Mac-Modus**.
-
-Wenn Sie häufig zwischen verschiedenen Ziel-OS wechseln, bookmarken Sie diese Seite. Es ist meist eine Ein-Klick-Lösung.
+De meeste Ubuntu-apps gebruiken **Ctrl-gebaseerde** sneltoetsen voor plakken. In sommige instellingen wordt het plakken in de **Mac-modus** mogelijk niet consistent geactiveerd, terwijl **Bewerken → Plakken** betrouwbaar werkt.
 
 ---
 
-## FAQ
+## Korte samenvatting
 
-**Ändert der Windows-Modus meine Mac-Shortcuts?**  
-Er ändert, wie Openterface Shortcuts an das **Zielgerät** sendet, sodass Ubuntu das erwartete **Ctrl-Style**-Verhalten erhält.
+- **Beste ervaring op Ubuntu/Linux:** gebruik **Windows-modus**
+- **Als u in de Mac-modus blijft:** gebruik **Bewerken → Plakken**
 
-**Kann ich Menü-Einfügen in jedem Modus verwenden?**  
-Ja — **Bearbeiten → Einfügen** ist in beiden Modi eine zuverlässige Option.
+---
 
-**Betrifft das auch Raspberry Pi OS?**  
-Oft weniger betroffen, aber bei ähnlichem Verhalten gilt dieselbe Lösung.
+## Hulp nodig bij het identificeren van de juiste modus voor uw installatie?
+
+Als u niet zeker weet welke modus u moet gebruiken, volgt hier een korte vuistregel:
+
+- Als uw doelbesturingssysteem **Ubuntu/Linux** is, begin dan met de **Windows-modus** (het meest consistent voor algemene snelkoppelingen).
+- Als u voornamelijk **macOS-doelen** beheert en snelkoppelingen in Mac-stijl wilt, gebruikt u de **Mac-modus**.
+
+Als u vaak tussen verschillende doelbesturingssystemen schakelt, kunt u overwegen deze pagina als bladwijzer te bewaren. Het is meestal met één klik opgelost.
+
+---
+
+## Veelgestelde vragen
+
+**Verandert de Windows-modus mijn Mac-snelkoppelingen?**  
+Het verandert de manier waarop Openterface snelkoppelingen naar het **doelapparaat** verzendt, zodat Ubuntu het verwachte gedrag in **Ctrl-stijl** ontvangt.
+
+**Kan ik menu plakken in elke modus gebruiken?**  
+Ja — **Bewerken → Plakken** is een betrouwbare optie in beide modi.
+
+**Heeft dit ook invloed op het Raspberry Pi OS?**  
+Vaak minder last van, maar als u soortgelijk gedrag ziet, is dezelfde oplossing van toepassing.

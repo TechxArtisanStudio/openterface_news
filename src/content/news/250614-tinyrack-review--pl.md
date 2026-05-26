@@ -2,67 +2,65 @@
 locale: pl
 translationKey: "250614-tinyrack-review"
 slug: "250614-tinyrack-review"
-title: "Eine sehr aufschlussreiche i wertvolle Bewertung aus Südkorea."
-description: "Eine tiefgründige i technisch scharfe Bewertung des Openterface Mini-KVM von der TinyRack-Community aus Südkorea, gefolgt von einer transparenten i herzlichen Antwort unseres Teams. Dieser Austausch beleuchtet reale Nutzungsrückmeldungen, unser Open-Source-Engagement i die gemeinsame Reise der Verbesserung von Tools durch Community-Zusammenarbeit."
+title: "Bardzo wnikliwa i cenna recenzja z Korei Południowej."
+description: "Głęboko przemyślana i technicznie przemyślana recenzja Openterface Mini-KVM od społeczności TinyRack w Korei Południowej, po której nastąpiła przejrzysta i szczera odpowiedź naszego zespołu. Ta wymiana zdań podkreśla opinie dotyczące użytkowania w świecie rzeczywistym, nasze zaangażowanie w oprogramowanie open source i wspólną podróż ku ulepszaniu narzędzi poprzez współpracę społecznościową."
 date: 2025-05-19
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
-category: "Product Aktualizacje"
+topic: ["shipping", "production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-### Eine Durchdachte Bewertung aus Korea i Unsere Gedanken dazu
+### Wnikliwa recenzja z Korei i nasze przemyślenia w zamian
 
 ![mini-kvm](https://tinyrack.net/content/images/size/w2000/2025/05/_1013207.JPG)
 
-Wir lieben Überraschungen, zumindest die guten. Vor ein paar Wochen haben wir einen YouTuber aus Südkorea kontaktiert, der dla seine ehrlichen i technisch detaillierten Bewertungen bekannt ist. Wir haben ein kleines Paket geschickt: ein [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), plus unser Mini-KVM-Toolkit zum Testen. Dann haben wir gewartet.
+W każdym razie lubimy niespodzianki, i to miłe. Kilka tygodni temu skontaktowaliśmy się z YouTuberem z Korei Południowej, znanym ze swoich uczciwych i szczegółowych pod względem technicznym recenzji. Wysłaliśmy małą paczkę: jedną [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) oraz nasz zestaw narzędzi mini-KVM do testów. Potem czekaliśmy.
 
-Was als nächstes kam, otraf unsere Erwartungen.
+To, co nastąpiło potem, przeszło nasze oczekiwania.
 
-Er hat nie nur das Mini-KVM ausgiebig getestet, sondern sich auch die Zeit genommen, einen detaillierten Artikel voller Erkenntnisse zu schreiben:
-👉 [Vollständige Bewertung hier lesen](https://tinyrack.net/openterface-mini-kvm)
+Nie tylko dokładnie przetestował mini-KVM, ale także poświęcił czas na napisanie szczegółowego artykułu pełnego spostrzeżeń:
+👉 [Read the full review here](https://tinyrack.net/openterface-mini-kvm)
 
-Sein Feedback war scharf, konstruktiv i in der realen Nutzung verwurzelt. Das ist Gold dla uns. Obwohl wir nie z jedem Punkt einverstanden waren, war das genau der Gri, warum es wertvoll war. Es hat uns dazu gebracht, einige Design-Annahmen noch einmal zu betrachten i bestätigt, wo wir richtig lagen. Wenn ihr neugierig seid, scrollt nach unten dla das vollständige Gespräch.
+Jego uwagi były ostre, konstruktywne i oparte na rzeczywistych zastosowaniach. To dla nas złoto. Chociaż nie zgodziliśmy się ze wszystkimi punktami, właśnie dlatego był on tak cenny. Zmusiło nas to do ponownego przyjrzenia się niektórym założeniom projektowym i potwierdziło, gdzie poszło nam dobrze. Jeśli jesteś ciekawy, przewiń w dół, aby zobaczyć całą rozmowę.
 
-Und wenn ihr ihm noch nie folgt:
-- 🎥 [YouTube-Kanal](https://youtube.com/@tinyrack)
-- 💬 [Community-Forum](https://forum.tinyrack.net/)
+A jeśli jeszcze go nie obserwujesz:
+- 🎥 [YouTube Channel](https://youtube.com/@tinyrack)
+- 💬 [Community Forum](https://forum.tinyrack.net/)
 
-Diese Art von Dialog ist genau das, was Tools wie unsere weiterentwickelt. Also danke, TinyRack - wir hören euch.
+Właśnie ten rodzaj dialogu pomaga w ewolucji narzędzi takich jak nasze. Dziękuję, TinyRack, słyszymy cię.
 
-# Einige Worte von Herzen: Unsere Ziele i Verpflichtungen
+# Kilka słów od serca: nasze cele i zobowiązania
 
-### 1. Einzelhandelskanäle
-Unser aktueller i exklusiver Verkaufskanal dla das Openterface Mini‑KVM ist Crowd Supply, i diese Partnerschaft soll bis Mitte 2026 fortgesetzt werden. Wir sind aufrichtig dankbar dla ihre Unterstützung. Crowd Supply spezialisiert sich auf Open‑Sprzęt-Projekte, i ihre Plattform i Community haben eine entscheidende Rolle dabei gespielt, unserem kleinen Team beim Wachsen i erfolgreichen Ausliefern des Mini‑KVM zu helfen.
+### 1. Kanały detaliczne
+Naszym obecnym i wyłącznym kanałem sprzedaży Openterface Mini-KVM jest Crowd Supply, a współpraca ta będzie kontynuowana do połowy 2026 roku. Jesteśmy naprawdę wdzięczni za ich wsparcie. Crowd Supply specjalizuje się w projektach związanych z otwartym sprzętem, a ich platforma i społeczność odegrały kluczową rolę w pomaganiu naszemu małemu zespołowi w rozwoju i pomyślnym dostarczaniu Mini-KVM.
 
-Dank Crowd Supply, das Erfüllung i Vertrieb so effizient verwaltet, konnten wir unsere Energien vollständig auf Produktdesign, Produktion i Oprogramowanieentwicklung konzentrieren. Aus diesem Gri konnten wir noch nie auf größeren Marktplätzen wie Amazon lub AliExpress starten. Die Erweiterung unserer Distribution bleibt jedoch eine Top-Priorität, i wir planen, diese Kanäle zu erkien, sobald unsere aktuelle Verpflichtung Mitte 2026 endet.
+Dzięki Crowd Supply tak skutecznie zarządzającemu realizacją i dystrybucją mogliśmy w pełni skoncentrować naszą energię na projektowaniu produktów, produkcji i rozwoju oprogramowania. Z tego powodu nie byliśmy jeszcze w stanie wprowadzić produktów na większe rynki, takie jak Amazon czy AliExpress. Jednak poszerzenie naszej dystrybucji pozostaje najwyższym priorytetem i planujemy zbadać te kanały po zakończeniu naszych obecnych zobowiązań w połowie 2026 r.
+Wierzymy w przejrzystość, a nie w składanie obietnic, których nie możemy jeszcze spełnić. Twoja cierpliwość i ciągłe wsparcie pozwolą nam zbudować silniejsze podstawy przed ekspansją na kolejne rynki.
 
-Wir glauben an Transparenz, anstatt Versprechungen zu machen, die wir noch nie erfüllen können. Eure Geduld i fortlaufende Unterstützung ermöglichen es uns, ein stärkeres Fiament zu schaffen, bevor wir auf zusätzliche Marktplätze expandieren.
+### 2. Cena
+Rozumiemy, że niektórzy użytkownicy uważają cenę za wyższą niż oczekiwano. Duża część kosztów odzwierciedla nasze inwestycje w rozwój oprogramowania natywnego dla systemów Windows, macOS, Linux, Android (a wkrótce także iPad/iOS). Tworzymy w pełni funkcjonalne, bezpieczne aplikacje, znacznie wykraczające poza podstawową aplikację internetową (chociaż jesteśmy wdzięczni współpracownikowi społeczności Kashallowi za pomoc w tworzeniu naszej wersji internetowej!). Podejmujemy wyzwania i porównujemy się z narzędziami, którym ufają specjaliści IT i przedsiębiorstwa, kładąc nacisk na standardy rozwoju i bezpieczeństwa zgodne z najlepszymi praktykami branżowymi.
 
-### 2. Preis
-Wir verstehen, dass einige Nutzer den Preis höher als erwartet finden. Ein großer Teil der Kosten spiegelt unsere Investition in native Oprogramowanieentwicklung dla Windows, macOS, Linux, Android (i bald iPad/iOS) wider. Wir bauen vollständige, sichere Anwendungen, weit o eine grilegende Web-App hinaus (obwohl wir dem Community-Mitwirkenden Kashall dankbar sind, der beim Aufbau unserer Web-Version geholfen hat!). Wir nehmen die Herausforderungen an i vergleichen uns z Tools, denen IT-Profis i Unternehmen vertrauen, i bestehen auf Entwicklungs- i Sicherheitsstandards, die den Branchenbest Practices entsprechen.
+### 3. Zaangażowanie w oprogramowanie open source
+Dziękujemy za zwrócenie uwagi, że open-sourcing może czasami być sposobem na przekazanie niekompletnej pracy. To nie my. Cały nasz zespół programistów jest w pełni zaangażowany w oprogramowanie open source i mamy w planach ekscytujące funkcje. Wiemy, że ta ścieżka nie jest łatwa, ale będziemy nadal naciskać i mamy nadzieję, że nasza społeczność będzie nadal nas wspierać.
 
-### 3. Open-Source-Verpflichtung
-Wir schätzen es, dass ihr darauf hingewiesen habt, dass Open‑Sourcing manchmal ein Weg sein kann, unvollständige Arbeit abzugeben. Das sind wir nie. Unser gesamtes Entwicklungsteam ist vollständig dem Open‑Source verpflichtet, i wir haben aufregende Features auf der Roadmap. Wir wissen, dass dieser Weg nie einfach ist, aber wir werden weiter pushen i hoffen, dass unsere Community uns weiterhin unterstützt.
+### 4. Ostrzeżenie dotyczące ekranu Windows SmartScreen
+Twoja opinia na temat ostrzeżenia dotyczącego instalatora systemu Windows była trafna. Używamy już certyfikatu typu open source (SignPath), ale ostrzeżenia nadal się pojawiają. Staramy się o certyfikaty Extended Validation (EV), choć nadal są one trudne dla nowszych firm. Prosimy o wyrozumiałość w czasie, gdy będziemy zajmować się formalnościami i ulepszać Twoją początkową instalację.
 
-### 4. Windows SmartScreen-Warnung
-Euer Feedback zur Windows-Installer-Warnung war genau richtig. Wir verwenden bereits ein Open‑Source-Zertifikat (SignPath), aber Warnungen erscheinen immer noch. Wir verfolgen Extended Validation (EV)-Zertifikate, obwohl sie dla neuere Unternehmen schwierig bleiben. Bitte habt Geduld z uns, während wir die Bürokratie durchlaufen i eure anfängliche Instalacjaserfahrung verbessern.
+### 5. Pochwała doświadczenia zawodowego
+Dziękujemy za przeprowadzenie tak rygorystycznych testów obciążeniowych typu plug-and-play, polegających na ponownym podłączeniu kabli, uruchomieniu systemu BIOS i tym podobnych. Tego rodzaju weryfikacja w świecie rzeczywistym wiele znaczy.
 
-### 5. Arbeitserfahrung-Lob
-Danke, dass ihr so rigorose Plug-and-Play-Stresstests durchgeführt habt, indem ihr Kabel neu verbien, vom BIOS gebootet i ähnliches gemacht habt. Diese Art der realen Validierung bedeutet viel.
+### 6. Problemy z Linuksem
+Bardzo nam przykro z powodu frustracji, jaką napotkałeś w systemie Linux. Błędy uprawnień, brakujące wyświetlacze, problemy z oprogramowaniem sprzętowym i awarie są niedopuszczalne. Naszym priorytetem są ulepszenia, w tym: Przesyłanie do sklepu z oprogramowaniem Ubuntu w celu łatwej instalacji; Udostępnianie instalatorów flatpak i instalatorów jednym kliknięciem; Udoskonalanie reguł udev, obsługi zależności i odporności na awarie. Zależy nam na dostarczaniu systemu Linux odpowiadającego jakości naszych systemów Windows i macOS.
 
-### 6. Linux-Probleme
-Es tut uns wirklich leid dla die Frustrationen, die ihr unter Linux erlebt habt. Berechtigungsfehler, fehlende Displays, Firmware-Probleme i Abstürze sind inakzeptabel. Wir priorisieren Verbesserungen, einschließlich: Upload zum Ubuntu Oprogramowanie Store dla einfache Instalacja; Bereitstellung von Flatpak i Ein-Klick-Installern; Verbesserung der Udev-Regeln, Abhängigkeitsbehandlung i Absturz-Resilienz. Wir sind verpflichtet, eine Linux-Erfahrung zu liefern, die unserer Windows- i macOS-Qualität entspricht.
+### 7. Ścieżka naprzód
+Wasze opinie, zwłaszcza dotyczące ceny, pomogły w katalizowaniu wewnętrznych dyskusji na temat optymalizacji kosztów i skalowalności. Oceniamy dostosowania na wszystkich frontach, kanałach sprzedaży, wydatkach marketingowych i operacjach, aby w miarę naszego rozwoju lepiej równoważyć wartość i jakość.
 
-### 7. Weg nach vorn
-Euer Feedback, besonders zum Preis, hat dabei geholfen, interne Diskussionen o Kostenoptimierung i Skalierbarkeit zu katalysieren. Wir bewerten Anpassungen auf allen Fronten, Verkaufskanäle, Marketing-Ausgaben i Betrieb, um Wert i Qualität besser auszugleichen, während wir wachsen.
+Jesteśmy naprawdę wdzięczni za przemyślane opinie i wsparcie ze strony [tinyrack](https://www.youtube.com/@tinyrack) i tak wielu członków społeczności open source. To troska, wkład i zachęta ze strony ludzi takich jak Ty przypominają nam, dlaczego budujemy Openterface jako coś więcej niż tylko produkt. To wspólna podróż kształtowana przez współpracę, ciekawość i wspólną wiarę we wspólne robienie rzeczy lepiej. Dziękuję, że jesteś częścią tej ścieżki. Nie możemy się doczekać tego, co nas czeka. Będziemy się dalej uczyć i rozwijać razem z wami wszystkimi.
 
-Wir sind wirklich dankbar dla das durchdachte Feedback i die Unterstützung von [tinyrack](https://www.youtube.com/@tinyrack) i so vielen Mitgliedern der Open-Source-Community. Es ist die Fürsorge, Beiträge i Ermutigung von Menschen wie euch, die uns daran erinnern, warum wir Openterface als mehr als nur ein Produkt aufbauen. Es ist eine gemeinsame Reise, geprägt von Zusammenarbeit, Neugier i einem gemeinsamen Glauben daran, Dinge besser zusammen zu machen. Danke, dass ihr Teil dieses Weges seid. Wir freuen uns auf das, was vor uns liegt, i werden weiter lernen i z euch allen wachsen.
-
-Mit Dankbarkeit,  
-Billy Wang  
-Product Manager  
-Openterface Team | TechxArtisan
+Z wdzięcznością,  
+Billy'ego Wanga  
+Menedżer produktu  
+Zespół Openinterface | TechxArtisan

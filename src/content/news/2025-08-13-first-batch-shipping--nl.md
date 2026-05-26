@@ -2,52 +2,51 @@
 locale: nl
 translationKey: "2025-08-13-first-batch-shipping"
 slug: "2025-08-13-first-batch-shipping"
-title: "Erste Charge wird jetzt versendet! 🚚"
-description: "13. August 2025 - Große Neuigkeiten! Unsere erste Charge von KVM Extensions voor uConsole wird jetzt an Kenen weltweit versendet! 🎉"
+title: "Eerste batch verzending nu! 🚚"
+description: "13 augustus 2025 - Geweldig nieuws! Onze eerste batch KVM-extensies voor uConsole wordt nu naar klanten over de hele wereld verzonden! 🎉"
 date: 2025-08-13
 channel: product
 product: uconsole-kvm-extension
-topic: ["production", "beta", "campaign", "community"]
+topic: ["shipping", "production", "beta", "campaign", "community"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**13 augustus 2025** - Geweldig nieuws! Onze **eerste batch KVM-extensies voor uConsole** wordt nu naar klanten over de hele wereld verzonden! 🎉
 
-**13. August 2025** - Große Neuigkeiten! Unsere **erste Charge von KVM Extensions voor uConsole** wird jetzt an Kenen weltweit versendet! 🎉
+## Bedankt aan onze donateurs
 
-## Dank an unsere Unterstützer
+Hartelijk dank aan al onze donateurs en vroege supporters die deze lancering mogelijk hebben gemaakt. Uw steun en feedback zijn van onschatbare waarde geweest bij het op de markt brengen van dit product.
 
-Ein riesiges Dankeschön an alle unsere Unterstützer en frühen Förderer, die diesen Launch möglich gemacht haben. Ihre Unterstützung en Ihr Feedback waren unschätzbar, um dieses Product auf den Markt zu bringen.
+## Beperkte voorraad beschikbaar
 
-## Begrenzte Verfügbarkeit
-
-Wir haben noch **einige Einheiten** aus dieser ersten Productionsserie. Wenn Sie darauf gewartet haben, eine zu bekommen, ist jetzt die Zeit zu handeln!
+We hebben nog een **enkele eenheden** over van deze eerste productierun. Als je hebt gewacht om er een te bemachtigen, is dit het moment om actie te ondernemen!
 
 <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;margin:20px 0;">
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="KVM Extension Production" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="KVM-extensieproductie" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="KVM Extension Packaging" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="KVM-extensieverpakking" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="KVM Extension Quality Control" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="KVM-extensiekwaliteitscontrole" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
 </div>
 
-## Was kommt als nächstes?
+## Wat is het volgende?
 
-Sobald diese Charge ausverkauft ist, werden wir **zurück zu Vorbestellungen wechseln**, bis wir die Mindestmenge voor die nächste Productionsserie erreichen. Das bedeutet, es könnte eine Wartezeit geben, bevor die nächste Charge verfügbar ist.
+Zodra deze batch is uitverkocht, schakelen we **terug naar pre-orders** totdat we de minimale hoeveelheid hebben bereikt die nodig is voor de volgende productierun. Dit betekent dat er een wachttijd kan zijn voordat de volgende batch beschikbaar is.
 
-## Holen Sie sich jetzt Ihre
+## Haal de jouwe nu
 
-Verpassen Sie es niet! [Bestellen Sie jetzt Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), solange der Vorrat reicht.
+Mis het niet! [Order your KVM Extension now](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) zolang de voorraad strekt.
 
-## Bleiben Sie auf dem Laufenden
+## Blijf op de hoogte
 
-Folgen Sie unseren Updates en treten Sie unserer [Discord-Community](https://discord.gg/ruAD9kcYbq) bei, um als Erste over zukünftige Productionsserien en neue Productankündigungen informiert zu werden.
+Volg onze updates en sluit u aan bij onze [Discord community](https://discord.gg/ruAD9kcYbq) om als eerste op de hoogte te zijn van toekomstige productieruns en aankondigingen van nieuwe producten.
 
 ---
 
-*Danke, dass Sie Teil der Openterface-Reise sind! 🙏*
+*Bedankt dat je deel uitmaakt van de Openterface-reis! 🙏*

@@ -2,140 +2,139 @@
 locale: tr
 translationKey: "20260316-kvmgo-production-progress-update-02"
 slug: "20260316-kvmgo_production-progress-update_02"
-title: "KVM-GO Ürünionsupdate #2 – Design fixiert, Chargen gestaffelt, Fertigung im Plan"
-description: "Zweites KVM-GO-Ürünionsupdate: Industriedesign abgeschlossen (Anti-Verlust-Band am Verbinderdeckel), Teile in Chargen vorbereitet, Rückdeckel fertig, schwarzer Nylon-Frontdeckel ve orangefarbene Verbinderdeckel in Ürünion. CE/RoHS/FCC/OSHWA-Vorbereitung ve QC-Ablauf schreiten voran."
+title: "KVM-GO Üretim İlerlemesi Güncellemesi #2 – Tasarım Kilitli, Toplu Aşamalandırma, Üretim Yolunda"
+description: "İkinci KVM-GO üretim güncellemesi: endüstriyel tasarım tamamlandı (konektör kapağı kayıp önleyici bağlantı), parçalar toplu aşamalandırmada, arka kapak tamamlandı, naylon ön kapak ve turuncu konektör kapağı üretimde. CE/RoHS/FCC/OSHWA hazırlığı ve kalite kontrol akışı ilerliyor."
 date: 2026-03-16
 channel: product
 product: kvm-go
-topic: ["campaign"]
-category: "Ürün-Güncellemeler"
-tags: ["KVM-GO", "Ürün-Güncellemeler", "Ürünion", "Fertigung", "Donanım", "Montage", "Industriedesign", "Konforileät"]
+topic: ["shipping", "production", "campaign"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Production", "Manufacturing", "Hardware", "Assembly", "Industrial Design", "Compliance"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+## Tasarım Ayrıntıları Kilitlendi, Toplu Aşamalar Yerinde ve Üretim İlerliyor
 
-## Designdetails fixiert, Chargen vorbereitet, Ürünion kommt voran
+Merhaba destekçiler. İşte üretim hazırlığından daha net, daha doğrulanabilir anlık görüntüler içeren ikinci üretim ilerleme güncellememiz. Kısa versiyon, KVM-GO'nun üretim boyunca istikrarlı bir şekilde ilerlediği, temel mekanik kararların kilitlendiği ve birden fazla parçanın halihazırda üretimde olduğu veya montaj ve paketleme için tekrarlanabilir partiler halinde hazırlandığıdır.
 
-Hallo Backer. Hier ist unser zweites Ürünionsupdate ile klareren, besser nachvollziehbaren Fotos aus der Fertigungsvorbereitung. Kurz gesagt: KVM-GO bewegt sich stetig durch die Ürünion, zentrale mechanische Entscheidungen sind getroffen, ve mehrere Teile sind bereits in Fertigung veya in wiederholbaren Chargen için Montage ve Verpackung vorbereitet.
+Bu turda tamamladığımız kullanışlılık iyileştirmelerinden biri, konektör kapağının kaybolmayı önleyen ipidir. Konektör kapağı iki microSD kartı saklayabilir ve sıklıkla kullanılan çıkarılabilir bir parçadır; bu nedenle bağlantı, günlük iş akışları sırasında kaybolmasının önlenmesine yardımcı olur.
 
-Eine Nutzungsverbesserung, die wir in dieser Rvee finalisiert haben, ist das **Anti-Verlust-Band am Verbinderdeckel**. Der Deckel kann zwei microSD-Karten aufnehmen ve wird oft abgenommen; das Band hilft, ihn im Alltag değil zu verlegen.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 16px;">
+<div style = "konum: göreceli; dolgu-alt: %56,25; yükseklik: 0; taşma: gizli; kenar boşluğu: 16 piksel;">
   <iframe
     src="https://www.youtube.com/embed/EZ2bMsB9fXE?si=gc7PPuW1_QwUuN7B"
-    title="KVM-GO Ürünionsupdate #2"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    title = "KVM-GO Üretim Güncellemesi #2"
+    çerçeve sınırı = "0"
+    izin ver = "ivme ölçer; otomatik oynatma; panoya yazma; şifreli medya; jiroskop; resim içinde resim; web paylaşımı"
+    referrerpolicy = "strict-origin-when-cross-origin"
+    tam ekrana izin ver
+    stil = "konum: mutlak; üst: 0; sol: 0; genişlik: %100; yükseklik: %100;">
   </iframe>
 </div>  
 
-<p align="center"><small><em>60-Sekveen-Video: KVM-GO Ürünionsupdate #2.</em></small></p>
+<p align="center"><small><em>60'ların video güncellemesini izleyin: KVM-GO Üretim İlerlemesi Güncellemesi #2.</em></small></p>
 
 ---
 
-## 1) Industriedesign-Konvergenz (Verbinderdeckel ve Band finalisiert)
+## 1) Endüstriyel Tasarımın Yakınsaması (Konektör Başlığı ve Bağlantı Sonlandırılmış)
 
 ![New-Version](https://assets2.openterface.com/images/New-Version.webp)
 
-<p align="center"><small><em>Neue Außenansicht. Das Anti-Verlust-Band am Verbinderdeckel ist Teil des finalisierten Designs için Alltagstauglichkeit.</em></small></p>
+<p align="center"><small><em>Yeni sürümün dış anlık görüntüsü. Konektör kapağının kaybolmayı önleyen ipi artık günlük güvenilirlik için son tasarımın bir parçası.</em></small></p>
 
-Wir harmonisieren weiter Details hakkında HDMI / DP / VGA hinweg, daile Montage ve QC in großem Maßstab konsistent bleiben. Da der Deckel klein ve wegen microSD oft abgenommen wird, macht das Band den Ablauf Abnehmen – Zugriff veya Wechsel – Wieder anbringen sicherer ve fehlerresistenter.
+Montaj ve kalite kontrolünün belirli ölçekte tutarlı olmasını sağlamak için HDMI / DP / VGA genelinde ayrıntıları birleştirmeye devam ediyoruz. Konektör kapağı küçük olduğundan ve microSD erişimi için sık sık çıkarıldığından, bağlantı, iş akışının kapağı kaldırmasını, microSD'ye erişmesini veya microSD'yi değiştirmesini ve yeniden daha güvenli ve daha az hataya açık olmasını sağlar.
 
 ---
 
-## 2) Chargen-Vorbereitung (Verbinderdeckel-Bänder için Verpackung bereit)
+## 2) Toplu Aşamalandırma (Paketleme için Hazır Konektör Kapağı Bağları)
 
 ![keychain-cord-2](https://assets2.openterface.com/images/keychain-cord-2.webp)
 
-<p align="center"><small><em>Verbinderdeckel-Bänder in gezählten Chargen vorbereitet, bereit için Verpackung ve wiederholbare Montageabläufe.</em></small></p>
+<p align="center"><small><em>Sayılı gruplar halinde düzenlenen, paketlemeye ve tekrarlanabilir montaj akışına hazır olan konektör başlığı bağları.</em></small></p>
 
-Wir staffeln Zubehör in sauberen, zählbaren Chargen, passend zur Ürünion. Das reduziert Verpackungsfehler ve unterstützt reproduzierbareres QA.
+Üretim iş akışlarına uyum sağlamak için aksesuarları temiz, sayılabilir partiler halinde hazırlıyoruz. Bu, paketleme hatalarını azaltır ve daha tekrarlanabilir bir QA sürecini destekler.
 
 ---
 
-## 3) Kennzeichnung ve Dokümantasyon (Open-Source-Beschriftung wird vollständiger)
+## 3) İşaretler ve Dokümantasyon (Açık Kaynak Etiketlemesi Daha Eksiksiz Hale Geliyor)
 
 ![Open-source](https://assets2.openterface.com/images/Open-source.webp)
 
-<p align="center"><small><em>Gehäusekennzeichnung ve Open-Source-Markierungen werden finalisiert, daile ausgelieferte Geräte klar, einheitlich ve konform sind.</em></small></p>
+<p align="center"><small><em>Teslim edilen birimlerin net, tutarlı ve uyumlu kalmasını sağlamak için muhafaza işaretleri ve açık kaynak etiketleri sonlandırılıyor.</em></small></p>
 
-Neben Donanım verfeinern wir Kennzeichnung ve Open-Source-bezogene Markierungen ve treiben OSHWA-Vorbereitungen weiter voran.
+Donanımın ötesinde, OSHWA ile ilgili hazırlıklara devam ederken, teslim edilen her üniteyi daha net ve daha standart hale getirmek için etiketlemeyi ve açık kaynakla ilgili işaretlemeleri geliştiriyoruz.
 
 ---
 
-## 4) Montagebereitschaft (Donanım için Konsistenzprüfungen vorbereitet)
+## 4) Montaj Hazırlığı (Tutarlılık Kontrolleri için Hazırlanan Donanım)
 
 ![Back-cover-screw](https://assets2.openterface.com/images/Back-cover-screw.webp)
 
-<p align="center"><small><em>Montage-Kleinteile vorbereitet için bevorstehende Build-Konsistenzprüfungen ve wiederholbare QC-Schritte.</em></small></p>
+<p align="center"><small><em>Montaj donanımı, yaklaşan yapı tutarlılığı kontrolleri ve tekrarlanabilir Kalite Kontrol adımları için hazırlandı.</em></small></p>
 
-Befestigungsteile früh zu staffeln stabilisiert die Montage, reduziert Nacharbeit ve unterstützt einheitliche QC-Prüfungen.
+Bağlantı elemanlarının ve küçük donanımların erken aşamalandırılması, montajın istikrarlı kalmasına yardımcı olur, yeniden çalışmayı azaltır ve tutarlı QC doğrulamasını destekler.
 
 ---
 
-## 5) VGA-Variante Montagevorbereitung (Donanım ve Werkzeuge bereit)
+## 5) VGA Varyant Montaj Hazırlığı (Donanım ve Araçlara Hazır)
 
 ![New-vga-version-screwdrivers](https://assets2.openterface.com/images/New-vga-version-screwdrivers.webp)
 
-<p align="center"><small><em>VGA-spezifische Montagevorbereitung, daile Builds konsistent ve Service einfach bleiben.</em></small></p>
+<p align="center"><small><em>VGA varyantı derleme hazırlığı, derlemelerin tutarlı olmasını ve bakımın kolay olmasını sağlamak için aşamalı olarak gerçekleştirilir.</em></small></p>
 
-Die VGA-Montagevorbereitung läuft parallel, daile wir Verifikations-Builds fahren ve QC hakkında Varianten hinweg angleichen können.
+Doğrulama yapılarını çalıştırabilmemiz ve kalite kontrol adımlarının çeşitler arasında tutarlı olmasını sağlayabilmemiz için VGA'ya özel montaj hazırlığı paralel olarak gerçekleştiriliyor.
 
 ---
 
-## 6) Kunststoff-Fortschritt (Rückdeckel-Ürünion abgeschlossen)
+## 6) Plastik İlerleme (Arka Kapak Üretimi Tamamlandı)
 
 ![Back-cover](https://assets2.openterface.com/images/Back-cover.webp)
 
-<p align="center"><small><em>Rückdeckel-Ürünion in Chargen abgeschlossen – stabile Basis için die nächsten Montageschritte.</em></small></p>
+<p align="center"><small><em>Arka kapak üretimi partiler halinde tamamlanarak sonraki montaj adımları için sağlam bir temel sağlanır.</em></small></p>
 
-Bei den Kunststoffteilen ist die Rückdeckel-Ürünion fertig. Das stabilisiert den Montagerhythmus ve ermöglicht reproduzierbarere Passform- ve Oberflächenprüfung.
+Plastik tarafında ise arka kapak üretimi tamamlandı. Bu, montaj ritminin dengelenmesine yardımcı olur ve daha tekrarlanabilir montaj ve bitiş doğrulamasını mümkün kılar.
 
 ---
 
-## 7) Kunststoff-Fortschritt (schwarzer Nylon-Frontdeckel in Arbeit)
+## 7) Plastics Progress (Siyah Naylon Ön Kapak Devam Ediyor)
 
 ![Various-versions-of-interface-nylon-front-covers](https://assets2.openterface.com/images/Various-versions-of-interface-nylon-front-covers.webp)
 
-<p align="center"><small><em>Schwarze Nylon-Frontdeckel hakkında Varianten hinweg in Vorbereitung; Passform ve Konsistenz için die Montage werden geprüft.</em></small></p>
+<p align="center"><small><em>Montaj için uygunluğu ve tutarlılığı doğrularken, siyah naylon ön kapaklar çeşitli varyantlarda geliştirilmektedir.</em></small></p>
 
-Der schwarze Nylon-Frontdeckel durchläuft die Ürünionsvorbereitung. Wir validieren Passform ve Konsistenz için einen reibungslosen Einbau in die Montagelinie.
+Siyah naylon ön kapak üretim hazırlık aşamasından geçiyor. Montaj akışına sorunsuz bir şekilde entegre olması için uyum ve tutarlılığı doğruluyoruz.
 
 ---
 
-## 8) Verbinderdeckel-Ürünion (orangefarbene Deckel in Chargenfertigung)
+## 8) Konnektör Kapağı Üretimi (Fabrika Üretiminde Turuncu Konnektör Kapakları)
 
 ![connection-cap](https://assets2.openterface.com/images/connection-cap.webp)
 
-<p align="center"><small><em>Orangefarbene Verbinderdeckel in Chargenproduktion; Prozessparameter werden için Ausbeute ve Montagestabilität optimiert.</em></small></p>
+<p align="center"><small><em>Verim ve montaj stabilitesini artırmak için süreç tutarlılığını ayarlarken, turuncu konektör kapakları toplu üretimdedir.</em></small></p>
 
-Der orangefarbene Verbinderdeckel ist in Ürünion. Wir justieren Prozessparameter ve hakkındawachen Konsistenz için bessere Ausbeute ve stabile Montagepassung.
-
----
-
-## Fertigungsstatus (Kurzhakkındablick)
-
-- Aluminiumgehäuse (HDMI / DP / VGA): bestätigt, in Ürünion  
-- CNC-Kühlkörperteile: in Ürünion  
-- Rückdeckel: Ürünion abgeschlossen  
-- Schwarzer Nylon-Frontdeckel: in Arbeit  
-- Orangefarbener Verbinderdeckel: in Ürünion  
-- Verbinderdeckel-Bänder: in gezählten Chargen için Verpackung ve Montage vorbereitet  
+Turuncu konektör kapağı şu anda üretimdedir. Verimi artırmak ve montajın istikrarlı bir şekilde oturmasını sağlamak için süreç parametrelerini ayarlıyor ve tutarlılığı izliyoruz.
 
 ---
 
-## Als Nächstes (Meilensteine için Backer)
+## Üretim Durumu Özeti (Hızlı Okuma)
 
-- Aluminiumgehäuse-Ürünion plus Montage-Passform-Validierung  
-- CNC-Kühlkörper-Ürünion plus Bearbeitungskonsistenz ve Passform  
-- Schwarzer Nylon-Frontdeckel plus Montage-Passform  
-- Orangefarbener Deckel: Chargenkonsistenz plus Montagevalidierung  
-- Konforileätsvorbereitung (CE / RoHS / FCC / OSHWA Dokümantasyon ve Testplanung)  
-- Ürünionstest ve QC weiter verfestigen (einheitlicher Prüfstandard pro Gerät)  
+- Alüminyum muhafazalar (HDMI / DP / VGA): onaylanmış ve üretimde  
+- CNC soğutucu parçaları: üretimde  
+- Arka kapak: üretim tamamlandı  
+- Siyah naylon ön kapak: devam ediyor  
+- Turuncu konektör kapağı: üretimde  
+- Konektör kapağı ipleri: paketleme ve montaj için sayılan gruplar halinde aşamalandırılmıştır  
 
-Vielen Dank için eure Unterstützung ve Geduld. Wir teilen weiterhin nachvollziehbaren Fortschritt.  
+---
+
+## Sırada Ne Var (Arkadaşların Karşılaştığı Kilometre Taşları)
+
+- Alüminyum mahfaza üretimi devam ediyor ve montaja uygunluk doğrulaması yapılıyor  
+- CNC soğutucu üretimi devam ediyor, ayrıca işleme tutarlılığı ve uyum onayı  
+- Siyah naylon ön kapak ilerlemesi artı montaj uygunluğu doğrulaması  
+- Turuncu konektör kapağı toplu tutarlılık ve montaj doğrulaması  
+- Uyumluluk hazırlığı (CE / RoHS / FCC / OSHWA dokümantasyonu ve test planlaması)  
+- Üretim testi ve kalite kontrol akışı daha da sağlamlaştırıldı (her ünite için tutarlı doğrulama standardı)  
+
+Desteğiniz ve sabrınız için tekrar teşekkür ederiz. İlerledikçe gerçek, doğrulanabilir ilerlemeyi paylaşmaya devam edeceğiz.  
 Billy / Openterface (TechxArtisan)

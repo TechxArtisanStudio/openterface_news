@@ -2,34 +2,33 @@
 locale: ar
 translationKey: "250515-openterface-tds-annc"
 slug: "250515-openterface-tds-annc"
-title: "Wir Gehen Live!"
-description: "Das Openterface-Team kündigt eine Live-YouTube-Session مع Crowd Supply Teardown an, مع einem tiefen Einblick in das Mini-KVM, einem exklusiven Vorgeschmack auf die Lite-Version و der Bekanntgabe der Gewinner des USB KVM DIY Challenge 2024."
+title: "نحن نذهب لايف!"
+description: "يعلن فريق Openterface عن جلسة مباشرة على YouTube مع Crowd Supply Teardown، والتي تتضمن الغوص العميق في Mini-KVM، ونظرة خاطفة على الإصدار Lite، وإعلان الفائزين في تحدي USB KVM DIY 2024."
 date: 2025-05-15
 channel: product
 product: minikvm
 topic: ["campaign", "event"]
-category: "Product التحديثات"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+مرحبًا بالجميع!
 
-Hallo alle zusammen!
+يسعدنا أن نعلن أن بيلي وانغ (قائد منتج Openerface) وكيفن بينج (قائد التكنولوجيا في Openerface) سينضمان إلى Helen Leigh في **Crowd Supply Teardown Session** — **مباشرة على YouTube!**
 
-Wir freuen uns, معzuteilen, dass Billy Wang (Openterface منتجleiter) و Kevin Peng (Openterface Tech-Leiter) Helen Leigh لـ eine **Crowd Supply Teardown Session** beitreten werden—**LIVE auf YouTube!**
+**الموعد:** 15 مايو، الساعة 12:00 ظهرًا (UTC−07:00، ظهرًا بتوقيت المحيط الهادئ)
 
-**Wann:** 15. Mai, 12:00 Uhr (UTC−07:00, Mittagszeit Pazifik)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tp4f_uxEo6E?si=IvgSfYIVd1f5Tikr" title="مشغل فيديو YouTube"frameborder="0"allow="accelerometer; autoplay; clipboard-write; الوسائط المشفرة; جيروسكوب; صورة داخل صورة; مشاركة الويب" referrpolicy="strict-origin-when-cross-origin"allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tp4f_uxEo6E?si=IvgSfYIVd1f5Tikr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### ما هو القادم
 
-### Was Kommt
+* نظرة عميقة إلى **Openterface Mini-KVM**
+* **نظرة خاطفة** حصرية على **الإصدار البسيط** القادم لدينا
+* الإعلان الرسمي عن الفائزين في تحدي USB KVM DIY 2024**
+* وأكثر من ذلك بكثير!
 
-* Ein tiefer Einblick in das **Openterface Mini-KVM**
-* Ein exklusiver **Vorgeschmack** auf unsere kommende **Lite-Version**
-* Die offizielle **Bekanntgabe der Gewinner des USB KVM DIY Challenge 2024**
-* Und vieles mehr!
+هذه واحدة من أفضل الفرص المتاحة لك حتى الآن للتفاعل مع فريق Openterface مباشرةً. هل لديك أسئلة حول أجهزة USB KVM، أو تصميم الأجهزة، أو ما هي الخطوة التالية بالنسبة لـ Openterface؟ **أطرح أسئلتك في الدردشة المباشرة على YouTube.** نود أن نسمع منك ونتحدث أثناء البث!
 
-Dies ist eine der besten Gelegenheiten, um live مع dem Openterface-Team zu interagieren. Haben Sie أسئلة zu USB KVMs, الأجهزة-Design أو was als nächstes لـ Openterface kommt? **Stellen Sie Ihre أسئلة im YouTube Live-Chat.** Wir würden gerne von Ihnen hören و während des Streams chatten!
-
-Lassen Sie uns diese Session interaktiv و unvergesslich machen.
-Bis bald, live و laut! (Aber wenn Sie den Livestream verpassen, wird er auf [Crowd Supplys YouTube-Kanal](https://www.youtube.com/channel/UCEy6epGOpSspDO09v4IPRAw) gespeichert).
+دعونا نجعل هذه الجلسة تفاعلية ولا تنسى.
+نراكم هناك، على الهواء مباشرة وبصوت عال! (ولكن إذا فاتك البث المباشر، فسيتم حفظه على [Crowd Supply's YouTube channel](https://www.youtube.com/channel/UCEy6epGOpSspDO09v4IPRAw)).

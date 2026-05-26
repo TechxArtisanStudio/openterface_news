@@ -2,93 +2,92 @@
 locale: nl
 translationKey: "241022-diy-challenge"
 slug: "241022-diy-challenge"
-title: "DIY Challenge, Coole Preise en Production Nähert sich dem Ziel!"
-description: "USB KVM DIY Challenge 2024 met Make Magazine, OSHWA en Crowd Supply angekündigt! Gewinnen Sie exklusive Preise inklusive limetierter Mini-KVM Editionen. Plus: 800 Einheiten zusammengebaut, verbesserte Android-App veröffentlicht en Productionsfortschritt aktualisiert."
+title: "DIY-uitdaging, coole prijzen en productie nadert de finish!"
+description: "Aankondiging van USB KVM DIY Challenge 2024 met Make Magazine, OSHWA en Crowd Supply! Win exclusieve prijzen, waaronder mini-KVM's in beperkte oplage. Plus: 800 geassembleerde eenheden, verbeterde release van de Android-app en update van de productievoortgang."
 date: 2024-10-22
 channel: product
 product: minikvm
-topic: ["production", "software", "campaign", "event", "community"]
+topic: ["shipping", "production", "software", "campaign", "event", "community"]
 category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hallo daar, Openterface-enthousiastelingen!
 
-Hallo, Openterface-Enthusiasten!
+We hebben leuk nieuws om te delen! Van een spannende nieuwe doe-het-zelf-uitdaging tot productiemijlpalen en coole software-updates: het bruist hier bij Openterface. Pak een drankje, maak het jezelf gemakkelijk en duik samen met ons in deze update!
 
-Wir haben aufregende Neuigkeiten zu teilen! Von einer spannenden neuen DIY-Challenge bis hin zu Productionsmeilensteinen en coolen Software-Updates—bei Openterface ist richtig was los. Holen Sie sich ein Getränk, machen Sie es sich gemütlich en tauchen Sie met uns in dieses Update ein!
+## USB KVM DIY Challenge 2024: tijd om je innerlijke tech-wizard los te laten!
 
-## USB KVM DIY Challenge 2024: Zeit, Ihren Inneren Tech-Zauberer zu Entfesseln!
-
-Achtung alle Bastler, Macher en Träumer! Wir freuen uns, die USB KVM DIY Challenge 2024 vorstellen zu können, eine Zusammenarbeit met TechxArtisan, Make: Magazine, der Open Source Hardware Association (OSHWA) en Crowd Supply. Das ist Ihre Chance, eine maßgeschneiderte KVM-Lösung zu erstellen—lassen Sie uns sehen, welche Magie Sie met Ihrem Openterface Mini-KVM zaubern können!
+Alle knutselaars, makers en dromers opgelet! Met veel plezier presenteren we de USB KVM DIY Challenge 2024, een samenwerking met TechxArtisan, Make: Magazine, de Open Source Hardware Association (OSHWA) en Crowd Supply. Dit is uw kans om een ​​op maat gemaakte KVM-oplossing te creëren. Laten we eens kijken welke magie u kunt creëren met uw Openterface Mini-KVM!
 
 ![techxartisan,make magazine,oshwa,crowdsouce logos](https://www.crowdsupply.com/img/edd0/923e0840-1232-47f1-b007-ab2023c5edd0/openterface-241017-03_jpg_md-xl.jpg)
 
-### Hier ist die Zusammenfassung:
+### Hier is het overzicht:
 
-**Mission:** Erstellen Sie Ihre eigene offene KVM-Lösung met dem Openterface Mini-KVM, met Ihrer persönlichen Note, um Ihre spezifischen Bedürfnisse zu erfüllen.
+**Missie:** Creëer uw eigen open KVM-oplossing met behulp van de Openterface Mini-KVM, met uw persoonlijke draai om aan uw specifieke behoeften te voldoen.
 
-**Kategorien:** Preise voor Top-Performer beinhalten Auszeichnungen sowohl voor technische Fähigkeiten als auch voor Kreativität, also hat jeder eine Chance!
+**Categorieën:** Prijzen voor toppresteerders omvatten prijzen voor zowel technische vaardigheid als creativiteit, zodat iedereen een kans maakt!
 
-**Tolle Preise:**
+**Geweldige prijzen:**
 
-- Ein limetiertes Openterface Mini-KVM met transparentem en silbernem Gehäuse.
-- Das futuristische Pi-Cast KVM von HackerGadgets.
-- Das retro-inspirierte GameShell von Clockwork.
+- Een Openterface Mini-KVM in beperkte oplage met een transparante en zilveren kast.
+- De futuristische Pi-Cast KVM van HackerGadgets.
+- De retro-geïnspireerde GameShell van Clockwork.
 
-**Zeitplan:** Die Challenge startet am 1. Oktober 2024 en Einreichungen enden am 28. Februar 2025.
+**Tijdlijn:** De uitdaging begint op 1 oktober 2024 en de inzendingen sluiten op 28 februari 2025.
 
-**Jury:** Experten von TechxArtisan, Make: Magazine, OSHWA en Crowd Supply werden Ihre Projekte bewerten.
+**Jury:** Experts van TechxArtisan, Make: Magazine, OSHWA en Crowd Supply zullen uw projecten evalueren.
 
-Ob Sie ein erfahrener Tech-Zauberer sind of gerade erst in die Welt des Hardware-Hackings einsteigen, dieser Wettbewerb ist Ihr Spielplatz. Wer weiß? Sie könnten das nächste große Ding in der Tech-Welt erschaffen!
+Of je nu een doorgewinterde tech-wizard bent of net de wereld van hardware-hacking betreedt, deze wedstrijd is jouw speeltuin. Wie weet? Misschien creëer jij wel het volgende grote ding in de technologie!
 
-Treten Sie der Aktion auf [Crowd Supplys offizieller Wettbewerbsseite](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024) bei en chatten Sie met uns im [Wettbewerbs-Discord-Kanal](https://discord.com/invite/YhKVzDujkT). **Lassen Sie die Innovationsspiele beginnen!**
+Doe mee aan de actie op [Crowd Supply's official contest page](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024) en chat met ons op [contest Discord channel](https://discord.com/invite/YhKVzDujkT). **Laat de innovatiespellen beginnen!**
 
-![Openterface Mini-KVM verfügbar in drei coolen Gehäusen—transparent, silber en schwarz](https://www.crowdsupply.com/img/54d6/9eba8416-7d7d-428d-b92a-934c526a54d6/openterface-241017-06_jpg_md-xl.jpg)
-<p style="text-align: center;"><small><em>Openterface Mini-KVM verfügbar in drei coolen Gehäusen—transparent, silber en schwarz</em></small></p>
+![Openterface Mini-KVM available in three cool enclosures—transparent, silver, and black](https://www.crowdsupply.com/img/54d6/9eba8416-7d7d-428d-b92a-934c526a54d6/openterface-241017-06_jpg_md-xl.jpg)
+<p style="text-align: center;"><small><em>Openterface Mini-KVM beschikbaar in drie coole behuizingen: transparant, zilver en zwart</em></small></p>
 
-![Einige der tollen Preise: Pi-Cast KVM von HackerGadgets en GameShell von Clockwork](https://www.crowdsupply.com/img/407d/f83d375b-2711-4c8b-99e4-537b6704407d/openterface-241017-07_jpg_md-xl.jpg)
-<p style="text-align: center;"><small><em>Einige der tollen Preise: Pi-Cast KVM von HackerGadgets en GameShell von Clockwork</em></small></p>
+![Some of the awesome prizes: Pi-Cast KVM by HackerGadgets and GameShell by Clockwork](https://www.crowdsupply.com/img/407d/f83d375b-2711-4c8b-99e4-537b6704407d/openterface-241017-07_jpg_md-xl.jpg)
+<p style="text-align: center;"><small><em>Enkele van de geweldige prijzen: Pi-Cast KVM van HackerGadgets en GameShell van Clockwork</em></small></p>
 
-## Productionsupdate: Fast Geschafft!
+## Productie-update: bijna daar!
 
-Hier ist ein Einblick in die harte Arbeit hinter den Kulissen—unser Studio summt wie ein Bienenstock! Bisher haben wir 800 Einheiten des Openterface Mini-KVM zusammengebaut.
+Hier is een voorproefje van het harde werk achter de schermen: onze studio zoemt als een bijenkorf! Tot nu toe hebben we 800 eenheden van de Openterface Mini-KVM gemonteerd.
 
 ![assembled units](https://www.crowdsupply.com/img/7d41/ed50b569-b923-44c6-b6b3-f10ebd807d41/openterface-241017-02_jpg_md-xl.jpg)
 
 ![Production progress image](https://www.crowdsupply.com/img/3ff4/cde3e357-c25b-4990-bc06-de01048f3ff4/openterface-241017-08_jpg_md-xl.jpg)
 
-Unsere Qualitätskontrolle ist erstklassig. Jede Einheit wird von unserem Team overprüft, nochmals overprüft en verwöhnt, um sicherzustellen, dass sie, wenn sie in Ihre Hände gelangt, niet nur gut ist—sondern großartig! Wir streben nach der Art von Qualität, die andere Geräte grün vor Neid macht.
+Onze kwaliteitscontrole is van topklasse. Elk apparaat wordt gecontroleerd, opnieuw gecontroleerd en in de watten gelegd door ons team om ervoor te zorgen dat wanneer u het in handen krijgt, het niet alleen goed is, maar ook geweldig! Wij streven naar het soort kwaliteit waar andere apparaten jaloers op worden.
 
-Wir wissen, dass Warten schwer sein kann, aber wir sind verpflichtet, die bestmögliche Erfahrung zu liefern. Vielen Dank voor Ihre Geduld, während wir die letzten Handgriffe machen!
+We weten dat wachten moeilijk kan zijn, maar we doen er alles aan om de best mogelijke ervaring te bieden. Bedankt voor uw geduld terwijl we de laatste hand leggen!
 
-## Software-Update: Android-App Erhält ein Schönes Upgrade
+## Software-update: Android-app krijgt een mooie upgrade
 
-Unsere Android-App hat gerade ein großes Upgrade erhalten. Nu war es noch nie einfacher of unterhaltsamer, Ihre Zielgeräte over Ihr Telefon of Tablet zu steuern!
+Onze Android-app heeft zojuist een grote upgrade gekregen. Het bedienen van uw doelapparaten via uw telefoon of tablet is nu nog nooit zo eenvoudig en leuk geweest!
 
-Schauen Sie sich das Demo-Video hier an: [Android-App Demo-Video](https://x.com/TechxArtisan/status/1840587612148699398)
+Bekijk hier de demovideo: [Android App Demo Video](https://x.com/TechxArtisan/status/1840587612148699398)
 
-[![Finger tippen auf der Android-App](https://www.crowdsupply.com/img/5615/a94c1a0e-ef15-4f4a-a438-c40e58be5615/openterface-241017-04_jpg_gallery-lg.jpg)](https://x.com/TechxArtisan/status/1840587612148699398)
+[![finger tapping on the Android app](https://www.crowdsupply.com/img/5615/a94c1a0e-ef15-4f4a-a438-c40e58be5615/openterface-241017-04_jpg_gallery-lg.jpg)](https://x.com/TechxArtisan/status/1840587612148699398)
 
-### Hier ist was neu ist:
-- Sanfte en reaktive Touch-Steuerung
-- Einfache Drag-and-Drop-Funktionalität
-- Präzises Tippen voor eine intuitive Erfahrung
-- Eine neue Funktionstasten-Leiste voor zusätzliche Bequemlichkeit
-- Kommende Funktion: anpassbare Tastenkürzel
-- Kompatibel met Android-Tablets en -Telefonen
+### Dit is wat er nieuw is:
+- Soepele en responsieve aanraakbediening
+- Eenvoudige drag-and-drop-functionaliteit
+- Nauwkeurig tikken voor een intuïtieve ervaring
+- Een nieuwe functietoetsenbalk voor extra gemak
+- Aankomende functie: aanpasbare sneltoetsen
+- Compatibel met zowel Android-tablets als telefoons
 
-Diese App macht das Openterface Mini-KVM noch nützlicher voor Tech-Profis unterwegs. Wir haben auch die neueste APK en den Quellcode in unser GitHub-Repository hochgeladen, falls Sie weiter erkenen of beitragen möchten!
+Deze app maakt de Openterface Mini-KVM nog nuttiger voor technische professionals onderweg. We hebben ook de nieuwste APK en broncode geüpload naar onze GitHub-opslagplaats als je verder wilt verkennen of een bijdrage wilt leveren!
 
-## Zusammenfassung
+## Het inpakken
 
-Puh! Das war ein ziemlich großes Update, niet wahr?
+Pff! Dat was een hele update, toch?
 
-Wenn Sie Ideen, Feedback of wilde KVM-Träume haben, möchten wir sie hören! Schreiben Sie uns eine DM, senden Sie eine Brieftaube 🕊️ of springen Sie in einen unserer Community-Kanäle. Wir lieben es, uns met Ihnen zu verbinden!
+Als je ideeën, feedback of wilde KVM-dromen hebt, willen we ze graag horen! Slide in onze DM's, stuur een postduif 🕊️, of spring op een van onze communitykanalen. Wij vinden het leuk om met jou in contact te komen!
 
-Nochmals vielen Dank voor Ihre Geduld en davoor, dass Sie die beste Tech-Community da draußen sind. Wir haben mehr aufregende Neuigkeiten en Updates in Kürze—bleiben Sie dran!
+Nogmaals bedankt voor je geduld en dat je de beste technische community bent die er is. Binnenkort hebben we nog meer spannend nieuws en updates: blijf op de hoogte!
 
-Mit Dankbarkeit,  
+Met dankbaarheid,  
 Billy Wang  
 Productmanager  
-Openterface Team | TechxArtisan
+Openterface-team | TechxArtisan

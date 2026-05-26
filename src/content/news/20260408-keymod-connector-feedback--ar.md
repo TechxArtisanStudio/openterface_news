@@ -2,60 +2,59 @@
 locale: ar
 translationKey: "20260408-keymod-connector-feedback"
 slug: "20260408-keymod-connector-feedback"
-title: "KeyMod Update: USB-C vs USB-A Connectors—Prototyp-Fotos و Community-Feedback"
-description: "KeyMod Prototyp-Update: USB-C, USB-A و Hybrid-Layouts لـ unseren Telefon-Tastatur-Maus-Emulator. Helfen Sie bei der Wahl des Connectors—Feedback-Formular, YouTube Short و r/homelab."
+title: "تحديث KeyMod: موصلات USB-C مقابل USB-A — صور النموذج الأولي وتعليقات المجتمع"
+description: "تحديث النموذج الأولي لـ KeyMod: USB-C، وUSB-A، والتخطيطات المختلطة لمحاكي لوحة المفاتيح والماوس على الهاتف. ساعد في اختيار الرابط - نموذج التعليقات وYouTube Short وr/homelab."
 date: 2026-04-08
 channel: product
 product: keymod
-topic: ["beta", "campaign", "community"]
-category: "منتج-التحديثات"
-tags: ["KeyMod", "منتج-التحديثات", "USB", "Prototyp", "Community-Feedback", "Beta"]
+topic: ["shipping", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KeyMod", "Product Updates", "USB", "Prototype", "Community Feedback", "Beta"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+يغطي تحديث تطوير [**KeyMod**](https://openterface.com/product/keymod/) هذا **اختيارات الموصل المادي** لجهازنا الصغير للغاية **محاكي لوحة المفاتيح والماوس** — وهو جهاز يظل بعيدًا عن هاتفك حتى تقوم بتوصيله من أجل **التحكم في HID**، **استكشاف أخطاء تكنولوجيا المعلومات وإصلاحها**، وإعدادات **homelab**. يستمر عمل البرامج الثابتة والتوافق؛ السؤال المفتوح هو ما هو **أسلوب موصل USB** (USB-C، أو USB-A، أو الهجين) الذي يناسب الاستخدام اليومي الحقيقي بشكل أفضل.
 
-Dieses [**KeyMod**](https://openterface.com/product/keymod/) Entwicklungsupdate behandelt **physische Connector-Auswahlen** لـ unseren ultra-kompakten **Tastatur-و-Maus-Emulator**—ein Gerät, das auf Ihrem Telefon لا stört, bis Sie es لـ **HID-Steuerung**, **IT-Fehlerbehebung** و **homelab**-Setups einstecken. Firmware- و Kompatibilitätsarbeiten laufen weiter; die offene Frage ist, welcher **USB-Connector-Ansatz** (USB-C, USB-A أو Hybrid) am besten zur tatsächlichen täglichen Nutzung passt.
+## أين نحن في التنمية
 
-## Wo wir in der Entwicklung stehen
+تمضي أعمال البرامج الثابتة والأداء والتوافق قدمًا. الموضوع الذي نناقشه كثيرًا الآن هو **الميكانيكي**: وهو **تخطيط موصل USB** الذي يتطابق بشكل أفضل مع كيفية استخدام الأشخاص لـ KeyMod يومًا بعد يوم.
 
-Firmware-, Performance- و Kompatibilitätsarbeiten schreiten voran. Das Thema, das wir derzeit am meisten diskutieren, ist **mechanisch**: welches **USB-Connector-Layout** am besten dazu passt, wie Menschen KeyMod tatsächlich von Tag zu Tag nutzen werden.
+![Openterface KeyMod update cover—prototype connector development](https://assets2.openterface.com/images/youtube-cover.jpg)
 
-![Openterface KeyMod Update-Cover—Prototyp-Connector-Entwicklung](https://assets2.openterface.com/images/youtube-cover.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo A](https://assets2.openterface.com/images/keymod-connector-a.jpg)
 
-![KeyMod-Prototyp-Gehäuse مع USB-Connector-Option—Vergleichsfoto A](https://assets2.openterface.com/images/keymod-connector-a.jpg)
+لقد استكشفنا تخطيطات **USB-C** و**USB-A** و**الهجينة** و**طباعة ثلاثية الأبعاد** للعديد من نماذج النماذج الأولية حتى نتمكن من مقارنة الملاءمة والتعامل وفوضى الكابلات ومضايقات العالم الحقيقي جنبًا إلى جنب.
 
-Wir haben **USB-C**, **USB-A** و **Hybrid**-Layouts erkوet و mehrere Prototyp-Gehäuse **3D-gedruckt**, daمع wir Passform, Handhabung, Kabelchaos و echte Ärgernisse Seite an Seite vergleichen können.
+![KeyMod prototype housing with USB connector option—comparison photo B](https://assets2.openterface.com/images/keymod-connector-b.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo C](https://assets2.openterface.com/images/keymod-connector-c.jpg)
+![KeyMod prototype housing with USB connector option—comparison photo D](https://assets2.openterface.com/images/keymod-connector-d.jpg)
 
-![KeyMod-Prototyp-Gehäuse مع USB-Connector-Option—Vergleichsfoto B](https://assets2.openterface.com/images/keymod-connector-b.jpg)
-![KeyMod-Prototyp-Gehäuse مع USB-Connector-Option—Vergleichsfoto C](https://assets2.openterface.com/images/keymod-connector-c.jpg)
-![KeyMod-Prototyp-Gehäuse مع USB-Connector-Option—Vergleichsfoto D](https://assets2.openterface.com/images/keymod-connector-d.jpg)
+## USB-C مقابل USB-A مقابل الهجين: لماذا يهمك رأيك
 
-## USB-C vs USB-A vs Hybrid: Warum Ihre Meinung zählt
+يقوم مستخدمون مختلفون بتوصيل **الخوادم** و**أجهزة الكمبيوتر المحمولة** و**الأجهزة العميلة قليلة السُمك** و**أجهزة USB-A القديمة** فقط. يفضل البعض **USB-C القابل للعكس** على جانب الهاتف؛ يحتاج الآخرون إلى **USB-A** للرفوف أو المحولات القديمة. يمكن للتخطيط ** المختلط ** أن يضيف المرونة بالإضافة إلى الحجم والتكلفة. نحن لا نخمن، بل نريد **خبرة ميدانية** و**قصص سير العمل** من الأشخاص الذين قد يستخدمون KeyMod بالفعل.
 
-Verschiedene Benutzer stecken **Server**, **Laptops**, **Thin Clients** و **legacy USB-A-only**-Geräte an. Einige bevorzugen **reversibles USB-C** auf der Telefonseite; andere benötigen **USB-A** لـ ältere Racks أو Adapter. Ein **Hybrid**-Layout kann Flexibilität hinzufügen, aber auch Größe و Kosten. Wir raten لا—wir wollen **Felderfahrung** و **Workflow-Berichte** von Menschen, die KeyMod tatsächlich tragen würden.
+## نود الحصول على مدخلاتك
 
-## Wir bitten um Ihre Meinung
+تساعدنا تعليقات المجتمع على تجنب التصميم في الفراغ. إذا كان لديك بضع دقائق، فيرجى مشاركة وجهة نظرك من خلال **نموذج الملاحظات القصير** الخاص بنا، أو مشاهدة **شرح شخصي** سريع لمقايضات الموصل:
 
-Community-Feedback hilft uns, لا isoliert zu entwickeln. Wenn Sie ein paar Minuten Zeit haben, teilen Sie bitte Ihre Perspektive حول unser **kurzes Feedback-Formular** مع, أو sehen Sie sich eine kurze **persönliche Erklärung** der Connector-Kompromisse an:
+* **[KeyMod connector feedback (Google Form)](https://forms.gle/BS9ARmDBk4TcT7Nr5)**
+* **[Connector formats explained by Billy Wang (YouTube Short)](https://www.youtube.com/shorts/vpQwN9VdOf8)**
 
-*   **[KeyMod-Connector-Feedback (Google Form)](https://forms.gle/BS9ARmDBk4TcT7Nr5)**
-*   **[Connector-Formate erklärt von Billy Wang (YouTube Short)](https://www.youtube.com/shorts/vpQwN9VdOf8)**
+الإجابات الملموسة والمدروسة هي الأكثر أهمية. للحصول على إجابات واضحة ومفيدة بشكل خاص، قد **نقدم وحدة تجريبية مجانية** حتى تتمكن من تجربة KeyMod مبكرًا والمساعدة في تحسين التجربة.
 
-Durchdachte, konkrete إجابات zählen am meisten. Für إجابات, die besonders klar و nützlich sind, können wir **eine kostenlose Beta-Einheit anbieten**, daمع Sie KeyMod frühzeitig ausprobieren و helfen können, die Erfahrung zu verfeinern.
+نرحب أيضًا بالانضمام إلى المناقشة على Reddit: [**We got stuck on this keyboard-emulator format**](https://www.reddit.com/r/homelab/comments/1s9nxut/we_got_stuck_on_this_keyboard_emulator_format/) (r/homelab).
 
-Sie sind auch eingeladen, an der Diskussion auf Reddit teilzunehmen: [**Wir sind bei diesem Tastatur-Emulator-Format stecken geblieben**](https://www.reddit.com/r/homelab/comments/1s9nxut/we_got_stuck_on_this_keyboard_emulator_format/) (r/homelab).
+## الجدول الزمني لدفعة بيتا
 
-## Zeitplan لـ die Beta-Phase
+نحن نستعد لشحن **الدفعة الأولى من وحدات الاختبار التجريبي** قريبًا. يعتمد جعل KeyMod حقيقيًا على دعم المجتمع - ليس فقط التعليقات، ولكن **الأشخاص الذين يساعدون في نشر الكلمة** حتى يتمكن الآخرون من العثور على المشروع وتقييمهم. إذا كنت تريد **تشكيل هذا المنتج معنا**، فقم بذلك من خلال النموذج، أو عن طريق إخبار الأصدقاء أو الزملاء الذين قد يهتمون، أو عن طريق مشاركة هذا التحديث في المكان المناسب. هذا هو الوقت المناسب للمشاركة.
 
-Wir bereiten uns darauf vor, bald eine **erste Charge von Beta-Test-Einheiten** zu versenden. KeyMod real zu machen, hängt von Community-Unterstützung ab—لا nur Feedback, sondern **Leute, die helfen, das Wort zu verbreiten**, daمع andere das Projekt finden و sich einbringen können. Wenn Sie **dieses منتج مع uns gestalten möchten**, tun Sie es حول das Formular, indem Sie Freوen أو Kollegen davon erzählen, die es interessieren könnte, أو indem Sie dieses Update teilen, wo es passt. Dies ist ein guter Zeitpunkt, um sich zu beteiligen.
+## المبدعون والمؤثرون والصحافة
 
-## Creator, Influencer و Presse
+إذا كنت تغطي **التقنية أو تكنولوجيا المعلومات أو العمليات** وترغب في **مراجعة KeyMod** أو إبراز المشروع، تواصل معنا من خلال خيارات الاتصال على [**openterface.com**](https://openterface.com/). نريد **تعليقات صادقة** — ما الذي ينجح، وما الذي لا ينجح، وأين يبدو الأمر صعبًا — لأن الثناء والنقد على حد سواء يساعداننا في تحويل KeyMod إلى **أداة يمكنك الاعتماد عليها في العمل اليومي في مجال تكنولوجيا المعلومات**، وليس مجرد عرض توضيحي أنيق.
 
-Wenn Sie حول **Tech, IT أو Operations** berichten و **KeyMod reviewen** أو das Projekt vorstellen möchten, nehmen Sie حول die Kontaktoptionen auf [**openterface.com**](https://openterface.com/) Kontakt auf. Wir wollen **ehrliches Feedback**—was funktioniert, was لا و wo es sich holprig anfühlt—denn Lob و Kritik helfen uns gleichermaßen, KeyMod in ein **Werkzeug zu verwandeln, auf das Sie sich لـ die tägliche IT-Arbeit verlassen können**, لا nur in eine coole Demo.
+نشكرك على متابعة المشروع وعلى تخصيص الوقت لقراءة هذا التحديث. تتحسن الأجهزة المفتوحة عندما يقوم عدد أكبر من الأشخاص باختبار الافتراضات ويساعدون في نقل القصة؛ مدخلاتك وصوتك يغذيان تكرار التصميم التالي.
 
-Vielen Dank, dass Sie dem Projekt folgen و sich die Zeit genommen haben, dieses Update zu lesen. Open الأجهزة wird besser, wenn mehr Menschen Annahmen stresstesten و helfen, die Geschichte zu tragen; Ihr Input و Ihre Stimme speisen beide die nächste Design-Iteration.
+مع أطيب التحيات،
 
-Mit freوlichen Grüßen,
-
-Openterface Team | TechxArtisan
+فريق الواجهة المفتوحة | TechxArtisan

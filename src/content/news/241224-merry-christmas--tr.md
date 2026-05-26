@@ -2,40 +2,39 @@
 locale: tr
 translationKey: "241224-merry-christmas"
 slug: "241224-merry-christmas"
-title: "Frohe Weihnachten & Glückliches Neues Jahr & Eine Kleine Überraschung vom Openterface Team!"
-description: "Feiertagsangebot: Erhalten Sie $20 Mağaza-Guthaben beim Kauf von zwei Mini-KVM Toolkits! Feiern Sie Weihnachten ve Neujahr ile Openterface's speziellem Angebot, läuft vom 24. Dezember bis 10. Januar. Plus: genießen Sie unser festliches Weihnachtsvideo ve Jahresendbotschaft."
+title: "Mutlu Noeller, Mutlu Yıllar ve Openterface Ekibinden Küçük Bir İkram!"
+description: "Tatile özel: İki Mini-KVM Araç Takımı satın alarak 20$ mağaza kredisi kazanın! Noel'i ve Yeni Yılı Openterface'in 24 Aralık - 10 Ocak tarihleri ​​arasında geçerli olacak özel teklifiyle kutlayın. Ayrıca: Noel videomuzun ve yıl sonu mesajımızın keyfini çıkarın."
 date: 2024-12-24
 channel: product
 product: minikvm
-topic: ["beta", "campaign", "community"]
-category: "Product Güncellemeler"
+topic: ["beta", "software", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+<iframe width = "560" height = "315" yükleme = "tembel" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title = "YouTube video oynatıcı" çerçeveborder = "0" izin = "ivmeölçer; otomatik oynatma; panoya yazma; şifreli medya; jiroskop; resim içinde resim; web paylaşımı" referrerpolicy = "strict-origin-when-cross-origin" Allowfullscreen>
 
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Merhaba,
 
-Hallo,
+Yılı tamamlarken bu e-postanın sizi iyi bulacağını umuyoruz! Yeni Yılı kutlamak ve desteğinize olan minnettarlığımızı göstermek için sizin için küçük bir özel şeyimiz var.
 
-wir hoffen, dass diese E-Mail Sie gut erreicht, während wir das Jahr abschließen! Um das Neue Jahr zu feiern ve unsere Wertschätzung için Ihre Unterstützung zu zeigen, haben wir etwas Besonderes için Sie.
+Ama önce, bu yıl yolculuğumuzun bir parçası olan herkese büyük bir teşekkür etmek için biraz zaman ayırmak istiyoruz. İster fikirlerimizi hayata geçirmemize yardımcı olan bir geliştirici olun, ister bize çok değerli erken geri bildirimler veren beta testçilerimizden biri olun, ister rehberlik ve teşvik sunan bir destekçi olun, ister başından beri bize inanan harika destekçilerimizden biri olun; bu yılı unutulmaz kıldınız. Sen olmasaydın bunu yapamazdık.
 
-Aber zuerst möchten wir einen Moment nehmen, um allen zu danken, die Teil unserer Reise in diesem Jahr waren. Ob Sie ein Entwickler sind, der uns geholfen hat, unsere Ideen zum Leben zu erwecken, einer unserer Beta-Tester, der uns wertvolles frühes Feedback gegeben hat, ein Unterstützer, der Kılavuz ve Ermutigung angeboten hat, veya einer unserer erstaunlichen Backer, der von Anfang an an uns geglaubt hat—Sie haben dieses Jahr unvergesslich gemacht. Ohne Sie hätten wir es değil geschafft.
+İşte anlaşma:
+**24 Aralık 2024** ile **10 Ocak 2025** arasında, iki Mini-KVM Araç Seti Crowd Supply satın alırsanız, size **TxA mağazamız için 20 ABD doları tutarında mağaza kredisi** göndereceğiz.
 
-Hier ist das Angebot:
-Zwischen dem **24. Dezember 2024** ve dem **10. Januar 2025**, wenn Sie zwei Mini-KVM Toolkits auf Crowd Supply kaufen, senden wir Ihnen **ein $20 Mağaza-Guthaben için unseren TxA Mağaza**.
+Bu çok kolay; sadece Crowd Supply'dan sipariş onayınızın ekran görüntüsünü alın ve [info@openterface.com](mailto:info@openterface.com) adresine e-postayla gönderin. Satın alma işleminizi doğrulayacağız ve 20 ABD doları tutarındaki mağaza kredi kodunuzu kullanarak yanıt vereceğiz.
 
-Es ist super einfach—machen Sie einfach einen Screenshot Ihrer Bestellbestätigung von Crowd Supply ve senden Sie ihn per E-Mail an [info@openterface.com](mailto:info@openterface.com). Wir werden Ihren Kauf verifizieren ve ile Ihrem $20 Mağaza-Guthaben-Code antworten.
+Ayrıca sizin için özel bir tatil sürprizimiz var. Rahatlamak ve rahat Noel videomuzun keyfini çıkarmak için bir dakikanızı ayırın; güzel ışıklara bakın ve [soothing Christmas tunes](https://www.youtube.com/watch?v=wEWAhXCXQ1E) şarkısını dinleyin. Gününüze biraz neşe katacağını umuyoruz!
 
-Wir haben auch eine besondere Feiertagshakkındaraschung için Sie. Nehmen Sie sich einen Moment Zeit, um sich zu entspannen ve unser gemütliches Weihnachtsvideo zu genießen—schauen Sie sich die schönen Lichter an ve hören Sie [beruhigende Weihnachtsmelodien](https://www.youtube.com/watch?v=wEWAhXCXQ1E). Wir hoffen, es bringt ein wenig Freude in Ihren Tag!
+Bu bizim teşekkür etme ve 2025'e bizden küçük bir hediyeyle başlama şeklimiz.
 
-Das ist unsere Art, Danke zu sagen ve 2025 ile einem kleinen Geschenk von uns an Sie zu beginnen.
+Geçtiğimiz yılı düşündüğümüzde, topluluğumuzun inanılmaz desteğine gerçekten minnettarız. Vizyonumuza olan inancınız yaptığımız her şeyin arkasındaki itici güç olmuştur. Fikirleri gerçeğe dönüştüren geliştiricilerimize, ürünümüzü geliştirmeye yardımcı olan beta testçilerimize ve geri bildirim, teşvik ve rehberlik sağlayan ilk destekçilerimize; yolculuğumuzun bir parçası olduğunuz için teşekkür ederiz. Destekçilerimiz için güveniniz bizim için dünyalara bedeldir ve tüm bunları mümkün kılmaktaki rolünüze sonsuz minnettarız.
 
-Während wir auf das vergangene Jahr zurückblicken, sind wir wirklich dankbar için die unglaubliche Unterstützung unserer Community. Ihr Glaube an unsere Vision war die treibende Kraft hinter allem, was wir tun. An unsere Entwickler, die Ideen in die Realität umgesetzt haben, unsere Beta-Tester, die geholfen haben, unser Ürün zu verfeinern, ve unsere frühen Unterstützer, die Feedback, Ermutigung ve Kılavuz angeboten haben—danke, dass Sie Teil unserer Reise waren. Und an unsere Backer, Ihr Vertrauen bedeutet uns die Welt, ve wir sind unendlich dankbar için Ihre Rolle dabei, all dies möglich zu machen.
+Sorularınız mı var? Bize bir mesaj bırakmanız yeterli; her zaman yardım etmek için buradayız. 2025'i karşılarken size ve sevdiklerinize mutluluk, başarı ve heyecan verici yeni maceralarla dolu, neşeli bir yeni yıl diliyoruz.
 
-Haben Sie Sorular? Schreiben Sie uns einfach—wir sind immer da, um zu helfen. Während wir 2025 willkommen heißen, wünschen wir Ihnen ve Ihren Lieben ein fröhliches Neues Jahr voller Glück, Erfolg ve aufregender neuer Abenteuer.
+Hikayemizin bir parçası olduğunuz için teşekkür ederiz. Önümüzdeki yıl birlikte daha da muhteşem şeyler yaratacağımız için heyecanlıyız!
 
-Danke, dass Sie Teil unserer Geschichte sind. Wir freuen uns darauf, im kommenden Jahr noch mehr erstaunliche Dinge zusammen zu schaffen!
-
-Herzliche Grüße,
-Das Openterface Team
+Saygılarımızla,
+Açık Arayüz Ekibi

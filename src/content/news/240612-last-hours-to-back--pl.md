@@ -2,23 +2,22 @@
 locale: pl
 translationKey: "240612-last-hours-to-back"
 slug: "240612-last-hours-to-back"
-title: "Letzte Stien zur Unterstützung & Mini-KVMs an der Tech-Frontlinie"
-description: "Letzte Stien, um Openterface Mini-KVM zu Sonderpreisen zu unterstützen! Sehen Sie echte Nutzung von unseren Beta-Testern, kommende Teardown 2024 Event-Pläne i unsere Reise zu 1050+ Unterstützern. Kampagne endet am 13. Juni um 16:59 PDT - verpassen Sie es nie!"
+title: "Ostatnie godziny na powrót i mini-KVM w Tech Frontlines"
+description: "Ostatnie godziny na wsparcie Openterface Mini-KVM w specjalnej cenie! Zobacz rzeczywiste wykorzystanie naszych beta testerów, nadchodzące plany wydarzeń Teardown 2024 i naszą podróż do ponad 1050 osób wspierających. Kampania kończy się 13 czerwca o 16:59 czasu PDT – nie przegap tej okazji!"
 date: 2024-06-12
 channel: product
 product: minikvm
-topic: ["beta", "software", "campaign", "event"]
-category: "Product Aktualizacje"
+topic: ["shipping", "beta", "software", "campaign", "event", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Hej wszystkim,
 
-Hallo zusammen,
+Chcieliśmy podzielić się ekscytującymi aktualizacjami od naszego zespołu beta na naszym [Discord channel](/discord)! Nasz Openterface Mini-KVM doskonale radzi sobie na linii frontu technologicznego i mamy fantastyczne zdjęcia do pokazania. Sprawdź je i zobacz, o co tyle szumu!
 
-wir wollten einige aufregende Aktualizacje von unserem Beta-Team auf unserem [Discord-Kanal](/discord) teilen! Unser Openterface Mini-KVM leistet brillante Arbeit an der Tech-Frontlinie, i wir haben fantastische Bilder zu zeigen. Schauen Sie sie sich an i sehen Sie, worum sich der ganze Hype dreht!
-
-<img src="https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg" alt="cam-share" style="max-width:420px" loading="lazy">
+<img src="https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg" alt="cam-share" style="max-width:420px" loading="leniwy">
 
 <img src="https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg" alt="catenane-share" style="max-width:420px" loading="lazy">
 
@@ -28,38 +27,38 @@ wir wollten einige aufregende Aktualizacje von unserem Beta-Team auf unserem [Di
 
 <img src="https://www.crowdsupply.com/img/50bc/6318ed70-11f6-4640-b73b-f435267950bc/nkahoang-share_jpg_gallery-lg.jpg" alt="nkahoang-share" style="max-width:420px" loading="lazy">
 
-## 🚨 Letzte-Chance-Alarm! 🚨
+## 🚨 Alarm ostatniej szansy! 🚨
 
-**Die Zeit läuft ab!** Verpassen Sie nie Ihre Chance, uns auf [Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) zu unterstützen i das Openterface Mini-KVM zum super günstigen Preis von 79 $ - 99 $ zu ergattern. Die Kampagne endet am **13. Juni 2024 um 16:59 PDT**, i die Preise werden nach der Kampagne steigen, wenn das Produkt reift. Also handeln Sie jetzt i schnappen Sie sich dieses Angebot!
+**Czas ucieka!** Nie przegap swojej szansy, aby wesprzeć nas na [Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) i zgarnąć Openterface Mini-KVM w wyjątkowo przyjaznej dla portfela cenie 79–99 USD. Kampania kończy się **13 czerwca 2024 r. o godzinie 16:59 czasu PDT**, a ceny mają wzrosnąć po zakończeniu kampanii w miarę dojrzewania produktu. Zatem działaj już teraz i zgarnij tę ofertę!
 
-## Kommendes Teardown 2024 & Eine lustige Wette
+## Nadchodzące rozbicie 2024 i fajny zakład
 
-Wie viele von Ihnen auf der Crowd Supply Hauptseite gesehen haben, erzeugt das kommende **Teardown 2024 Event** viel Aufregung. Ich freue mich darauf, persönlich daran teilzunehmen i unsere großartigen Unterstützer dort zu treffen!
+Jak wielu z Was widziało na stronie głównej Crowd Supply, nadchodzące wydarzenie **Teardown 2024** wywołuje wiele emocji. Nie mogę się doczekać osobistego przybycia i poznania tam naszych niesamowitych darczyńców!
 
-Hier ist **eine lustige Wette**, die wir in unserem Team haben:
+Oto **zabawny zakład**, który mamy w naszym zespole: 
 
-Aktuell haben wir etwa 950 Unterstützer dla unser Projekt. Kevin Peng, unser technischer Direktor, i ich haben eine Wette. Wenn es uns gelingt, **100 weitere Unterstützer** in den letzten Stien zu bekommen, werden meine Reisekosten dla die Reise nach Portland von unserem Studio onommen. Wenn nie, muss ich die Rechnung selbst bezahlen, was bedeutet, dass ein paar tausend Dollar aus meiner eigenen Tasche gehen!
+Obecnie mamy około 950 zwolenników naszego projektu. Kevin Peng, nasz dyrektor techniczny i ja postawiliśmy zakład. Jeśli w ostatnich godzinach uda nam się **pozyskać 100 dodatkowych osób**, moje koszty podróży do Portland pokryje nasze studio. Jeśli nie, będę musiał sam zapłacić rachunek, co oznacza kilka tysięcy dolców z własnej kieszeni!
 
-Also rufe ich alle unsere Abonnenten i neuen Freie des Openterface Mini-KVM auf, uns zu helfen, diese letzten Stien zu ostehen. Lassen Sie uns 1050+ Unterstützer erreichen i diese Reise möglich machen!
+Dlatego wzywam wszystkich naszych subskrybentów i nowych przyjaciół Openterface Mini-KVM, aby pomogli nam przetrwać te ostatnie godziny. Zdobądźmy ponad 1050 osób wspierających i sprawmy, aby ta podróż doszła do skutku!
 
-Am wichtigsten ist, bitte **helfen Sie dabei, das Wort zu verbreiten**, dass unsere Kampagne zu Ende geht. Wir sind verpflichtet, dieses praktische Gerät zu bauen i sicherzustellen, dass es Ihnen in erstklassiger Qualität geliefert wird.
+A co najważniejsze, proszę **pomóż w rozpowszechnianiu informacji** o zakończeniu naszej kampanii. Dokładamy wszelkich starań, aby zbudować to poręczne urządzenie i zapewnić, że zostanie dostarczone do Ciebie w najwyższej jakości.
 
-Wir haben in den letzten 8 Monaten unser Herz in dieses Projekt gesteckt. Sie können alle unsere Bemühungen in den Aktualizacje unten sehen i unsere historischen Posts auf unserem Subreddit [r/Openterface_miniKVM](/reddit) oprüfen:
+Włożyliśmy w ten projekt całe serce przez ostatnie 8 miesięcy. Możesz zobaczyć wszystkie nasze wysiłki w aktualizacjach poniżej i zapoznać się z naszymi postami w historii na naszym subreddicie [r/Openterface_miniKVM](/reddit):
 
-- [Openterface Mini-KVM Crowdfiing-Kampagne geht JETZT live!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/openterface-mini-kvm-crowdfiing-campaign-goes-live-now) 30. April 2024
+- [Openterface Mini-KVM Crowdfunding Campaign Goes Live NOW!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/openterface-mini-kvm-crowdfunding-campaign-goes-live-now) 30 kwietnia 2024 r
 
-- [Häufig gestellte Pytania](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/frequently-asked-questions) 11. Mai 2024
+- [Frequently Asked Questions](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/frequently-asked-questions) 11 maja 2024 r
 
-- [Unser VGA-zu-HDMI-Kabel ist jetzt dla europäische Unterstützer verfügbar (i es ist einen ganzen Meter lang!)](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/our-vga-to-hdmi-cable-is-now-available-to-european-backers-and-its-a-full-meter-long) 16. Mai 2024
+- [Our VGA-to-HDMI Cable Is Now Available to European Backers (and It's a Full Meter Long!)](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/our-vga-to-hdmi-cable-is-now-available-to-european-backers-and-its-a-full-meter-long) 16 maja 2024 r
 
-- [Von der Entwicklung in Ihre Hände: Hinter den Kulissen](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/from-development-to-your-hands-behind-the-scenes) 28. Mai 2024
+- [From Development to Your Hands: Behind the Scenes](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/from-development-to-your-hands-behind-the-scenes) 28 maja 2024 r
 
-- [Lockeres Gespräch z David Groom von MAKE: Magazine: Die Geschichte von Openterface Mini-KVM 🎙️](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/casual-chat-with-david-groom-from-make-magazine-the-story-of-openterface-mini-kvm) 31. Mai 2024
+- [Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM 🎙️](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/casual-chat-with-david-groom-from-make-magazine-the-story-of-openterface-mini-kvm) 31 maja 2024 r
 
-- [Epische Aktualizacje & Finale Woche - Letzte Chance, Mini-KVM zu unterstützen!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/epic-updates-and-final-week-last-chance-to-back-mini-kvm) 8. Juni 2024
+- [Epic Updates & Final Week - Last Chance to Back Mini-KVM!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/epic-updates-and-final-week-last-chance-to-back-mini-kvm) 8 czerwca 2024 r
 
-Also unterstützen Sie uns in diesen letzten Stien! Prost!
+Więc wspierajcie nas w ciągu tych ostatnich kilku godzin! Dzięki!
 
-Billy Wang  
-Projektmanager  
-Openterface Team
+Billy'ego Wanga  
+Kierownik projektu  
+Zespół Openterface'a

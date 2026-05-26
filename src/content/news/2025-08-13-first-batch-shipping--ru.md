@@ -2,52 +2,51 @@
 locale: ru
 translationKey: "2025-08-13-first-batch-shipping"
 slug: "2025-08-13-first-batch-shipping"
-title: "Erste Charge wird jetzt versendet! 🚚"
-description: "13. August 2025 - Große Neuigkeiten! Unsere erste Charge von KVM Extensions для uConsole wird jetzt an Kиen weltweit versendet! 🎉"
+title: "Первая партия уже отправлена! 🚚"
+description: "13 августа 2025 г. — Отличные новости! Наша первая партия KVM-расширений для uConsole уже отправляется клиентам по всему миру! 🎉"
 date: 2025-08-13
 channel: product
 product: uconsole-kvm-extension
-topic: ["production", "beta", "campaign", "community"]
-category: "Product Обновления"
+topic: ["shipping", "production", "beta", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**13 августа 2025 г.** — Отличные новости! Наша **первая партия KVM-расширений для uConsole** уже отправляется клиентам по всему миру! 🎉
 
-**13. August 2025** - Große Neuigkeiten! Unsere **erste Charge von KVM Extensions для uConsole** wird jetzt an Kиen weltweit versendet! 🎉
+## Спасибо нашим спонсорам
 
-## Dank an unsere Unterstützer
+Огромное спасибо всем нашим сторонникам и первым, кто сделал этот запуск возможным. Ваша поддержка и отзывы сыграли неоценимую роль в выводе этого продукта на рынок.
 
-Ein riesiges Dankeschön an alle unsere Unterstützer и frühen Förderer, die diesen Launch möglich gemacht haben. Ihre Unterstützung и Ihr Feedback waren unschätzbar, um dieses Продукт auf den Markt zu bringen.
+## Доступно ограниченное количество
 
-## Begrenzte Verfügbarkeit
-
-Wir haben noch **einige Einheiten** aus dieser ersten Продуктionsserie. Wenn Sie darauf gewartet haben, eine zu bekommen, ist jetzt die Zeit zu handeln!
+У нас еще осталось **несколько единиц** от первой партии. Если вы ждали возможности заполучить его, сейчас самое время действовать!
 
 <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;margin:20px 0;">
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="KVM Extension Production" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="Производство расширений KVM" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="KVM Extension Packaging" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="Упаковка расширений KVM" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="KVM Extension Quality Control" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="Контроль качества расширения KVM" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
 </div>
 
-## Was kommt als nächstes?
+## Что дальше?
 
-Sobald diese Charge ausverkauft ist, werden wir **zurück zu Vorbestellungen wechseln**, bis wir die Mindestmenge для die nächste Продуктionsserie erreichen. Das bedeutet, es könnte eine Wartezeit geben, bevor die nächste Charge verfügbar ist.
+Как только эта партия будет распродана, мы **вернёмся к предварительным заказам**, пока не достигнем минимального количества, необходимого для следующего производственного цикла. Это означает, что может пройти некоторое время, прежде чем следующая партия будет доступна.
 
-## Holen Sie sich jetzt Ihre
+## Получите свое сейчас
 
-Verpassen Sie es не! [Заказать Sie jetzt Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), solange der Vorrat reicht.
+Не пропустите! [Order your KVM Extension now](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), пока есть в наличии.
 
-## Bleiben Sie auf dem Laufenden
+## Будьте в курсе
 
-Folgen Sie unseren Обновления и treten Sie unserer [Discord-Community](https://discord.gg/ruAD9kcYbq) bei, um als Erste о zukünftige Продуктionsserien и neue Продуктankündigungen informiert zu werden.
+Следите за нашими обновлениями и присоединяйтесь к нашему [Discord community](https://discord.gg/ruAD9kcYbq), чтобы первыми узнавать о будущих выпусках продукции и анонсах новых продуктов.
 
 ---
 
-*Danke, dass Sie Teil der Openterface-Reise sind! 🙏*
+*Спасибо за участие в путешествии Openterface! 🙏*

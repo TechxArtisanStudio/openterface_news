@@ -2,38 +2,37 @@
 locale: ru
 translationKey: "251007-kvm-go-beta-test-kits-sent-1"
 slug: "251007-kvm-go-beta-test-kits-sent-1"
-title: "KVM-Go HDMI Beta-Charge wird ausgeliefert!"
-description: "Die erste Charge der KVM-Go HDMI Beta-Geräte wurde versandt! Nehmen Sie an unserem Beta-Testprogramm teil, um die nächsten Iterationen dieser ultrakompakten KVM-Lösung сzugestalten. Weitere Testrиen для Maker, Sysadmins и IT-Bastler folgen bald."
+title: "Выпуск бета-версии KVM-Go HDMI!"
+description: "Отправлена ​​первая партия бета-устройств KVM-Go HDMI! Присоединяйтесь к нашей программе бета-тестирования, чтобы помочь сформировать следующие версии этого ультракомпактного KVM-решения. Скоро нас ждут новые раунды тестирования для разработчиков, системных администраторов и ИТ-специалистов."
 date: 2025-10-07
 channel: product
 product: kvm-go
-topic: ["beta", "software", "campaign", "community"]
-category: "Продуктupdates"
-tags: ["KVM-Go", "Beta-Test", "Versandupdate", "Community", "Продуктentwicklung"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Beta Testing", "Shipping Update", "Community", "Product Development"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
-
 <img src="https://assets.openterface.com/images/kvm-go/beta-test/1.webp" alt="kvm-go-beta-test-1" style="max-width:720px" loading="lazy">
 
-Großen Dank an alle, die sich angemeldet haben, um unserem **KVM-GO Beta-Team** beizutreten. Wir haben gerade die erste kleine Charge von Beta-Geräten verpackt и versandt! 🎉
+Большое спасибо всем, кто присоединился к нашей **команде бета-тестирования KVM-GO**. Мы только что упаковали и отправили первую небольшую партию бета-устройств! 🎉
 
-Es war eine ziemliche Reise, dieses kompakte kleine KVM so zum Laufen zu bringen, wie wir es uns vorgestellt haben, ultratragbar и dennoch leistungsstark genug, um ernsthafte Workflows zu bewältigen. Wir sind unterwegs auf einige harte Herausforderungen gestoßen (Hitzeprobleme sind real, wenn man höhere Auflösungen in so einem winzigen Gehäuse erreichen will), aber wir arbeiten daran и lernen schnell с Ihrer Hilfe.
+Нам пришлось немало потрудиться, чтобы этот компактный маленький KVM работал так, как мы себе представляли: ультрапортативный, но достаточно мощный для выполнения серьезных рабочих процессов. На этом пути мы столкнулись с некоторыми сложными проблемами (проблемы с нагревом реальны, когда вы добиваетесь более высокого разрешения в таком крошечном корпусе), но мы работаем над этим и быстро учимся с вашей помощью.
 
 <img src="https://assets.openterface.com/images/kvm-go/beta-test/6.webp" alt="kvm-go-beta-test-6" style="max-width:720px" loading="lazy">
 
-Wir schätzen wirklich jeden, der unsere Open-Source-Оборудование- и Программное обеспечение-Reise unterstützt. 🙏 Dieses Projekt wäre ohne das Community-Testing, das Teilen von Feedback и die Verbreitung не möglich.
+Мы искренне ценим всех, кто поддерживает наше развитие аппаратного и программного обеспечения с открытым исходным кодом. 🙏 Этот проект был бы невозможен без тестирования сообщества, обмена отзывами и распространения информации.
 
-Weitere Beta-Test-Rиen kommen, obwohl die Plätze begrenzt sind. Wenn Sie ein Maker, Sysadmin или IT-Bastler sind, der es liebt, Geräte an ihre Grenzen zu bringen, bleiben Sie dran, wir werden Ihre Hilfe brauchen, um die nächsten Iterationen zu gestalten.
+Предстоят новые раунды бета-тестирования, хотя количество мест ограничено. Если вы производитель, системный администратор или ИТ-специалист, который любит доводить устройства до совершенства, будьте начеку: нам понадобится ваша помощь, чтобы сформировать следующие итерации.
 
 <img src="https://assets.openterface.com/images/kvm-go/beta-test/7.webp" alt="kvm-go-beta-test-7" style="max-width:720px" loading="lazy">
 
-In der Zwischenzeit:
+Тем временем:
 
-* 🔗 **Abonnieren** Sie auf unserer [Crowd Supply-Seite](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), um Обновления zu erhalten.
-* 🧰 Sie können auch unser klassisches [Openterface Mini-KVM](https://www.crowdsupply.com/techxartisan/mini-kvm) erwerben. Frisch aufgestockt!
-* 📘 Wir haben unsere [Документацияsseite](https://openterface.com) с frühen Informationen zu KVM-GO-Функции и FAQs оarbeitet (noch in Arbeit).
-  Haben Sie Feedback или Vorschläge? Finden Sie uns auf **Discord**, **Reddit**, или schicken Sie uns einfach eine E-Mail — wir würden gerne von Ihnen hören.
+* 🔗 **Подпишитесь** на нашу [Crowd Supply page](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), чтобы получать обновления.
+* 🧰 Вы также можете приобрести наш классический [Openterface Mini-KVM](https://www.crowdsupply.com/techxartisan/mini-kvm), свежий ассортимент!
+* 📘 Мы обновили наш [documentation site](https://openterface.com), добавив предварительную информацию о функциях KVM-GO и часто задаваемые вопросы (работа все еще находится в стадии разработки).
+  Есть отзывы или предложения? Найдите нас на **Discord**, **Reddit** или просто напишите нам по электронной почте — мы будем рады услышать ваше мнение.
 
-Bleiben Sie dran 😄 Weitere Entwicklungsgeschichten и Behind-the-Scenes-Обновления kommen bald!
+Оставайтесь с нами 😄 Скоро появятся новые истории разработчиков и закулисные обновления!

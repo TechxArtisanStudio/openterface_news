@@ -2,208 +2,207 @@
 locale: ar
 translationKey: "20260521-keycmd-019-release"
 slug: "20260521-keycmd-019-release"
-title: "KeyCmd 0.19: App-Rebranding, KM Pro Compose-Modus, Mehrsprachige Unterstützung و Modus-führungen"
-description: "KeyCmd 0.19 bringt ein wichtiges Rebranding von KeyMod zu KeyCmd, den neuen KM Pro Compose-Modus مع Unicode-HID-Senden, mehrsprachige UI (Koreanisch, Italienisch, Russisch, pt-BR), interaktive Modus-führungen و Dutzende UX-Verbesserungen."
+title: "KeyCmd 0.19: تغيير العلامة التجارية للتطبيق، ووضع KM Pro Compose، ودعم متعدد اللغات، وجولات إرشادية لكل وضع"
+description: "يقدم KeyCmd 0.19 علامة تجارية جديدة من KeyMod إلى KeyCmd، ووضع KM Pro Compose الجديد مع إرسال Unicode HID، وواجهة مستخدم متعددة اللغات (الكورية، والإيطالية، والروسية، وpt-BR)، وجولات إرشادية تفاعلية لكل وضع، وعشرات من تحسينات تجربة المستخدم."
 date: 2026-05-21
 channel: software
 product: keymod
-topic: ["beta", "software", "campaign"]
-category: "Product التحديثات"
-tags: ["KeyCmd", "Product التحديثات", "Release", "Compose", "i18n", "Android"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KeyCmd", "Product Updates", "Release", "Compose", "i18n", "Android"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+KeyCmd **0.19** (`versionCode` **19**) هو تحديث رئيسي يوفر **إعادة تسمية التطبيق** من KeyMod إلى KeyCmd، ووضع **KM Pro Compose الجديد** مع إرسال HID المدرك لليونيكود، وواجهة مستخدم موسعة **متعددة اللغات** (بما في ذلك الكورية والإيطالية والروسية والبرتغالية البرازيلية)، **جولات إرشادية تفاعلية لكل وضع**، وعشرات من تحسينات تجربة المستخدم عبر لوحة المفاتيح ولوحة الألعاب وأوضاع العرض التقديمي.
 
-KeyCmd **0.19** (`versionCode` **19**) ist ein großes Update, das das **App-Rebranding** von KeyMod zu KeyCmd, den brandneuen **KM Pro Compose-Modus** مع Unicode-fähigem HID-Senden, eine erweiterte **mehrsprachige UI** (einschließlich Koreanisch, Italienisch, Russisch و brasilianischem Portugiesisch), **interaktive Modus-führungen** و Dutzende von UX-Verbesserungen in Tastatur-, Gamepad- و Präsentationsmodi bringt.
+## تغيير العلامة التجارية للتطبيق: KeyMod → KeyCmd
 
-## App-Rebranding: KeyMod → KeyCmd
+أصبح اسم عرض التطبيق الآن **KeyCmd** عبر جميع نقاط الدخول. يوضح هذا التغيير في العلامة التجارية الفرق بين **جهاز KeyMod** والتطبيق المرافق له **KeyCmd**.
 
-Der App-Anzeigename ist jetzt an allen Einstiegspunkten **KeyCmd**. Dieses Rebranding verdeutlicht die Unterscheidung zwischen der **KeyMod-الأجهزة** و ihrer begleitenden **KeyCmd-App**.
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp" alt="شاشة الترحيب KeyCmd" style="max-width:100%; border-radius:8px; هامش:16px 0;" التحميل = "كسول">
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape.webp" alt="KeyCmd Willkommensbildschirm" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
+### ما الذي تغير
 
-### Was sich geändert hat
+- **اسم عرض التطبيق**: يعرض الآن رمز المشغل وواجهة مستخدم النظام "KeyCmd"
+- **تدفق الترحيب**: تم تحديث العلامة النصية ونسخها من KeyMod إلى KeyCmd
+- **عناصر CI وأسماء ملفات APK**: استخدم البادئة **KeyCmd**
+- يظل `applicationId` **`com.openterface.keymod`** لإجراء ترقيات سلسة في مكانها
 
-- **App-Anzeigename**: Launcher-Symbol و System-UI zeigen jetzt „KeyCmd"
-- **Willkommensablauf**: Wortmarke و Texte von KeyMod zu KeyCmd aktualisiert
-- **CI-Artefakte و APK-Dateinamen**: Verwenden das **KeyCmd**-Präfix
-- `applicationId` bleibt **`com.openterface.keymod`** لـ nahtlose Inplace-Upgrades
+المستخدمون الحاليون: يتم الاحتفاظ بإعداداتك وملفات التعريف والأجهزة المقترنة. الترقية سلسة.
 
-Bestehende Benutzer: Eure Einstellungen, Profile و gekoppelten Geräte werden beibehalten. Das Upgrade ist nahtlos.
+## لوحة المفاتيح والماوس: تجربة ملء الشاشة
 
-## Tastatur & Maus: Vollbild-Erfahrung
+يوفر KeyCmd تجربة لوحة مفاتيح بملء الشاشة، ولوحة اللمس، ولوحة الأرقام - وكلها محسنة للاتجاهات الرأسية والأفقية.
 
-KeyCmd bietet eine Vollbild-Tastatur-, Touchpad- و Ziffernblock-Erfahrung — optimiert لـ sowohl Porträt- als auch Landschaftsorientierung.
-
-<div class="slideshow-container" id="slideshow-keycmd-019-kbm-de" data-auto-slide="true" data-auto-slide-interval="3000">
+<div class = "slideshow-container" id = "slideshow-keycmd-019-kbm" data-auto-slide = "true" data-auto-slide-interval = "3000">
   <div class="slideshow-wrapper">
-    <div class="slide active">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp" alt="Vollbildtastatur Landschaft"  loading="lazy">
+    <div class="الشريحة النشطة">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Full-Keyboard-landscape.webp" alt="مشهد لوحة المفاتيح الكامل" جارٍ التحميل = "lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp" alt="Ziffernblock Landschaft"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape.webp" alt="Numpad Landscape" جاري التحميل = "lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp" alt="Ziffernblock Porträt"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-portrait.webp" alt="Numpad Portrait" جاري التحميل = "lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp" alt="Tastatur و Touchpad Porträt"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait.webp" alt="صورة لوحة المفاتيح ولوحة اللمس" جاري التحميل = "lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp" alt="Touchpad Landschaft"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-km-basic-Touchpad.webp" alt="أفقي للوحة اللمس" جارٍ التحميل = "lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp" alt="Remote-Coding مع KeyCmd"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Remote-Coding-portrait.webp" alt="الترميز عن بعد باستخدام KeyCmd" جاري التحميل = "lazy">
     </div>
     <div class="slide">
-      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp" alt="KeyCmd Einstellungsbildschirm"  loading="lazy">
+      <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Settings-screen.webp" alt="شاشة إعدادات KeyCmd" جاري التحميل = "lazy">
     </div>
   </div>
 
-  <div class="slideshow-navigation">
-    <button class="nav-arrow left" onclick="changeSlide('slideshow-keycmd-019-kbm-de', -1)">❮</button>
-    <div class="slideshow-dots">
-      <span class="dot active" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 1)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 2)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 3)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 4)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 5)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 6)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm-de', 7)"></span>
+  <div class="عرض الشرائح">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keycmd-019-kbm', -1)">❮</button>
+    <div class="عرض الشرائح-النقاط">
+      <span class="dot active" onclick="currentSlide('slideshow-keycmd-019-kbm', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 5)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 6)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keycmd-019-kbm', 7)"></span>
     </div>
-    <button class="nav-arrow right" onclick="changeSlide('slideshow-keycmd-019-kbm-de', 1)">❯</button>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keycmd-019-kbm', 1)">❯</button>
   </div>
 </div>
 
-## KM Pro: Compose & Send-Modus
+## KM Pro: وضع الإنشاء والإرسال
 
-Das größte neue Feature in 0.19 ist der **Compose-Modus** in KM Pro — ein dedizierter Texteditor, der es euch ermöglicht, lange Texte einzugeben و als HID-Tastendrücke an das Zielgerät zu senden.
+أكبر ميزة جديدة في 0.19 هي **وضع الإنشاء** في KM Pro — وهو محرر نصوص مخصص يتيح لك كتابة مقاطع طويلة وإرسالها كضغطات مفاتيح HID إلى الجهاز المستهدف.
 
-<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="Skriptausführung im Compose-Modus" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
+<img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="البرنامج النصي قيد التشغيل في وضع الإنشاء" style="max-width:100%; border-radius:8px; هامش:16px 0;" التحميل = "كسول">
 
-<p><strong>Compose &amp; Send demo (YouTube Short)</strong></p>
+<p><strong>التأليف &amp; أرسل العرض التوضيحي (YouTube Short)</strong></p>
 
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send demo (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315"load="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send Demo (YouTube Short)"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyrscope; image-in-picture; web-share" rerererpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-### Compose-Editor
+### محرر التأليف
 
-- **Obere Shortcut-Leiste + Composer-Aktionszeile** مع **Löschen**- و **Rückgängig/Löschen**-Steuerungen
-- **Entwurfserhaltung**: Euer Text wird beim Wechseln von Submodi و sogar nach einem erfolgreichen Senden beibehalten
-- **IME-Integration**: Tippt مع der Telefon-Tastatur, sendet als saubere HID-Tastendrücke
-- **Determinierter Sende-Fortschritt**: Eine sichtbare Fortschrittsleiste لـ lange HID-Puffer, sodass ihr genau wisst, wie weit der Sende-Vorgang fortgeschritten ist
+- **شريط الاختصار العلوي + إنشاء صف الإجراء** مع عناصر التحكم **مسح** و**تراجع/مسح**
+- **الاحتفاظ بالمسودة**: يتم الاحتفاظ بالنص الخاص بك عبر مفاتيح الوضع الفرعي وحتى بعد الإرسال الناجح
+- **تكامل IME**: اكتب باستخدام لوحة مفاتيح هاتفك، وأرسله كضغطات مفاتيح HID نظيفة
+- **تحديد تقدم الإرسال**: شريط تقدم مرئي لمخازن HID المؤقتة الطويلة حتى تعرف بالضبط مدى تقدم الإرسال
 
-### Unicode-fähiges HID-Senden
+### إرسال HID مدرك لليونيكود
 
-- **Dual-Modus-Risikoprüfung**: Vor dem Senden von لا-ASCII-Text warnt ein Dialog حول Unicode-Kompatibilität و bietet Inspektions- و Vorschauaktionen
-- **macOS Unicode-Hex-Flow**: Auf macOS-Hosts verwendet die App die Option+Hex-Code-Eingabemethode لـ erweiterte Zeichen
-- **Sicherere Sende-Dialoge**: Der Prüfungsbildschirm passt seinen Inhalt basierend darauf an, ob der Puffer reines ASCII أو Unicode-Zeichen enthält
-- **Zeicheninspektions-Tools**: Der Sende-Risiko-Dialog bietet **Prüfen**- و **Vorschau**-Aktionen, و macOS-Hosts enthalten einen dedizierten **Unicode-Hex-Pfad-Audit**-Eintrag
+- **مراجعة مخاطر الوضع المزدوج**: قبل إرسال نص غير ASCII، يوجد مربع حوار يحذر من توافق Unicode ويوفر إجراءات الفحص/المعاينة
+- **التدفق السداسي عشري لـ macOS Unicode**: على مضيفي macOS، يستخدم التطبيق طريقة إدخال الرمز السداسي Option+hex للأحرف الموسعة
+- **مربعات حوار إرسال أكثر أمانًا**: تقوم شاشة المراجعة بتعديل محتواها بناءً على ما إذا كان المخزن المؤقت عبارة عن ASCII خالصًا أو يحتوي على أحرف Unicode
+- **أدوات فحص الأحرف**: يوفر مربع حوار إرسال المخاطر إجراءات **التحقق** و**المعاينة**، ويتضمن مضيفو macOS إدخالاً مخصصًا **تدقيق مسار Unicode السداسي**
 
-### KM Basic-Umfang
+### نطاق KM الأساسي
 
-In 0.19 bleibt **Compose & Send eine Funktion von Tastatur & Maus Pro**. KM Basic konzentriert sich auf Vollbildtastatur-, Touchpad- و Ziffernblock-Workflows.
+في الإصدار 0.19، تظل **الإنشاء والإرسال إحدى ميزات Keyboard & Mouse Pro**. يركز KM Basic على سير عمل لوحة المفاتيح ولوحة اللمس ولوحة الأرقام بملء الشاشة.
 
-## Mehrsprachige Unterstützung
+## دعم متعدد اللغات
 
-KeyCmd unterstützt jetzt **11 App-UI-Sprachen**. Dieses Release fügt vier neue Lokalisierungen hinzu:
+يدعم KeyCmd الآن **11 لغة لواجهة مستخدم التطبيق**. يضيف هذا الإصدار أربع ترجمات جديدة:
 
-- **Koreanisch (ko)**: vollständige UI-Übersetzung
-- **Italienisch (it)**: vollständige UI-Übersetzung
-- **Russisch (ru)**: vollständige UI-Übersetzung
-- **Brasilianisches Portugiesisch (pt-BR)**: vollständige UI-Übersetzung
+- **الكورية (كو)**: ترجمة كاملة لواجهة المستخدم
+- **الإيطالية (it)**: ترجمة كاملة لواجهة المستخدم
+- **الروسية (ru)**: ترجمة كاملة لواجهة المستخدم
+- **البرتغالية البرازيلية (pt-BR)**: ترجمة كاملة لواجهة المستخدم
 
-Zusammen مع dem bestehenden Englisch, vereinfachtem Chinesisch, traditionellem Chinesisch, Japanisch, Französisch, Deutsch و Spanisch deckt KeyCmd jetzt den Großteil unserer globalen Nutzerbasis ab.
+إلى جانب اللغات الإنجليزية والصينية المبسطة والصينية التقليدية واليابانية والفرنسية والألمانية والإسبانية الحالية، يغطي KeyCmd الآن الغالبية العظمى من قاعدة المستخدمين العالمية لدينا.
 
-### Was sich geändert hat
+### ما الذي تغير
 
-- **Sprachauswahl** in den Einstellungen مع kanonischen App-Sprachnamen
-- **Bluetooth-Header** و **Tastenvorschau** lokalisiert
-- **Release-Lint**-Korrekturen لـ Compose-Warn-Tabs in allen Sprachen
+- **منتقي اللغة** في الإعدادات مع أسماء لغات التطبيق الأساسية
+- **رؤوس البلوتوث** و**معاينة النقر على المفتاح** مترجمة
+- **إصدار الوبر** يعمل على إصلاح علامات التبويب التحذيرية عبر جميع اللغات
 
-## Interaktive Modus-führungen
+## جولات إرشادية تفاعلية
 
-Jeder Modus hat jetzt eine **integrierte interaktive Modus-führung**, die euch Schritt لـ Schritt durch seine الميزات führt.
+يحتوي كل وضع الآن على **جولة إرشادية تفاعلية مدمجة** ترشدك عبر ميزاته خطوة بخطوة.
 
-### Verfügbare Modus-führungen
+### الجولات المتاحة
 
-- **Shortcut Hub-Modus-führung**: Öffnet das Standard-Profil و deckt Detail-UI, Kategorie-Tabs و Shortcut-Verwaltung ab
-- **Gamepad-Modus-führung**: Erklärt das Gamepad-Layout, Modulverwaltung و Voreinstellungssystem
-- **KM Pro-Modus-führung**: Deckt den Compose-Modus, Shortcut-Panel و Pro-spezifische الميزات ab
-- **KM Basic-Modus-führung**: Erklärt die Vollbildtastatur, Modifikator-Halte-Wischgeste و Ziffernblock
+- **جولة مركز الاختصارات**: تفتح ملف التعريف الافتراضي وتغطي تفاصيل واجهة المستخدم وعلامات تبويب الفئات وإدارة الاختصارات
+- **جولة لوحة الألعاب**: تشرح تخطيط لوحة الألعاب وإدارة الوحدة والنظام المعد مسبقًا
+- **جولة KM Pro**: تغطي وضع الإنشاء ولوحة الاختصارات والميزات الخاصة بـ Pro
+- **جولة KM الأساسية**: تشرح لوحة المفاتيح بملء الشاشة، والتمرير السريع للمعدِّل، واللوحة الرقمية
 
-### Modus-führungsfunktionen
+### مميزات الجولة
 
-- **Modus-spezifische Modus-führungen**: Jeder Modus hat seine eigene maßgeschneiderte Modus-führung
-- **Wiederholungsblatt**: Jede Modus-führung jederzeit حول die **Modus-führung**-Taste (Symbol links neben der الاتصالsleiste) erneut aufrufen
-- **i18n-Unterstützung**: Modus-führungsinhalte sind in der gesamten App-Sprachmenge lokalisiert
-- **Landschafts-optimiert**: Bottom-Sheet-Layouts passen sich in Landschaftsorientierung korrekt an
+- **أدلة لكل وضع**: كل وضع له جولة مخصصة خاصة به
+- **ورقة الإعادة**: قم بزيارة أي جولة في أي وقت عبر زر **دليل الوضع** (أيقونة يسار اتصال chrome)
+- **دعم i18n**: يتم ترجمة محتوى الجولة عبر مجموعة لغات التطبيق الكاملة
+- **مُحسَّن للمناظر الطبيعية**: تتكيف تخطيطات الورقة السفلية بشكل صحيح في الاتجاه الأفقي
 
-## UX-Verbesserungen
+## تحسينات تجربة المستخدم
 
-### Tastatur
+### لوحة المفاتيح
 
-- **Tastenvorschau**: Seht genau, was gesendet wird, bevor ihr tippt. Über Einstellungen aktivierbar. Standardmäßig aktiviert.
-- **Schnell-Tipp-HID-Korrektur**: Verbessertes Timing der Tastenfreigabe و zusammengeführte Freigabe-Ereignisse لـ schnelleres Tippen
-- **Alternativen-Tipp-Verarbeitung**: Langes Drücken der Taste `a` zeigt jetzt Alternativen لـ ¥ (oben), £ (links), € (rechts) مع verbessertem visuellen Feedback
-- **Modifikator-Halte-Wischgeste**: In KM Basic/Pro-Modus-führungen lehrt ein neuer Schritt die Halte-Wischgeste لـ schnellen Modifikatorzugriff
+- **معاينة النقر على المفتاح**: شاهد بالضبط ما سيتم إرساله قبل النقر. تمكين عبر الإعدادات. ممكّن افتراضيًا.
+- **إصلاح HID بالنقر السريع**: تحسين توقيت تحرير النقر على لوحة المفاتيح وأحداث الإصدار المجمعة لكتابة أسرع
+- **التعامل مع اللمس البديل**: الضغط لفترة طويلة على المفتاح `a` يعرض الآن بدائل لـ ¥ (أعلى)، £ (يسار)، € (يمين) مع تعليقات مرئية محسنة
+- **التمرير مع الاستمرار على المعدل**: في جولات KM Basic/Pro، هناك خطوة جديدة تعلم إيماءة السحب مع الاستمرار للوصول السريع إلى المعدل
 
-### Gamepad
+### لوحة الألعاب
 
-- **Bearbeitungs-Sitzungsleiste entfernt**: Saubereres Gamepad-Chrome ohne die alte Bearbeitungs-Sitzungs-Symbolleiste
-- **Gamepad-Chrome و Modus-führung**: Neuer visueller Schliff و integrierte Modus-führung
-- **Modus-führungssymbol**: Links neben der الاتصالsleiste لـ einfachen Zugriff platziert
+- ** تمت إزالة شريط تحرير الجلسة **: منظف لوحة الألعاب كروم بدون شريط أدوات تحرير الجلسة القديم
+- **Gamepad chrome and Tour**: طلاء مرئي جديد وجولة إرشادية متكاملة
+- **رمز دليل الوضع**: يوضع على يسار اتصال الكروم ليسهل الوصول إليه
 
-### Präsentation
+### العرض التقديمي
 
-- **Porträt-Paar-Sperre**: Der Präsentationsmodus ist auf Porträt- و umgekehrte Porträt-Orientierungen لـ stabile Präsentationssteuerung beschränkt
+- **قفل الزوج العمودي**: وضع العرض التقديمي مقيد بالاتجاهات الرأسية والعكسية لتوفير عناصر تحكم ثابتة في مقدم العرض
 
-### UI & Thema
+### واجهة المستخدم والموضوع
 
-- **Akzent-Farbfelder**: Ersetzt den Themenfarben-Familiendreher durch visuelle Akzent-Farbfelder لـ einfachere Farbauswahl
-- **UI-Akzent-Ausrichtung**: Alle UI-Akzente folgen jetzt der Themenfarbenfamilie (لا der Legacy-Primärfarbe)
-- **Header-Rechts-Cluster**: Verbesserte Dimensionen لـ الاتصالssymbole sowohl in der Haupt-App als auch im KM Basic-Chrome
-- **Compose-Sende-Taste-Styling**: Angeglichene لا-ASCII-Sende-Tasten-Appearance im Hell-Modus
+- **عينات التمييز**: استبدلت مجموعة ألوان السمة بحوامل تمييز مرئية لتسهيل اختيار الألوان
+- **محاذاة تمييز واجهة المستخدم**: تتبع جميع لهجات واجهة المستخدم الآن مجموعة ألوان السمة (وليس اللون الأساسي القديم)
+- **المجموعة اليمنى للرأس**: أبعاد محسنة لأيقونات الاتصال في كل من التطبيق الرئيسي وKM Basic chrome
+- **إنشاء تصميم زر الإرسال**: مظهر زر إرسال غير ASCII محاذاة في الوضع الفاتح
 
-### Einstellungen
+### الإعدادات
 
-- **Einstellungs-Neuordnung**: Kanonische App-Sprachnamen; Emulator-التثبيتsskripte لـ Klarheit umbenannt
-- **Dev-Helfer-Skripte**: Für klarere Geräte-Identifikation و Aktionsbenennung umbenannt
-- **FAQ-Docs**: `docs/FAQ.md` مع aktuellem App-Verhalten aktualisiert
+- **إعادة تنظيم الإعدادات**: أسماء لغات التطبيقات الأساسية؛ تمت إعادة تسمية البرامج النصية لتثبيت المحاكي من أجل الوضوح
+- **البرامج النصية لمساعد التطوير**: تمت إعادة تسميتها لتعريف الجهاز وتسمية الإجراء بشكل أكثر وضوحًا
+- **مستندات الأسئلة الشائعة**: تم تحديث `docs/FAQ.md` بسلوك التطبيق الحالي
 
-## Reale Anwendungsfälle
+## حالات الاستخدام في العالم الحقيقي
 
-### Remote-Coding
+### الترميز عن بعد
 
-KeyCmd ist لا nur لـ die Serververwaltung gedacht. Entwickler verwenden es لـ **Remote-Coding-Sitzungen** — Steuerung einer Headless-Entwicklungsbox vom Telefon أو Tablet aus, مع vollständiger Tastatur-, Touchpad- و Ziffernblock-Unterstützung.
+KeyCmd ليس مخصصًا لإدارة الخادم فقط. يستخدمه المطورون في **جلسات البرمجة عن بُعد** — للتحكم في صندوق تطوير بدون رأس من هاتف أو جهاز لوحي، مع دعم كامل للوحة المفاتيح ولوحة اللمس ولوحة الأرقام.
 
-## Was unverändert bleibt
+## ما لم يتغير
 
-**Tastatur & Maus Pro** (Composite-Modus مع Shortcut Hub-Leisten, geteilten Layouts و reichem IME-Verhalten) bleibt die voll ausgestattete Erfahrung, die es vorher war. Alle bestehenden Profile, Voreinstellungen و gekoppelten Geräte werden beibehalten.
+**Keyboard & Mouse Pro** (الوضع المركب مع شرائط Shortcut Hub والتخطيطات المقسمة وسلوك IME الغني) يظل تجربة كاملة الميزات كما كانت من قبل. يتم الاحتفاظ بجميع ملفات التعريف والإعدادات المسبقة والأجهزة المقترنة الموجودة.
 
-## Update holen
+## احصل على التحديث
 
-**Diese Version (0.19):** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
+**هذا الإصدار (0.19):** [KeyCmd-release-0.19.apk](https://assets2.openterface.com/data/KeyCmd-release-0.19.apk)
 
-> **Beta-Hinweis:** Die KeyCmd Android-App befindet sich noch in der aktiven Beta-Phase. Das Quellcode-Repo ist noch لا öffentlich — wir planen, es nach einer erfolgreichen Crowdfوing-Kampagne zu open-sourcen. Wenn ihr ein Beta-Tester seid و die neueste APK benötigt, kontaktiert uns auf Discord و wir schicken euch den Build.
+> **إشعار تجريبي:** لا يزال تطبيق KeyCmd Android في مرحلة تجريبية نشطة. لم يتم نشر الريبو المصدر بعد، ونحن نخطط لفتحه بعد حملة تمويل جماعي ناجحة. إذا كنت أحد مختبري الإصدار التجريبي وتحتاج إلى أحدث إصدار APK، فتواصل معنا على Discord وسنقوم بتزويدك بالإصدار.
 
-Bestehende التثبيتen werden vor Ort aktualisiert.
+ترقية عمليات التثبيت الحالية في مكانها.
 
-## Funktioniert مع Mini-KVM و KVM-Go
+## يعمل مع Mini-KVM وKVM-Go
 
-Die KeyCmd-App ist لا auf KeyMod-الأجهزة beschränkt. Bestehende Openterface-Nutzer können sie ebenfalls ausprobieren:
+لا يقتصر تطبيق KeyCmd على أجهزة KeyMod. يمكن أيضًا لمستخدمي Openterface الحاليين تجربتها:
 
-- **KVM-Go**: الاتصال حول **Bluetooth** أو **USB**
-- **Mini-KVM**: الاتصال حول **USB**
+- **KVM-Go**: اتصل عبر **Bluetooth** أو **USB**
+- **Mini-KVM**: الاتصال عبر **USB**
 
-## Upgrade-Hinweise
+## ترقية الملاحظات
 
-- **Rebranding**: Der App-Name ändert sich von KeyMod zu KeyCmd. Eure Daten werden beibehalten.
-- **Compose-Modus**: Neu لـ Tastatur & Maus Pro.
-- **Modus-führungen**: Tippt in jedem Modus auf das Modus-führungssymbol (links neben der الاتصالsleiste), um die interaktive Modus-führung zu starten.
-- **Sprachen**: Geht zu den Einstellungen, um die App-Sprache zu ändern. KeyCmd unterstützt jetzt 11 App-UI-Sprachen.
+- **Rebrand**: يتغير اسم التطبيق من KeyMod إلى KeyCmd. يتم الحفاظ على البيانات الخاصة بك.
+- **وضع الإنشاء**: جديد في Keyboard & Mouse Pro.
+- **الجولات الإرشادية**: اضغط على أيقونة الدليل (على يسار كروم الاتصال) في أي وضع لبدء الجولة التفاعلية.
+- **اللغات**: انتقل إلى الإعدادات لتغيير لغة التطبيق. يدعم KeyCmd الآن 11 لغة لواجهة مستخدم التطبيق.
 
-Mit freوlichen Grüßen,
+مع أطيب التحيات،
 
-Openterface Team | TechxArtisan
+فريق الواجهة المفتوحة | TechxArtisan

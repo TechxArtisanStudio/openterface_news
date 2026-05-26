@@ -2,67 +2,65 @@
 locale: ar
 translationKey: "250614-tinyrack-review"
 slug: "250614-tinyrack-review"
-title: "Eine sehr aufschlussreiche و wertvolle Bewertung aus Südkorea."
-description: "Eine tiefgründige و technisch scharfe Bewertung des Openterface Mini-KVM von der TinyRack-Community aus Südkorea, gefolgt von einer transparenten و herzlichen Antwort unseres Teams. Dieser Austausch beleuchtet reale Nutzungsrückmeldungen, unser Open-Source-Engagement و die gemeinsame Reise der Verbesserung von Tools durch Community-Zusammenarbeit."
+title: "مراجعة ثاقبة وقيمة للغاية من كوريا الجنوبية."
+description: "مراجعة مدروسة للغاية وحادة من الناحية الفنية لـ Openterface Mini-KVM من مجتمع TinyRack في كوريا الجنوبية، تليها استجابة شفافة وصادقة من فريقنا. يسلط هذا التبادل الضوء على تعليقات الاستخدام في العالم الحقيقي، والتزامنا بالمصادر المفتوحة، والرحلة المشتركة لتحسين الأدوات من خلال التعاون المجتمعي."
 date: 2025-05-19
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
-category: "Product التحديثات"
+topic: ["shipping", "production", "software", "campaign", "community", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
-
-### Eine Durchdachte Bewertung aus Korea و Unsere Gedanken dazu
+### مراجعة مدروسة من كوريا وأفكارنا في المقابل
 
 ![mini-kvm](https://tinyrack.net/content/images/size/w2000/2025/05/_1013207.JPG)
 
-Wir lieben Überraschungen, zumindest die guten. Vor ein paar Wochen haben wir einen YouTuber aus Südkorea kontaktiert, der لـ seine ehrlichen و technisch detaillierten Bewertungen bekannt ist. Wir haben ein kleines Paket geschickt: ein [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), plus unser Mini-KVM-Toolkit zum Testen. Dann haben wir gewartet.
+نحن نحب المفاجآت من النوع الجيد على أي حال. قبل بضعة أسابيع، تواصلنا مع أحد مستخدمي YouTube المقيمين في كوريا الجنوبية والمعروف بمراجعاته الصادقة والمفصلة تقنيًا. لقد أرسلنا حزمة صغيرة: واحدة [Openterface KVM Ext. for uConsole](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole)، بالإضافة إلى مجموعة أدوات KVM الصغيرة للاختبار. ثم انتظرنا.
 
-Was als nächstes kam, حولtraf unsere Erwartungen.
+ما حدث بعد ذلك كان يفوق توقعاتنا.
 
-Er hat لا nur das Mini-KVM ausgiebig getestet, sondern sich auch die Zeit genommen, einen detaillierten Artikel voller Erkenntnisse zu schreiben:
-👉 [Vollständige Bewertung hier lesen](https://tinyrack.net/openterface-mini-kvm)
+فهو لم يختبر Mini-KVM على نطاق واسع فحسب، بل أخذ أيضًا الوقت الكافي لكتابة مقالة مفصلة مليئة بالأفكار:
+👉 [Read the full review here](https://tinyrack.net/openterface-mini-kvm)
 
-Sein Feedback war scharf, konstruktiv و in der realen Nutzung verwurzelt. Das ist Gold لـ uns. Obwohl wir لا مع jedem Punkt einverstanden waren, war das genau der Grو, warum es wertvoll war. Es hat uns dazu gebracht, einige Design-Annahmen noch einmal zu betrachten و bestätigt, wo wir richtig lagen. Wenn ihr neugierig seid, scrollt nach unten لـ das vollständige Gespräch.
+وكانت تعليقاته حادة وبناءة ومرتكزة على الاستخدام الواقعي. هذا الذهب بالنسبة لنا. ورغم أننا لم نتفق مع كل نقطة، إلا أن هذا هو بالضبط سبب أهميتها. لقد دفعنا ذلك إلى النظر مرة أخرى في بعض افتراضات التصميم، وأكد أين وصلنا إلى نصابها الصحيح. إذا كنت فضوليًا، قم بالتمرير لأسفل للحصول على المحادثة الكاملة.
 
-Und wenn ihr ihm noch لا folgt:
-- 🎥 [YouTube-Kanal](https://youtube.com/@tinyrack)
-- 💬 [Community-Forum](https://forum.tinyrack.net/)
+وإذا كنت لا تتابعه بالفعل:
+- 🎥 [YouTube Channel](https://youtube.com/@tinyrack)
+- 💬 [Community Forum](https://forum.tinyrack.net/)
 
-Diese Art von Dialog ist genau das, was Tools wie unsere weiterentwickelt. Also danke, TinyRack - wir hören euch.
+وهذا النوع من الحوار هو بالضبط ما يساعد على تطوير أدوات مثل أدواتنا. شكرًا لك، TinyRack، نحن نسمعك.
 
-# Einige Worte von Herzen: Unsere Ziele و Verpflichtungen
+# بعض الكلمات من القلب: أهدافنا والتزاماتنا
 
-### 1. Einzelhandelskanäle
-Unser aktueller و exklusiver Verkaufskanal لـ das Openterface Mini‑KVM ist Crowd Supply, و diese Partnerschaft soll bis Mitte 2026 fortgesetzt werden. Wir sind aufrichtig dankbar لـ ihre Unterstützung. Crowd Supply spezialisiert sich auf Open‑الأجهزة-Projekte, و ihre Plattform و Community haben eine entscheidende Rolle dabei gespielt, unserem kleinen Team beim Wachsen و erfolgreichen Ausliefern des Mini‑KVM zu helfen.
+### 1. قنوات البيع بالتجزئة
+قناة مبيعاتنا الحالية والحصرية لـ Openterface Mini‑KVM هي Crowd Supply، ومن المقرر أن تستمر هذه الشراكة حتى منتصف عام 2026. نحن ممتنون حقًا لدعمهم، حيث تتخصص Crowd Supply في مشاريع الأجهزة المفتوحة، وقد لعبت منصتهم ومجتمعهم دورًا حاسمًا في مساعدة فريقنا الصغير على النمو وتقديم Mini‑KVM بنجاح.
 
-Dank Crowd Supply, das Erfüllung و Vertrieb so effizient verwaltet, konnten wir unsere Energien vollständig auf منتجdesign, منتجion و البرمجياتentwicklung konzentrieren. Aus diesem Grو konnten wir noch لا auf größeren Marktplätzen wie Amazon أو AliExpress starten. Die Erweiterung unserer Distribution bleibt jedoch eine Top-Priorität, و wir planen, diese Kanäle zu erkوen, sobald unsere aktuelle Verpflichtung Mitte 2026 endet.
+بفضل إدارة Crowd Supply للتنفيذ والتوزيع بكفاءة عالية، تمكنا من تركيز طاقاتنا بشكل كامل على تصميم المنتجات والإنتاج وتطوير البرامج. ولهذا السبب لم نتمكن من إطلاقه في أسواق أكبر مثل Amazon أو AliExpress حتى الآن. ومع ذلك، يظل توسيع توزيعنا يمثل أولوية قصوى، ونحن نخطط لاستكشاف هذه القنوات بمجرد انتهاء التزامنا الحالي في منتصف عام 2026.
+نحن نؤمن بالشفافية بدلاً من تقديم الوعود التي لا يمكننا الوفاء بها بعد. يتيح لنا صبرك ودعمك المستمر بناء أساس أقوى قبل التوسع في أسواق إضافية.
 
-Wir glauben an Transparenz, anstatt Versprechungen zu machen, die wir noch لا erfüllen können. Eure Geduld و fortlaufende Unterstützung ermöglichen es uns, ein stärkeres Fوament zu schaffen, bevor wir auf zusätzliche Marktplätze expandieren.
+### 2. السعر
+نحن نتفهم أن بعض المستخدمين يجدون السعر أعلى من المتوقع. يعكس جزء كبير من التكلفة استثمارنا في تطوير البرامج الأصلية لأنظمة التشغيل Windows وmacOS وLinux وAndroid (وقريبًا iPad/iOS). نحن نعمل على إنشاء تطبيقات آمنة كاملة المواصفات، تتجاوز بكثير تطبيق الويب الأساسي (على الرغم من أننا ممتنون للمساهم المجتمعي Kashall لمساعدتنا في بناء إصدار الويب الخاص بنا!). نحن نواجه التحديات ونقارن أنفسنا بالأدوات التي يثق بها متخصصو تكنولوجيا المعلومات والمؤسسات، ونصر على معايير التطوير والأمان بما يتماشى مع أفضل ممارسات الصناعة.
 
-### 2. Preis
-Wir verstehen, dass einige Nutzer den Preis höher als erwartet finden. Ein großer Teil der Kosten spiegelt unsere Investition in native البرمجياتentwicklung لـ Windows, macOS, Linux, Android (و bald iPad/iOS) wider. Wir bauen vollständige, sichere Anwendungen, weit حول eine grوlegende Web-App hinaus (obwohl wir dem Community-Mitwirkenden Kashall dankbar sind, der beim Aufbau unserer Web-Version geholfen hat!). Wir nehmen die Herausforderungen an و vergleichen uns مع Tools, denen IT-Profis و Unternehmen vertrauen, و bestehen auf Entwicklungs- و Sicherheitsstandards, die den Branchenbest Practices entsprechen.
+### 3. الالتزام بالمصادر المفتوحة
+نحن نقدر إشارتك إلى أن المصادر المفتوحة يمكن أن تكون في بعض الأحيان وسيلة لتسليم العمل غير المكتمل. هذا ليس نحن. فريق التطوير لدينا بأكمله ملتزم تمامًا بالمصادر المفتوحة، ولدينا ميزات مثيرة في خريطة الطريق. نحن نعلم أن هذا المسار ليس سهلاً، لكننا سنواصل الدفع ونأمل أن يستمر مجتمعنا في دعمنا.
 
-### 3. Open-Source-Verpflichtung
-Wir schätzen es, dass ihr darauf hingewiesen habt, dass Open‑Sourcing manchmal ein Weg sein kann, unvollständige Arbeit abzugeben. Das sind wir لا. Unser gesamtes Entwicklungsteam ist vollständig dem Open‑Source verpflichtet, و wir haben aufregende Features auf der Roadmap. Wir wissen, dass dieser Weg لا einfach ist, aber wir werden weiter pushen و hoffen, dass unsere Community uns weiterhin unterstützt.
+### 4. تحذير Windows SmartScreen
+لقد كانت تعليقاتك على تحذير مثبت Windows في محلها. نحن نستخدم بالفعل شهادة مفتوحة المصدر (SignPath)، ولكن لا تزال التحذيرات تظهر. نحن نسعى للحصول على شهادات التحقق الممتد (EV)، على الرغم من أنها لا تزال صعبة بالنسبة للشركات الجديدة. يرجى التحمل معنا أثناء تصفحنا للأوراق وتحسين تجربة التثبيت الأولية.
 
-### 4. Windows SmartScreen-Warnung
-Euer Feedback zur Windows-Installer-Warnung war genau richtig. Wir verwenden bereits ein Open‑Source-Zertifikat (SignPath), aber Warnungen erscheinen immer noch. Wir verfolgen Extended Validation (EV)-Zertifikate, obwohl sie لـ neuere Unternehmen schwierig bleiben. Bitte habt Geduld مع uns, während wir die Bürokratie durchlaufen و eure anfängliche التثبيتserfahrung verbessern.
+### 5. مدح الخبرة العملية
+نشكرك على إجراء اختبارات الضغط الصارمة الخاصة بالتوصيل والتشغيل عن طريق إعادة توصيل الكابلات والتشغيل من BIOS وما شابه. هذا النوع من التحقق من الصحة في العالم الحقيقي يعني الكثير.
 
-### 5. Arbeitserfahrung-Lob
-Danke, dass ihr so rigorose Plug-and-Play-Stresstests durchgeführt habt, indem ihr Kabel neu verbوen, vom BIOS gebootet و ähnliches gemacht habt. Diese Art der realen Validierung bedeutet viel.
+### 6. مشكلات نظام التشغيل Linux
+نأسف جدًا للإحباط الذي واجهته على Linux. تعتبر أخطاء الأذونات وشاشات العرض المفقودة ومشكلات البرامج الثابتة والأعطال غير مقبولة. نحن نعطي الأولوية للتحسينات، بما في ذلك: التحميل إلى متجر برامج Ubuntu لسهولة التثبيت؛ توفير أدوات التثبيت المسطحة والنقرة الواحدة؛ تحسين قواعد udev والتعامل مع التبعية ومرونة الأعطال. نحن ملتزمون بتقديم تجربة Linux تتوافق مع جودة نظامي التشغيل Windows وmacOS.
 
-### 6. Linux-Probleme
-Es tut uns wirklich leid لـ die Frustrationen, die ihr unter Linux erlebt habt. Berechtigungsfehler, fehlende Displays, Firmware-Probleme و Abstürze sind inakzeptabel. Wir priorisieren Verbesserungen, einschließlich: Upload zum Ubuntu البرمجيات Store لـ einfache التثبيت; Bereitstellung von Flatpak و Ein-Klick-Installern; Verbesserung der Udev-Regeln, Abhängigkeitsbehandlung و Absturz-Resilienz. Wir sind verpflichtet, eine Linux-Erfahrung zu liefern, die unserer Windows- و macOS-Qualität entspricht.
+### 7. المسار للأمام
+ساعدت تعليقاتك، خاصة فيما يتعلق بالسعر، في تحفيز المناقشات الداخلية حول تحسين التكاليف وقابلية التوسع. نحن نقوم بتقييم التعديلات على جميع الجبهات، وقنوات المبيعات، والإنفاق التسويقي، والعمليات، لتحقيق توازن أفضل بين القيمة والجودة مع نمونا.
 
-### 7. Weg nach vorn
-Euer Feedback, besonders zum Preis, hat dabei geholfen, interne Diskussionen حول Kostenoptimierung و Skalierbarkeit zu katalysieren. Wir bewerten Anpassungen auf allen Fronten, Verkaufskanäle, Marketing-Ausgaben و Betrieb, um Wert و Qualität besser auszugleichen, während wir wachsen.
+نحن ممتنون حقًا للتعليقات والدعم المدروسين من [tinyrack](https://www.youtube.com/@tinyrack) والعديد من أعضاء مجتمع المصادر المفتوحة. إن الرعاية والمساهمات والتشجيع من أشخاص مثلك هي التي تذكرنا بالسبب وراء قيامنا ببناء Openterface باعتباره أكثر من مجرد منتج. إنها رحلة مشتركة تشكلت من خلال التعاون والفضول والإيمان المشترك في القيام بالأشياء بشكل أفضل معًا. شكرا لكونك جزءا من هذا الطريق. نحن نتطلع إلى ما ينتظرنا وسنواصل التعلم والنمو معكم جميعًا.
 
-Wir sind wirklich dankbar لـ das durchdachte Feedback و die Unterstützung von [tinyrack](https://www.youtube.com/@tinyrack) و so vielen Mitgliedern der Open-Source-Community. Es ist die Fürsorge, Beiträge و Ermutigung von Menschen wie euch, die uns daran erinnern, warum wir Openterface als mehr als nur ein منتج aufbauen. Es ist eine gemeinsame Reise, geprägt von Zusammenarbeit, Neugier و einem gemeinsamen Glauben daran, Dinge besser zusammen zu machen. Danke, dass ihr Teil dieses Weges seid. Wir freuen uns auf das, was vor uns liegt, و werden weiter lernen و مع euch allen wachsen.
-
-Mit Dankbarkeit,  
-Billy Wang  
-Product Manager  
-Openterface Team | TechxArtisan
+مع الامتنان،  
+بيلي وانغ  
+مدير المنتج  
+فريق الواجهة المفتوحة | TechxArtisan

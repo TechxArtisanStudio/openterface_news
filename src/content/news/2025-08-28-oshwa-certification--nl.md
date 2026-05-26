@@ -2,8 +2,8 @@
 locale: nl
 translationKey: "2025-08-28-oshwa-certification"
 slug: "2025-08-28-oshwa-certification"
-title: "OSHWA-Zertifizierung Erreicht! 🎉"
-description: "28. August 2025 - Wir freuen uns, bekannt zu geben, dass die Openterface KVM Extension for uConsole offiziell von der Open Source Hardware Association OSHWA zertifiziert wurde! 🤠⚙️"
+title: "OSHWA-certificering behaald! 🎉"
+description: "28 augustus 2025 - We zijn verheugd om aan te kondigen dat de Openterface KVM-extensie voor uConsole officieel is gecertificeerd door de Open Source Hardware Association OSHWA! 🤠⚙️"
 date: 2025-08-28
 channel: product
 product: uconsole-kvm-extension
@@ -13,30 +13,29 @@ featured: false
 draft: false
 author: "Openterface Team"
 ---
+**28 augustus 2025** - Met trots kondigen wij aan dat de **Openterface KVM-extensie voor uConsole** officieel is gecertificeerd door de **Open Source Hardware Association (OSHWA)**! 🤠⚙️
 
-**28. August 2025** - Wir freuen uns, bekannt zu geben, dass die **Openterface KVM Extension for uConsole** offiziell von der **Open Source Hardware Association (OSHWA)** zertifiziert wurde! 🤠⚙️
+## Certificeringsdetails
 
-## Zertifizierungsdetails
+- **Certificerings-ID**: CN000021 ✅
+- **Certificaat bekijken**: [OSHWA Certification](https://lnkd.in/gt-yvDuU)
+- **Hardwareopslagplaats**: [Openterface_KVM_Ext_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware)
 
-- **Zertifizierungs-ID**: CN000021 ✅
-- **Zertifikat anzeigen**: [OSHWA-Zertifizierung](https://lnkd.in/gt-yvDuU)
-- **Hardware-Repository**: [Openterface_KVM_Ext_Hardware](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware)
+## Wat dit betekent
 
-## Was das bedeutet
+Deze certificering bevestigt dat alle schema's, schakelschema's en gerelateerde open hardwarebronnen openbaar beschikbaar en toegankelijk zijn voor de gemeenschap. U kunt:
 
-Diese Zertifizierung bestätigt, dass alle Schaltpläne, Schaltkreise en verwandten Open-Source-Hardware-Ressourcen öffentlich verfügbar en voor die Community zugänglich sind. Sie können:
+- **Bestudeer** het volledige hardwareontwerp
+- **Knuffelen** en aanpassen aan uw specifieke behoeften  
+- **Bouw** indien gewenst uw eigen versie
+- **Bijdragen** aan zowel hardware- als softwareverbeteringen
 
-- **Studieren** das komplette Hardware-Design
-- **Basteln** en voor Ihre spezifischen Bedürfnisse modifizieren  
-- **Bauen** Ihre eigene Version, wenn gewünscht
-- **Beitragen** zu Hardware- en Software-Verbesserungen
+## Doe mee aan de open source-reis
 
-## Werden Sie Teil der Open-Source-Reise
+We nodigen je uit om deel uit te maken van deze geweldige open-sourcegemeenschap! Of je nu een hardwareliefhebber of ontwikkelaar bent of gewoon nieuwsgierig bent naar hoe het werkt, er is een plek voor jou in ons groeiende ecosysteem.
 
-Wir laden Sie ein, Teil dieser erstaunlichen Open-Source-Community zu werden! Ob Sie Hardware-Enthusiast, Entwickler of einfach nur neugierig sind, wie es funktioniert - es gibt einen Platz voor Sie in unserem wachsenden Ökosystem.
-
-**Bereit loszulegen?** [Bestellen Sie Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) en werden Sie Teil der Open-Source-Revolution! 🚀
+**Klaar om aan de slag te gaan?** [Order your KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) en sluit je aan bij de open-sourcerevolutie! 🚀
 
 ---
 
-*Folgen Sie unserem [GitHub-Repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware) voor die neuesten Hardware-Updates en Community-Beiträge.*
+*Volg onze [GitHub repository](https://github.com/TechxArtisanStudio/Openterface_KVM_Ext_Hardware) voor de nieuwste hardware-updates en communitybijdragen.*

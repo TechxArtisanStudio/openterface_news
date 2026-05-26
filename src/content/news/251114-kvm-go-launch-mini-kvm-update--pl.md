@@ -2,75 +2,74 @@
 locale: pl
 translationKey: "251114-kvm-go-launch-mini-kvm-update"
 slug: "251114-kvm-go-launch-mini-kvm-update"
-title: "Aufregende Neuigkeiten: KVM-GO ist jetzt live!"
-description: "Openterface KVM-GO ist jetzt offiziell auf Crowd Supply live! Unser KVM-over-USB Gerät der nächsten Generation z integrierten Videoanschlüssen nimmt Unterstützer an. Erleben Sie Schlüsselanhänger-große Tragbarkeit, 4K@60Hz Unterstützung i plattformogreifende Kompatibilität."
+title: "Ekscytujące wiadomości: KVM-GO jest już dostępny!"
+description: "Openterface KVM-GO jest teraz oficjalnie dostępny w Crowd Supply! Nasze ultrakompaktowe urządzenie KVM przez USB nowej generacji z wbudowanymi złączami wideo przyjmuje już zwolenników. Poznaj przenośność z możliwością podłączenia do pęku kluczy, obsługę rozdzielczości 4K przy 60 Hz i kompatybilność między platformami."
 date: 2025-11-14
 channel: product
 product: kvm-go
-topic: ["beta", "software", "campaign", "community"]
-category: "Product Aktualizacje"
-tags: ["KVM-GO", "Product Launch", "Crowd Supply", "Product Announcement", "Crowdfiing"]
+topic: ["shipping", "production", "beta", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Launch", "Crowd Supply", "Product Announcement", "Crowdfunding"]
 featured: true
 draft: false
 author: "TechxArtisan Studio"
 ---
+**Witajcie, społeczność Openterface Mini-KVM!**
 
-**Hallo, Openterface Mini-KVM Community!**
+Mamy dla Was ekscytujące wieści! Nasze urządzenie nowej generacji, [**Openterface KVM-GO**](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), jest już oficjalnie dostępne w Crowd Supply i przyjmuje sponsorów!
 
-Wir haben aufregende Neuigkeiten dla euch! Unser Gerät der nächsten Generation, [**Openterface KVM-GO**](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), ist jetzt offiziell auf Crowd Supply live i nimmt Unterstützer an!
+![kvm-go-KVM-GO-bundle-hand-3](https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-3.webp)
 
-![kvm-go-KVM-GO-bile-hand-3](https://assets.openterface.com/images/kvm-go/KVM-GO-bile-hand-3.webp)
+## Co to jest KVM-GO?
 
-## Was ist KVM-GO?
+Opierając się na sukcesie naszego flagowego modelu **Mini-KVM** i dynamicznym rozwoju naszej społeczności open source, **KVM-GO** jeszcze bardziej zwiększa przenośność. Podczas gdy Mini-KVM nadal błyszczy jako elastyczne i wszechstronne urządzenie, KVM-GO jest stworzony dla tych, którzy wymagają maksymalnej wygody w najmniejszej możliwej obudowie.
 
-Aufbauend auf dem Erfolg unseres Flaggschiff-Produkts **Mini-KVM** i dem lebendigen Wachstum unserer Open-Source-Community treibt **KVM-GO** die Tragbarkeit noch weiter voran. Während Mini-KVM weiterhin als flexibler Allroier glänzt, ist KVM-GO dla diejenigen entwickelt, die maximale Bequemlichkeit im kleinstmöglichen Formfaktor fordern.
+### Kluczowe cechy KVM-GO:
 
-### Hauptmerkmale von KVM-GO:
+* **Konstrukcja przystosowana do pęku kluczy i pozbawiona kabli wideo** – Wbudowane złącza wideo (HDMI, DisplayPort lub VGA) oznaczają koniec szperania w poszukiwaniu kabli wideo podczas pilnych interwencji w szafie serwerowej. Po prostu podłącz i gotowe.
 
-* **Schlüsselanhänger-großes, videokabelloses Design** – Integrierte Videoanschlüsse (HDMI, DisplayPort lub VGA) bedeuten, dass Sie bei dringenden Server-Rack-Eingriffen nie mehr nach Videokabeln suchen müssen. Einfach einstecken i loslegen.
+* **Kompaktowy, ale wydajny** – Pomimo niewielkich rozmiarów, KVM-GO oferuje imponujące specyfikacje:
+  * **Obsługa wyjścia wideo 4K przy 60 Hz** (w porównaniu do 1080p przy 30 Hz w Mini-KVM)
+  * Modele HDMI i DisplayPort są wyposażone w procesor wideo **USB 3.0** zapewniający wysoką wydajność
+  * Wygodne **gniazdo micro SD** do przesyłania plików lub instalacji rozruchowego systemu operacyjnego
 
-* **Kompakt aber leistungsstark** – Trotz seines winzigen Formfaktors bietet KVM-GO beeindruckende Spezifikationen:
-  * Unterstützung dla **4K @ 60 Hz Videoausgabe** (im Vergleich zu Mini-KVM's 1080p @ 30 Hz)
-  * HDMI- i DisplayPort-Modelle verfügen o einen **USB 3.0** Videoprozessor dla hohe Leistung
-  * Bequemer **micro SD Steckplatz** dla Dateiotragungen lub bootfähige OS-Instalacja
+* **Obsługa wielu platform** – podobnie jak Mini-KVM, KVM-GO działa bezproblemowo w **Windows, macOS, Linux**, **Android**, **iPadOS** i **aplikacja internetowa**.
 
-* **Plattformogreifende Unterstützung** – Genau wie Mini-KVM funktioniert KVM-GO nahtlos auf **Windows, macOS, Linux**, **Android**, **iPadOS** i **Web App**.
+* **Etos open source** – w pełni otwarty sprzęt z oprogramowaniem open source, zachowujący to samo zaangażowanie w zasady open source, które umożliwiło użycie Mini-KVM.
 
-* **Open-Source-Ethos** – Vollständig offene Sprzęt z Open-Source-Oprogramowanie, wobei das gleiche Engagement dla Open-Source-Prinzipien beibehalten wird, das Mini-KVM ermöglicht hat.
+* **Zerowa konfiguracja na urządzeniach docelowych** – Żadnych sterowników, żadnej instalacji, tylko czysta funkcjonalność typu plug-and-play.
 
-* **Null-Setup auf Zielgeräten** – Keine Treiber, keine Instalacja, nur reine Plug-and-Play-Funktionalität.
+## Zobacz KVM-GO w akcji
 
-## KVM-GO in Aktion sehen
+Urządzenie działa świetnie! Sprawdź KVM-GO VGA w akcji z tym [quick demo](https://x.com/TechxArtisan/status/1989005848702775623?s=20) lub zobacz ten [quick tour of KVM-GO photo shuffle](https://x.com/TechxArtisan/status/1988933445129805889?s=20) pokazujący przeskakiwanie pomiędzy starymi i nowymi urządzeniami. Podłącz i przejmij kontrolę!
 
-Das Gerät funktioniert großartig! Sehen Sie KVM-GO VGA in Aktion z dieser [schnellen Demo](https://x.com/TechxArtisan/status/1989005848702775623?s=20), lub sehen Sie diese [schnelle Tour durch KVM-GO Foto-Shuffle](https://x.com/TechxArtisan/status/1988933445129805889?s=20), die das Wechseln zwischen alten i neuen Geräten zeigt. Einstecken i die Kontrolle onehmen!
+Dzięki naszemu niesamowitemu zespołowi beta testerów — wysłaliśmy **dwie partie małych zestawów narzędzi do wersji beta**. Ich opinie pomogły nam osiągnąć wsparcie międzyplatformowe, które z dumą oferujemy.
 
-Dank unseres großartigen Beta-Tester-Teams—wir haben **zwei Chargen kleiner Produktions-Beta-Toolkits** versendet. Ihr Feedback hat uns geholfen, die plattformogreifende Unterstützung zu erreichen, auf die wir stolz sind.
+## Gotowy do wsparcia KVM-GO?
 
-## Bereit, KVM-GO zu unterstützen?
+Aby uzyskać szczegółowe informacje, sprawdź nasz [official KVM-GO campaign page](https://www.crowdsupply.com/techxartisan/openterface-kvm-go). **Nie zapomnij nacisnąć przycisku Wstecz i uruchom gadżet nowej generacji!**
 
-Für vollständige Details besuchen Sie unsere [offizielle KVM-GO Kampagnenseite](https://www.crowdsupply.com/techxartisan/openterface-kvm-go). **Vergessen Sie nie, auf den Unterstützen-Button zu klicken i dieses Gadget der nächsten Generation Wirklichkeit werden zu lassen!**
+## Mini-KVM kontra KVM-GO: który będzie dla Ciebie odpowiedni?
 
-## Mini-KVM vs. KVM-GO: Welches ist das Richtige dla Sie?
+Obydwa urządzenia mają to samo oprogramowanie typu open source i podstawową filozofię, ale służą różnym potrzebom:
 
-Beide Geräte teilen die gleiche Open-Source-Oprogramowanie i Kernphilosophie, erfüllen aber unterschiedliche Bedürfnisse:
+* **Mini-KVM** – Elastyczne, wszechstronne urządzenie, idealne do wszechstronnych konfiguracji i tych, którzy potrzebują sprawdzonej niezawodności naszego flagowego urządzenia.
 
-* **Mini-KVM** – Der flexible Allroier, perfekt dla vielseitige Setups i diejenigen, die die bewährte Zuverlässigkeit unseres Flaggschiff-Geräts benötigen.
+* **KVM-GO** – ultraprzenośna opcja, idealna dla maksymalnej wygody, możliwości noszenia na pęku kluczy i potrzeb w zakresie wyższej rozdzielczości wideo.
 
-* **KVM-GO** – Die ultra-tragbare Option, ideal dla maximale Bequemlichkeit, Schlüsselanhänger-große Tragbarkeit i höhere Videoauflösungsanforderungen.
+Obydwa są doskonałym wyborem, a wsparcie dla jednego (lub obu!) pomaga w rozwoju technologii open source KVM-over-USB!
 
-Beide sind ausgezeichnete Wahlmöglichkeiten, i Ihre Unterstützung dla eines (lub beide!) hilft, die KVM-over-USB Open-Source-Technologie voranzutreiben!
+## Rozpowszechniaj informacje
 
-## Verbreiten Sie die Nachricht
+Dzięki Twojemu wsparciu możliwy jest otwarty sprzęt! Udostępnij kampanię KVM-GO w swojej sieci i użyj tagów takich jak **#Openterface #KVMGO #CrowdSupply #TinyKVM #Crowdfunding #OpenHardware**. Dołącz do naszych społeczności [Discord](https://openterface.com/discord/) i [Reddit](https://openterface.com/reddit), aby nawiązać kontakt z innymi sponsorami i podzielić się swoimi doświadczeniami z Mini-KVM.
 
-Ihre Unterstützung macht Open-Sprzęt möglich! Bitte teilen Sie die KVM-GO Kampagne z Ihrem Netzwerk i verwenden Sie Tags wie **#Openterface #KVMGO #CrowdSupply #TinyKVM #Crowdfiing #OpenSprzęt**. Treten Sie unseren [Discord](https://openterface.com/discord/)- i [Reddit](https://openterface.com/reddit)-Communities bei, um sich z anderen Unterstützern zu verbinden i Ihre Mini-KVM-Erfahrungen zu teilen.
+## Osoby wpływowe i media technologiczne
 
-## Tech-Influencer & Medien
+Dziennikarze techniczni i twórcy treści: Chcesz zrecenzować KVM-GO? Skontaktuj się z [info@openterface.com](mailto:info@openterface.com), aby uzyskać recenzje jednostek.
 
-Tech-Journalisten i Content-Ersteller: Interessiert an einer KVM-GO-Überprüfung? Kontaktieren Sie [info@openterface.com](mailto:info@openterface.com) dla Testeinheiten.
+## Dziękuję, społeczność Mini-KVM!
 
-## Danke, Mini-KVM Community!
+Ta podróż od Mini-KVM do KVM-GO była możliwa tylko dzięki Tobie. Wasze opinie, wsparcie i entuzjazm były siłą napędową tej kolejnej ewolucji. Niezależnie od tego, czy wolisz Mini-KVM, jesteś podekscytowany KVM-GO, czy interesuje Cię jedno i drugie — jesteśmy niesamowicie wdzięczni za tę niesamowitą społeczność i wszystko, co pomogłeś nam wspólnie zbudować!
 
-Diese Reise von Mini-KVM zu KVM-GO war nur dank euch möglich. Euer Feedback, eure Unterstützung i eure Begeisterung waren die treibende Kraft hinter dieser nächsten Evolution. Ob ihr bei Mini-KVM bleibt, euch o KVM-GO freut lub an beiden interessiert seid—wir sind unglaublich dankbar dla diese großartige Community i alles, was ihr uns geholfen habt, gemeinsam aufzubauen!
-
-Mit freilichen Grüßen,  
-Openterface Team | TechxArtisan
+Pozdrawiam,  
+Zespół Openinterface | TechxArtisan

@@ -2,31 +2,30 @@
 locale: tr
 translationKey: "250617-teardown-2025-promote"
 slug: "250617-teardown-2025-promote"
-title: "Teardown 2025: Wir kommen zurück nach Portland!"
-description: "Openterface kündigt ihre Rückkehr zu Teardown 2025 in Portland an ve präsentiert neue Entwicklungen ve QT-App-Verbesserungen için Hacker ve Maker."
+title: "Yıkım 2025: Portland'a Geri Dönüyoruz!"
+description: "Openterface, bilgisayar korsanları ve yapımcılar için yeni gelişmeleri ve QT uygulama iyileştirmelerini sergileyen Portland'daki Teardown 2025'e geri döndüğünü duyurdu."
 date: 2025-06-17
 channel: events
 eventType: exhibition
 topic: ["software", "campaign", "event", "community"]
-category: "Product Güncellemeler"
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Herkese merhaba! Teknoloji sihirbazımız Kevin Peng, saçında jumper telleri ve masasına dağılmış ısıyla büzüşen borularla gece geç saatlere kadar çalışırken, gerçekten harika bir şey hazırlıyor. Neden? Çünkü megafonlu adamımız Billy Wang, Teardown 2025'te her şeyi göstermeye hazırlanıyor! Yaptığımız yemekleri paylaşmak için sabırsızlanıyoruz, sizin de beğeneceğinizi düşünüyoruz.
 
-Hallo zusammen! Während unser Tech-Zauberer Kevin Peng späte Nächte durchgemacht hat, ile Jumper-Kabeln in den Haaren ve Schrumpfschläuchen verstreut auf seinem Schreibtisch, hat er etwas wirklich Cooles vorbereitet. Warum? Weil unser Mann ile dem Megaphon, Billy Wang, bereit ist, alles bei Teardown 2025 zu präsentieren! Wir können es kaum erwarten zu teilen, was wir ausgearbeitet haben, ve wir denken, ihr werdet es auch lieben.
+<iframe width = "560" height = "315" src="https://www.youtube.com/embed/f0nQYxOnck4?si=Lh9jknJcSpD15nac" title = "YouTube video oynatıcı" çerçeveborder = "0" izin = ivme ölçer; otomatik oynatma; panoya yazma; şifreli medya; jiroskop; resim içinde resim; web paylaşımı" referrerpolicy = "strict-origin-when-cross-origin" izin veren tam ekran></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f0nQYxOnck4?si=Lh9jknJcSpD15nac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Daha önce hiç gitmediyseniz, burayı bilgisayar korsanları ve yapımcılar için hiçbir şeyin kutsal olmadığı, her şeyin parçalara ayrıldığı, incelendiği ve daha iyi (veya en azından daha çılgın) bir hale getirildiği bir oyun alanı olarak düşünün. Kesinlikle buna dikkat etmek istersiniz. Etkinlik sayfasını ziyaret etmek için aşağıdaki resme tıklayın: https://www.crowdsupply.com/teardown/portland-2025
 
-Falls ihr noch nie dort wart, stellt euch vor, es ist ein Spielplatz için Hacker ve Maker, wo değils heilig ist, wo alles auseinandergenommen, studiert ve besser (veya zumindest verrückter) wieder zusammengesetzt wird. Ihr solltet definitiv ein Auge darauf haben. Klickt auf das Bild unten, um die Veranstaltungsseite zu besuchen: https://www.crowdsupply.com/teardown/portland-2025
+### Siz Sormaya Devam Ettiğiniz İçin QT Uygulaması Gelişmeye Devam Ediyor
 
-### Die QT-App entwickelt sich weiter, weil ihr weiter fragt
+İnce ayar yapmayı, iyileştirmeyi ve sınırları zorlamayı asla bırakmadığımızı biliyor musunuz? Bu ruh, Openterface QT üzerindeki son çalışmalarımızda canlı ve tekmeliyor. İster Windows, macOS veya Linux kullanıyor olun, her zamankinden daha keskin, daha akıcı ve daha güçlü olmasını sağlamak için perde arkasında çalışıyoruz. Tüm bu harika görsel iyileştirmeleri merak mı ediyorsunuz? Devam edin, tam buraya tıklayın: <https://github.com/TechxArtisanStudio/Openterface_QT>
 
-Ihr wisst, wie wir nie aufhören zu optimieren, zu verbessern ve Grenzen zu verschieben? Nun, dieser Geist ist lebendig ve aktiv in unserer neuesten Arbeit an der Openterface QT. Ob ihr auf Windows, macOS veya Linux seid, wir arbeiten hinter den Kulissen daran, sie schärfer, flüssiger ve leistungsstärker zu machen als je zuvor. Neugierig, all diese coolen visuellen Verbesserungen zu sehen? Dann klickt einfach hier: <https://github.com/TechxArtisanStudio/Openterface_QT>
+İşte özet bu, dostum.
 
-Das ist also die Neuigkeit, Frevee.
-
-Wir bauen, zerbrechen, verbessern ve teilen jeden Schritt des Weges, weil diese Community değil nur hakkında Technik geht. Es ist eine Familie von Makern ve Träumern. Bleibt neugierig. Tüftelt weiter. Und wir sehen uns im nächsten Update.
+Bu yolun her adımında inşa ediyoruz, yıkıyoruz, geliştiriyoruz ve paylaşıyoruz çünkü bu topluluk yalnızca teknolojiyle ilgili değil. Yaratıcılardan ve hayalperestlerden oluşan bir aile. Meraklı kalın. Tamir etmeye devam edin. Bir sonraki güncellemede sizi yakalayacağız.
 
 Billy Wang
-Product Lead, Openterface
+Ürün Lideri, Açık Arayüz

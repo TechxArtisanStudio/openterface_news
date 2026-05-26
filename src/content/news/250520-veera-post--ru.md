@@ -2,61 +2,60 @@
 locale: ru
 translationKey: "250520-veera-post"
 slug: "250520-Veera-post"
-title: "Audio Bridge-Konzept: Inspirierender bidirektionaler Soи и KI-Workflows"
-description: "Entdecken Sie Veera Pendyalas innovatives Audio Bridge-Konzept для Openterface Mini-KVM, das bidirektionale Audio-Kommunikation и KI-Workflows ermöglicht. Die Vision dieses NVIDIA-Ingenieurs kombiniert USB-Audio-Dongles, Jetson Nano и KVM-Technologie, um eine Zero-Infrastructure-Lösung для konversationelle KI и Hausautomatisierung zu schaffen."
+title: "Концепция аудиомоста: вдохновляющие рабочие процессы двунаправленного звука и искусственного интеллекта"
+description: "Откройте для себя инновационную концепцию Audio Bridge от Veera Pendyala для Openterface Mini-KVM, обеспечивающую двунаправленную аудиосвязь и рабочие процессы искусственного интеллекта. Концепция этого инженера NVIDIA объединяет аудиоключи USB, Jetson Nano и технологию KVM для создания решения с нулевой инфраструктурой для диалогового искусственного интеллекта и домашней автоматизации."
 date: 2025-05-20
 channel: events
 eventType: contest
-topic: ["software", "campaign", "event"]
-category: "Product Обновления"
+topic: ["software", "campaign", "event", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+Концепция «Аудио-моста» Виры Пендялы, проверенная практическими экспериментами, породила дальновидные идеи для двунаправленного звука и искусственного интеллекта на базе Jetson на Mini-KVM. Будучи старшим инженером-программистом в NVIDIA с более чем 15-летним опытом работы в разработке программного обеспечения, Вира исследовала концепцию: внедрение хоста ↔ целевого аудио, диалогового искусственного интеллекта и рабочих процессов домашней автоматизации в USB KVM.
 
-Veera Pendyalas "Audio Bridge"-Konzept, durch praktische Experimente bewiesen, hat zukunftsweisende Ideen для bidirektionales Audio и Jetson-betriebene KI auf dem Mini-KVM ausgelöst. Als Senior Программное обеспечение Engineer bei NVIDIA с о 15 Jahren Erfahrung im Программное обеспечение-Engineering erkиete Veera eine Vision: Host ↔ Target Audio, konversationelle KI и Hausautomatisierungs-Workflows in den USB KVM zu bringen.
+Вира Пендьяла представил дальновидную идею на конкурсе USB-KVM DIY Challenge 2024. Его концепция обеспечения двунаправленного звука с помощью Openterface Mini-KVM направлена ​​на улучшение дистанционного управления и приложений, управляемых искусственным интеллектом, особенно для одноплатных компьютеров, таких как Jetson Nano. Эксперименты Виры с USB-аудиоключами и его интервью вызвали вдохновляющие дискуссии о потенциале аудиомоста в домашней автоматизации и рабочих процессах диалогового искусственного интеллекта.
 
-Veera Pendyala brachte eine zukunftsweisende Idee zur USB-KVM DIY Challenge 2024. Sein Konzept zur Ermöglichung bidirektionalen Audios с dem Openterface Mini-KVM zielt darauf ab, Fernsteuerung и KI-gesteuerte Anwendungen zu verbessern, insbesondere для Einplatinencomputer wie den Jetson Nano. Veeras Experimente с USB-Audio-Dongles и sein Interview lösten inspirierende Diskussionen о das Potenzial von Audio-Bridging in Hausautomatisierung и konversationellen KI-Workflows aus.
+![Veera discussing audio bridge ideas with Billy & Kevin](https://assets.openterface.com/images/blog/Veera-audio-bridge-chat-with-veera.webp)
 
-![Veera diskutiert Audio-Bridge-Ideen с Billy и Kevin](https://assets.openterface.com/images/blog/Veera-audio-bridge-chat-with-veera.webp)
+## Вызов
 
-## Die Herausforderung
+- **Однонаправленный звук**
+    HDMI от Mini-KVM передает только _цель → хост_ аудио, нет пути для подключения хост-микрофона к удаленному устройству
 
--   **Unidirektionaler Soи**
-    HDMI vom Mini-KVM streamt nur _Target → Host_ Audio, kein Pfad для Host-Mikrofon zum Remote-Gerät
+- **Цель отсутствия инфраструктуры**
+    Любое решение должно работать без Интернета, внешнего источника питания или громоздких дополнений.
 
--   **Zero-Infrastructure-Ziel**
-    Jede Lösung muss ohne Internet, externe Stromversorgung или sperrige Extras laufen
+- **Примеры использования искусственного интеллекта и автоматизации**
+    Veera представляет живую речь на безголовом устройстве для разговорного искусственного интеллекта, удаленной помощи и домашнего мониторинга.
 
--   **KI- и Automatisierungs-Anwendungsfälle**
-    Veera stellt sich Live-Sprache zu einem Headless-Gerät для konversationelle KI, Fernunterstützung и Heimоwachungsszenarien vor
+## Предлагаемая архитектура моста
 
-## Vorgeschlagene Bridge-Architektur
+1. **Двойные звуковые адаптеры USB**
 
-1. **Duale USB-Soи-Adapter**
+    - **Переходник на стороне хоста** захватывает локальный микрофон/аудио.
+    - **Переходной ключ** передает этот звук в микрофонный разъем удаленного компьютера.
 
-    - **Host-seitiger Dongle** erfasst lokales Mikrofon/Audio
-    - **Target-seitiger Dongle** injiziert dieses Audio in den Mikrofonanschluss der Remote-Maschine
+2. **Jetson Nano в качестве аудиомаршрутизатора**
 
-2. **Jetson Nano als Audio-Router**
+    - Запускает ALSA/PulseAudio для сопоставления двух ключей.
+    - Хостинг OpeninterfaceQT для управления KVM и потенциального вывода AI.
 
-    - Läuft ALSA/PulseAudio, um zwischen den beiden Dongles zu mappen
-    - Hostet OpenterfaceQT для KVM-Steuerung и potenzielle KI-Inferenz
+3. **Мини-KVM для видео и управления**
+    - HDMI передает видео и целевой звук обратно на хост
+    - Одно USB-соединение позволяет управлять клавиатурой/мышью и (в будущем) аудиоканалами.
+4. **Программное сопоставление каналов**
+    - Предлагает расширить OpenterfaceQT для предоставления нескольких интерфейсов USB.
+    - Переключатель пользовательского интерфейса для включения хост-микрофона → целевая маршрутизация вместе с потоками KVM.
 
-3. **Mini-KVM для Video и Steuerung**
-    - HDMI trägt Video и Target-Audio zurück zum Host
-    - Einzelne USB-Подключение behandelt Tastatur/Maus и (zukünftige) Audio-Kanäle
-4. **Программное обеспечение-Kanal-Mapping**
-    - Schlägt vor, OpenterfaceQT zu erweitern, um mehrere USB-Interfaces freizulegen
-    - UI-Toggle zum Aktivieren von Host-Mikrofon → Target-Routing neben KVM-Streams
+## Влияние и сообщество
 
-## Auswirkung и Gemeinschaft
+Эксперименты Виеры подчеркивают широту вариантов использования, которые ждут своего раскрытия путем добавления звука в экосистему Mini-KVM. Его концепции тесно связаны с нашей дорожной картой по рабочим процессам на базе искусственного интеллекта, домашней автоматизации и более широкому использованию удаленных ИТ-технологий.
 
-Veeras Experimente heben die Breite der Anwendungsfälle hervor, die darauf warten, durch das Hinzufügen von Audio zum Mini-KVM-Ökosystem freigeschaltet zu werden. Seine Konzepte stimmen eng с unserer Roadmap для KI-gesteuerte Workflows, Hausautomatisierung и reichere Remote-IT-Erfahrungen оein.
+Особая благодарность Вире Пендяле за то, что она поделилась своим видением и вдохновила наше следующее поколение функций Mini-KVM. Узнайте больше и изучите другие записи на странице USB-KVM DIY Challenge 2024:
 
-Besonderen Dank an Veera Pendyala для das Teilen seiner Vision и die Inspiration для unsere nächste Generation von Mini-KVM-Функции. Erfahren Sie mehr и erkиen Sie andere Einträge auf der USB-KVM DIY Challenge 2024-Seite:
+- [Crowd Supply Challenge](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
 
--   [Crowd Supply Challenge](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
-
-Tauchen Sie in unseren YouTube-Streaming-Talk ein, Crowd Supply Teardown с Helen Leigh, Billy R.B. Wang и Kevin Peng, um mehr о Openterface Mini-KVM и die brillanten Ideen aus dem Wettbewerb zu erfahren:
+Погрузитесь в нашу беседу о потоковой передаче на YouTube «Crowd Supply Teardown» с Хелен Ли, Билли Р. Б. Вангом и Кевином Пенгом, чтобы узнать больше об Openterface Mini-KVM и блестящих идеях конкурса:
 [https://youtu.be/Tp4f_uxEo6E](https://youtu.be/Tp4f_uxEo6E)

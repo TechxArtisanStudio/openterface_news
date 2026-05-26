@@ -2,111 +2,110 @@
 locale: ar
 translationKey: "240823-overcoming-hurdles"
 slug: "240823-overcoming-hurdles"
-title: "Hürden حولwinden: Fortschritts-Update و neuer Zeitplan"
-description: "Wichtiges Openterface Mini-KVM Update: CE-Zertifizierung abgeschlossen, منتجion läuft, neue ETA Mitte Januar. الأجهزة V1.9 finalisiert مع Erweiterungs-Pins, Android-App-Entwicklung, verbesserter Verpackung و mehrsprachigem Handbuch in Arbeit."
+title: "التغلب على العقبات: تحديث التقدم والجدول الزمني الجديد"
+description: "تحديث مهم لبرنامج Openterface Mini-KVM: اكتملت شهادة CE، ويجري الإنتاج، ووقت الوصول المتوقع الجديد في منتصف يناير. تم الانتهاء من الأجهزة V1.9 مع دبابيس التوسيع، وتطوير تطبيقات Android، والتغليف المحسن، والدليل متعدد اللغات قيد التقدم."
 date: 2024-08-22
 channel: product
 product: minikvm
-topic: ["software", "campaign", "community"]
-category: "Product التحديثات"
+topic: ["shipping", "production", "software", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+مرحبًا بالجميع،
 
-Hey alle zusammen,
+أتمنى أن تكونوا بخير. لقد مر وقت طويل منذ آخر تحديث لدينا. أتمنى أن أقول أن كل شيء كان يسير بسلاسة بالنسبة لـ Openterface، لكننا واجهنا بعض المطبات في السرعة التي ستؤخر الجدول الزمني للتسليم. على الرغم من أن هذا لم يكن ما توقعناه، إلا أننا نتعامل مع هذه التحديات بشكل مباشر ونحرز تقدمًا مطردًا مع الكثير من الأخبار الجيدة التي يمكن مشاركتها. هذا المنشور يدور حول **قراءة مدتها 7 دقائق**، لذلك دعونا نتعمق في التفاصيل حتى تعرف بالضبط أين وصلت الأمور وما سيأتي بعد ذلك.
 
-Ich hoffe, es geht euch allen gut. Es ist eine Weile her seit unserem letzten Update. Ich wünschte, ich könnte sagen, dass alles reibungslos لـ Openterface gelaufen ist, aber wir sind auf ein paar Hindernisse gestoßen, die unseren Lieferzeitplan verzögern werden. Obwohl das لا das war, was wir erwartet hatten, gehen wir diese Herausforderungen direkt an و machen stetige Fortschritte مع vielen guten Nachrichten zum Teilen. Dieser Post ist etwa **7 Minuten Lesezeit**, also lasst uns in die Details eintauchen, daمع ihr genau wisst, wo die Dinge stehen و was als nächstes kommt.
+## التنظيم والإنتاج والجودة
 
-## Regulierung, منتجion و Qualität
-
-Bevor wir die منتجion starten konnten, mussten wir notwendige Qualitätstests gemäß den Vorschriften bestehen, insbesondere die CE-Zertifizierung. Da unsere Toolkit-Version لا nur das Mini-KVM, sondern auch mehrere Zubehörteile enthält, musste jeder Teil CE-Tests durchlaufen. Diese Tests dauerten länger als erwartet (es stellt sich heraus, dass Kabel ziemlich wählerisch sein können), aber die gute Nachricht ist, dass **wir CE لـ unser Mini-KVM و alle seine Komponenten bestanden haben!** Unten ist eine نظرة عامة der Zertifizierungen لـ alle unsere Teile: Mini-KVM, HDMI-Kabel, oranges Type-C-Kabel, schwarzes kurzes Type-C-Kabel و VGA2HDMI-Kabel. Mit der Zertifizierung in der Hand ist unser منتجionszeitplan jetzt sicher, و unsere Hersteller **produzieren derzeit alle Teile**, während ich spreche.
+قبل أن نتمكن من بدء الإنتاج، كان علينا اجتياز اختبارات الجودة اللازمة وفقًا للوائح، وخاصة شهادة CE. نظرًا لأن إصدار مجموعة الأدوات لدينا لا يشتمل فقط على Mini-KVM، بل يشمل أيضًا العديد من الملحقات، فيجب أن يخضع كل جزء لاختبار CE. استغرقت هذه الاختبارات وقتًا أطول من المتوقع (تبين أن الكابلات يمكن أن تكون صعبة الإرضاء تمامًا)، ولكن الخبر الرائع هو أننا **لقد اجتزنا CE لـ Mini-KVM وجميع مكوناته!** فيما يلي نظرة عامة على الشهادات لجميع أجزائنا: Mini-KVM، وكابل HDMI، وكابل برتقالي من النوع C، وكابل أسود قصير من النوع C، وكابل VGA2HDMI. ومع حصولنا على الشهادة، أصبح الجدول الزمني للإنتاج لدينا مؤكدًا الآن، ويقوم مصنعونا **حاليًا بإنتاج جميع الأجزاء** أثناء حديثي هذا.
 
 ![240823-0](https://www.crowdsupply.com/img/fcb5/db59e179-2413-4d57-8462-2285c007fcb5/openterface-240823-0_jpg_gallery-lg.jpg)
-*UKCA- و CE-Anforderungen sind لـ unsere Elektronikprodukte gleich, wobei CE auch RoHS-Konforمعät abdeckt.*
+*متطلبات UKCA وCE هي نفسها بالنسبة لمنتجاتنا الإلكترونية، حيث تغطي CE أيضًا الامتثال لـ RoHS.*
 
-Vor zwei Wochen besuchten wir einen unserer Hersteller, um ihre Linienmanager in Qualitätskontrolle لـ die orangen Kabel zu schulen, bevor sie sie an uns verschickten. الآن wurden ALLE orangen Kabel produziert و sitzen in einer Ecke unseres Studios.
+قبل أسبوعين، قمنا بزيارة أحد الشركات المصنعة لدينا لتدريب مديريهم التنفيذيين على مراقبة جودة الكابلات البرتقالية قبل شحنها إلينا. الآن، تم إنتاج جميع الكابلات البرتقالية وهي موجودة في زاوية الاستوديو الخاص بنا.
 ![240823-1](https://www.crowdsupply.com/img/28dc/34844b54-0e02-414d-b58b-d40e8abe28dc/openterface-240823-1_jpg_gallery-lg.jpg)
-*Kevin و Shawn erklärten die Testmethoden, um sicherzustellen, dass das orange Kabel ordnungsgemäß مع unserem Openterface Mini-KVM funktioniert.*
+*كان كيفن وشون يشرحان طرق الاختبار للتأكد من أن الكابل البرتقالي يعمل بشكل صحيح مع Openterface Mini-KVM.*
 
-Wir werden diese Woche dieselbe Aufgabe لـ andere Teile durchführen, um QA an der منتجionsfront zu schulen. Hier sind Proben zusätzlicher Kabel.
+سنقوم بنفس المهمة في هذا الأسبوع لتدريب ضمان الجودة على خط الإنتاج الأمامي للأجزاء الأخرى أيضًا. فيما يلي عينات من الكابلات الإضافية.
 ![240823-2](https://www.crowdsupply.com/img/e703/abb8ffa5-eb85-4eb9-b5f8-d8a3d349e703/openterface-240823-2_jpg_md-xl.jpg)
-*Stolz مع unserem TechxArtisan-Logo markiert, das sind Proben des HDMI-Kabels, des kurzen Type-C-Kabels و des VGA-to-HDMI-Kabels.*
+*تم وضع علامة عليها بفخر بشعار TechxArtisan الخاص بنا، وهي عبارة عن عينات من كابل HDMI، وكابل Type-C القصير، وكابل VGA-to-HDMI.*
 
-Wir erwarten, dass die anderen Teile و Mini-KVMs bald von unseren Herstellern ankommen, zu welchem Zeitpunkt wir die Qualität jeder Komponente حولprüfen و sie ordnungsgemäß in unserem Studio verpacken werden, bevor sie versandt werden. Mit anderen Worten, **unser Team wird persönlich die Qualität sicherstellen**, bevor sie eure Hände erreicht.
+نتوقع وصول الأجزاء الأخرى ووحدات Mini-KVM قريبًا من الشركات المصنعة لدينا، وعند هذه النقطة سنقوم بالتحقق مرة أخرى من جودة كل مكون وتعبئتها بشكل صحيح في الاستوديو الخاص بنا قبل الشحن. بمعنى آخر، **فريقنا سيضمن شخصيًا الجودة** قبل أن تصل إلى يديك.
 
-## Versand, potenzielle Verzögerungen و neue ETA
+## الشحن والتأخيرات المحتملة ووقت الوصول المتوقع الجديد
 
-**Die aktuelle Unsicherheit liegt im Versandprozess**. Nach der Untersuchung mehrerer Versandunternehmen fanden wir heraus, dass der Versand zusätzliche Zeit in Anspruch nehmen wird, da wir wahrscheinlich Pakete حول ein Lager transferieren werden, bevor sie das Lager von Crowd Supply erreichen. Wir diskutieren noch, ob wir Seefracht أو Luftfracht wählen sollen—bitte habt noch ein paar Tage Geduld, während wir die Arrangements klären.
+**تكمن حالة عدم اليقين الحالية في عملية الشحن**. بعد التحقيق مع العديد من شركات الشحن، وجدنا أن الشحن سيستغرق وقتًا إضافيًا حيث من المحتمل أن نقوم بنقل الطرود عبر أحد المستودعات قبل الوصول إلى مستودع Crowd Supply. ما زلنا نتناقش بشأن اختيار الشحن البحري أو الجوي، يرجى الانتظار لبضعة أيام أخرى حتى نقوم بترتيب الترتيبات.
 
-Der Zollabfertigung ist ein weiteres potenzielles Hindernis, das unerwartete Verzögerungen verursachen könnte. Sobald unsere منتجe im US-Lager von Crowd Supply ankommen, werden sie ein bis zwei Wochen brauchen, um weltweit basierend auf jeder Bestellung versandt zu werden. Für Unterstützer außerhalb der USA müssen individuelle Pakete immer noch durch globalen Versand و Zollabfertigung im Zielland gehen.
+يعد التخليص الجمركي عقبة محتملة أخرى قد تسبب تأخيرات غير متوقعة. بمجرد وصول منتجاتنا إلى مستودع Crowd Supply في الولايات المتحدة، سيستغرق شحنها عالميًا من أسبوع إلى أسبوعين بناءً على كل طلب. بالنسبة للداعمين خارج الولايات المتحدة، ستظل الطرود الفردية بحاجة إلى المرور عبر الشحن العالمي والتخليص الجمركي في بلد الوجهة.
 
-Unter Berücksichtigung der aktuellen Situation و dem Hinzufügen von etwas Pufferzeit bleibe ich vorsichtig optimistisch, dass wir die Lieferung vor Ende dieses Jahres abschließen werden, مع **einer neuen ETA von Mitte Januar**. Es tut mir wirklich leid لـ die Unannehmlichkeiten و ich schätze eure Unterstützung و Geduld während dieser Änderung.
+مع الأخذ في الاعتبار الوضع الحالي وإضافة بعض الوقت الاحتياطي، ما زلت متفائلاً بحذر بأننا سنكمل التسليم قبل نهاية هذا العام، مع **موعد وصول متوقع جديد في منتصف يناير**. أنا آسف حقًا على الإزعاج وأقدر دعمكم وصبركم أثناء هذا التغيير.
 
-## Finalisierte الأجهزة V1.9
+## الأجهزة النهائية V1.9
 
-Wie ihr vielleicht aus unserem vorherigen [Reddit-Post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/) wisst, haben wir beschlossen, **unsere الأجهزة auf V1.9 zu upgraden**, einschließlich eines Satzes hackbarer Erweiterungs-Pins. Das war لا Teil des ursprünglichen Plans لـ die Crowdfوing-Kampagne, aber wir glauben, dass es das **Potenzial لـ breitere Nutzung** der الأجهزة erheblich verbessert.
+كما تعلم من [Reddit post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/) السابق، قررنا **ترقية أجهزتنا إلى الإصدار V1.9**، بما في ذلك مجموعة من دبابيس التوسيع القابلة للاختراق. لم يكن هذا جزءًا من الخطة الأصلية لحملة التمويل الجماعي، ولكننا نعتقد أنه يعزز بشكل كبير **إمكانية استخدام الأجهزة على نطاق أوسع**.
 
 ![240823-3](https://www.crowdsupply.com/img/77d7/09a9d0e5-3065-4f3e-8b61-bae66b5c77d7/openterface-240823-3_jpg_md-xl.jpg)
-*Die VCC-, GND-, Target D+-, Target D--, Host D+- و Host D--Pins—wobei 'D' لـ USB-Daten steht.*
+*دبابيس VCC وGND وTarget D+ وTarget D- وHost D+ وHost D- حيث يشير الحرف 'D' إلى بيانات USB.*
 
-Ein wichtiger Antrieb war, **den USB-Schalter auf البرمجيات-Ebene umschalten zu können**. Warum ist das wichtig? Auf unserer Roadmap **streben wir an, eine KVM-over-IP-Lösung** wie VNC in der Zukunft zu unterstützen. Die Idee ist, lokale KVM-Steuerung مع dem VNC-Protokoll zu verbinden, wodurch Benutzer den Zielcomputer حول den Host-Computer fernsteuern können. In einem solchen Remote-Szenario ist die Fähigkeit لـ Benutzer, den USB-Port zu wechseln, wesentlich, besonders wenn Dateiحولtragungen zwischen Host و Ziel erforderlich sind.
+كان أحد الدوافع الرئيسية هو تمكين **مفتاح USB ليتم تبديله على مستوى البرنامج**. لماذا هذا مهم؟ في خريطة الطريق الخاصة بنا، **نهدف إلى دعم حل KVM-over-IP**، مثل VNC، في المستقبل. تتمثل الفكرة في مطابقة التحكم المحلي لـ KVM مع بروتوكول VNC، مما يسمح للمستخدمين بالتحكم عن بعد في الكمبيوتر المستهدف عبر الكمبيوتر المضيف. في مثل هذا السيناريو البعيد، تعد قدرة المستخدمين على تبديل منفذ USB أمرًا ضروريًا، خاصة عندما تكون عمليات نقل الملفات بين المضيف والهدف مطلوبة.
 
-**Die Erweiterungs-Pins öffnen auch Möglichkeiten لـ mehr**, wie Integration مع iPadOS, ATX-Steuerung, Netzwerk-Bridging و Audio-Bypass. Obwohl ich hier لا in alle Details eintauchen werde, ermutige ich euch, unserer Openterface-Community beizutreten, um مع uns weiter zu diskutieren.
+**تفتح دبابيس التوسيع أيضًا إمكانيات للمزيد**، مثل التكامل مع iPadOS، والتحكم في ATX، وجسر الشبكة، وتجاوز الصوت. على الرغم من أنني لن أتعمق في كل التفاصيل هنا، إلا أنني أشجعك على الانضمام إلى مجتمع Openterface الخاص بنا لإجراء مزيد من المناقشة معنا.
 
-Dieses الأجهزة-Upgrade könnte potenziell unsere Openterface-Lösung erweitern, um حول IP zu operieren و erweiterte الميزات zu enthalten, während es seine Kernstärke als Plug-and-Play KVM-over-USB-Tool beibehält—perfekt لـ IT-Profis, die unsichere IT-Umgebungen wie unbekannte Rechenzentren navigieren.
+يمكن أن تعمل ترقية الأجهزة هذه على توسيع حل Openterface الخاص بنا للعمل عبر IP ويتضمن المزيد من الميزات المتقدمة مع الحفاظ على قوتها الأساسية كأداة KVM-over-USB للتوصيل والتشغيل - وهي مثالية لمحترفي تكنولوجيا المعلومات الذين يتنقلون في بيئات تكنولوجيا المعلومات غير المؤكدة، مثل مراكز البيانات غير المألوفة.
 
-Ich bin froh zu berichten, dass V1.9 unsere internen Basistests bestanden hat و als offizielle Version لـ alle unsere Unterstützer finalisiert wird. Dieses الأجهزة-Upgrade wird jedoch weitere Tests erfordern, و jede Entwicklung basierend auf diesen Erweiterungs-Pins wird experimentell sein و wahrscheinlich Bugs haben. Hier könnt ihr beitragen. Wir verlassen uns auf die Open-Source-Community, um uns zu helfen, Openterface zusammen zu verbessern.
+ويسعدني أن أبلغكم أن الإصدار 1.9 قد اجتاز اختباراتنا الأساسية الداخلية وسيتم الانتهاء منه باعتباره الإصدار الرسمي لجميع الداعمين لنا. ومع ذلك، ستتطلب ترقية الأجهزة هذه مزيدًا من الاختبارات، وأي تطوير يعتمد على دبابيس التوسيع هذه سيكون تجريبيًا ومن المحتمل أن يحتوي على أخطاء. هذا هو المكان الذي يمكنك المساهمة فيه. نحن نعتمد على مجتمع المصادر المفتوحة لمساعدتنا في تحسين Openterface معًا.
 
-## Mehr البرمجيات-التحديثات
+## المزيد من تحديثات البرامج
 
-Auf der البرمجيات-Seite machen wir aufregende Fortschritte. Wir tauchen jetzt in die **Openterface Android-App** ein! Schaut euch diesen [Tweet](https://x.com/TechxArtisan/status/1825460088922071398) لـ eine frühe Demo an, die flüssige KVM-Steuerung, Mausbewegung و Klicks in Aktion zeigt. Mehr الميزات sind unterwegs, و wie immer, sobald wir den Code etwas mehr poliert haben, **wird diese App auch open-sourced** in unserem GitHub-Repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
+على صعيد البرمجيات، نحن نخطو خطوات مثيرة. نحن نتعمق في **تطبيق Openerface Android** الآن! قم بمراجعة [tweet](https://x.com/TechxArtisan/status/1825460088922071398) للحصول على عرض توضيحي مبكر يوضح التحكم السلس في KVM وحركة الماوس والنقرات أثناء العمل. هناك المزيد من الميزات في الطريق، وكما هو الحال دائمًا، بمجرد تحسين الكود أكثر قليلاً، **سيكون هذا التطبيق أيضًا مفتوح المصدر** على GitHub repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
 ![240823-4](https://www.crowdsupply.com/img/7007/b192f260-1e1f-4dab-905b-fb0a6d927007/openterface-240823-4_jpg_md-xl.jpg)
-*Nur unsere Fingerspitzen verwenden, um einen Linux-Computer von einem Android-Tablet aus KVM zu steuern. Schick!*
+*باستخدام أطراف أصابعنا فقط للتحكم في KVM في كمبيوتر Linux من جهاز لوحي يعمل بنظام Android. جميل!*
 
-Unsere QT-Version hat gerade ein praktisches Update erhalten—ihr könnt jetzt [Text vom Host zum Ziel حولtragen](https://x.com/TechxArtisan/status/1825919721960780131)! Also wird diese Funktion jetzt auf macOS-, Windows- و Linux-Host-Apps unterstützt.
+لقد حصل إصدار QT الخاص بنا على تحديث مفيد — يمكنك الآن [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131)! والآن أصبحت هذه الميزة مدعومة على تطبيقات macOS وWindows وLinux المضيفة.
 
-Außerdem planen wir, eine lustige Funktion hinzuzufügen—[eine automatische Mausbewegung, um zu verhindern, dass euer Zielcomputer schläft](https://x.com/TechxArtisan/status/1825471186668847241). Sollen wir مع dem Ping-Pong-Ball gehen, der um den Bildschirm hüpft, أو dem klassischen DVD-Bildschirmschoner-Effekt? Stimmt ab و kommentiert den [Tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
+علاوة على ذلك، نخطط أيضًا لإضافة ميزة ممتعة — [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825471186668847241). هل يجب أن نختار كرة البينج بونج التي ترتد حول الشاشة أم تأثير شاشة التوقف الكلاسيكية لأقراص DVD؟ قم بالتصويت والتعليق على [tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
 
-## Verpackungsdesign, Beschriftung و Handbuch
+## تصميم العبوة ووضع العلامات والدليل
 
-Wir haben [مع verschiedenen Mock-ups و Verpackungsdesigns experimentiert](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/), um das perfekte Gleichgewicht zwischen mehreren Schlüsselfaktoren zu finden:
+لقد كنا [experimenting with various mock-ups and packaging designs](https://www.reddit.com/r/Openterface_miniKVM/comments/1elm4vq/almost_ready_to_finalize_our_package_design/) لإيجاد التوازن المثالي بين عدة عوامل رئيسية:
 
-- Materialien auswählen, die robust genug sind, um das منتج و seine Teile während des Versands zu schützen,
-- Informative Beschriftung erstellen, die Benutzern hilft, das منتج auf einen Blick zu verstehen,
-- Einhaltung der Vorschriften sicherstellen,
-- Die Verpackung visuell ansprechend machen,
-- Und umweltfreوlich sein, indem Plastikverwendung wo immer möglich minimiert wird.
+- اختيار مواد قوية بما فيه الكفاية لحماية المنتج وأجزائه أثناء الشحن،
+- إنشاء ملصقات إعلامية تساعد المستخدمين على فهم المنتج في لمحة سريعة،
+- ضمان الامتثال للوائح،
+- جعل العبوة جذابة بصريا،
+- وأن تكون صديقة للبيئة من خلال التقليل من استخدام البلاستيك قدر الإمكان.
 
-Zusätzlich haben wir mehrere Verbesserungen an der alten Toolkit-Tasche vorgenommen, einschließlich:
+بالإضافة إلى ذلك، قمنا بإجراء العديد من التحسينات على حقيبة الأدوات القديمة، بما في ذلك:
 
-- Größerer Stauraum,
-- Stilvollem orangen Reißverschluss,
-- Aufgewerteten Außen- و Innenmaterialien,
-- Und einer super dehnbaren Mesh-Tasche.
+- مساحة تخزين أكبر،
+- سحاب برتقالي أنيق،
+- ترقية المواد الخارجية والداخلية،
+- وجيب شبكي فائق التمدد.
 
-Wir haben dieses Material gewählt, weil es das ideale Gleichgewicht zwischen budgetfreوlich, angenehm zu berühren و haltbar genug, um die Artikel darin zu schützen, bietet. **Wir sind zuversichtlich, dass ihr es lieben werdet**.
+لقد اخترنا هذه المادة لأنها تحقق التوازن المثالي بين كونها صديقة للميزانية، وممتعة الملمس، ومتينة بدرجة كافية لحماية العناصر الموجودة بالداخل. **نحن واثقون من أنك ستحبينه**.
 
 ![240823-5](https://www.crowdsupply.com/img/099a/75e16f52-bd0c-4652-af27-08caf448099a/openterface-240823-5_jpg_md-xl.jpg)
 
-Wir aktualisieren auch die Beschriftungen auf dem Aluminiumgehäuse, um sie so informativ و visuell ansprechend wie möglich zu machen. Wir hoffen, dass diese Verbesserungen eure Benutzererfahrung verbessern و es einfacher machen werden, مع Openterface zu beginnen.
+نقوم أيضًا بتحديث الملصقات الموجودة على غلاف الألومنيوم لجعلها غنية بالمعلومات وجذابة قدر الإمكان. نأمل أن تؤدي هذه التحسينات إلى تحسين تجربة المستخدم الخاصة بك وتسهيل بدء استخدام Openterface.
 
 ![240823-6](https://www.crowdsupply.com/img/94d8/441a5757-2d6a-4c79-885b-7b5b3a7094d8/openterface-240823-6_jpg_md-xl.jpg)
 
-Wir finalisieren das Openterface-Handbuch, das auf Englisch, Deutsch, Französisch, Japanisch و Chinesisch verfügbar sein wird. Entschuldigung, wenn wir eure Sprache verpasst haben—unsere Box ist لا TARDIS-groß (die Polizeibox von Doctor Who)! Aber wir werden unser Bestes geben, um mehr Übersetzungen auf unserer Website hinzuzufügen.
+نحن بصدد الانتهاء من دليل Openterface، والذي سيكون متاحًا باللغات الإنجليزية والألمانية والفرنسية واليابانية والصينية. نعتذر إذا فاتنا لغتك - صندوقنا ليس بحجم TARDIS (صندوق الشرطة الخاص بـ Doctor Who)! لكننا سنبذل قصارى جهدنا لإضافة المزيد من الترجمات على موقعنا.
 
 ![240823-7](https://www.crowdsupply.com/img/e2d9/2e5a2086-20f0-47ec-a27b-288d10d0e2d9/openterface-240823-7_jpg_md-xl.jpg)
 
-## Community-Sprachحولprüfung
+## مراجعة لغة المجتمع
 
-Ich habe ChatGPT verwendet, um bei Übersetzungen zu helfen, aber es kann manchmal bei Formulierungen و Wortwahl daneben liegen. Wenn es لا zu viel Mühe ist, würde ich jede Hilfe bei der Überprüfung von Inhalten in anderen Sprachen sehr schätzen, besonders لـ die Druckmaterialien, die wir gerade finalisieren. Ich habe alle Textinhalte لـ die Verpackung in unserem GitHub-Ordner [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials) aktualisiert, wo ihr حولprüfen و Verbesserungen einreichen könnt. Ihr könnt mich auch direkt DMen. Danke!
+لقد كنت أستخدم ChatGPT للمساعدة في الترجمات، لكنه قد يخطئ في بعض الأحيان في الصياغة والصياغة. إذا لم يكن هناك الكثير من المتاعب، سأكون ممتنًا جدًا لأي مساعدة في مراجعة المحتوى بلغات أخرى، خاصة بالنسبة للمواد المطبوعة التي نحن على وشك الانتهاء منها. لقد قمت بتحديث كل المحتوى النصي للعبوة في مجلد GitHub [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials)، حيث يمكنك مراجعة أي تحسينات وإرسالها. يمكنك أيضًا إرسال رسالة مباشرة لي. شكرًا!
 
-## Abschließende Bemerkungen و laufende Fortschritte
+## الملاحظات النهائية والتقدم المستمر
 
-Wir entschuldigen uns nochmals لـ die Verzögerungen و die Änderung in der ETA unseres منتجs. Danke لـ eure Geduld و daلـ, dass ihr bei uns bleibt—wir arbeiten hart daran, es euch so schnell wie möglich zu bringen! Ich werde euch sofort aktualisieren, sobald unser Versand arrangiert ist. Mehr التحديثات sind unterwegs, also trett unserer Openterface-Community bei و bleibt dran!
+نعتذر مرة أخرى عن التأخير والتغيير في الوقت المتوقع للوصول لمنتجنا. نشكرك على سعة صدرك والتزامك معنا، فنحن نعمل جاهدين لإيصال هذا إليك في أقرب وقت ممكن! سأقوم بإعلامك على الفور بمجرد ترتيب شحنتنا. هناك المزيد من التحديثات في الطريق، لذا يرجى الانضمام إلى مجتمع Openterface الخاص بنا وترقبوا ذلك!
 
-Prost,
+في صحتك،
 
-Billy Wang  
-منتجmanager  
-Openterface-Team | TechxArtisan
+بيلي وانغ  
+مدير المنتج  
+فريق الواجهة المفتوحة | TechxArtisan

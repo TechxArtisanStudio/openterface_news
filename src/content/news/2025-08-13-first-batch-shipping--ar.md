@@ -2,52 +2,51 @@
 locale: ar
 translationKey: "2025-08-13-first-batch-shipping"
 slug: "2025-08-13-first-batch-shipping"
-title: "Erste Charge wird jetzt versendet! 🚚"
-description: "13. August 2025 - Große Neuigkeiten! Unsere erste Charge von KVM Extensions لـ uConsole wird jetzt an Kوen weltweit versendet! 🎉"
+title: "شحن الدفعة الأولى الآن! 🚚"
+description: "13 أغسطس 2025 - أخبار رائعة! يتم الآن شحن الدفعة الأولى من ملحقات KVM لـ uConsole إلى العملاء في جميع أنحاء العالم! 🎉"
 date: 2025-08-13
 channel: product
 product: uconsole-kvm-extension
-topic: ["production", "beta", "campaign", "community"]
-category: "Product التحديثات"
+topic: ["shipping", "production", "beta", "campaign", "community"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface Team"
 ---
+**13 أغسطس 2025** - أخبار رائعة! يتم الآن شحن ** الدفعة الأولى من ملحقات KVM لـ uConsole ** إلى العملاء في جميع أنحاء العالم! 🎉
 
-**13. August 2025** - Große Neuigkeiten! Unsere **erste Charge von KVM Extensions لـ uConsole** wird jetzt an Kوen weltweit versendet! 🎉
+## شكرًا لداعمينا
 
-## Dank an unsere Unterstützer
+شكرًا جزيلاً لجميع الداعمين والداعمين الأوائل الذين جعلوا هذا الإطلاق ممكنًا. لقد كان دعمك وتعليقاتك لا تقدر بثمن في جلب هذا المنتج إلى السوق.
 
-Ein riesiges Dankeschön an alle unsere Unterstützer و frühen Förderer, die diesen Launch möglich gemacht haben. Ihre Unterstützung و Ihr Feedback waren unschätzbar, um dieses منتج auf den Markt zu bringen.
+## الكمية المتوفرة محدودة
 
-## Begrenzte Verfügbarkeit
-
-Wir haben noch **einige Einheiten** aus dieser ersten منتجionsserie. Wenn Sie darauf gewartet haben, eine zu bekommen, ist jetzt die Zeit zu handeln!
+لا يزال لدينا **وحدات قليلة متبقية** من عملية الإنتاج الأولى هذه. إذا كنت تنتظر الحصول على واحدة، فهذا هو الوقت المناسب للتصرف!
 
 <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;margin:20px 0;">
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="KVM Extension Production" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQE336sKNhKnFA/feedshare-shrink_800/B56ZikAHDjHMAg-/0/1755098153303?e=1761782400&v=beta&t=RBbrTcwHC5MEvsI82l7x5TF4SdJlVBZmwolNpfKc3Ig" alt="إنتاج امتداد KVM" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="KVM Extension Packaging" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQGXY-NgZELFMQ/feedshare-shrink_800/B56ZikAHEdHkAk-/0/1755098157890?e=1761782400&v=beta&t=k73YtzdsezVuDaQ58ldbnufp8ycWblfzSFQ-SfbaE9k" alt="تغليف ملحق KVM" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
-        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="KVM Extension Quality Control" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQFr_S23SZ0qqg/feedshare-shrink_800/B56ZikAHEPHUAg-/0/1755098160079?e=1761782400&v=beta&t=cRDUOpGd4UQn8EuXcg7slqG4ZjMzMCsZrpp9mzavVts" alt="مراقبة جودة امتداد KVM" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
 </div>
 
-## Was kommt als nächstes?
+## ما هي الخطوة التالية؟
 
-Sobald diese Charge ausverkauft ist, werden wir **zurück zu Vorbestellungen wechseln**, bis wir die Mindestmenge لـ die nächste منتجionsserie erreichen. Das bedeutet, es könnte eine Wartezeit geben, bevor die nächste Charge verfügbar ist.
+بمجرد بيع هذه الدفعة، سنعود **للعودة إلى الطلبات المسبقة** حتى نصل إلى الحد الأدنى من الكمية المطلوبة لعملية الإنتاج التالية. وهذا يعني أنه قد يكون هناك وقت انتظار قبل أن تتوفر الدفعة التالية.
 
-## Holen Sie sich jetzt Ihre
+## احصل على منتجك الآن
 
-Verpassen Sie es لا! [طلب Sie jetzt Ihre KVM Extension](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole), solange der Vorrat reicht.
+لا تفوت! [Order your KVM Extension now](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) حتى نفاذ الكمية.
 
-## Bleiben Sie auf dem Laufenden
+## ابق على اطلاع
 
-Folgen Sie unseren التحديثات و treten Sie unserer [Discord-Community](https://discord.gg/ruAD9kcYbq) bei, um als Erste حول zukünftige منتجionsserien و neue منتجankündigungen informiert zu werden.
+تابع تحديثاتنا وانضم إلى [Discord community](https://discord.gg/ruAD9kcYbq) لتكون أول من يعرف عن عمليات الإنتاج المستقبلية وإعلانات المنتجات الجديدة.
 
 ---
 
-*Danke, dass Sie Teil der Openterface-Reise sind! 🙏*
+*شكرًا لكونك جزءًا من رحلة Openterface! 🙏*

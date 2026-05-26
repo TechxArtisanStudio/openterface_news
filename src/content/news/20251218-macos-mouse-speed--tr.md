@@ -2,222 +2,220 @@
 locale: tr
 translationKey: "20251218-macos-mouse-speed"
 slug: "20251218-macos-mouse-speed"
-title: "Openterface Mini-KVM Mausgeschwindigkeit & Spielleistung unter macOS"
-description: "Umfassende spielorientierte Mausleistungstests von Openterface Mini-KVM unter macOS. Vergleichen Sie absolute, relative Event- ve relative HID-Mausmodi ile 9600 vs 115200 Baudraten için optimale Spielkonfiguration."
+title: "MacOS'ta Openterface Mini-KVM Fare Hızı ve Oyun Performansı"
+description: "MacOS'ta Openterface Mini-KVM'nin kapsamlı oyun odaklı fare performans testi. Optimum oyun yapılandırması için Mutlak, Göreli Olay ve Göreli HID fare modlarını 9600 ve 115200 baud hızlarıyla karşılaştırın."
 date: 2025-12-18
 channel: software
-topic: ["software"]
-category: "Product Güncellemeler"
+topic: ["shipping", "production", "software", "analysis"]
+category: "Product Updates"
 featured: false
 draft: false
 author: "Openterface"
 ---
+### Oyun Odaklı Fare Davranışı Analizi
 
-### Spielorientierte Mausverhaltensanalyse
+Bu makale, **oyunla ilgili fare davranışı**, seri baud hızı sınırlamaları ve önerilen yapılandırmalara odaklanarak **macOS'ta Openterface Mini-KVM**'nin gerçek dünyadaki fare performans testlerini özetlemektedir.
 
-Dieser Artikel fasst reale Mausleistungstests von **Openterface Mini-KVM unter macOS** zusammen, ile Fokus auf **spielbezogenes Mausverhalten**, serielle Baudraten-Beschränkungen ve empfohlene Konfigurationen.
-
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Gaming isn't the main goal of Openterface KVMs, but we pushed them to explore the liiles of KVM-over-USB. On macOS, 115200 baud + Relative HID gives the best mouse latency. Built for setup and debugging, tuned to stretch performance further. <a href="https://t.co/ianurD9ArL">pic.twitter.com/ianurD9ArL</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/2003418343806742992?ref_src=twsrc%5Etfw">December 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class = "twitter-tweet" data-media-max-width = "560"><p lang = "en" dir = "ltr">Oyun, Openterface KVM'lerin ana hedefi değildir, ancak onları USB üzerinden KVM'nin sınırlarını keşfetmeye zorladık. MacOS'ta 115200 baud + Relative HID, en iyi fare gecikmesini sağlar. Kurulum ve hata ayıklama için tasarlandı, performansı daha da artıracak şekilde ayarlandı. <a href="https://t.co/ianurD9ArL">pic.twitter.com/ianurD9ArL</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/2003418343806742992?ref_src=twsrc%5Etfw">23 Aralık 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
-## 1. Testsoftware & Umgebung
+## 1. Yazılımı ve Ortamı Test Edin
 
 ### Yazılım
 
-* **Host-Anwendung:**
-  **Openterface için macOS v1.21** *(In Entwicklung)*
+* **Ana Bilgisayar Uygulaması:**
+  **macOS v1.21 için Openerface** *(Devam Eden Çalışmalar)*
 
-* **Mess-Tool auf Zielseite:**
-  Eine **maßgeschneiderte interne Testanwendung**, entwickelt, um hochfrequente Mauseingaben ve Ereignisverarbeitungsraten auf dem Zielsystem genau zu messen.
+* **Hedef Taraflı Ölçüm Aracı:**
+  Hedef sistemdeki yüksek frekanslı fare girişini ve olay işleme oranlarını doğru bir şekilde ölçmek için geliştirilmiş **özel şirket içi test uygulaması**.
 
-> ⚠️ Da v1.21 noch aktiv entwickelt wird, können sich einige Verhaltensweisen ve Leistungseigenschaften in zukünftigen Versionen verbessern.
-
----
-
-### Testbedingungen: Mausgeschwindigkeits-Drosselung
-
-**Während keiner der Tests wurde eine Mausgeschwindigkeits-Drosselung veya künstliche Ratenbegrenzung angewendet**.
-
-Mauseingaben wurden ile **nativem Gerätegeschwindigkeit** erfasst ve weitergeleitet, abhängig nur von:
-
-* Maus-Donanım-Abfragerate
-* Gewähltem Mausmodus (Absolut / Relatives Event / Relatives HID)
-* Serieller Baudrate
-* Mauseingabeverarbeitung des Ziel-Betriebssystems
+> ⚠️V1.21 hala aktif olarak geliştirilme aşamasında olduğundan, gelecek sürümlerde bazı davranışlar ve performans özellikleri iyileşebilir.
 
 ---
 
-## 2. Grvelagen des Mausdaten-Durchsatzes
+### Test Koşulları: Fare Hızının Kısılması
 
-Jedes hakkında Mini-KVM hakkındatragene Mausbewegungsereignis besteht aus:
+**Testlerin hiçbirinde fare hızı azaltma veya yapay hız sınırlaması uygulanmadı**.
 
-```
-11 Bytes = 88 Bits
-```
+Fare girişi **yerel cihaz hızında** yakalanıp iletildi ve yalnızca aşağıdakilere tabidir:
 
-### Theoretischer serieller Durchsatz
+* Fare donanımı yoklama oranı
+* Seçilen fare modu (Mutlak / Göreli Olay / Göreli HID)
+* Seri baud hızı
+* Hedef işletim sistemi fare girişi işleme
 
-| Baudrate | Max. Ereignisse / Sekvee |
+---
+
+## 2. Fare Veri Çıkışı Temelleri
+
+Mini-KVM yoluyla iletilen her fare hareketi olayı aşağıdakilerden oluşur:
+
+''''
+11 bayt = 88 bit
+''''
+
+### Teorik Seri Verim
+
+| Baud Hızı | Maksimum Etkinlik / Saniye |
 | --------- | ------------------- |
-| 9600      | ~109 Ereignisse/s       |
-| 115200    | ~1309 Ereignisse/s      |
+| 9600 | ~109 olay/sn |
+| 115200 | ~1309 olay/s |
 
-⚠️ Diese Werte stellen **obere theoretische Grenzen** dar.
-Die tatsächliche Leistung wird beeinflusst von:
+⚠️Bu değerler **üst teorik sınırları** temsil etmektedir.
+Gerçek performans şunlardan etkilenir:
 
-* Host-Mausabfragerate
-* Mausmodus (Absolut vs Relativ)
-* macOS-Eingabeereignis-Planung
-* Serielle Pufferung ve Firmware-Behandlung
-* **Mausabfragerate des Ziel-Betriebssystems**, die die wahrgenommene Reaktionsfähigkeit erheblich beeinflussen kann (z. B. niedrige Standardabfrageraten bei einigen Linux-Distributionen)
-
----
-
-## 3. Testergebnisse
+* Ana bilgisayar fare yoklama oranı
+* Fare modu (Mutlak ve Göreli)
+* macOS giriş etkinliği planlaması
+* Seri ara belleğe alma ve ürün yazılımı yönetimi
+* **Algılanan yanıt verme hızını önemli ölçüde etkileyebilecek hedef işletim sistemi fare yoklama oranı** (örneğin, bazı Linux dağıtımlarında düşük varsayılan yoklama oranları)
 
 ---
 
-### A. Absoluter Mausmodus (9600 & 115200 Baud)
+## 3. Test Sonuçları
 
-| Maus-Typ | Baudrate | Host-Rate (Hz) | Ziel-Rate (Hz) | Hinweise                                                                |
+---
+
+### A. Mutlak Fare Modu (9600 ve 115200 Baud)
+
+| Fare Türü | Baud Hızı | Ana Bilgisayar Hızı (Hz) | Hedef Hız (Hz) | Notlar |
 | ---------- | --------- | -------------- | ---------------- | -------------------------------------------------------------------- |
-| Bluetooth  | 9600      | ~125           | ~75              | Serielle Bandbreite gesättigt; Eingaben in Warteschlange, Bewegung verzögert           |
-| Kabelgebveen      | 9600      | ~150           | ~75              | Serielle Bandbreite gesättigt; Eingaben in Warteschlange, Bewegung verzögert           |
-| Gaming     | 9600      | ~1000          | ~75              | Hochfrequente Eingaben stark in Warteschlange; Reaktionsfähigkeit erheblich reduziert |
-| Bluetooth  | 115200    | ~125           | ~125             | Stabile 1:1 Host-zu-Ziel-Zuordnung                                    |
-| Kabelgebveen      | 115200    | ~175           | ~175             | Verbesserter Durchsatz; Latenz bei schneller Bewegung sichtbar               |
-| Gaming     | 115200    | ~1000          | ~350             | Serieller Durchsatzgrenze erreicht; hakkındaschüssige Eingaben in Warteschlange                 |
+| Bluetooth | 9600 | ~125 | ~75 | Seri bant genişliği doymuş; giriş sıraya alındı, hareket gecikti |
+| kablolu | 9600 | ~150 | ~75 | Seri bant genişliği doymuş; giriş sıraya alındı, hareket gecikti |
+| Oyun | 9600 | ~1000 | ~75 | Yüksek frekanslı giriş yoğun bir şekilde sıraya alındı; yanıt verme yeteneği ciddi şekilde azaldı |
+| Bluetooth | 115200 | ~125 | ~125 | Kararlı 1:1 ana bilgisayardan hedefe eşleme |
+| kablolu | 115200 | ~175 | ~175 | Geliştirilmiş verim; gecikme hızlı çekimde görünüyor |
+| Oyun | 115200 | ~1000 | ~350 | Seri üretim sınırına ulaşıldı; fazla giriş sıraya alındı ​​|
 
-**Fazit (Absolutmodus):**
+**Sonuç (Mutlak Mod):**
 
-Der absolute Mausmodus skaliert ile der Baudrate, bleibt aber durch **seriellen Durchsatz ve Eingabepufferung** eingeschränkt.
-Bei **9600 Baud** sind alle Maus-Typen eingeschränkt ve die Bewegung verzögert.
-Bei **115200 Baud** erreichen Standard-Mäuse stabiles Verhalten, aber **Hochabfrage-Spielemäuse hakkındaschreiten immer noch die verfügbare Bandbreite**, was Latenz einführt.
+Mutlak fare modu baud hızına göre ölçeklenir ancak **seri üretim ve giriş arabelleğe alma** tarafından kısıtlanmaya devam eder.
+**9600 baud** hızında, tüm fare türleri darboğaz yaşar ve hareket gecikir.
+**115200 baud** hızında, standart fareler kararlı bir davranışa ulaşır, ancak **yüksek oylamalı oyun fareleri hala mevcut bant genişliğini aşarak** gecikmeye neden olur.
 
-**Absolutmodus eignet sich için Desktop-Steuerung, değil için latenzsensitive Spiele.**
+**Mutlak mod, gecikmeye duyarlı oyunlar için değil, masaüstü kontrolü için uygundur.**
 
 ---
 
-### B. Relativer Maus-Event-Modus
+### B. Göreli Fare Olay Modu
 
-Der relative Maus-Event-Modus erfasst **Mausbewegungsereignisse direkt aus dem Betriebssystemfenster**, berechnet das **Bewegungsdelta zwischen aufeinanderfolgenden Cursorpositionen** ve leitet nur die relativen Bewegungsdaten an das Zielsystem weiter.
+Göreli Fare Olay Modu, **fare hareketi olaylarını doğrudan işletim sistemi penceresinden** yakalar, **ardışık imleç konumları arasındaki hareket deltasını** hesaplar ve yalnızca göreli hareket verilerini hedef sisteme iletir.
 
-Dieser Modus:
+Bu mod:
 
-* **Benötigt keine zusätzlichen Systemberechtigungen**
-* Ist unabhängig von **absoluten Bildschirmkoordinaten**
-* Nutzt einen **größeren Erfassungsbereich**, was feinere Bewegungsdeltas ermöglicht
-* Vermeidet absolute Positionspufferung, was zu **niedrigerer Latenz ve besserer Reaktionsfähigkeit** führt
+* **Ek sistem izinleri gerektirmez**
+* **mutlak ekran koordinatlarından** bağımsızdır
+* Daha ince taneli hareket deltalarına izin veren **daha büyük yakalama penceresinden** yararlanır
+* Mutlak konum ara belleğe almayı önler, bu da **daha düşük gecikme süresi ve daha iyi yanıt verme** sağlar
 
-#### Relative Maus-Event-Modus Leistung
+#### Göreli Fare Olay Modu Performansı
 
-| Maus-Typ | Baudrate | Host-Rate (Hz) | Ziel-Rate (Hz) | Hinweise                                              |
+| Fare Türü | Baud Hızı | Ana Bilgisayar Hızı (Hz) | Hedef Hız (Hz) | Notlar |
 | ---------- | --------- | -------------- | ---------------- | -------------------------------------------------- |
-| Bluetooth  | 9600      | ~100           | ~90              | Nahe serieller Grenze; stabil için gelegentliche Nutzung           |
-| Kabelgebveen      | 9600      | ~125           | ~90              | Serielle Bandbreite gesättigt; geringe Latenz          |
-| Gaming     | 9600      | ~1000          | ~100             | Hohe Abfrage hakkındaschreitet Bandbreite; Eingaben komprimiert   |
-| Bluetooth  | 115200    | ~125           | ~125             | 1:1 Host-zu-Ziel-Zuordnung                         |
-| Kabelgebveen      | 115200    | ~180           | ~150             | Verbesserter Durchsatz; sanftes Tracking               |
-| Gaming     | 115200    | ~1000          | ~450             | Beste beobachtete Leistung; serieller Durchsatz begrenzt |
+| Bluetooth | 9600 | ~100 | ~90 | Seri sınırına yakın; gündelik kullanım için sağlam |
+| kablolu | 9600 | ~125 | ~90 | Seri bant genişliği doymuş; küçük gecikme |
+| Oyun | 9600 | ~1000 | ~100 | Yüksek yoklama bant genişliğini aşıyor; giriş sıkıştırılmış |
+| Bluetooth | 115200 | ~125 | ~125 | 1:1 ana bilgisayardan hedefe eşleme |
+| kablolu | 115200 | ~180 | ~150 | Geliştirilmiş verim; sorunsuz izleme |
+| Oyun | 115200 | ~1000 | ~450 | Gözlemlenen en iyi performans; seri çıktı sınırı |
 
-🔴 **9600 Baud ist unzureichend için Hochabfrage-Spielemäuse**
-🟢 **115200 Baud ermöglicht reaktive Spieleingabe im relativen Event-Modus**
+🔴 **9600 baud, yüksek oylama gerektiren oyun fareleri için yetersizdir**
+🟢 **115200 baud, Göreceli Olay modunda duyarlı oyun sınıfı girişe olanak tanır**
+---
+
+### C. Göreli Fare HID Modu
+
+Göreli Fare HID Modu **pencere düzeyinde imleç işlemeyi ve mutlak koordinat eşlemeyi atlayarak doğrudan macOS HID fare girişini hedef sistemdeki HID olaylarına dönüştürür**.
+
+Bu mod:
+
+* **ham HID düzeyindeki fare olaylarında** çalışır
+* **Uygulama penceresi boyutuna bağlı değildir**
+* **Yerel fare yoklama özelliklerini** korur
+* Ara ara belleğe almayı ve çeviriyi en aza indirir
+* Tüm fare modları arasında **en düşük gecikmeyi** sunar
+
+Sonuç olarak, Göreceli Fare HID Modu, özellikle daha yüksek baud hızlarında **doğrudan USB fare bağlantısına en yakın** davranışı sağlar.
+
+#### Göreli Fare HID Modu Performansı
+
+| Fare Türü | Baud Hızı | Ana Bilgisayar Hızı (Hz) | Hedef Hız (Hz) | Notlar |
+| ---------- | --------- | -------------- | ---------------- | -------------------------------------------------- |
+| Bluetooth | 9600 | ~100 | ~90 | Seri sınırına yakın; temel kullanım için kabul edilebilir |
+| kablolu | 9600 | ~250 | ~180 | Seri bant genişliği kısmen doymuş |
+| Oyun | 9600 | >1000 | ~90 | Yüksek yoklama mevcut bant genişliğini aşıyor |
+| Bluetooth | 115200 | ~160 | ~155 | Neredeyse 1:1 ana bilgisayardan hedefe eşleme |
+| kablolu | 115200 | ~250 | ~150 | Kararlı ve duyarlı |
+| Oyun | 115200 | >1000 | ~500 | En iyi genel performans; seri çıktı sınırı |
+
+**Önemli Çıkarımlar (Göreceli HID Modu):**
+
+* Tüm fare modları arasında **en düşük gecikmeyi** sağlar
+* **9600 baud** hızında, yüksek oylama yapan fareler bant genişliğiyle sınırlı kalır
+* **115200 baud** hızında, oyun fareleri **saniyede yüzlerce hedef tarafı olayına** ulaşır
+* **Oyun ve hızlı kamera hareketi için kesinlikle önerilir**
 
 ---
 
-### C. Relativer Maus-HID-Modus
+### D. Windows'ta Doğrudan Fare (Referans)
 
-Der relative Maus-HID-Modus **wandelt macOS-HID-Mauseingaben direkt in HID-Ereignisse auf dem Zielsystem um**, umgeht fensterebene Cursorverarbeitung ve absolute Koordinatenzuordnung.
-
-Dieser Modus:
-
-* Arbeitet ile **rohen HID-Ebene-Mausereignissen**
-* **Hängt değil von der Anwendungsfenstergröße ab**
-* Erhält **native Mausabfrage-Charakteristika**
-* Minimiert Zwischenpufferung ve Übersetzung
-* Liefert die **niedrigste Latenz** aller Mausmodi
-
-Infolgedessen bietet der relative Maus-HID-Modus ein Verhalten, **das einer direkten USB-Mausverbindung am nächsten kommt**, insbesondere bei höheren Baudraten.
-
-#### Relative Maus-HID-Modus Leistung
-
-| Maus-Typ | Baudrate | Host-Rate (Hz) | Ziel-Rate (Hz) | Hinweise                                             |
-| ---------- | --------- | -------------- | ---------------- | ------------------------------------------------- |
-| Bluetooth  | 9600      | ~100           | ~90              | Nahe serieller Grenze; akzeptabel için grvelegende Nutzung       |
-| Kabelgebveen      | 9600      | ~250           | ~180             | Serielle Bandbreite teilweise gesättigt              |
-| Gaming     | 9600      | >1000          | ~90              | Hohe Abfrage hakkındaschreitet verfügbare Bandbreite          |
-| Bluetooth  | 115200    | ~160           | ~155             | Nahe 1:1 Host-zu-Ziel-Zuordnung                   |
-| Kabelgebveen      | 115200    | ~250           | ~150             | Stabil ve reaktiv                             |
-| Gaming     | 115200    | >1000          | ~500             | Beste Gesamtleistung; serieller Durchsatz begrenzt |
-
-**Kernerkenntnisse (Relativer HID-Modus):**
-
-* Liefert die **niedrigste Latenz** aller Mausmodi
-* Bei **9600 Baud** bleiben Hochabfrage-Mäuse bandbreitenbegrenzt
-* Bei **115200 Baud** erreichen Spielmäuse **Hveerte von Zielseiten-Ereignissen pro Sekvee**
-* **Stark empfohlen için Spiele ve schnelle Kamerabewegungen**
-
----
-
-### D. Direkte Maus unter Windows (Referenz)
-
-| Maus-Typ      | Ziel-Rate (Hz) |
+| Fare Türü | Hedef Hız (Hz) |
 | --------------- | ---------------- |
-| Bluetooth-Maus | 80–85            |
-| Kabelgebveene Maus     | 120–125          |
-| Spielmaus    | >1000            |
+| Bluetooth Fare | 80–85 |
+| Kablolu Fare | 120–125 |
+| Oyun Faresi | >1000 |
 
-Diese Referenz zeigt, dass **Mini-KVM (115200 Baud, HID-Relativmodus)** die native kabelgebveene Mausleistung annähern kann, obwohl es die inhärente KVM- ve serielle Transport-Overhead değil vollständig eliminieren kann.
-
----
-
-## 4. Empfohlene Spielkonfiguration
-
-### ✅ Empfohlen
-
-* **Mausmodus:** Relative Maus HID
-* **Baudrate:** 115200
-* **Maus-Typ:** Kabelgebveen veya Spielmaus
-* **Abfragerate:** ≤1000 Hz empfohlen
-
-### ❌ Vermeiden
-
-* Absoluter Mausmodus için Spiele
-* 9600 Baud ile Hochabfrage-Mäusen
-* Übermäßig hohe Abfrageraten ohne ausreichende serielle Bandbreite
+Bu referans, **Mini-KVM'nin (115200 baud, HID Göreceli mod)** yerel kablolu fare performansına yaklaşabildiğini, ancak doğal KVM ve seri aktarım yükünü tamamen ortadan kaldıramadığını gösterir.
 
 ---
 
-## 5. Wichtige Erwartungen
+## 4. Önerilen Oyun Yapılandırması
 
-Openterface Mini-KVM ist hauptsächlich konzipiert için:
+### ✅ Tavsiye edilir
 
-✔ BIOS / UEFI-Interaktion
-✔ Systemeinrichtung ve Debugging
-✔ Remote-Zugriff ve Verwaltung
+* **Fare Modu:** Göreli Fare HID'si
+* **Baud Hızı:** 115200
+* **Fare Türü:** Kablolu veya oyun faresi
+* **Yoklama Hızı:** ≤1000 Hz önerilir
 
-Während **Spielen möglich ist**, ist Mini-KVM **kein Ersatz için eine direkte USB-Spielmaus**, besonders değil için hochkompetitive veya latenzkritische Titel.
+### ❌ Kaçının
 
----
-
-## 6. Zusammenfassung
-
-* **Spielen ile Openterface Mini-KVM ist möglich**, wenn korrekt konfiguriert
-* Spielreaktionsfähigkeit wird von **Mausmodus, Abfragerate ve Baudrate** dominiert, değil von der Host-CPU-Leistung
-* **Absoluter Mausmodus** priorisiert Positionsgenauigkeit ve eignet sich değil için Spiele
-* **9600 Baud** schafft eine harte Eingabebandbreiten-Obergrenze
-* **Relativer Maus-HID-Modus bei 115200 Baud** liefert das beste Gleichgewicht aus:
-
-  * Eingabefrequenz
-  * Latenz
-  * Stabilität
-* Obwohl Mini-KVM değil vollständig ile einer nativen USB-Bağlantı ilehalten kann, kann es eine **spielbare ve reaktive Erfahrung** için Casual- ve einige kompetitive Spielszenarien bieten
+* Oyun oynamak için mutlak fare modu
+* Yüksek oylamalı farelerle 9600 baud
+* Yeterli seri bant genişliği olmadan aşırı yüksek yoklama oranları
 
 ---
 
-### Gesamturteil
+## 5. Önemli Beklentiler
 
-✅ **Technisch solide**
-✅ **Klare Positionierung için Spieler**
-✅ **Ehrlich hakkında Einschränkungen**
+Openterface Mini-KVM öncelikle aşağıdakiler için tasarlanmıştır:
+
+✔ BIOS / UEFI etkileşimi
+✔ Sistem kurulumu ve hata ayıklama
+✔ Uzaktan erişim ve yönetim
+
+**Oyun mümkün** olsa da Mini-KVM, özellikle rekabet gücü yüksek veya gecikme açısından kritik olan oyunlar için **doğrudan USB oyun faresinin yerini almaz**.
+
+---
+
+## 6. Son Özet
+
+* **Doğru yapılandırıldığında Openterface Mini-KVM ile oyun oynamak mümkündür**
+* Oyun yanıt verme hızına ana bilgisayar CPU performansı değil, **fare modu, yoklama hızı ve baud hızı** hakimdir
+* **Mutlak fare modu** konumsal doğruluğa öncelik verir ve oyun oynamak için uygun değildir
+* **9600 baud** sabit giriş bant genişliği tavanı oluşturur
+* **115200 baud hızında Göreli Fare HID modu** aşağıdakiler arasında en iyi dengeyi sunar:
+
+  * Giriş frekansı
+  * Gecikme
+  * Kararlılık
+* Mini-KVM, yerel bir USB bağlantısıyla tam olarak eşleşemese de sıradan ve bazı rekabetçi oyun senaryoları için **oynanabilir ve duyarlı bir deneyim** sağlayabilir
+
+---
+
+### Genel karar
+
+✅ **Teknik olarak sağlam**
+✅ **Oyuncular için net konumlandırma**
+✅ **Sınırlamalar konusunda dürüst**

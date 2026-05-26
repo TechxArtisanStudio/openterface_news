@@ -2,169 +2,169 @@
 locale: ru
 translationKey: "20260305-kvm-go-dp-vga-thermal-fix"
 slug: "20260305-kvm-go-dp-vga-thermal-fix"
-title: "KVM-GO DP/VGA Wärme-Korrektur – Engineering Log"
-description: "Eine detaillierte Betrachtung des DP- и VGA-Hitzeproblems bei KVM-GO: Messungen, PCB-Änderungen и mechanische Korrekturen, die die Überhitzung ohne Lüfter behoben haben."
+title: "Термическое исправление KVM-Go DP/VGA — инженерный журнал"
+description: "Подробное описание проблемы нагрева DP и VGA на KVM-Go, подробные измерения, изменения печатной платы и механические исправления, которые решили проблему перегрева без установки вентилятора."
 date: 2026-03-05
 channel: product
 product: kvm-go
-topic: ["software", "event"]
-category: "Продукт-Обновления"
-tags: ["KVM-GO", "Wärme", "Engineering Log", "Продуктdesign"]
+topic: ["software", "event", "analysis"]
+category: "Product Updates"
+tags: ["KVM-Go", "Thermal", "Engineering Log", "Product Design"]
 featured: false
 draft: false
 author: "TechxArtisan Studio"
 ---
+## Запись 1: Момент, когда мы поняли, что это не «нормально тепло»
+В середине разработки KVM-GO мы увидели температурное поведение, которое не соответствовало типичным ожиданиям «маленькое устройство нагревается». Он появился только в двух вариантах: DisplayPort (DP) и VGA. Вариант HDMI оправдал ожидания.
 
-## Eintrag 1: Der Moment, als wir merkten, dass es kein „normales Warm“ war
-Mitten in der KVM-GO-Entwicklung beobachteten wir ein Wärmeverhalten, das не den üblichen Erwartungen eines „kleinen Geräts, das warm wird“ entsprach. Es trat nur bei zwei Varianten auf: DisplayPort (DP) и VGA. Die HDMI-Variante blieb innerhalb der Erwartungen.
-
-Zunächst war das Symptom einfach: Die Gehäusetemperatur wurde früher als erwartet unangenehm. Was uns beunruhigte, war не der Komfort, sondern die Möglichkeit, dass die Innentemperaturen weit о dem liegen, was Verbraucher-Komponenten langfristig tolerieren sollen.
+Сначала симптом был простой. Температура в корпусе стала некомфортной раньше, чем ожидалось. Нас беспокоил не комфорт. Вполне возможно, что внутренние температуры были намного выше тех, которые должны выдерживать компоненты потребительского класса с течением времени.
 
 
 ---
 
-## Eintrag 2: Warum nur DP и VGA
-Nach der Verfolgung des Videopfs-Designs о die Versionen zeichnete sich ein Muster ab.
+## Запись 2: Почему только DP и VGA
+После отслеживания конструкции видеотракта в разных версиях выявилась закономерность.
 
-- HDMI: eine einzelne Konvertierungsstufe (HDMI zu USB-Video) с MS2130S
-- DP: eine Zwei-Chip-Kette (IT6563 plus MS2130S), um DP in USB-Video zu wandeln
-- VGA: eine Zwei-Chip-Kette (MS9288C plus MS2109S), um VGA in USB-Video zu wandeln
+- HDMI: один этап преобразования (HDMI в USB-видео) с использованием MS2130S.
+- DP: двухчиповая цепочка (IT6563 плюс MS2130S) для преобразования DP в USB-видео.
+- VGA: двухчиповая цепочка (MS9288C плюс MS2109S) для преобразования VGA в USB-видео.
 
-Zwei Chips bedeuten не nur mehr Teile. Sie bringen mehr Leistungsaufnahme и lokale Hotspots. Bei einem Продукт in KVM-GO-Größe haben diese Hotspots kaum Platz, sich zu verteilen.
+Две микросхемы не просто добавляют детали. Они добавляют рассеиваемую мощность и локализуют горячие точки. В продукте такого размера, как KVM-GO, этим горячим точкам очень мало места для распространения.
 
-Dann stießen wir auf die zweite Einschränkung: die Oberfläche. KVM-GO drückt die Größe ans Liс, was bedeutet, dass PCB-Fläche и effektive Wärmeabgabe-Fläche beide winzig sind.
+Затем мы столкнулись со вторым ограничением — площадью поверхности. KVM-GO доводит размер до предела, а это означает, что площадь печатной платы и эффективная площадь рассеивания тепла очень малы.
 
-Schließlich wurde eine Layout-Einschränkung zu einem echten Engineering-Kompromiss. Beide heißen Chips auf dieselbe Seite zu legen klingt thermisch ideal, aber Pinbelegung и High-Speed-Routing-Anforderungen machten diesen Ansatz schwierig. Einen Chip mehr „innen“ zu platzieren vereinfachte das Routing и half der Signalintegrität, fängt aber die Wärme im Inneren des Gehäuses ein.
+Наконец, появилось ограничение по компоновке, которое превратилось в настоящий инженерный компромисс. Размещение обоих горячих чипов на одной стороне кажется идеальным с точки зрения термической точки зрения, но требования к распиновке и высокоскоростной разводке усложнили этот подход. Размещение еще одного чипа «внутри» упростило маршрутизацию и помогло обеспечить целостность сигнала, но при этом удерживало тепло внутри корпуса.
 
 ![Original-PCB-layout](https://assets2.openterface.com/images/Original-PCB-layout.webp)
 
-*Ursprüngliches PCB-Layout*
+*Оригинальная разводка печатной платы*
 
 ![original-Wiring](https://assets2.openterface.com/images/original-Wiring.webp)
 
-*Ursprüngliche High-Speed-Verteilung*
+*Оригинальная высокоскоростная маршрутизация*
 
 ![KVM-Go-tructure](https://assets2.openterface.com/images/KVM-Go-tructure.webp)
 
 
-*KVM-GO internes Stapellayout*
+*Схема внутреннего стека KVM-GO*
 
 ---
 
-## Eintrag 3: Messen, was zählt – Innen- vs. Außentemperatur
-Wir beschlossen, с dem Raten aufzuhören и beide Seiten des Problems zu messen. Wir bauten Temperaturmessstellen для externe и interne Überwachung и führten einen Langzeit-Lasttest durch.
+## Запись 3: Измерение того, что важно: внутренняя и внешняя температура
+Мы решили перестать гадать и оценить обе стороны проблемы. Мы построили точки измерения температуры для внешнего и внутреннего мониторинга, а затем провели длительное тестирование под нагрузкой.
 
-Das Ergebnis war alarmierend, besonders bei VGA.
+Результат был тревожным, особенно на VGA.
 
-Nach etwa einer Stиe Dauerbetrieb:
-- Außenfläche erreichte etwa 65 °C
-- Innentemperatur erreichte Spitzen um 115 °C
+Примерно через час непрерывной работы:
+- внешняя поверхность достигла температуры около 65°C
+- внутренняя температура достигла максимума около 115°C
 
-Viele Verbraucher-Komponenten sind для maximale Betriebstemperaturen um 85 °C spezifiziert, je nach Teil и Qualitätsstufe. Dreistellige Innentemperaturen bedeuteten, dass wir не nur с „heiß anfassen“ zu tun hatten, sondern с etwas, das die Продуктlebensdauer verkürzen или unvorhersehbares Verhalten in verschiedenen Umgebungen verursachen könnte. 
+Многие потребительские компоненты рассчитаны на максимальную рабочую температуру около 85°C, в зависимости от конкретной детали и марки. Трехзначные значения внутренней температуры означали, что мы имеем дело не просто с «горячим на ощупь». Мы искали что-то, что могло бы сократить срок службы продукта или вызвать непредсказуемое поведение в различных средах. 
 
 ![Original-emperature-test](https://assets2.openterface.com/images/Original-emperature-test.webp)
 
-*Basis-Temperaturtest (innen vs. außen)*
+*Испытание базовой температуры (внутреннее и внешнее)*
 
 ---
 
-## Eintrag 4: Ein schneller Sanity-Check – erzwungene Luftströmung funktioniert (aber ist keine Продуктlösung)
-Bevor wir etwas neu entwarfen, wollten wir eine schnelle Validierung: Wenn wir Wärme schneller abführen, sinken die Temperaturen spürbar?
+## Запись 4: Быстрая проверка работоспособности, принудительный поток воздуха работает (но это не решение продукта)
+Прежде чем что-либо перепроектировать, нам нужна была быстрая проверка. Если мы сможем отводить тепло быстрее, снизится ли температура существенно?
 
-Wir probierten ein einfaches Setup с DIY-Lüfter. Es tat, was die Physik sagt: Die Temperaturen sanken deutlich, grob 15 °C in unserem Test. Das bestätigte, dass es ein thermischer Flaschenhals war, kein Messartefakt или Программное обеспечениеverhalten.
+Мы попробовали простую установку принудительной вентиляции с использованием вентилятора, сделанного своими руками. Он сделал то, что говорит физика. Температура заметно упала, в нашем тесте примерно на 15°C. Это подтвердило, что проблема заключалась в тепловом месте, а не в артефактах измерений или поведении программного обеспечения.
 
-Es bestätigte auch etwas anderes: Ein Lüfter ist не с dem Продукт vereinbar, das wir bauen. KVM-GO muss kompakt, leise и autark bleiben. Erzwungene Luftströmung wurde also ein Diagnosewerkzeug, не die finale Antwort.
+Это также подтвердило кое-что еще. Вентилятор несовместим с продуктом, который мы создаем. KVM-GO должен оставаться компактным, бесшумным и автономным. Таким образом, принудительный поток воздуха стал диагностическим инструментом, а не окончательным ответом.
 
 ![Fan-1png](https://assets2.openterface.com/images/Fan-1png.webp)
 
-*DIY-Lüfter-Kühlungsaufbau*
+*Установка вентиляторного охлаждения своими руками*
 
 ![Fan-2](https://assets2.openterface.com/images/Fan-2.webp)
 
-*DIY-Lüfterkühlung, alternative Ansicht*
+*Вентиляторное охлаждение своими руками, альтернативный вид*
 
 ![Temperature-test-fan](https://assets2.openterface.com/images/Temperature-test-fan.webp)
 
-*Temperaturtest с Lüfterkühlung*
+*Температурный тест с вентиляторным охлаждением*
 
 ---
 
-## Eintrag 5: Fix Schritt 1 – Wärmequellen nach außen (ohne Signalintegrität zu brechen)
-Der erste echte Fix war auf dem PCB. Wir trieben die Konstruktion so weit wie möglich, beide wärmeerzeugenden Chips näher an die Außenseite zu platzieren.
+## Запись 5: Исправьте шаг 1, переместите источники тепла наружу (не нарушая целостность сигнала)
 
-Das war не „einfach Teile verschieben“. Bei DP и VGA sind die Routing-Einschränkungen eng. High-Speed-Signale sauber zu halten, besonders die differentiellen Paare, ist не verhandelbar. Beide Chips nach außen zu setzen machte das Routing schwieriger, и wir mussten sorgfältig arbeiten, um die Signalintegrität не zu verschlechtern.
+Первое настоящее исправление было на печатной плате. Мы максимально продвинули дизайн, разместив оба тепловыделяющих чипа ближе к внешней стороне.
 
-Wir verglichen altes vs. neues Layout и Routing и bauten Оборудование zur Verifikation. 
+Это не было «просто переместить части». При использовании DP и VGA ограничения маршрутизации жесткие. Поддержание чистоты высокоскоростных сигналов, особенно дифференциальных пар, не подлежит обсуждению. Размещение обоих чипов наружу усложнило маршрутизацию, и нам пришлось работать осторожно, чтобы не ухудшить целостность сигнала.
+
+Мы сравнили старую и новую компоновку и маршрутизацию, а затем создали оборудование для проверки поведения. 
 
 ![New-PCB-ayout](https://assets2.openterface.com/images/New-PCB-ayout.webp)
 
-*Überarbeitetes PCB-Layout (Chips nach außen verlagert)*
+*Изменена компоновка печатной платы (микросхемы выдвинуты наружу)*
 
 ![Wiring-layout-modification](https://assets2.openterface.com/images/Wiring-layout-modification.webp)
 
-*Überarbeitete Verteilung (Durchlauf 1)*
+*Пересмотренная маршрутизация (проход 1)*
 
 ![Wiring-layout-modification-2](https://assets2.openterface.com/images/Wiring-layout-modification-2.webp)
 
-*Überarbeitete Verteilung (Schlüsselbereich)*
+*Пересмотренная маршрутизация (ключевая область)*
 
 ![PCB-ayout-modifications](https://assets2.openterface.com/images/PCB-ayout-modifications.webp)
 
-*Überarbeitetes PCB, zur Validierung aufgebaut*
+*Пересмотренная плата, созданная для проверки*
 
-### Was sich nach Schritt 1 änderte
-Die Wärme verbesserte sich, aber wir entdeckten ein Problem zweiter Ordnung: Die Temperatur оtrug sich immer noch не effektiv ins Gehäuse. Einige Bereiche blieben wärmer als sie sollten, и die Thermografie legte nahe, dass das Gehäuse не wie ein ordentlicher Wärmeverteiler wirkte.
+### Что изменилось после шага 1
+Термические характеристики улучшились, но мы обнаружили проблему второго порядка. Температура по-прежнему не передавалась эффективно в корпус. Некоторые области оставались более горячими, чем следовало бы, и тепловизионное исследование показало, что корпус не действует как надлежащий рассеиватель тепла.
 
-Schritt 1 reduzierte die Spitzenwärmebelastung, löste aber den Wärmepfad не vollständig.  
+Шаг 1 снизил пиковое тепловое напряжение, но не полностью решил проблему теплового пути.  
 
 ![Modified-fever-symptoms](https://assets2.openterface.com/images/Modified-fever-symptoms.webp)
 
-*Temperatur nach Layoutänderung (Schritt 1)*
+*Температура после изменения планировки (шаг 1)*
 
 ![Casing-temperature-test](https://assets2.openterface.com/images/Casing-temperature-test.webp)
 
-*Gehäuse-Wärmeоtragungsprüfung (nach Schritt 1)*
+*Проверка теплопередачи корпуса (после шага 1)*
 
 ---
 
-## Eintrag 6: Fix Schritt 2 – einen echten Wärmepfad bauen (CNC-Aluminiumblöcke plus thermische Schnittstelle)
-An diesem Punkt behandelten wir das Gehäuse als Teil des thermischen Systems, не nur als Abdeckung.
+## Запись 6. Исправьте шаг 2, создайте настоящий тепловой путь (алюминиевые блоки с ЧПУ и термоинтерфейс)
+На этом этапе мы рассматривали корпус как часть тепловой системы, а не просто крышку.
 
-Wir fügten hinzu:
-- CNC-Aluminiumblöcke am oberen и unteren PCB-Stapel
-- thermisches Schnittstellenmaterial (Wärmeleitpaste или Pad), um Wärme in das Aluminium и dann in das Aluminiumgehäuse zu koppeln
+Мы добавили:
+- Алюминиевые блоки с ЧПУ на верхнем и нижнем стеке печатных плат
+- материал термоинтерфейса (термопаста или прокладка) для передачи тепла в алюминий, а затем в алюминиевый корпус.
 
-Das Ziel war einfach: die effektive Wärmeverteilerfläche vergrößern и einen stabilen, niederohmigen Pfad schaffen, daс Wärme zum Gehäuse gelangt, wo sie sicher abgeführt werden kann.
+Цель была проста. Увеличьте эффективную площадь распространения тепла и создайте стабильный путь с низким сопротивлением, по которому тепло будет достигать корпуса, где оно сможет безопасно рассеиваться.
 
 ![cnc](https://assets2.openterface.com/images/cnc.webp)
 
-*CNC-Wärmeblock (Schritt 2)*
+*Термоблок ЧПУ (шаг 2)*
 
 ![cnc2](https://assets2.openterface.com/images/cnc2.webp)
 
-*CNC-Block eingebaut, Detail*
+*Детали установленного блока ЧПУ*
 
-### Endergebnis nach Schritt 2
-Nach Hinzufügen des Leitpfads:
-- Außentemperatur stabilisierte sich bei etwa 65 °C
-- Innentemperatur sank auf etwa 55 °C
+### Окончательный результат после шага 2
+После добавления пути проводимости:
+- внешняя температура стабилизировалась около 65°C
+- внутренняя температура упала примерно до 55°C
 
-Die Thermografie zeigte, was wir sehen wollten: Die Wärmeverteilung wurde gleichmäßiger, и das Gehäuse beteiligte sich endlich an der Ableitung, anstatt Wärme intern anzustauen. 
+Тепловидение показало то, что мы хотели увидеть. Распределение тепла стало более равномерным, и корпус, наконец, начал рассеивать тепло, а не накапливать его внутри. 
 
 ![Temperature-measurement-after-adding-CNC](https://assets2.openterface.com/images/Temperature-measurement-after-adding-CNC.webp)
 
-*Temperatur nach CNC-Leitung (Schritt 2)*
+*Температура после проведения ЧПУ (шаг 2)*
 
 ![CNC-machining](https://assets2.openterface.com/images/CNC-machining.webp)
 
-*Gehäusetemperatur nach CNC-Leitung*
+*Температура корпуса после проведения ЧПУ*
 
 ---
 
-## Abschlussbemerkung
-Die Erkenntnis aus diesem Problem war не einfach „DP и VGA werden wärmer“. Mehrstufige Konvertierung kostet mehr Leistung, и das ist erwartbar. Die eigentliche Lektion war: In einem so kleinen Gerät spielt es eine Rolle, *wohin* die Wärme geht, genauso wie *wie viel* Wärme erzeugt wird.
+## Заключительное примечание
+Вывод из этой проблемы заключался не просто в том, что «DP и VGA нагреваются сильнее». Многоступенчатое преобразование требует больше энергии, и это ожидаемо. Настоящий урок заключался в том, что в таком маленьком устройстве то, куда уходит тепло, имеет такое же значение, как и то, сколько тепла выделяется.
 
-Schritt 1 (Layout) reduzierte die Schwere der internen Hotspots.  
-Schritt 2 (mechanischer Leitpfad) machte die Lösung dauerhaft и produktgeeignet.
+Шаг 1 (макет) снизил серьезность внутренних горячих точек.  
+Шаг 2 (механический путь проводимости) сделал решение долговечным и пригодным для продукта.
 
-Kein Lüfter, keine spezielle Benutzerbehandlung, nur ein Design, das sich vorhersehbar verhält.
+Никакого вентилятора, никаких особых действий со стороны пользователя, просто конструкция, которая ведет себя предсказуемо.

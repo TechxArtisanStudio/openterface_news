@@ -2,89 +2,88 @@
 locale: ru
 translationKey: "20260410-production-progress-3"
 slug: "20260410-production-progress-3"
-title: "KVM-GO Продуктionsupdate #3 – Fertigung, CE/RoHS/UKCA, OSHWA и Versandzeitplan"
-description: "Drittes KVM-GO-Продуктionsupdate: neue Chargen an Verbinderplatinen и V1.0-Boards in der Vorbereitung, CE-, RoHS- и UKCA-Zertifizierungen abgeschlossen, OSHWA-Open-Source-Оборудование-Zertifikat CN000022, HDMI-zuerst-Fertigungsfolge и angepasste Schätzungen inklusive Mouser-Fulfillment для die erste HDMI-Welle."
+title: "Обновление о ходе производства KVM-GO № 3 — производство, CE/RoHS/UKCA, OSHWA и график доставки"
+description: "Третье производственное обновление KVM-GO: партии разъемов и платы V1.0 находятся в стадии подготовки к производству, завершена сертификация CE RoHS и UKCA, открытая сертификация оборудования OSHWA CN000022, последовательность сборки сначала HDMI, а также пересмотренные оценки, включая выполнение Mouser для HDMI первой волны."
 date: 2026-04-10
 channel: product
 product: kvm-go
-topic: ["production", "community"]
-category: "Продукт-Обновления"
-tags: ["KVM-GO", "Продукт-Обновления", "Продуктion", "Fertigung", "Konforсät", "CE", "RoHS", "UKCA", "OSHWA", "Open Оборудование", "Unterstützer"]
+topic: ["shipping", "production", "software", "campaign", "community"]
+category: "Product Updates"
+tags: ["KVM-GO", "Product Updates", "Production", "Manufacturing", "Compliance", "CE", "RoHS", "UKCA", "OSHWA", "Open Hardware", "Backers"]
 featured: false
 draft: false
 author: "Openterface Team | TechxArtisan"
 ---
+Привет всем,
 
-Hallo zusammen,
+Мы хотели бы поделиться новым обновлением KVM-GO. За прошедший период работа по подготовке производства, сертификации и открытию аппаратного обеспечения продолжалась стабильно. Приятно видеть, как все больше деталей объединяется по мере того, как KVM-GO приближается к следующему этапу.
 
-wir möchten ein neues Update zu KVM-GO teilen. In den letzten Wochen ging es stetig voran bei der Продуктionsvorbereitung, Zertifizierung и unseren Open-Оборудование-Aktivitäten. Es ist spannend zu sehen, wie mehr Teile zusammenfinden, während KVM-GO der nächsten Phase näherkommt.
+![KVM-GO VGA, DisplayPort, and HDMI variants — exploded assembly](https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp)
 
-![KVM-GO VGA-, DisplayPort- и HDMI-Varianten — Explosionszeichnung](https://assets2.openterface.com/images/kvm-go/kvm-go-vga-dp-hdmi-exploded-assembly.webp)
+*Недавние версии плат KVM-GO и сравнение аппаратного обеспечения.*
 
-*Aktuelle KVM-GO-Platineniterationen и Оборудованиеvergleich.*
+## Производство идет полным ходом
 
-## Продуктion in vollem Gang
+Производство КВМ-ГО продолжает неуклонно развиваться. Мы получили и разместили новые партии плат разъемов, поэтапно идет подготовка оборудования. На фотографиях последней партии видно, что детали уже готовятся в больших количествах, что означает еще один уверенный шаг на пути к готовности производства.
 
-Die KVM-GO-Продуктion kommt weiterhin zuverlässig voran. Wir haben neue Chargen Verbinderplatinen erhalten и sortiert, и die Оборудованиеvorbereitung schreitet Schritt для Schritt fort. Auf den neuesten Chargenfotos sieht man, dass Teile bereits in nennenswerter Menge vorbereitet werden – ein weiterer fester Schritt Richtung Продуктionsreife.
+![Recent KVM-GO V1.0 board units](https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.webp)
 
-![Aktuelle KVM-GO-V1.0-Platineneinheiten](https://assets2.openterface.com/images/kvm-go/kvm-go-v1-0-boards-four-units.webp)
+![USB-C connector boards batch in production tray](https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp)
 
-![USB-C-Verbinderplatinen-Charge im Продуктionstray](https://assets2.openterface.com/images/kvm-go/kvm-go-usb-c-connector-boards-batch-tray.webp)
+*Новые партии плат разъемов KVM-GO подготовлены к следующему этапу производства.*
 
-*Neue Chargen KVM-GO-Verbinderplatinen для die nächste Продуктionsphase.*
+Эти партии представляют собой нечто большее, чем просто отдельные прототипы. Они показывают, что KVM-GO переходит в более организованную фазу производства, где детали оборудования, согласованность партий и готовность сборки имеют большее значение, чем когда-либо.
 
-Diese Chargen sind mehr als einzelne Prototypen. Sie zeigen, dass KVM-GO weiter in eine organisiertere Продуктionsphase оgeht, in der Оборудованиеdetails, Chargenkonsistenz и Montagebereitschaft wichtiger sind denn je.
+Нам очень интересно видеть, как эти советы собираются вместе. Каждый этап подготовки, тестирования и проверки помогает сделать конечный продукт более стабильным и надежным. Несмотря на то, что впереди еще много работы, общее направление ясно, и прогресс продолжает неуклонно двигаться вперед.
 
-Es ist aufregend zu sehen, wie diese Boards zusammenkommen. Jede Rиe Vorbereitung, Tests и Verifikation trägt dazu bei, das Endprodukt stabiler и zuverlässiger zu machen. Es liegt noch Arbeit vor, aber die Richtung ist klar и der Fortschritt bleibt stetig.
+## Сертифицировано и готово
 
-## Zertifiziert и bereit
+Мы также рады сообщить, что KVM-GO получил сертификаты **CE, RoHS и UKCA**.
 
-Wir freuen uns сzuteilen, dass KVM-GO nun die Zertifizierungen **CE, RoHS и UKCA** erhalten hat.
+Эти сертификаты являются важной вехой для нас. Они подтверждают, что KVM-GO завершил необходимый процесс соответствия и лучше подготовлен к более широкому распространению. Достижение этого этапа требует времени и усилий, но это значимый шаг на пути к обеспечению KVM-GO желаемого качества, безопасности и уверенности.
 
-Diese Zertifikate sind ein wichtiger Meilenstein. Sie bestätigen, dass KVM-GO den erforderlichen Konforсätsprozess durchlaufen hat и besser для breitere Auslieferung и Vertrieb vorbereitet ist. Diese Stufe zu erreichen kostet Zeit и Mühe, ist aber ein sinnvoller Schritt zu KVM-GO с der Qualität, Sicherheit и dem Vertrauen, die wir anstreben.
+![CE, RoHS, UKCA compliance certificates and EMC test documentation](https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp)
 
-![CE-, RoHS- и UKCA-Konforсätszertifikate и EMC-Prüfdokumentation](https://assets2.openterface.com/images/kvm-go/kvm-go-compliance-certificates-emc-test-report.webp)
+*KVM-GO получил сертификаты CE, RoHS и UKCA.*
 
-*KVM-GO hat CE-, RoHS- и UKCA-Zertifizierungen erhalten.*
+Для нас сертификация — это не просто флажок, который нужно проверить. Это часть уверенности в том, что KVM-GO готов к более широкому использованию, с тем уровнем доверия и зрелости продукта, которого ожидает от нас наше сообщество.
 
-Für uns ist Zertifizierung не nur ein Häkchen. Sie gehört dazu, sicherzustellen, dass KVM-GO breiter eingesetzt werden kann – с dem Vertrauen и der Продуктreife, die unsere Community von uns erwartet.
+## Сертификация OSHWA
 
-## OSHWA-Zertifizierung
+Помимо сертификатов соответствия, KVM-GO также был официально сертифицирован **OSHWA** как оборудование с открытым исходным кодом с [**UID: CN000022**](https://certification.oshwa.org/cn000022.html).
 
-Neben den Konforсätszertifikaten wurde KVM-GO offiziell von **OSHWA** als Open-Source-Оборудование zertifiziert, с [**UID: CN000022**](https://certification.oshwa.org/cn000022.html).
+![OSHWA open source hardware certification CN000022](https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp)
 
-![OSHWA Open-Source-Оборудование-Zertifikat CN000022](https://assets2.openterface.com/images/kvm-go/kvm-go-oshwa-certification-cn000022.webp)
+*KVM-GO — официально сертифицированное оборудование с открытым исходным кодом OSHWA, UID: CN000022.*
 
-*KVM-GO ist offiziell von OSHWA als Open-Source-Оборудование zertifiziert, UID: CN000022.*
+Эта веха очень много значит для нас. Мы всегда хотели, чтобы KVM-GO был чем-то большим, чем просто практический инструмент. Мы хотим, чтобы люди могли это изучать, учиться, развивать и делиться. Сертификация OSHWA отражает эту приверженность и укрепляет направление открытого аппаратного обеспечения, в которое мы верим.
 
-Dieser Meilenstein bedeutet uns viel. Wir wollten KVM-GO schon immer als mehr als praktisches Werkzeug: etwas, das man inspizieren, daraus lernen, darauf aufbauen и teilen kann. Die OSHWA-Zertifizierung spiegelt dieses Engagement wider и stärkt die Open-Оборудование-Richtung, an die wir glauben.
+![KVM-GO HDMI, DP, VGA, and KM interface board lineup](https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp)
 
-![KVM-GO HDMI-, DP-, VGA- и KM-Schnittstellenplatinen im Überblick](https://assets2.openterface.com/images/kvm-go/kvm-go-hdmi-dp-vga-km-pcb-lineup.webp)
+Для нас открытое оборудование — это не просто ярлык. Это часть того, как мы строим. Мы считаем, что пользователи должны иметь возможность глубже понять продукт, изучить, как он работает, и принять участие в его улучшении и расширении.
 
-Open Оборудование ist для uns не nur ein Label. Es ist Teil unserer Art zu bauen. Nutzerinnen и Nutzer sollten das Продукт tiefer verstehen, erkиen, wie es funktioniert, и an Verbesserung и Erweiterung сwirken können.
+## Обновление временной шкалы для спонсоров
 
-## Zeitplan-Update для Unterstützer
+Мы хотим поделиться честной картиной того, **где находится каждый вариант** и **чего ожидать при доставке**.
 
-Wir möchten ein ehrliches Bild davon geben, **wo jede Variante steht** и **was beim Versand zu erwarten ist**.
+**Последовательность сборки.** Наш завод начал производство, начиная с **версии HDMI**. Варианты **VGA и DisplayPort** выйдут во **второй серийной серии**. Эта поэтапность отражает **мощность линии печатных плат и график**. Все версии имеют одинаковый приоритет, но их последовательное выполнение гарантирует, что каждая партия получит то внимание, которого она заслуживает.
 
-**Fertigungsfolge.** Unsere Fabrik hat с der Продуктion begonnen, zuerst с der **HDMI-Version**. Die **VGA- и DisplayPort-**Varianten folgen in einem **zweiten Продуктionslauf**. Diese Phasierung spiegelt **Kapazität и Planung der PCB-Linie** wider. Alle Versionen sind gleich priorisiert, aber die sequenzielle Abwicklung stellt sicher, dass jede Charge die nötige Qualitätsaufmerksamkeit erhält.
+**Состояние графика.** По сравнению с нашей предыдущей оценкой, мы рассчитываем на **приблизительно две недели дополнительного времени**, главным образом из-за **ограничений мощности партнеров по печатным платам**. Мы **активно работаем с ними**, чтобы зарезервировать ранние слоты и продвигать каждую партию как можно скорее.
 
-**Zeitplan.** Im Vergleich zu unserer früheren Schätzung rechnen wir с **etwa zwei zusätzlichen Wochen**, vor allem wegen **Kapazitätsgrenzen beim PCB-Partner**. Wir **arbeiten aktiv** с ihnen zusammen, um frühere Slots zu sichern и jede Charge so früh wie möglich voranzubringen.
+**Текущие оценки** (мы немедленно обновим, если что-то изменится):
 
-**Aktuelle Schätzungen** (wir aktualisieren sofort, falls sich etwas ändert):
+- **HDMI:** Ожидается **готовность к отправке с нашей стороны примерно через 3 недели**
+- **VGA и DP:** Ожидается **готовность ~ через месяц после выхода HDMI**
+- **Глобальная доставка:** Как только устройства достигнут **сети реализации Mouser**, по нашим оценкам, **середина июня станет первой волной поставки HDMI**, а VGA/DP последует последовательно.
 
-- **HDMI:** voraussichtlich **in ~3 Wochen versandbereit von unserer Seite**
-- **VGA и DP:** voraussichtlich **~1 Monat nach HDMI** bereit
-- **Weltweite Lieferung:** Sobald die Geräte im **Erfüllungsnetzwerk von Mouser** sind, schätzen wir **Mitte Juni для die erste HDMI-Welle**, VGA/DP folgen in der Reihenfolge
+Мы знаем, что ожидание утомительно, особенно когда сроки меняются. Мы ценим ваше терпение и стремимся предоставлять **прозрачные обновления**: что сделано, что дальше и что изменилось. Никаких догадок, никаких сюрпризов. 
 
-Wir wissen, dass Warten frustrierend ist, besonders wenn sich Zeitpläne verschieben. Vielen Dank для eure Geduld; wir verpflichten uns zu **transparenten Обновления**: was erledigt ist, was als Nächstes kommt и was sich geändert hat. Kein Rätselraten, keine Überraschungen.
+Вопросы? Свяжитесь с нами по адресу info@openterface.com или присоединитесь к обсуждению на [Discord](https://openterface.com/about/community/), где наше сообщество активно обсуждает разработку Openterface.
 
-Вопросы? Schreibt uns an info@openterface.com или diskutiert auf [Discord](https://openterface.com/about/community/), wo die Community die Openterface-Entwicklung aktiv begleitet.
+## Движение вперед
 
-## Weiter geht’s
+Производство, сертификация и регистрация OSHWA движутся в правильном направлении. Приведенный выше раздел является честным спутником этого прогресса: реальные вехи с реалистичными датами.
 
-Продуктion, Zertifizierungen и OSHWA-Registrierung bewegen sich in die richtige Richtung. Der Abschnitt oben ist die ehrliche Ergänzung zu diesem Fortschritt: echte Meilensteine с realistischen Terminen.
+Еще раз спасибо за вашу поддержку и терпение. По мере продвижения вперед мы будем продолжать делиться видимым прогрессом и четкими сроками.
 
-Nochmals vielen Dank для eure Unterstützung и Geduld. Wir werden weiter sichtbaren Fortschritt и klare Zeitpläne teilen.
-
-Openterface Team, TechxArtisan
+Команда Openinterface, TechxArtisan
