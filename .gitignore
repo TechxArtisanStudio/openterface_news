@@ -6,3 +6,8 @@ test-results/
 .env.*
 !.env.example
 .DS_Store
+
+# internal dev (do not commit)
+.cursor/
+*.log
+translate-missing*
