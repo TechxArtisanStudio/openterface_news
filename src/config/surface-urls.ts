@@ -3,7 +3,7 @@ import type { SiteLocale } from './locale';
 const PROD_DOCS = 'https://docs.openterface.com';
 
 const PROD_MARKETING: Record<SiteLocale, string> = {
-  en: 'https://en.openterface.com',
+  en: 'https://openterface.com',
   de: 'https://de.openterface.com',
   es: 'https://es.openterface.com',
   fr: 'https://fr.openterface.com',
