@@ -6,6 +6,7 @@ title: "تحديث KVM-GO: تحكم في هدفك من هاتفك باستخدا
 description: "استخدم KeyCmd 0.19 مع KVM-GO عبر USB أو Bluetooth: لوحات المفاتيح KM Basic وPro، ووضع الإنشاء، والإعدادات المسبقة للوحة الألعاب، وShortcut Hub، وأدوات التحكم في العرض التقديمي - لا يلزم وجود دونجل فيديو لإدخال HID."
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"

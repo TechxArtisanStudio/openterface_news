@@ -6,6 +6,7 @@ title: "Openterface Mini-KVM macOS マウス速度とゲームパフォーマン
 description: "Openterface Mini-KVM の macOS でのゲーム向けマウスパフォーマンス総合テスト。絶対、相対イベント、相対 HID マウスモードを、最適なゲーム設定のために 9600 と 115200 ボーレートで比較。"
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

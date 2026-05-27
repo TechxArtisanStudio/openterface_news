@@ -6,6 +6,7 @@ title: "نصيحة للنسخ/اللصق في Ubuntu (نظام التشغيل Ma
 description: "أصلح اختصارات اللصق عند التحكم في Ubuntu من macOS باستخدام Openterface. استخدم وضع Windows للصق موثوق بنمط Ctrl، أو تحرير → لصق كحل بديل في وضع Mac."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

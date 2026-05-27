@@ -6,6 +6,7 @@ title: "Viteza mouse-ului și performanța în jocuri a Openterface Mini-KVM pe 
 description: "Testare cuprinzătoare a performanței mouse-ului orientată spre gaming pentru Openterface Mini-KVM pe macOS. Compară modurile Absolute, Relative Event și Relative HID, cu rate de baud de 9600 vs 115200, pentru configurarea optimă în jocuri."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

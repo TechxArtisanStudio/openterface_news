@@ -6,6 +6,7 @@ title: "Ubuntu Kopieren/Einfügen-Tipp (macOS → Ubuntu)"
 description: "Beheben Sie Einfügen-Shortcuts beim Steuern von Ubuntu von macOS mit Openterface. Verwenden Sie den Windows-Modus für zuverlässiges Ctrl-Style-Einfügen oder Bearbeiten → Einfügen als Alternative im Mac-Modus."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

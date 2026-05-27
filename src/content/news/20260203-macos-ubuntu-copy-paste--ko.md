@@ -6,6 +6,7 @@ title: "Ubuntu 복사/붙여넣기 팁 (macOS → Ubuntu)"
 description: "Openterface로 macOS에서 Ubuntu를 제어할 때 붙여넣기 단축키 수정 방법. Ctrl 스타일 붙여넣기를 위해 Windows 모드를 사용하거나, Mac 모드에서는 편집 → 붙여넣기를 대안으로 사용하세요."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

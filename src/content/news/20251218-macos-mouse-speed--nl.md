@@ -6,6 +6,7 @@ title: "Openterface Mini-KVM-muissnelheid en gamingprestaties op macOS"
 description: "Uitgebreide gaming-gerichte muisprestatietests van Openterface Mini-KVM op macOS. Vergelijk Absolute, Relative Event en Relative HID-muismodi met baudrates van 9600 versus 115200 voor een optimale gamingconfiguratie."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["shipping", "production", "software", "analysis"]
 category: "Product Updates"
 featured: false

@@ -6,6 +6,7 @@ title: "KVM-GO 업데이트: KeyCmd 0.19로 휴대폰에서 대상 기기 제어
 description: "USB 또는 블루투스를 통해 KVM-GO와 KeyCmd 0.19를 함께 사용해 보세요. KM Basic 및 Pro 키보드, 작성(Compose) 모드, 게임패드 프리셋, 단축키 허브(Shortcut Hub), 프레젠테이션 제어 기능을 지원하며 HID 입력을 위한 별도의 비디오 동글이 필요하지 않습니다."
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["software", "campaign"]
 category: "제품 업데이트"

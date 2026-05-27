@@ -6,6 +6,7 @@ title: "Vitesse de souris et performances de jeu Openterface Mini-KVM sur macOS"
 description: "Tests de performance de souris axés sur le jeu complets d'Openterface Mini-KVM sur macOS. Comparez les modes de souris absolu, événement relatif et HID relatif avec des débits de 9600 vs 115200 pour une configuration de jeu optimale."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

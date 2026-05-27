@@ -6,6 +6,7 @@ title: "KVM-GO güncellemesi: KeyCmd 0.19 ile hedefinizi telefonunuzdan kontrol 
 description: "KeyCmd 0.19'u USB veya Bluetooth üzerinden KVM-GO ile kullanın: KM Basic ve Pro klavyeler, Oluşturma modu, oyun kumandası ön ayarları, Kısayol Merkezi ve sunum kontrolleri; HID girişi için video kilidi gerekmez."
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"

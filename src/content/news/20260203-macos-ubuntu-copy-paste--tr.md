@@ -6,6 +6,7 @@ title: "Ubuntu Kopyala/Yapıştır İpucu (macOS → Ubuntu)"
 description: "Ubuntu'yu macOS'tan Openterface ile kontrol ederken yapıştırma kısayollarını düzeltin. Güvenilir Ctrl stili yapıştırma için Windows Modunu kullanın veya Mac Modunda geçici çözüm olarak Düzen → Yapıştır'ı kullanın."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

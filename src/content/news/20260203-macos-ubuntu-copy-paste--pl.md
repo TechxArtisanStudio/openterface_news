@@ -6,6 +6,7 @@ title: "Wskazówka dotycząca kopiowania/wklejania Ubuntu (macOS → Ubuntu)"
 description: "Napraw skróty wklejania podczas kontrolowania Ubuntu z systemu macOS za pomocą Openterface. Użyj trybu Windows, aby uzyskać niezawodne wklejanie w stylu Ctrl, lub Edycja → Wklej jako obejście w trybie Mac."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

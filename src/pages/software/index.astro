@@ -2,7 +2,7 @@
 import FeedLayout from '../../layouts/FeedLayout.astro';
 import { softwareFeedProps } from '../../lib/feed-pages';
 
-const props = await softwareFeedProps('en');
+const props = await softwareFeedProps('en', Astro.url);
 ---
 
 <FeedLayout
@@ -11,5 +11,7 @@ const props = await softwareFeedProps('en');
   description={props.description}
   articles={props.articles}
   basePath={props.basePath}
-  showFilters={false}
+  activeApp={props.activeApp}
+  showProductFilters={false}
+  showAppFilters={true}
 />

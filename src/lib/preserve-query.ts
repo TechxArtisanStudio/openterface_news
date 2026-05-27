@@ -10,6 +10,7 @@ const LOCALE_SWITCH_QUERY_KEYS = new Set([
   'fbclid',
   'product',
   'topic',
+  'app',
   'sort',
   'lang',
   'l',

@@ -6,6 +6,7 @@ title: "MacOS'ta Openterface Mini-KVM Fare Hızı ve Oyun Performansı"
 description: "MacOS'ta Openterface Mini-KVM'nin kapsamlı oyun odaklı fare performans testi. Optimum oyun yapılandırması için Mutlak, Göreli Olay ve Göreli HID fare modlarını 9600 ve 115200 baud hızlarıyla karşılaştırın."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["shipping", "production", "software", "analysis"]
 category: "Product Updates"
 featured: false

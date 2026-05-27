@@ -21,7 +21,7 @@ if (localeParam === 'en') {
   return Astro.redirect(localizedPath('en', 'software'), 301);
 }
 
-const props = await softwareFeedProps(localeParam);
+const props = await softwareFeedProps(localeParam, Astro.url);
 ---
 
 <FeedLayout
@@ -30,5 +30,7 @@ const props = await softwareFeedProps(localeParam);
   description={props.description}
   articles={props.articles}
   basePath={props.basePath}
-  showFilters={false}
+  activeApp={props.activeApp}
+  showProductFilters={false}
+  showAppFilters={true}
 />

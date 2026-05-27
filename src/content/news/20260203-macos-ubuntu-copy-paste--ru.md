@@ -6,6 +6,7 @@ title: "Совет по копированию/вставке Ubuntu (macOS → 
 description: "Исправлены ярлыки для вставки при управлении Ubuntu из macOS с помощью Openinterface. Используйте режим Windows для надежной вставки в стиле Ctrl или «Правка» → «Вставить» в качестве обходного пути в режиме Mac."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

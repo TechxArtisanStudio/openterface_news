@@ -6,6 +6,7 @@ title: "Tip voor kopiëren/plakken van Ubuntu (macOS → Ubuntu)"
 description: "Plaksnelkoppelingen repareren bij het besturen van Ubuntu vanuit macOS met Openterface. Gebruik de Windows-modus voor betrouwbaar plakken in Ctrl-stijl, of Bewerken → Plakken als tijdelijke oplossing in de Mac-modus."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

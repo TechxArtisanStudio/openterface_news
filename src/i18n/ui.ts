@@ -46,6 +46,10 @@ export interface UiStrings {
   buy: Record<ProductSlug, string>;
   filter: {
     all: string;
+    apps: {
+      kvm: string;
+      keycmd: string;
+    };
     topics: {
       shipping: string;
       production: string;
@@ -136,6 +140,10 @@ const en: UiStrings = {
   },
   filter: {
     all: 'All',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Shipping',
       production: 'Production',
@@ -226,6 +234,10 @@ const zh: UiStrings = {
   },
   filter: {
     all: '全部',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: '发货',
       production: '生产',
@@ -315,6 +327,10 @@ const hk: UiStrings = {
   },
   filter: {
     all: '全部',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: '發貨',
       production: '生產',
@@ -404,6 +420,10 @@ const tw: UiStrings = {
   },
   filter: {
     all: '全部',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: '發貨',
       production: '生產',
@@ -493,6 +513,10 @@ const ru: UiStrings = {
   },
   filter: {
     all: 'Все',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Доставка',
       production: 'Производство',
@@ -582,6 +606,10 @@ const ar: UiStrings = {
   },
   filter: {
     all: 'الكل',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'الشحن',
       production: 'الإنتاج',
@@ -671,6 +699,10 @@ const tr: UiStrings = {
   },
   filter: {
     all: 'Tümü',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Kargo',
       production: 'Üretim',
@@ -760,6 +792,10 @@ const pl: UiStrings = {
   },
   filter: {
     all: 'Wszystkie',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Wysyłka',
       production: 'Produkcja',
@@ -849,6 +885,10 @@ const nl: UiStrings = {
   },
   filter: {
     all: 'Alle',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Verzending',
       production: 'Productie',
@@ -938,6 +978,10 @@ const ja: UiStrings = {
   },
   filter: {
     all: 'すべて',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: '配送',
       production: '生産',
@@ -1027,6 +1071,10 @@ const ko: UiStrings = {
   },
   filter: {
     all: '전체',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: '배송',
       production: '생산',
@@ -1116,6 +1164,10 @@ const de: UiStrings = {
   },
   filter: {
     all: 'Alle',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Versand',
       production: 'Produktion',
@@ -1205,6 +1257,10 @@ const fr: UiStrings = {
   },
   filter: {
     all: 'Tout',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Expédition',
       production: 'Production',
@@ -1294,6 +1350,10 @@ const es: UiStrings = {
   },
   filter: {
     all: 'Todo',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Envío',
       production: 'Producción',
@@ -1383,6 +1443,10 @@ const it: UiStrings = {
   },
   filter: {
     all: 'Tutti',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Spedizione',
       production: 'Produzione',
@@ -1472,6 +1536,10 @@ const pt: UiStrings = {
   },
   filter: {
     all: 'Todos',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Envio',
       production: 'Produção',
@@ -1561,6 +1629,10 @@ const ro: UiStrings = {
   },
   filter: {
     all: 'Toate',
+    apps: {
+      kvm: 'KVM Control',
+      keycmd: 'KeyCmd',
+    },
     topics: {
       shipping: 'Livrare',
       production: 'Producție',

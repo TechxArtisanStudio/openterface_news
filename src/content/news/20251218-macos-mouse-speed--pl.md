@@ -6,6 +6,7 @@ title: "Szybkość myszy Openterface Mini-KVM i wydajność w grach w systemie m
 description: "Kompleksowe testowanie wydajności myszy Openterface Mini-KVM dla gier w systemie macOS. Porównaj tryby myszy bezwzględnej, względnej i względnej HID z szybkościami transmisji 9600 i 115200, aby uzyskać optymalną konfigurację do gier."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["shipping", "production", "software", "analysis"]
 category: "Product Updates"
 featured: false

@@ -24,6 +24,7 @@ const news = defineCollection({
     date: z.coerce.date(),
     channel: z.enum(['product', 'software', 'events']),
     product: productSlug.nullish(),
+    app: z.enum(['kvm', 'keycmd']).nullish(),
     eventType: z.enum(['exhibition', 'contest']).nullish(),
     topic: z.array(z.string()).default([]),
     category: z.string().optional(),

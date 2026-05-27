@@ -1,5 +1,22 @@
 import { test, expect } from '@playwright/test';
 
+test('software feed app filter shows matching articles only', async ({ page }) => {
+  await page.goto('/software/?app=keycmd', { waitUntil: 'networkidle' });
+  await expect(page.locator('[data-filter-chip="app"][data-filter-value="keycmd"]')).toHaveClass(/filter-chip-active/);
+  const visibleArticles = page.locator('[data-feed-article]:visible');
+  await expect(visibleArticles).not.toHaveCount(0);
+  const count = await visibleArticles.count();
+  for (let i = 0; i < count; i += 1) {
+    await expect(visibleArticles.nth(i)).toHaveAttribute('data-app', 'keycmd');
+  }
+});
+
+test('software feed locale switch preserves app filter', async ({ page }) => {
+  await page.goto('/software/?app=kvm', { waitUntil: 'domcontentloaded' });
+  const deLink = page.locator('a[data-locale-switch][href="/de/software/?app=kvm"]');
+  await expect(deLink).not.toHaveCount(0);
+});
+
 test('article locale switch preserves path for Chinese', async ({ page }) => {
   await page.goto('/software/20260521-keycmd-019-release/', { waitUntil: 'domcontentloaded' });
   const zhLink = page.locator('a[data-locale-switch][href="/zh/software/20260521-keycmd-019-release/"]');

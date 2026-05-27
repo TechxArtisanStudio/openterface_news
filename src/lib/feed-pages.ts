@@ -23,8 +23,9 @@ export async function homeFeedProps(locale: SiteLocale, url: URL) {
   };
 }
 
-export async function softwareFeedProps(locale: SiteLocale) {
+export async function softwareFeedProps(locale: SiteLocale, url: URL) {
   const ui = t(locale);
+  const activeApp = url.searchParams.get('app');
   const articles = (await getNewsArticles(locale)).filter((a) => a.data.channel === 'software');
 
   return {
@@ -33,6 +34,7 @@ export async function softwareFeedProps(locale: SiteLocale) {
     description: ui.feed.softwareDescription,
     articles,
     basePath: localizedPath(locale, 'software'),
+    activeApp,
   };
 }
 

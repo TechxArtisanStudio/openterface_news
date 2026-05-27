@@ -6,6 +6,7 @@ title: "KeyCmd 0.19: تغيير العلامة التجارية للتطبيق،
 description: "يقدم KeyCmd 0.19 علامة تجارية جديدة من KeyMod إلى KeyCmd، ووضع KM Pro Compose الجديد مع إرسال Unicode HID، وواجهة مستخدم متعددة اللغات (الكورية، والإيطالية، والروسية، وpt-BR)، وجولات إرشادية تفاعلية لكل وضع، وعشرات من تحسينات تجربة المستخدم."
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"

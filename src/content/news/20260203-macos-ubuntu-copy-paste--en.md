@@ -6,6 +6,7 @@ title: "Ubuntu Copy/Paste Tip (macOS → Ubuntu)"
 description: "Fix paste shortcuts when controlling Ubuntu from macOS with Openterface. Use Windows Mode for reliable Ctrl-style paste, or Edit → Paste as a workaround in Mac Mode."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

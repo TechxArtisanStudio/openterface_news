@@ -6,6 +6,7 @@ title: "KeyCmd 0.19: Uygulamanın Yeniden Markalanması, KM Pro Oluşturma Modu,
 description: "KeyCmd 0.19, KeyMod'dan KeyCmd'ye büyük bir yeniden markalaşma, Unicode HID gönderimi ile yeni KM Pro Compose modu, çok dilli kullanıcı arayüzü (Korece, İtalyanca, Rusça, pt-BR), mod başına etkileşimli rehber turları ve düzinelerce UX iyileştirmesi getiriyor."
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"

@@ -6,6 +6,7 @@ title: "سرعة ماوس Openterface Mini-KVM وأداء الألعاب على 
 description: "اختبار شامل لأداء الماوس الذي يركز على الألعاب لـ Openterface Mini-KVM على نظام التشغيل macOS. قارن بين أوضاع ماوس HID المطلق والحدث النسبي والنسبي بمعدلات باود 9600 مقابل 115200 للحصول على التكوين الأمثل للألعاب."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["shipping", "production", "software", "analysis"]
 category: "Product Updates"
 featured: false

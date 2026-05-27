@@ -6,6 +6,7 @@ title: "Openterface Mini-KVM macOS 마우스 속도 및 게임 성능"
 description: "macOS에서 Openterface Mini-KVM의 게임 중심 마우스 성능 종합 테스트. 최적의 게임 구성을 위해 9600 vs 115200 보레이트로 절대, 상대 이벤트 및 상대 HID 마우스 모드를 비교합니다."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

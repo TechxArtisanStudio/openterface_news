@@ -6,6 +6,7 @@ title: "Обновление KVM-GO: управляйте своей целью 
 description: "Используйте KeyCmd 0.19 с KVM-GO через USB или Bluetooth: клавиатуры KM Basic и Pro, режим Compose, настройки геймпада, Shortcut Hub и элементы управления презентацией — для HID-входа видеоадаптер не требуется."
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["shipping", "production", "beta", "software", "campaign", "community"]
 category: "Product Updates"

@@ -6,6 +6,7 @@ title: "Openterface Mini-KVM Mausgeschwindigkeit & Spielleistung unter macOS"
 description: "Umfassende spielorientierte Mausleistungstests von Openterface Mini-KVM unter macOS. Vergleichen Sie absolute, relative Event- und relative HID-Mausmodi mit 9600 vs 115200 Baudraten für optimale Spielkonfiguration."
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

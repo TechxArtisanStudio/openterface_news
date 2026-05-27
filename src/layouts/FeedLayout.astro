@@ -14,7 +14,10 @@ interface Props {
   basePath: string;
   activeProduct?: string | null;
   activeTopic?: string | null;
+  activeApp?: string | null;
   showFilters?: boolean;
+  showProductFilters?: boolean;
+  showAppFilters?: boolean;
 }
 
 const {
@@ -25,7 +28,10 @@ const {
   basePath,
   activeProduct = null,
   activeTopic = null,
+  activeApp = null,
   showFilters = true,
+  showProductFilters = true,
+  showAppFilters = false,
 } = Astro.props;
 
 const ui = t(locale);
@@ -52,6 +58,9 @@ const hreflangAlternates = getLocaleAlternatesForPath(basePath);
           basePath={basePath}
           activeProduct={activeProduct}
           activeTopic={activeTopic}
+          activeApp={activeApp}
+          showProductFilters={showProductFilters}
+          showAppFilters={showAppFilters}
         />
       </div>
     )}

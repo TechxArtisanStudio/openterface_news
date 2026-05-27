@@ -12,7 +12,7 @@ interface Props {
 
 const { entry, locale } = Astro.props;
 const ui = t(locale);
-const { title, description, date, product, topic, channel, featured } = entry.data;
+const { title, description, date, product, app, topic, channel, featured } = entry.data;
 const href = articlePath(entry);
 const primaryTopic = topic[0] as TopicSlug | undefined;
 const topicLabel = primaryTopic ? ui.filter.topics[primaryTopic as keyof typeof ui.filter.topics] : null;
@@ -22,6 +22,7 @@ const topicLabel = primaryTopic ? ui.filter.topics[primaryTopic as keyof typeof 
   class="card group flex flex-col"
   data-feed-article
   data-product={product ?? ''}
+  data-app={app ?? ''}
   data-topics={topic.join(',')}
 >
   <div class="mb-3 flex flex-wrap items-center gap-2">

@@ -6,6 +6,7 @@ title: "KVM-GO 更新：使用 KeyCmd 0.19 通過手機控制目標機器"
 description: "通過 USB 或藍牙配合 KVM-GO 使用 KeyCmd 0.19：支持 KM 基礎版與專業版鍵盤、撰寫模式、遊戲手柄預設、快捷鍵中心及演示控制——無需視頻採集卡即可進行 HID 輸入。"
 date: 2026-05-21
 channel: software
+app: keycmd
 product: keymod
 topic: ["software", "campaign"]
 category: "產品更新"

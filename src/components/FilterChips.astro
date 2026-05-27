@@ -1,5 +1,5 @@
 ---
-import { PRODUCTS, PRODUCT_LABELS } from '../config/products';
+import { APPS, APP_LABELS, PRODUCTS, PRODUCT_LABELS } from '../config/products';
 import { TOPICS } from '../config/products';
 import { t } from '../i18n/ui';
 import type { SiteLocale } from '../lib/locale';
@@ -9,57 +9,110 @@ interface Props {
   basePath: string;
   activeProduct?: string | null;
   activeTopic?: string | null;
+  activeApp?: string | null;
+  showProductFilters?: boolean;
+  showAppFilters?: boolean;
 }
 
-const { locale, basePath, activeProduct = null, activeTopic = null } = Astro.props;
+const {
+  locale,
+  basePath,
+  activeProduct = null,
+  activeTopic = null,
+  activeApp = null,
+  showProductFilters = true,
+  showAppFilters = false,
+} = Astro.props;
 const ui = t(locale);
 
-function chipHref(params: { product?: string | null; topic?: string | null }) {
+function chipHref(params: {
+  product?: string | null;
+  topic?: string | null;
+  app?: string | null;
+}) {
   const search = new URLSearchParams();
   const product = 'product' in params ? params.product : activeProduct;
   const topic = 'topic' in params ? params.topic : activeTopic;
+  const app = 'app' in params ? params.app : activeApp;
   if (product) search.set('product', product);
   if (topic) search.set('topic', topic);
+  if (app) search.set('app', app);
   const qs = search.toString();
   return qs ? `${basePath}?${qs}` : basePath;
 }
+
+const hasActiveFilter = Boolean(activeProduct || activeTopic || activeApp);
 ---
 
 <div class="filter-bar">
-  <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-    <a
-      href={chipHref({ product: null, topic: null })}
-      data-filter-chip="all"
-      class:list={['filter-chip', !activeProduct && !activeTopic && 'filter-chip-active']}
-    >
-      {ui.filter.all}
-    </a>
-    {
-      PRODUCTS.filter((p) => p !== 'accessories').map((product) => (
+  {
+    showProductFilters && (
+      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
         <a
-          href={chipHref({ product, topic: activeTopic })}
-          data-filter-chip="product"
-          data-filter-value={product}
-          class:list={['filter-chip', activeProduct === product && 'filter-chip-active']}
+          href={chipHref({ product: null, topic: null, app: activeApp })}
+          data-filter-chip="all"
+          class:list={['filter-chip', !hasActiveFilter && 'filter-chip-active']}
         >
-          {PRODUCT_LABELS[product]}
+          {ui.filter.all}
         </a>
-      ))
-    }
-  </div>
+        {
+          PRODUCTS.filter((p) => p !== 'accessories').map((product) => (
+            <a
+              href={chipHref({ product, topic: activeTopic, app: activeApp })}
+              data-filter-chip="product"
+              data-filter-value={product}
+              class:list={['filter-chip', activeProduct === product && 'filter-chip-active']}
+            >
+              {PRODUCT_LABELS[product]}
+            </a>
+          ))
+        }
+      </div>
+    )
+  }
 
-  <div class="mt-2 flex gap-2 overflow-x-auto pb-1">
-    {
-      TOPICS.map((topic) => (
+  {
+    showAppFilters && (
+      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
         <a
-          href={chipHref({ product: activeProduct, topic })}
-          data-filter-chip="topic"
-          data-filter-value={topic}
-          class:list={['filter-chip text-xs', activeTopic === topic && 'filter-chip-active']}
+          href={chipHref({ product: activeProduct, topic: activeTopic, app: null })}
+          data-filter-chip="all"
+          class:list={['filter-chip', !hasActiveFilter && 'filter-chip-active']}
         >
-          {ui.filter.topics[topic]}
+          {ui.filter.all}
         </a>
-      ))
-    }
-  </div>
+        {
+          APPS.map((app) => (
+            <a
+              href={chipHref({ product: activeProduct, topic: activeTopic, app })}
+              data-filter-chip="app"
+              data-filter-value={app}
+              class:list={['filter-chip', activeApp === app && 'filter-chip-active']}
+            >
+              {ui.filter.apps[app]}
+            </a>
+          ))
+        }
+      </div>
+    )
+  }
+
+  {
+    showProductFilters && (
+      <div class="mt-2 flex gap-2 overflow-x-auto pb-1">
+        {
+          TOPICS.map((topic) => (
+            <a
+              href={chipHref({ product: activeProduct, topic, app: activeApp })}
+              data-filter-chip="topic"
+              data-filter-value={topic}
+              class:list={['filter-chip text-xs', activeTopic === topic && 'filter-chip-active']}
+            >
+              {ui.filter.topics[topic]}
+            </a>
+          ))
+        }
+      </div>
+    )
+  }
 </div>

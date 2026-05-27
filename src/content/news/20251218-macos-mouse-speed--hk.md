@@ -6,6 +6,7 @@ title: "Openterface Mini-KVM macOS 鼠標速度與遊戲性能"
 description: "Openterface Mini-KVM 在 macOS 上以遊戲為重點的鼠標性能綜合測試。比較絕對、相對事件和相對 HID 鼠標模式，以及 9600 與 115200 波特率，以獲得最佳遊戲配置。"
 date: 2025-12-18
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

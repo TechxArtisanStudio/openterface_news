@@ -19,6 +19,23 @@ export const PRODUCT_LABELS: Record<ProductSlug, string> = {
   accessories: 'Accessories',
 };
 
+export const APPS = ['kvm', 'keycmd'] as const;
+
+export type AppSlug = (typeof APPS)[number];
+
+export const APP_LABELS: Record<AppSlug, string> = {
+  kvm: 'KVM Control',
+  keycmd: 'KeyCmd',
+};
+
+const DOCS_PRODUCT_SHORT: Record<ProductSlug, string> = {
+  keymod: 'keymod',
+  'kvm-go': 'kvmgo',
+  minikvm: 'minikvm',
+  'uconsole-kvm-extension': 'kvmext',
+  accessories: 'accessories',
+};
+
 export const TOPICS = [
   'shipping',
   'production',
@@ -69,10 +86,11 @@ export function docsPath(locale: SiteLocale, subpath = ''): string {
 }
 
 export function docsProductUrl(locale: SiteLocale, product: ProductSlug): string {
+  const short = DOCS_PRODUCT_SHORT[product];
   if (locale === 'en') {
-    return `${docsBaseUrl()}/product/${product}/`;
+    return `${docsBaseUrl()}/products/${short}/`;
   }
-  return `${docsBaseUrl()}/${locale}/product/${product}/`;
+  return `${docsBaseUrl()}/${locale}/products/${short}/`;
 }
 
 export function forumUrl(): string {

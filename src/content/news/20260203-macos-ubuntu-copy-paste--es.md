@@ -6,6 +6,7 @@ title: "Consejo de Copiar/Pegar en Ubuntu (macOS → Ubuntu)"
 description: "Soluciona los atajos de pegado al controlar Ubuntu desde macOS con Openterface. Usa el modo Windows para un pegado fiable estilo Ctrl, o Edición → Pegar como alternativa en modo Mac."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

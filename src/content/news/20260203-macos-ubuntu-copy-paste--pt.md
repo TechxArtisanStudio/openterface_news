@@ -6,6 +6,7 @@ title: "Dica de Copiar/Colar Ubuntu (macOS → Ubuntu)"
 description: "Corrija os atalhos de colar ao controlar Ubuntu a partir do macOS com Openterface. Use o modo Windows para colar de forma confiável no estilo Ctrl, ou Editar → Colar como alternativa no modo Mac."
 date: 2026-02-03
 channel: software
+app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false
