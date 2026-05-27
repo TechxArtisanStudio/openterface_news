@@ -23,7 +23,7 @@ export const siteConfig = {
     google: {
       provider: 'google' as const,
       measurementId: 'G-EKZEH6QYWT',
-            linkerDomains: ['openterface.com', 'forum.openterface.com']
+                  linkerDomains: ['openterface.com', 'forum.openterface.com']
     },
     ahrefs: {
       dataKey: 'b3G5nUND8OglcZwfjfwixQ',

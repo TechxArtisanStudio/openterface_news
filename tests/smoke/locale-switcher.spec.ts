@@ -21,6 +21,24 @@ test('feed locale switch strips _gl but keeps product filter', async ({ page }) 
   expect(href).not.toContain('_gl=');
 });
 
+test('feed product filter shows matching articles only', async ({ page }) => {
+  await page.goto('/?product=minikvm', { waitUntil: 'networkidle' });
+  await expect(page.locator('[data-filter-chip="product"][data-filter-value="minikvm"]')).toHaveClass(/filter-chip-active/);
+  const visibleArticles = page.locator('[data-feed-article]:visible');
+  await expect(visibleArticles).not.toHaveCount(0);
+  const count = await visibleArticles.count();
+  for (let i = 0; i < count; i += 1) {
+    await expect(visibleArticles.nth(i)).toHaveAttribute('data-product', 'minikvm');
+  }
+});
+
+test('feed all chip clears product filter', async ({ page }) => {
+  await page.goto('/?product=minikvm', { waitUntil: 'networkidle' });
+  await page.locator('[data-filter-chip="all"]').click();
+  await expect(page).toHaveURL('/');
+  await expect(page.locator('[data-feed-article]:visible')).toHaveCount(await page.locator('[data-feed-article]').count());
+});
+
 test('product channel locale switch preserves path', async ({ page }) => {
   await page.goto('/product/kvm-go/', { waitUntil: 'domcontentloaded' });
   const jaLink = page.locator('a[data-locale-switch][href="/ja/product/kvm-go/"]');

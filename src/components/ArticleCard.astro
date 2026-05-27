@@ -18,7 +18,12 @@ const primaryTopic = topic[0] as TopicSlug | undefined;
 const topicLabel = primaryTopic ? ui.filter.topics[primaryTopic as keyof typeof ui.filter.topics] : null;
 ---
 
-<article class="card group flex flex-col">
+<article
+  class="card group flex flex-col"
+  data-feed-article
+  data-product={product ?? ''}
+  data-topics={topic.join(',')}
+>
   <div class="mb-3 flex flex-wrap items-center gap-2">
     {
       featured && (

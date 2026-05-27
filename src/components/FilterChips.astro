@@ -16,8 +16,8 @@ const ui = t(locale);
 
 function chipHref(params: { product?: string | null; topic?: string | null }) {
   const search = new URLSearchParams();
-  const product = params.product ?? activeProduct;
-  const topic = params.topic ?? activeTopic;
+  const product = 'product' in params ? params.product : activeProduct;
+  const topic = 'topic' in params ? params.topic : activeTopic;
   if (product) search.set('product', product);
   if (topic) search.set('topic', topic);
   const qs = search.toString();
@@ -29,6 +29,7 @@ function chipHref(params: { product?: string | null; topic?: string | null }) {
   <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
     <a
       href={chipHref({ product: null, topic: null })}
+      data-filter-chip="all"
       class:list={['filter-chip', !activeProduct && !activeTopic && 'filter-chip-active']}
     >
       {ui.filter.all}
@@ -37,6 +38,8 @@ function chipHref(params: { product?: string | null; topic?: string | null }) {
       PRODUCTS.filter((p) => p !== 'accessories').map((product) => (
         <a
           href={chipHref({ product, topic: activeTopic })}
+          data-filter-chip="product"
+          data-filter-value={product}
           class:list={['filter-chip', activeProduct === product && 'filter-chip-active']}
         >
           {PRODUCT_LABELS[product]}
@@ -50,6 +53,8 @@ function chipHref(params: { product?: string | null; topic?: string | null }) {
       TOPICS.map((topic) => (
         <a
           href={chipHref({ product: activeProduct, topic })}
+          data-filter-chip="topic"
+          data-filter-value={topic}
           class:list={['filter-chip text-xs', activeTopic === topic && 'filter-chip-active']}
         >
           {ui.filter.topics[topic]}

@@ -2,8 +2,6 @@ import { PRODUCT_LABELS, type ProductSlug } from '../config/products';
 import { t } from '../i18n/ui';
 import { localizedPath, type SiteLocale } from './locale';
 import {
-  filterByProduct,
-  filterByTopic,
   getNewsArticles,
   getProductArticles,
 } from './news';
@@ -12,9 +10,7 @@ export async function homeFeedProps(locale: SiteLocale, url: URL) {
   const ui = t(locale);
   const activeProduct = url.searchParams.get('product');
   const activeTopic = url.searchParams.get('topic');
-  let articles = await getNewsArticles(locale);
-  articles = filterByProduct(articles, activeProduct);
-  articles = filterByTopic(articles, activeTopic);
+  const articles = await getNewsArticles(locale);
 
   return {
     locale,
