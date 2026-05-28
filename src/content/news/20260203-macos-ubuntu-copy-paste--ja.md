@@ -6,7 +6,6 @@ title: "Ubuntu コピー/ペーストのヒント（macOS → Ubuntu）"
 description: "Openterface で macOS から Ubuntu を操作する際のペーストショートカットの修正方法。Ctrl スタイルのペーストには Windows モードを、Mac モードのままの場合は編集 → 貼り付けを代替手段として使用。"
 date: 2026-02-03
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

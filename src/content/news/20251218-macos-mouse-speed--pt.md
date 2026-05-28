@@ -6,7 +6,6 @@ title: "Velocidade do Mouse e Desempenho em Jogos do Openterface Mini-KVM no mac
 description: "Testes abrangentes de desempenho do mouse focados em jogos no Openterface Mini-KVM no macOS. Comparação entre os modos de mouse Absoluto, Evento Relativo e HID Relativo, com taxas de 9600 vs 115200 baud, para uma configuração ideal para jogos."
 date: 2025-12-18
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

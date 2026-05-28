@@ -6,7 +6,6 @@ title: "KeyCmd 0.19：应用品牌更名、KM Pro 输入模式、多语言支持
 description: "KeyCmd 0.19 带来从 KeyMod 到 KeyCmd 的重大品牌更名、全新 KM Pro 输入模式（支持 Unicode HID 发送）、多语言 UI（韩语、意大利语、俄语、巴西葡语）、各模式交互式引导教程，以及数十项 UX 优化。"
 date: 2026-05-21
 channel: software
-app: keycmd
 product: keymod
 topic: ["beta", "software"]
 category: "Product Updates"

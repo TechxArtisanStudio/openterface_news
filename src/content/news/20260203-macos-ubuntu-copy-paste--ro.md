@@ -6,7 +6,6 @@ title: "Sfat Copiere/Lipire Ubuntu (macOS → Ubuntu)"
 description: "Remediați scurtăturile de lipire când controlați Ubuntu de pe macOS cu Openterface. Folosiți modul Windows pentru lipire fiabilă în stil Ctrl, sau Editează → Lipește ca soluție alternativă în modul Mac."
 date: 2026-02-03
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

@@ -6,7 +6,6 @@ title: "Actualizare KVM-GO: controlează-ți dispozitivul țintă de pe telefon 
 description: "Folosește KeyCmd 0.19 cu KVM-GO prin USB sau Bluetooth: tastaturi KM Basic și Pro, mod Compose, presetări pentru gamepad, Shortcut Hub și controale de prezentare—nu este nevoie de dongle video pentru intrare HID."
 date: 2026-05-21
 channel: software
-app: keycmd
 product: keymod
 topic: ["beta", "software", "campaign"]
 category: "Actualizări de Produs"

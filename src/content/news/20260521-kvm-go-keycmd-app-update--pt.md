@@ -6,7 +6,6 @@ title: "Atualização KVM-GO: controle o seu dispositivo alvo pelo celular com o
 description: "Use o KeyCmd 0.19 com o KVM-GO via USB ou Bluetooth: teclados KM Basic e Pro, modo Compose, predefinições de gamepad, Shortcut Hub e controles de apresentação—sem necessidade de dongle de vídeo para entrada HID."
 date: 2026-05-21
 channel: software
-app: keycmd
 product: keymod
 topic: ["production", "beta", "software", "campaign"]
 category: "Atualizações de Produto"

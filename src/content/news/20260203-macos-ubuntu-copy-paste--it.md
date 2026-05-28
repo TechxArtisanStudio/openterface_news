@@ -6,7 +6,6 @@ title: "Suggerimento Copia/Incolla Ubuntu (macOS → Ubuntu)"
 description: "Correggi i collegamenti per incollare quando controlli Ubuntu da macOS con Openterface. Usa la modalità Windows per un incolla affidabile in stile Ctrl, o Modifica → Incolla come soluzione alternativa in modalità Mac."
 date: 2026-02-03
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

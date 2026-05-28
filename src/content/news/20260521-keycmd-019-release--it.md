@@ -6,7 +6,6 @@ title: "KeyCmd 0.19: Rebranding dell'app, modalità Compose KM Pro, supporto mul
 description: "KeyCmd 0.19 porta un importante rebranding da KeyMod a KeyCmd, la nuova modalità Compose KM Pro con invio HID Unicode, UI multilingue (coreano, italiano, russo, pt-BR), guide interattive per modalità e decine di miglioramenti UX."
 date: 2026-05-21
 channel: software
-app: keycmd
 product: keymod
 topic: ["beta", "software", "campaign"]
 category: "Product Updates"

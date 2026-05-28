@@ -6,7 +6,6 @@ title: "Velocidad del ratón y rendimiento en juegos de Openterface Mini-KVM en 
 description: "Pruebas completas del rendimiento del ratón orientadas al gaming para Openterface Mini-KVM en macOS. Comparación de los modos Absolute, Relative Event y Relative HID, con velocidades en baudios de 9600 frente a 115200, para una configuración óptima para juegos."
 date: 2025-12-18
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

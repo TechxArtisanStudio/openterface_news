@@ -6,7 +6,6 @@ title: "Ubuntu 复制/粘贴技巧（macOS → Ubuntu）"
 description: "使用 Openterface 从 macOS 控制 Ubuntu 时修复粘贴快捷键。使用 Windows 模式可获得可靠的 Ctrl 风格粘贴，或在 Mac 模式下使用编辑 → 粘贴作为替代方案。"
 date: 2026-02-03
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false

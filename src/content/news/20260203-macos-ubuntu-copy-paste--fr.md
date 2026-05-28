@@ -6,7 +6,6 @@ title: "Astuce Copier/Coller Ubuntu (macOS → Ubuntu)"
 description: "Corrigez les raccourcis de collage lors du contrôle d'Ubuntu depuis macOS avec Openterface. Utilisez le mode Windows pour un collage fiable style Ctrl, ou Édition → Coller comme solution de contournement en mode Mac."
 date: 2026-02-03
 channel: software
-app: kvm
 topic: ["software"]
 category: "Product Updates"
 featured: false
