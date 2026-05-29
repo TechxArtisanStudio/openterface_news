@@ -7,7 +7,7 @@ export interface UiStrings {
   nav: {
     allNews: string;
     products: string;
-    software: string;
+    apps: string;
     events: string;
     docs: string;
     home: string;
@@ -24,8 +24,8 @@ export interface UiStrings {
   feed: {
     homeTitle: string;
     homeDescription: string;
-    softwareTitle: string;
-    softwareDescription: string;
+    appsTitle: string;
+    appsDescription: string;
     eventsTitle: string;
     eventsDescription: string;
     productUpdatesTitle: (product: string) => string;
@@ -34,7 +34,7 @@ export interface UiStrings {
   };
   article: {
     featured: string;
-    software: string;
+    apps: string;
     event: string;
     readUpdate: string;
     nextSteps: string;
@@ -95,7 +95,7 @@ const en: UiStrings = {
   nav: {
     allNews: 'All News',
     products: 'Products',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Events',
     docs: 'Docs',
     home: 'Home',
@@ -112,8 +112,8 @@ const en: UiStrings = {
   feed: {
     homeTitle: 'Openterface News',
     homeDescription: 'Official product updates, software releases, and events from Openterface.',
-    softwareTitle: 'Software Releases',
-    softwareDescription: 'Openterface app releases, KeyCmd updates, and software news.',
+    appsTitle: 'App Releases',
+    appsDescription: 'Openterface app releases, KeyCmd updates, and software news.',
     eventsTitle: 'Events',
     eventsDescription: 'Exhibitions, contests, and community events from Openterface.',
     productUpdatesTitle: (product) => `${product} Updates`,
@@ -122,7 +122,7 @@ const en: UiStrings = {
   },
   article: {
     featured: 'Featured',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Event',
     readUpdate: 'Read update →',
     nextSteps: 'Next steps',
@@ -189,7 +189,7 @@ const zh: UiStrings = {
   nav: {
     allNews: '全部资讯',
     products: '产品',
-    software: '软件',
+    apps: '应用',
     events: '活动',
     docs: '文档',
     home: '首页',
@@ -206,8 +206,8 @@ const zh: UiStrings = {
   feed: {
     homeTitle: 'Openterface 资讯',
     homeDescription: 'Openterface 官方产品动态、软件发布与活动资讯。',
-    softwareTitle: '软件发布',
-    softwareDescription: 'Openterface 应用发布、KeyCmd 更新与软件资讯。',
+    appsTitle: '应用发布',
+    appsDescription: 'Openterface 应用发布、KeyCmd 更新与软件资讯。',
     eventsTitle: '活动',
     eventsDescription: 'Openterface 展会、竞赛与社区活动。',
     productUpdatesTitle: (product) => `${product} 动态`,
@@ -216,7 +216,7 @@ const zh: UiStrings = {
   },
   article: {
     featured: '精选',
-    software: '软件',
+    apps: '应用',
     event: '活动',
     readUpdate: '阅读全文 →',
     nextSteps: '下一步',
@@ -282,7 +282,7 @@ const hk: UiStrings = {
   nav: {
     allNews: '全部資訊',
     products: '產品',
-    software: '軟件',
+    apps: '應用',
     events: '活動',
     docs: '文檔',
     home: '首頁',
@@ -299,8 +299,8 @@ const hk: UiStrings = {
   feed: {
     homeTitle: 'Openterface 資訊',
     homeDescription: 'Openterface 官方產品動態、軟件發佈與活動資訊。',
-    softwareTitle: '軟件發佈',
-    softwareDescription: 'Openterface 應用發佈、KeyCmd 更新與軟件資訊。',
+    appsTitle: '應用發佈',
+    appsDescription: 'Openterface 應用發佈、KeyCmd 更新與軟件資訊。',
     eventsTitle: '活動',
     eventsDescription: 'Openterface 展會、競賽與社區活動。',
     productUpdatesTitle: (product) => `${product} 動態`,
@@ -309,7 +309,7 @@ const hk: UiStrings = {
   },
   article: {
     featured: '精選',
-    software: '軟件',
+    apps: '應用',
     event: '活動',
     readUpdate: '閲讀全文 →',
     nextSteps: '下一步',
@@ -375,7 +375,7 @@ const tw: UiStrings = {
   nav: {
     allNews: '全部資訊',
     products: '產品',
-    software: '軟件',
+    apps: '應用',
     events: '活動',
     docs: '文檔',
     home: '首頁',
@@ -392,8 +392,8 @@ const tw: UiStrings = {
   feed: {
     homeTitle: 'Openterface 資訊',
     homeDescription: 'Openterface 官方產品動態、軟件發佈與活動資訊。',
-    softwareTitle: '軟件發佈',
-    softwareDescription: 'Openterface 應用發佈、KeyCmd 更新與軟件資訊。',
+    appsTitle: '應用發佈',
+    appsDescription: 'Openterface 應用發佈、KeyCmd 更新與軟件資訊。',
     eventsTitle: '活動',
     eventsDescription: 'Openterface 展會、競賽與社區活動。',
     productUpdatesTitle: (product) => `${product} 動態`,
@@ -402,7 +402,7 @@ const tw: UiStrings = {
   },
   article: {
     featured: '精選',
-    software: '軟件',
+    apps: '應用',
     event: '活動',
     readUpdate: '閱讀全文 →',
     nextSteps: '下一步',
@@ -468,7 +468,7 @@ const ru: UiStrings = {
   nav: {
     allNews: 'Все новости',
     products: 'Продукты',
-    software: 'ПО',
+    apps: 'Приложения',
     events: 'События',
     docs: 'Документация',
     home: 'Главная',
@@ -485,8 +485,8 @@ const ru: UiStrings = {
   feed: {
     homeTitle: 'Новости Openterface',
     homeDescription: 'Официальные обновления продуктов, релизы ПО и события Openterface.',
-    softwareTitle: 'Релизы ПО',
-    softwareDescription: 'Релизы приложения Openterface, обновления KeyCmd и новости ПО.',
+    appsTitle: 'Релизы приложений',
+    appsDescription: 'Релизы приложений Openterface, обновления KeyCmd и новости ПО.',
     eventsTitle: 'События',
     eventsDescription: 'Выставки, конкурсы и мероприятия сообщества Openterface.',
     productUpdatesTitle: (product) => `Обновления ${product}`,
@@ -495,7 +495,7 @@ const ru: UiStrings = {
   },
   article: {
     featured: 'Избранное',
-    software: 'ПО',
+    apps: 'Приложения',
     event: 'Событие',
     readUpdate: 'Читать статью →',
     nextSteps: 'Дальнейшие шаги',
@@ -561,7 +561,7 @@ const ar: UiStrings = {
   nav: {
     allNews: 'كل الأخبار',
     products: 'المنتجات',
-    software: 'البرمجيات',
+    apps: 'التطبيقات',
     events: 'الفعاليات',
     docs: 'التوثيق',
     home: 'الرئيسية',
@@ -578,8 +578,8 @@ const ar: UiStrings = {
   feed: {
     homeTitle: 'أخبار Openterface',
     homeDescription: 'تحديثات المنتجات الرسمية وإصدارات البرمجيات والفعاليات من Openterface.',
-    softwareTitle: 'إصدارات البرمجيات',
-    softwareDescription: 'إصدارات تطبيق Openterface وتحديثات KeyCmd وأخبار البرمجيات.',
+    appsTitle: 'إصدارات التطبيقات',
+    appsDescription: 'إصدارات تطبيق Openterface وتحديثات KeyCmd وأخبار البرمجيات.',
     eventsTitle: 'الفعاليات',
     eventsDescription: 'معارض ومسابقات وفعاليات مجتمع Openterface.',
     productUpdatesTitle: (product) => `تحديثات ${product}`,
@@ -588,7 +588,7 @@ const ar: UiStrings = {
   },
   article: {
     featured: 'مميز',
-    software: 'برمجيات',
+    apps: 'تطبيقات',
     event: 'فعالية',
     readUpdate: 'اقرأ المقال →',
     nextSteps: 'الخطوات التالية',
@@ -654,7 +654,7 @@ const tr: UiStrings = {
   nav: {
     allNews: 'Tüm haberler',
     products: 'Ürünler',
-    software: 'Yazılım',
+    apps: 'Uygulamalar',
     events: 'Etkinlikler',
     docs: 'Dokümantasyon',
     home: 'Ana sayfa',
@@ -671,8 +671,8 @@ const tr: UiStrings = {
   feed: {
     homeTitle: 'Openterface Haberler',
     homeDescription: 'Openterface resmi ürün güncellemeleri, yazılım sürümleri ve etkinlikler.',
-    softwareTitle: 'Yazılım sürümleri',
-    softwareDescription: 'Openterface uygulama sürümleri, KeyCmd güncellemeleri ve yazılım haberleri.',
+    appsTitle: 'Uygulama sürümleri',
+    appsDescription: 'Openterface uygulama sürümleri, KeyCmd güncellemeleri ve yazılım haberleri.',
     eventsTitle: 'Etkinlikler',
     eventsDescription: 'Openterface fuarları, yarışmaları ve topluluk etkinlikleri.',
     productUpdatesTitle: (product) => `${product} güncellemeleri`,
@@ -681,7 +681,7 @@ const tr: UiStrings = {
   },
   article: {
     featured: 'Öne çıkan',
-    software: 'Yazılım',
+    apps: 'Uygulamalar',
     event: 'Etkinlik',
     readUpdate: 'Makaleyi oku →',
     nextSteps: 'Sonraki adımlar',
@@ -747,7 +747,7 @@ const pl: UiStrings = {
   nav: {
     allNews: 'Wszystkie aktualności',
     products: 'Produkty',
-    software: 'Oprogramowanie',
+    apps: 'Aplikacje',
     events: 'Wydarzenia',
     docs: 'Dokumentacja',
     home: 'Strona główna',
@@ -764,8 +764,8 @@ const pl: UiStrings = {
   feed: {
     homeTitle: 'Openterface Aktualności',
     homeDescription: 'Oficjalne aktualizacje produktów, wydania oprogramowania i wydarzenia Openterface.',
-    softwareTitle: 'Wydania oprogramowania',
-    softwareDescription: 'Wydania aplikacji Openterface, aktualizacje KeyCmd i wiadomości o oprogramowaniu.',
+    appsTitle: 'Wydania aplikacji',
+    appsDescription: 'Wydania aplikacji Openterface, aktualizacje KeyCmd i wiadomości o oprogramowaniu.',
     eventsTitle: 'Wydarzenia',
     eventsDescription: 'Targi, konkursy i wydarzenia społeczności Openterface.',
     productUpdatesTitle: (product) => `Aktualizacje ${product}`,
@@ -774,7 +774,7 @@ const pl: UiStrings = {
   },
   article: {
     featured: 'Polecane',
-    software: 'Oprogramowanie',
+    apps: 'Aplikacje',
     event: 'Wydarzenie',
     readUpdate: 'Czytaj artykuł →',
     nextSteps: 'Kolejne kroki',
@@ -840,7 +840,7 @@ const nl: UiStrings = {
   nav: {
     allNews: 'Alle nieuws',
     products: 'Producten',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Evenementen',
     docs: 'Documentatie',
     home: 'Home',
@@ -857,8 +857,8 @@ const nl: UiStrings = {
   feed: {
     homeTitle: 'Openterface Nieuws',
     homeDescription: 'Officiële productupdates, softwarereleases en evenementen van Openterface.',
-    softwareTitle: 'Softwarereleases',
-    softwareDescription: 'Openterface app-releases, KeyCmd-updates en softwarenieuws.',
+    appsTitle: 'App-releases',
+    appsDescription: 'Openterface app-releases, KeyCmd-updates en softwarenieuws.',
     eventsTitle: 'Evenementen',
     eventsDescription: 'Beurzen, wedstrijden en community-evenementen van Openterface.',
     productUpdatesTitle: (product) => `${product}-updates`,
@@ -867,7 +867,7 @@ const nl: UiStrings = {
   },
   article: {
     featured: 'Uitgelicht',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Evenement',
     readUpdate: 'Lees artikel →',
     nextSteps: 'Volgende stappen',
@@ -933,7 +933,7 @@ const ja: UiStrings = {
   nav: {
     allNews: 'すべてのニュース',
     products: '製品',
-    software: 'ソフトウェア',
+    apps: 'アプリ',
     events: 'イベント',
     docs: 'ドキュメント',
     home: 'ホーム',
@@ -950,8 +950,8 @@ const ja: UiStrings = {
   feed: {
     homeTitle: 'Openterface ニュース',
     homeDescription: 'Openterface 公式の製品アップデート、ソフトウェアリリース、イベント情報。',
-    softwareTitle: 'ソフトウェアリリース',
-    softwareDescription: 'Openterface アプリのリリース、KeyCmd アップデート、ソフトウェアニュース。',
+    appsTitle: 'アプリリリース',
+    appsDescription: 'Openterface アプリのリリース、KeyCmd アップデート、ソフトウェアニュース。',
     eventsTitle: 'イベント',
     eventsDescription: 'Openterface の展示会、コンテスト、コミュニティイベント。',
     productUpdatesTitle: (product) => `${product} アップデート`,
@@ -960,7 +960,7 @@ const ja: UiStrings = {
   },
   article: {
     featured: '注目',
-    software: 'ソフトウェア',
+    apps: 'アプリ',
     event: 'イベント',
     readUpdate: '記事を読む →',
     nextSteps: '次のステップ',
@@ -1026,7 +1026,7 @@ const ko: UiStrings = {
   nav: {
     allNews: '전체 뉴스',
     products: '제품',
-    software: '소프트웨어',
+    apps: '앱',
     events: '이벤트',
     docs: '문서',
     home: '홈',
@@ -1043,8 +1043,8 @@ const ko: UiStrings = {
   feed: {
     homeTitle: 'Openterface 뉴스',
     homeDescription: 'Openterface 공식 제품 업데이트, 소프트웨어 릴리스 및 이벤트 소식.',
-    softwareTitle: '소프트웨어 릴리스',
-    softwareDescription: 'Openterface 앱 릴리스, KeyCmd 업데이트 및 소프트웨어 뉴스.',
+    appsTitle: '앱 릴리스',
+    appsDescription: 'Openterface 앱 릴리스, KeyCmd 업데이트 및 소프트웨어 뉴스.',
     eventsTitle: '이벤트',
     eventsDescription: 'Openterface 전시회, 콘테스트 및 커뮤니티 이벤트.',
     productUpdatesTitle: (product) => `${product} 업데이트`,
@@ -1053,7 +1053,7 @@ const ko: UiStrings = {
   },
   article: {
     featured: '추천',
-    software: '소프트웨어',
+    apps: '앱',
     event: '이벤트',
     readUpdate: '글 읽기 →',
     nextSteps: '다음 단계',
@@ -1119,7 +1119,7 @@ const de: UiStrings = {
   nav: {
     allNews: 'Alle News',
     products: 'Produkte',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Events',
     docs: 'Docs',
     home: 'Home',
@@ -1136,8 +1136,8 @@ const de: UiStrings = {
   feed: {
     homeTitle: 'Openterface News',
     homeDescription: 'Offizielle Produktupdates, Software-Releases und Events von Openterface.',
-    softwareTitle: 'Software-Releases',
-    softwareDescription: 'Openterface App-Releases, KeyCmd-Updates und Software-News.',
+    appsTitle: 'App-Releases',
+    appsDescription: 'Openterface App-Releases, KeyCmd-Updates und Software-News.',
     eventsTitle: 'Events',
     eventsDescription: 'Messen, Wettbewerbe und Community-Events von Openterface.',
     productUpdatesTitle: (product) => `${product} Updates`,
@@ -1146,7 +1146,7 @@ const de: UiStrings = {
   },
   article: {
     featured: 'Empfohlen',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Event',
     readUpdate: 'Artikel lesen →',
     nextSteps: 'Nächste Schritte',
@@ -1212,7 +1212,7 @@ const fr: UiStrings = {
   nav: {
     allNews: 'Toutes les actus',
     products: 'Produits',
-    software: 'Logiciel',
+    apps: 'Apps',
     events: 'Événements',
     docs: 'Docs',
     home: 'Accueil',
@@ -1229,8 +1229,8 @@ const fr: UiStrings = {
   feed: {
     homeTitle: 'Openterface Actualités',
     homeDescription: 'Mises à jour produits, releases logicielles et événements officiels d\'Openterface.',
-    softwareTitle: 'Releases logiciels',
-    softwareDescription: 'Releases d\'apps Openterface, mises à jour KeyCmd et actualités logicielles.',
+    appsTitle: 'Releases apps',
+    appsDescription: 'Releases d\'apps Openterface, mises à jour KeyCmd et actualités logicielles.',
     eventsTitle: 'Événements',
     eventsDescription: 'Salons, concours et événements communautaires Openterface.',
     productUpdatesTitle: (product) => `Actualités ${product}`,
@@ -1239,7 +1239,7 @@ const fr: UiStrings = {
   },
   article: {
     featured: 'À la une',
-    software: 'Logiciel',
+    apps: 'Apps',
     event: 'Événement',
     readUpdate: 'Lire l\'article →',
     nextSteps: 'Prochaines étapes',
@@ -1305,7 +1305,7 @@ const es: UiStrings = {
   nav: {
     allNews: 'Todas las noticias',
     products: 'Productos',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Eventos',
     docs: 'Docs',
     home: 'Inicio',
@@ -1322,8 +1322,8 @@ const es: UiStrings = {
   feed: {
     homeTitle: 'Openterface Noticias',
     homeDescription: 'Actualizaciones oficiales de productos, lanzamientos de software y eventos de Openterface.',
-    softwareTitle: 'Lanzamientos de software',
-    softwareDescription: 'Lanzamientos de apps Openterface, actualizaciones de KeyCmd y noticias de software.',
+    appsTitle: 'Lanzamientos de apps',
+    appsDescription: 'Lanzamientos de apps Openterface, actualizaciones de KeyCmd y noticias de software.',
     eventsTitle: 'Eventos',
     eventsDescription: 'Ferias, concursos y eventos comunitarios de Openterface.',
     productUpdatesTitle: (product) => `Actualizaciones de ${product}`,
@@ -1332,7 +1332,7 @@ const es: UiStrings = {
   },
   article: {
     featured: 'Destacado',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Evento',
     readUpdate: 'Leer artículo →',
     nextSteps: 'Próximos pasos',
@@ -1398,7 +1398,7 @@ const it: UiStrings = {
   nav: {
     allNews: 'Tutte le notizie',
     products: 'Prodotti',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Eventi',
     docs: 'Docs',
     home: 'Home',
@@ -1415,8 +1415,8 @@ const it: UiStrings = {
   feed: {
     homeTitle: 'Openterface Notizie',
     homeDescription: 'Aggiornamenti ufficiali sui prodotti, release software ed eventi Openterface.',
-    softwareTitle: 'Release software',
-    softwareDescription: 'Release app Openterface, aggiornamenti KeyCmd e notizie software.',
+    appsTitle: 'Release app',
+    appsDescription: 'Release app Openterface, aggiornamenti KeyCmd e notizie software.',
     eventsTitle: 'Eventi',
     eventsDescription: 'Fiere, concorsi ed eventi community Openterface.',
     productUpdatesTitle: (product) => `Aggiornamenti ${product}`,
@@ -1425,7 +1425,7 @@ const it: UiStrings = {
   },
   article: {
     featured: 'In evidenza',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Evento',
     readUpdate: 'Leggi articolo →',
     nextSteps: 'Prossimi passi',
@@ -1491,7 +1491,7 @@ const pt: UiStrings = {
   nav: {
     allNews: 'Todas as notícias',
     products: 'Produtos',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Eventos',
     docs: 'Docs',
     home: 'Início',
@@ -1508,8 +1508,8 @@ const pt: UiStrings = {
   feed: {
     homeTitle: 'Openterface Notícias',
     homeDescription: 'Atualizações oficiais de produtos, lançamentos de software e eventos da Openterface.',
-    softwareTitle: 'Lançamentos de software',
-    softwareDescription: 'Lançamentos de apps Openterface, atualizações KeyCmd e notícias de software.',
+    appsTitle: 'Lançamentos de apps',
+    appsDescription: 'Lançamentos de apps Openterface, atualizações KeyCmd e notícias de software.',
     eventsTitle: 'Eventos',
     eventsDescription: 'Feiras, concursos e eventos comunitários Openterface.',
     productUpdatesTitle: (product) => `Atualizações ${product}`,
@@ -1518,7 +1518,7 @@ const pt: UiStrings = {
   },
   article: {
     featured: 'Destaque',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Evento',
     readUpdate: 'Ler artigo →',
     nextSteps: 'Próximos passos',
@@ -1584,7 +1584,7 @@ const ro: UiStrings = {
   nav: {
     allNews: 'Toate știrile',
     products: 'Produse',
-    software: 'Software',
+    apps: 'Apps',
     events: 'Evenimente',
     docs: 'Docs',
     home: 'Acasă',
@@ -1601,8 +1601,8 @@ const ro: UiStrings = {
   feed: {
     homeTitle: 'Openterface Știri',
     homeDescription: 'Actualizări oficiale de produse, lansări software și evenimente Openterface.',
-    softwareTitle: 'Lansări software',
-    softwareDescription: 'Lansări de aplicații Openterface, actualizări KeyCmd și știri software.',
+    appsTitle: 'Lansări de aplicații',
+    appsDescription: 'Lansări de aplicații Openterface, actualizări KeyCmd și știri software.',
     eventsTitle: 'Evenimente',
     eventsDescription: 'Expoziții, concursuri și evenimente comunitare Openterface.',
     productUpdatesTitle: (product) => `Actualizări ${product}`,
@@ -1611,7 +1611,7 @@ const ro: UiStrings = {
   },
   article: {
     featured: 'Recomandat',
-    software: 'Software',
+    apps: 'Apps',
     event: 'Eveniment',
     readUpdate: 'Citește articolul →',
     nextSteps: 'Pașii următori',

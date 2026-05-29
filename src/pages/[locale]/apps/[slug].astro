@@ -22,7 +22,7 @@ if (!localeParam || !isSiteLocale(localeParam) || !slugParam) {
 }
 
 if (localeParam === 'en') {
-  return Astro.redirect(localizedPath('en', 'software', slugParam), 301);
+  return Astro.redirect(localizedPath('en', 'apps', slugParam), 301);
 }
 
 const locale = localeParam;

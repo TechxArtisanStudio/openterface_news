@@ -10,7 +10,7 @@ export function articlePath(entry: NewsEntry): string {
     return localizedPath(locale, 'product', product, slug);
   }
   if (channel === 'software') {
-    return localizedPath(locale, 'software', slug);
+    return localizedPath(locale, 'apps', slug);
   }
   if (channel === 'events' && eventType) {
     return localizedPath(locale, 'events', eventType, slug);

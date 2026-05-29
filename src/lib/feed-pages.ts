@@ -23,17 +23,17 @@ export async function homeFeedProps(locale: SiteLocale, url: URL) {
   };
 }
 
-export async function softwareFeedProps(locale: SiteLocale, url: URL) {
+export async function appsFeedProps(locale: SiteLocale, url: URL) {
   const ui = t(locale);
   const activeApp = url.searchParams.get('app');
   const articles = (await getNewsArticles(locale)).filter((a) => a.data.channel === 'software');
 
   return {
     locale,
-    title: ui.feed.softwareTitle,
-    description: ui.feed.softwareDescription,
+    title: ui.feed.appsTitle,
+    description: ui.feed.appsDescription,
     articles,
-    basePath: localizedPath(locale, 'software'),
+    basePath: localizedPath(locale, 'apps'),
     activeApp,
   };
 }

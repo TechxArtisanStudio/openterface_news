@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-test('software feed app filter shows matching articles only', async ({ page }) => {
-  await page.goto('/software/?app=keycmd', { waitUntil: 'networkidle' });
+test('apps feed app filter shows matching articles only', async ({ page }) => {
+  await page.goto('/apps/?app=keycmd', { waitUntil: 'networkidle' });
   await expect(page.locator('[data-filter-chip="app"][data-filter-value="keycmd"]')).toHaveClass(/filter-chip-active/);
   const visibleArticles = page.locator('[data-feed-article]:visible');
   await expect(visibleArticles).not.toHaveCount(0);
@@ -11,15 +11,15 @@ test('software feed app filter shows matching articles only', async ({ page }) =
   }
 });
 
-test('software feed locale switch preserves app filter', async ({ page }) => {
-  await page.goto('/software/?app=kvm', { waitUntil: 'domcontentloaded' });
-  const deLink = page.locator('a[data-locale-switch][href="/de/software/?app=kvm"]');
+test('apps feed locale switch preserves app filter', async ({ page }) => {
+  await page.goto('/apps/?app=kvm', { waitUntil: 'domcontentloaded' });
+  const deLink = page.locator('a[data-locale-switch][href="/de/apps/?app=kvm"]');
   await expect(deLink).not.toHaveCount(0);
 });
 
 test('article locale switch preserves path for Chinese', async ({ page }) => {
-  await page.goto('/software/20260521-keycmd-019-release/', { waitUntil: 'domcontentloaded' });
-  const zhLink = page.locator('a[data-locale-switch][href="/zh/software/20260521-keycmd-019-release/"]');
+  await page.goto('/apps/20260521-keycmd-019-release/', { waitUntil: 'domcontentloaded' });
+  const zhLink = page.locator('a[data-locale-switch][href="/zh/apps/20260521-keycmd-019-release/"]');
   await expect(zhLink).not.toHaveCount(0);
 });
 
@@ -63,11 +63,11 @@ test('product channel locale switch preserves path', async ({ page }) => {
 });
 
 test('article locale switch includes hk, ru, and nl targets', async ({ page }) => {
-  await page.goto('/software/20260521-keycmd-019-release/', { waitUntil: 'domcontentloaded' });
+  await page.goto('/apps/20260521-keycmd-019-release/', { waitUntil: 'domcontentloaded' });
   for (const href of [
-    '/hk/software/20260521-keycmd-019-release/',
-    '/ru/software/20260521-keycmd-019-release/',
-    '/nl/software/20260521-keycmd-019-release/',
+    '/hk/apps/20260521-keycmd-019-release/',
+    '/ru/apps/20260521-keycmd-019-release/',
+    '/nl/apps/20260521-keycmd-019-release/',
   ]) {
     await expect(page.locator(`a[data-locale-switch][href="${href}"]`)).not.toHaveCount(0);
   }

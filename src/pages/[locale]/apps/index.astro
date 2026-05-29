@@ -1,6 +1,6 @@
 ---
 import FeedLayout from '../../../layouts/FeedLayout.astro';
-import { softwareFeedProps } from '../../../lib/feed-pages';
+import { appsFeedProps } from '../../../lib/feed-pages';
 import {
   INVALID_LOCALE_REDIRECT,
   isSiteLocale,
@@ -18,10 +18,10 @@ if (!localeParam || !isSiteLocale(localeParam)) {
 }
 
 if (localeParam === 'en') {
-  return Astro.redirect(localizedPath('en', 'software'), 301);
+  return Astro.redirect(localizedPath('en', 'apps'), 301);
 }
 
-const props = await softwareFeedProps(localeParam, Astro.url);
+const props = await appsFeedProps(localeParam, Astro.url);
 ---
 
 <FeedLayout

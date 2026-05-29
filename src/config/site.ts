@@ -54,7 +54,7 @@ export function newsNav(locale: SiteLocale): NavItem[] {
         { label: 'uConsole KVM', href: localizedPath(locale, 'product', 'uconsole-kvm-extension') },
       ],
     },
-    { label: ui.nav.software, href: localizedPath(locale, 'software') },
+    { label: ui.nav.apps, href: localizedPath(locale, 'apps') },
     { label: ui.nav.events, href: localizedPath(locale, 'events') },
     { label: ui.nav.home, href: surfaceMarketingHost(locale), external: true },
     { label: ui.nav.docs, href: docsPath(locale), external: true },

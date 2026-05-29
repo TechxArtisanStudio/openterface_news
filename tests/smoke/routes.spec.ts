@@ -42,18 +42,18 @@ test('localized feeds return 200 with locale-appropriate H1', async ({ page }) =
 
 test('pilot article exists in each sample locale', async ({ page }) => {
   const paths = [
-    '/software/20260521-keycmd-019-release/',
-    '/de/software/20260521-keycmd-019-release/',
-    '/zh/software/20260521-keycmd-019-release/',
-    '/ro/software/20260521-keycmd-019-release/',
-    '/ja/software/20260521-keycmd-019-release/',
-    '/hk/software/20260521-keycmd-019-release/',
-    '/tw/software/20260521-keycmd-019-release/',
-    '/ru/software/20260521-keycmd-019-release/',
-    '/ar/software/20260521-keycmd-019-release/',
-    '/tr/software/20260521-keycmd-019-release/',
-    '/pl/software/20260521-keycmd-019-release/',
-    '/nl/software/20260521-keycmd-019-release/',
+    '/apps/20260521-keycmd-019-release/',
+    '/de/apps/20260521-keycmd-019-release/',
+    '/zh/apps/20260521-keycmd-019-release/',
+    '/ro/apps/20260521-keycmd-019-release/',
+    '/ja/apps/20260521-keycmd-019-release/',
+    '/hk/apps/20260521-keycmd-019-release/',
+    '/tw/apps/20260521-keycmd-019-release/',
+    '/ru/apps/20260521-keycmd-019-release/',
+    '/ar/apps/20260521-keycmd-019-release/',
+    '/tr/apps/20260521-keycmd-019-release/',
+    '/pl/apps/20260521-keycmd-019-release/',
+    '/nl/apps/20260521-keycmd-019-release/',
   ];
 
   for (const path of paths) {
@@ -78,8 +78,8 @@ test('pilot article page loads with single h1', async ({ page }) => {
   await expect(page.getByRole('link', { name: /Discuss on Forum/i })).toBeVisible();
 });
 
-test('software and events channels return 200', async ({ page }) => {
-  for (const path of ['/software/', '/events/']) {
+test('apps and events channels return 200', async ({ page }) => {
+  for (const path of ['/apps/', '/events/']) {
     const response = await page.goto(path, { waitUntil: 'commit' });
     expect(response?.status()).toBe(200);
   }

@@ -1,8 +1,8 @@
 ---
 import FeedLayout from '../../layouts/FeedLayout.astro';
-import { softwareFeedProps } from '../../lib/feed-pages';
+import { appsFeedProps } from '../../lib/feed-pages';
 
-const props = await softwareFeedProps('en', Astro.url);
+const props = await appsFeedProps('en', Astro.url);
 ---
 
 <FeedLayout
