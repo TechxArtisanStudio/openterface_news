@@ -14,11 +14,15 @@ export interface UiStrings {
     shop: string;
     rss: string;
     newsBadge: string;
+    media?: string;
+    community?: string;
   };
   mobile: {
     products: string;
-    channels: string;
-    more: string;
+    apps?: string;
+    ecosystem?: string;
+    channels?: string;
+    more?: string;
     language: string;
   };
   feed: {
@@ -102,11 +106,13 @@ const en: UiStrings = {
     shop: 'Shop',
     rss: 'RSS',
     newsBadge: 'News',
+    media: 'Media',
+    community: 'Community',
   },
   mobile: {
     products: 'Products',
-    channels: 'Channels',
-    more: 'More',
+    apps: 'Apps',
+    ecosystem: 'Ecosystem',
     language: 'Language',
   },
   feed: {

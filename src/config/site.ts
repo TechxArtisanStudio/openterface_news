@@ -1,7 +1,8 @@
-import { docsPath, type ProductSlug } from './products';
+import type { ProductSlug } from './products';
 import { surfaceDocsBase, surfaceMarketingHost } from './surface-urls';
-import { t, buyProductLabel as i18nBuyLabel } from '../i18n/ui';
-import { localizedPath, type SiteLocale } from '../lib/locale';
+import { buyProductLabel as i18nBuyLabel, t } from '../i18n/ui';
+import { newsEcosystemNav } from '../lib/ecosystem-nav';
+import type { SiteLocale } from '../lib/locale';
 
 export const siteConfig = {
   name: 'Openterface News',
@@ -42,24 +43,7 @@ export type NavItem = {
 };
 
 export function newsNav(locale: SiteLocale): NavItem[] {
-  const ui = t(locale);
-  return [
-    {
-      label: ui.nav.products,
-      href: localizedPath(locale, 'product', 'kvm-go'),
-      children: [
-        { label: 'KVM-GO', href: localizedPath(locale, 'product', 'kvm-go') },
-        { label: 'Mini-KVM', href: localizedPath(locale, 'product', 'minikvm') },
-        { label: 'KeyMod', href: localizedPath(locale, 'product', 'keymod') },
-        { label: 'uConsole KVM', href: localizedPath(locale, 'product', 'uconsole-kvm-extension') },
-      ],
-    },
-    { label: ui.nav.apps, href: localizedPath(locale, 'apps') },
-    { label: ui.nav.events, href: localizedPath(locale, 'events') },
-    { label: ui.nav.home, href: surfaceMarketingHost(locale), external: true },
-    { label: ui.nav.docs, href: docsPath(locale), external: true },
-    { label: ui.nav.shop, href: siteConfig.links.shop, external: true },
-  ];
+  return newsEcosystemNav(locale, t(locale));
 }
 
 export function buyProductLabel(locale: SiteLocale, product: ProductSlug): string {
