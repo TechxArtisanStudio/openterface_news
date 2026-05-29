@@ -63,8 +63,17 @@ export const TOPIC_LABELS: Record<TopicSlug, string> = {
 /** Marketing subdomain hosts (locale code ≠ subdomain for ja/ko/zh). */
 const MARKETING_HOST_BY_LOCALE: Record<SiteLocale, string> = surfaceMarketingHosts();
 
+const MARKETING_SHORT: Record<ProductSlug, string> = {
+  keymod: 'keymod',
+  'kvm-go': 'kvmgo',
+  minikvm: 'minikvm',
+  'uconsole-kvm-extension': 'kvmext',
+  accessories: 'accessories',
+};
+
 export function marketingProductUrl(locale: SiteLocale, product: ProductSlug): string {
-  return `${MARKETING_HOST_BY_LOCALE[locale]}/products/${product}/`;
+  const short = MARKETING_SHORT[product];
+  return `${MARKETING_HOST_BY_LOCALE[locale]}/${short}/`;
 }
 
 export function marketingHomeUrl(locale: SiteLocale): string {
