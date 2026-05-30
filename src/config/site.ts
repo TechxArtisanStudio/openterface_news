@@ -10,6 +10,7 @@ export const siteConfig = {
   description:
     'Official product updates, software releases, and event news from Openterface — KVM-GO, Mini-KVM, KeyMod, and more.',
   ogImage: 'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
+  headerBrandLogo: 'https://assets2.openterface.com/images/icon/op-news.svg',
   accent: '#ff6e42',
   links: {
     marketingEn: surfaceMarketingHost('en'),

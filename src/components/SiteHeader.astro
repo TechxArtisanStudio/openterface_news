@@ -1,5 +1,5 @@
 ---
-import { newsNav } from '../config/site';
+import { newsNav, siteConfig } from '../config/site';
 import { LOCALE_LABELS, localizedPath, localizedRssPath, switchLocalePath, type SiteLocale } from '../lib/locale';
 import { t } from '../i18n/ui';
 import { preserveQueryForLocaleSwitch } from '../lib/preserve-query';
@@ -28,9 +28,8 @@ const ecosystemMobileLabel = ui.mobile.ecosystem ?? ui.mobile.more ?? 'Ecosystem
   <div class="site-header__inner">
     <div class="site-header__start">
       <a href={homeHref} class="site-header__brand">
-        <Logo variant="onPrimary" class="site-header__logo" />
+        <Logo brandSrc={siteConfig.headerBrandLogo} alt={siteConfig.name} class="site-header__logo" />
       </a>
-      <a href={homeHref} class="site-header__suffix">{ui.nav.newsBadge}</a>
       <span class="site-header__lead" aria-hidden="true"></span>
     </div>
 
