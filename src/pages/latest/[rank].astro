@@ -1,0 +1,17 @@
+---
+import LatestRedirect from '../../components/LatestRedirect.astro';
+import { getLatestRankParamPaths } from '../../lib/news';
+import { parseRankParam } from '../../lib/latest-redirect';
+
+export async function getStaticPaths() {
+  const ranks = await getLatestRankParamPaths('en');
+  return ranks.map(({ rank }) => ({ params: { rank } }));
+}
+
+const rank = parseRankParam(Astro.params.rank);
+if (rank === null) {
+  Astro.response.status = 404;
+}
+---
+
+{rank !== null ? <LatestRedirect locale="en" rank={rank} /> : <p>Not found</p>}

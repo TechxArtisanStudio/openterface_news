@@ -1,0 +1,19 @@
+---
+import { articlePath, getRankedArticle } from '../lib/news';
+import { latestRedirectHtml } from '../lib/latest-redirect';
+import type { SiteLocale } from '../lib/locale';
+
+interface Props {
+  locale: SiteLocale;
+  rank: number;
+}
+
+const { locale, rank } = Astro.props;
+const entry = await getRankedArticle(locale, rank);
+
+if (!entry) {
+  Astro.response.status = 404;
+}
+---
+
+{entry ? <Fragment set:html={latestRedirectHtml(articlePath(entry))} /> : <p>Not found</p>}

@@ -1,0 +1,19 @@
+---
+import LatestRedirect from '../../../components/LatestRedirect.astro';
+import { INVALID_LOCALE_REDIRECT, SUPPORTED_LOCALES } from '../../../lib/locale';
+import { enLatestCanonicalPath, resolveLocaleParam } from '../../../lib/latest-redirect';
+
+export async function getStaticPaths() {
+  return SUPPORTED_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const resolved = resolveLocaleParam(Astro.params.locale);
+if (resolved === null) {
+  return Astro.redirect(INVALID_LOCALE_REDIRECT, 301);
+}
+if (resolved === 'redirect-en') {
+  return Astro.redirect(enLatestCanonicalPath(1), 301);
+}
+---
+
+<LatestRedirect locale={resolved} rank={1} />

@@ -1,0 +1,37 @@
+---
+import LatestRedirect from '../../../components/LatestRedirect.astro';
+import { getLatestRankParamPaths } from '../../../lib/news';
+import { SUPPORTED_LOCALES } from '../../../lib/locale';
+import {
+  enLatestCanonicalPath,
+  parseRankParam,
+  resolveLocaleParam,
+} from '../../../lib/latest-redirect';
+import { INVALID_LOCALE_REDIRECT } from '../../../lib/locale';
+
+export async function getStaticPaths() {
+  const paths: { params: { locale: string; rank: string } }[] = [];
+  for (const locale of SUPPORTED_LOCALES) {
+    const ranks = await getLatestRankParamPaths(locale);
+    for (const { rank } of ranks) {
+      paths.push({ params: { locale, rank } });
+    }
+  }
+  return paths;
+}
+
+const resolved = resolveLocaleParam(Astro.params.locale);
+const rank = parseRankParam(Astro.params.rank);
+if (resolved === null || rank === null) {
+  Astro.response.status = 404;
+}
+if (resolved === 'redirect-en' && rank !== null) {
+  return Astro.redirect(enLatestCanonicalPath(rank), 301);
+}
+---
+
+{resolved !== null && rank !== null && resolved !== 'redirect-en' ? (
+  <LatestRedirect locale={resolved} rank={rank} />
+) : (
+  <p>Not found</p>
+)}

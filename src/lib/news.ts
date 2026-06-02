@@ -4,6 +4,19 @@ import type { ProductSlug } from '../config/products';
 
 export type NewsEntry = CollectionEntry<'news'>;
 
+/** Max site-wide rank aliases per locale (/latest/, /latest/2/, …). */
+export const MAX_RANK_ALIAS = 10;
+
+export function compareNewsEntries(a: NewsEntry, b: NewsEntry): number {
+  const dateDiff = b.data.date.getTime() - a.data.date.getTime();
+  if (dateDiff !== 0) return dateDiff;
+  return a.data.slug.localeCompare(b.data.slug);
+}
+
+export function sortNewsEntries(articles: NewsEntry[]): NewsEntry[] {
+  return [...articles].sort(compareNewsEntries);
+}
+
 export function articlePath(entry: NewsEntry): string {
   const { locale, channel, product, slug, eventType } = entry.data;
   if (channel === 'product' && product) {
@@ -24,7 +37,26 @@ export async function getNewsArticles(locale: SiteLocale, includeDrafts = false)
     if (!includeDrafts && data.draft) return false;
     return true;
   });
-  return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  return sortNewsEntries(all);
+}
+
+/** 1-based rank (1 = newest). Returns null if out of range or no articles. */
+export async function getRankedArticle(
+  locale: SiteLocale,
+  rank: number,
+  includeDrafts = false,
+): Promise<NewsEntry | null> {
+  if (!Number.isInteger(rank) || rank < 1 || rank > MAX_RANK_ALIAS) return null;
+  const articles = await getNewsArticles(locale, includeDrafts);
+  return articles[rank - 1] ?? null;
+}
+
+/** Static paths for /latest/[rank]/ (ranks 2..N only). */
+export async function getLatestRankParamPaths(locale: SiteLocale): Promise<{ rank: string }[]> {
+  const articles = await getNewsArticles(locale);
+  const max = Math.min(articles.length, MAX_RANK_ALIAS);
+  if (max < 2) return [];
+  return Array.from({ length: max - 1 }, (_, i) => ({ rank: String(i + 2) }));
 }
 
 export async function getProductArticles(

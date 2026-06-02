@@ -11,6 +11,8 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/404') &&
         !page.includes('/en/') &&
+        !page.includes('/latest/') &&
+        !page.includes('/newest/') &&
         !page.endsWith('/feed.xml'),
     }),
   ],
