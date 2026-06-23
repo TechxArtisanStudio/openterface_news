@@ -35,7 +35,7 @@ author: "Openterface Team"
   *注意：最终的外壳尺寸和重量将在我们完成设计时确认。我们的目标是大约 18 × 18 × 55 毫米（约 25 克）。PCB 设计已经最终确定并且坚固。对于 VGA 型号，外壳设计仍在进行中，将比 HDMI 和 DP 版本稍大。*
 
 * **开源精神，无处不在**
-  一如既往，KVM-Go 是完全开源的硬件，并配有开源软件，我们的 [Openterface KVM](https://openterface.com/app/)，支持各种操作系统，兼容 Windows、macOS、Linux、Android 和 Chrome 浏览器。
+  一如既往，KVM-Go 是完全开源的硬件，并配有开源软件，我们的 [Openterface KVM](https://openterface.com/apps/)，支持各种操作系统，兼容 Windows、macOS、Linux、Android 和 Chrome 浏览器。
 
 * **目标设备零设置**
   无需驱动程序，无需安装，只需纯即插即用功能，独立于网络或配置。

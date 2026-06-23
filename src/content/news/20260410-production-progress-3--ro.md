@@ -79,7 +79,7 @@ Vrem să oferim o imagine onestă despre **unde se află fiecare variantă** și
 
 Știm că așteptarea este frustrantă, mai ales când se schimbă termenele. Vă mulțumim pentru răbdare; ne angajăm la **actualizări transparente**: ce este făcut, ce urmează, ce s-a schimbat. Fără ghicit, fără surprize.
 
-Întrebări? Scrieți-ne la info@openterface.com sau alăturați-vă conversației pe [Discord](https://openterface.com/about/community/), unde comunitatea discută activ dezvoltarea Openterface.
+Întrebări? Scrieți-ne la info@openterface.com sau alăturați-vă conversației pe [Discord](https://openterface.com/community/), unde comunitatea discută activ dezvoltarea Openterface.
 
 ## Înainte
 

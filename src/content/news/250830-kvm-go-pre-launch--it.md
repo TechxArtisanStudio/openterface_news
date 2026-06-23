@@ -35,7 +35,7 @@ Basandoci sul successo della nostra bandiera [Mini-KVM](https://www.crowdsupply.
   *Nota: le dimensioni e il peso finali del case saranno confermati al completamento del design. Stiamo mirando a circa 18 × 18 × 55 mm (circa 25 g). Il design PCB è già finalizzato e robusto. Per il modello VGA, il design del case è ancora in corso e sarà leggermente più grande delle versioni HDMI e DP.*
 
 * **Etica open source, ovunque**
-  Come prima, KVM-Go è completamente open hardware e viene fornito con software open source, la nostra [Openterface KVM](https://openterface.com/app/), che supporta vari OS, compatibile con Windows, macOS, Linux, Android e browser Chrome.
+  Come prima, KVM-Go è completamente open hardware e viene fornito con software open source, la nostra [Openterface KVM](https://openterface.com/apps/), che supporta vari OS, compatibile con Windows, macOS, Linux, Android e browser Chrome.
 
 * **Zero configurazione sui dispositivi target**
   Nessun driver, nessuna installazione, solo funzionalità plug-and-play pura, indipendente da rete o configurazione.

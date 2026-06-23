@@ -34,7 +34,7 @@ Amiral gemimiz [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-m
   *Not: Tasarım tamamlandığında son kasa boyutu ve ağırlığı onaylanacaktır. Yaklaşık 18×18×55 mm (yaklaşık 25 gr) boyutu hedefliyoruz. PCB tasarımı halihazırda tamamlanmış ve sağlamdır. VGA modeli için kasa tasarımı halen devam etmektedir ve HDMI ve DP versiyonlarından biraz daha büyük olacaktır.*
 
 * **Her yerde açık kaynak ahlakı**
-  Daha önce olduğu gibi, KVM-Go tamamen açık bir donanımdır ve Windows, macOS, Linux, Android ve Chrome tarayıcılarla uyumlu, çeşitli işletim sistemlerini destekleyen [Openterface KVM](https://openterface.com/app/) adlı açık kaynak yazılımlarımızla birlikte gelir.
+  Daha önce olduğu gibi, KVM-Go tamamen açık bir donanımdır ve Windows, macOS, Linux, Android ve Chrome tarayıcılarla uyumlu, çeşitli işletim sistemlerini destekleyen [Openterface KVM](https://openterface.com/apps/) adlı açık kaynak yazılımlarımızla birlikte gelir.
 
 * **Hedef cihazlarda sıfır kurulum**
   Sürücü yok, kurulum yok, yalnızca tak ve çalıştır işlevselliği, ağdan veya yapılandırmadan bağımsız.

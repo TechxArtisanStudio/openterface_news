@@ -34,7 +34,7 @@ author: "TechxArtisan Studio"
 * 다양한 대상 장치를 제어하는 방법
 * KVM-GO가 실제 워크플로우에 어떻게 적합하게 들어맞는지
 
-더 가벼운, 손으로 직접 테스트하고 실제 사용 사례에 관심이 있으신 분들은 우리 [소셜 미디어](https://openterface.com/about/community/)도 확인해 주세요. 우리는 KVM-GO가 실제 기술 전선에서 어떻게 작동하는지 보여주는 원시 테스트 클립과 실용적인 시나리오를 자주 공유합니다.
+더 가벼운, 손으로 직접 테스트하고 실제 사용 사례에 관심이 있으신 분들은 우리 [소셜 미디어](https://openterface.com/community/)도 확인해 주세요. 우리는 KVM-GO가 실제 기술 전선에서 어떻게 작동하는지 보여주는 원시 테스트 클립과 실용적인 시나리오를 자주 공유합니다.
 
 ## 소프트웨어 진행 상황: Mini-KVM과 KVM-GO를 위한 하나의 앱
 
@@ -52,7 +52,7 @@ author: "TechxArtisan Studio"
 * 빠른 반응 시간, 특히 빠르거나 지속적인 상호작용 시
 
 우리의 KVM 솔루션은 게임이 주요 사용 사례가 아니지만, 실제 시나리오에서 입력 반응성을 매우 중요하게 생각합니다. 기술적 세부 사항에 대해 더 알고 싶으시다면, 특히 macOS에서, 우리는 최근 이에 대한 심층 분석을 여기 게시했습니다:
-👉 **[Openterface Mini-KVM 마우스 속도 및 macOS에서의 게임 성능](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
+👉 **[Openterface Mini-KVM 마우스 속도 및 macOS에서의 게임 성능](https://news.openterface.com/apps/20251218-macos-mouse-speed/)**
 
 그 기사에서 논의된 많은 개선 사항이 이제 Mini-KVM과 KVM-GO를 위한 통합 소프트웨어 스택에 직접적으로 반영되고 있습니다.
 

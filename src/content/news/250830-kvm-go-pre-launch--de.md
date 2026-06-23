@@ -35,7 +35,7 @@ Aufbauend auf dem Erfolg unseres Flaggschiffs [Mini-KVM](https://www.crowdsupply
   *Hinweis: Die endgültige Gehäusegröße und das Gewicht werden bestätigt, sobald wir das Design abgeschlossen haben. Wir streben etwa 18 × 18 × 55 mm (ca. 25 g) an. Das PCB-Design ist bereits finalisiert und robust. Für das VGA-Modell ist das Gehäusedesign noch in Arbeit und wird etwas größer als die HDMI- und DP-Versionen sein.*
 
 * **Open-Source-Ethos, überall**
-  Wie zuvor ist KVM-Go vollständig Open-Hardware und kommt mit Open-Source-Software, unserer [Openterface KVM](https://openterface.com/app/), die verschiedene Betriebssysteme unterstützt, kompatibel mit Windows, macOS, Linux, Android und Chrome-Browsern.
+  Wie zuvor ist KVM-Go vollständig Open-Hardware und kommt mit Open-Source-Software, unserer [Openterface KVM](https://openterface.com/apps/), die verschiedene Betriebssysteme unterstützt, kompatibel mit Windows, macOS, Linux, Android und Chrome-Browsern.
 
 * **Null-Setup auf Zielgeräten**
   Keine Treiber, keine Installation, nur reine Plug-and-Play-Funktionalität, unabhängig von Netzwerk oder Konfiguration.

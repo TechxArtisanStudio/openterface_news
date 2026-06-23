@@ -35,7 +35,7 @@ KVM-over-USB 体験の次の進化をお知らせします：**Openterface KVM-G
   *注意：最終的なケースサイズと重量は設計完了時に確認されます。約 18 × 18 × 55 mm（約 25 g）を目標としています。PCB 設計はすでに最終化され、堅牢です。VGA モデルについては、ケース設計はまだ進行中で、HDMI と DP バージョンよりわずかに大きくなります。*
 
 * **オープンソース精神、どこでも**
-  これまでと同様に、KVM-Go は完全にオープンハードウェアで、オープンソースソフトウェア、私たちの [Openterface KVM](https://openterface.com/app/) を提供し、Windows、macOS、Linux、Android、Chrome ブラウザと互換性があります。
+  これまでと同様に、KVM-Go は完全にオープンハードウェアで、オープンソースソフトウェア、私たちの [Openterface KVM](https://openterface.com/apps/) を提供し、Windows、macOS、Linux、Android、Chrome ブラウザと互換性があります。
 
 * **ターゲットデバイスでのゼロセットアップ**
   ドライバー不要、インストール不要、純粋なプラグアンドプレイ機能、ネットワークや設定に依存しません。

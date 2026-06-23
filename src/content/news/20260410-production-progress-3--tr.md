@@ -78,7 +78,7 @@ Bizim için açık donanım sadece bir etiket değildir. Bu nasıl inşa ettiği
 
 Beklemenin sinir bozucu olduğunu biliyoruz, özellikle de zaman çizelgeleri değiştiğinde. Sabrınız için teşekkür ederiz ve **şeffaf güncellemeler** yapmaya kararlıyız: ne yapıldı, sırada ne var ve ne değişti. Tahmin yok, sürpriz yok. 
 
-Sorunuz mu var? Bize info@openterface.com adresinden ulaşın veya topluluğumuzun Openterface gelişimini aktif olarak tartıştığı [Discord](https://openterface.com/about/community/) adresindeki sohbete katılın.
+Sorunuz mu var? Bize info@openterface.com adresinden ulaşın veya topluluğumuzun Openterface gelişimini aktif olarak tartıştığı [Discord](https://openterface.com/community/) adresindeki sohbete katılın.
 
 ## İleriye Doğru
 

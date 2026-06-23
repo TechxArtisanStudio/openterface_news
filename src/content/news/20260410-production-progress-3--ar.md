@@ -78,7 +78,7 @@ author: "Openterface Team | TechxArtisan"
 
 نحن نعلم أن الانتظار أمر محبط، خاصة عندما تتغير الجداول الزمنية. نحن نقدر سعة صدرك، ونحن ملتزمون بـ **تحديثات شفافة**: ما تم، وما هو التالي، وما الذي تغير. لا التخمين، لا مفاجآت. 
 
-أسئلة؟ تواصل معنا على info@openterface.com، أو انضم إلى المحادثة على [Discord](https://openterface.com/about/community/) حيث يناقش مجتمعنا بنشاط تطوير Openterface.
+أسئلة؟ تواصل معنا على info@openterface.com، أو انضم إلى المحادثة على [Discord](https://openterface.com/community/) حيث يناقش مجتمعنا بنشاط تطوير Openterface.
 
 ## المضي قدما
 

@@ -78,7 +78,7 @@ We willen een eerlijk beeld geven van **waar elke variant staat** en **wat u kun
 
 We weten dat wachten frustrerend is, vooral als de tijdlijnen verschuiven. We stellen uw geduld op prijs en streven naar **transparante updates**: wat er is gedaan, wat de toekomst biedt en wat er is veranderd. Geen gissen, geen verrassingen. 
 
-Vragen? Bereik ons ​​op info@openterface.com, of neem deel aan het gesprek op [Discord](https://openterface.com/about/community/), waar onze community actief de ontwikkeling van Openterface bespreekt.
+Vragen? Bereik ons ​​op info@openterface.com, of neem deel aan het gesprek op [Discord](https://openterface.com/community/), waar onze community actief de ontwikkeling van Openterface bespreekt.
 
 ## Vooruit
 

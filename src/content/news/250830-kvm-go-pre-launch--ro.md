@@ -35,7 +35,7 @@ Construind pe succesul navei noastre amiral [Mini-KVM](https://www.crowdsupply.c
   *Notă: dimensiunea și greutatea finală a carcasei vor fi confirmate când finalizăm designul. Vizezăm aproximativ 18 × 18 × 55 mm (aproximativ 25 g). Designul PCB este deja finalizat și robust. Pentru modelul VGA, designul carcasei este încă în progres și va fi ușor mai mare decât versiunile HDMI și DP.*
 
 * **Etica open source, pretutindeni**
-  Ca înainte, KVM-Go este complet open hardware și vine cu software open source, [Openterface KVM](https://openterface.com/app/) al nostru, suportând diverse OS, compatibil cu Windows, macOS, Linux, Android și browsere Chrome.
+  Ca înainte, KVM-Go este complet open hardware și vine cu software open source, [Openterface KVM](https://openterface.com/apps/) al nostru, suportând diverse OS, compatibil cu Windows, macOS, Linux, Android și browsere Chrome.
 
 * **Configurare zero pe dispozitivele țintă**
   Fără drivere, fără instalare, doar funcționalitate plug-and-play pură, independentă de rețea sau configurație.

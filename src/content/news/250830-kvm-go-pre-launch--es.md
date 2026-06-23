@@ -35,7 +35,7 @@ Construyendo sobre el éxito de nuestro buque insignia [Mini-KVM](https://www.cr
   *Nota: el tamaño y peso final de la carcasa se confirmarán al completar el diseño. Estamos apuntando a aproximadamente 18 × 18 × 55 mm (alrededor de 25 g). El diseño PCB ya está finalizado y es robusto. Para el modelo VGA, el diseño de la carcasa aún está en progreso y será ligeramente más grande que las versiones HDMI y DP.*
 
 * **Ética open source, en todas partes**
-  Como antes, KVM-Go es completamente open hardware y viene con software open source, nuestra [Openterface KVM](https://openterface.com/app/), soportando varios OS, compatible con Windows, macOS, Linux, Android y navegadores Chrome.
+  Como antes, KVM-Go es completamente open hardware y viene con software open source, nuestra [Openterface KVM](https://openterface.com/apps/), soportando varios OS, compatible con Windows, macOS, Linux, Android y navegadores Chrome.
 
 * **Configuración cero en dispositivos objetivo**
   Sin controladores, sin instalación, solo funcionalidad plug-and-play pura, independiente de red o configuración.

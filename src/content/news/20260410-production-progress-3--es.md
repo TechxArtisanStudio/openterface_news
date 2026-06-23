@@ -79,7 +79,7 @@ Queremos ofrecer una visión honesta de **en qué punto está cada variante** y 
 
 Sabemos que la espera es frustrante, sobre todo cuando cambian los plazos. Agradecemos vuestra paciencia y nos comprometemos a **actualizaciones transparentes**: qué está hecho, qué sigue y qué ha cambiado. Sin conjeturas ni sorpresas.
 
-¿Preguntas? Escríbenos a info@openterface.com o únete a la conversación en [Discord](https://openterface.com/about/community/), donde la comunidad sigue activamente el desarrollo de Openterface.
+¿Preguntas? Escríbenos a info@openterface.com o únete a la conversación en [Discord](https://openterface.com/community/), donde la comunidad sigue activamente el desarrollo de Openterface.
 
 ## Siguientes pasos
 

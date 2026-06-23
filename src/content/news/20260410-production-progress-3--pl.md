@@ -78,7 +78,7 @@ Chcemy podzielić się uczciwym obrazem **gdzie znajduje się każdy wariant** i
 
 Wiemy, że czekanie jest frustrujące, zwłaszcza gdy zmieniają się ramy czasowe. Dziękujemy za cierpliwość i staramy się dostarczać **przejrzyste aktualizacje**: co zostało zrobione, co dalej i co się zmieniło. Bez zgadywania i bez niespodzianek. 
 
-Pytania? Skontaktuj się z nami pod adresem info@openterface.com lub dołącz do rozmowy na [Discord](https://openterface.com/about/community/), gdzie nasza społeczność aktywnie dyskutuje nad rozwojem Openterface.
+Pytania? Skontaktuj się z nami pod adresem info@openterface.com lub dołącz do rozmowy na [Discord](https://openterface.com/community/), gdzie nasza społeczność aktywnie dyskutuje nad rozwojem Openterface.
 
 ## Idź naprzód
 

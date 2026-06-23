@@ -79,7 +79,7 @@ KVM-GO가 **CE, RoHS, UKCA 인증**을 획득했음을 기쁘게 알립니다.
 
 일정이 밀릴 때 기다리는 일은 답답합니다. 인내에 감사드리며, **투명한 업데이트**—무엇이 완료됐는지, 다음은 무엇인지, 무엇이 바뀌었는지—를 약속드립니다. 추측이나 깜짝 소식은 없도록 하겠습니다.
 
-문의는 info@openterface.com으로, Openterface 개발에 대해 활발히 이야기하는 [Discord](https://openterface.com/about/community/)에도 참여해 주세요.
+문의는 info@openterface.com으로, Openterface 개발에 대해 활발히 이야기하는 [Discord](https://openterface.com/community/)에도 참여해 주세요.
 
 ## 앞으로
 

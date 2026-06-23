@@ -35,7 +35,7 @@ author: "TechxArtisan Studio"
 * 如何控制不同的目标设备
 * KVM-GO如何融入实际工作流程，从快速访问到多目标设置
 
-如果您想了解更多随意的、实际操作的测试和真实使用场景，欢迎查看我们的[社交媒体](https://openterface.com/about/community/)。我们经常分享原始测试片段和实际场景，展示KVM-GO在真实技术前线的表现。
+如果您想了解更多随意的、实际操作的测试和真实使用场景，欢迎查看我们的[社交媒体](https://openterface.com/community/)。我们经常分享原始测试片段和实际场景，展示KVM-GO在真实技术前线的表现。
 
 ## 软件进展：Mini-KVM和KVM-GO的统一应用
 
@@ -53,7 +53,7 @@ author: "TechxArtisan Studio"
 * 在快速或连续交互时更敏捷的响应
 
 虽然游戏不是我们KVM解决方案的主要目标用例，但我们仍然非常关心实际场景中的输入响应性。如果您对技术细节感兴趣，特别是在macOS上，我们最近在这里发布了一篇深度解析：
-👉 **[Openterface Mini-KVM macOS鼠标速度和游戏性能](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
+👉 **[Openterface Mini-KVM macOS鼠标速度和游戏性能](https://news.openterface.com/apps/20251218-macos-mouse-speed/)**
 
 那里讨论的许多改进现在直接融入到我们为Mini-KVM和KVM-GO的统一软件堆栈中。
 

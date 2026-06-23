@@ -79,7 +79,7 @@ We want to share an honest picture of **where each variant stands** and **what t
 
 We know waiting is frustrating, especially when timelines shift. We appreciate your patience, and we're committed to **transparent updates**: what's done, what's next, and what's changed. No guessing, no surprises. 
 
-Questions? Reach us at info@openterface.com, or join the conversation on [Discord](https://openterface.com/about/community/) where our community is actively discussing Openterface development.
+Questions? Reach us at info@openterface.com, or join the conversation on [Discord](https://openterface.com/community/) where our community is actively discussing Openterface development.
 
 ## Moving Forward
 

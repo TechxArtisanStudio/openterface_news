@@ -35,7 +35,7 @@ Nel video, vedrai:
 * Come controllare diversi dispositivi target
 * Come KVM-GO si adatta a diversi flussi di lavoro, dai semplici accessi veloci alle configurazioni multi-dispositivo
 
-Se sei curioso di testi più casuali, manici ai test e uso reale, puoi controllare i nostri [social media](https://openterface.com/about/community/). Spesso condividiamo clip di test grezze e scenari pratici per mostrare come KVM-GO si comporta su frontiere tecnologiche reali.
+Se sei curioso di testi più casuali, manici ai test e uso reale, puoi controllare i nostri [social media](https://openterface.com/community/). Spesso condividiamo clip di test grezze e scenari pratici per mostrare come KVM-GO si comporta su frontiere tecnologiche reali.
 
 ## Progressi del software: un'app per Mini-KVM e KVM-GO
 
@@ -53,7 +53,7 @@ Abbiamo anche migliorato l'**esecuzione del tastiera e mouse**, con un focus su:
 * Risposta più rapida durante interazioni rapide o continue
 
 Sebbene il gaming non sia lo scenario principale di utilizzo per le nostre soluzioni KVM, ci preoccupiamo comunque molto della risposta dell'input in scenari reali. Se sei interessato ai dettagli tecnici, specialmente su macOS, abbiamo recentemente pubblicato un'analisi approfondita qui:
-👉 **[Velocità del mouse Openterface Mini-KVM e prestazioni per il gaming su macOS](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
+👉 **[Velocità del mouse Openterface Mini-KVM e prestazioni per il gaming su macOS](https://news.openterface.com/apps/20251218-macos-mouse-speed/)**
 
 Molte delle migliorie discusse lì saranno direttamente incorporate nel nostro stack software unificato per entrambi Mini-KVM e KVM-GO.
 

@@ -34,7 +34,7 @@ Voortbouwend op het succes van ons vlaggenschip [Mini-KVM](https://www.crowdsupp
   *Opmerking: de definitieve maat en het gewicht van de behuizing worden bevestigd zodra we het ontwerp voltooien. We mikken op ongeveer 18 × 18 × 55 mm (ongeveer 25 g). Het PCB-ontwerp is al afgerond en robuust. Voor het VGA-model is het ontwerp van de behuizing nog in ontwikkeling en zal iets groter zijn dan de HDMI- en DP-versies.*
 
 * **Open source-ethos, overal**
-  Net als voorheen is KVM-Go volledig open hardware en wordt het geleverd met open-sourcesoftware, onze [Openterface KVM](https://openterface.com/app/), die verschillende besturingssystemen ondersteunt, compatibel met Windows-, macOS-, Linux-, Android- en Chrome-browsers.
+  Net als voorheen is KVM-Go volledig open hardware en wordt het geleverd met open-sourcesoftware, onze [Openterface KVM](https://openterface.com/apps/), die verschillende besturingssystemen ondersteunt, compatibel met Windows-, macOS-, Linux-, Android- en Chrome-browsers.
 
 * **Nul configuratie op doelapparaten**
   Geen stuurprogramma's, geen installatie, alleen pure plug-and-play-functionaliteit, onafhankelijk van netwerk of configuratie.

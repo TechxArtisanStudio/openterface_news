@@ -34,7 +34,7 @@ Videoda şunları göreceksiniz:
 * Farklı hedef cihazlar nasıl kontrol edilir
 * Hızlı erişimden çok hedefli kurulumlara kadar KVM-GO gerçek iş akışlarına nasıl uyum sağlar?
 
-Daha gündelik, uygulamalı testler ve gerçek kullanımı merak ediyorsanız [social media](https://openterface.com/about/community/) sayfamıza da göz atmaktan çekinmeyin. KVM-GO'nun gerçek teknoloji ön saflarında nasıl davrandığını gösteren ham test kliplerini ve pratik senaryoları sıklıkla paylaşıyoruz.
+Daha gündelik, uygulamalı testler ve gerçek kullanımı merak ediyorsanız [social media](https://openterface.com/community/) sayfamıza da göz atmaktan çekinmeyin. KVM-GO'nun gerçek teknoloji ön saflarında nasıl davrandığını gösteren ham test kliplerini ve pratik senaryoları sıklıkla paylaşıyoruz.
 
 ## Yazılım İlerlemesi: Mini-KVM ve KVM-GO için Tek Uygulama
 
@@ -52,7 +52,7 @@ Ayrıca aşağıdaki konulara odaklanarak **klavye ve fare performansını** iyi
 * Hızlı veya sürekli etkileşimler sırasında daha hızlı yanıt
 
 KVM çözümlerimiz için birincil hedef kullanım durumu oyun olmasa da, gerçek dünya senaryolarında girdi duyarlılığına hala büyük önem veriyoruz. Özellikle macOS'taki teknik ayrıntılarla ilgileniyorsanız, yakın zamanda burada ayrıntılı bir inceleme yayınladık:
-👉 **[Openterface Mini-KVM Mouse Speed & Gaming Performance on macOS](https://openterface.com/app/updates/20251218-macos-mouse-speed/)**
+👉 **[Openterface Mini-KVM Mouse Speed & Gaming Performance on macOS](https://news.openterface.com/apps/20251218-macos-mouse-speed/)**
 
 Burada tartışılan iyileştirmelerin çoğu artık hem Mini-KVM hem de KVM-GO için birleşik yazılım yığınımıza doğrudan besleniyor.
 
