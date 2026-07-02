@@ -43,8 +43,8 @@ const SKIP_ROOT = new Set([
   'feed.xml',
 ]);
 
-function redirectHtml(target) {
-  const canonical = `${SITE}${target === '/' ? '/' : target}`;
+function redirectHtml(target, { external = false } = {}) {
+  const canonical = external ? target : `${SITE}${target === '/' ? '/' : target}`;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,6 +57,32 @@ function redirectHtml(target) {
 <body><p><a href="${target}">Openterface News</a></p></body>
 </html>
 `;
+}
+
+const SHORTCUT_REDIRECTS = [
+  ['/discord/', 'https://discord.gg/sFTJD6a3R8', true],
+  ['/reddit/', 'https://www.reddit.com/r/Openterface_miniKVM/', true],
+  ['/community/', 'https://openterface.com/community/', true],
+  ['/faq/', 'https://docs.openterface.com/faq/kvm-over-usb/', true],
+  ['/faq/kvm-over-usb/', 'https://docs.openterface.com/faq/kvm-over-usb/', true],
+  ['/basic-testing/', 'https://docs.openterface.com/products/minikvm/support/diagnostic-self-check/', true],
+];
+
+function writeShortcutStub(fromPath, toPath, external = false) {
+  const file = join(DIST, fromPath.replace(/^\//, ''), 'index.html');
+  if (existsSync(file)) return false;
+  mkdirSync(dirname(file), { recursive: true });
+  const target = external ? toPath : toPath.endsWith('/') ? toPath : `${toPath}/`;
+  writeFileSync(file, redirectHtml(target, { external }));
+  return true;
+}
+
+function writeShortcutRedirects() {
+  let count = 0;
+  for (const [from, to, external] of SHORTCUT_REDIRECTS) {
+    if (writeShortcutStub(from, to, external)) count++;
+  }
+  return count;
 }
 
 function collectEnPaths(dir, base = DIST, acc = []) {
@@ -99,3 +125,6 @@ writeFileSync(join(DIST, 'en', 'index.html'), redirectHtml('/'));
 redirectCount++;
 
 console.log(`post-build-en-redirects: ${redirectCount} /en/* stubs with location.replace fallback`);
+
+const shortcutCount = writeShortcutRedirects();
+console.log(`post-build-en-redirects: ${shortcutCount} legacy shortcut redirect stubs`);

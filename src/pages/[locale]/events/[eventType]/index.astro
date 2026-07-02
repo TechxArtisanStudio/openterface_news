@@ -1,0 +1,39 @@
+---
+import FeedLayout from '../../../../layouts/FeedLayout.astro';
+import { eventTypeFeedProps } from '../../../../lib/feed-pages';
+import {
+  INVALID_LOCALE_REDIRECT,
+  isSiteLocale,
+  localizedPath,
+  SUPPORTED_LOCALES,
+} from '../../../../lib/locale';
+
+export async function getStaticPaths() {
+  return SUPPORTED_LOCALES.filter((locale) => locale !== 'en').flatMap((locale) =>
+    ['exhibition', 'contest'].map((eventType) => ({ params: { locale, eventType } })),
+  );
+}
+
+const { locale: localeParam, eventType } = Astro.params;
+if (!localeParam || !isSiteLocale(localeParam)) {
+  return Astro.redirect(INVALID_LOCALE_REDIRECT, 301);
+}
+if (!eventType || !['exhibition', 'contest'].includes(eventType)) {
+  return Astro.redirect(localizedPath(localeParam, 'events'), 301);
+}
+
+if (localeParam === 'en') {
+  return Astro.redirect(localizedPath('en', 'events', eventType), 301);
+}
+
+const props = await eventTypeFeedProps(localeParam, eventType);
+---
+
+<FeedLayout
+  locale={props.locale}
+  title={props.title}
+  description={props.description}
+  articles={props.articles}
+  basePath={props.basePath}
+  showFilters={false}
+/>

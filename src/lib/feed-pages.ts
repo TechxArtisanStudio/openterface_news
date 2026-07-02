@@ -51,6 +51,22 @@ export async function eventsFeedProps(locale: SiteLocale) {
   };
 }
 
+export async function eventTypeFeedProps(locale: SiteLocale, eventType: string) {
+  const ui = t(locale);
+  const articles = (await getNewsArticles(locale)).filter(
+    (a) => a.data.channel === 'events' && a.data.eventType === eventType,
+  );
+  const label = eventType.charAt(0).toUpperCase() + eventType.slice(1);
+
+  return {
+    locale,
+    title: `${ui.feed.eventsTitle} — ${label}`,
+    description: ui.feed.eventsDescription,
+    articles,
+    basePath: localizedPath(locale, 'events', eventType),
+  };
+}
+
 export async function productFeedProps(locale: SiteLocale, product: ProductSlug) {
   const ui = t(locale);
   const productLabel = PRODUCT_LABELS[product];

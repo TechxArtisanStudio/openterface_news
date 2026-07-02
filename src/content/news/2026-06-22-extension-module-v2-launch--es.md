@@ -13,6 +13,7 @@ tags: ["KVM Extension", "uConsole", "Product Launch", "Extension Module v2"]
 featured: true
 draft: false
 author: "Openterface Team"
+---
 
 **22 de junio de 2026** — La siguiente generación de nuestra expansión KVM para uConsole ya está aquí. **Openterface uConsole KVM Extension Module v2** ya se envía desde [TechxArtisan Shop](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole).
 
