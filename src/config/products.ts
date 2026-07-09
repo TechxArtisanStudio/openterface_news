@@ -24,7 +24,7 @@ export const APPS = ['kvm', 'keycmd'] as const;
 export type AppSlug = (typeof APPS)[number];
 
 export const APP_LABELS: Record<AppSlug, string> = {
-  kvm: 'KVM Control',
+  kvm: 'Openterface KVM',
   keycmd: 'KeyCmd',
 };
 

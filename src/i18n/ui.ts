@@ -147,7 +147,7 @@ const en: UiStrings = {
   filter: {
     all: 'All',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -241,7 +241,7 @@ const zh: UiStrings = {
   filter: {
     all: '全部',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -334,7 +334,7 @@ const hk: UiStrings = {
   filter: {
     all: '全部',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -427,7 +427,7 @@ const tw: UiStrings = {
   filter: {
     all: '全部',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -520,7 +520,7 @@ const ru: UiStrings = {
   filter: {
     all: 'Все',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -613,7 +613,7 @@ const ar: UiStrings = {
   filter: {
     all: 'الكل',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -706,7 +706,7 @@ const tr: UiStrings = {
   filter: {
     all: 'Tümü',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -799,7 +799,7 @@ const pl: UiStrings = {
   filter: {
     all: 'Wszystkie',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -892,7 +892,7 @@ const nl: UiStrings = {
   filter: {
     all: 'Alle',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -985,7 +985,7 @@ const ja: UiStrings = {
   filter: {
     all: 'すべて',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1078,7 +1078,7 @@ const ko: UiStrings = {
   filter: {
     all: '전체',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1171,7 +1171,7 @@ const de: UiStrings = {
   filter: {
     all: 'Alle',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1264,7 +1264,7 @@ const fr: UiStrings = {
   filter: {
     all: 'Tout',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1357,7 +1357,7 @@ const es: UiStrings = {
   filter: {
     all: 'Todo',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1450,7 +1450,7 @@ const it: UiStrings = {
   filter: {
     all: 'Tutti',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1543,7 +1543,7 @@ const pt: UiStrings = {
   filter: {
     all: 'Todos',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
@@ -1636,7 +1636,7 @@ const ro: UiStrings = {
   filter: {
     all: 'Toate',
     apps: {
-      kvm: 'KVM Control',
+      kvm: 'Openterface KVM',
       keycmd: 'KeyCmd',
     },
     topics: {
