@@ -1,11 +1,13 @@
 import { docsPath } from '../config/products';
 import { surfaceMarketingHost } from '../config/surface-urls';
+import { siteConfig } from '../config/site';
 import { localizedPath, type SiteLocale } from './locale';
 
 export interface NavItem {
   label: string;
   href?: string;
   external?: boolean;
+  badge?: string;
   children?: NavItem[];
 }
 
@@ -24,7 +26,8 @@ export interface EcosystemNavLabels {
   docs: string;
   media: string;
   news: string;
-  community: string;
+  forum: string;
+  forumNewBadge: string;
 }
 
 function joinUrl(host: string, path: string): string {
@@ -63,7 +66,12 @@ export function buildEcosystemNav(locale: SiteLocale, labels: EcosystemNavLabels
     { label: labels.docs, href: docsPath(locale) },
     { label: labels.media, href: marketingHref(locale, '/media/') },
     { label: labels.news, href: localizedPath(locale) },
-    { label: labels.community, href: marketingHref(locale, '/community/') },
+    {
+      label: labels.forum,
+      href: siteConfig.links.forum,
+      external: true,
+      badge: labels.forumNewBadge,
+    },
   ];
 }
 
@@ -83,7 +91,8 @@ function ecosystemNavLabels(locale: SiteLocale, ui: ReturnType<typeof import('..
     docs: ui.nav.docs,
     media: ui.nav.media ?? 'Media',
     news: ui.nav.newsBadge,
-    community: ui.nav.community ?? 'Community',
+    forum: 'Forum',
+    forumNewBadge: 'New',
   };
 }
 
