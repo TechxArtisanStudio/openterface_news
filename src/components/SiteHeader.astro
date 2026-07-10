@@ -1,11 +1,9 @@
 ---
-import { newsNav, siteConfig } from '../config/site';
+import { siteConfig } from '../config/site';
 import { LOCALE_LABELS, localizedPath, localizedRssPath, switchLocalePath, type SiteLocale } from '../lib/locale';
 import { t } from '../i18n/ui';
 import { preserveQueryForLocaleSwitch } from '../lib/preserve-query';
-import Logo from './Logo.astro';
-import NavDropdown from './NavDropdown.astro';
-import NavLinkWithBadge from './NavLinkWithBadge.astro';
+import NewsHeaderBrand from './NewsHeaderBrand.astro';
 import RssIconButton from './RssIconButton.astro';
 
 interface Props {
@@ -17,49 +15,28 @@ interface Props {
 const { locale, currentPath, currentSearch = '' } = Astro.props;
 const preservedSearch = preserveQueryForLocaleSwitch(currentSearch);
 const ui = t(locale);
-const nav = newsNav(locale);
-const dropdownSections = nav.filter((item) => item.children);
-const ecosystemLinks = nav.filter((item) => !item.children);
 const homeHref = localizedPath(locale);
 const rssHref = localizedRssPath(locale);
-const ecosystemMobileLabel = ui.mobile.ecosystem ?? ui.mobile.more ?? 'Ecosystem';
+const backAriaLabel = ui.nav.backToSiteAria ?? 'Back to Openterface website';
 ---
 
-<header class="site-header sticky top-0 z-50 bg-primary-dark shadow-md">
-  <div class="site-header__inner">
-    <div class="site-header__start">
-      <a href={homeHref} class="site-header__brand">
-        <Logo brandSrc={siteConfig.headerBrandLogo} alt={siteConfig.name} class="site-header__logo" />
-      </a>
-      <span class="site-header__lead" aria-hidden="true"></span>
+<header class="site-header site-header--news sticky top-0 z-50">
+  <div class="site-header__inner site-header__inner--news">
+    <div class="site-header__start site-header__start--news">
+      <NewsHeaderBrand
+        locale={locale}
+        newsHomeHref={homeHref}
+        backAriaLabel={backAriaLabel}
+        opMarkSrc={siteConfig.headerOpMark}
+        newsMarkSrc={siteConfig.headerNewsMark}
+        newsMarkAlt={ui.nav.newsBadge}
+      />
     </div>
 
-    <nav class="site-header__nav" aria-label="Main navigation">
-      {
-        nav.map((item) =>
-          item.children ? (
-            <NavDropdown label={item.label} children={item.children} />
-          ) : item.badge || item.external ? (
-            <NavLinkWithBadge
-              href={item.href!}
-              label={item.label}
-              badge={item.badge}
-              external={item.external}
-              variant="header"
-            />
-          ) : (
-            <a href={item.href} class="site-header__nav-link">
-              {item.label}
-            </a>
-          ),
-        )
-      }
-    </nav>
-
-    <div class="site-header__toolbar">
+    <div class="site-header__toolbar site-header__toolbar--news">
       <RssIconButton href={rssHref} label={ui.nav.rss} />
 
-      <details class="locale-switcher relative hidden sm:block">
+      <details class="locale-switcher relative">
         <summary
           class="site-header__icon-btn"
           aria-label={`Language: ${LOCALE_LABELS[locale]}`}
@@ -88,90 +65,6 @@ const ecosystemMobileLabel = ui.mobile.ecosystem ?? ui.mobile.more ?? 'Ecosystem
           }
         </ul>
       </details>
-
-      <details class="mobile-nav relative xl:hidden">
-        <summary
-          class="site-header__icon-btn mobile-nav-toggle"
-          aria-label="Open menu"
-        >
-          <svg class="mobile-nav-icon-open h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"></path>
-          </svg>
-          <svg class="mobile-nav-icon-close hidden h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"></path>
-          </svg>
-        </summary>
-
-        <div class="mobile-nav-backdrop fixed inset-0 top-[var(--site-header-height)] z-40 bg-black/45"></div>
-
-        <nav
-          class="mobile-nav-panel fixed inset-x-0 top-[var(--site-header-height)] z-50 border-b border-gray-200 bg-white shadow-lg"
-          aria-label="Mobile navigation"
-        >
-          <div class="mx-auto max-h-[min(75vh,36rem)] max-w-7xl overflow-y-auto overscroll-contain px-3 py-2 sm:px-4 sm:py-3">
-            {
-              dropdownSections.map((section) => (
-                <div class="mobile-nav-section">
-                  <p class="mobile-nav-section-label">{section.label}</p>
-                  <div class="mobile-nav-section-links">
-                    {section.children?.map((child) => (
-                      <a href={child.href} class="mobile-nav-link">{child.label}</a>
-                    ))}
-                  </div>
-                </div>
-              ))
-            }
-
-            {
-              ecosystemLinks.length > 0 && (
-                <div class="mobile-nav-section pb-1">
-                  <p class="mobile-nav-section-label">{ecosystemMobileLabel}</p>
-                  <div class="mobile-nav-section-links">
-                    {
-                      ecosystemLinks.map((item) =>
-                        item.badge || item.external ? (
-                          <NavLinkWithBadge
-                            href={item.href!}
-                            label={item.label}
-                            badge={item.badge}
-                            external={item.external}
-                            variant="mobile"
-                          />
-                        ) : (
-                          <a href={item.href} class="mobile-nav-link">
-                            {item.label}
-                          </a>
-                        ),
-                      )
-                    }
-                    <a href={rssHref} class="mobile-nav-link" data-analytics-event="rss_click">{ui.nav.rss}</a>
-                  </div>
-                </div>
-              )
-            }
-
-            <div class="mobile-nav-section pb-1 sm:hidden">
-              <p class="mobile-nav-section-label">{ui.mobile.language}</p>
-              <div class="mobile-nav-section-links">
-                {
-                  Object.entries(LOCALE_LABELS).map(([loc, label]) => (
-                    <a
-                      href={switchLocalePath(currentPath, loc as SiteLocale, preservedSearch)}
-                      data-locale-switch
-                      class:list={[
-                        'mobile-nav-link',
-                        loc === locale ? 'font-semibold text-primary-dark' : '',
-                      ]}
-                    >
-                      {label}
-                    </a>
-                  ))
-                }
-              </div>
-            </div>
-          </div>
-        </nav>
-      </details>
     </div>
   </div>
 </header>
@@ -182,108 +75,8 @@ const ecosystemMobileLabel = ui.mobile.ecosystem ?? ui.mobile.more ?? 'Ecosystem
   applyPreservedQueryToLocaleLinks();
 </script>
 
-<script>
-  function initNavDropdowns() {
-    document.querySelectorAll('.nav-dropdown').forEach((dropdown) => {
-      if (dropdown.dataset.initialized) return;
-      dropdown.dataset.initialized = 'true';
-
-      dropdown.addEventListener('toggle', () => {
-        if (!(dropdown instanceof HTMLDetailsElement) || !dropdown.open) return;
-        document.querySelectorAll('.nav-dropdown[open]').forEach((other) => {
-          if (other !== dropdown && other instanceof HTMLDetailsElement) other.open = false;
-        });
-      });
-    });
-
-    document.addEventListener('click', (event) => {
-      const target = event.target;
-      if (!(target instanceof Node)) return;
-      document.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => {
-        if (dropdown instanceof HTMLDetailsElement && !dropdown.contains(target)) {
-          dropdown.open = false;
-        }
-      });
-    });
-
-    document.addEventListener('keydown', (event) => {
-      if (event.key !== 'Escape') return;
-      document.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => {
-        if (dropdown instanceof HTMLDetailsElement) dropdown.open = false;
-      });
-    });
-  }
-
-  initNavDropdowns();
-  document.addEventListener('astro:page-load', initNavDropdowns);
-</script>
-
 <style>
-  .locale-switcher summary::-webkit-details-marker,
-  .mobile-nav summary::-webkit-details-marker {
+  .locale-switcher summary::-webkit-details-marker {
     display: none;
-  }
-
-  .mobile-nav:not([open]) .mobile-nav-panel,
-  .mobile-nav:not([open]) .mobile-nav-backdrop {
-    display: none;
-  }
-
-  .mobile-nav[open] .mobile-nav-backdrop {
-    display: block;
-  }
-
-  .mobile-nav[open] .mobile-nav-toggle {
-    background-color: rgb(255 255 255 / 0.15);
-  }
-
-  .mobile-nav[open] .mobile-nav-icon-open {
-    display: none;
-  }
-
-  .mobile-nav[open] .mobile-nav-icon-close {
-    display: block;
-  }
-
-  .mobile-nav-link {
-    display: flex;
-    min-height: 2.75rem;
-    align-items: center;
-    border-radius: 0.375rem;
-    padding: 0.625rem 0.5rem;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    color: var(--color-ink);
-  }
-
-  .mobile-nav-link:hover {
-    background-color: var(--color-brand-light);
-    color: var(--color-primary-dark);
-  }
-
-  .mobile-nav-link--home {
-    margin-bottom: 0.25rem;
-    font-weight: 600;
-  }
-
-  .mobile-nav-section {
-    margin-top: 0.5rem;
-    border-top: 1px solid #f3f4f6;
-    padding-top: 0.75rem;
-  }
-
-  .mobile-nav-section-label {
-    padding: 0 0.5rem;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-muted);
-  }
-
-  .mobile-nav-section-links {
-    display: flex;
-    flex-direction: column;
-    gap: 0.125rem;
   }
 </style>

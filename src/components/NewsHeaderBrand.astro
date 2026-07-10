@@ -1,0 +1,50 @@
+---
+import { surfaceMarketingHost } from '../config/surface-urls';
+import type { SiteLocale } from '../lib/locale';
+
+interface Props {
+  locale: SiteLocale;
+  newsHomeHref: string;
+  backAriaLabel: string;
+  opMarkSrc: string;
+  newsMarkSrc: string;
+  newsMarkAlt: string;
+}
+
+const { locale, newsHomeHref, backAriaLabel, opMarkSrc, newsMarkSrc, newsMarkAlt } = Astro.props;
+const marketingHref = surfaceMarketingHost(locale);
+---
+
+<div class="site-header__brand-cluster">
+  <a
+    href={marketingHref}
+    class="site-header__back site-header__op-mark-link"
+    aria-label={backAriaLabel}
+    data-analytics-event="surface_exit_news"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="site-header__back-icon bi bi-chevron-left" aria-hidden="true">
+      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+    </svg>
+    <img
+      src={opMarkSrc}
+      alt=""
+      class="site-header__split-mark site-header__split-mark--on-dark site-header__op-mark"
+      width="120"
+      height="18"
+      loading="eager"
+      decoding="async"
+    />
+  </a>
+  <span class="site-header__brand-divider" aria-hidden="true"></span>
+  <a href={newsHomeHref} class="site-header__news-mark-link" aria-label={newsMarkAlt}>
+    <img
+      src={newsMarkSrc}
+      alt=""
+      class="site-header__split-mark site-header__split-mark--on-dark site-header__news-mark"
+      width="58"
+      height="18"
+      loading="eager"
+      decoding="async"
+    />
+  </a>
+</div>

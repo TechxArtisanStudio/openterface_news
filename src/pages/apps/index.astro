@@ -1,17 +1,5 @@
 ---
-import FeedLayout from '../../layouts/FeedLayout.astro';
-import { appsFeedProps } from '../../lib/feed-pages';
+import { homeFeedRedirect } from '../../lib/feed-redirects';
 
-const props = await appsFeedProps('en', Astro.url);
+return Astro.redirect(homeFeedRedirect('en', Astro.url.searchParams), 301);
 ---
-
-<FeedLayout
-  locale={props.locale}
-  title={props.title}
-  description={props.description}
-  articles={props.articles}
-  basePath={props.basePath}
-  activeApp={props.activeApp}
-  showProductFilters={false}
-  showAppFilters={true}
-/>

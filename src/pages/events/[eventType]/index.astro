@@ -1,24 +1,9 @@
 ---
-import FeedLayout from '../../../layouts/FeedLayout.astro';
-import { eventTypeFeedProps } from '../../../lib/feed-pages';
+import { homeFeedRedirect } from '../../../lib/feed-redirects';
 
 export async function getStaticPaths() {
   return ['exhibition', 'contest'].map((eventType) => ({ params: { eventType } }));
 }
 
-const { eventType } = Astro.params;
-if (!eventType || !['exhibition', 'contest'].includes(eventType)) {
-  return Astro.redirect('/events/', 301);
-}
-
-const props = await eventTypeFeedProps('en', eventType);
+return Astro.redirect(homeFeedRedirect('en'), 301);
 ---
-
-<FeedLayout
-  locale={props.locale}
-  title={props.title}
-  description={props.description}
-  articles={props.articles}
-  basePath={props.basePath}
-  showFilters={false}
-/>

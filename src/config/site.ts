@@ -1,8 +1,6 @@
-import type { ProductSlug } from './products';
-import { surfaceDocsBase, surfaceMarketingHost } from './surface-urls';
-import { buyProductLabel as i18nBuyLabel, t } from '../i18n/ui';
-import { newsEcosystemNav } from '../lib/ecosystem-nav';
-import type { SiteLocale } from '../lib/locale';
+import type { SiteLocale } from './locale';
+import { surfaceMarketingHost } from './surface-urls';
+import { buyProductLabel as i18nBuyLabel } from '../i18n/ui';
 
 export const siteConfig = {
   name: 'Openterface News',
@@ -11,10 +9,12 @@ export const siteConfig = {
     'Official product updates, software releases, and event news from Openterface — KVM-GO, Mini-KVM, KeyMod, and more.',
   ogImage: 'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
   headerBrandLogo: 'https://assets2.openterface.com/images/icon/op-news.svg',
+  headerOpMark: '/images/openterface.svg',
+  headerNewsMark: '/images/news-wordmark.svg',
   accent: '#ff6e42',
   links: {
     marketingEn: surfaceMarketingHost('en'),
-    docs: surfaceDocsBase(),
+    docs: 'https://docs.openterface.com',
     shop: 'https://shop.techxartisan.com/',
     forum: 'https://forum.openterface.com',
     legacy: 'https://openterface.com',
@@ -43,10 +43,12 @@ export type NavItem = {
   children?: NavItem[];
 };
 
-export function newsNav(locale: SiteLocale): NavItem[] {
-  return newsEcosystemNav(locale, t(locale));
+export function marketingHost(locale: SiteLocale): string {
+  return surfaceMarketingHost(locale);
 }
 
-export function buyProductLabel(locale: SiteLocale, product: ProductSlug): string {
+export function buyProductLabel(locale: SiteLocale, product: import('./products').ProductSlug): string {
   return i18nBuyLabel(locale, product);
 }
+
+export { newsEcosystemLinks } from '../i18n/ui';

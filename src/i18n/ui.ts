@@ -1,5 +1,6 @@
 import type { SiteLocale } from '../lib/locale';
 import type { ProductSlug } from '../config/products';
+import { buildNewsEcosystemLinks } from '../lib/news-header-nav';
 
 export interface UiStrings {
   siteName: string;
@@ -16,12 +17,15 @@ export interface UiStrings {
     newsBadge: string;
     media?: string;
     community?: string;
+    backToSite?: string;
+    backToSiteAria?: string;
   };
   mobile: {
     products: string;
     apps?: string;
     ecosystem?: string;
     channels?: string;
+    sections?: string;
     more?: string;
     language: string;
   };
@@ -108,11 +112,14 @@ const en: UiStrings = {
     newsBadge: 'News',
     media: 'Media',
     community: 'Community',
+    backToSite: 'Openterface',
+    backToSiteAria: 'Back to Openterface website',
   },
   mobile: {
     products: 'Products',
     apps: 'Apps',
     ecosystem: 'Ecosystem',
+    sections: 'Sections',
     language: 'Language',
   },
   feed: {
@@ -1699,6 +1706,10 @@ const MESSAGES: Record<SiteLocale, UiStrings> = {
 
 export function t(locale: SiteLocale): UiStrings {
   return MESSAGES[locale] ?? MESSAGES.en;
+}
+
+export function newsEcosystemLinks(locale: SiteLocale) {
+  return buildNewsEcosystemLinks(locale, t(locale));
 }
 
 export function buyProductLabel(locale: SiteLocale, product: ProductSlug): string {

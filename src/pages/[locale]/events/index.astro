@@ -1,6 +1,5 @@
 ---
-import FeedLayout from '../../../layouts/FeedLayout.astro';
-import { eventsFeedProps } from '../../../lib/feed-pages';
+import { homeFeedRedirect } from '../../../lib/feed-redirects';
 import {
   INVALID_LOCALE_REDIRECT,
   isSiteLocale,
@@ -18,17 +17,8 @@ if (!localeParam || !isSiteLocale(localeParam)) {
 }
 
 if (localeParam === 'en') {
-  return Astro.redirect(localizedPath('en', 'events'), 301);
+  return Astro.redirect(localizedPath('en'), 301);
 }
 
-const props = await eventsFeedProps(localeParam);
+return Astro.redirect(homeFeedRedirect(localeParam), 301);
 ---
-
-<FeedLayout
-  locale={props.locale}
-  title={props.title}
-  description={props.description}
-  articles={props.articles}
-  basePath={props.basePath}
-  showFilters={false}
-/>

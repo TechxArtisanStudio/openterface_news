@@ -1,6 +1,5 @@
 ---
-import FeedLayout from '../../../layouts/FeedLayout.astro';
-import { productFeedProps } from '../../../lib/feed-pages';
+import { homeFeedRedirect } from '../../../lib/feed-redirects';
 import { PRODUCTS, type ProductSlug } from '../../../config/products';
 
 export async function getStaticPaths() {
@@ -11,14 +10,6 @@ export async function getStaticPaths() {
 
 const { product: productParam } = Astro.params;
 const product = productParam as ProductSlug;
-const props = await productFeedProps('en', product);
----
 
-<FeedLayout
-  locale={props.locale}
-  title={props.title}
-  description={props.description}
-  articles={props.articles}
-  basePath={props.basePath}
-  showFilters={false}
-/>
+return Astro.redirect(homeFeedRedirect('en', Astro.url.searchParams, { product }), 301);
+---

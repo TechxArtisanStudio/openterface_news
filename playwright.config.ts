@@ -1,5 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
 
+/** Dedicated port so smoke preview does not collide with dev-stack news on 4321. */
+const SMOKE_PORT = process.env.SMOKE_PORT ?? '18801';
+const baseURL = process.env.PLAYWRIGHT_BASE_URL || `http://localhost:${SMOKE_PORT}`;
+
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
@@ -8,7 +12,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'list',
   use: {
-    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:4321',
+    baseURL,
     trace: 'on-first-retry',
   },
   projects: [
@@ -24,11 +28,12 @@ export default defineConfig({
     },
   ],
   webServer:
-    process.env.CI || process.env.PLAYWRIGHT_BASE_URL
+    process.env.PLAYWRIGHT_BASE_URL
       ? undefined
       : {
-          command: 'npm run preview -- --port 4321',
-          port: 4321,
-          reuseExistingServer: true,
+          command: `npm run preview -- --port ${SMOKE_PORT}`,
+          url: `${baseURL}/`,
+          reuseExistingServer: !process.env.CI,
+          timeout: 120_000,
         },
 });
