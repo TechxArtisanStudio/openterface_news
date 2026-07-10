@@ -19,6 +19,9 @@ export interface UiStrings {
     community?: string;
     backToSite?: string;
     backToSiteAria?: string;
+    search: string;
+    searchPlaceholder: string;
+    searchNoResults: string;
   };
   mobile: {
     products: string;
@@ -110,6 +113,9 @@ const en: UiStrings = {
     shop: 'Shop',
     rss: 'RSS',
     newsBadge: 'News',
+    search: 'Search',
+    searchPlaceholder: 'Search news…',
+    searchNoResults: 'No results',
     media: 'Media',
     community: 'Community',
     backToSite: 'Openterface',
@@ -209,6 +215,9 @@ const zh: UiStrings = {
     shop: '商店',
     rss: 'RSS',
     newsBadge: '资讯',
+    search: '搜索',
+    searchPlaceholder: '搜索资讯…',
+    searchNoResults: '无结果',
   },
   mobile: {
     products: '产品',
@@ -302,6 +311,9 @@ const hk: UiStrings = {
     shop: '商店',
     rss: 'RSS',
     newsBadge: '資訊',
+    search: '搜索',
+    searchPlaceholder: '搜索資訊…',
+    searchNoResults: '無結果',
   },
   mobile: {
     products: '產品',
@@ -395,6 +407,9 @@ const tw: UiStrings = {
     shop: '商店',
     rss: 'RSS',
     newsBadge: '資訊',
+    search: '搜索',
+    searchPlaceholder: '搜索資訊…',
+    searchNoResults: '無結果',
   },
   mobile: {
     products: '產品',
@@ -488,6 +503,9 @@ const ru: UiStrings = {
     shop: 'Магазин',
     rss: 'RSS',
     newsBadge: 'Новости',
+    search: 'Поиск',
+    searchPlaceholder: 'Поиск новостей…',
+    searchNoResults: 'Нет результатов',
   },
   mobile: {
     products: 'Продукты',
@@ -581,6 +599,9 @@ const ar: UiStrings = {
     shop: 'المتجر',
     rss: 'RSS',
     newsBadge: 'أخبار',
+    search: 'بحث',
+    searchPlaceholder: 'البحث في الأخبار…',
+    searchNoResults: 'لا توجد نتائج',
   },
   mobile: {
     products: 'المنتجات',
@@ -674,6 +695,9 @@ const tr: UiStrings = {
     shop: 'Mağaza',
     rss: 'RSS',
     newsBadge: 'Haberler',
+    search: 'Ara',
+    searchPlaceholder: 'Haberlerde ara…',
+    searchNoResults: 'Sonuç yok',
   },
   mobile: {
     products: 'Ürünler',
@@ -767,6 +791,9 @@ const pl: UiStrings = {
     shop: 'Sklep',
     rss: 'RSS',
     newsBadge: 'Aktualności',
+    search: 'Szukaj',
+    searchPlaceholder: 'Szukaj w aktualnościach…',
+    searchNoResults: 'Brak wyników',
   },
   mobile: {
     products: 'Produkty',
@@ -860,6 +887,9 @@ const nl: UiStrings = {
     shop: 'Shop',
     rss: 'RSS',
     newsBadge: 'Nieuws',
+    search: 'Zoeken',
+    searchPlaceholder: 'Nieuws doorzoeken…',
+    searchNoResults: 'Geen resultaten',
   },
   mobile: {
     products: 'Producten',
@@ -953,6 +983,9 @@ const ja: UiStrings = {
     shop: 'ショップ',
     rss: 'RSS',
     newsBadge: 'ニュース',
+    search: '検索',
+    searchPlaceholder: 'ニュースを検索…',
+    searchNoResults: '結果なし',
   },
   mobile: {
     products: '製品',
@@ -1046,6 +1079,9 @@ const ko: UiStrings = {
     shop: '쇼핑',
     rss: 'RSS',
     newsBadge: '뉴스',
+    search: '검색',
+    searchPlaceholder: '뉴스 검색…',
+    searchNoResults: '결과 없음',
   },
   mobile: {
     products: '제품',
@@ -1139,6 +1175,9 @@ const de: UiStrings = {
     shop: 'Shop',
     rss: 'RSS',
     newsBadge: 'News',
+    search: 'Suche',
+    searchPlaceholder: 'News durchsuchen…',
+    searchNoResults: 'Keine Ergebnisse',
   },
   mobile: {
     products: 'Produkte',
@@ -1232,6 +1271,9 @@ const fr: UiStrings = {
     shop: 'Boutique',
     rss: 'RSS',
     newsBadge: 'Actus',
+    search: 'Rechercher',
+    searchPlaceholder: 'Rechercher dans les actus…',
+    searchNoResults: 'Aucun résultat',
   },
   mobile: {
     products: 'Produits',
@@ -1325,6 +1367,9 @@ const es: UiStrings = {
     shop: 'Tienda',
     rss: 'RSS',
     newsBadge: 'Noticias',
+    search: 'Buscar',
+    searchPlaceholder: 'Buscar noticias…',
+    searchNoResults: 'Sin resultados',
   },
   mobile: {
     products: 'Productos',
@@ -1418,6 +1463,9 @@ const it: UiStrings = {
     shop: 'Negozio',
     rss: 'RSS',
     newsBadge: 'Notizie',
+    search: 'Cerca',
+    searchPlaceholder: 'Cerca notizie…',
+    searchNoResults: 'Nessun risultato',
   },
   mobile: {
     products: 'Prodotti',
@@ -1511,6 +1559,9 @@ const pt: UiStrings = {
     shop: 'Loja',
     rss: 'RSS',
     newsBadge: 'Notícias',
+    search: 'Pesquisar',
+    searchPlaceholder: 'Pesquisar notícias…',
+    searchNoResults: 'Sem resultados',
   },
   mobile: {
     products: 'Produtos',
@@ -1604,6 +1655,9 @@ const ro: UiStrings = {
     shop: 'Magazin',
     rss: 'RSS',
     newsBadge: 'Știri',
+    search: 'Căutare',
+    searchPlaceholder: 'Căutați știri…',
+    searchNoResults: 'Niciun rezultat',
   },
   mobile: {
     products: 'Produse',

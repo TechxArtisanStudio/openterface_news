@@ -47,7 +47,7 @@ const hasActiveFilter = Boolean(activeProduct || activeTopic || activeApp);
 <div class="filter-bar">
   {
     showProductFilters && (
-      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin" data-filter-row="products">
         <a
           href={chipHref({ product: null, topic: null, app: activeApp })}
           data-filter-chip="all"
@@ -73,7 +73,7 @@ const hasActiveFilter = Boolean(activeProduct || activeTopic || activeApp);
 
   {
     showAppFilters && (
-      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-thin" data-filter-row="apps">
         <a
           href={chipHref({ product: activeProduct, topic: activeTopic, app: null })}
           data-filter-chip="all"

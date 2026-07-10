@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('apps feed app filter shows matching articles only', async ({ page }) => {
-  await page.goto('/apps/?app=keycmd', { waitUntil: 'networkidle' });
+  await page.goto('/?app=keycmd', { waitUntil: 'networkidle' });
   await expect(page.locator('[data-filter-chip="app"][data-filter-value="keycmd"]')).toHaveClass(/filter-chip-active/);
   const visibleArticles = page.locator('[data-feed-article]:visible');
   await expect(visibleArticles).not.toHaveCount(0);
@@ -12,8 +12,8 @@ test('apps feed app filter shows matching articles only', async ({ page }) => {
 });
 
 test('apps feed locale switch preserves app filter', async ({ page }) => {
-  await page.goto('/apps/?app=kvm', { waitUntil: 'domcontentloaded' });
-  const deLink = page.locator('a[data-locale-switch][href="/de/apps/?app=kvm"]');
+  await page.goto('/?app=kvm', { waitUntil: 'domcontentloaded' });
+  const deLink = page.locator('a[data-locale-switch][href="/de/?app=kvm"]');
   await expect(deLink).not.toHaveCount(0);
 });
 
@@ -51,14 +51,14 @@ test('feed product filter shows matching articles only', async ({ page }) => {
 
 test('feed all chip clears product filter', async ({ page }) => {
   await page.goto('/?product=minikvm', { waitUntil: 'networkidle' });
-  await page.locator('[data-filter-chip="all"]').click();
+  await page.locator('[data-filter-row="products"] [data-filter-chip="all"]').click();
   await expect(page).toHaveURL('/');
   await expect(page.locator('[data-feed-article]:visible')).toHaveCount(await page.locator('[data-feed-article]').count());
 });
 
 test('product channel locale switch preserves path', async ({ page }) => {
-  await page.goto('/product/kvm-go/', { waitUntil: 'domcontentloaded' });
-  const jaLink = page.locator('a[data-locale-switch][href="/ja/product/kvm-go/"]');
+  await page.goto('/?product=kvm-go', { waitUntil: 'domcontentloaded' });
+  const jaLink = page.locator('a[data-locale-switch][href="/ja/?product=kvm-go"]');
   await expect(jaLink).not.toHaveCount(0);
 });
 

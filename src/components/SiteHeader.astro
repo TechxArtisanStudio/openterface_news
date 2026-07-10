@@ -5,14 +5,17 @@ import { t } from '../i18n/ui';
 import { preserveQueryForLocaleSwitch } from '../lib/preserve-query';
 import NewsHeaderBrand from './NewsHeaderBrand.astro';
 import RssIconButton from './RssIconButton.astro';
+import NewsSearch from './NewsSearch.astro';
+import type { SearchEntry } from '../lib/search';
 
 interface Props {
   locale: SiteLocale;
   currentPath: string;
   currentSearch?: string;
+  searchIndex: SearchEntry[];
 }
 
-const { locale, currentPath, currentSearch = '' } = Astro.props;
+const { locale, currentPath, currentSearch = '', searchIndex } = Astro.props;
 const preservedSearch = preserveQueryForLocaleSwitch(currentSearch);
 const ui = t(locale);
 const homeHref = localizedPath(locale);
@@ -34,6 +37,12 @@ const backAriaLabel = ui.nav.backToSiteAria ?? 'Back to Openterface website';
     </div>
 
     <div class="site-header__toolbar site-header__toolbar--news">
+      <NewsSearch
+        locale={locale}
+        searchIndex={searchIndex}
+        class="min-w-0 max-w-[9.5rem] sm:max-w-xs lg:max-w-sm"
+      />
+
       <RssIconButton href={rssHref} label={ui.nav.rss} />
 
       <details class="locale-switcher relative">

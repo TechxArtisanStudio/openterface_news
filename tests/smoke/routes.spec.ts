@@ -28,6 +28,19 @@ test('news header uses warm editorial masthead chrome', async ({ page }) => {
   await expect(page.locator('body')).toHaveCSS('background-color', 'rgb(249, 247, 241)');
 });
 
+test('news search finds articles by title', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto('/', { waitUntil: 'domcontentloaded' });
+
+  const search = page.getByRole('searchbox', { name: 'Search' });
+  await expect(search).toBeVisible();
+  await search.fill('KeyCmd');
+
+  const results = page.locator('[data-news-search-results] a[role="option"]');
+  await expect(results.first()).toBeVisible();
+  await expect(results.first()).toContainText(/KeyCmd/i);
+});
+
 test('English feed loads with article cards', async ({ page }) => {
   await page.goto('/', { waitUntil: 'domcontentloaded' });
   await expect(page.getByRole('heading', { level: 1, name: 'Openterface News' })).toBeVisible();

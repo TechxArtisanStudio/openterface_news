@@ -258,6 +258,26 @@
     justify-self: end;
   }
 
+  .site-header--news .news-search input[type='search'] {
+    border-color: rgb(255 255 255 / 0.25);
+    background-color: rgb(255 255 255 / 0.08);
+    color: #fff;
+  }
+
+  .site-header--news .news-search input[type='search']::placeholder {
+    color: rgb(255 255 255 / 0.5);
+  }
+
+  .site-header--news .news-search input[type='search']:focus {
+    border-color: var(--color-primary-dark);
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(255 110 66 / 0.35);
+  }
+
+  .site-header--news .news-search svg {
+    color: rgb(255 255 255 / 0.55);
+  }
+
   .site-header__start {
     display: flex;
     align-items: center;
